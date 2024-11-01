@@ -37,14 +37,14 @@
       <p product="editor editorEclipse" id="p_uz1_cgk_54b">In <uicontrol>Author</uicontrol> mode, the following
         stylesheet documentation actions are available in the contextual menu, <uicontrol>Component
           Documentation</uicontrol> submenu:<ul id="ul_vz1_cgk_54b">
-          <li id="li_wz1_cgk_54b"><uicontrol>Add component documentation</uicontrol> - Adds documentation blocks for the
+          <li id="li_wz1_cgk_54b" irina="irina"><uicontrol>Add component documentation</uicontrol> - Adds documentation blocks for the
             component at the cursor position.</li>
-          <li id="li_xz1_cgk_54b"><uicontrol>Paragraph</uicontrol> - Inserts a new documentation paragraph.</li>
-          <li id="li_yz1_cgk_54b"><uicontrol>Bold</uicontrol> - Makes the selected documentation text bold.</li>
-          <li id="li_zz1_cgk_54b"><uicontrol>Italic</uicontrol> - Makes the selected documentation text italic.</li>
-          <li id="li_a1b_cgk_54b"><uicontrol>List</uicontrol> - Inserts a new list.</li>
-          <li id="li_b1b_cgk_54b"><uicontrol>List Item</uicontrol> - Inserts a list item.</li>
-          <li id="li_c1b_cgk_54b"><uicontrol>Reference</uicontrol> - Inserts a documentation reference.</li>
+          <li id="li_xz1_cgk_54b" irina="irina"><uicontrol>Paragraph</uicontrol> - Inserts a new documentation paragraph.</li>
+          <li id="li_yz1_cgk_54b" irina="irina"><uicontrol>Bold</uicontrol> - Makes the selected documentation text bold.</li>
+          <li id="li_zz1_cgk_54b" irina="irina"><uicontrol>Italic</uicontrol> - Makes the selected documentation text italic.</li>
+          <li id="li_a1b_cgk_54b" irina="irina"><uicontrol>List</uicontrol> - Inserts a new list.</li>
+          <li id="li_b1b_cgk_54b" irina="irina"><uicontrol>List Item</uicontrol> - Inserts a list item.</li>
+          <li id="li_c1b_cgk_54b" irina="irina"><uicontrol>Reference</uicontrol> - Inserts a documentation reference.</li>
         </ul></p>
       <p id="p_d1b_cgk_54b">If the cursor is positioned inside the <xmlelement>xsl:stylesheet</xmlelement> element context,
         documentation blocks are generated for all XSLT elements. If the cursor is positioned inside

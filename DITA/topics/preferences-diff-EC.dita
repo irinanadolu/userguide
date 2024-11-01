@@ -38,14 +38,14 @@
                   <dt><uicontrol>Default algorithm</uicontrol></dt>
                   <dd>The default algorithm used for comparing two files. The following options are
                       available:<ul id="ul_zgh_gpl_rlb">
-                      <li id="auto">
+                      <li id="auto" irina="irina">
                         <uicontrol>Auto</uicontrol> - Selects the most appropriate algorithm, based
                         on the compared content and its size (selected by default).</li>
-                      <li id="xml-fast">
+                      <li id="xml-fast" irina="irina">
                         <uicontrol>XML Fast</uicontrol> - Comparison that works well on large files
                         or fragments, but it is less precise than <uicontrol>XML
                           Accurate</uicontrol>.</li>
-                      <li id="xml-accurate">
+                      <li id="xml-accurate" irina="irina">
                         <uicontrol>XML Accurate</uicontrol> - Comparison that is more precise than
                           <uicontrol>XML Fast</uicontrol>, at the expense of speed. It compares two
                         XML files or fragments looking for identical XML nodes. </li>
@@ -73,14 +73,14 @@
                   <dt><uicontrol>Default algorithm</uicontrol></dt>
                   <dd>The default algorithm used for performing a three-way comparison. The
                     following options are available:<ul id="ul_dmg_mpl_rlb">
-                      <li id="li_jrr_bgk_54b">
+                      <li id="li_jrr_bgk_54b" irina="irina">
                         <uicontrol>Auto</uicontrol> - Selects the most appropriate algorithm, based
                         on the compared content and its size (selected by default).</li>
-                      <li id="li_krr_bgk_54b">
+                      <li id="li_krr_bgk_54b" irina="irina">
                         <uicontrol>XML Fast</uicontrol> - Comparison that works well on large files
                         or fragments, but it is less precise than <uicontrol>XML
                           Accurate</uicontrol>.</li>
-                      <li id="li_lrr_bgk_54b">
+                      <li id="li_lrr_bgk_54b" irina="irina">
                         <uicontrol>XML Accurate</uicontrol> - Comparison that is more precise than
                           <uicontrol>XML Fast</uicontrol>, at the expense of speed. It compares two
                         XML files or fragments looking for identical XML nodes. </li>

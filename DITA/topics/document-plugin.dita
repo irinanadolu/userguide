@@ -31,11 +31,11 @@
         <dlentry id="dlentry_g52_dgk_54b">
           <dt><b><term>DocumentPluginContext</term> object</b></dt>
           <dd>Represents the context and provides three methods: <ul id="ul_h52_dgk_54b">
-              <li id="li_i52_dgk_54b"><b>getDocument()</b> - Returns a <codeph>javax.swing.text.Document</codeph> object
+              <li id="li_i52_dgk_54b" irina="irina"><b>getDocument()</b> - Returns a <codeph>javax.swing.text.Document</codeph> object
                 that represents the current document.</li>
-              <li id="li_j52_dgk_54b"><b>getFrame()</b> - Returns a <codeph>java.awt.Frame</codeph> object that
+              <li id="li_j52_dgk_54b" irina="irina"><b>getFrame()</b> - Returns a <codeph>java.awt.Frame</codeph> object that
                 represents the editing frame.</li>
-              <li id="li_k52_dgk_54b"><b>getPluginWorkspace()</b> - Returns access to the workspace of <ph
+              <li id="li_k52_dgk_54b" irina="irina"><b>getPluginWorkspace()</b> - Returns access to the workspace of <ph
                   keyref="product"/>.</li>
             </ul></dd>
         </dlentry>

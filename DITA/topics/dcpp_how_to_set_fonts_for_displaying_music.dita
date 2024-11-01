@@ -18,9 +18,9 @@
       to the surrounding text.</p>
     <p>This font is divided in two sub-fonts that act for each of the following categories:<ul
         id="ul_vgw_xxg_wrb">
-        <li><uicontrol>MusGlyphs</uicontrol> - Converts all characters that match a musical pattern
+        <li irina="irina"><uicontrol>MusGlyphs</uicontrol> - Converts all characters that match a musical pattern
           into music glyphs. It should be used inside the elements that contain only music.</li>
-        <li><uicontrol>MusGlyphs-Text</uicontrol> - Converts only the text prefixed with the
+        <li irina="irina"><uicontrol>MusGlyphs-Text</uicontrol> - Converts only the text prefixed with the
             <codeph>@</codeph> symbol into music glyphs. The remaining text is displayed
           normally.</li>
       </ul></p>

@@ -6,12 +6,12 @@
     <body>
         <p id="p_abj_dgk_54b">The main working area occupies the center of the application window, which contains the
       most important views:<ul id="ul_bbj_dgk_54b">
-        <li id="li_cbj_dgk_54b"><xref href="repository-view.dita#repository-view" format="dita">Repositories
+        <li id="li_cbj_dgk_54b" irina="irina"><xref href="repository-view.dita#repository-view" format="dita">Repositories
           View</xref></li>
-        <li id="li_dbj_dgk_54b"><xref href="working-copy-view.dita#working-copy-view" format="dita">Working Copy
+        <li id="li_dbj_dgk_54b" irina="irina"><xref href="working-copy-view.dita#working-copy-view" format="dita">Working Copy
             View</xref></li>
-        <li id="li_ebj_dgk_54b"><xref href="history-view.dita#history-view" format="dita">History View</xref></li>
-        <li id="li_fbj_dgk_54b"><xref href="console-view.dita#console-view" format="dita">Console View</xref></li>
+        <li id="li_ebj_dgk_54b" irina="irina"><xref href="history-view.dita#history-view" format="dita">History View</xref></li>
+        <li id="li_fbj_dgk_54b" irina="irina"><xref href="console-view.dita#console-view" format="dita">Console View</xref></li>
       </ul></p>
         <p id="p_gbj_dgk_54b">The other views that support the main working area are also presented in this
             section.</p>

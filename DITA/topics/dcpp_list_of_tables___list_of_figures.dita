@@ -18,8 +18,8 @@
   </prolog>
   <body>
     <p id="p_cks_cgk_54b">To activate these: <ol id="ol_zfz_ng5_xgb">
-        <li id="li_dks_cgk_54b">The map must be a DITA bookmap.</li>
-        <li id="li_eks_cgk_54b">There must be a <xmlelement>figurelist</xmlelement> or
+        <li id="li_dks_cgk_54b" irina="irina">The map must be a DITA bookmap.</li>
+        <li id="li_eks_cgk_54b" irina="irina">There must be a <xmlelement>figurelist</xmlelement> or
             <xmlelement>tablelist</xmlelement> in the <term>frontmatter</term> or
             <term>backmatter</term>. In the following example, both of the lists are added just
           after the table of contents (the <xmlelement>toc</xmlelement> element is the placeholder

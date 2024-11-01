@@ -64,13 +64,13 @@
               <b>Arial Unicode MS</b>) to the <codeph>bodyFont</codeph> and
               <codeph>sansFont</codeph> parameters.</choice>
           <choice>For DITA transformations to PDF using DITA-OT you should modify the following two files:<ul id="ul_kyl_cgk_54b">
-              <li id="li_lyl_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"
+              <li id="li_lyl_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"
                   />/plugins/org.dita.pdf2/cfg/fo/font-mappings.xml</filepath> - The
                   <xmlelement>font-face</xmlelement> element included in each
                   <xmlelement>physical-font</xmlelement> element that has the
                   <codeph>char-set="default"</codeph> attribute must contain the name of the font
                 (for example, <b>Arial Unicode MS</b>)</li>
-              <li id="li_myl_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"
+              <li id="li_myl_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"
                   />/plugins/org.dita.pdf2.fop/fop/conf/fop.xconf</filepath> - An
                   <xmlelement>auto-detect</xmlelement> element must be inserted in the
                 <xmlelement>fonts</xmlelement> element, which is inside the <xmlelement>renderer</xmlelement>

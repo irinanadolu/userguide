@@ -22,11 +22,11 @@
         <i>entity</i> is defined using the <codeph>ENTITY</codeph> statement either in the DOCTYPE
       declaration or in a DTD file associated with the current XML file.</p>
     <p id="p_v1w_bgk_54b">There are three types of entities:<ul id="ul_w1w_bgk_54b">
-        <li id="li_x1w_bgk_54b"><b>Predefined</b> - Entities that are part of the predefined XML markup
+        <li id="li_x1w_bgk_54b" irina="irina"><b>Predefined</b> - Entities that are part of the predefined XML markup
             (<codeph>&amp;lt;</codeph>, <codeph>&amp;gt;</codeph>, <codeph>&amp;amp;</codeph>,
             <codeph>&amp;apos;</codeph>, <codeph>&amp;quot;</codeph>).</li>
-        <li id="li_y1w_bgk_54b"><b>Internal</b> - Defined in the DOCTYPE declaration header of the current XML.</li>
-        <li id="li_z1w_bgk_54b"><b>External</b> - Defined in an external DTD module included in the DTD referenced in
+        <li id="li_y1w_bgk_54b" irina="irina"><b>Internal</b> - Defined in the DOCTYPE declaration header of the current XML.</li>
+        <li id="li_z1w_bgk_54b" irina="irina"><b>External</b> - Defined in an external DTD module included in the DTD referenced in
           the XML DOCTYPE declaration.</li>
       </ul></p>
     <p id="p_abw_bgk_54b">

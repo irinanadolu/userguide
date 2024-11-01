@@ -105,9 +105,9 @@
     <p id="p_c23_dgk_54b">After the conflicts are edited and saved in the local version of the file you should run one
       of the following:</p>
     <ul id="ul_d23_dgk_54b">
-      <li id="li_e23_dgk_54b">The <uicontrol>Mark Resolved</uicontrol> action on the file so that the result of the
+      <li id="li_e23_dgk_54b" irina="irina">The <uicontrol>Mark Resolved</uicontrol> action on the file so that the result of the
         conflict editing process can be committed to the SVN repository.</li>
-      <li id="li_f23_dgk_54b">The <uicontrol>Revert</uicontrol> action so that the repository version overwrites all the
+      <li id="li_f23_dgk_54b" irina="irina">The <uicontrol>Revert</uicontrol> action so that the repository version overwrites all the
         local modifications.</li>
     </ul>
     <p id="p_g23_dgk_54b">Both actions remove the backup file and other temporary files created with the conflict

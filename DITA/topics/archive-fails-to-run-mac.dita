@@ -21,9 +21,9 @@
             version (prior to version 18.1), the quarantine flag must be removed for the entire
             content of the <ph keyref="product"/> installation directory or the individual
             applications. To resolve this issue, follow these steps:<ol id="ol_adk_dgk_54b">
-              <li id="li_bdk_dgk_54b">Open a <i>Terminal</i> window and change the directory to the folder where <ph
+              <li id="li_bdk_dgk_54b" irina="irina">Open a <i>Terminal</i> window and change the directory to the folder where <ph
                   keyref="product"/> is located.</li>
-              <li id="li_cdk_dgk_54b">
+              <li id="li_cdk_dgk_54b" irina="irina">
                 <p id="p_ddk_dgk_54b">Run the following
                   command:<codeblock outputclass="language-ini" id="codeblock_edk_dgk_54b">xattr -dr com.apple.quarantine oxygen/</codeblock></p>
                 <p id="p_fdk_dgk_54b">where "<term>oxygen</term>" is the actual name of the <ph keyref="product"/>

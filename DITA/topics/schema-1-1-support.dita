@@ -11,27 +11,27 @@
   </prolog>
   <body>
     <p id="p_kgd_cgk_54b"><ph keyref="product"/> offers full support for XML Schema 1.1, including:<ul id="ul_lgd_cgk_54b">
-        <li id="li_mgd_cgk_54b">XML Documents <xref href="validating-XML-documents.dita#validating-XML-documents"
+        <li id="li_mgd_cgk_54b" irina="irina">XML Documents <xref href="validating-XML-documents.dita#validating-XML-documents"
             >Validation</xref> and <xref
             href="streamline-with-content-completion.dita#streamline-with-content-completion"
             >Content Completion</xref> based on XML Schema 1.1.</li>
-        <li id="li_ngd_cgk_54b">XML Schema 1.1 <xref href="xml-schema-validation.dita#xml-schema-validation"
+        <li id="li_ngd_cgk_54b" irina="irina">XML Schema 1.1 <xref href="xml-schema-validation.dita#xml-schema-validation"
             >Validation</xref> and <xref
             href="xml-schema-content-completion.dita#xml-schema-content-completion">Content
             Completion</xref>.</li>
-        <li id="li_ogd_cgk_54b">Editing XML Schema 1.1 files in the <xref
+        <li id="li_ogd_cgk_54b" irina="irina">Editing XML Schema 1.1 files in the <xref
             href="xml-schema-diagram-introduction.dita#xml-schema-diagram-introduction">Schema
               <uicontrol>Design</uicontrol> mode</xref>.</li>
-        <li id="li_pgd_cgk_54b">The <xref href="xml-schema-flat.dita#xml-schema-flat">Flatten Schema</xref> action.</li>
-        <li id="li_qgd_cgk_54b"><xref href="xml-schema-hierarchy.dita#xml-schema-hierarchy"
+        <li id="li_pgd_cgk_54b" irina="irina">The <xref href="xml-schema-flat.dita#xml-schema-flat">Flatten Schema</xref> action.</li>
+        <li id="li_qgd_cgk_54b" irina="irina"><xref href="xml-schema-hierarchy.dita#xml-schema-hierarchy"
             >Referenced/Dependent Resources</xref> and <xref
             href="xml-schema-search-references.dita#xml-schema-search-references">Refactoring
             Actions</xref>.</li>
-        <li id="li_rgd_cgk_54b"><xref keyref="glossentry_main-file"><term>Main files</term></xref>.</li>
-      <li id="li_sgd_cgk_54b"><xref keyref="editing_XML-schema_generating-documentation">Generating
+        <li id="li_rgd_cgk_54b" irina="irina"><xref keyref="glossentry_main-file"><term>Main files</term></xref>.</li>
+      <li id="li_sgd_cgk_54b" irina="irina"><xref keyref="editing_XML-schema_generating-documentation">Generating
             Documentation for XML Schema 1.1</xref>.</li>
-        <li id="li_tgd_cgk_54b">Support for generating XML instances based on XML Schema.</li>
-        <li id="li_ugd_cgk_54b">Support for validating XML documents with an NVDL schema that contains an XML Schema 1.1
+        <li id="li_tgd_cgk_54b" irina="irina">Support for generating XML instances based on XML Schema.</li>
+        <li id="li_ugd_cgk_54b" irina="irina">Support for validating XML documents with an NVDL schema that contains an XML Schema 1.1
           validation step.<note id="note_vgd_cgk_54b">To enable XML Schema 1.1 validation in NVDL, you need to pass the
             following option to the validation engine to specify the schema version:
               <codeph>http://www.thaiopensource.com/validate/xsd-version</codeph> (the possible
@@ -49,11 +49,11 @@
       </fig>
     </p>
     <p id="p_ahd_cgk_54b">The significant new features in XSD 1.1 are:<ul id="ul_bhd_cgk_54b">
-        <li id="li_chd_cgk_54b"><b>Assertions</b> - Support to define assertions against the document content using
+        <li id="li_chd_cgk_54b" irina="irina"><b>Assertions</b> - Support to define assertions against the document content using
           XPath 2.0 expressions (an idea borrowed from Schematron).</li>
-        <li id="li_dhd_cgk_54b"><b>Conditional type assignment</b> - The ability to select the type of schema an element
+        <li id="li_dhd_cgk_54b" irina="irina"><b>Conditional type assignment</b> - The ability to select the type of schema an element
           is validated against, based on the values of the attribute of the element.</li>
-      <li id="li_ehd_cgk_54b"><b>Open content</b> - Content models can use the <xmlelement>openContent</xmlelement> element to
+      <li id="li_ehd_cgk_54b" irina="irina"><b>Open content</b> - Content models can use the <xmlelement>openContent</xmlelement> element to
           specify content models with <i>open content</i>. These content models allow elements
           not explicitly mentioned in the content model to appear in the document instance. It is as
           if wildcards were automatically inserted at appropriate points within the content model. A

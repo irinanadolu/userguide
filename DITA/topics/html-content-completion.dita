@@ -33,10 +33,10 @@
           product="author developer editor authorEclipse developerEclipse editorEclipse"> For more
           details, see:</ph><ul id="ul_ahk_mxw_thb">
           <li id="li_kyh_cgk_54b"
-            product="author developer editor authorEclipse developerEclipse editorEclipse"><xref
+            product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina"><xref
               href="streamline-with-content-completion.dita#streamline-with-content-completion/using_the_content_completion_assistant_in_text_mo"
             /></li>
-          <li product="author editor authorEclipse editorEclipse" id="li_lyh_cgk_54b"><xref
+          <li product="author editor authorEclipse editorEclipse" id="li_lyh_cgk_54b" irina="irina"><xref
               href="content-completion-author-mode.dita#content-completion-author-mode/using_the_content_completion_assistant_in_author_"
             /></li>
         </ul></p>

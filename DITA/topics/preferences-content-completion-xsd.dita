@@ -28,15 +28,15 @@
           <dt><uicontrol>When in "xs:appinfo" context, also include elements declared in the
               schema</uicontrol></dt>
           <dd>You can choose between the following:<ul id="ul_njp_bgk_54b">
-              <li id="li_ojp_bgk_54b"><uicontrol>None</uicontrol> - The <term>Content Completion Assistant</term> offers
+              <li id="li_ojp_bgk_54b" irina="irina"><uicontrol>None</uicontrol> - The <term>Content Completion Assistant</term> offers
                 only the XML Schema schema information.</li>
-              <li id="li_pjp_bgk_54b"><uicontrol>ISO Schematron</uicontrol> - The <term>Content Completion
+              <li id="li_pjp_bgk_54b" irina="irina"><uicontrol>ISO Schematron</uicontrol> - The <term>Content Completion
                   Assistant</term> also includes ISO Schematron elements in
                 <xmlelement>xs:appinfo</xmlelement>.</li>
-              <li id="li_qjp_bgk_54b"><uicontrol>Schematron 1.5</uicontrol> - The <term>Content Completion
+              <li id="li_qjp_bgk_54b" irina="irina"><uicontrol>Schematron 1.5</uicontrol> - The <term>Content Completion
                   Assistant</term>also includes Schematron 1.5 elements in
                 <xmlelement>xs:appinfo</xmlelement>.</li>
-              <li id="li_rjp_bgk_54b"><uicontrol>Other</uicontrol> - The <term>Content Completion Assistant</term> also
+              <li id="li_rjp_bgk_54b" irina="irina"><uicontrol>Other</uicontrol> - The <term>Content Completion Assistant</term> also
                 includes elements from an XML Schema identified by a URL in
                 <xmlelement>xs:appinfo</xmlelement> elements.</li>
             </ul></dd>

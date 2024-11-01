@@ -66,23 +66,23 @@
         transformation process.</p>
       <p id="p_ecz_cgk_54b">The following set of features allow you to test and solve XSLT/XQuery problems:</p>
       <ul id="debug-feature-list">
-        <li id="li_fcz_cgk_54b">Support for XSLT 1.0 stylesheets (using Saxon <ph keyref="saxon6FullVersion"/> and Xalan
+        <li id="li_fcz_cgk_54b" irina="irina">Support for XSLT 1.0 stylesheets (using Saxon <ph keyref="saxon6FullVersion"/> and Xalan
           XSLT engines), XSLT 2.0 / 3.0 stylesheets and XPath 2.0 / 3.0 expressions that are
           included in the stylesheets (using Saxon <ph keyref="saxon9FullVersion"/> XSLT engine) and
           XQuery 1.0 / 3.0 (using Saxon <ph keyref="saxon9FullVersion"/> XQuery engine).</li>
-        <li id="li_gcz_cgk_54b">Stepping capabilities: step in, step over, step out, run, run to cursor, run to end,
+        <li id="li_gcz_cgk_54b" irina="irina">Stepping capabilities: step in, step over, step out, run, run to cursor, run to end,
           pause, stop.</li>
-        <li id="li_hcz_cgk_54b">Output to source mapping between every line of output and the instruction element /
+        <li id="li_hcz_cgk_54b" irina="irina">Output to source mapping between every line of output and the instruction element /
           source context that generated it.</li>
-        <li id="li_icz_cgk_54b"><xref href="using-breakpoints.dita#using-breakpoints"><term>Breakpoints</term></xref> on
+        <li id="li_icz_cgk_54b" irina="irina"><xref href="using-breakpoints.dita#using-breakpoints"><term>Breakpoints</term></xref> on
           both source and XSLT/XQuery documents.</li>
-        <li id="li_jcz_cgk_54b">Call stack on both source and XSLT/XQuery documents.</li>
-        <li id="li_kcz_cgk_54b">Trace history on both source and XSLT/XQuery documents.</li>
-        <li id="li_lcz_cgk_54b">Support for XPath expression evaluation during debugging.</li>
-        <li id="li_mcz_cgk_54b">Step into imported/included stylesheets as well as included source entities.</li>
-        <li id="li_ncz_cgk_54b">Available templates and hits count.</li>
-        <li id="li_ocz_cgk_54b">Variables view.</li>
-        <li id="li_pcz_cgk_54b">Dynamic output generation.</li>
+        <li id="li_jcz_cgk_54b" irina="irina">Call stack on both source and XSLT/XQuery documents.</li>
+        <li id="li_kcz_cgk_54b" irina="irina">Trace history on both source and XSLT/XQuery documents.</li>
+        <li id="li_lcz_cgk_54b" irina="irina">Support for XPath expression evaluation during debugging.</li>
+        <li id="li_mcz_cgk_54b" irina="irina">Step into imported/included stylesheets as well as included source entities.</li>
+        <li id="li_ncz_cgk_54b" irina="irina">Available templates and hits count.</li>
+        <li id="li_ocz_cgk_54b" irina="irina">Variables view.</li>
+        <li id="li_pcz_cgk_54b" irina="irina">Dynamic output generation.</li>
       </ul>
     </section>
     <section id="section_q3s_zgf_w5b">

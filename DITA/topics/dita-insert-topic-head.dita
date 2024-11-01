@@ -12,12 +12,12 @@
     <p id="p_qql_dgk_54b">The <xmlelement>topichead</xmlelement> element provides a title-only entry in a navigation map, as an
       alternative to the fully-linked title provided by the <xmlelement>topicref</xmlelement> element.</p>
     <p id="p_rql_dgk_54b">You can insert a topic heading by doing the following:<ul id="ul_sql_dgk_54b">
-        <li id="li_tql_dgk_54b">Select <uicontrol>Topic Head</uicontrol> from the <ph><uicontrol>Append
+        <li id="li_tql_dgk_54b" irina="irina">Select <uicontrol>Topic Head</uicontrol> from the <ph><uicontrol>Append
               Child</uicontrol>, <uicontrol>Insert Before</uicontrol>, or <uicontrol>Insert
               After</uicontrol></ph> submenus when invoking the contextual menu in the <xref
             href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps Manager</uicontrol>
             view</xref>.</li>
-        <li id="li_uql_dgk_54b"><xref href="eppo-pathfinder-documents.dita#eppo-pathfinder-documents/open-map-editor-li"
+        <li id="li_uql_dgk_54b" irina="irina"><xref href="eppo-pathfinder-documents.dita#eppo-pathfinder-documents/open-map-editor-li"
             >Open the <term>DITA map</term> in the XML editor</xref> and select the
               <uicontrol><image href="../img/Topichead16.png"/>Insert Topic Heading</uicontrol>
           action from the main toolbar (or from the <uicontrol>Insert</uicontrol> submenu of the

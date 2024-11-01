@@ -32,9 +32,9 @@
     </p>
         <p id="p_afr_bgk_54b">The table contains the following columns:</p>
         <ul id="ul_bfr_bgk_54b">
-            <li id="li_cfr_bgk_54b"><uicontrol>Extension</uicontrol> - The extensions of the files that will be
+            <li id="li_cfr_bgk_54b" irina="irina"><uicontrol>Extension</uicontrol> - The extensions of the files that will be
                 associated with an editor type.</li>
-            <li id="li_dfr_bgk_54b">
+            <li id="li_dfr_bgk_54b" irina="irina">
         <p id="p_efr_bgk_54b"><uicontrol>Editor</uicontrol> - The type of editor which the extensions will be
           associated with. Some editors provide easy access to frequent operations via toolbars (XML
           editor, XSL editor, DTD editor) while others provide just a syntax highlight scheme (Java

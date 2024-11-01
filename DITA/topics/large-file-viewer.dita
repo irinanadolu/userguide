@@ -45,7 +45,7 @@
     </p>
     <p id="p_zhh_dgk_54b"><uicontrol>Large File Viewer</uicontrol> components:</p>
     <ul id="ul_a3h_dgk_54b">
-      <li id="li_b3h_dgk_54b">
+      <li id="li_b3h_dgk_54b" irina="irina">
         <p id="p_c3h_dgk_54b">The menu bar provides menu driven access to all the features and functions that are
           available in <uicontrol>Large File Viewer</uicontrol>:</p>
         <p id="p_d3h_dgk_54b">
@@ -79,13 +79,13 @@
                 </menucascade></dt>
               <dd>Opens a reduced <uicontrol>Find</uicontrol> dialog box that provides some basic
                 search options, such as: <ul id="ul_j3h_dgk_54b">
-                  <li id="li_k3h_dgk_54b"><uicontrol>Case sensitive</uicontrol> - When selected, operations are
+                  <li id="li_k3h_dgk_54b" irina="irina"><uicontrol>Case sensitive</uicontrol> - When selected, operations are
                     case-sensitive.</li>
-                  <li id="li_l3h_dgk_54b"><uicontrol>Regular Expression</uicontrol> - When selected, allows you to use
+                  <li id="li_l3h_dgk_54b" irina="irina"><uicontrol>Regular Expression</uicontrol> - When selected, allows you to use
                     any regular expression in <xref
                       href="regular-expressions.dita#regular-expressions">Perl-like
                     syntax</xref>.</li>
-                  <li id="li_m3h_dgk_54b"><uicontrol>Wrap around</uicontrol> - Continues the find operation from the
+                  <li id="li_m3h_dgk_54b" irina="irina"><uicontrol>Wrap around</uicontrol> - Continues the find operation from the
                     start/end of the document after reaching the end/, depending on whether the
                     search is in forward or backward direction.</li>
                 </ul></dd>
@@ -100,7 +100,7 @@
           </dl>
         </p>
       </li>
-      <li id="li_o3h_dgk_54b">The status bar provides information about the current file path, the Unicode
+      <li id="li_o3h_dgk_54b" irina="irina">The status bar provides information about the current file path, the Unicode
         representation of the character at the cursor position and the line and column in the open
         document where the cursor is located.</li>
     </ul>

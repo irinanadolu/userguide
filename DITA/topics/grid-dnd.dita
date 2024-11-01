@@ -18,9 +18,9 @@
       by using drag and drop actions.</p>
     <p id="p_rqw_bgk_54b">You can do the following with drag and drop:</p>
     <ul id="ul_sqw_bgk_54b">
-      <li id="li_tqw_bgk_54b">Copy or move a set of nodes.</li>
-      <li id="li_uqw_bgk_54b">Change the order of columns in the tables.</li>
-      <li id="li_vqw_bgk_54b">Move the rows from the tables.</li>
+      <li id="li_tqw_bgk_54b" irina="irina">Copy or move a set of nodes.</li>
+      <li id="li_uqw_bgk_54b" irina="irina">Change the order of columns in the tables.</li>
+      <li id="li_vqw_bgk_54b" irina="irina">Move the rows from the tables.</li>
     </ul>
     <p id="p_wqw_bgk_54b">These operations are available for both single and multiple selections. To deselect one of
       the selected fragments, use <uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_click"

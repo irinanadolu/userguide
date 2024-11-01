@@ -27,17 +27,17 @@
           the relative path associated with the comment in the database will not match. This results
           in the comment no longer being displayed on that page.</p>
         <p id="p_jdz_wgn_2pb">For example:<ul id="ul_kxz_xgn_2pb">
-            <li id="li_lxz_xgn_2pb">Suppose the original <b>Base URL</b> for a particular version of
+            <li id="li_lxz_xgn_2pb" irina="irina">Suppose the original <b>Base URL</b> for a particular version of
               a site configuration
               is:<codeblock outputclass="language-ini">https://example.com/docs/myProduct/</codeblock></li>
-            <li id="li_kc4_2hn_2pb">A user posts a comment on a page with this
+            <li id="li_kc4_2hn_2pb" irina="irina">A user posts a comment on a page with this
               URL:<codeblock outputclass="language-ini">https://example.com/docs/myProduct/v1.0/installation/configure-db.html</codeblock></li>
-            <li id="li_pbf_jhn_2pb"><b>Oxygen Feedback</b> will associate the user's comment to the
+            <li id="li_pbf_jhn_2pb" irina="irina"><b>Oxygen Feedback</b> will associate the user's comment to the
               relative path
               of:<codeblock outputclass="language-ini">v1.0/installation/configure-db.html</codeblock></li>
-            <li id="li_zk2_nhn_2pb">Suppose a site admin changes the <b>Base URL</b>
+            <li id="li_zk2_nhn_2pb" irina="irina">Suppose a site admin changes the <b>Base URL</b>
               to:<codeblock outputclass="language-ini">https://example.com/docs/myProduct/v1.0/</codeblock></li>
-            <li id="li_ksq_yhn_2pb">When a user navigates to that page, <b>Oxygen Feedback</b>
+            <li id="li_ksq_yhn_2pb" irina="irina">When a user navigates to that page, <b>Oxygen Feedback</b>
               determines that the relative path
               is:<codeblock outputclass="language-ini">installation/configure-db.html</codeblock></li>
           </ul></p>

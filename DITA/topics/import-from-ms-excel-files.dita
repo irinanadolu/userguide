@@ -36,19 +36,19 @@
         tables much like you would with any spreadsheet application. When importing Excel data into
           <uicontrol>Grid</uicontrol> mode, you first need to insert new cells in the particular
         nested table and then you can paste data from Excel the same as you would in any table or spreadsheet.<ol id="ol_lxy_cgk_54b">
-          <li id="li_mxy_cgk_54b">Copy the particular cells from your Excel spreadsheet that you want to import into an
+          <li id="li_mxy_cgk_54b" irina="irina">Copy the particular cells from your Excel spreadsheet that you want to import into an
             XML file.</li>
-          <li id="li_nxy_cgk_54b">Switch to <uicontrol>Grid</uicontrol> mode in <ph keyref="product"/>.</li>
-          <li id="li_oxy_cgk_54b">Expand the particular nodes and locate the nested table where you want to insert the
+          <li id="li_nxy_cgk_54b" irina="irina">Switch to <uicontrol>Grid</uicontrol> mode in <ph keyref="product"/>.</li>
+          <li id="li_oxy_cgk_54b" irina="irina">Expand the particular nodes and locate the nested table where you want to insert the
             copied cells.</li>
-          <li id="li_pxy_cgk_54b">Right-click a particular row or column where you want to insert the data and select
+          <li id="li_pxy_cgk_54b" irina="irina">Right-click a particular row or column where you want to insert the data and select
                 <uicontrol><image href="../img/TableRow16.gif" id="image_xsq_2xz_tr"/>Insert
               row</uicontrol> or <uicontrol><image href="../img/TableColumn16.gif"
                 id="image_ypw_cxz_tr"/>Insert column</uicontrol>, depending on the structure of the
             copied cells.</li>
-          <li id="li_qxy_cgk_54b">Paste the copied cells from the clipboard into the newly inserted cells in
+          <li id="li_qxy_cgk_54b" irina="irina">Paste the copied cells from the clipboard into the newly inserted cells in
               <uicontrol>Grid</uicontrol> mode.</li>
-          <li id="li_rxy_cgk_54b">You may need to make some manual adjustments. For example, if the selection of copied
+          <li id="li_rxy_cgk_54b" irina="irina">You may need to make some manual adjustments. For example, if the selection of copied
             cells contained an empty cell, <ph keyref="product"/> might ignore that cell.</li>
         </ol></p>
     </section>
@@ -57,7 +57,7 @@
       <p id="p_txy_cgk_54b">To use the <uicontrol>Import</uicontrol> wizard to import an Excel file into an XML file,
         follow these steps:</p>
       <ol id="ol_uxy_cgk_54b">
-        <li id="li_vxy_cgk_54b"> Go to <menucascade product="author developer editor">
+        <li id="li_vxy_cgk_54b" irina="irina"> Go to <menucascade product="author developer editor">
             <uicontrol>File</uicontrol>
             <uicontrol>Import/Convert</uicontrol>
             <uicontrol>MS Excel file to XML</uicontrol>
@@ -67,10 +67,10 @@
             <uicontrol keyref="product"/>
             <uicontrol>MS Excel file to XML</uicontrol>
           </menucascade>. </li>
-        <li id="li_wxy_cgk_54b"> Select the URL of the Excel file. <itemgroup>The sheets of the document you are
+        <li id="li_wxy_cgk_54b" irina="irina"> Select the URL of the Excel file. <itemgroup>The sheets of the document you are
             importing are presented in the <uicontrol>Available Sheets</uicontrol> section of this
             dialog box. </itemgroup></li>
-        <li id="li_xxy_cgk_54b"> Click the <uicontrol>Next</uicontrol> button to proceed to the next stage of the
+        <li id="li_xxy_cgk_54b" irina="irina"> Click the <uicontrol>Next</uicontrol> button to proceed to the next stage of the
           wizard. <itemgroup>
             <p id="p_yxy_cgk_54b">
               <fig id="fig_nv3_l3x_ls" product="author developer editor">
@@ -86,7 +86,7 @@
             </p>
           </itemgroup>
         </li>
-        <li id="li_ayy_cgk_54b">
+        <li id="li_ayy_cgk_54b" irina="irina">
           <p id="p_byy_cgk_54b">Configure the settings for the conversion. This stage of the wizard offers the
             following options:</p>
           <p id="p_cyy_cgk_54b">
@@ -150,7 +150,7 @@
             </dl>
           </p>
         </li>
-        <li id="li_myy_cgk_54b">
+        <li id="li_myy_cgk_54b" irina="irina">
           <ph>Click <uicontrol product="author developer editor">Import</uicontrol><uicontrol
               product="authorEclipse developerEclipse editorEclipse">Finish</uicontrol> to generate
             the XML document.</ph></li>

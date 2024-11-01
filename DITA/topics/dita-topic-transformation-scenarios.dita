@@ -19,13 +19,13 @@
         href="configure-transformation-dialog.dita#configure-transformation-dialog"
           ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref>.</p>
     <p id="p_cdl_cgk_54b">The available transformations scenarios for individual DITA topics include:<ul id="ul_ddl_cgk_54b">
-        <li id="li_edl_cgk_54b"><uicontrol>DITA HTML5</uicontrol> - This DITA-OT transformation scenario generates HTML5
+        <li id="li_edl_cgk_54b" irina="irina"><uicontrol>DITA HTML5</uicontrol> - This DITA-OT transformation scenario generates HTML5
           output from a single DITA topic.</li>
-        <li id="li_fdl_cgk_54b"><uicontrol>DITA XHTML</uicontrol> - This DITA-OT transformation scenario generates XHTML
+        <li id="li_fdl_cgk_54b" irina="irina"><uicontrol>DITA XHTML</uicontrol> - This DITA-OT transformation scenario generates XHTML
           output from a single DITA topic. This was the first transformation scenario created for
           the DITA Open Toolkit and it originally served as the basis for all HTML-based
           transformations.</li>
-        <li id="HTML5-CSS"><uicontrol keyref="single-topic-pdf-html5-transformation"/> - This
+        <li id="HTML5-CSS" irina="irina"><uicontrol keyref="single-topic-pdf-html5-transformation"/> - This
           transformation scenario converts individual DITA topics to PDF using a CSS-based
           processing engine and an HTML5 intermediate format. <ph keyref="product"/> comes bundled
           with a built-in CSS-based PDF processing engine called <b>Oxygen PDF Chemistry</b>. <ph
@@ -49,20 +49,20 @@
             be used to specify whether or not the values for <xmlatt>keyref</xmlatt> and
               <xmlatt>conkeyref</xmlatt> attributes within the transformed topics are resolved. The
             possible values are:<ul id="ul_bls_5hs_rjb">
-              <li id="li_jdl_cgk_54b"><b>no</b> - This means that the values for all <xmlatt>keyref</xmlatt> and
+              <li id="li_jdl_cgk_54b" irina="irina"><b>no</b> - This means that the values for all <xmlatt>keyref</xmlatt> and
                   <xmlatt>conkeyref</xmlatt> attributes are ignored in the transformation. This
                 results in lower processing times.</li>
-              <li id="li_kdl_cgk_54b"><b>yes</b> - This means that the values for any <xmlatt>keyref</xmlatt> and
+              <li id="li_kdl_cgk_54b" irina="irina"><b>yes</b> - This means that the values for any <xmlatt>keyref</xmlatt> and
                   <xmlatt>conkeyref</xmlatt> attributes found in the transformed topic are processed
                 and resolved using the value of the <codeph>args.root.map</codeph> parameter.</li>
-              <li id="li_ldl_cgk_54b"><b>auto</b> - This means that the process will search for any
+              <li id="li_ldl_cgk_54b" irina="irina"><b>auto</b> - This means that the process will search for any
                   <xmlatt>keyref</xmlatt> and <xmlatt>conkeyref</xmlatt> attributes within the
                 transformed topic and if any are found, the values will be processed and resolved
                 using the value of the <codeph>args.root.map</codeph> parameter. If none are found,
                 the <xmlatt>keyref</xmlatt> and <xmlatt>conkeyref</xmlatt> attributes are
                 ignored.</li>
             </ul></p></li>
-        <li id="li_mdl_cgk_54b"><uicontrol>DITA PDF - based on XSL-FO</uicontrol> - This DITA-OT transformation scenario
+        <li id="li_mdl_cgk_54b" irina="irina"><uicontrol>DITA PDF - based on XSL-FO</uicontrol> - This DITA-OT transformation scenario
           converts individual DITA topics to PDF using an <i>xsl:fo</i> processor.</li>
       </ul></p>
   </body>

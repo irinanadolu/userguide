@@ -37,11 +37,11 @@
           keyref="glossentry_ditamap"><term>DITA maps</term></xref>).</p>
       <p id="p_ncj_njy_pqb">Some of these unique alternate styles for DITA documents include:<ul
           id="ul_kmp_4jy_pqb">
-          <li id="li_lmp_4jy_pqb"><uicontrol>Hints</uicontrol> - Displays tooltips throughout DITA
+          <li id="li_lmp_4jy_pqb" irina="irina"><uicontrol>Hints</uicontrol> - Displays tooltips throughout DITA
             documents that offer additional information to help you with the DITA structure.</li>
-          <li id="li_qjq_1ky_pqb"><uicontrol>Inline actions</uicontrol> - Displays possible elements
+          <li id="li_qjq_1ky_pqb" irina="irina"><uicontrol>Inline actions</uicontrol> - Displays possible elements
             that are allowed to be inserted at various locations throughout DITA documents.</li>
-          <li id="li_ycj_cky_pqb"><uicontrol>Inline insertion actions</uicontrol> - Displays a
+          <li id="li_ycj_cky_pqb" irina="irina"><uicontrol>Inline insertion actions</uicontrol> - Displays a
             widget (<image href="../img/InlineInsertion16.png"/>) near each empty paragraph that
             makes it easy to insert DITA elements (for example, to insert lists, notes, or
             tables).</li>

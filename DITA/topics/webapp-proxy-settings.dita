@@ -14,19 +14,19 @@
     <section id="configure_proxy_settings_for">
       <title>Configure Proxy Settings for <ph keyref="webappProduct"/></title>
       <p id="p_fzq_dgk_54b">To configure the proxy setting for your <ph keyref="webappProduct"/>, follow these steps:<ol id="ol_gzq_dgk_54b">
-          <li id="li_hzq_dgk_54b">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
+          <li id="li_hzq_dgk_54b" irina="irina">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
               Page</xref>.</li>
-          <li id="li_izq_dgk_54b">Select <menucascade>
+          <li id="li_izq_dgk_54b" irina="irina">Select <menucascade>
               <uicontrol>Connection</uicontrol>
               <uicontrol>Proxy</uicontrol>
             </menucascade>.</li>
-          <li id="li_jzq_dgk_54b">Specify how HTTP(S) connections go through the proxy server. You can choose between
+          <li id="li_jzq_dgk_54b" irina="irina">Specify how HTTP(S) connections go through the proxy server. You can choose between
             the following:<ul id="ul_kzq_dgk_54b">
-              <li id="li_lzq_dgk_54b"><uicontrol>Direct connection</uicontrol> - HTTP(S) connections will go directly to
+              <li id="li_lzq_dgk_54b" irina="irina"><uicontrol>Direct connection</uicontrol> - HTTP(S) connections will go directly to
                 the target host without going through a proxy server.</li>
-              <li id="li_mzq_dgk_54b"><uicontrol>Use system settings</uicontrol> (default setting) - HTTP(S) connections
+              <li id="li_mzq_dgk_54b" irina="irina"><uicontrol>Use system settings</uicontrol> (default setting) - HTTP(S) connections
                 will go through the proxy server set in the operating system. </li>
-              <li id="li_nzq_dgk_54b">
+              <li id="li_nzq_dgk_54b" irina="irina">
                 <p id="p_ozq_dgk_54b"><uicontrol>Manual proxy configuration</uicontrol> - HTTP(S) connections will go
                   through the proxy server specified in the <uicontrol>Web Proxy
                     (HTTP/HTTPS)</uicontrol> section.</p>
@@ -88,7 +88,7 @@
                   </dl></p>
               </li>
             </ul></li>
-          <li id="li_e1r_dgk_54b">Click <uicontrol>Apply</uicontrol> to accept your changes.</li>
+          <li id="li_e1r_dgk_54b" irina="irina">Click <uicontrol>Apply</uicontrol> to accept your changes.</li>
         </ol></p>
     </section>
   </body>

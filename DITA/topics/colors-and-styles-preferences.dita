@@ -43,7 +43,7 @@
           <dt>Profiling Colors and Styles Table</dt>
           <dd>You can use buttons below this table to set specific colors and styles for the listed
             profiling attribute values. The table includes two categories:<ul id="ul_iw4_bgk_54b">
-              <li id="li_jw4_bgk_54b"><uicontrol>Defined attributes values</uicontrol> - Contains the styles for
+              <li id="li_jw4_bgk_54b" irina="irina"><uicontrol>Defined attributes values</uicontrol> - Contains the styles for
                 profiling attribute values defined in the <xref
                   href="preferences-profiling-conditions.dita#preferences-profiling-conditions"
                   format="dita"><uicontrol>Profiling / Conditional Text</uicontrol></xref>
@@ -55,14 +55,14 @@
                 This is the reason why a style from this category can only be <xref
                   href="#colors-and-styles-preferences/reset_style" format="dita">reset</xref>, not
                 deleted.</li>
-              <li id="li_kw4_bgk_54b"><uicontrol>Other</uicontrol> - This category contains styles for attribute values
+              <li id="li_kw4_bgk_54b" irina="irina"><uicontrol>Other</uicontrol> - This category contains styles for attribute values
                 that are not marked as profiling values, in the <xref
                   href="preferences-profiling-conditions.dita#preferences-profiling-conditions"
                   format="dita"><uicontrol>Profiling / Conditional Text</uicontrol></xref>
                 preferences page. In this category are listed:<ul id="ul_lw4_bgk_54b">
-                  <li id="li_mw4_bgk_54b">All the styles that were defined in other projects (with other profiling
+                  <li id="li_mw4_bgk_54b" irina="irina">All the styles that were defined in other projects (with other profiling
                     attribute value sets).</li>
-                  <li id="li_nw4_bgk_54b">All the styles set for the profiling attributes defined in a <xref
+                  <li id="li_nw4_bgk_54b" irina="irina">All the styles set for the profiling attributes defined in a <xref
                       href="subject-scheme-map.dita#subject-scheme-map"><term>subject scheme
                         map</term></xref>.</li>
                 </ul></li>

@@ -23,7 +23,7 @@
         and <term>Atx</term>.</p>
       <p id="p_qj3_cgk_54b">
         <ul id="ul_rj3_cgk_54b">
-          <li id="setext-header">
+          <li id="setext-header" irina="irina">
             <p id="p_sj3_cgk_54b"><u><uicontrol>Setext Style</uicontrol></u></p>
             <p id="p_tj3_cgk_54b">Setext-style headers are underlined using equal signs (for first-level headers) and
               dashes (for second-level headers). Any number of equal signs or dashes will result in
@@ -35,7 +35,7 @@
 Second-Level Header (H2)
 ------------</codeblock></p>
           </li>
-          <li id="atx-header">
+          <li id="atx-header" irina="irina">
             <p id="p_wj3_cgk_54b"><u><uicontrol>Atx Style</uicontrol></u></p>
             <p id="p_xj3_cgk_54b">Atx-style headers use 1-6 hash characters at the start of the line, corresponding to
               header levels 1-6. Optionally, you may close atx-style headers. This is purely
@@ -88,27 +88,27 @@ This is a new paragraph.</codeblock></p>
       <title>Styling Text</title>
       <p id="p_hk3_cgk_54b">The Markdown editor supports some syntax rules for styling text (such as
         bold, italic, or strikethrough).<ul id="ul_ik3_cgk_54b">
-          <li id="italic">
+          <li id="italic" irina="irina">
             <p id="p_jk3_cgk_54b"><u><b>Italic (Emphasis)</b></u></p>
             <p id="p_kk3_cgk_54b">Text wrapped with one asterisk or underscore produces an italic
               (emphasis)
               tag.<codeblock outputclass="language-ini" id="codeblock_lk3_cgk_54b">*italic*
 _italic_</codeblock></p>
           </li>
-          <li id="bold">
+          <li id="bold" irina="irina">
             <p id="p_mk3_cgk_54b"><u><b>Bold (Strong)</b></u></p>
             <p id="p_nk3_cgk_54b">Text wrapped with two asterisks or underscores produces a bold
               (strong)
               tag.<codeblock outputclass="language-ini" id="codeblock_ok3_cgk_54b">**bold**
 __bold__</codeblock></p>
           </li>
-          <li id="strikethrough">
+          <li id="strikethrough" irina="irina">
             <p id="p_pk3_cgk_54b"><u><b>Strikethrough</b></u></p>
             <p id="p_qk3_cgk_54b">In HTML only, text wrapped with two tildes
                 (<userinput>~~</userinput>) produces a strikethrough
               tag.<codeblock outputclass="language-ini" id="codeblock_rk3_cgk_54b">~~strikethrough~~</codeblock></p>
           </li>
-          <li id="li_bhp_wdh_rsb">
+          <li id="li_bhp_wdh_rsb" irina="irina">
             <p id="p_chp_wdh_rsb"><u><b>Underline</b></u></p>
             <p id="p_dhp_wdh_rsb">Text wrapped with two plus signs (<userinput>++</userinput>)
               produces an underline
@@ -129,7 +129,7 @@ __bold__</codeblock></p>
         [square brackets].</p>
       <p id="p_uk3_cgk_54b">
         <ul id="ul_vk3_cgk_54b">
-          <li id="li_wk3_cgk_54b">
+          <li id="li_wk3_cgk_54b" irina="irina">
             <p id="p_xk3_cgk_54b"><u><b>Inline Links</b></u></p>
             <p id="p_yk3_cgk_54b">To create an inline link, use a set of regular parentheses immediately after the
               closing square bracket for the link text. Inside the parentheses, put the URL where
@@ -143,7 +143,7 @@ __bold__</codeblock></p>
             <p id="p_el3_cgk_54b">Relative
               path:<codeblock outputclass="language-ini" id="codeblock_fl3_cgk_54b">Text with [example link text](/relative_path/) inline link with relative path.</codeblock></p>
           </li>
-          <li id="li_gl3_cgk_54b">
+          <li id="li_gl3_cgk_54b" irina="irina">
             <p id="p_hl3_cgk_54b"><u><b>Reference Links</b></u></p>
             <p id="p_il3_cgk_54b">Reference-type links use a second set of square brackets that include a label (link
               identifier) to reference the target for the link (link identifier may consist of
@@ -159,11 +159,11 @@ __bold__</codeblock></p>
               ></userinput>).<codeblock outputclass="language-ini" id="codeblock_ll3_cgk_54b">[id 1]: http://example1.com/ "Optional Title"
 [id_2]: &lt;http://example2.com/> "Optional Title2"</codeblock></p>
             <p id="p_ml3_cgk_54b">Other notes about Reference Links:<ul id="ul_nl3_cgk_54b">
-                <li id="li_ol3_cgk_54b">You can put the title on a second line and use extra spaces or tabs for padding.
+                <li id="li_ol3_cgk_54b" irina="irina">You can put the title on a second line and use extra spaces or tabs for padding.
                   This is useful for aesthetics when the URL is
                   long.<codeblock outputclass="language-ini" id="codeblock_pl3_cgk_54b">[id]: http://example.com/long/path/to/resource/here
     "Optional Title Here"</codeblock></li>
-                <li id="li_ql3_cgk_54b">
+                <li id="li_ql3_cgk_54b" irina="irina">
                   <p id="p_rl3_cgk_54b">The label (link identifier) can be missing, in which case the link text (in
                     square brackets) is used as the
                     name.<codeblock outputclass="language-ini" id="codeblock_sl3_cgk_54b">[My Link][]</codeblock></p>
@@ -184,7 +184,7 @@ __bold__</codeblock></p>
           the DITA output will not properly recognize the format.</note></p>
       <p id="p_xl3_cgk_54b">
         <ul id="ul_yl3_cgk_54b">
-          <li id="li_zl3_cgk_54b">
+          <li id="li_zl3_cgk_54b" irina="irina">
             <p id="p_am3_cgk_54b"><u><b>URLs</b></u></p>
             <p id="p_bm3_cgk_54b">By surrounding a URL with angle brackets, you can show the actual text of the URL
               while also making it clickable in the
@@ -192,7 +192,7 @@ __bold__</codeblock></p>
             <p id="p_dm3_cgk_54b">For example, in HTML it is converted
               to:<codeblock outputclass="language-ini" id="codeblock_em3_cgk_54b">&lt;a href="http://example.com/">http://example.com/&lt;/a></codeblock></p>
           </li>
-          <li id="li_fm3_cgk_54b">
+          <li id="li_fm3_cgk_54b" irina="irina">
             <p id="p_gm3_cgk_54b"><u><b>Email Addresses</b></u></p>
             <p id="p_hm3_cgk_54b">Automatic links for email addresses work similarly, except that
               Markdown will also perform a bit of randomized decimal and hex entity-encoding to help
@@ -216,7 +216,7 @@ __bold__</codeblock></p>
         set of parentheses that contain the URL or path to the image.</p>
       <p id="p_mm3_cgk_54b">
         <ul id="ul_nm3_cgk_54b">
-          <li id="li_om3_cgk_54b">
+          <li id="li_om3_cgk_54b" irina="irina">
             <p id="p_pm3_cgk_54b"><u><b>Inline Images</b></u></p>
             <p id="p_qm3_cgk_54b">For inline images, use a set of regular parentheses immediately after the closing
               square bracket for the <codeph>Alt</codeph> attribute text. Inside the parentheses,
@@ -227,7 +227,7 @@ __bold__</codeblock></p>
             <p id="p_um3_cgk_54b">Without a
               title:<codeblock outputclass="language-ini" id="codeblock_vm3_cgk_54b">Text with ![Alt text](/path/to/img.jpg) inline link without a title.</codeblock></p>
           </li>
-          <li id="li_wm3_cgk_54b">
+          <li id="li_wm3_cgk_54b" irina="irina">
             <p id="p_xm3_cgk_54b"><u><b>Reference Images</b></u></p>
             <p id="p_ym3_cgk_54b">For reference-type images, use a second set of square brackets that include a label
               (image identifier) to identify the image (it may consist of letters, numbers, spaces,
@@ -251,14 +251,14 @@ __bold__</codeblock></p>
         better (and is clearer) if you put a <userinput>></userinput> before every line.</p>
       <p id="p_dn3_cgk_54b">
         <ul id="ul_en3_cgk_54b">
-          <li id="li_fn3_cgk_54b"><b><u>Example:
+          <li id="li_fn3_cgk_54b" irina="irina"><b><u>Example:
             Blockquotes</u></b><codeblock outputclass="language-ini" id="codeblock_gn3_cgk_54b">> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.</codeblock></li>
-          <li id="li_hn3_cgk_54b">
+          <li id="li_hn3_cgk_54b" irina="irina">
             <p id="p_in3_cgk_54b"><b><u>Example: Nested Blockquotes</u></b></p>
             <p id="p_jn3_cgk_54b"><term>Blockquotes</term> can be nested by adding additional levels
               of <userinput>></userinput>
@@ -268,7 +268,7 @@ __bold__</codeblock></p>
 >
 > Back to the first level.</codeblock></p>
           </li>
-          <li id="li_ln3_cgk_54b">
+          <li id="li_ln3_cgk_54b" irina="irina">
             <p id="p_mn3_cgk_54b"><b><u>Example: Blockquotes with Other Markdown Elements</u></b></p>
             <p id="p_nn3_cgk_54b"><term>Blockquotes</term> can also contain other Markdown elements
               (such as headers, lists, and code
@@ -290,14 +290,14 @@ __bold__</codeblock></p>
         distinct blocks.</p>
       <p id="p_qn3_cgk_54b">
         <ul id="ul_rn3_cgk_54b">
-          <li id="li_sn3_cgk_54b">
+          <li id="li_sn3_cgk_54b" irina="irina">
             <p id="p_tn3_cgk_54b"><u><b>Inline</b></u></p>
             <p id="p_un3_cgk_54b">You can quote or emphasize code within a sentence (inline) with single backticks
                 (<userinput>`</userinput>). The text within the backticks will not be formatted.</p>
             <p id="p_vn3_cgk_54b"><b><u>Example: Inline Code
               Emphasis</u></b><codeblock outputclass="language-ini" id="codeblock_wn3_cgk_54b">This is a normal sentence with a `code` in the middle. </codeblock></p>
           </li>
-          <li id="code-blocks">
+          <li id="code-blocks" irina="irina">
             <p id="p_xn3_cgk_54b"><u><b>Code Blocks</b></u></p>
             <p id="p_yn3_cgk_54b">You can format code or text into its own distinct block by inserting a blank line
               before and after the content and using at least 4 spaces (or 1 tab), or by using
@@ -368,7 +368,7 @@ This is another regular paragraph.</codeblock></p>
         but may be indented by up to three spaces.</p>
       <p id="p_n43_cgk_54b">
         <ul id="ul_o43_cgk_54b">
-          <li id="unordered-list">
+          <li id="unordered-list" irina="irina">
             <p id="p_p43_cgk_54b"><u><b>Unordered Lists</b></u></p>
             <p id="p_q43_cgk_54b">For unordered lists, you can use asterisks (<userinput>*</userinput>), plus signs
                 (<userinput>+</userinput>), and hyphens (<userinput>-</userinput>)
@@ -376,7 +376,7 @@ This is another regular paragraph.</codeblock></p>
 + List item 2
 - List item 3</codeblock></p>
           </li>
-          <li id="ordered-list">
+          <li id="ordered-list" irina="irina">
             <p id="p_s43_cgk_54b"><u><b>Ordered Lists</b></u></p>
             <p id="p_t43_cgk_54b">For ordered lists, use numbers followed by periods. The actual numbers you use have
               no effect on the output. It simply converts them to list items within an ordered list
@@ -385,7 +385,7 @@ This is another regular paragraph.</codeblock></p>
 8. List item 2
 5. List item 3</codeblock></p>
           </li>
-          <li id="li_v43_cgk_54b">
+          <li id="li_v43_cgk_54b" irina="irina">
             <p id="p_w43_cgk_54b"><u><b>Nested Lists</b></u></p>
             <p id="p_x43_cgk_54b">You can create nested lists by indenting lines by three
               spaces.<codeblock outputclass="language-ini" id="codeblock_y43_cgk_54b">1. Ordered list item 1
@@ -396,7 +396,7 @@ This is another regular paragraph.</codeblock></p>
          * 3rd level nested unordered list item 1
 2. Ordered list item 2  </codeblock></p>
           </li>
-          <li id="li_z43_cgk_54b">
+          <li id="li_z43_cgk_54b" irina="irina">
             <p id="p_ap3_cgk_54b"><u><b>Paragraphs Inside Lists</b></u></p>
             <p id="p_bp3_cgk_54b">If list items are separated by blank lines, Markdown will wrap the items in a
               paragraph in the
@@ -409,7 +409,7 @@ This is another regular paragraph.</codeblock></p>
 &lt;li>&lt;p>List item 2&lt;/p>&lt;/li>
 &lt;/ul></codeblock></p>
           </li>
-          <li id="li_fp3_cgk_54b">
+          <li id="li_fp3_cgk_54b" irina="irina">
             <p id="p_gp3_cgk_54b"><u><b>Multiple Paragraphs Inside Lists</b></u></p>
             <p id="p_hp3_cgk_54b">List items may consist of multiple paragraphs. Each subsequent paragraph in a list
               item must be indented by either 4 spaces or one tab. Optionally, you can also indent
@@ -424,7 +424,7 @@ This is another regular paragraph.</codeblock></p>
 
 2.  Suspendisse id sem consectetuer libero luctus adipiscing.</codeblock></p>
           </li>
-          <li id="li_jp3_cgk_54b">
+          <li id="li_jp3_cgk_54b" irina="irina">
             <p id="p_kp3_cgk_54b"><u><b>Blockquotes Inside Lists</b></u></p>
             <p id="p_lp3_cgk_54b">To put a <term>blockquote</term> within a list item, the
               blockquote delimiters (<userinput>></userinput>) need to be indented so that they are
@@ -433,7 +433,7 @@ This is another regular paragraph.</codeblock></p>
     > This is a blockquote
     > inside a list item.</codeblock></p>
           </li>
-          <li id="li_np3_cgk_54b">
+          <li id="li_np3_cgk_54b" irina="irina">
             <p id="p_op3_cgk_54b"><u><b>Code Blocks Inside Lists</b></u></p>
             <p id="p_pp3_cgk_54b">To put a code block within a list item, insert an empty line in between the list item
               and the code block, and the code block needs to be indented twice (with 8 spaces or 2
@@ -473,7 +473,7 @@ This is another regular paragraph.</codeblock></p>
         hyphens (<userinput>-</userinput>).</p>
       <p id="p_yp3_cgk_54b">
         <ul id="ul_zp3_cgk_54b">
-          <li id="li_aq3_cgk_54b">
+          <li id="li_aq3_cgk_54b" irina="irina">
             <p id="p_bq3_cgk_54b"><u><b>Creating a Table</b></u></p>
             <p id="p_cq3_cgk_54b">Pipes are used to separate each column, while hyphens are used to create column
               headers. The pipes on either end of the table are optional. Cells can vary in width
@@ -484,7 +484,7 @@ This is another regular paragraph.</codeblock></p>
 | Column 1 Row 1 Cell  | Column 2 Row 1 Cell  |
 | Column 1 Row 2 Cell  | Column 2 Row 2 Cell  |</codeblock></p>
           </li>
-          <li id="li_eq3_cgk_54b">
+          <li id="li_eq3_cgk_54b" irina="irina">
             <p id="p_fq3_cgk_54b"><u><b>Formatting Rules in Table Cells</b></u></p>
             <p id="p_gq3_cgk_54b">You can use formatting rules inside the cells of the table (such as links, inline
               code blocks, and text
@@ -492,7 +492,7 @@ This is another regular paragraph.</codeblock></p>
 | --- | --- |
 | `inline code`  | Content with **bold text** inside cell  |</codeblock></p>
           </li>
-          <li id="li_iq3_cgk_54b">
+          <li id="li_iq3_cgk_54b" irina="irina">
             <p id="p_jq3_cgk_54b"><u><b>Aligning Text in Tables</b></u></p>
             <p id="p_kq3_cgk_54b">You can align text to the left, right, or center of a column by including colons
                 (<userinput>:</userinput>) to the left, right, or on both sides of the hyphens
@@ -501,7 +501,7 @@ This is another regular paragraph.</codeblock></p>
 | :---         |     :---:      |          ---: |
 | Content Cell | Content Cell   | Content Cell  |</codeblock></p>
           </li>
-          <li id="li_mq3_cgk_54b">
+          <li id="li_mq3_cgk_54b" irina="irina">
             <p id="p_nq3_cgk_54b"><u><b>Joining Cells (Span a Cell Over Multiple Columns)</b></u></p>
             <p id="p_oq3_cgk_54b">You can join cells horizontally (span a cell over multiple columns) by using multiple
               consecutive pipe characters (<userinput>|</userinput>) to the right of the particular
@@ -591,18 +591,18 @@ _   underscore
         following examples show the required syntax.</p>
       <p id="p_dr3_cgk_54b">
         <ul id="ul_er3_cgk_54b">
-          <li id="li_fr3_cgk_54b"><b><u>Example: Normal
+          <li id="li_fr3_cgk_54b" irina="irina"><b><u>Example: Normal
             Footnote</u></b><codeblock outputclass="language-ini" id="codeblock_gr3_cgk_54b">Here is a footnote reference,[^1]
 
 [^1]: Here is the footnote.</codeblock></li>
-          <li id="li_hr3_cgk_54b"><b><u>Example: Normal Footnote with Multiple
+          <li id="li_hr3_cgk_54b" irina="irina"><b><u>Example: Normal Footnote with Multiple
             Blocks</u></b><codeblock outputclass="language-ini" id="codeblock_ir3_cgk_54b">Here is a footnote reference,[^longnote]
 
 [^longnote]: Here is the footnote with multiple blocks.
 
     Subsequent paragraphs are indented with 4 spaces or 1 tab to show that they
 belong to the previous footnote.</codeblock></li>
-          <li id="li_jr3_cgk_54b"><b><u>Example: Inline
+          <li id="li_jr3_cgk_54b" irina="irina"><b><u>Example: Inline
             Footnote</u></b><codeblock outputclass="language-ini" id="codeblock_kr3_cgk_54b">Here is an inline note.^[Inlines notes are easier to write, since
 you don't have to pick an identifier and move down to type the
 note.]</codeblock></li>

@@ -50,17 +50,17 @@
       <title>Testing a Stylesheet</title>
       <p id="p_udb_cgk_54b">An XSpec file contains one or more test scenarios. You can test a stylesheet in one of the
         following ways:<ul id="ul_vdb_cgk_54b">
-          <li id="li_wdb_cgk_54b">
+          <li id="li_wdb_cgk_54b" irina="irina">
             <p id="p_xdb_cgk_54b"><b>Test an entire stylesheet</b> - Testing is performed in a certain context. You can
               define a context as follows:<ul id="ul_gvx_yzk_tlb">
-                <li id="li_ydb_cgk_54b">Inline context, building the test based on a
+                <li id="li_ydb_cgk_54b" irina="irina">Inline context, building the test based on a
                   string.<codeblock outputclass="language-xml" id="codeblock_zdb_cgk_54b">&lt;x:scenario label="when processing a para element">
     &lt;x:context>
         &lt;para>...&lt;/para>
     &lt;/x:context>
     ...
 &lt;/x:scenario>  </codeblock></li>
-                <li id="li_a2b_cgk_54b">Based on an external file, or on a part of an external file extracted with an
+                <li id="li_a2b_cgk_54b" irina="irina">Based on an external file, or on a part of an external file extracted with an
                   XPath
                   expression.<codeblock outputclass="language-xml" id="codeblock_b2b_cgk_54b">&lt;x:scenario label="when processing a para element">
     &lt;x:context href="source/test.xml" select="/doc/body/p[1]" />
@@ -68,7 +68,7 @@
 &lt;/x:scenario>  </codeblock></li>
               </ul></p>
           </li>
-          <li id="li_c2b_cgk_54b">
+          <li id="li_c2b_cgk_54b" irina="irina">
             <p id="p_d2b_cgk_54b"><b>Test a function</b>:</p>
             <p id="p_e2b_cgk_54b">
               <codeblock outputclass="language-xml" id="codeblock_f2b_cgk_54b">&lt;x:scenario label="when capitalising a string">
@@ -80,7 +80,7 @@
 &lt;/x:scenario>  </codeblock>
             </p>
           </li>
-          <li id="li_g2b_cgk_54b">
+          <li id="li_g2b_cgk_54b" irina="irina">
             <p id="p_h2b_cgk_54b"><b>Test a template with a name</b>:</p>
             <p id="p_i2b_cgk_54b">
               <codeblock outputclass="language-xml" id="codeblock_j2b_cgk_54b">&lt;x:scenario label="when creating a table">
@@ -104,7 +104,7 @@
       <title>Adding a Catalog to an XSpec Transformation</title>
       <p id="p_l2b_cgk_54b">If your XSLT needs a catalog, you can add one to the XSpec transformation by doing one of
         the following:<ul conkeyref="reusables-editing-documents/xspec-ul-1" id="ul_m2b_cgk_54b">
-          <li id="li_n2b_cgk_54b"/>
+          <li id="li_n2b_cgk_54b" irina="irina"/>
         </ul></p>
     </section>
   </body>

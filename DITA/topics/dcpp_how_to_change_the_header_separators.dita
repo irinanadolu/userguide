@@ -18,11 +18,11 @@
       the header of a page, you may find a sequence of
         strings:<codeblock outputclass="language-ini" id="codeblock_d1r_cgk_54b">My Publication | Introduction | Getting Started </codeblock><ul
         id="ol_ub3_s54_1db">
-        <li id="li_e1r_cgk_54b">"My Publication" is the value of the <codeph>maptitle</codeph>
+        <li id="li_e1r_cgk_54b" irina="irina">"My Publication" is the value of the <codeph>maptitle</codeph>
           string.</li>
-        <li id="li_f1r_cgk_54b">"Introduction" is the value of the <codeph>chaptertitle</codeph>
+        <li id="li_f1r_cgk_54b" irina="irina">"Introduction" is the value of the <codeph>chaptertitle</codeph>
           string.</li>
-        <li id="li_g1r_cgk_54b">"Getting Started" is the value of the <codeph>sectiontitle</codeph>
+        <li id="li_g1r_cgk_54b" irina="irina">"Getting Started" is the value of the <codeph>sectiontitle</codeph>
           string.</li>
       </ul></p>
     <p id="p_h1r_cgk_54b">There might be cases where you want to change this separator. You will

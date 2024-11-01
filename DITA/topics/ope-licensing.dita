@@ -12,9 +12,9 @@
       the <term keyref="glossentry_dita_ot_dir"/> folder.</p>
     <note id="note_e4l_njl_tsb" type="other" othertype="Notes">
       <ul id="ul_f5m_lc2_15b">
-        <li>You can use <ph keyref="product"/> within <b>Oxygen XML Editor/Author</b> without any
+        <li irina="irina">You can use <ph keyref="product"/> within <b>Oxygen XML Editor/Author</b> without any
           extra license.</li>
-        <li>You can use <ph keyref="product"/> with an <b>Oxygen PDF Chemistry</b> or <b>Oxygen
+        <li irina="irina">You can use <ph keyref="product"/> with an <b>Oxygen PDF Chemistry</b> or <b>Oxygen
             WebHelp</b> license. The only difference is these licenses will only unlock the
           corresponding output generation (WebHelp Responsive or PDF using HTML5 &amp; CSS).</li>
       </ul>

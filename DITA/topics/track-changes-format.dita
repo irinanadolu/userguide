@@ -76,13 +76,13 @@
         instructions:</p>
       <p>
         <ul id="ul_o1x_nn2_rpb">
-          <li><xmlatt>id</xmlatt> - Used to link a reply to its parent comment or change.</li>
-          <li><xmlatt>comment</xmlatt> - The comment message associated with a comment or
+          <li irina="irina"><xmlatt>id</xmlatt> - Used to link a reply to its parent comment or change.</li>
+          <li irina="irina"><xmlatt>comment</xmlatt> - The comment message associated with a comment or
             change.</li>
-          <li><xmlatt>timestamp</xmlatt> - The time when the change or comment was created.</li>
-          <li><xmlatt>author</xmlatt> - The name of the author that created the change or
+          <li irina="irina"><xmlatt>timestamp</xmlatt> - The time when the change or comment was created.</li>
+          <li irina="irina"><xmlatt>author</xmlatt> - The name of the author that created the change or
             comment.</li>
-          <li><xmlatt>flag</xmlatt> - The value <codeph>done</codeph> means that the item is
+          <li irina="irina"><xmlatt>flag</xmlatt> - The value <codeph>done</codeph> means that the item is
             <uicontrol>Marked as Done</uicontrol>.</li>
         </ul>
       </p>

@@ -35,11 +35,11 @@
     <p id="p_vkw_cgk_54b">You can sort the content of a table by one of its columns by clicking its column header.</p>
     <p id="p_wkw_cgk_54b">Note the following:</p>
     <ul id="ul_xkw_cgk_54b">
-      <li id="li_ykw_cgk_54b">The first column is an index (not part of the table structure).</li>
-      <li id="li_zkw_cgk_54b">Every column header contains the field name and its data type.</li>
-      <li id="li_alw_cgk_54b">The primary key columns are marked with this symbol: <uicontrol><image
+      <li id="li_ykw_cgk_54b" irina="irina">The first column is an index (not part of the table structure).</li>
+      <li id="li_zkw_cgk_54b" irina="irina">Every column header contains the field name and its data type.</li>
+      <li id="li_alw_cgk_54b" irina="irina">The primary key columns are marked with this symbol: <uicontrol><image
             href="../img/Key16.png" id="image_hch_c2n_wr"/></uicontrol>.</li>
-      <li id="li_blw_cgk_54b">Multiple tables are presented in a tabbed manner.</li>
+      <li id="li_blw_cgk_54b" irina="irina">Multiple tables are presented in a tabbed manner.</li>
     </ul>
     <p id="p_clw_cgk_54b">For performance issues, you can set the maximum number of cells that are displayed in the
         <uicontrol>Table Explorer</uicontrol> view (using the <xref
@@ -51,7 +51,7 @@
     <p id="p_dlw_cgk_54b">You are notified if the value you have entered in a cell is not valid (and thus cannot be
       updated).</p>
     <ul id="ul_elw_cgk_54b">
-      <li product="author developer editor" id="li_flw_cgk_54b">
+      <li product="author developer editor" id="li_flw_cgk_54b" irina="irina">
         <p id="p_glw_cgk_54b">If the content of the edited cell does not belong to the data type of the column, the
           cell is marked by a red square and remains in an editing state until a correct value is
           inserted. For example, in the following figure <codeph>propID</codeph> contains
@@ -64,13 +64,13 @@
           </fig>
         </p>
       </li>
-      <li product="authorEclipse developerEclipse editorEclipse" id="li_jlw_cgk_54b">If the content of the edited cell
+      <li product="authorEclipse developerEclipse editorEclipse" id="li_jlw_cgk_54b" irina="irina">If the content of the edited cell
         does not belong to the data type of the column, an information dialog box appears, notifying
         you that the value you have inserted cannot be converted to the SQL type of that field. For
         example, if you have a column that contains <codeph>LONG</codeph> (numerical) values, and a
         character or string is inserted into one of its cells, you would get the error message that
         a string value cannot be converted to the requested SQL type (NUMBER).</li>
-      <li id="li_klw_cgk_54b">
+      <li id="li_klw_cgk_54b" irina="irina">
         <p id="p_llw_cgk_54b">If the constraints of the database are not met (for instance, primary key constraints),
           an information dialog box will appear, notifying you of the reason the database has not
           been updated. For example, in the table below, trying to set the second record in the

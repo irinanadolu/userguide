@@ -16,10 +16,10 @@
     <section id="installing_the_plugin">
       <title>Configuring the Perforce Plugin</title>
       <ol id="ol_njr_dgk_54b">
-        <li id="li_ojr_dgk_54b">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
+        <li id="li_ojr_dgk_54b" irina="irina">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
             Page</xref>.</li>
-        <li id="li_pjr_dgk_54b">Select <uicontrol>Plugins</uicontrol>.</li>
-        <li id="li_qjr_dgk_54b">
+        <li id="li_pjr_dgk_54b" irina="irina">Select <uicontrol>Plugins</uicontrol>.</li>
+        <li id="li_qjr_dgk_54b" irina="irina">
           <p id="p_rjr_dgk_54b">Click the <uicontrol><image href="../img/ConfigureSearchScope16.png"
                 id="image_rbz_csl_3jb"/>Configure</uicontrol> icon next to the Perforce plugin to
             open the <uicontrol>Plugin configuration</uicontrol> dialog box.</p>
@@ -30,13 +30,13 @@
             </fig>
           </p>
         </li>
-        <li id="step-4">Enter the <uicontrol>Server address</uicontrol> and <uicontrol>Server
+        <li id="step-4" irina="irina">Enter the <uicontrol>Server address</uicontrol> and <uicontrol>Server
             port</uicontrol>. The <uicontrol>Backup interval (sec)</uicontrol> setting is optional
           and it can be used to configure the time interval for how often documents will
           automatically be backed up. Leave this field blank if you do not want documents to be
           backed up automatically. </li>
-        <li id="li_tjr_dgk_54b">Click <uicontrol>Apply</uicontrol>.</li>
-        <li id="li_ujr_dgk_54b"><xref href="webauthor-restart.dita">Restart <ph keyref="webappProduct"/></xref>.</li>
+        <li id="li_tjr_dgk_54b" irina="irina">Click <uicontrol>Apply</uicontrol>.</li>
+        <li id="li_ujr_dgk_54b" irina="irina"><xref href="webauthor-restart.dita">Restart <ph keyref="webappProduct"/></xref>.</li>
       </ol>
       <note id="note_vjr_dgk_54b">To use the Perforce plugin with an SSL certificate, you need to <xref
           href="webauthor-set-system-property.dita">set a system property</xref> called

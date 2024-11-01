@@ -24,7 +24,7 @@
         href="using-the-project-view.dita#using-the-project-view"><uicontrol
           product="author developer editor">Project</uicontrol><uicontrol
           product="authorEclipse developerEclipse editorEclipse">Project Explorer</uicontrol> view</xref>:<ul id="ul_q5k_cgk_54b">
-        <li id="li_r5k_cgk_54b"><uicontrol><image href="../img/ApplyStyleSheet16.png" id="image_csb_4yv_sr"/>Apply
+        <li id="li_r5k_cgk_54b" irina="irina"><uicontrol><image href="../img/ApplyStyleSheet16.png" id="image_csb_4yv_sr"/>Apply
             Transformation Scenario(s) (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_t_shortcut"
               product="author developer editor"/></uicontrol><uicontrol><shortcut
@@ -37,7 +37,7 @@
             href="configure-transformation-dialog.dita#configure-transformation-dialog"
               ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref> where
           you can choose the scenarios you want to apply.</li>
-        <li id="li_s5k_cgk_54b"><uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"/>Configure
+        <li id="li_s5k_cgk_54b" irina="irina"><uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"/>Configure
             Transformation Scenario(s) (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
               product="author developer editor"/><shortcut
@@ -51,13 +51,13 @@
     <p id="p_t5k_cgk_54b">
       <note id="note_u5k_cgk_54b">
         <ul id="ul_v5k_cgk_54b">
-          <li id="li_w5k_cgk_54b">You can apply a transformation even if the current document is not associated with a
+          <li id="li_w5k_cgk_54b" irina="irina">You can apply a transformation even if the current document is not associated with a
             transformation scenario.</li>
-          <li id="li_x5k_cgk_54b">If the document contains an <codeph>xml-stylesheet</codeph> processing instruction
+          <li id="li_x5k_cgk_54b" irina="irina">If the document contains an <codeph>xml-stylesheet</codeph> processing instruction
             that references an XSLT stylesheet (commonly used to display the document in web
             browsers), <ph keyref="product"/> prompts you to associate the document with a built-in
             transformation scenario.</li>
-          <li id="li_y5k_cgk_54b">The default transformation scenario is suggested based on the processing instruction
+          <li id="li_y5k_cgk_54b" irina="irina">The default transformation scenario is suggested based on the processing instruction
             from the edited document.</li>
         </ul>
       </note>

@@ -16,16 +16,16 @@
       information from Native XML Databases (NXD) and relational data. The following database
       systems supported in <ph keyref="product"/> offer XQuery support:</p>
     <ul id="ul_mly_cgk_54b">
-      <li id="li_nly_cgk_54b"><i>Native XML Databases:</i>
+      <li id="li_nly_cgk_54b" irina="irina"><i>Native XML Databases:</i>
         <ul id="ul_oly_cgk_54b">
-          <li id="li_qly_cgk_54b">eXist</li>
-          <li id="li_rly_cgk_54b">MarkLogic (validation support available starting with version 5)</li>
+          <li id="li_qly_cgk_54b" irina="irina">eXist</li>
+          <li id="li_rly_cgk_54b" irina="irina">MarkLogic (validation support available starting with version 5)</li>
         </ul></li>
-      <li id="li_sly_cgk_54b"><i>Relational Databases:</i>
+      <li id="li_sly_cgk_54b" irina="irina"><i>Relational Databases:</i>
         <ul id="ul_tly_cgk_54b">
-          <li id="li_uly_cgk_54b">IBM DB2</li>
-          <li id="li_vly_cgk_54b">Microsoft SQL Server (validation support not available)</li>
-          <li id="li_wly_cgk_54b">Oracle (validation support not available)</li>
+          <li id="li_uly_cgk_54b" irina="irina">IBM DB2</li>
+          <li id="li_vly_cgk_54b" irina="irina">Microsoft SQL Server (validation support not available)</li>
+          <li id="li_wly_cgk_54b" irina="irina">Oracle (validation support not available)</li>
         </ul></li>
     </ul>
   </body>

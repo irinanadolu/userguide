@@ -21,10 +21,10 @@
         Engine</uicontrol> combo box.</p>
     <p id="p_xp2_dgk_54b">To create a plugin that implements the validator extension:</p>
       <ol id="ul_jv4_q2x_lkb">
-      <li id="li_aq2_dgk_54b">Implement the
+      <li id="li_aq2_dgk_54b" irina="irina">Implement the
           <term>ro.sync.exml.plugin.validator.ValidatorPluginExtension</term> interface in your
         plugin's libraries.</li>
-      <li id="li_bq2_dgk_54b">In the <term>plugin</term> descriptor file, define the
+      <li id="li_bq2_dgk_54b" irina="irina">In the <term>plugin</term> descriptor file, define the
           <xmlelement>extension</xmlelement> element that points to the implementation of your
         classes:<codeblock outputclass="language-xml" id="codeblock_cq2_dgk_54b">&lt;extension type="DocumentValidator" class="my.validator.plugin.extension"/></codeblock></li>
     </ol>

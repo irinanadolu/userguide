@@ -68,20 +68,20 @@
           scope="external">user role plugin</xref> to use as a starting point.</p>
       <p>For example, to set the style as enabled only for Subject Matter Experts:<ul
           id="ul_yzr_td5_h5b">
-          <li>If using a <xref href="#wa-map-inline-actions/section_ux3_htt_h5b">loading options
+          <li irina="irina">If using a <xref href="#wa-map-inline-actions/section_ux3_htt_h5b">loading options
               plugin</xref>, add an extra check before setting the loading option (the user role
             plugin sets the <codeph>userRole</codeph> loading
             option):<codeblock id="codeblock_byv_34v_f5b" outputclass="language-javascript">...
 if (e.options.url.endsWith('.ditamap') &amp;&amp; e.options.userRole === 'sme') {
 ...</codeblock></li>
-          <li id="li_o41_c2n_v5b">If using a <xref href="#wa-map-inline-actions/section_n2p_tst_h5b"
+          <li id="li_o41_c2n_v5b" irina="irina">If using a <xref href="#wa-map-inline-actions/section_n2p_tst_h5b"
               >framework extension script file</xref>, add an <xref
               href="wa-framework-customization-script-usecases.dita#wa-framework-customization-script-usecases/section_classpath"
               >association
             rule</xref>:<codeblock id="codeblock_g34_225_h5b" outputclass="language-xml" xml:space="preserve">&lt;associationRules&gt;
   &lt;addRule javaRuleClass="com.oxygenxml.webapp.userrole.SmeUserFrameworkMatcher"/&gt;
 &lt;/associationRules&gt;</codeblock></li>
-          <li id="li_q41_c2n_v5b">If using a <xref href="#wa-map-inline-actions/section_dsj_lvt_h5b"
+          <li id="li_q41_c2n_v5b" irina="irina">If using a <xref href="#wa-map-inline-actions/section_dsj_lvt_h5b"
               >framework extension</xref>, change the <xref
               href="wa-framework-customization-script-usecases.dita#wa-framework-customization-script-usecases/section_classpath"
               >association rule</xref>.</li>

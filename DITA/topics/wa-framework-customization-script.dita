@@ -15,9 +15,9 @@
       <title>Creating a Custom Framework Starting from an Existing Framework</title>
       <p id="p_uwz_cgk_54b">To create a custom <term>framework</term> by extending an existing one, follow these
           steps:<ol id="ol_lhq_dxx_jnb">
-          <li id="li_vwz_cgk_54b">In a location where you have full write access, create a folder structure similar to
+          <li id="li_vwz_cgk_54b" irina="irina">In a location where you have full write access, create a folder structure similar to
             this: <filepath>custom_frameworks/dita-extension</filepath>. </li>
-          <li id="li_wwz_cgk_54b">In <i>Oxygen XML Editor/Author</i>, go to <menucascade>
+          <li id="li_wwz_cgk_54b" irina="irina">In <i>Oxygen XML Editor/Author</i>, go to <menucascade>
               <uicontrol>Options</uicontrol>
               <uicontrol>Preferences</uicontrol>
               <uicontrol>Document Type Association</uicontrol>
@@ -26,17 +26,17 @@
             the <uicontrol>Additional frameworks directories</uicontrol> list and click
               <uicontrol>OK</uicontrol> or <uicontrol>Apply</uicontrol> to save your changes and
             close the dialog box.</li>
-          <li id="li_xwz_cgk_54b">Click the <uicontrol><image href="../img/New16.png" id="image_hy1_zdp_sr"
+          <li id="li_xwz_cgk_54b" irina="irina">Click the <uicontrol><image href="../img/New16.png" id="image_hy1_zdp_sr"
               />New</uicontrol> button on the toolbar and select the <uicontrol>Extend Framework
               Script</uicontrol> template. Save it inside the previously configured framework path
             (e.g. <filepath>custom_frameworks/dita-extension</filepath>).</li>
-          <li id="li_ywz_cgk_54b">
+          <li id="li_ywz_cgk_54b" irina="irina">
             <p id="p_zwz_cgk_54b">Set the <xmlatt>base</xmlatt> attribute on the script element to the value of the
               name of the extended framework (e.g. <b>DITA</b>).</p>
             <note id="note_axz_cgk_54b">Removing the <xmlatt>base</xmlatt> attribute will create a framework from
               scratch.</note>
           </li>
-          <li id="li_bxz_cgk_54b">Edit the script as described in <xref
+          <li id="li_bxz_cgk_54b" irina="irina">Edit the script as described in <xref
               href="wa-framework-customization-script-usecases.dita"/>.</li>
         </ol></p>
       <p id="p_cxz_cgk_54b">To test your customization, open a document that matches the newly
@@ -51,9 +51,9 @@
       <title>Creating a Custom Framework Without a Base Framework</title>
       <p id="p_dxz_cgk_54b">To create a custom <term>framework</term> without starting from an
         existing one, follow these steps:<ol id="ol_dpj_lxs_knb">
-          <li id="li_exz_cgk_54b">In a location where you have full write access, create a folder
+          <li id="li_exz_cgk_54b" irina="irina">In a location where you have full write access, create a folder
             structure similar to this: <filepath>custom_frameworks/dita-extension</filepath>.</li>
-          <li id="li_tdl_ff1_v4b">In <i>Oxygen XML Editor/Author</i>, go to <menucascade>
+          <li id="li_tdl_ff1_v4b" irina="irina">In <i>Oxygen XML Editor/Author</i>, go to <menucascade>
               <uicontrol>Options</uicontrol>
               <uicontrol>Preferences</uicontrol>
               <uicontrol>Document Type Association</uicontrol>
@@ -62,11 +62,11 @@
             the <uicontrol>Additional frameworks directories</uicontrol> list and click
               <uicontrol>OK</uicontrol> or <uicontrol>Apply</uicontrol> to save your changes and
             close the dialog box.</li>
-          <li id="li_gxz_cgk_54b">Click <uicontrol><image href="../img/New16.png"
+          <li id="li_gxz_cgk_54b" irina="irina">Click <uicontrol><image href="../img/New16.png"
                 id="image_tp5_blj_nnb"/>New</uicontrol> button on the toolbar and select the
               <uicontrol>Create Framework Script</uicontrol> template. Save it inside the previously
             configured framework path, <filepath>custom_frameworks/dita-extension</filepath>.</li>
-          <li id="li_odx_gf1_v4b">Edit the script as described in <xref
+          <li id="li_odx_gf1_v4b" irina="irina">Edit the script as described in <xref
               href="wa-framework-customization-script-usecases.dita"/>.</li>
         </ol></p>
       <p id="p_ixz_cgk_54b">To test your customization, open a document that matches the newly created framework and

@@ -30,18 +30,18 @@
       documents: </p>
     <codeblock outputclass="language-css" id="codeblock_fjc_dgk_54b">@namespace oxy url('http://www.oxygenxml.com/extensions/author');</codeblock>
     <ul id="ul_gh4_fyr_gd">
-      <li id="li_gjc_dgk_54b"><b>oxy|document</b> - The <codeph>oxy|document</codeph> selector matches the entire
+      <li id="li_gjc_dgk_54b" irina="irina"><b>oxy|document</b> - The <codeph>oxy|document</codeph> selector matches the entire
         document:<codeblock outputclass="language-css" id="codeblock_hjc_dgk_54b">oxy|document {
     display:block !important;
 }</codeblock></li>
-      <li id="li_ijc_dgk_54b"><b>oxy|doctype</b> - The following example changes the rendering of
+      <li id="li_ijc_dgk_54b" irina="irina"><b>oxy|doctype</b> - The following example changes the rendering of
           <codeph>doctype</codeph> sections:
         <codeblock outputclass="language-css" id="codeblock_jjc_dgk_54b">oxy|doctype {
     display:block !important;
     color:blue !important;
     background-color:transparent !important;
 }</codeblock></li>
-      <li id="li_kjc_dgk_54b">
+      <li id="li_kjc_dgk_54b" irina="irina">
         <p id="p_ljc_dgk_54b"><b>oxy|processing-instruction</b> - To match the processing instructions, you can use the
             <codeph>oxy|processing-instruction</codeph> selector:
           <codeblock outputclass="language-css" id="codeblock_mjc_dgk_54b">oxy|processing-instruction {
@@ -58,21 +58,21 @@
           attribute value, such
           as:<codeblock outputclass="language-css" id="codeblock_sjc_dgk_54b">oxy|processing-instruction[target_name][data="b"]</codeblock></p>
       </li>
-      <li id="li_tjc_dgk_54b"><b>oxy|comment</b> - The XML comments displayed in <uicontrol>Author</uicontrol> mode can
+      <li id="li_tjc_dgk_54b" irina="irina"><b>oxy|comment</b> - The XML comments displayed in <uicontrol>Author</uicontrol> mode can
         be changed using the <codeph>oxy|comment</codeph> selector:
         <codeblock outputclass="language-css" id="codeblock_ujc_dgk_54b">oxy|comment {
     display:block !important;
     color:green !important;
     background-color:transparent !important;
 }</codeblock></li>
-      <li id="li_vjc_dgk_54b"><b>oxy|cdata</b> - The <codeph>oxy|cdata</codeph> selector matches <codeph>CDATA</codeph>
+      <li id="li_vjc_dgk_54b" irina="irina"><b>oxy|cdata</b> - The <codeph>oxy|cdata</codeph> selector matches <codeph>CDATA</codeph>
         sections:
         <codeblock outputclass="language-css" id="codeblock_wjc_dgk_54b">oxy|cdata{
     display:block !important;
     color:gray !important;
     background-color:transparent !important;
 } </codeblock></li>
-      <li id="li_xjc_dgk_54b">
+      <li id="li_xjc_dgk_54b" irina="irina">
         <p id="p_yjc_dgk_54b"><b>oxy|entity</b> - The <codeph>oxy|entity</codeph> selector matches the entity
           content:<codeblock outputclass="language-css" id="codeblock_zjc_dgk_54b">oxy|entity {
     display:morph !important;
@@ -91,7 +91,7 @@ oxy|entity[name^='#']{
     -oxy-display-tags: none;
 }</codeblock></p>
       </li>
-      <li id="li_ckc_dgk_54b">
+      <li id="li_ckc_dgk_54b" irina="irina">
         <p id="p_dkc_dgk_54b"><b>oxy|reference</b> - The <i>references to entities</i>, <i>XInclude</i>, and DITA
             <xmlatt>conref</xmlatt> and <xmlatt>conkeyref</xmlatt> attributes are expanded by
           default in <uicontrol>Author</uicontrol> mode and the referenced content is displayed. The
@@ -115,17 +115,17 @@ oxy|entity[name^='#']{
             changes in the content.</note></p>
         <p id="p_jkc_dgk_54b">
           <ul id="ul_udv_z3b_v3b">
-            <li id="li_kkc_dgk_54b">The following example represents the customization of the reference fragments that
+            <li id="li_kkc_dgk_54b" irina="irina">The following example represents the customization of the reference fragments that
               contain
               comments:<codeblock outputclass="language-css" id="codeblock_lkc_dgk_54b">oxy|reference[comments]:before {
   content: "Comments: " attr(comments) !important;  
 }</codeblock></li>
-            <li id="li_mkc_dgk_54b">To match reference fragments based on the fact that they contain tracked changes
+            <li id="li_mkc_dgk_54b" irina="irina">To match reference fragments based on the fact that they contain tracked changes
               inside, use the <codeph>oxy|reference[changeTracking]</codeph>
               selector:<codeblock outputclass="language-css" id="codeblock_nkc_dgk_54b">oxy|reference[changeTracking]:before {
   content: "Change tracking: " attr(changeTracking) !important;  
 }</codeblock></li>
-            <li id="li_okc_dgk_54b">Here is an example of how you can set a custom color for the reference containing
+            <li id="li_okc_dgk_54b" irina="irina">Here is an example of how you can set a custom color for the reference containing
               both tracked changes and
               comments:<codeblock outputclass="language-css" id="codeblock_pkc_dgk_54b">oxy|reference[changeTracking][comments]:before {
   content: "Change tracking: " attr(changeTracking) 

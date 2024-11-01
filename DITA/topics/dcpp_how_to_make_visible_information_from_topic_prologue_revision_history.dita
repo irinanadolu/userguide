@@ -24,9 +24,9 @@
     <p>By default, the <xmlelement>prolog</xmlelement> element is hidden
         (<codeph>display:none</codeph>) and has several properties that make it collapse, even if
       the display property is changed.<ul id="ul_a5v_pkh_dxb">
-        <li>It has a transparent color.</li>
-        <li>The font has size zero.</li>
-        <li>The width and height values are zero.</li>
+        <li irina="irina">It has a transparent color.</li>
+        <li irina="irina">The font has size zero.</li>
+        <li irina="irina">The width and height values are zero.</li>
       </ul>Start by resetting the prolog properties, but only for prologs that contains a history
       list. The others will be kept
       hidden.<codeblock id="codeblock_dk2_mkh_dxb" outputclass="language-css">*[class~="topic/prolog"]:has(*[class~="relmgmt-d/change-historylist"] ){

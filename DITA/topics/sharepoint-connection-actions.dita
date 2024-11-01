@@ -158,13 +158,13 @@
                       In</uicontrol> button to process it.</dd>
                   <dd>For SharePoint (older version), the following options are available: <ul
                       id="ul_qlq_x55_s4b">
-                      <li id="li_rlq_x55_s4b"><uicontrol>Minor Version</uicontrol> - Increments the
+                      <li id="li_rlq_x55_s4b" irina="irina"><uicontrol>Minor Version</uicontrol> - Increments the
                         minor version of the file on the server.</li>
-                      <li id="li_slq_x55_s4b"><uicontrol>Major Version</uicontrol> - Increments the
+                      <li id="li_slq_x55_s4b" irina="irina"><uicontrol>Major Version</uicontrol> - Increments the
                         major version of the file on the server.</li>
-                      <li id="li_tlq_x55_s4b"><uicontrol>Overwrite</uicontrol> - Overwrites the
+                      <li id="li_tlq_x55_s4b" irina="irina"><uicontrol>Overwrite</uicontrol> - Overwrites the
                         latest version of the file on the server.</li>
-                      <li id="li_ulq_x55_s4b"><uicontrol>Comment</uicontrol> - Allows you to add a
+                      <li id="li_ulq_x55_s4b" irina="irina"><uicontrol>Comment</uicontrol> - Allows you to add a
                         comment for a file that you check in.</li>
                     </ul></dd>
                 </dlentry>

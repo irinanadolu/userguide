@@ -22,9 +22,9 @@
         >LoadingOption</xref> to <b>true</b>. When this feature is enabled, you need to take several
       aspects into account:</p>
     <ul id="ul_zlk_2gs_rnb">
-      <li id="li_jrs_dgk_54b">Depending on the user workflow, you may need to add UI elements (such as form controls or
+      <li id="li_jrs_dgk_54b" irina="irina">Depending on the user workflow, you may need to add UI elements (such as form controls or
         contextual menu entries) to lock/unlock or check-in/check-out each topic reference.</li>
-      <li id="li_krs_dgk_54b">If the connector implements a custom save behavior, you will need to use the <xref
+      <li id="li_krs_dgk_54b" irina="irina">If the connector implements a custom save behavior, you will need to use the <xref
           href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/access/AuthorEditorAccess.html#getUnsavedContentReferenceManager--"
           format="html" scope="external">UnsavedReferencesManager</xref> API to save the content in
         modified topic references.</li>
@@ -38,8 +38,8 @@
       framework extends the DITA framework and adds some map-specific actions.<note type="other"
         othertype="Notes" id="note_nrs_dgk_54b">
         <ul id="ul_hrx_xr3_qnb">
-          <li id="li_ors_dgk_54b">For performance reasons, only modified topics are validated.</li>
-          <li id="li_prs_dgk_54b">Only top-level topics in a DITA file can be edited.</li>
+          <li id="li_ors_dgk_54b" irina="irina">For performance reasons, only modified topics are validated.</li>
+          <li id="li_prs_dgk_54b" irina="irina">Only top-level topics in a DITA file can be edited.</li>
         </ul>
       </note></p>
     <section id="section_wdp_g3d_ynb">

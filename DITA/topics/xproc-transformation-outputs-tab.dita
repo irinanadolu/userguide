@@ -61,8 +61,8 @@
     </p>
     <p id="p_abm_cgk_54b">The result of the XProc transformation can be displayed as a sequence in an output view with
       two sections: <ul id="ul_2pb_rpm_lf">
-        <li id="li_bbm_cgk_54b">A list with the output ports on the left side.</li>
-        <li id="li_cbm_cgk_54b">The content that correspond to the selected output port on the right side.</li>
+        <li id="li_bbm_cgk_54b" irina="irina">A list with the output ports on the left side.</li>
+        <li id="li_cbm_cgk_54b" irina="irina">The content that correspond to the selected output port on the right side.</li>
       </ul></p>
     <p id="p_dbm_cgk_54b">
       <fig id="figure-xproc-output-view-oxygen" product="editor author developer">

@@ -34,8 +34,8 @@
       <note id="note_ysq_bgk_54b">It is also possible to create a Schematron association for Markdown documents by adding
         a <xref href="using-XML-Catalogs.dita">catalog mapping</xref> for one of the following
           URIs:<ul id="ul_xh5_tnk_nkb">
-          <li id="li_zsq_bgk_54b"><b>http://www.oxygenxml.com/schematron/validation/markdown-as-html</b></li>
-          <li id="li_atq_bgk_54b"><b>http://www.oxygenxml.com/schematron/validation/markdown-as-dita</b></li>
+          <li id="li_zsq_bgk_54b" irina="irina"><b>http://www.oxygenxml.com/schematron/validation/markdown-as-html</b></li>
+          <li id="li_atq_bgk_54b" irina="irina"><b>http://www.oxygenxml.com/schematron/validation/markdown-as-dita</b></li>
         </ul><p id="p_btq_bgk_54b">The catalog mapping is a fallback in case the validation is disabled in this
           preferences page or the path to the Schematron is empty. The associations configured in
           this preferences page take precedence.</p></note>

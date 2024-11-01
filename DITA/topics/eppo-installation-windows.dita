@@ -40,18 +40,18 @@
     <section id="windows_installer">
       <title>Windows Installer</title>
       <p id="p_ptm_bgk_54b">To install <ph keyref="product"/> using the Windows installer, follow these steps:<ol id="ol_qtm_bgk_54b">
-          <li id="li_rtm_bgk_54b">Make sure that your system meets the <xref
+          <li id="li_rtm_bgk_54b" irina="irina">Make sure that your system meets the <xref
               keyref="eppo_installation_windows/system_requirements" format="dita">system
               requirements</xref>.</li>
-          <li id="li_stm_bgk_54b"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
+          <li id="li_stm_bgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
               >Download</xref> the Windows installer.</li>
-          <li id="li_ttm_bgk_54b">[Optional] Validate the integrity of the downloaded file by <xref
+          <li id="li_ttm_bgk_54b" irina="irina">[Optional] Validate the integrity of the downloaded file by <xref
               href="http://en.wikipedia.org/wiki/Md5sum" format="html" scope="external">checking it
               against the MD5 sum</xref> published on the download page.</li>
-          <li id="li_utm_bgk_54b">Run the installer and follow the instructions in the installation program.</li>
-          <li id="li_vtm_bgk_54b">Start <ph keyref="product"/> using one of the following methods:<ul id="ul_wtm_bgk_54b">
-              <li id="li_xtm_bgk_54b">Use one of the shortcuts created by the installer.</li>
-              <li id="li_ytm_bgk_54b">Run <ph product="editor"
+          <li id="li_utm_bgk_54b" irina="irina">Run the installer and follow the instructions in the installation program.</li>
+          <li id="li_vtm_bgk_54b" irina="irina">Start <ph keyref="product"/> using one of the following methods:<ul id="ul_wtm_bgk_54b">
+              <li id="li_xtm_bgk_54b" irina="irina">Use one of the shortcuts created by the installer.</li>
+              <li id="li_ytm_bgk_54b" irina="irina">Run <ph product="editor"
                   ><filepath>oxygen.bat</filepath></ph><ph product="author"
                     ><filepath>oxygenAuthor.bat</filepath></ph><ph product="developer"
                     ><filepath>oxygenDeveloper.bat</filepath></ph><ph product="json"
@@ -59,7 +59,7 @@
                     ><filepath>syncroSVNClient.bat</filepath></ph>, which is located in the
                 installation directory.</li>
             </ul></li>
-          <li id="li_ztm_bgk_54b">To license your copy of <ph keyref="product"/>, go to <menucascade>
+          <li id="li_ztm_bgk_54b" irina="irina">To license your copy of <ph keyref="product"/>, go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Register</uicontrol>
             </menucascade> and enter your <xref keyref="install_license-key">license

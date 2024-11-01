@@ -99,9 +99,9 @@
     <p id="p_vhy_bgk_54b">When an image cannot be rendered, <ph keyref="product"/>
       <uicontrol>Author</uicontrol> mode displays a warning message that contains the reason why
       this is happening. Possible causes include the following:<ul id="ul_why_bgk_54b">
-        <li id="li_xhy_bgk_54b">The image is too large. Select the <xref keyref="options_author/show-very-large-images"
+        <li id="li_xhy_bgk_54b" irina="irina">The image is too large. Select the <xref keyref="options_author/show-very-large-images"
             format="dita"><uicontrol>Show very large images</uicontrol> option</xref>.</li>
-        <li id="li_yhy_bgk_54b">The image format is not supported by default. It is recommended to
+        <li id="li_yhy_bgk_54b" irina="irina">The image format is not supported by default. It is recommended to
             <xref href="../topics/author-image-rendering-jai.dita#author-image-rendering-jai"
             format="dita">install the <term>Java Advanced Imaging(JAI) Image I/O Tools</term>
             plug-in</xref>.</li>
@@ -121,13 +121,13 @@
       <title>Scaling Images</title>
       <p id="p_f3y_bgk_54b">Image dimension and scaling attributes are taken into account when an image is rendered.
         The following rules apply:<ul id="ul_g3y_bgk_54b">
-          <li id="li_h3y_bgk_54b">If you specify only the width attribute of an image, the height of the image is
+          <li id="li_h3y_bgk_54b" irina="irina">If you specify only the width attribute of an image, the height of the image is
             proportionally applied.</li>
-          <li id="li_i3y_bgk_54b">If you specify only the height attribute of an image, the width of the image is
+          <li id="li_i3y_bgk_54b" irina="irina">If you specify only the height attribute of an image, the width of the image is
             proportionally applied.</li>
-          <li id="li_j3y_bgk_54b">If you specify width and height attributes of an image, both of them control the
+          <li id="li_j3y_bgk_54b" irina="irina">If you specify width and height attributes of an image, both of them control the
             rendered image.</li>
-          <li id="li_k3y_bgk_54b">If you want to scale both the width and height of an image proportionally, use the
+          <li id="li_k3y_bgk_54b" irina="irina">If you want to scale both the width and height of an image proportionally, use the
               <xmlatt>scale</xmlatt> attribute.</li>
         </ul></p>
     </section>

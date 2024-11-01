@@ -24,13 +24,13 @@
       merge proposed changes back into your documentation.</p>
     <p id="p_mmt_dgk_54b">To create a new task, add files to it, and then upload the task to the <ph
         keyref="product"/> server, follow these steps:<ol id="ol_hvx_cl4_f1b">
-        <li id="li_nmt_dgk_54b">If the <xref href="cf_task_manager_view.dita"><uicontrol>Content
+        <li id="li_nmt_dgk_54b" irina="irina">If the <xref href="cf_task_manager_view.dita"><uicontrol>Content
               Fusion Tasks Manager</uicontrol> view</xref> is not already opened, click the
               <uicontrol><image href="../img/ShowFusion18.png" id="image_ivx_cl4_f1b"/>Show Content
             Fusion Task Manager</uicontrol> toolbar button (or go to <uicontrol>Window</uicontrol> /
             <uicontrol>Show View</uicontrol> / <uicontrol>Content Fusion Tasks
           Manager</uicontrol>).</li>
-        <li id="li_omt_dgk_54b">
+        <li id="li_omt_dgk_54b" irina="irina">
           <p id="p_pmt_dgk_54b">Add files to the <uicontrol>New Task</uicontrol> box:</p>
           <p id="p_qmt_dgk_54b">
             <fig id="fig_lvx_cl4_f1b">
@@ -39,23 +39,23 @@
             </fig>
           </p>
           <p id="p_rmt_dgk_54b">You can use any of the following methods:<ul id="ul_m5v_ynq_4jb">
-              <li id="li_smt_dgk_54b">Drag files that you want to be reviewed from the
+              <li id="li_smt_dgk_54b" irina="irina">Drag files that you want to be reviewed from the
                   <uicontrol>Project</uicontrol> view or your system file explorer and drop them in
                 the <uicontrol>New Task</uicontrol> box (or click the <uicontrol>Choose</uicontrol>
                 link to select the files) to add the files to a new task. If you drag and drop a
                 folder from the <uicontrol>Project</uicontrol> view or system file explorer, all
                 files in that directory will be added to the task.</li>
-              <li id="li_tmt_dgk_54b">You can add the currently open document to a task by selecting
+              <li id="li_tmt_dgk_54b" irina="irina">You can add the currently open document to a task by selecting
                     <uicontrol><image href="../img/ShowFusion18.png" id="image_jvx_cl4_f1b"/>Add
                   File to Review Task</uicontrol> from the <uicontrol>Review</uicontrol> submenu in
                 the contextual menu in <uicontrol>Author</uicontrol> mode.</li>
-              <li id="li_umt_dgk_54b">You can also add external resources (for example, WebDAV
+              <li id="li_umt_dgk_54b" irina="irina">You can also add external resources (for example, WebDAV
                 resources or DITA references to external resources). For example, you can drag
                 resources from the <uicontrol>Data Source Explorer</uicontrol> view and drop them in
                 the <uicontrol>New Task</uicontrol> box. However, only modifications to external
                 resources can be applied when you <xref href="merging_changes.dita#merging_changes"
                   >merge the changes</xref> (you cannot add or delete external resources).</li>
-              <li id="li_vmt_dgk_54b">For DITA files, drag the files from the <uicontrol>DITA Maps
+              <li id="li_vmt_dgk_54b" irina="irina">For DITA files, drag the files from the <uicontrol>DITA Maps
                   Manager</uicontrol> and drop them into the <uicontrol>New Task</uicontrol> box (or
                 select <uicontrol><image href="../img/ShowFusion18.png" id="image_n5v_ynq_4jb"/>Add
                   to Review Task</uicontrol> from the contextual menu in the <uicontrol>DITA Maps
@@ -77,9 +77,9 @@
                   </p></note></li>
             </ul></p>
         </li>
-        <li id="li_ymt_dgk_54b">Enter a <uicontrol>Title</uicontrol> for the task. This task title
+        <li id="li_ymt_dgk_54b" irina="irina">Enter a <uicontrol>Title</uicontrol> for the task. This task title
           will help you differentiate between multiple tasks so each one should be unique.</li>
-        <li id="context-dita-map">
+        <li id="context-dita-map" irina="irina">
           <p id="p_zmt_dgk_54b"><b>[DITA Only]</b> If you are working with DITA, you should attach
             the context <term>root</term> map (<image href="../img/ChooseDitaRootMap16.png"
               id="image_epg_zhh_sjb"/>) so that all references and defined keys can be resolved and
@@ -98,7 +98,7 @@
             </fig>
           </p>
         </li>
-        <li id="li_bnt_dgk_54b"><b>[DITA Only]</b> If you are working with DITA, you can specify a
+        <li id="li_bnt_dgk_54b" irina="irina"><b>[DITA Only]</b> If you are working with DITA, you can specify a
           DITAVAL file (<image href="../img/ProfilingToolbar16.png" id="image_dd2_s3h_sjb"/>) so
           that the content in the uploaded DITA topics is filtered based upon the conditional
           profiling attribute values defined in the DITAVAL file. You can drag a DITAVAL file and
@@ -106,7 +106,7 @@
               href="../img/Open16.png" id="image_klf_y3h_sjb"/>Choose DITAVAL</uicontrol> button to
           select a file. If a condition set is selected in the DITA Maps Manager, the corresponding
           DITAVAL file will automatically be selected in the task.</li>
-        <li id="li_cnt_dgk_54b"><b>[Non-DITA]</b> If the attached files are detected as any file
+        <li id="li_cnt_dgk_54b" irina="irina"><b>[Non-DITA]</b> If the attached files are detected as any file
           type other than DITA (and a DITA map is not selected as the context root map in the
             <uicontrol>DITA Maps Manager</uicontrol>), an option (<uicontrol>Also include all files
             that are referenced within the attached files</uicontrol>) will be available. If you
@@ -115,14 +115,14 @@
           the referenced content. Also, when this option is selected, you can click the
             <uicontrol>Next</uicontrol> button to preview the referenced files and you can choose to
           remove any that you do not want uploaded.</li>
-        <li id="li_j14_fxp_21c">Optionally, you can specify a <uicontrol>Due Date</uicontrol>.
+        <li id="li_j14_fxp_21c" irina="irina">Optionally, you can specify a <uicontrol>Due Date</uicontrol>.
           Within the browser interface, the amount of time left before the due date arrives is
           displayed under the review task's title when you have navigated inside the task and also
           in the table in the <xref href="content_fusion_task_details.dita"><uicontrol>My Review
               Tasks</uicontrol> page</xref>. Also, any reviewers who have not finalized the task
           will receive an email notification when the due date is within 3 days, 1 day, and 12 hours
           of its expiration.</li>
-        <li id="li_dnt_dgk_54b">Click the <uicontrol>Upload</uicontrol> button to finish the task
+        <li id="li_dnt_dgk_54b" irina="irina">Click the <uicontrol>Upload</uicontrol> button to finish the task
           creation process and upload the information to the <ph keyref="product"/> server.</li>
       </ol></p>
     <p id="p_ent_dgk_54b"><b>Result:</b> The task information is now available in the <ph

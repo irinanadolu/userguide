@@ -35,9 +35,9 @@
     <note type="tip" id="note_r5y_bgk_54b">If you experience performance issues when editing documents that contain
       bidirectional text, you could try <ph product="author editor">one of the following
         solutions</ph><ph product="authorEclipse editorEclipse">the following solution</ph>:<ul id="ul_s5y_bgk_54b">
-        <li product="author editor" id="li_t5y_bgk_54b">The Eclipse plugin distribution of <ph keyref="product"/> is
+        <li product="author editor" id="li_t5y_bgk_54b" irina="irina">The Eclipse plugin distribution of <ph keyref="product"/> is
           faster than the standalone version when working with bidirectional text.</li>
-        <li id="li_u5y_bgk_54b">You could try changing the font. For example, you could try using
+        <li id="li_u5y_bgk_54b" irina="irina">You could try changing the font. For example, you could try using
             the<term>David</term> font in Hebrew content. If it is not already installed in your
           operating system, this font is available at: <xref
             href="https://www.microsoft.com/typography/fonts/family.aspx?FID=234" format="html"

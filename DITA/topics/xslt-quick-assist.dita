@@ -22,7 +22,7 @@
           1</shortcut></uicontrol> on macOS) keyboard shortcuts.</p>
     <p id="p_qcb_cgk_54b">Two categories of actions are available in the <term>Quick Assist</term> menu:<ul
         id="ul_ckb_cfc_c4">
-        <li id="li_rcb_cgk_54b">
+        <li id="li_rcb_cgk_54b" irina="irina">
           <p id="p_scb_cgk_54b">Actions available on a selection made inside an attribute that contains an XPath
             expression:</p>
           <p id="p_tcb_cgk_54b">
@@ -75,7 +75,7 @@
             </fig>
           </p>
         </li>
-        <li id="li_edb_cgk_54b">
+        <li id="li_edb_cgk_54b" irina="irina">
           <p id="p_fdb_cgk_54b">Actions available when the cursor is positioned over the name of a component:</p>
           <p id="p_gdb_cgk_54b">
             <dl conkeyref="reusables-editing-documents/quick_assist_actions_list" id="dl_hdb_cgk_54b">

@@ -20,7 +20,7 @@
               the document, the namespace declaration attributes will be removed from elements
               contained by the inserted fragment. </p>
             <p id="p_pn1_dgk_54b">There are two possible scenarios:<ul id="ol_a9cd91c4-d9d0-4c25-ae3f-df91171f25b1">
-                <li id="li_qn1_dgk_54b">
+                <li id="li_qn1_dgk_54b" irina="irina">
                   <p id="p_rn1_dgk_54b"><u><b>Prefixes that are not bound explicitly</b></u></p>
                   <p id="p_sn1_dgk_54b">For instance, the
                     fragment:<codeblock outputclass="language-xml" id="codeblock_tn1_dgk_54b">&lt;x:item id="dty2"/&gt;
@@ -45,7 +45,7 @@
     &lt;x:item id="dty3"/&gt;
 &lt;/x:root&gt;</codeblock></p>
                 </li>
-                <li id="li_yn1_dgk_54b">
+                <li id="li_yn1_dgk_54b" irina="irina">
                   <p id="p_zn1_dgk_54b"><u><b>Default namespaces</b></u></p>
                   <p id="p_a41_dgk_54b">If there is a default namespace declared in the document and the <xref
                       keyref="glossentry_document-fragment"><term>document fragment</term></xref>
@@ -82,12 +82,12 @@
           <dd>
             <p id="p_k41_dgk_54b">Specifies where the insertion is made relative to the reference node selected by the
                 <i>insertLocation</i>. It can be one of the following constants:<ul id="ul_l41_dgk_54b">
-                <li id="li_m41_dgk_54b"><b>Inside as first child</b> (default value) - The fragment is inserted as first
+                <li id="li_m41_dgk_54b" irina="irina"><b>Inside as first child</b> (default value) - The fragment is inserted as first
                   child of the reference node.</li>
-                <li id="li_n41_dgk_54b"><b>Inside as last child</b> - The fragment is inserted as the last child of the
+                <li id="li_n41_dgk_54b" irina="irina"><b>Inside as last child</b> - The fragment is inserted as the last child of the
                   reference node.</li>
-                <li id="li_o41_dgk_54b"><b>After</b> - The fragment is inserted after the reference node.</li>
-                <li id="li_p41_dgk_54b"><b>Before</b> - The fragment is inserted before the reference node.</li>
+                <li id="li_o41_dgk_54b" irina="irina"><b>After</b> - The fragment is inserted after the reference node.</li>
+                <li id="li_p41_dgk_54b" irina="irina"><b>Before</b> - The fragment is inserted before the reference node.</li>
               </ul></p>
           </dd>
         </dlentry>

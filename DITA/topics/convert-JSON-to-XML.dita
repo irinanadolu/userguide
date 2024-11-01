@@ -36,7 +36,7 @@
         </menucascade> menu.</p>
       <p id="p_fyf_cgk_54b">To convert a JSON document to XML, follow these steps:</p>
       <ol id="ol_o2q_dxv_llb">
-        <li id="li_gyf_cgk_54b">
+        <li id="li_gyf_cgk_54b" irina="irina">
           <p id="p_hyf_cgk_54b">Select the <uicontrol>JSON to XML</uicontrol> action from the
               <menucascade product="developer editor json">
               <uicontrol>Tools</uicontrol>
@@ -53,12 +53,12 @@
             </fig>
           </p>
         </li>
-        <li id="li_kyf_cgk_54b"> Choose or enter the <uicontrol>Input URL</uicontrol> of the JSON document. </li>
-        <li id="li_lyf_cgk_54b"> Choose the path of the <uicontrol>Output file</uicontrol> that will contain the
+        <li id="li_kyf_cgk_54b" irina="irina"> Choose or enter the <uicontrol>Input URL</uicontrol> of the JSON document. </li>
+        <li id="li_lyf_cgk_54b" irina="irina"> Choose the path of the <uicontrol>Output file</uicontrol> that will contain the
           resulting XML document. </li>
-        <li id="li_myf_cgk_54b"> Select the <uicontrol>Open in Editor</uicontrol> option to open the resulting XML
+        <li id="li_myf_cgk_54b" irina="irina"> Select the <uicontrol>Open in Editor</uicontrol> option to open the resulting XML
           document in the main editing pane. </li>
-        <li id="li_nyf_cgk_54b"> Click the <uicontrol>Convert</uicontrol> button. </li>
+        <li id="li_nyf_cgk_54b" irina="irina"> Click the <uicontrol>Convert</uicontrol> button. </li>
       </ol>
       <p id="p_oyf_cgk_54b"><b>Result:</b> The original JSON document is now converted to an XML document.</p>
       <p id="p_pyf_cgk_54b">
@@ -71,7 +71,7 @@
     <section id="section_t2q_dxv_llb">
       <title>Conversion Details</title>
       <ul id="ul_u2q_dxv_llb">
-        <li id="li_qyf_cgk_54b">
+        <li id="li_qyf_cgk_54b" irina="irina">
           <p id="p_ryf_cgk_54b">If the JSON document has more than one property on the first level, the converted XML
             document will have an additional root element called <xmlelement>JSON</xmlelement>.</p>
           <p id="p_syf_cgk_54b">For example, the following JSON
@@ -98,7 +98,7 @@
   &lt;id>personnel-id&lt;/id>
 &lt;/JSON></codeblock></p>
         </li>
-        <li id="li_wyf_cgk_54b">
+        <li id="li_wyf_cgk_54b" irina="irina">
           <p id="p_xyf_cgk_54b">If the JSON document is an array, the converted XML document will have a root element
             called <xmlelement>array</xmlelement> and for each item within the array, another
               <xmlelement>array</xmlelement> is
@@ -117,7 +117,7 @@
   &lt;/array>
 &lt;/array></codeblock></p>
         </li>
-        <li id="li_bzf_cgk_54b">
+        <li id="li_bzf_cgk_54b" irina="irina">
           <p id="p_czf_cgk_54b">If the name of a JSON property contains characters that are not valid in XML element
             names (for example, <b>$</b>), then the invalid characters will be escaped as its
             hexadecimal equivalent in the converted

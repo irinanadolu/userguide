@@ -29,17 +29,17 @@
         the configuration file (<filepath>cc_config.xml</filepath>) includes a series of
           <codeph>valueProposals</codeph> instructions that will match an element or attribute name
         and has the following attributes:<ul id="ul_ssl_g5p_cpb">
-          <li><p><b>path</b> - A path within the document that matches the element or attribute that
+          <li irina="irina"><p><b>path</b> - A path within the document that matches the element or attribute that
               will have its content completion proposals changed. For example:<ul
                 id="ul_ddd_hcq_cpb">
-                <li><codeph>path="title"</codeph> matches all the <xmlelement>title</xmlelement>
+                <li irina="irina"><codeph>path="title"</codeph> matches all the <xmlelement>title</xmlelement>
                   elements in the document.</li>
-                <li><codeph>path="chapter/title"</codeph> matches only the
+                <li irina="irina"><codeph>path="chapter/title"</codeph> matches only the
                     <xmlelement>title</xmlelement> elements that are direct children of the
                     <xmlelement>chapter</xmlelement> element.</li>
-                <li><codeph>path="@xml:lang"</codeph> matches all the <xmlatt>xml:lang</xmlatt>
+                <li irina="irina"><codeph>path="@xml:lang"</codeph> matches all the <xmlatt>xml:lang</xmlatt>
                   attributes in the document.</li>
-                <li><codeph>path="title/@xml:lang"</codeph> matches only the
+                <li irina="irina"><codeph>path="title/@xml:lang"</codeph> matches only the
                     <xmlatt>xml:lang</xmlatt> attributes that appear on
                     <xmlelement>title</xmlelement> elements. </li>
               </ul></p>You can use simplified forms of XPath in this attribute.<p
@@ -48,38 +48,38 @@
               /><p conkeyref="reusables-author-mode-customization/p_l51_dgk_54b" id="p_gxs_byc_dpb"
               /><p conkeyref="reusables-author-mode-customization/p_path_attr_examples"
               id="p_pdh_cyc_dpb"/></li>
-          <li><b>editable</b> - Specifies the editable state of the attribute values, as reflected
+          <li irina="irina"><b>editable</b> - Specifies the editable state of the attribute values, as reflected
             in the <xref href="author-attributes-view.dita#author-attributes-view"
                 ><uicontrol>Attributes</uicontrol> view</xref> and the <xref
               href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
                 ><uicontrol>In-place Attributes Editor</uicontrol></xref>. The possible values for
             the <xmlatt>editable</xmlatt> attribute are:<ul id="ul_by1_dgk_54b">
-              <li id="li_cy1_dgk_54b"><b>true</b> - The attribute values can be edited by choosing
+              <li id="li_cy1_dgk_54b" irina="irina"><b>true</b> - The attribute values can be edited by choosing
                 from a combo box or manually providing a value.</li>
-              <li id="li_dy1_dgk_54b"><b>false</b> - The attribute values cannot be edited.</li>
-              <li id="li_ey1_dgk_54b"><b>onlyAllowedItems</b> - The attribute values can be edited,
+              <li id="li_dy1_dgk_54b" irina="irina"><b>false</b> - The attribute values cannot be edited.</li>
+              <li id="li_ey1_dgk_54b" irina="irina"><b>onlyAllowedItems</b> - The attribute values can be edited,
                 but only by choosing from a list of proposed values, in a non-editable combo
                 box.</li>
             </ul></li>
         </ul></p>
       <p id="p_fy1_dgk_54b">The new value proposals are specified in the
           <xmlelement>valueProposals</xmlelement> element through: <ul id="ul_kbn_ldq_cpb">
-          <li>One or more <xmlelement>item</xmlelement> elements, which are grouped inside an
+          <li irina="irina">One or more <xmlelement>item</xmlelement> elements, which are grouped inside an
               <xmlelement>items</xmlelement> element.<note id="note_npp_r2q_sqb" type="tip">The
                 <xmlelement>item</xmlelement> element can have a <xmlatt>listValue</xmlatt>
               attribute, which can be set to <b>true</b> if you want those items to be part of a
               list attribute value (such as <codeph>attr="item1 item2"</codeph>).</note></li>
-          <li>An <xmlelement>xslt</xmlelement> element that references an XSLT script that gets
+          <li irina="irina">An <xmlelement>xslt</xmlelement> element that references an XSLT script that gets
             executed and must return an <xmlelement>items</xmlelement> element.</li>
         </ul></p>
       <p>The behavior of the <xmlelement>items</xmlelement> or <xmlelement>xslt</xmlelement>
         elements are specified with the help of the <xmlatt>action</xmlatt> attribute, which can
         have any of the following values:<ul id="ul_ghd_c55_kr">
-          <li id="li_gy1_dgk_54b"><b>append</b> - Adds new values to appear in the proposals list
+          <li id="li_gy1_dgk_54b" irina="irina"><b>append</b> - Adds new values to appear in the proposals list
             (default value).</li>
-          <li id="li_hy1_dgk_54b"><b>addIfEmpty</b> - Adds new values to the proposals list only if
+          <li id="li_hy1_dgk_54b" irina="irina"><b>addIfEmpty</b> - Adds new values to the proposals list only if
             no other values are contributed by the schema.</li>
-          <li id="li_iy1_dgk_54b"><b>replace</b> - Replaces the values contributed by the schema
+          <li id="li_iy1_dgk_54b" irina="irina"><b>replace</b> - Replaces the values contributed by the schema
             with new values to appear in the proposals list.</li>
         </ul></p>
       <p id="p_jy1_dgk_54b">The values in the configuration file can be specified either directly or
@@ -98,9 +98,9 @@
       <title>Other Important Notes About the Configuration File</title>
       <note type="important" id="note_ky1_dgk_54b">
         <ul id="ul_ly1_dgk_54b">
-          <li id="li_my1_dgk_54b">This configuration file only affects the content completion assistance, not
+          <li id="li_my1_dgk_54b" irina="irina">This configuration file only affects the content completion assistance, not
             validation.</li>
-          <li id="li_ny1_dgk_54b">To test the effects of your changes, you should <xref
+          <li id="li_ny1_dgk_54b" irina="irina">To test the effects of your changes, you should <xref
               href="author-editing-refreshing.dita">Refresh the source document</xref>.</li>
         </ul>
       </note>

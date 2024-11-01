@@ -21,10 +21,10 @@
       processor has to decide what resolution to use to determine the size of the graphic. To solve
       this, the processor extracts the DPI from:</p>
     <ul id="ol_tyf_cnz_xz">
-      <li id="li_flv_dgk_54b">The <codeph>image-resolution</codeph> CSS property associated to the element that contains
+      <li id="li_flv_dgk_54b" irina="irina">The <codeph>image-resolution</codeph> CSS property associated to the element that contains
         the image.</li>
-      <li id="li_glv_dgk_54b">The <codeph>-image-resolution</codeph> command-line parameter.</li>
-      <li id="li_hlv_dgk_54b">The built-in fallback resolution of 96 DPI.</li>
+      <li id="li_glv_dgk_54b" irina="irina">The <codeph>-image-resolution</codeph> command-line parameter.</li>
+      <li id="li_hlv_dgk_54b" irina="irina">The built-in fallback resolution of 96 DPI.</li>
     </ul>
     <p id="p_ilv_dgk_54b">The recommended way to change this is by using the CSS Level 4
         <codeph>image-resolution</codeph> property:</p>

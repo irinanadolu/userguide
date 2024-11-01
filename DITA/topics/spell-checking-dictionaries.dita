@@ -17,11 +17,11 @@
       language-country variant combination have their own specific dictionaries. <ph
         keyref="product"/> includes the following built-in dictionaries for the spell checker:</p>
     <ul id="ul_gk5_bgk_54b">
-      <li id="li_hk5_bgk_54b">English (US) [<codeph>en_US</codeph>]</li>
-      <li id="li_ik5_bgk_54b">English (UK) [<codeph>en_GB</codeph>]</li>
-      <li id="li_jk5_bgk_54b">French [<codeph>fr</codeph>]</li>
-      <li id="li_kk5_bgk_54b">German [<codeph>de_DE</codeph>]</li>
-      <li id="li_lk5_bgk_54b">Spanish [<codeph>es_ES</codeph>]</li>
+      <li id="li_hk5_bgk_54b" irina="irina">English (US) [<codeph>en_US</codeph>]</li>
+      <li id="li_ik5_bgk_54b" irina="irina">English (UK) [<codeph>en_GB</codeph>]</li>
+      <li id="li_jk5_bgk_54b" irina="irina">French [<codeph>fr</codeph>]</li>
+      <li id="li_kk5_bgk_54b" irina="irina">German [<codeph>de_DE</codeph>]</li>
+      <li id="li_lk5_bgk_54b" irina="irina">Spanish [<codeph>es_ES</codeph>]</li>
     </ul>
     <section id="other_hunspell_dictionaries">
       <title>Other Hunspell Dictionaries</title>

@@ -26,10 +26,10 @@
       <title>Licensing</title>
       <p id="p_pkq_dgk_54b">Follow these steps to license a deployment of the <ph keyref="webappProduct"/>:</p>
       <ol id="ol_ctz_bzr_1r">
-        <li id="li_qkq_dgk_54b"><xref href="floating-license-servlet-setup.dita#floating-license-servlet-setup">Install
+        <li id="li_qkq_dgk_54b" irina="irina"><xref href="floating-license-servlet-setup.dita#floating-license-servlet-setup">Install
             a floating license server</xref>. You can deploy the HTTP license server in the same
           Tomcat server, alongside with <ph keyref="webappProduct"/>.</li>
-        <li id="li_rkq_dgk_54b">Configure the license server connection.<note id="note_skq_dgk_54b">Information about your license will be
+        <li id="li_rkq_dgk_54b" irina="irina">Configure the license server connection.<note id="note_skq_dgk_54b">Information about your license will be
             displayed in the <uicontrol>About</uicontrol> section of the <ph keyref="webappProduct"/>
             <xref href="webapp-create-open-docs.dita#webapp-create-open-docs" product="webauthor"
                 ><uicontrol>Dashboard</uicontrol></xref><xref

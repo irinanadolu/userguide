@@ -45,15 +45,15 @@
     <section id="linux_installer">
       <title>Linux Installer</title>
       <p id="p_dxm_bgk_54b">To install <ph keyref="product"/> using the Linux installer, follow these steps:<ol id="ol_exm_bgk_54b">
-          <li id="li_fxm_bgk_54b">Make sure that your system meets the <xref
+          <li id="li_fxm_bgk_54b" irina="irina">Make sure that your system meets the <xref
               href="#eppo-installation-linux/system_requirements" format="dita">system
               requirements</xref>.</li>
-          <li id="li_gxm_bgk_54b"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
+          <li id="li_gxm_bgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
               >Download</xref> the Linux installer.</li>
-          <li id="li_hxm_bgk_54b">[Optional] Validate the integrity of the downloaded file by <xref
+          <li id="li_hxm_bgk_54b" irina="irina">[Optional] Validate the integrity of the downloaded file by <xref
               href="http://en.wikipedia.org/wiki/Md5sum" format="html" scope="external">checking it
               against the MD5 sum</xref> published on the download page.</li>
-          <li id="li_ixm_bgk_54b">Run the installer and follow the instructions in the installation program.<note id="note_jxm_bgk_54b">For
+          <li id="li_ixm_bgk_54b" irina="irina">Run the installer and follow the instructions in the installation program.<note id="note_jxm_bgk_54b">For
               example, open a shell, <codeph>cd</codeph> to the installation directory, and at the
               prompt type <filepath>sh ./oxygen-32bit.sh</filepath> or <filepath>sh
                 ./oxygen-64bit.sh</filepath>, depending on which installer you
@@ -62,8 +62,8 @@
               25</b>), before running the installer, the local user must first allow the root user
               to access the X server by running the following command (as the local
               user):<codeblock outputclass="language-ini" id="codeblock_lxm_bgk_54b">xhost +SI:localuser:root</codeblock></note></li>
-          <li id="li_mxm_bgk_54b">Start <ph keyref="product"/> using one of the following methods:<ul id="ul_nxm_bgk_54b">
-              <li id="li_oxm_bgk_54b">Use the <ph product="editor"
+          <li id="li_mxm_bgk_54b" irina="irina">Start <ph keyref="product"/> using one of the following methods:<ul id="ul_nxm_bgk_54b">
+              <li id="li_oxm_bgk_54b" irina="irina">Use the <ph product="editor"
                   ><filepath>oxygen</filepath></ph><ph product="author"
                   ><filepath>author</filepath></ph><ph product="developer"
                     ><filepath>developer</filepath></ph><ph product="json"
@@ -73,14 +73,14 @@
                   security dialog box will appear the first time you start the application where you
                   need to select <uicontrol>Trust and Launch</uicontrol> to continue. This dialog
                   box will not appear on subsequent launches.</note></li>
-              <li id="li_qxm_bgk_54b">From a command line, type <codeph product="editor">sh
+              <li id="li_qxm_bgk_54b" irina="irina">From a command line, type <codeph product="editor">sh
                   oxygen.sh</codeph><codeph product="author">sh oxygenAuthor.sh</codeph><ph
                   product="developer"><filepath>sh oxygenDeveloper.sh</filepath></ph><ph
                   product="json"><filepath>sh oxygenJSONEditor.sh</filepath></ph><ph
                   product="svnClient"><filepath>sh syncroSVNClient.sh</filepath></ph>. This file is
                 located in the installation folder.</li>
             </ul></li>
-          <li id="li_rxm_bgk_54b">To license your copy of <ph keyref="product"/> go to <menucascade>
+          <li id="li_rxm_bgk_54b" irina="irina">To license your copy of <ph keyref="product"/> go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Register</uicontrol>
             </menucascade> and enter your <xref keyref="install_license-key">license

@@ -29,17 +29,17 @@
     <section id="types_of_tracked_changes">
       <title>Types of Tracked Changes</title>
       <p id="p_ihx_bgk_54b">The types of <term>tracked changes</term> include:<ul id="ul_jhx_bgk_54b">
-          <li id="li_khx_bgk_54b">Inserting, deleting content (text or elements)</li>
-          <li id="li_lhx_bgk_54b">Drag and drop content (text or elements)</li>
-          <li id="li_mhx_bgk_54b">Cutting or pasting content (text or elements)</li>
-          <li id="li_nhx_bgk_54b">Inserting, deleting, and changing the structure of tables</li>
-          <li id="li_ohx_bgk_54b">Inserting and editing lists and their content</li>
-          <li id="li_phx_bgk_54b">Inserting and deleting entities</li>
-          <li id="li_qhx_bgk_54b">Inserting and deleting element tags</li>
-          <li id="li_rhx_bgk_54b">Editing attributes</li>
-          <li id="li_shx_bgk_54b">Performing a <b>Split</b> operation</li>
-          <li id="li_thx_bgk_54b">Performing a <uicontrol>Surround with</uicontrol> operation</li>
-          <li id="li_uhx_bgk_54b">Changes in referenced content (for example, XInclude fragments or DITA conrefs)</li>
+          <li id="li_khx_bgk_54b" irina="irina">Inserting, deleting content (text or elements)</li>
+          <li id="li_lhx_bgk_54b" irina="irina">Drag and drop content (text or elements)</li>
+          <li id="li_mhx_bgk_54b" irina="irina">Cutting or pasting content (text or elements)</li>
+          <li id="li_nhx_bgk_54b" irina="irina">Inserting, deleting, and changing the structure of tables</li>
+          <li id="li_ohx_bgk_54b" irina="irina">Inserting and editing lists and their content</li>
+          <li id="li_phx_bgk_54b" irina="irina">Inserting and deleting entities</li>
+          <li id="li_qhx_bgk_54b" irina="irina">Inserting and deleting element tags</li>
+          <li id="li_rhx_bgk_54b" irina="irina">Editing attributes</li>
+          <li id="li_shx_bgk_54b" irina="irina">Performing a <b>Split</b> operation</li>
+          <li id="li_thx_bgk_54b" irina="irina">Performing a <uicontrol>Surround with</uicontrol> operation</li>
+          <li id="li_uhx_bgk_54b" irina="irina">Changes in referenced content (for example, XInclude fragments or DITA conrefs)</li>
         </ul></p>
       <p id="p_vhx_bgk_54b">
         <note type="important" id="note_whx_bgk_54b">If you copy content in <uicontrol>Author</uicontrol> mode that
@@ -52,13 +52,13 @@
       <title>Activating the Change Tracking Feature</title>
       <p id="p_xhx_bgk_54b">To activate the <term>Track Changes</term> feature for the current document, use any of the
         following methods:<ul id="ul_yhx_bgk_54b">
-          <li id="li_zhx_bgk_54b">Click the <uicontrol><image href="../img/TrackChanges20.png"/>Track
+          <li id="li_zhx_bgk_54b" irina="irina">Click the <uicontrol><image href="../img/TrackChanges20.png"/>Track
               Changes</uicontrol> button on the toolbar.</li>
-          <li id="li_a3x_bgk_54b">Select <uicontrol><image href="../img/TrackChangesDeactivated16.png"
+          <li id="li_a3x_bgk_54b" irina="irina">Select <uicontrol><image href="../img/TrackChangesDeactivated16.png"
                 id="image_r5z_gtc_cs"/>Track Changes</uicontrol> from the
               <uicontrol>Review</uicontrol> submenu of the contextual menu in the main editing area
             in <uicontrol>Author</uicontrol> mode.</li>
-          <li id="li_b3x_bgk_54b">Select <uicontrol><image href="../img/TrackChangesDeactivated16.png"/>Track
+          <li id="li_b3x_bgk_54b" irina="irina">Select <uicontrol><image href="../img/TrackChangesDeactivated16.png"/>Track
               Changes</uicontrol> from the <menucascade>
               <uicontrol>Edit</uicontrol>
               <uicontrol>Review</uicontrol>
@@ -132,14 +132,14 @@
             <dd>This combo box is both a button and a drop-down menu that includes the following
               actions (when you select an action from the drop-down menu, that action becomes the
               default action for the combo box button):<ul id="ul_r3x_bgk_54b">
-                <li id="li_s3x_bgk_54b"><uicontrol><image href="../img/AcceptChangeMove16.png"
+                <li id="li_s3x_bgk_54b" irina="irina"><uicontrol><image href="../img/AcceptChangeMove16.png"
                     />Accept Change(s) and Move to Next</uicontrol> - <ph
                     conkeyref="reusables-editing-documents/ph-accept-and-move-to-next"/></li>
-                <li id="li_t3x_bgk_54b"><uicontrol><image href="../img/AcceptChange16.png"/>Accept Change(s)</uicontrol>
+                <li id="li_t3x_bgk_54b" irina="irina"><uicontrol><image href="../img/AcceptChange16.png"/>Accept Change(s)</uicontrol>
                   - Accepts the <xref keyref="glossentry_track-changes"><term>Tracked
                     Change</term></xref> located at the cursor position or all of the changes in a
                   selection.</li>
-                <li id="li_u3x_bgk_54b"><uicontrol><image href="../img/AcceptAll16.png"/>Accept All Changes</uicontrol>
+                <li id="li_u3x_bgk_54b" irina="irina"><uicontrol><image href="../img/AcceptAll16.png"/>Accept All Changes</uicontrol>
                   - <ph conkeyref="reusables-editing-documents/ph-accept-all"/></li>
               </ul><note type="tip" product="author developer editor" id="note_v3x_bgk_54b">You can <xref
                   href="preferences-menu-shortcut-keys.dita#preferences-menu-shortcut-keys">assign
@@ -152,14 +152,14 @@
             <dd>This combo box is both a button and a drop-down menu that includes the following
               actions (when you select an action from the drop-down menu, that action becomes the
               default action for the combo box button):<ul id="ul_w3x_bgk_54b">
-                <li id="li_x3x_bgk_54b"><uicontrol><image href="../img/RejectChangeMove16.png"
+                <li id="li_x3x_bgk_54b" irina="irina"><uicontrol><image href="../img/RejectChangeMove16.png"
                     />Reject Change(s) and Move to Next</uicontrol> - <ph
                     conkeyref="reusables-editing-documents/ph-reject-and-move-to-next"/></li>
-                <li id="li_y3x_bgk_54b"><uicontrol><image href="../img/RejectChange16.png"/>Reject Change(s)</uicontrol>
+                <li id="li_y3x_bgk_54b" irina="irina"><uicontrol><image href="../img/RejectChange16.png"/>Reject Change(s)</uicontrol>
                   - Rejects the <xref keyref="glossentry_track-changes"><term>Tracked
                     Change</term></xref> located at the cursor position or all of the changes in a
                   selection.</li>
-                <li id="li_z3x_bgk_54b"><uicontrol><image href="../img/RejectAll16.png"/>Reject All Changes</uicontrol>
+                <li id="li_z3x_bgk_54b" irina="irina"><uicontrol><image href="../img/RejectAll16.png"/>Reject All Changes</uicontrol>
                   - <ph conkeyref="reusables-editing-documents/ph-reject-all"/></li>
               </ul><note type="tip" product="author developer editor" id="note_ajx_bgk_54b">You can <xref
                   href="preferences-menu-shortcut-keys.dita#preferences-menu-shortcut-keys">assign
@@ -175,22 +175,22 @@
                 Visualization Modes</uicontrol> Drop-Down Menu</dt>
             <dd>This drop-down menu includes specialized actions that allow you to switch between
               the following visualization modes:<ul id="ul_cjx_bgk_54b">
-                <li id="li_djx_bgk_54b"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
+                <li id="li_djx_bgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
                       id="image_why_x4v_5r"/>View All Changes/Comments</uicontrol> - This mode is
                   active by default. When you use this mode, all tracked changes are represented in
                   the <uicontrol>Author</uicontrol> mode.</li>
-                <li id="li_ejx_bgk_54b"><uicontrol><image href="../img/TrackChangesFiltered16.png" id="image_gw1_x4v_5r"
+                <li id="li_ejx_bgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFiltered16.png" id="image_gw1_x4v_5r"
                     />View only Changes/Comments by</uicontrol> - Only the tracked changes made by
                   the author you select are presented.</li>
-                <li id="li_fjx_bgk_54b"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
+                <li id="li_fjx_bgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
                     />View Final</uicontrol> - This mode offers a preview of the document as if all
                   tracked changes (both inserted and deleted) were accepted.</li>
-                <li id="li_gjx_bgk_54b"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
+                <li id="li_gjx_bgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
                     />View Original</uicontrol> - This mode offers a preview of the document as if
                   all tracked changes (both inserted and deleted) were rejected. If you attempt to
                   edit the document in this mode, the view mode will switch to <uicontrol>View All
                     Changes/Comments</uicontrol>.</li>
-                <li><uicontrol><image href="../img/Options16.png"/>Review Settings</uicontrol> -
+                <li irina="irina"><uicontrol><image href="../img/Options16.png"/>Review Settings</uicontrol> -
                   Opens the <xref keyref="options_track-changes"/> page where the <uicontrol>Initial
                     display mode</uicontrol> setting can be configured.</li>
               </ul><note id="note_hjx_bgk_54b">If you use <uicontrol><image href="../img/TrackChangesFinal16.gif"

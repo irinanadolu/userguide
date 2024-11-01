@@ -36,17 +36,17 @@
               <entry>CMS/File server support</entry>
               <entry align="left">
                 <ul id="ul_y42_5kj_ffb">
-                  <li id="li_err_dgk_54b">Git</li>
-                  <li id="li_frr_dgk_54b">SharePoint</li>
-                  <li id="li_grr_dgk_54b">Any CMS with WebDAV interface</li>
-                  <li id="li_hrr_dgk_54b">Any CMS that develops a connector using our API</li>
+                  <li id="li_err_dgk_54b" irina="irina">Git</li>
+                  <li id="li_frr_dgk_54b" irina="irina">SharePoint</li>
+                  <li id="li_grr_dgk_54b" irina="irina">Any CMS with WebDAV interface</li>
+                  <li id="li_hrr_dgk_54b" irina="irina">Any CMS that develops a connector using our API</li>
                 </ul>
               </entry>
               <entry align="left">Any CMS or file server as long as content authors work with local
                 files on their computer or using WebDAV.<ph product="fusion"> See <xref
                     href="using_cf_with_cms.dita"/>.</ph><p id="p_irr_dgk_54b">For example:<ul id="ul_xx5_2lj_ffb">
-                    <li id="li_jrr_dgk_54b">Any version control system: Git, SVN, Perforce</li>
-                    <li id="li_krr_dgk_54b">CMS with WebDAV interface.</li>
+                    <li id="li_jrr_dgk_54b" irina="irina">Any version control system: Git, SVN, Perforce</li>
+                    <li id="li_krr_dgk_54b" irina="irina">CMS with WebDAV interface.</li>
                   </ul></p></entry>
             </row>
             <row>

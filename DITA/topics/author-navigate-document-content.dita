@@ -143,29 +143,29 @@
       </p>
       <p id="p_g5w_bgk_54b">To insert a <term>bookmark</term> in <uicontrol>Author</uicontrol> mode, do any of the
           following:<ul id="ul_u3z_jdk_2r">
-          <li id="li_h5w_bgk_54b">Click in the vertical stripe on the left side of the editor (to the left of the line
+          <li id="li_h5w_bgk_54b" irina="irina">Click in the vertical stripe on the left side of the editor (to the left of the line
             number).</li>
-          <li id="li_i5w_bgk_54b">Press <uicontrol><shortcut>F9</shortcut></uicontrol> on your keyboard or use any of
+          <li id="li_i5w_bgk_54b" irina="irina">Press <uicontrol><shortcut>F9</shortcut></uicontrol> on your keyboard or use any of
             the specific bookmark creation shortcuts
               ((<uicontrol><shortcut>Ctrl+Shift+1</shortcut></uicontrol> through
                 <uicontrol><shortcut>Ctrl+Shift+9</shortcut></uicontrol>).</li>
-          <li id="li_j5w_bgk_54b">Select the <uicontrol><image href="../img/BookMark16.gif" id="image_bsj_tpz_vr"
+          <li id="li_j5w_bgk_54b" irina="irina">Select the <uicontrol><image href="../img/BookMark16.gif" id="image_bsj_tpz_vr"
               />Create Bookmark</uicontrol> action from the <menucascade>
               <uicontrol>Edit</uicontrol>
               <uicontrol>Bookmarks</uicontrol>
             </menucascade> menu.</li>
         </ul></p>
       <p id="p_k5w_bgk_54b">To remove <term>bookmark</term> in <uicontrol>Author</uicontrol> mode, do either of the following:<ul id="ul_l5w_bgk_54b">
-          <li id="li_m5w_bgk_54b">Left-click its icon in the vertical stripe.</li>
-          <li id="li_n5w_bgk_54b">Right-click its icon on the vertical stripe and select <uicontrol>Remove</uicontrol>
+          <li id="li_m5w_bgk_54b" irina="irina">Left-click its icon in the vertical stripe.</li>
+          <li id="li_n5w_bgk_54b" irina="irina">Right-click its icon on the vertical stripe and select <uicontrol>Remove</uicontrol>
             or <uicontrol>Remove all (<shortcut>Ctrl+F7</shortcut> (<shortcut>Command+F7</shortcut>
               on macOS))</uicontrol>.</li>
         </ul></p>
       <p id="p_o5w_bgk_54b">To navigate to a specific <term>bookmark</term>, do either of the following:<ul id="ul_p5w_bgk_54b">
-          <li id="li_q5w_bgk_54b">Use any of the specific bookmark navigation shortcuts
+          <li id="li_q5w_bgk_54b" irina="irina">Use any of the specific bookmark navigation shortcuts
                 (<uicontrol><shortcut>Ctrl+1</shortcut></uicontrol> through
                 <uicontrol><shortcut>Ctrl+9</shortcut></uicontrol>).</li>
-          <li id="li_r5w_bgk_54b">Use one of the actions available on the <menucascade>
+          <li id="li_r5w_bgk_54b" irina="irina">Use one of the actions available on the <menucascade>
               <uicontrol>Edit</uicontrol>
               <uicontrol>Bookmarks</uicontrol>
               <uicontrol>Go to</uicontrol>

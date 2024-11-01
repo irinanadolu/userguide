@@ -21,7 +21,7 @@
       where a validation error or warning occurs. If a <term>Quick Fix</term> is available for that
       particular error or warning, you can access the <term>Quick Fix</term> proposals with any of
       the following methods:<ul id="ul_p4y_jl3_ss">
-        <li id="li_tlz_bgk_54b">
+        <li id="li_tlz_bgk_54b" irina="irina">
           <p id="p_ulz_bgk_54b">When hovering over the error or warning, the proposals may be presented in a tooltip
             pop-up window and the available quick <term>Quick Fixes</term> include a link that can
             be used to perform the fix.</p>
@@ -38,7 +38,7 @@
             </fig>
           </p>
         </li>
-        <li product="author authorEclipse editor editorEclipse" id="li_xlz_bgk_54b">
+        <li product="author authorEclipse editor editorEclipse" id="li_xlz_bgk_54b" irina="irina">
           <p id="p_ylz_bgk_54b">When hovering over the error or warning in <uicontrol>Author</uicontrol> mode, a small
               <term>Quick Fix</term> drop-down menu is presented. You can use the drop-down menu to
             display a list of available <term>Quick Fixes</term> to select from for the particular
@@ -50,7 +50,7 @@
             </fig>
           </p>
         </li>
-        <li id="li_amz_bgk_54b">
+        <li id="li_amz_bgk_54b" irina="irina">
           <p id="p_bmz_bgk_54b">If you place the cursor in the highlighted area where a validation error or warning
             occurs, a <term>Quick Fix</term> icon (<image href="../img/AutomaticErrorQF.gif"
               id="image_w2j_s2y_xn" product="authorEclipse developerEclipse editorEclipse"/><image
@@ -72,7 +72,7 @@
             </fig>
           </p>
         </li>
-        <li id="li_emz_bgk_54b">With the cursor placed in the highlighted area of the error or warning, you can also
+        <li id="li_emz_bgk_54b" irina="irina">With the cursor placed in the highlighted area of the error or warning, you can also
           invoke the <term>Quick Fix</term> menu by pressing <ph><uicontrol
               conkeyref="reusable-oxygen-shortcuts-list/alt_1" product="author developer editor"
             /></ph><ph product="authorEclipse developerEclipse editorEclipse"><uicontrol

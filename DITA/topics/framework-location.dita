@@ -35,19 +35,19 @@
         <uicontrol>Delete</uicontrol> buttons to manage the list of folders.</p>
     <p id="p_qwn_bgk_54b">A document type configuration (<term>framework</term>) can be loaded from the following
         locations:<ul id="ul_ox2_rfs_f4">
-        <li id="li_rwn_bgk_54b"><b>Internal preferences</b> - The document type configuration is stored in the
+        <li id="li_rwn_bgk_54b" irina="irina"><b>Internal preferences</b> - The document type configuration is stored in the
           application <xref
             href="the-document-type-dialog.dita#the-document-type-dialog/storage-definition"
               ><uicontrol>Internal</uicontrol> preferences</xref>.</li>
-        <li id="li_swn_bgk_54b"><b>Additional <term>framework</term> directories</b> - The document type configuration
+        <li id="li_swn_bgk_54b" irina="irina"><b>Additional <term>framework</term> directories</b> - The document type configuration
           is loaded from one of the specified <uicontrol>Additional frameworks
             directories</uicontrol> list.</li>
-        <li product="author developer editor json" id="li_twn_bgk_54b"><b>Add-ons</b> - An <xref
+        <li product="author developer editor json" id="li_twn_bgk_54b" irina="irina"><b>Add-ons</b> - An <xref
             keyref="glossentry_plugin"><term>add-on</term></xref> can contribute a
             <term>framework</term>. You can manage the add-ons locations in the <xref
             href="preferences-extensions.dita#preferences-extensions">Add-ons preferences
             page</xref>.</li>
-        <li id="li_uwn_bgk_54b"><b>The <filepath>frameworks</filepath> folder</b> - The main folder containing
+        <li id="li_uwn_bgk_54b" irina="irina"><b>The <filepath>frameworks</filepath> folder</b> - The main folder containing
             <term>framework</term> configurations.</li>
       </ul></p>
     <p id="p_vwn_bgk_54b">All loaded document type configurations are first sorted by priority, then by document type

@@ -16,27 +16,27 @@
       use of assistive technology, such as screen readers.</p>
     <p id="p_gmp_dgk_54b">Some of the accessibility features in <ph keyref="webappProduct"/> include:<ul
         id="ul_nv4_mr5_vhb">
-        <li id="li_hmp_dgk_54b">The ability to <xref href="wa-using-the-keyboard.dita">work with Web Author using the
+        <li id="li_hmp_dgk_54b" irina="irina">The ability to <xref href="wa-using-the-keyboard.dita">work with Web Author using the
             keyboard</xref>, without the need of a mouse.</li>
-        <li id="li_imp_dgk_54b">The various UI components and areas within the application (such as
+        <li id="li_imp_dgk_54b" irina="irina">The various UI components and areas within the application (such as
           dialog boxes and views) are accessible to screen readers. Web Author has been tested with
             <term>NVDA</term>, <term>JAWS</term>, and <term>VoiceOver</term>.</li>
-        <li id="li_jmp_dgk_54b">Features (such as change tracking) are interpreted by screen readers.</li>
-        <li id="li_kmp_dgk_54b">An <xref href="webapp-overview.dita#webapp-overview/enable-accessibility"
+        <li id="li_jmp_dgk_54b" irina="irina">Features (such as change tracking) are interpreted by screen readers.</li>
+        <li id="li_kmp_dgk_54b" irina="irina">An <xref href="webapp-overview.dita#webapp-overview/enable-accessibility"
               ><uicontrol>Enable accessibility optimization</uicontrol> option</xref> that optimizes
           the editor for accessibility and provide more information for screen readers.</li>
-        <li id="li_lmp_dgk_54b">Labels or instructions are provided when content requires user input.</li>
-        <li id="li_mmp_dgk_54b">Numerous common keyboard shortcuts were enabled and additional shortcuts were added (for
+        <li id="li_lmp_dgk_54b" irina="irina">Labels or instructions are provided when content requires user input.</li>
+        <li id="li_mmp_dgk_54b" irina="irina">Numerous common keyboard shortcuts were enabled and additional shortcuts were added (for
           example, on Windows, <uicontrol><shortcut>Ctrl+F2</shortcut></uicontrol> instructs the
           screen reader to provide more information about an element).</li>
-        <li id="li_nmp_dgk_54b">Navigation through the various UI components is achieved through keyboard commands (for
+        <li id="li_nmp_dgk_54b" irina="irina">Navigation through the various UI components is achieved through keyboard commands (for
           example, on Windows, <uicontrol><shortcut>Tab</shortcut></uicontrol>,
               <uicontrol><shortcut>Shift+Tab</shortcut></uicontrol>, arrow keys,
               <uicontrol><shortcut>Enter</shortcut></uicontrol>, space bar, and
               <uicontrol><shortcut>Ctrl+F6</shortcut></uicontrol>/<uicontrol><shortcut>Shift+Ctrl+F6</shortcut></uicontrol>
           navigates through the main regions of the UI).</li>
-        <li id="li_omp_dgk_54b">Color contrasts are adjusted to comply with the required standards.</li>
-        <li id="li_pmp_dgk_54b">A spell check dialog box (accessed via a toolbar button or
+        <li id="li_omp_dgk_54b" irina="irina">Color contrasts are adjusted to comply with the required standards.</li>
+        <li id="li_pmp_dgk_54b" irina="irina">A spell check dialog box (accessed via a toolbar button or
               <uicontrol><shortcut>F7</shortcut></uicontrol>) provides the ability to cycle through
           misspelled words and replace them with the correct
             words.<?oxy_comment_start author="steven_higgs" timestamp="20190524T161635+0300" comment="This note can be deleted when this feature is included in the installation kit. Probably 22.0."?><note id="note_qmp_dgk_54b">The

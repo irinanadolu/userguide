@@ -14,11 +14,11 @@
       double-click a node in the <b>Outline</b> pane, the cursor will be placed in the corresponding
       element in the main editor.</p>
     <p id="p_vbp_dgk_54b">The benefits of its functionality include:<ul id="ul_ryx_4z5_flb">
-        <li id="li_wbp_dgk_54b">It offers a quick way to navigate through the document.</li>
-        <li id="li_xbp_dgk_54b">It gives you insight about the location of your modifications.</li>
-        <li id="li_ybp_dgk_54b">It shows the hierarchical dependencies between elements.</li>
-        <li id="li_zbp_dgk_54b">It makes it easy to visualize the XML structure.</li>
-        <li id="li_tlz_1cn_21c">It displays nodes that are filtered by a DITAVAL file as grayed out
+        <li id="li_wbp_dgk_54b" irina="irina">It offers a quick way to navigate through the document.</li>
+        <li id="li_xbp_dgk_54b" irina="irina">It gives you insight about the location of your modifications.</li>
+        <li id="li_ybp_dgk_54b" irina="irina">It shows the hierarchical dependencies between elements.</li>
+        <li id="li_zbp_dgk_54b" irina="irina">It makes it easy to visualize the XML structure.</li>
+        <li id="li_tlz_1cn_21c" irina="irina">It displays nodes that are filtered by a DITAVAL file as grayed out
           to make the filtered nodes more recognizable.</li>
       </ul></p>
     <section id="section_hsz_ym1_rlb">
@@ -26,8 +26,8 @@
       <p id="p_acp_dgk_54b">The <uicontrol>Outline</uicontrol> pane includes two different display modes that can be
         selected using the drop-down menu at the top-right of the pane. The possible display modes
           are:<ul id="ul_dtd_fn1_rlb">
-          <li id="li_bcp_dgk_54b"><b>Contents</b> - Displays the information in the pane like a table of contents.</li>
-          <li id="li_ccp_dgk_54b"><b>Structure</b> - Displays the information in the pane as a general tag overview of
+          <li id="li_bcp_dgk_54b" irina="irina"><b>Contents</b> - Displays the information in the pane like a table of contents.</li>
+          <li id="li_ccp_dgk_54b" irina="irina"><b>Structure</b> - Displays the information in the pane as a general tag overview of
             the current XML document.</li>
         </ul></p>
     </section>

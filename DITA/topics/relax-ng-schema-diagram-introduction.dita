@@ -19,9 +19,9 @@
       and content authors who are using the schema to understand it.</p>
     <p id="p_lp2_cgk_54b"><ph keyref="product"/> provides a side-by-side source and diagram presentation with real-time
       synchronization: <ul id="ul_mp2_cgk_54b">
-        <li id="li_np2_cgk_54b">The changes you make in the editor are immediately visible in the Diagram (no background
+        <li id="li_np2_cgk_54b" irina="irina">The changes you make in the editor are immediately visible in the Diagram (no background
           parsing).</li>
-        <li id="li_op2_cgk_54b">Changing the selected element in the diagram selects the underlying code in the source
+        <li id="li_op2_cgk_54b" irina="irina">Changing the selected element in the diagram selects the underlying code in the source
           editor.</li>
       </ul>
     </p>

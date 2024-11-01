@@ -17,12 +17,12 @@
       <section id="how_to_restart">
         <title>Windows Installer</title>
         <ol id="ol_jbn_flm_knb">
-          <li id="li_z3q_dgk_54b">Go to the installation directory of <ph keyref="webappProduct"/>.</li>
-          <li id="li_ajq_dgk_54b">Launch <uicontrol>Manage Web Author</uicontrol>.</li>
-          <li id="li_bjq_dgk_54b">Go to the <uicontrol>General</uicontrol> tab.</li>
-          <li id="li_cjq_dgk_54b">Click the <uicontrol>Stop</uicontrol> button and click
+          <li id="li_z3q_dgk_54b" irina="irina">Go to the installation directory of <ph keyref="webappProduct"/>.</li>
+          <li id="li_ajq_dgk_54b" irina="irina">Launch <uicontrol>Manage Web Author</uicontrol>.</li>
+          <li id="li_bjq_dgk_54b" irina="irina">Go to the <uicontrol>General</uicontrol> tab.</li>
+          <li id="li_cjq_dgk_54b" irina="irina">Click the <uicontrol>Stop</uicontrol> button and click
             <uicontrol>Start</uicontrol>.</li>
-          <li id="li_djq_dgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_djq_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol>
       </section>
       <section id="linux_installer">
@@ -50,11 +50,11 @@
       <section id="section_ugk_glm_knb">
         <title>Windows Installer</title>
         <ol id="ol_vgk_glm_knb">
-          <li id="li_ljq_dgk_54b">Go to the installation directory of <ph keyref="webappProduct"/>.</li>
-          <li id="li_mjq_dgk_54b">Launch <uicontrol>Manage Web Author</uicontrol>.</li>
-          <li id="li_njq_dgk_54b">Go to the <uicontrol>General</uicontrol> tab.</li>
-          <li id="li_ojq_dgk_54b">Click the <uicontrol>Stop</uicontrol> button.</li>
-          <li id="li_pjq_dgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_ljq_dgk_54b" irina="irina">Go to the installation directory of <ph keyref="webappProduct"/>.</li>
+          <li id="li_mjq_dgk_54b" irina="irina">Launch <uicontrol>Manage Web Author</uicontrol>.</li>
+          <li id="li_njq_dgk_54b" irina="irina">Go to the <uicontrol>General</uicontrol> tab.</li>
+          <li id="li_ojq_dgk_54b" irina="irina">Click the <uicontrol>Stop</uicontrol> button.</li>
+          <li id="li_pjq_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol>
       </section>
       <section id="section_wgk_glm_knb">

@@ -62,18 +62,18 @@
       <title>Creating a New File Inside a Task</title>
       <p id="p_vxt_dgk_54b">You can also create a new file from this page and it will be attached to
         the current task:<ol id="ol_gzj_4pq_4jb">
-          <li id="li_fyt_dgk_54b">Click the <uicontrol>New File</uicontrol> button to create a new
+          <li id="li_fyt_dgk_54b" irina="irina">Click the <uicontrol>New File</uicontrol> button to create a new
             file from a list of templates. Select an appropriate template, choose a file name in the
             text field at the bottom, and click <uicontrol>OK</uicontrol>.<p id="p_bzt_dgk_54b"
                 ><b>Step Result:</b> The new file is opened in the <xref
                 href="making_changes_to_uploaded_files.dita">visual editor page</xref> with some of
               the XML structure already added for you.</p></li>
-          <li id="li_gp1_qjl_5xb">Use the visual editor to make changes to the document.<note
+          <li id="li_gp1_qjl_5xb" irina="irina">Use the visual editor to make changes to the document.<note
               type="tip" id="note_dzt_dgk_54b">Since you are the task owner, you have access to the
                   <uicontrol><image href="../img/TrackChanges20.png" id="image_tqd_n1g_wr"/>Toggle
                 Change Tracking</uicontrol> toolbar button. You may want to toggle this feature off
               when adding content to a new file.</note></li>
-          <li id="li_hyt_dgk_54b">The next logical step would most likely be to <xref
+          <li id="li_hyt_dgk_54b" irina="irina">The next logical step would most likely be to <xref
               href="sharing_tasks_with_reviewers.dita">share the task</xref> with anyone you want to
             review the documents.</li>
         </ol></p>

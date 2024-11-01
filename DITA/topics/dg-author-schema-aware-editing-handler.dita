@@ -31,12 +31,12 @@
         resolve a specific case, let the default implementation take place, or reject the edit
         entirely by throwing an <codeph>InvalidEditException</codeph>.</p>
       <p id="p_nrb_dgk_54b">To implement your own <i>AuthorSchemaAwareEditingHandlerAdapter</i>, follow this procedure:<ol id="ol_orb_dgk_54b">
-          <li id="li_prb_dgk_54b">Implement the <xref
+          <li id="li_prb_dgk_54b" irina="irina">Implement the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorSchemaAwareEditingHandlerAdapter.html"
               format="html" scope="external"
                 ><i>ro.sync.ecss.extensions.api.AuthorSchemaAwareEditingHandlerAdapter</i></xref>
             extension.</li>
-          <li id="li_qrb_dgk_54b">To instruct <ph keyref="product"/> to use this newly created implementation, <xref
+          <li id="li_qrb_dgk_54b" irina="irina">To instruct <ph keyref="product"/> to use this newly created implementation, <xref
               href="dg-extensions-bundle.dita#dg-extensions-bundle">configure an extensions
               bundle</xref> and return the <i>AuthorSchemaAwareEditingHandlerAdapter</i>
             implementation using the

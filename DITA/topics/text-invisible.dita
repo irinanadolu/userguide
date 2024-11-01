@@ -25,10 +25,10 @@
         <title>Solution</title>
         <steps-informal>
           <p id="p_rzk_dgk_54b">There are two possible workarounds:<ul id="ul_hpp_wf5_n5b">
-              <li id="li_ipp_wf5_n5b">Run the installer with the default (non-native) Java L&amp;F
+              <li id="li_ipp_wf5_n5b" irina="irina">Run the installer with the default (non-native) Java L&amp;F
                 by using the <codeph>-Dinstall4j.nolaf=true</codeph> argument. For
                 example:<codeblock outputclass="language-bourne">oxygen-64bit-openjdk.sh -Dinstall4j.nolaf=true</codeblock></li>
-              <li id="li_gyl_kg5_n5b">Run the installer in console mode using the
+              <li id="li_gyl_kg5_n5b" irina="irina">Run the installer in console mode using the
                   <codeph>-c</codeph> argument. For
                 example:<codeblock outputclass="language-bourne" xml:space="preserve">oxygen-64bit-openjdk.sh -c</codeblock></li>
             </ul></p>

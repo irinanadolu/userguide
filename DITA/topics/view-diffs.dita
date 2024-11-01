@@ -48,13 +48,13 @@
       corresponding SVN revision number (for remote resources) and the author who committed the
       associated revision.</p>
     <p id="p_mb3_dgk_54b"> There are three types of differences: <ul id="ul_nb3_dgk_54b">
-        <li id="li_ob3_dgk_54b">Incoming changes - Changes committed by other users and not present yet in your working
+        <li id="li_ob3_dgk_54b" irina="irina">Incoming changes - Changes committed by other users and not present yet in your working
           copy file. They are marked with a blue highlight and on the middle divider the arrows
           point from right to left.</li>
-        <li id="li_pb3_dgk_54b">Outgoing changes - Changes you have done in the content of the working copy file. They
+        <li id="li_pb3_dgk_54b" irina="irina">Outgoing changes - Changes you have done in the content of the working copy file. They
           are marked with a gray highlight and the arrows on the divider are pointing from left to
           right.</li>
-        <li id="li_qb3_dgk_54b">Conflicting changes - This is the case when the same section of text that you already
+        <li id="li_qb3_dgk_54b" irina="irina">Conflicting changes - This is the case when the same section of text that you already
           modified in the local file has been modified and committed by some other person. They are
           marked with a red highlight and red diamonds on the divider.</li>
       </ul></p>

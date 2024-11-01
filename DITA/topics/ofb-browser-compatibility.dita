@@ -20,11 +20,11 @@
             <dt>Desktop Devices</dt>
             <dd>
               <ul id="ul_dl3_1qp_4jb">
-                <li id="li_jjx_dgk_54b">Google Chrome [recommended for optimal performance and user
+                <li id="li_jjx_dgk_54b" irina="irina">Google Chrome [recommended for optimal performance and user
                   experience]</li>
-                <li id="li_kjx_dgk_54b">Mozilla Firefox</li>
-                <li id="li_ljx_dgk_54b">Microsoft Edge</li>
-                <li id="li_mjx_dgk_54b">macOS Safari</li>
+                <li id="li_kjx_dgk_54b" irina="irina">Mozilla Firefox</li>
+                <li id="li_ljx_dgk_54b" irina="irina">Microsoft Edge</li>
+                <li id="li_mjx_dgk_54b" irina="irina">macOS Safari</li>
               </ul>
             </dd>
           </dlentry>
@@ -32,8 +32,8 @@
             <dt>Mobile Devices</dt>
             <dd>
               <ul id="ul_tlp_gqp_4jb">
-                <li id="li_ojx_dgk_54b">Chrome for Android</li>
-                <li id="li_pjx_dgk_54b">Safari Mobile iOS</li>
+                <li id="li_ojx_dgk_54b" irina="irina">Chrome for Android</li>
+                <li id="li_pjx_dgk_54b" irina="irina">Safari Mobile iOS</li>
               </ul>
             </dd>
           </dlentry>
@@ -46,10 +46,10 @@
       <title>Browser Configuration Requirements</title>
       <p id="p_rjx_dgk_54b"><ph keyref="product"/> requires the following conditions in each type of browser:<ul
           id="ul_fj5_pqp_4jb">
-          <li id="li_sjx_dgk_54b">JavaScript must be enabled.</li>
-          <li id="li_tjx_dgk_54b">Cookies must be enabled.</li>
-          <li id="li_ujx_dgk_54b">Local storage must be enabled.</li>
-          <li id="li_vjx_dgk_54b">TLS v1.2 or above is required.</li>
+          <li id="li_sjx_dgk_54b" irina="irina">JavaScript must be enabled.</li>
+          <li id="li_tjx_dgk_54b" irina="irina">Cookies must be enabled.</li>
+          <li id="li_ujx_dgk_54b" irina="irina">Local storage must be enabled.</li>
+          <li id="li_vjx_dgk_54b" irina="irina">TLS v1.2 or above is required.</li>
         </ul></p>
     </section>
     <note type="other" othertype="Limitation of Liability" id="note_wjx_dgk_54b">

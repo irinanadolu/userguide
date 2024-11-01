@@ -27,7 +27,7 @@
             <dd>Specifies the horizontal alignment of text within the current table/column/cell or
               selection of multiple columns/cells (<xmlatt>align</xmlatt> attribute). The allowed
               values are as follows:<ul conkeyref="reusables-editing-documents/table-align-ul" id="ul_tdy_bgk_54b">
-                <li id="li_udy_bgk_54b"/>
+                <li id="li_udy_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_vdy_bgk_54b">
@@ -36,7 +36,7 @@
             <dd>Specifies the vertical alignment of text within the current row/cell or selection of
               multiple rows/cells (<xmlatt>valign</xmlatt> attribute). The allowed values are as
                 follows:<ul conkeyref="reusables-editing-documents/table-vert-align-ul" id="ul_wdy_bgk_54b">
-                <li id="li_xdy_bgk_54b"/>
+                <li id="li_xdy_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry conkeyref="reusables-editing-documents/table-column-separator-dlentry" id="dlentry_ydy_bgk_54b">
@@ -53,7 +53,7 @@
             <dd>Allows you to specify a value for the <xmlatt>frame</xmlatt> attribute. It is used
               to specify where a border should appear in the table. The allowed values are as
                 follows:<ul conkeyref="reusables-editing-documents/table-frame-ul" id="ul_b2y_bgk_54b">
-                <li id="li_c2y_bgk_54b"/>
+                <li id="li_c2y_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
         </dl></p>

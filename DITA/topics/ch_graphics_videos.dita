@@ -13,8 +13,8 @@
     <p id="p_yjv_dgk_54b">This topic contains information about how you can reference videos from
       your HTML or XML documents.<note id="note_akn_vtk_qwb" type="warning">
         <ul id="ul_idx_wvk_qwb">
-          <li>Only Acrobat Reader supports video embedding.</li>
-          <li>Only the following extensions are supported: <codeph>.mov</codeph>,
+          <li irina="irina">Only Acrobat Reader supports video embedding.</li>
+          <li irina="irina">Only the following extensions are supported: <codeph>.mov</codeph>,
               <codeph>.mp4</codeph> and <codeph>.m4v</codeph>.</li>
         </ul>
       </note><note id="note_anf_swh_rwb" type="tip">To process large video files, you need to
@@ -52,9 +52,9 @@ video[height] {
   height: attr(height, length);
 }</codeblock><note id="note_vs3_mx4_pwb" type="other" othertype="Notes">
           <ul id="ul_wwj_gxk_qwb">
-            <li>It is also possible to set both <xmlatt>width</xmlatt> and <xmlatt>height</xmlatt>
+            <li irina="irina">It is also possible to set both <xmlatt>width</xmlatt> and <xmlatt>height</xmlatt>
               attributes directly on the video <xmlelement>object</xmlelement>.</li>
-            <li>If no values are set for width/height (neither from the CSS nor attributes), the
+            <li irina="irina">If no values are set for width/height (neither from the CSS nor attributes), the
               extracted video size will be used.</li>
           </ul>
         </note></p>

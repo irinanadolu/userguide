@@ -15,7 +15,7 @@
           language.</ph></p>
       <p id="p_lzb_dgk_54b">There are several methods for associating a stylesheet (CSS<ph product="author editor"> or
           LESS</ph>) with an XML document:<ul id="ol_b5t_bjj_lq">
-          <li id="li_mzb_dgk_54b">
+          <li id="li_mzb_dgk_54b" irina="irina">
             <p id="p_nzb_dgk_54b">Insert the <codeph>xml-stylesheet</codeph> processing instruction with the
                 <xmlatt>type</xmlatt> attribute at the beginning of the XML document. The easiest
               way to do this is by using the <uicontrol><image
@@ -31,7 +31,7 @@
             <p product="author editor" id="p_qzb_dgk_54b">LESS
               example:<codeblock outputclass="language-css" id="codeblock_rzb_dgk_54b">&lt;?xml-stylesheet type="text/css" href="test.less"?> </codeblock></p>
           </li>
-          <li id="li_szb_dgk_54b">Add a new CSS <ph product="author editor">or LESS</ph> file to a <xref
+          <li id="li_szb_dgk_54b" irina="irina">Add a new CSS <ph product="author editor">or LESS</ph> file to a <xref
               keyref="glossentry_framework"><term>framework</term></xref> (document type). To do so,
               <ph conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to
               <uicontrol>Document Type Association</uicontrol>. Edit the appropriate

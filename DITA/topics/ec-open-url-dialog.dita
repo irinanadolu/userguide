@@ -26,7 +26,7 @@
     </p>
         <p id="p_g3t_bgk_54b">The displayed dialog box is composed of several parts:</p>
         <ul id="ul_h3t_bgk_54b">
-            <li id="li_i3t_bgk_54b">
+            <li id="li_i3t_bgk_54b" irina="irina">
         <p id="p_j3t_bgk_54b">The editable <uicontrol>URL</uicontrol> combo box where you specify the URL to be opened
           or saved. <note type="tip" id="note_k3t_bgk_54b"> If the file is accessible through an anonymous FTP, you can
             type a URL like:
@@ -34,7 +34,7 @@
         <p id="p_l3t_bgk_54b">This combo box also displays the current selection when you change selection by browsing
           the tree of folders and files on the server.</p>
       </li>
-            <li id="li_m3t_bgk_54b">The <uicontrol>Identification</uicontrol> section contains the access credentials.
+            <li id="li_m3t_bgk_54b" irina="irina">The <uicontrol>Identification</uicontrol> section contains the access credentials.
         If you want to browse for a file on a server, you have to specify the user and password.
         This information is bound to the selected URL and is also used in opening or saving the
         file. If the <uicontrol>Save</uicontrol> checkbox is selected, the user and password are
@@ -43,7 +43,7 @@
           by a user with a different user name the password, it will become unreadable since the
           encryption is user-name dependent. This is also true if you add URLs to your project that
           include a user and password.</note></li>
-            <li id="li_o3t_bgk_54b">
+            <li id="li_o3t_bgk_54b" irina="irina">
         <p id="p_p3t_bgk_54b">The <uicontrol>Browse for remote file</uicontrol> section contains the <uicontrol>Server
             URL</uicontrol> combo box and <uicontrol>Autoconnect</uicontrol> checkbox. In the
             <uicontrol>Server URL</uicontrol> combo box, you can specify the protocol, the server
@@ -54,7 +54,7 @@
           in the component. When <uicontrol>Autoconnect</uicontrol> is selected, every time the
           dialog box is displayed, the browse action will be performed.</p>
       </li>
-            <li id="li_s3t_bgk_54b">
+            <li id="li_s3t_bgk_54b" irina="irina">
         <p id="p_t3t_bgk_54b">The bottom part of the dialog box displays the tree view of the documents stored on the
           server. You can browse the directories and make multiple selections. Additionally, you can
           use the <uicontrol>Rename</uicontrol>, <uicontrol>Delete</uicontrol>, and <uicontrol>New

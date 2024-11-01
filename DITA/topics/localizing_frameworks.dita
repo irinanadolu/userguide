@@ -23,7 +23,7 @@
     <p id="p_e2b_dgk_54b">To localize the content of a <term>framework</term>, follow this procedure:</p>
     <p id="p_f2b_dgk_54b">
       <ol id="ol_xxx_hdy_4lb">
-        <li id="li_g2b_dgk_54b">
+        <li id="li_g2b_dgk_54b" irina="irina">
           <p id="p_h2b_dgk_54b">Create a <filepath>translation.xml</filepath> file that contains all the translation
             (key, value) mappings. The <filepath>translation.xml</filepath> has the following
             format:</p>
@@ -48,7 +48,7 @@
             available language declared in the <xmlelement>languagelist</xmlelement> tag for the
             corresponding <term>framework</term> is used.</p>
         </li>
-        <li id="li_l2b_dgk_54b">The <filepath>translation.xml</filepath> file must be stored in a
+        <li id="li_l2b_dgk_54b" irina="irina">The <filepath>translation.xml</filepath> file must be stored in a
           directory named <filepath>i18n</filepath> located in the framework folder. You also need
           to add a reference to the <filepath>i18n</filepath> directory in the <xref
             href="document-type-classpath-tab.dita"><uicontrol>Classpath</uicontrol> list
@@ -58,14 +58,14 @@
             directory after (below) the reference to the <filepath>i18n</filepath> directory for the
             base directory:<p id="p_ag4_mlf_x5b"><image href="../img/classpath-screen1.png"
             /></p></note></li>
-        <li id="li_m2b_dgk_54b">
+        <li id="li_m2b_dgk_54b" irina="irina">
           <p id="p_n2b_dgk_54b">After you create this file, you can use the keys defined in it to customize the name
             and description of the following:<ul id="ul_jsf_mdy_4lb">
-              <li id="li_o2b_dgk_54b">Actions</li>
-              <li id="li_p2b_dgk_54b">Menu entries</li>
-              <li id="li_q2b_dgk_54b">Contextual menus</li>
-              <li id="li_r2b_dgk_54b">Toolbars</li>
-              <li id="li_s2b_dgk_54b">Static CSS content</li>
+              <li id="li_o2b_dgk_54b" irina="irina">Actions</li>
+              <li id="li_p2b_dgk_54b" irina="irina">Menu entries</li>
+              <li id="li_q2b_dgk_54b" irina="irina">Contextual menus</li>
+              <li id="li_r2b_dgk_54b" irina="irina">Toolbars</li>
+              <li id="li_s2b_dgk_54b" irina="irina">Static CSS content</li>
             </ul></p>
           <p id="p_t2b_dgk_54b">For example, if you want to localize the bold action, <ph
               conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to
@@ -80,7 +80,7 @@
             localized. <term>Translation_key</term> corresponds to the key from the
               <filepath>translation.xml</filepath> file.</p>
         </li>
-        <li id="li_u2b_dgk_54b">
+        <li id="li_u2b_dgk_54b" irina="irina">
           <p id="p_v2b_dgk_54b">Next, open the <filepath>translation.xml</filepath> file and edit the translation entry
             if it exists or create one if it does not exist. This is an example of an entry in the
             translation.xml file:</p>

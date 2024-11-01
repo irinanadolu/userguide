@@ -81,13 +81,13 @@
       </tgroup>
     </table>
     <note type="important" id="note_skz_cgk_54b">Remarks:<ul id="ul_tkz_cgk_54b">
-        <li id="li_ukz_cgk_54b">Clicking a record highlights that template definition inside the resource.</li>
-        <li id="li_vkz_cgk_54b">Saxon only shows the applied templates having at least one hit from the processor. Xalan
+        <li id="li_ukz_cgk_54b" irina="irina">Clicking a record highlights that template definition inside the resource.</li>
+        <li id="li_vkz_cgk_54b" irina="irina">Saxon only shows the applied templates having at least one hit from the processor. Xalan
           shows all defined templates, with or without hits.</li>
-        <li id="li_wkz_cgk_54b">Template table values can be sorted by clicking the corresponding column header. When
+        <li id="li_wkz_cgk_54b" irina="irina">Template table values can be sorted by clicking the corresponding column header. When
           clicking a column header the sorting order switches between: ascending, descending, no
           sort.</li>
-        <li id="li_xkz_cgk_54b">Xalan shows also the built-in rules.</li>
+        <li id="li_xkz_cgk_54b" irina="irina">Xalan shows also the built-in rules.</li>
       </ul></note>
   </body>
 </topic>

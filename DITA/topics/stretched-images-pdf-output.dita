@@ -18,16 +18,16 @@
             the DPI (dots-per-inch) resolution when computing the size of the rendered image.</p>
           <p id="p_apk_dgk_54b">The PDF processor that comes out of the box with the application is the open-source
             Apache FOP processor. Here is what Apache FOP does when deciding the image size:<ol id="ol_bpk_dgk_54b">
-              <li id="li_cpk_dgk_54b">If the XSL-FO output contains width, height or a scale specified for the image
+              <li id="li_cpk_dgk_54b" irina="irina">If the XSL-FO output contains width, height or a scale specified for the image
                 <xmlelement>external-graphic</xmlelement> tag, then these dimensions are used. This means
                 that if in the XML (DITA, DocBook, etc.) you set explicit dimensions to the image
                 they will be used as such in the PDF output.</li>
-              <li id="li_dpk_dgk_54b">If there are no sizes (width, height or scale) specified on the image XML element,
+              <li id="li_dpk_dgk_54b" irina="irina">If there are no sizes (width, height or scale) specified on the image XML element,
                 the processor looks at the image resolution information available in the image
                 content. If the image has such a resolution saved in it, the resolution will be used
                 and combined with the image width and height to obtain the rendered image
                 dimensions.</li>
-              <li id="li_epk_dgk_54b">If the image does not contain resolution information inside, Apache FOP will look
+              <li id="li_epk_dgk_54b" irina="irina">If the image does not contain resolution information inside, Apache FOP will look
                 at the FOP configuration file for a default resolution. The FOP configuration file
                 for XSLT transformations that output PDF is located in the <filepath><term
                     conkeyref="reusables-user-guide/oxy-install-dir"/>/lib/fop.xconf</filepath>.

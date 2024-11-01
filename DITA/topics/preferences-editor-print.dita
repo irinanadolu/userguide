@@ -39,13 +39,13 @@
         <uicontrol>Middle</uicontrol>, and <uicontrol>Right</uicontrol> of the header and footer
       using plain text of any of the following variables: </p>
     <ul id="ul_vsp_bgk_54b">
-      <li conkeyref="reusables-editor-variables/edVar-currentFileURL" id="li_wsp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_xsp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar_cp" id="li_ysp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar_tp" id="li_zsp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edvar-env" id="li_atp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-system" id="li_btp_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-date" id="li_ctp_bgk_54b"/>
+      <li conkeyref="reusables-editor-variables/edVar-currentFileURL" id="li_wsp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_xsp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar_cp" id="li_ysp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar_tp" id="li_zsp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edvar-env" id="li_atp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-system" id="li_btp_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-date" id="li_ctp_bgk_54b" irina="irina"/>
     </ul>
     <p id="p_dtp_bgk_54b">For example, to show the current page number and the total number of pages in the top right
       corner of the page, write the following pattern in the <uicontrol>Right</uicontrol> text area

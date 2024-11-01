@@ -68,10 +68,10 @@
       <title>Resources</title>
       <p id="p_glk_cgk_54b">
         <ul id="ul_hlk_cgk_54b">
-          <li id="li_ilk_cgk_54b"><xref href="https://www.oxygenxml.com/demo/FrameworkConfiguration.html" format="html"
+          <li id="li_ilk_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/demo/FrameworkConfiguration.html" format="html"
               scope="external" product="author editor authorEclipse editorEclipse">Oxygen Video
               Tutorial: Configuring a JATS <term>Framework</term></xref></li>
-          <li id="li_jlk_cgk_54b"><xref href="https://dtd.nlm.nih.gov/" format="html" scope="external">NLM Journal
+          <li id="li_jlk_cgk_54b" irina="irina"><xref href="https://dtd.nlm.nih.gov/" format="html" scope="external">NLM Journal
               Archiving and Interchange Tag Suite</xref></li>
         </ul>
       </p>

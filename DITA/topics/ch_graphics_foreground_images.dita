@@ -21,8 +21,8 @@
 }</codeblock>
     <note id="note_xlv_dgk_54b" type="other" othertype="Notes">
       <ul id="ul_xxd_42r_x5b">
-        <li>Make sure you use an image type that supports transparency.</li>
-        <li>It is better to use SVG for the page artwork because they do not suffer from
+        <li irina="irina">Make sure you use an image type that supports transparency.</li>
+        <li irina="irina">It is better to use SVG for the page artwork because they do not suffer from
             <i>pixelation</i> and because foreground images are stretched to the full page
           size.</li>
       </ul>

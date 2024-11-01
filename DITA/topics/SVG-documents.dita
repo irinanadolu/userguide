@@ -30,11 +30,11 @@
     <section id="how_to_render_svg_images_that_use_java_scripting">
       <title>How to Render SVG Images that Use Java Scripting</title>
       <ol id="ol_ysh_cgk_54b">
-        <li id="li_zsh_cgk_54b">Copy the <filepath>js.jar</filepath> library from the <xref
+        <li id="li_zsh_cgk_54b" irina="irina">Copy the <filepath>js.jar</filepath> library from the <xref
             href="http://xml.apache.org/batik/" scope="external" format="html">Batik
             distribution</xref> into the <ph keyref="product"/>
           <filepath>lib</filepath> folder.</li>
-        <li id="li_ath_cgk_54b">Restart the application.</li>
+        <li id="li_ath_cgk_54b" irina="irina">Restart the application.</li>
       </ol>
     </section>
     <section id="svg_12_rendering_issues">

@@ -24,16 +24,16 @@
         <xref href="http://www.w3.org/TR/xmlschema11-1/#element-complexType" scope="external"
         format="html"/>.</p>
     <ul id="ul_hvb_cgk_54b">
-      <li id="li_ivb_cgk_54b">Constraining element information items by providing Attribute Declarations governing the
+      <li id="li_ivb_cgk_54b" irina="irina">Constraining element information items by providing Attribute Declarations governing the
         appearance and content of attributes.</li>
-      <li id="li_jvb_cgk_54b">Constraining element information item children to be empty, or to conform to a specified
+      <li id="li_jvb_cgk_54b" irina="irina">Constraining element information item children to be empty, or to conform to a specified
         element-only or mixed content model, or else constraining the character information item
         children to conform to a specified simple type definition.</li>
-      <li id="li_kvb_cgk_54b">Using the mechanisms of Type Definition Hierarchy to derive a complex type from another
+      <li id="li_kvb_cgk_54b" irina="irina">Using the mechanisms of Type Definition Hierarchy to derive a complex type from another
         simple or complex type.</li>
-      <li id="li_lvb_cgk_54b">Specifying post-schema-validation infoset contributions for elements.</li>
-      <li id="li_mvb_cgk_54b">Limiting the ability to derive additional types from a given complex type.</li>
-      <li id="li_nvb_cgk_54b">Controlling the permission to substitute, in an instance, elements of a derived type for
+      <li id="li_lvb_cgk_54b" irina="irina">Specifying post-schema-validation infoset contributions for elements.</li>
+      <li id="li_mvb_cgk_54b" irina="irina">Limiting the ability to derive additional types from a given complex type.</li>
+      <li id="li_nvb_cgk_54b" irina="irina">Controlling the permission to substitute, in an instance, elements of a derived type for
         elements declared in a content model to be of a given complex type.</li>
     </ul>
     <note type="tip" id="note_ovb_cgk_54b">A complex type that is a base type to another type will be rendered with yellow

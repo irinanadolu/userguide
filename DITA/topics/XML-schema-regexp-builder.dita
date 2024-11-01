@@ -54,9 +54,9 @@
         <dlentry id="dlentry_cgd_cgk_54b">
           <dt><uicontrol>Evaluate expression on</uicontrol></dt>
           <dd>You can choose between two options:<ul id="ul_dgd_cgk_54b">
-              <li id="li_egd_cgk_54b"><uicontrol>Evaluate expression on each line</uicontrol> - The edited expression
+              <li id="li_egd_cgk_54b" irina="irina"><uicontrol>Evaluate expression on each line</uicontrol> - The edited expression
                 will be applied on each line in the <uicontrol>Test</uicontrol> area.</li>
-              <li id="li_fgd_cgk_54b"><uicontrol>Evaluate expression on all text</uicontrol> - The edited expression
+              <li id="li_fgd_cgk_54b" irina="irina"><uicontrol>Evaluate expression on all text</uicontrol> - The edited expression
                 will be applied on the whole text.</li>
             </ul></dd>
         </dlentry>

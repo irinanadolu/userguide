@@ -99,22 +99,22 @@
       <title>Adding a Media Resource</title>
       <p id="p_pty_bgk_54b">To insert a media resource in a document, use the following procedure:</p>
       <ol id="ol_eb4_q5d_xp">
-        <li id="li_qty_bgk_54b">Place the cursor at the location where you want the media resource. </li>
-        <li id="li_rty_bgk_54b">Select the <uicontrol><image href="../img/InsertMedia16.png"/>Insert Media
+        <li id="li_qty_bgk_54b" irina="irina">Place the cursor at the location where you want the media resource. </li>
+        <li id="li_rty_bgk_54b" irina="irina">Select the <uicontrol><image href="../img/InsertMedia16.png"/>Insert Media
             Resource</uicontrol> action from the toolbar. A <uicontrol>Chose Media</uicontrol>
           dialog box appears.<note id="note_sty_bgk_54b">You can also drag media files from your system explorer or the
               <xref href="using-the-project-view.dita#using-the-project-view" format="dita"
                 ><uicontrol product="author editor">Project</uicontrol><uicontrol
                 product="authorEclipse editorEclipse">Project Explorer</uicontrol> view</xref> and
             drop them into your documents (or copy and paste them). </note></li>
-        <li id="li_tty_bgk_54b">Select the URL for the media resource and click <uicontrol>Ok</uicontrol>.</li>
+        <li id="li_tty_bgk_54b" irina="irina">Select the URL for the media resource and click <uicontrol>Ok</uicontrol>.</li>
       </ol>
       <p id="p_uty_bgk_54b"><b>Result in Author Mode:</b> A reference to the specified media object is inserted and
         rendered in <uicontrol>Author</uicontrol> mode so that it can be played directly from
         there.</p>
       <note type="attention" id="note_vty_bgk_54b">
         <ul id="ul_wty_bgk_54b">
-          <li id="li_xty_bgk_54b">On Ubuntu 17.10, if you receive an error when trying to play videos in
+          <li id="li_xty_bgk_54b" irina="irina">On Ubuntu 17.10, if you receive an error when trying to play videos in
               <uicontrol>Author</uicontrol> mode, you need to install the
               <codeph>libavformat57</codeph> library.</li>
         </ul>

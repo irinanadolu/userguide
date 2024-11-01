@@ -27,10 +27,10 @@
       current module as the main build file.</p>
     <p id="p_g3b_cgk_54b">The advantages of editing in the context of <xref keyref="glossentry_main-file"
           ><term>main file</term></xref> include: <ul id="ul_h3b_cgk_54b">
-        <li id="li_i3b_cgk_54b">Correct validation of a module in the context of a larger build structure.</li>
-        <li id="li_j3b_cgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_i3b_cgk_54b" irina="irina">Correct validation of a module in the context of a larger build structure.</li>
+        <li id="li_j3b_cgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all components valid in the current context.</li>
-        <li id="li_k3b_cgk_54b">The <xref href="ant-outline.dita#ant-outline"><uicontrol>Outline</uicontrol> view</xref>
+        <li id="li_k3b_cgk_54b" irina="irina">The <xref href="ant-outline.dita#ant-outline"><uicontrol>Outline</uicontrol> view</xref>
           displays the components collected from the entire build file structure.</li>
       </ul></p>
   </body>

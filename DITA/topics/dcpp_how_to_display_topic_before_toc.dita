@@ -16,8 +16,8 @@
   </prolog>
   <body>
     <p id="p_y2s_cgk_54b">To display a topic before the <i>table-of-contents</i> page, follow these steps:<ol id="ol_z2s_cgk_54b">
-        <li id="li_afs_cgk_54b">Make sure the topic is referenced on the first level in the DITA map.</li>
-        <li id="li_bfs_cgk_54b">Set the <xmlatt>outputclass</xmlatt> to <codeph>before-toc</codeph> on the
+        <li id="li_afs_cgk_54b" irina="irina">Make sure the topic is referenced on the first level in the DITA map.</li>
+        <li id="li_bfs_cgk_54b" irina="irina">Set the <xmlatt>outputclass</xmlatt> to <codeph>before-toc</codeph> on the
             <xmlelement>topicref</xmlelement>.</li>
       </ol></p>
     <codeblock outputclass="language-xml" id="codeblock_cfs_cgk_54b">&lt;topicref href="pathToMyTopic" outputclass="before-toc"></codeblock>

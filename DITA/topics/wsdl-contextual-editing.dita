@@ -26,10 +26,10 @@
       current module as the main WSDL document.</p>
     <p id="p_prd_cgk_54b">The advantages of editing in the context of a <xref keyref="glossentry_main-file"
           ><term>main file</term></xref> include: <ul id="ul_qrd_cgk_54b">
-        <li id="li_rrd_cgk_54b">Correct validation of a module in the context of a larger WSDL structure.</li>
-        <li id="li_srd_cgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_rrd_cgk_54b" irina="irina">Correct validation of a module in the context of a larger WSDL structure.</li>
+        <li id="li_srd_cgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all components valid in the current context.</li>
-        <li id="li_trd_cgk_54b">The <xref href="wsdl-outline-view.dita#wsdl-outline-view"><uicontrol>Outline</uicontrol>
+        <li id="li_trd_cgk_54b" irina="irina">The <xref href="wsdl-outline-view.dita#wsdl-outline-view"><uicontrol>Outline</uicontrol>
             view</xref> displays the components collected from the entire WSDL structure.</li>
       </ul></p>
     <note type="note" id="note_urd_cgk_54b">When you edit an XML schema document that has a WSDL document set as the main file,

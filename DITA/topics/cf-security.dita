@@ -25,11 +25,11 @@
       <title>Outgoing Connections</title>
       <p>Content Fusion can connect to external services if it is configured to do so:<ul
           id="ul_opb_fxp_nrb">
-          <li>Email server for notifications and password resets (see <xref
+          <li irina="irina">Email server for notifications and password resets (see <xref
               href="cf-enterprise-configuration.dita#cf-enterprise-configuration/mail_tab">Content
               Fusion Enterprise Administration Page - Mail Tab</xref> for configuration
             details).</li>
-          <li>LDAP server for LDAP authentication (see <xref
+          <li irina="irina">LDAP server for LDAP authentication (see <xref
               href="cf-enterprise-configuration.dita#cf-enterprise-configuration/authentication_tab"
               >Content Fusion Enterprise Administration Page - Authentication Tab</xref> for
             configuration details).</li>

@@ -12,18 +12,18 @@
     <p id="p_iml_cgk_54b"><ph keyref="product"/> allows you to configure custom processors to be used for running XSLT
       and XQuery transformations.</p>
     <p id="p_jml_cgk_54b">To add a new custom processor, follow these steps:<ol id="ol_kml_cgk_54b">
-        <li id="li_lml_cgk_54b"><ph
+        <li id="li_lml_cgk_54b" irina="irina"><ph
             conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to <menucascade>
             <uicontrol>XML</uicontrol>
             <uicontrol>XSLT-XQuery</uicontrol>
             <uicontrol>Custom Engines</uicontrol>
           </menucascade>.</li>
-        <li id="li_mml_cgk_54b">Click the <uicontrol><image href="../img/Add16.png"
+        <li id="li_mml_cgk_54b" irina="irina">Click the <uicontrol><image href="../img/Add16.png"
               product="authorEclipse developerEclipse editorEclipse"/>New</uicontrol> button at the
           bottom of the dialog box.</li>
-        <li id="li_nml_cgk_54b">Configure the <xref href="preferences-custom-engines.dita#preferences-custom-engines"
+        <li id="li_nml_cgk_54b" irina="irina">Configure the <xref href="preferences-custom-engines.dita#preferences-custom-engines"
             >parameters for the custom engine</xref>.</li>
-        <li id="li_oml_cgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+        <li id="li_oml_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
       </ol></p>
     <note id="note_pml_cgk_54b"><ph product="editor editorEclipse"> You can not use these custom engines in <xref
           href="debugging.dita#debugging" format="dita">the Debugger

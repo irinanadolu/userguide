@@ -37,10 +37,10 @@
         <info><u>If you are using <ph keyref="product"/> distributed as a standalone product (<xref
               href="ch_installing.dita#ch_installing">installed outside
             <term>Oxygen</term></xref>):</u><ul id="ul_cp5_dgk_54b">
-            <li id="li_dp5_dgk_54b"><b>Windows:</b>
+            <li id="li_dp5_dgk_54b" irina="irina"><b>Windows:</b>
               <codeph>cmd /C chemistry.bat -in "${cf}" -css "my_stylesheet.css" -out
                 "${cfd}/${cfn}.pdf" -show-pdf</codeph></li>
-            <li id="li_ep5_dgk_54b"><b>macOS or Linux:</b>
+            <li id="li_ep5_dgk_54b" irina="irina"><b>macOS or Linux:</b>
               <codeph>sh chemistry.sh -in "${cf}" -css "my_stylesheet.css" -out "${cfd}/${cfn}.pdf"
                 -show-pdf</codeph></li>
           </ul><note id="note_fp5_dgk_54b">If you have not configured the PATH environment variable to point to the
@@ -48,10 +48,10 @@
             executable script. If the installation directory contains spaces, use quotes around the
             full path of the script.</note></info>
         <info><u>If you are using <ph keyref="product"/> distributed within <term>Oxygen</term>:</u><ul id="ul_gp5_dgk_54b">
-            <li id="li_hp5_dgk_54b"><b>Windows:</b>
+            <li id="li_hp5_dgk_54b" irina="irina"><b>Windows:</b>
               <codeph>cmd /C "${oxygenInstallDir}/oxygenChemistry.bat" -in "${cf}" -css
                 "my_stylesheet.css" -out "${cfd}/${cfn}.pdf" -show-pdf</codeph></li>
-            <li id="li_ip5_dgk_54b"><b>macOS or Linux:</b>
+            <li id="li_ip5_dgk_54b" irina="irina"><b>macOS or Linux:</b>
               <codeph>sh "${oxygenInstallDir}/oxygenChemistry.sh" -in "${cf}" -css
                 "my_stylesheet.css" -out "${cfd}/${cfn}.pdf" -show-pdf</codeph></li>
           </ul></info>

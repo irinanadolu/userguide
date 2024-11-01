@@ -36,7 +36,7 @@
       <p id="p_sqt_dgk_54b">When a file is open in the visual editor, clicking on the
         buttons/actions in the left navigation stripe opens the corresponding feature in a
         resizeable pane in between the left stripe and the visual editor.<ul id="ul_cdb_kk3_zxb">
-          <li id="li_ddb_kk3_zxb"><u><uicontrol>Files</uicontrol></u><p id="p_v3l_th4_g1c">Opens the
+          <li id="li_ddb_kk3_zxb" irina="irina"><u><uicontrol>Files</uicontrol></u><p id="p_v3l_th4_g1c">Opens the
                 <uicontrol>Task files</uicontrol> side-pane. It lists all the files that are
               attached to the task. You can switch files simply by clicking on the file in this left
               panel. For DITA projects, if the <b>Content Author</b> specified a context DITA map,
@@ -44,7 +44,7 @@
               specified DITA map. The topic title hierarchy from the DITA map is also displayed
               underneath each topic and if part of it is not shown, you can hover over it to see the
               entire title hierarchy in a tooltip.</p></li>
-          <li id="li_ezm_vk3_zxb"><u><uicontrol>Task Activity</uicontrol></u><p id="p_x23_5h4_g1c"
+          <li id="li_ezm_vk3_zxb" irina="irina"><u><uicontrol>Task Activity</uicontrol></u><p id="p_x23_5h4_g1c"
               >Opens the <uicontrol>Task activity</uicontrol> side-pane. It lists the history of the
               activity that has occurred for the task (e.g. changes and comments). Each activity
               includes an icon that indicates the type of activity, the name of the user who made a
@@ -63,7 +63,7 @@
               the <xref href="#making_changes_to_uploaded_files/add-comment" format="dita"
                   ><uicontrol>Add Comment</uicontrol> button</xref> in the editor). For more
               information, see <xref href="cf-task-activity.dita"/>.</p></li>
-          <li id="li_q5s_zk3_zxb"><u><uicontrol>Search</uicontrol></u><p id="p_zk4_vh4_g1c">Opens
+          <li id="li_q5s_zk3_zxb" irina="irina"><u><uicontrol>Search</uicontrol></u><p id="p_zk4_vh4_g1c">Opens
               the <uicontrol>Search</uicontrol> side-pane. It allows you to search for specific
               content in all files attached to the task. You can click on the <uicontrol>In
                 reviews</uicontrol> tab to filter you search by the <uicontrol>Type</uicontrol> of
@@ -78,12 +78,12 @@
           <b>Content Author</b> can see exactly what was changed and the <b>Content Author</b> will
         be able to easily accept or reject the changes.</p>
       <p id="p_vqt_dgk_54b">The visual editor includes a variety of useful editing features:<ul id="ul_zb4_zcx_4jb">
-          <li id="li_wqt_dgk_54b"><b>Smart Paste</b> - When you use copy/paste actions, the built-in <term>Smart
+          <li id="li_wqt_dgk_54b" irina="irina"><b>Smart Paste</b> - When you use copy/paste actions, the built-in <term>Smart
               Paste</term> feature preserves certain style and structure information.</li>
-          <li id="li_xqt_dgk_54b"><b>Contextual Menu Actions</b> - The contextual menu offers some editing actions that
+          <li id="li_xqt_dgk_54b" irina="irina"><b>Contextual Menu Actions</b> - The contextual menu offers some editing actions that
             are specific to the type of document you are working with, depending on the specific
             location within the document.</li>
-          <li id="li_yqt_dgk_54b"><b>Content Completion Assistant</b> - The <term>Content Completion Assistant</term>
+          <li id="li_yqt_dgk_54b" irina="irina"><b>Content Completion Assistant</b> - The <term>Content Completion Assistant</term>
             helps you insert valid XML content. It offers a list of elements, attributes, attribute
             values, and other options that are valid at the current location. It tries to determine
             the most logical choice in the current editing context and displays that proposal at the
@@ -93,7 +93,7 @@
               <uicontrol><shortcut>Up</shortcut></uicontrol> and
                 <uicontrol><shortcut>Down</shortcut></uicontrol> arrow keys and to insert the
             selection, simply press <uicontrol><shortcut>Enter</shortcut></uicontrol> again.</li>
-          <li id="li_zqt_dgk_54b"><b>Breadcrumb</b> - The main editing pane includes a <i>breadcrumb</i> stripe that
+          <li id="li_zqt_dgk_54b" irina="irina"><b>Breadcrumb</b> - The main editing pane includes a <i>breadcrumb</i> stripe that
             shows the hierarchical XML structure of the current document, from the document root to
             the current element. By default, it is displayed at the bottom of the main editing area.
             You can click the double arrow button (<image href="../img/BreadcrumbTop16.png"
@@ -101,12 +101,12 @@
             The last element listed in the <term>breadcrumb</term> is the element at the current
             cursor position. Clicking an element from the <term>breadcrumb</term> selects the entire
             element in the editor area.</li>
-          <li id="li_art_dgk_54b"><b>Automatic Spell Checking</b> - The visual editor automatically checks for spelling
+          <li id="li_art_dgk_54b" irina="irina"><b>Automatic Spell Checking</b> - The visual editor automatically checks for spelling
             errors when a document is loaded and every time a modification is made in the document.
             Words that are detected as spelling errors are underlined with a jagged red line. If you
             right-click on the word, you are presented with a list of suggestions that you can
             select from to replace the word and an <uicontrol>Ignore</uicontrol> option.</li>
-          <li id="li_qdp_s2n_zxb"><b>Supported Document Types</b> - The visual editor will open any
+          <li id="li_qdp_s2n_zxb" irina="irina"><b>Supported Document Types</b> - The visual editor will open any
             of the supported XML document types, including <b>DITA</b>, <b>DITA maps</b>,
               <b>DocBook</b>, <b>XHTML</b>, and <b>TEI</b>. It also provides limited support for
             some other document types (for example, <b>Markdown</b> documents can opened as
@@ -179,14 +179,14 @@
                 Visualization Modes</uicontrol> drop-down menu</dt>
             <dd>This drop-down menu includes specialized actions that allow you to switch between
               the following visualization modes for the <term>Tracked Changes</term> feature:<ul id="ul_lrt_dgk_54b">
-                <li id="li_mrt_dgk_54b"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
+                <li id="li_mrt_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
                       id="image_why_x4v_5r"/>View All Changes/Comments</uicontrol> - This mode is
                   active by default. When you use this mode, all tracked changes are
                   represented.</li>
-                <li id="li_nrt_dgk_54b"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
+                <li id="li_nrt_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
                     />View Final</uicontrol> - This mode offers a preview of the document as if all
                   tracked changes (both inserted and deleted) were accepted.</li>
-                <li id="li_ort_dgk_54b"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
+                <li id="li_ort_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
                     />View Original</uicontrol> - This mode offers a preview of the document as if
                   all tracked changes (both inserted and deleted) were rejected. If you attempt to
                   edit the document in this mode, the view mode will switch to <uicontrol>View All

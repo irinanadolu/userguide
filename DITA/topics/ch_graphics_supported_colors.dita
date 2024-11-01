@@ -14,9 +14,9 @@
     <p id="p_nnv_dgk_54b">Along with the usual color values, <ph keyref="product"/> supports the following special
       values for all the color properties:</p>
     <ul id="ul_qyb_mkz_xz">
-      <li id="li_onv_dgk_54b"><b>rgb</b> - Used to specify red, green, and blue components (for example,
+      <li id="li_onv_dgk_54b" irina="irina"><b>rgb</b> - Used to specify red, green, and blue components (for example,
           <codeph>color="rgb(255 , 0 , 153)"</codeph>).</li>
-      <li id="li_pnv_dgk_54b"><b>rbga</b> - Used for transparent colors by specifying each color channel and the
+      <li id="li_pnv_dgk_54b" irina="irina"><b>rbga</b> - Used for transparent colors by specifying each color channel and the
         transparency. For example, the following would result in the background color being magenta
         since the red color from the parent <codeph>div</codeph> element will be visible through the
         blue color of the <xmlelement>p</xmlelement>

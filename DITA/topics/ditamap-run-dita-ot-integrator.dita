@@ -28,9 +28,9 @@
     <section id="creating_the_transformation_scenario">
       <title>Running the Transformation Scenario</title>
       <p id="p_ybl_cgk_54b">To integrate a DITA-OT <term>plugin</term>, follow these steps:<ol id="ol_zbl_cgk_54b">
-          <li id="li_acl_cgk_54b">If <ph keyref="product"/> was installed in the default location, you may need to
+          <li id="li_acl_cgk_54b" irina="irina">If <ph keyref="product"/> was installed in the default location, you may need to
             restart and run it as an administrator.</li>
-          <li id="li_bcl_cgk_54b">Select the <uicontrol><image href="../img/ApplyStyleSheet16.png"/>Apply Transformation
+          <li id="li_bcl_cgk_54b" irina="irina">Select the <uicontrol><image href="../img/ApplyStyleSheet16.png"/>Apply Transformation
               Scenario(s)</uicontrol> or <xref
               href="configure-transformation-dialog.dita#configure-transformation-dialog"
                   ><uicontrol><image href="../img/TransformConfig16.png"/>Configure Transformation
@@ -38,15 +38,15 @@
               Manager</uicontrol> toolbar (you could also use the same action on the main toolbar or
             open the <xref href="scenarios-view.dita#scenarios-view"><b>Transformation Scenarios</b>
               view</xref>).</li>
-          <li id="li_ccl_cgk_54b">Select the <b>Integrate/Install DITA-OT Plugins</b> transformation
+          <li id="li_ccl_cgk_54b" irina="irina">Select the <b>Integrate/Install DITA-OT Plugins</b> transformation
             scenario. If the <i>integrator</i> is not visible, select the <b>Show all scenarios</b>
             action that is available in the <uicontrol><image href="../img/Settings16.png"
                 id="image_km5_xrs_yq"/>Settings</uicontrol> drop-down menu.</li>
-          <li id="li_dcl_cgk_54b"><xref href="apply-transformation-scenarios.dita#apply-transformation-scenarios">Apply
+          <li id="li_dcl_cgk_54b" irina="irina"><xref href="apply-transformation-scenarios.dita#apply-transformation-scenarios">Apply
               the scenario</xref>.</li>
-          <li id="li_ecl_cgk_54b">Check the <uicontrol>Results</uicontrol> panel at the bottom of the application to
+          <li id="li_ecl_cgk_54b" irina="irina">Check the <uicontrol>Results</uicontrol> panel at the bottom of the application to
             make sure the build was successful.</li>
-          <li id="li_fcl_cgk_54b">Restart <ph keyref="product"/> with your normal permissions.</li>
+          <li id="li_fcl_cgk_54b" irina="irina">Restart <ph keyref="product"/> with your normal permissions.</li>
         </ol></p>
     </section>
   </body>

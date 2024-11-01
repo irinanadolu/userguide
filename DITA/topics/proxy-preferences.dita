@@ -24,15 +24,15 @@
           <dt>Proxy section</dt>
           <dd>Specifies how HTTP(S) connections go through the proxy server. You can choose between
             the following three options:<ul id="ul_lhr_bgk_54b">
-              <li id="li_mhr_bgk_54b"><uicontrol>Direct connection</uicontrol> - HTTP(S) connections will go directly to
+              <li id="li_mhr_bgk_54b" irina="irina"><uicontrol>Direct connection</uicontrol> - HTTP(S) connections will go directly to
                 the target host without going through a proxy server.</li>
-              <li id="li_nhr_bgk_54b"><uicontrol>Use system settings</uicontrol> (default setting) - HTTP(S) connections
+              <li id="li_nhr_bgk_54b" irina="irina"><uicontrol>Use system settings</uicontrol> (default setting) - HTTP(S) connections
                 will go through the proxy server set in the operating system.<note type="attention" id="note_ohr_bgk_54b"
                   >The system settings for the proxy cannot be read correctly from the operating
                   system on some Linux systems. The system settings option should work properly on
                   Gnome-based Linux systems, but it does not work on KDE-based ones as the Java
                   virtual machine does not offer the necessary support yet.</note></li>
-              <li id="li_phr_bgk_54b"><uicontrol>Manual proxy configuration</uicontrol> - HTTP(S) connections will go
+              <li id="li_phr_bgk_54b" irina="irina"><uicontrol>Manual proxy configuration</uicontrol> - HTTP(S) connections will go
                 through the proxy server specified in the <uicontrol>Web Proxy
                   (HTTP/HTTPS)</uicontrol> section.</li>
             </ul></dd>

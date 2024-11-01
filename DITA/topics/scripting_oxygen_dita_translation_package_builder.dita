@@ -16,12 +16,12 @@
         href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html?os=Other"
         format="html" scope="external">all platforms distribution</xref> of <ph keyref="product"/>.
       To install it the add-on, follow these instructions:<ol id="ol_nn2_2vb_vmb">
-        <li id="li_ulx_dgk_54b">Go on the <uicontrol>DITA Translation Package Builder</uicontrol> plugin
+        <li id="li_ulx_dgk_54b" irina="irina">Go on the <uicontrol>DITA Translation Package Builder</uicontrol> plugin
             <uicontrol>Releases</uicontrol> page and download the latest <xref
             href="https://github.com/oxygenxml/oxygen-dita-translation-package-builder/releases/latest"
             format="html" scope="external">translation-package-builder-{version}-plugin.jar</xref>
           package.</li>
-        <li id="li_vlx_dgk_54b">Unzip it inside <filepath>{oxygenInstallDir}/plugins</filepath>.<note id="note_wlx_dgk_54b">Do not create any
+        <li id="li_vlx_dgk_54b" irina="irina">Unzip it inside <filepath>{oxygenInstallDir}/plugins</filepath>.<note id="note_wlx_dgk_54b">Do not create any
             intermediate folders. Afterwards, the file system should look like this:
               <filepath>{oxygenInstallDir}/plugins/translation-package-builder-{version}/plugin.xml</filepath></note></li>
       </ol></p>

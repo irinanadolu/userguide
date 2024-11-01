@@ -63,9 +63,9 @@
           <dt><uicontrol>Messages</uicontrol></dt>
           <dd>Allows you to specify how to handle the debugging process when the source document
             involved in a debugging session is edited. You can choose one of the following:<ul id="ul_xhq_bgk_54b">
-              <li id="li_yhq_bgk_54b"><uicontrol>Ask me what to do</uicontrol></li>
-              <li id="li_zhq_bgk_54b"><uicontrol>Always stop the debugging session</uicontrol></li>
-              <li id="li_a3q_bgk_54b"><uicontrol>Never stop the debugging session</uicontrol></li>
+              <li id="li_yhq_bgk_54b" irina="irina"><uicontrol>Ask me what to do</uicontrol></li>
+              <li id="li_zhq_bgk_54b" irina="irina"><uicontrol>Always stop the debugging session</uicontrol></li>
+              <li id="li_a3q_bgk_54b" irina="irina"><uicontrol>Never stop the debugging session</uicontrol></li>
             </ul></dd>
         </dlentry>
       </dl></p>

@@ -10,25 +10,25 @@
       in all the modules will be considered. Also, make sure that there are no other open modules
       that are not involved in the current debugging session.</p>
     <p id="p_tqx_cgk_54b">To place <term>breakpoints</term> in the modules, use the following procedure:<ol id="ol_uqx_cgk_54b">
-        <li id="li_vqx_cgk_54b">In the <xref
+        <li id="li_vqx_cgk_54b" irina="irina">In the <xref
             href="../topics/relational-database-explorer.dita#relational-database-explorer"
               ><uicontrol>Data Source Explorer</uicontrol> view</xref>, open all the modules from
           the <uicontrol><image href="../img/DBModules16.png"/>Modules</uicontrol> container of the
             <xref
             href="configure-marklogic-connection.dita#configure-marklogic-connection/xdbc-step">XDBC
             application server</xref> that performs the debugging.</li>
-        <li id="li_wqx_cgk_54b"><xref href="using-breakpoints.dita#using-breakpoints/inserting_breakpoints">Set
+        <li id="li_wqx_cgk_54b" irina="irina"><xref href="using-breakpoints.dita#using-breakpoints/inserting_breakpoints">Set
               <term>breakpoints</term></xref> in the module as needed.</li>
-        <li id="li_xqx_cgk_54b"><xref href="steps-in-typical-debug-process.dita#steps-in-typical-debug-process"
+        <li id="li_xqx_cgk_54b" irina="irina"><xref href="steps-in-typical-debug-process.dita#steps-in-typical-debug-process"
             format="dita">Continue debugging</xref> the query.</li>
       </ol></p>
     <p id="p_yqx_cgk_54b">If you get a warning that the <term>breakpoints</term> failed to initialize, try the
       following solutions:<ul id="ul_zqx_cgk_54b">
-        <li id="li_arx_cgk_54b">Check the <xref href="debug-breakpoints-view.dita#debug-breakpoints-view"
+        <li id="li_arx_cgk_54b" irina="irina">Check the <xref href="debug-breakpoints-view.dita#debug-breakpoints-view"
               ><uicontrol>Breakpoints</uicontrol> view</xref> and make sure there are no older
             <term>breakpoints</term> (set on resources that are not part of the current debugging
           context).</li>
-        <li id="li_brx_cgk_54b">Make sure you open the modules from the context of the application server that does the
+        <li id="li_brx_cgk_54b" irina="irina">Make sure you open the modules from the context of the application server that does the
           debugging and place <term>breakpoints</term> there.</li>
       </ul></p>
   </body>

@@ -25,11 +25,11 @@
       properties.</p>
     <p id="p_xj3_dgk_54b">If you choose the <uicontrol>Add a new property</uicontrol> action, a new dialog box will
       appear that contains the following:<ul id="ul_yj3_dgk_54b">
-        <li id="li_zj3_dgk_54b"><uicontrol>Name</uicontrol> - Combo box that allows you to enter the name of the
+        <li id="li_zj3_dgk_54b" irina="irina"><uicontrol>Name</uicontrol> - Combo box that allows you to enter the name of the
           property. The drop-down menu of the combo box presents the predefined Subversion
           properties (such as <uicontrol>svn:ignore</uicontrol>,
             <uicontrol>svn:externals</uicontrol>, <uicontrol>svn:needs-lock</uicontrol>, etc.)</li>
-        <li id="li_ak3_dgk_54b"><uicontrol>Current value</uicontrol> - Text area that allows you to enter the value of
+        <li id="li_ak3_dgk_54b" irina="irina"><uicontrol>Current value</uicontrol> - Text area that allows you to enter the value of
           the new property.</li>
       </ul>If the selected item is a directory, you can also set the property recursively on its
       children by selecting the <uicontrol>Set property recursively</uicontrol> checkbox.</p>
@@ -37,9 +37,9 @@
         <uicontrol>Edit property</uicontrol> action, which will display a dialog box with the
       following information:</p>
     <ul id="ul_ck3_dgk_54b">
-      <li id="li_dk3_dgk_54b"><uicontrol>Name</uicontrol> - Property name (cannot be changed).</li>
-      <li id="li_ek3_dgk_54b"><uicontrol>Current value</uicontrol> - The current value (can be changed).</li>
-      <li id="li_fk3_dgk_54b"><uicontrol>Base value</uicontrol> - The value of the property, if any, from the resource
+      <li id="li_dk3_dgk_54b" irina="irina"><uicontrol>Name</uicontrol> - Property name (cannot be changed).</li>
+      <li id="li_ek3_dgk_54b" irina="irina"><uicontrol>Current value</uicontrol> - The current value (can be changed).</li>
+      <li id="li_fk3_dgk_54b" irina="irina"><uicontrol>Base value</uicontrol> - The value of the property, if any, from the resource
         in the pristine copy (cannot be changed).</li>
     </ul>
     <p id="p_gk3_dgk_54b">If you want to completely remove a property previously set you can choose the

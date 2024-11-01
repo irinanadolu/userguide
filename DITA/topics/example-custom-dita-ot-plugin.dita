@@ -14,9 +14,9 @@
     <p id="p_vnn_dgk_54b">The following procedure is meant to help you with creating the <term>plugin</term>:</p>
     <p id="p_wnn_dgk_54b">
       <ol id="ol_icd_rdt_pm">
-        <li id="li_xnn_dgk_54b">Create a folder for your <term>plugin</term> in the DITA-OT <b>plugins</b> folder
+        <li id="li_xnn_dgk_54b" irina="irina">Create a folder for your <term>plugin</term> in the DITA-OT <b>plugins</b> folder
               (<filepath><term keyref="glossentry_dita_ot_dir"/>/plugins/</filepath>).</li>
-        <li id="li_ynn_dgk_54b">
+        <li id="li_ynn_dgk_54b" irina="irina">
           <p id="p_znn_dgk_54b">Create a <b>plugin.xml</b> file (in the same <term>plugin</term> folder) that contains
             the extension points of the <term>plugin</term>.<note id="note_a4n_dgk_54b">You can easily create this file by
               using the <uicontrol>DITA-OT Plugin</uicontrol> template that is included in <ph
@@ -44,7 +44,7 @@
               href="http://www.dita-ot.org/dev/extension-points/extension-points-by-plugin.html"
               format="html" scope="external"/>.</p>
         </li>
-        <li id="li_f4n_dgk_54b">
+        <li id="li_f4n_dgk_54b" irina="irina">
           <p id="p_g4n_dgk_54b">Create an XSLT stylesheet to customize the output types. In this example, to customize
             the HTML output, it is necessary to create an XSLT stylesheet called
               <b>xhtmlMedia.xsl</b> (in the same <term>plugin</term> folder).<note type="tip" id="note_h4n_dgk_54b">You
@@ -71,7 +71,7 @@
  &lt;/video>
 &lt;/xsl:template></codeblock></p>
         </li>
-        <li id="li_k4n_dgk_54b">
+        <li id="li_k4n_dgk_54b" irina="irina">
           <p id="p_l4n_dgk_54b">Create additional XSLT stylesheets to customize all other desired output types. In this
             example, to customize the PDF output it is necessary to create an XSLT stylesheet called
               <b>pdfMedia.xsl</b> (in the same <term>plugin</term> folder).</p>
@@ -101,7 +101,7 @@
      &lt;/fo:inline>
 &lt;/xsl:template></codeblock></p>
         </li>
-        <li id="li_o4n_dgk_54b">
+        <li id="li_o4n_dgk_54b" irina="irina">
           <p id="p_p4n_dgk_54b">To install the created <term>plugin</term> in the <b>DITA-OT</b>,
             run the built-in transformation scenario called <xref
               href="ditamap-run-dita-ot-integrator.dita#ditamap-run-dita-ot-integrator"
@@ -117,7 +117,7 @@
           <p id="p_q4n_dgk_54b"><b>Results of running the integrator using the media plugin example:</b></p>
           <p id="p_r4n_dgk_54b">XSLT content is applied with priority when publishing to both HTML and PDF outputs.<ol
               id="ol_vnx_h2t_pm">
-              <li id="li_s4n_dgk_54b">
+              <li id="li_s4n_dgk_54b" irina="irina">
                 <p id="p_t4n_dgk_54b">For the HTML output, in the XSLT stylesheet <filepath><term
                       keyref="glossentry_dita_ot_dir"
                     />/plugins/org.dita.xhtml/xsl/dita2html-base.xsl</filepath>, a new import
@@ -127,7 +127,7 @@
                   more information about imported template precedence, see: <xref
                     href="http://www.w3.org/TR/xslt#import" format="html" scope="external"/>.</p>
               </li>
-              <li id="li_w4n_dgk_54b">Likewise, for the PDF output, in the top-level stylesheet <filepath><term
+              <li id="li_w4n_dgk_54b" irina="irina">Likewise, for the PDF output, in the top-level stylesheet <filepath><term
                     keyref="glossentry_dita_ot_dir"
                   />/plugins/org.dita.pdf2/xsl/fo/topic2fo_shell_fop.xsl</filepath>, a new import
                 statement

@@ -21,15 +21,15 @@
     <p>Tasks created from inside a project are slightly different than regular tasks created outside
       of a project:</p>
     <ul>
-      <li>A project-based review task is created from the Content Fusion browser interface inside a
+      <li irina="irina">A project-based review task is created from the Content Fusion browser interface inside a
         project, while a regular review task is created either from <b>Oxygen XML Editor/Author</b>
         or the browser interface, outside a project.</li>
-      <li>The changes made to a project-based review task are stored in the Git repository of the
+      <li irina="irina">The changes made to a project-based review task are stored in the Git repository of the
         project and will be merged in the project default branch and pushed to the upstream remote
         repository when the task is finished.</li>
-      <li>All the authors that have access to a project will be able to see all review tasks created
+      <li irina="irina">All the authors that have access to a project will be able to see all review tasks created
         in that project.</li>
-      <li>A project-based review task contains all the files in the project (not just the files
+      <li irina="irina">A project-based review task contains all the files in the project (not just the files
         selected for review).</li>
     </ul>
     <p>To open an existing task, simply click on it. This open the <xref href="cf-task-files.dita"
@@ -47,18 +47,18 @@
     <section id="section_cn4_k3x_4jb">
       <title>Creating New Tasks and Files Within a Project</title>
       <p id="p_vxt_dgk_54b">To create a new task and add files:<ol id="ol_gzj_4pq_4jb">
-          <li id="li_wxt_dgk_54b">From the <uicontrol>Review Tasks</uicontrol> page, click the
+          <li id="li_wxt_dgk_54b" irina="irina">From the <uicontrol>Review Tasks</uicontrol> page, click the
               <uicontrol>New Task</uicontrol> button.</li>
-          <li id="li_eyt_dgk_54b">Enter a title for the task in the field at the top of the pane.
+          <li id="li_eyt_dgk_54b" irina="irina">Enter a title for the task in the field at the top of the pane.
             Click the check mark on the right side when you are done.</li>
-          <li>Optionally, you can specify a <uicontrol>Due Date</uicontrol>. The amount of time left
+          <li irina="irina">Optionally, you can specify a <uicontrol>Due Date</uicontrol>. The amount of time left
             before the due date arrives is displayed under the review task's title when you have
             navigated inside the task and also in the table in the <xref
               href="content_fusion_task_details.dita"><uicontrol>My Review Tasks</uicontrol>
               page</xref>. Also, any reviewers who have not finalized the task will receive an email
             notification when the due date is within 3 days, 1 day, and 12 hours of its
             expiration.</li>
-          <li id="li_c15_1m4_g1c">To add files to the task, select the file from the
+          <li id="li_c15_1m4_g1c" irina="irina">To add files to the task, select the file from the
               <uicontrol>Files</uicontrol> side-pane.<note id="note_b5n_3m4_g1c" type="tip">If you
               want to create a new file to add to the task (or upload an existing one from your
               computer), you will first need to finish creating the task. After clicking the
@@ -71,17 +71,17 @@
                 page</xref> to make changes to the document. To upload a file, click the
                   <uicontrol><image href="../img/cf-upload16.png"/>Upload</uicontrol> button and
               select the file from your computer.</note></li>
-          <li id="li_rp5_qn4_g1c">Optionally, you can select a <uicontrol>Context
+          <li id="li_rp5_qn4_g1c" irina="irina">Optionally, you can select a <uicontrol>Context
               Publication</uicontrol> (the publication must already be defined in the <xref
               href="cf-projects-publications.dita"/>). The benefit of specifying a context
             publication is that the files added to the task will be rendered as a hierarchical tree
             based upon the context DITA map defined in the publication.</li>
-          <li id="li_j34_pvv_21c">Optionally, select <uicontrol>Settings</uicontrol> from the left
+          <li id="li_j34_pvv_21c" irina="irina">Optionally, select <uicontrol>Settings</uicontrol> from the left
             stripe to open the <xref href="cf-task-settings.dita"><uicontrol>Task
                 Settings</uicontrol> page</xref> to configure options or delete the task.</li>
-          <li id="li_etv_n44_g1c">Click <uicontrol>Create</uicontrol> to finish the task creation
+          <li id="li_etv_n44_g1c" irina="irina">Click <uicontrol>Create</uicontrol> to finish the task creation
             process.</li>
-          <li id="li_qgb_qvv_21c">The next logical step would most likely be to <xref
+          <li id="li_qgb_qvv_21c" irina="irina">The next logical step would most likely be to <xref
               href="sharing_tasks_with_reviewers.dita">share the task</xref> with anyone you want to
             review the documents.</li>
         </ol></p>

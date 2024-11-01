@@ -24,12 +24,12 @@
       documents in the editor.</p>
     <p id="p_k11_gb5_s4b">There are two types of integrations that are possible:<ul
         id="ul_kvh_hb5_s4b">
-        <li id="li_lvh_hb5_s4b"><b>SharePoint Online</b> - A new implementation that uses the <xref
+        <li id="li_lvh_hb5_s4b" irina="irina"><b>SharePoint Online</b> - A new implementation that uses the <xref
             href="https://docs.microsoft.com/en-us/sharepoint/dev/apis/sharepoint-rest-graph"
             format="html" scope="external">SharePoint REST API v.2</xref> and it supports OAuth
           credentials (access tokens). If you need authentication, you must use this type of
           integration.</li>
-        <li id="li_b5v_lb5_s4b"><b>SharePoint</b> - The older implementation that was implemented
+        <li id="li_b5v_lb5_s4b" irina="irina"><b>SharePoint</b> - The older implementation that was implemented
           using SharePoint Web Services (now deprecated) and it does NOT support OAuth credentials
           (access tokens).</li>
       </ul></p>

@@ -59,12 +59,12 @@
       <title>Output Tab</title>
       <p id="p_p12_cgk_54b">The following options are available in the <uicontrol>Output</uicontrol> tab:<ul
           id="ul_gwz_4lb_gs">
-          <li id="li_q12_cgk_54b"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
+          <li id="li_q12_cgk_54b" irina="irina"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
               id="ul_pnl_ztg_gs">
-              <li id="li_r12_cgk_54b"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
+              <li id="li_r12_cgk_54b" irina="irina"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
                   href="wsdl-documentation-html.dita#wsdl-documentation-html">HTML output
                   format</xref>.</li>
-              <li id="li_s12_cgk_54b"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
+              <li id="li_s12_cgk_54b" irina="irina"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
                   href="wsdl-documentation-custom-format.dita#wsdl-documentation-custom-format"
                   >custom output format</xref>, allowing you to control the output. Click the
                   <uicontrol>Options</uicontrol> button to open a <uicontrol>Custom format
@@ -75,17 +75,17 @@
                 keep the intermediate XML files created during the documentation process by
                 deselecting the <uicontrol>Delete intermediate XML file</uicontrol> option.</li>
             </ul></li>
-          <li id="li_t12_cgk_54b"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
+          <li id="li_t12_cgk_54b" irina="irina"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
             entering it in the text field, or by using the <uicontrol><image
                 href="../img/InsertEditorVariables16.png" id="image_pdh_bwg_gs"/> Insert Editor
               Variables</uicontrol> button or the options in the <uicontrol><image
                 href="../img/BrowseDrop.png" id="image_qdh_bwg_gs"/>Browse</uicontrol> drop-down
             menu.</li>
-          <li id="li_u12_cgk_54b"><uicontrol>Split output into multiple files</uicontrol> - Instructs the application to
+          <li id="li_u12_cgk_54b" irina="irina"><uicontrol>Split output into multiple files</uicontrol> - Instructs the application to
             split the output into multiple files. For large WSDL documents, choosing a different
             split criterion may generate smaller output files providing a faster documentation
             browsing. You can choose to split them by namespace, location, or component name.</li>
-          <li id="li_v12_cgk_54b"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
+          <li id="li_v12_cgk_54b" irina="irina"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
             system application associated with the output file type.<note id="note_w12_cgk_54b">To set the browser or
               system application that will be used, <ph product="developer editor"><ph
                   conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to
@@ -97,7 +97,7 @@
                   <uicontrol>Web Browser</uicontrol>
                 </menucascade> and specify it there</ph>. This will take precedence over the default
               system application settings.</note></li>
-          <li id="li_x12_cgk_54b"><uicontrol>Keep only the annotations with xml:lang set to</uicontrol> - The generated
+          <li id="li_x12_cgk_54b" irina="irina"><uicontrol>Keep only the annotations with xml:lang set to</uicontrol> - The generated
             output will contain only the annotations with the <xmlatt>xml:lang</xmlatt> attribute
             set to the selected language. If you choose a primary language code (for example,
               <uicontrol>en</uicontrol> for English), this includes all its possible variations
@@ -123,45 +123,45 @@
       </p>
       <p id="p_bb2_cgk_54b">The <uicontrol>Settings</uicontrol> tab allows you to choose whether or not to include the
           following:<ul id="ul_lhk_zm3_gs">
-          <li id="li_cb2_cgk_54b"><uicontrol>Components</uicontrol><ul id="ul_mhk_zm3_gs">
-              <li id="li_db2_cgk_54b"><uicontrol>Services</uicontrol> - Specifies whether or not the generated
+          <li id="li_cb2_cgk_54b" irina="irina"><uicontrol>Components</uicontrol><ul id="ul_mhk_zm3_gs">
+              <li id="li_db2_cgk_54b" irina="irina"><uicontrol>Services</uicontrol> - Specifies whether or not the generated
                 documentation includes the WSDL services.</li>
-              <li id="li_eb2_cgk_54b"><uicontrol>Bindings</uicontrol> - Specifies whether or not the generated
+              <li id="li_eb2_cgk_54b" irina="irina"><uicontrol>Bindings</uicontrol> - Specifies whether or not the generated
                 documentation includes the WSDL bindings.</li>
-              <li id="li_fb2_cgk_54b"><uicontrol>Port Types</uicontrol> - Specifies whether or not the generated
+              <li id="li_fb2_cgk_54b" irina="irina"><uicontrol>Port Types</uicontrol> - Specifies whether or not the generated
                 documentation includes the WSDL port types.</li>
-              <li id="li_gb2_cgk_54b"><uicontrol>Messages</uicontrol> - Specifies whether or not the generated
+              <li id="li_gb2_cgk_54b" irina="irina"><uicontrol>Messages</uicontrol> - Specifies whether or not the generated
                 documentation includes the WSDL messages.</li>
-              <li id="li_hb2_cgk_54b"><uicontrol>XML Schema Components</uicontrol> - Specifies whether or not the
+              <li id="li_hb2_cgk_54b" irina="irina"><uicontrol>XML Schema Components</uicontrol> - Specifies whether or not the
                 generated documentation includes the XML Schema components.</li>
-              <li id="li_ib2_cgk_54b"><uicontrol>Only global elements and types</uicontrol> - Specifies whether or not
+              <li id="li_ib2_cgk_54b" irina="irina"><uicontrol>Only global elements and types</uicontrol> - Specifies whether or not
                 the generated documentation includes only global elements and types.</li>
             </ul></li>
-          <li id="li_jb2_cgk_54b"><uicontrol>Component Details</uicontrol><ul id="ul_ohk_zm3_gs">
-              <li id="li_kb2_cgk_54b"><uicontrol>Namespace</uicontrol> - Presents the namespace information for WSDL or
+          <li id="li_jb2_cgk_54b" irina="irina"><uicontrol>Component Details</uicontrol><ul id="ul_ohk_zm3_gs">
+              <li id="li_kb2_cgk_54b" irina="irina"><uicontrol>Namespace</uicontrol> - Presents the namespace information for WSDL or
                 XML Schema components.</li>
-              <li id="li_lb2_cgk_54b"><uicontrol>Location</uicontrol> - Presents the location information for each WSDL
+              <li id="li_lb2_cgk_54b" irina="irina"><uicontrol>Location</uicontrol> - Presents the location information for each WSDL
                 or XML Schema component.</li>
-              <li id="li_mb2_cgk_54b"><uicontrol>Used by</uicontrol> - Presents the list of components that reference
+              <li id="li_mb2_cgk_54b" irina="irina"><uicontrol>Used by</uicontrol> - Presents the list of components that reference
                 the current one.</li>
-              <li id="li_nb2_cgk_54b"><uicontrol>Documentation</uicontrol> - Presents the component documentation. If
+              <li id="li_nb2_cgk_54b" irina="irina"><uicontrol>Documentation</uicontrol> - Presents the component documentation. If
                 you choose <uicontrol>Escape XML Content</uicontrol>, the XML tags are presented in
                 the documentation.</li>
-              <li id="li_ob2_cgk_54b"><uicontrol>Source</uicontrol> - Presents the XML fragment that defines the current
+              <li id="li_ob2_cgk_54b" irina="irina"><uicontrol>Source</uicontrol> - Presents the XML fragment that defines the current
                 component.</li>
-              <li id="li_pb2_cgk_54b"><uicontrol>Instance</uicontrol> - Generates a sample XML instance for the current
+              <li id="li_pb2_cgk_54b" irina="irina"><uicontrol>Instance</uicontrol> - Generates a sample XML instance for the current
                   component.<note id="note_qb2_cgk_54b">This option applies to the XML Schema components only.</note></li>
-              <li id="li_rb2_cgk_54b"><uicontrol>XML Schema Diagram</uicontrol> - Displays the diagram for each XML
+              <li id="li_rb2_cgk_54b" irina="irina"><uicontrol>XML Schema Diagram</uicontrol> - Displays the diagram for each XML
                 Schema component. You can choose the image format (JPEG, PNG, <ph
                   product="editor developer">GIF, </ph>SVG) to use for the diagram section.</li>
-              <li id="li_sb2_cgk_54b"><uicontrol>Diagram annotations</uicontrol> - Specifies whether or not the
+              <li id="li_sb2_cgk_54b" irina="irina"><uicontrol>Diagram annotations</uicontrol> - Specifies whether or not the
                 annotations of the components presented in the diagram sections are included.</li>
             </ul></li>
-          <li id="li_tb2_cgk_54b"><uicontrol>Generate index</uicontrol> - Displays an index with the components included
+          <li id="li_tb2_cgk_54b" irina="irina"><uicontrol>Generate index</uicontrol> - Displays an index with the components included
             in the documentation.<ul id="ul_ggv_rk3_gs">
-              <li id="li_ub2_cgk_54b"><uicontrol>Include local elements and attributes</uicontrol> - If selected, local
+              <li id="li_ub2_cgk_54b" irina="irina"><uicontrol>Include local elements and attributes</uicontrol> - If selected, local
                 elements and attributes are included in the documentation index.</li>
-              <li id="li_vb2_cgk_54b"><uicontrol>Include resource hierarchy</uicontrol> - Specifies whether or not the
+              <li id="li_vb2_cgk_54b" irina="irina"><uicontrol>Include resource hierarchy</uicontrol> - Specifies whether or not the
                 resource hierarchy for an XML Schema documentation is generated. It is deselected by
                 default.</li>
             </ul></li>

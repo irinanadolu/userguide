@@ -29,12 +29,12 @@
           href="the-document-type-dialog.dita#the-document-type-dialog"><uicontrol>Document
             Type</uicontrol> configuration dialog box</xref>. To access it, follow these steps:<ol
           id="ol_fk5_32t_mq">
-          <li id="li_cb1_dgk_54b"><ph id="Open-the-preferences-page">
+          <li id="li_cb1_dgk_54b" irina="irina"><ph id="Open-the-preferences-page">
               <xref keyref="options_preferences">Open the <uicontrol>Preferences</uicontrol> dialog
                 box</xref>
             </ph>. </li>
-          <li id="li_db1_dgk_54b">Go to <uicontrol>Document Type Association</uicontrol>.</li>
-              <li id="li_eb1_dgk_54b">Select the appropriate document type and click the <uicontrol>Edit</uicontrol>
+          <li id="li_db1_dgk_54b" irina="irina">Go to <uicontrol>Document Type Association</uicontrol>.</li>
+              <li id="li_eb1_dgk_54b" irina="irina">Select the appropriate document type and click the <uicontrol>Edit</uicontrol>
               button.<note type="important" id="note_fb1_dgk_54b">If you do not have access rights to the folder where the
                 <xref keyref="glossentry_framework"><term>framework</term></xref> files are stored,
               you can either elevate read/write permissions on that <term>framework</term> folder or
@@ -102,9 +102,9 @@
         there are CSS styles specified in the document. You can choose to <i>ignore</i> or
           <i>merge</i> them. </p>
       <p id="p_pb1_dgk_54b">The following rules apply for merging CSS styles: <ul id="ul_f1c_ck5_bs">
-          <li id="li_qb1_dgk_54b">CSS files with the same title will be merged.</li>
-          <li id="li_rb1_dgk_54b">CSS files without a title will contribute to all others.</li>
-          <li id="li_sb1_dgk_54b">They are merged sequentially, in the order that they appear in the list.</li>
+          <li id="li_qb1_dgk_54b" irina="irina">CSS files with the same title will be merged.</li>
+          <li id="li_rb1_dgk_54b" irina="irina">CSS files without a title will contribute to all others.</li>
+          <li id="li_sb1_dgk_54b" irina="irina">They are merged sequentially, in the order that they appear in the list.</li>
         </ul></p>
     </section>
   </body>

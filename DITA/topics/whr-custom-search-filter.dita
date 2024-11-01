@@ -17,19 +17,19 @@
       search queries to locate certain content within the WebHelp output.</p>
     <p id="p_ot4_cgk_54b">To integrate a custom search filter, follow these steps: <ol
         id="ol_pt4_cgk_54b">
-        <li id="li_qt4_cgk_54b">If you have not already created a Publishing Template, see <xref
+        <li id="li_qt4_cgk_54b" irina="irina">If you have not already created a Publishing Template, see <xref
             href="whr-create-publishing-template.dita">How to Create a Publishing
           Template</xref>.</li>
-        <li id="li_rt4_cgk_54b">Create the following items in the folder that contains your
+        <li id="li_rt4_cgk_54b" irina="irina">Create the following items in the folder that contains your
           publishing descriptor file (the <filepath>.opt</filepath> file):<itemgroup>
             <ul id="ul_st4_cgk_54b">
-              <li id="li_vt4_cgk_54b">A folder named <filepath>js</filepath>. </li>
-              <li id="li_ugy_p12_dvb">A folder named <filepath>fragments</filepath>. </li>
+              <li id="li_vt4_cgk_54b" irina="irina">A folder named <filepath>js</filepath>. </li>
+              <li id="li_ugy_p12_dvb" irina="irina">A folder named <filepath>fragments</filepath>. </li>
             </ul>
           </itemgroup></li>
-        <li id="li_zt4_cgk_54b">In the <b>js</b> folder, create a file named
+        <li id="li_zt4_cgk_54b" irina="irina">In the <b>js</b> folder, create a file named
           <b>search-filter.js</b>. </li>
-        <li id="li_a54_cgk_54b">As a starting point, you can copy the following content to the
+        <li id="li_a54_cgk_54b" irina="irina">As a starting point, you can copy the following content to the
             <b>search-filter.js</b> file: <itemgroup>
             <codeblock outputclass="language-javascript" id="codeblock_b54_cgk_54b">/**
  * Object that implements the methods required by WebHelp to run a search filter.
@@ -58,16 +58,16 @@ WebHelpAPI.setCustomSearchFilter(new CustomSearchFilter());
                 >API Search Objects section</xref> for details on how to create a
                 <codeph>WebHelpAPI.SearchResult</codeph> object.</note>
           </itemgroup></li>
-        <li id="li_e54_cgk_54b">Implement your custom search filter.</li>
-        <li id="li_hy1_3b2_dvb">In the <b>fragments</b> folder, create a file named
+        <li id="li_e54_cgk_54b" irina="irina">Implement your custom search filter.</li>
+        <li id="li_hy1_3b2_dvb" irina="irina">In the <b>fragments</b> folder, create a file named
             <b>search-filter-script-fragment.xml</b>.</li>
-        <li id="li_g54_cgk_54b">In the <b>search-filter-script-fragment.xml</b> file, define the
+        <li id="li_g54_cgk_54b" irina="irina">In the <b>search-filter-script-fragment.xml</b> file, define the
           scripts that are required for your custom search filter to run. For example: <itemgroup>
             <codeblock outputclass="language-xml" id="codeblock_h54_cgk_54b">&lt;div>
     &lt;script src="${oxygen-webhelp-template-dir}/js/search-filter.js">&lt;/script>
 &lt;/div></codeblock>
           </itemgroup></li>
-        <li id="li_i54_cgk_54b">Copy the <b>js</b> folder to the output folder during the
+        <li id="li_i54_cgk_54b" irina="irina">Copy the <b>js</b> folder to the output folder during the
           transformation process. For this, open the <filepath>.opt</filepath> file and add the
           following content in the <xmlelement>resources</xmlelement> section (see <xref
             href="whr_publishing_template_contents.dita#template_resources">Template
@@ -76,7 +76,7 @@ WebHelpAPI.setCustomSearchFilter(new CustomSearchFilter());
   &lt;include name="js/**"/>
 &lt;/fileset></codeblock>
           </itemgroup></li>
-        <li id="li_k54_cgk_54b">Set the transformation parameters needed to enable the custom search
+        <li id="li_k54_cgk_54b" irina="irina">Set the transformation parameters needed to enable the custom search
           filter. For this, open the <filepath>.opt</filepath> file and add the following content
           inside the <xmlelement>webhelp</xmlelement> element: <itemgroup>
             <codeblock outputclass="language-xml" id="codeblock_l54_cgk_54b">&lt;html-fragments>
@@ -84,7 +84,7 @@ WebHelpAPI.setCustomSearchFilter(new CustomSearchFilter());
       placeholder="webhelp.fragment.head.search.page"/>
 &lt;/html-fragments></codeblock>
           </itemgroup></li>
-        <li id="li_m54_cgk_54b"> Run the transformation with this publishing template selected.
+        <li id="li_m54_cgk_54b" irina="irina"> Run the transformation with this publishing template selected.
         </li>
       </ol></p>
   </body>

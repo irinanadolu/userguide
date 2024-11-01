@@ -16,12 +16,12 @@
   <body>
     <p id="p_cyd_dgk_54b">The <codeph>oxy_video</codeph> form control supports the following properties:</p>
     <ul id="ul_dyd_dgk_54b">
-      <li id="li_eyd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/href-property"/> This property is
+      <li id="li_eyd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/href-property"/> This property is
         mandatory. Relative values are resolved relative to the CSS. If you have media resources
         relative to the XML document, you can specify their paths like
         this:<codeblock outputclass="language-css" id="codeblock_fyd_dgk_54b">oxy_video(href, oxy_url(oxy_base-uri(), 'ex.mp4')), width, 400px, height, 300px)</codeblock></li>
-      <li id="li_gyd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property-simple"/></li>
-      <li id="li_hyd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/height-property"/></li>
+      <li id="li_gyd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property-simple"/></li>
+      <li id="li_hyd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/height-property"/></li>
     </ul>
     <p id="p_iyd_dgk_54b"><b><u>Example: <term>oxy_video</term> Form
       Control</u></b><codeblock outputclass="language-css" id="codeblock_jyd_dgk_54b">object {

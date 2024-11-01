@@ -36,20 +36,20 @@
       <p id="p_ldx_bgk_54b">The <term>Content Completion Assistant</term> offers the following types of proposed
         actions depending on the current context:</p>
       <ul id="ul_mdx_bgk_54b">
-        <li id="li_ndx_bgk_54b">Insert allowed elements for the current context schema and the list of proposals
+        <li id="li_ndx_bgk_54b" irina="irina">Insert allowed elements for the current context schema and the list of proposals
           contains elements depending on the elements inserted both before and after the cursor
           position. </li>
-        <li id="li_odx_bgk_54b">Insert element values if such values are specified in the schema for the current
+        <li id="li_odx_bgk_54b" irina="irina">Insert element values if such values are specified in the schema for the current
           context.</li>
-        <li id="li_pdx_bgk_54b">Insert new undeclared elements by entering their name in the text field.</li>
-        <li id="li_qdx_bgk_54b">Insert CDATA sections, comments, processing instructions.</li>
-        <li id="li_rdx_bgk_54b">Insert <xref href="../topics/code-templates.dita#code-templates" format="dita">code
+        <li id="li_pdx_bgk_54b" irina="irina">Insert new undeclared elements by entering their name in the text field.</li>
+        <li id="li_qdx_bgk_54b" irina="irina">Insert CDATA sections, comments, processing instructions.</li>
+        <li id="li_rdx_bgk_54b" irina="irina">Insert <xref href="../topics/code-templates.dita#code-templates" format="dita">code
             templates</xref>.</li>
-        <li id="li_sdx_bgk_54b"><ph conkeyref="reusables-editing-documents/proposal-type-rename"/></li>
-        <li id="li_tdx_bgk_54b"><ph conkeyref="reusables-editing-documents/proposal-type-surround"/></li>
-        <li id="li_udx_bgk_54b">If invoked on an empty list item that is the last element of the list, it will allow you
+        <li id="li_sdx_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/proposal-type-rename"/></li>
+        <li id="li_tdx_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/proposal-type-surround"/></li>
+        <li id="li_udx_bgk_54b" irina="irina">If invoked on an empty list item that is the last element of the list, it will allow you
           to convert the list item to a paragraph.</li>
-        <li id="li_vdx_bgk_54b">If the <xref
+        <li id="li_vdx_bgk_54b" irina="irina">If the <xref
             href="preferences-schema-aware.dita#preferences-schema-aware/show-all-possible-elements"
               ><uicontrol>Show all possible elements in the content completion list</uicontrol>
             option from the <uicontrol>Schema-Aware</uicontrol> preferences page</xref> is selected,
@@ -67,7 +67,7 @@
       <title>Examples of How the Content Completion Assistant Works</title>
       <p id="p_xdx_bgk_54b">To illustrate how the feature works, consider the following examples of invoking the
           <term>Content Completion Assistant</term> in certain contexts:<ul id="ul_ydx_bgk_54b">
-          <li id="li_zdx_bgk_54b">
+          <li id="li_zdx_bgk_54b" irina="irina">
             <p id="p_a2x_bgk_54b">If the cursor is positioned at the beginning or at the end of the element, the first
               item offered in the <term>Content Completion Assistant</term> is a <uicontrol>New
                 &lt;Element&gt;</uicontrol> item. Selecting this item will insert an empty
@@ -79,7 +79,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_d2x_bgk_54b">
+          <li id="li_d2x_bgk_54b" irina="irina">
             <p id="p_e2x_bgk_54b">If the cursor is positioned somewhere inside the element, the first entry in the
                 <term>Content Completion Assistant</term> is a <uicontrol>Split
                 &lt;Element></uicontrol> item. In most cases, you can only split the closest <xref
@@ -94,7 +94,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_h2x_bgk_54b">
+          <li id="li_h2x_bgk_54b" irina="irina">
             <p id="p_i2x_bgk_54b">If the cursor is positioned inside a <xref
                 keyref="glossentry_space-preserved-element"><term>space-preserved
                 element</term></xref> (for example, a <term>codeblock</term>), the first choice in
@@ -108,7 +108,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_l2x_bgk_54b">
+          <li id="li_l2x_bgk_54b" irina="irina">
             <p id="p_m2x_bgk_54b"><ph conkeyref="reusables-editing-documents/proposal-type-rename"/></p>
             <p id="p_n2x_bgk_54b">
               <fig id="fig_o2x_bgk_54b">
@@ -117,7 +117,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_p2x_bgk_54b">
+          <li id="li_p2x_bgk_54b" irina="irina">
             <p id="p_q2x_bgk_54b"><ph conkeyref="reusables-editing-documents/proposal-type-surround"/></p>
             <p id="p_r2x_bgk_54b">
               <fig id="fig_s2x_bgk_54b">

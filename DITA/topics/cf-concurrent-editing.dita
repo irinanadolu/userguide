@@ -23,10 +23,10 @@
           Editing</uicontrol> option in the <uicontrol>Task Settings</uicontrol> page</xref>.</p>
     <p>To set Concurrent Editing to be toggled off by default for new tasks, follow these steps:<ol
         id="ol_qzy_yrx_lqb">
-        <li>On the machine where <ph keyref="product"/> is installed, add this line to the
+        <li irina="irina">On the machine where <ph keyref="product"/> is installed, add this line to the
             <filepath>/fusion/data/config/api/api.properties</filepath>
           file:<pre id="pre_rzy_yrx_lqb">CONCURRENT_EDITING_ON_NEW_TASKS=false</pre></li>
-        <li>Restart the Content Fusion
+        <li irina="irina">Restart the Content Fusion
           machine:<pre id="pre_szy_yrx_lqb">sudo bash /fusion/admin/stop-content-fusion.sh
 sudo bash /fusion/admin/start-content-fusion.sh</pre></li>
       </ol></p>

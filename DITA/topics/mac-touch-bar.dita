@@ -26,11 +26,11 @@
         <title>Solution</title>
         <steps-informal>
           <p id="p_vsk_dgk_54b">To enable the Touch Bar function keys for <ph keyref="product"/>, follow these steps:<ol id="ol_wsk_dgk_54b">
-              <li id="li_xsk_dgk_54b">Go to <uicontrol>System Preferences</uicontrol> and select
+              <li id="li_xsk_dgk_54b" irina="irina">Go to <uicontrol>System Preferences</uicontrol> and select
                   <uicontrol>Keyboard</uicontrol>.</li>
-              <li id="li_ysk_dgk_54b">Click <uicontrol>Shortcuts</uicontrol>.</li>
-              <li id="li_zsk_dgk_54b">From the left sidebar, select <uicontrol>Function Keys</uicontrol>.</li>
-              <li id="li_atk_dgk_54b">Click the <uicontrol>+</uicontrol> symbol, select <b>Oxygen</b> from the list of
+              <li id="li_ysk_dgk_54b" irina="irina">Click <uicontrol>Shortcuts</uicontrol>.</li>
+              <li id="li_zsk_dgk_54b" irina="irina">From the left sidebar, select <uicontrol>Function Keys</uicontrol>.</li>
+              <li id="li_atk_dgk_54b" irina="irina">Click the <uicontrol>+</uicontrol> symbol, select <b>Oxygen</b> from the list of
                 apps, and click <uicontrol>Add</uicontrol>.</li>
             </ol></p>
         </steps-informal>

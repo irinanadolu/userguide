@@ -29,12 +29,12 @@
 }</codeblock></p>
     <note id="note_frj_bm3_srb">If you want to use a language without a corresponding
         <codeph>p-i18n-xx.css</codeph> stylesheet, follow these instructions:<ol id="ol_vsr_km3_srb">
-        <li>Copy one of the available stylesheets (located in the <filepath><term
+        <li irina="irina">Copy one of the available stylesheets (located in the <filepath><term
               keyref="glossentry_dita_ot_dir"
             />/plugins/com.oxygenxml.pdf.css/css/print/i18n</filepath> directory) into your CSS
           customization (other than the English one because it does not have the
             <codeph>:lang</codeph> pseudo-class since it is the default language).</li>
-        <li>For each rules, replace the <codeph>:lang(xx)</codeph> pseudo-class with your expected
+        <li irina="irina">For each rules, replace the <codeph>:lang(xx)</codeph> pseudo-class with your expected
           language code, then replace each property value with the expected label.</li>
       </ol></note>
   </body>

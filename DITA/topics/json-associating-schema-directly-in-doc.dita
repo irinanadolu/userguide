@@ -21,7 +21,7 @@
             id="image_lgf_ng3_5r"/>Associate Schema</uicontrol> action. The association can specify
         a relative file path or a URL of the schema.</p>
       <p id="p_ltf_cgk_54b">To associate a JSON Schema to the current JSON document, follow these steps:<ol id="ol_mtf_cgk_54b">
-          <li id="li_ntf_cgk_54b">
+          <li id="li_ntf_cgk_54b" irina="irina">
             <p id="p_otf_cgk_54b">Select the <uicontrol><image href="../img/AssociateSchema16.png"
                   id="image_f4c_lg3_5r"/>Associate Schema</uicontrol> action from the toolbar (or
                 <menucascade product="developer editor json">
@@ -38,14 +38,14 @@
               </fig>
             </p>
             <p id="p_stf_cgk_54b">This dialog box contains the following options for JSON documents:<ul id="ul_ttf_cgk_54b">
-                <li id="li_utf_cgk_54b">
+                <li id="li_utf_cgk_54b" irina="irina">
                   <uicontrol>URL</uicontrol> - Allows you to specify or select a URL for the schema.
                   It also keeps a history of the last used schemas. The URL must point to the schema
                   file that can be loaded from the local disk or from a remote server through
                   HTTP(S), FTP(S)<ph product="developer editor"> or a <xref
                       href="howto-custom-protocol-plugin.dita#howto-custom-protocol-plugin"
                       format="dita">custom protocol</xref></ph>.</li>
-                <li id="li_vtf_cgk_54b">
+                <li id="li_vtf_cgk_54b" irina="irina">
                   <uicontrol>Use path relative to file location</uicontrol> - Select this option if
                   the JSON instance document and the associated schema contain relative paths. The
                   location of the schema file is inserted in the JSON instance document as a
@@ -54,8 +54,8 @@
                   project locations on physical disk.</li>
               </ul></p>
           </li>
-          <li id="li_wtf_cgk_54b">Select the JSON Schema that will be associated with the JSON document.</li>
-          <li id="li_xtf_cgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_wtf_cgk_54b" irina="irina">Select the JSON Schema that will be associated with the JSON document.</li>
+          <li id="li_xtf_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol></p>
       <p id="p_ytf_cgk_54b"><b>Result:</b> A <codeph>$schema</codeph> property is added at the
         beginning of the document with its value set to the specified URL. If the document already

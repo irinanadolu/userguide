@@ -18,19 +18,19 @@
       topics, other maps, glossary terms, and keys. You can also use this dialog box to configure
       the attributes of a reference, add profiling or metadata, and define keys.</p>
     <p id="p_k4l_dgk_54b">To open the <uicontrol>Insert Reference</uicontrol> dialog box, use one of the following methods:<ul id="ul_l4l_dgk_54b">
-        <li id="li_m4l_dgk_54b">Select <uicontrol><image href="../img/Topicref16.png"/>Reference</uicontrol>,
+        <li id="li_m4l_dgk_54b" irina="irina">Select <uicontrol><image href="../img/Topicref16.png"/>Reference</uicontrol>,
             <uicontrol>Reference to the currently edited file</uicontrol>, or any of the other
           specific reference actions that are available from the <uicontrol>Append
           Child</uicontrol>, <uicontrol>Insert Before</uicontrol>, and <uicontrol>Insert
             After</uicontrol> submenus when invoking the contextual menu in the <xref
             href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
             Manager</uicontrol></xref>.<ul id="ul_n4l_dgk_54b">
-            <li id="li_o4l_dgk_54b">To insert the reference as a child of the current node, select the reference from
+            <li id="li_o4l_dgk_54b" irina="irina">To insert the reference as a child of the current node, select the reference from
               the <uicontrol>Append Child</uicontrol> submenu.</li>
-            <li id="li_p4l_dgk_54b">To insert the reference as a sibling of the current node, below the current node in
+            <li id="li_p4l_dgk_54b" irina="irina">To insert the reference as a sibling of the current node, below the current node in
               the map, select the reference from the <uicontrol>Insert After</uicontrol>
               submenu.</li>
-            <li id="li_q4l_dgk_54b">To insert the reference as a sibling of the current node, above the current node in
+            <li id="li_q4l_dgk_54b" irina="irina">To insert the reference as a sibling of the current node, above the current node in
               the map, select the reference from the <uicontrol>Insert Before</uicontrol>
               submenu.</li>
           </ul><note id="note_r4l_dgk_54b">The content of these submenus depends on the node that is selected in the
@@ -40,11 +40,11 @@
             <xmlelement>keydef</xmlelement>, <xmlelement>mapref</xmlelement>, <xmlelement>topicgroup</xmlelement>,
             <xmlelement>topichead</xmlelement>, <xmlelement>topicref</xmlelement>, <xmlelement>topicset</xmlelement>, and
             <xmlelement>topicsetref</xmlelement>. </note></li>
-        <li id="li_s4l_dgk_54b">Click the <uicontrol><image href="../img/Topicref16.png" id="image_acl_bvx_sr"/>Insert
+        <li id="li_s4l_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/Topicref16.png" id="image_acl_bvx_sr"/>Insert
             Reference</uicontrol> button on the <uicontrol>DITA Maps Manager</uicontrol> extended
           toolbar. This action will insert the reference as a sibling of the current node (below the
           current node in the map).</li>
-        <li id="li_t4l_dgk_54b">Select <uicontrol><image href="../img/Topicref16.png"/>Insert Reference</uicontrol> from
+        <li id="li_t4l_dgk_54b" irina="irina">Select <uicontrol><image href="../img/Topicref16.png"/>Insert Reference</uicontrol> from
           the <uicontrol>DITA Maps</uicontrol> menu. This action will insert the reference as a
           sibling of the current node (below the current node in the map).</li>
       </ul></p>
@@ -211,7 +211,7 @@
       <p id="p_kql_dgk_54b">The <uicontrol>Profiling</uicontrol> tab allows you to select or change profiling
         attributes for the selected reference. This tab displays profiling attributes and their
         values as determined by the following:<ul conkeyref="reusables-author-for-dita/profiling-ul" id="ul_lql_dgk_54b">
-          <li id="li_mql_dgk_54b"/>
+          <li id="li_mql_dgk_54b" irina="irina"/>
         </ul></p>
       <p conkeyref="reusables-author-for-dita/profiling-p" id="p_nql_dgk_54b"/>
     </section>

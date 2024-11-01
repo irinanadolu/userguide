@@ -60,11 +60,11 @@
             <dt><uicontrol>MathFlow preferred editor</uicontrol></dt>
             <dd>A <i>MathML</i> formula can be edited in one of three editors of <i>MathFlow</i>
               components product (<i>MathFlow</i> SDK).<ul id="ul_k4c_kml_kq">
-                <li id="li_ix4_bgk_54b"><uicontrol>Structure Editor</uicontrol> (default selection) - Targets
+                <li id="li_ix4_bgk_54b" irina="irina"><uicontrol>Structure Editor</uicontrol> (default selection) - Targets
                   professional XML workflow users.</li>
-                <li id="li_jx4_bgk_54b"><uicontrol>Style Editor</uicontrol> - Tailored to the needs of content
+                <li id="li_jx4_bgk_54b" irina="irina"><uicontrol>Style Editor</uicontrol> - Tailored to the needs of content
                   authors.</li>
-                <li id="li_kx4_bgk_54b"><uicontrol>Simple Editor</uicontrol> - Designed for applications where end-users
+                <li id="li_kx4_bgk_54b" irina="irina"><uicontrol>Simple Editor</uicontrol> - Designed for applications where end-users
                   can enter mathematical equations without prior training and only the meaning of
                   the math matters.</li>
               </ul></dd>
@@ -72,15 +72,15 @@
           <dlentry id="dlentry_lx4_bgk_54b">
             <dt><uicontrol>Save special characters</uicontrol></dt>
             <dd>Specifies how special characters are saved in the XML file.<ul id="ul_mrh_knl_kq">
-                <li id="li_mx4_bgk_54b"><uicontrol>As entity names</uicontrol> - Saves the characters in
+                <li id="li_mx4_bgk_54b" irina="irina"><uicontrol>As entity names</uicontrol> - Saves the characters in
                     <codeph>&amp;name;</codeph> format. It refers to a character by the name of the
                   entity that has the desired character as its replacement text. For example, the
                   Greek <i>Omega</i> character is saved as <codeph>&amp;Omega;</codeph>.</li>
-                <li id="li_nx4_bgk_54b"><uicontrol>As character entities</uicontrol> (default selection) - Saves the
+                <li id="li_nx4_bgk_54b" irina="irina"><uicontrol>As character entities</uicontrol> (default selection) - Saves the
                   characters in a hexadecimal value, using the <codeph>&amp;#xNNN</codeph> format.
                   For example, the Greek <i>Omega</i> character is saved as
                     <codeph>&amp;#x3a9;</codeph>.</li>
-                <li id="li_ox4_bgk_54b"><uicontrol>As character values</uicontrol> - Saves the characters as the actual
+                <li id="li_ox4_bgk_54b" irina="irina"><uicontrol>As character values</uicontrol> - Saves the characters as the actual
                   symbol. For example, the Greek <i>Omega</i> character is saved as
                     <codeph>Ω</codeph>.</li>
               </ul></dd>

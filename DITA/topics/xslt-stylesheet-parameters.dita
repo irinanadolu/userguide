@@ -22,11 +22,11 @@
 //person[@atr='val']</codeblock></p>
     <note id="note_fhl_cgk_54b">
       <ol id="ol_ghl_cgk_54b">
-        <li id="li_hhl_cgk_54b">The <b>doc</b> function solves the argument relative to the XSL stylesheet location. You
+        <li id="li_hhl_cgk_54b" irina="irina">The <b>doc</b> function solves the argument relative to the XSL stylesheet location. You
           can use full paths or <xref href="editor-variables.dita#editor-variables">editor
             variables</xref> (such as <b>${cfdu}</b> [current file directory]) to
           specify other locations: <codeph>doc('${cfdu}/test.xml')//*</codeph></li>
-        <li id="li_ihl_cgk_54b">You cannot use XSLT Functions. Only XPath functions are allowed. </li>
+        <li id="li_ihl_cgk_54b" irina="irina">You cannot use XSLT Functions. Only XPath functions are allowed. </li>
       </ol>
     </note>
     <p id="p_jhl_cgk_54b">Below the table, the following actions are available for managing the parameters:</p>
@@ -64,9 +64,9 @@
       </dl>
     </p>
     <p id="p_lhl_cgk_54b">The bottom panel presents the following:<ul id="ul_1rt_dbb_hf">
-        <li id="li_mhl_cgk_54b">The default value of the parameter selected in the table.</li>
-        <li id="li_nhl_cgk_54b">A description of the parameter, if available.</li>
-        <li id="li_ohl_cgk_54b">The system ID of the stylesheet that declares it.</li>
+        <li id="li_mhl_cgk_54b" irina="irina">The default value of the parameter selected in the table.</li>
+        <li id="li_nhl_cgk_54b" irina="irina">A description of the parameter, if available.</li>
+        <li id="li_ohl_cgk_54b" irina="irina">The system ID of the stylesheet that declares it.</li>
       </ul></p>
   </body>
   <related-links>

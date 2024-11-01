@@ -28,32 +28,32 @@
       <title>How to Integrate Schematron Rules in a Framework</title>
       <p id="p_pwg_cgk_54b">To integrate a Schematron rule in an existing framework bundled with the application,
         follow these steps:<ol id="ol_qwg_cgk_54b">
-          <li conkeyref="reusables-editing-documents/step1" id="li_rwg_cgk_54b"/>
-          <li conkeyref="reusables-editing-documents/Step2" id="li_swg_cgk_54b"/>
-          <li id="li_twg_cgk_54b">Define the Schematron rules in an existing or new Schematron file and save it in the
+          <li conkeyref="reusables-editing-documents/step1" id="li_rwg_cgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/Step2" id="li_swg_cgk_54b" irina="irina"/>
+          <li id="li_twg_cgk_54b" irina="irina">Define the Schematron rules in an existing or new Schematron file and save it in the
             folder you created in step 2. There are numerous online resources out there to help you
             get started with writing Schematron rules. Here are just a few that might help you:<ul id="ul_uwg_cgk_54b">
-              <li id="li_vwg_cgk_54b"><xref href="http://dh.newtfire.org/explainSchematron.html" format="html"
+              <li id="li_vwg_cgk_54b" irina="irina"><xref href="http://dh.newtfire.org/explainSchematron.html" format="html"
                   scope="external">Guide to Schema Writing with Schematron</xref></li>
-              <li id="li_wwg_cgk_54b"><xref
+              <li id="li_wwg_cgk_54b" irina="irina"><xref
                   href="https://www.oxygenxml.com/events/2014/oXygen-user-meetup-Prague.html#Schematron_development_with_oXygen"
                   format="html" scope="external">Presentation: Schematron Development with
                   Oxygen</xref></li>
             </ul></li>
-          <li conkeyref="reusables-editing-documents/step4" id="li_xwg_cgk_54b"/>
-          <li conkeyref="reusables-editing-documents/step5" id="li_ywg_cgk_54b"/>
-          <li conkeyref="reusables-editing-documents/step6" id="li_zwg_cgk_54b"/>
-          <li id="step8">Make whatever changes you desire to the extension, then go to the
+          <li conkeyref="reusables-editing-documents/step4" id="li_xwg_cgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/step5" id="li_ywg_cgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/step6" id="li_zwg_cgk_54b" irina="irina"/>
+          <li id="step8" irina="irina">Make whatever changes you desire to the extension, then go to the
               <b>Validation</b> tab, edit the default validation scenario (select the scenario and
             click the <uicontrol><image href="../img/Wrench16.png"/>Edit</uicontrol> button), and
             add an extra validation unit to it (one that uses your custom Schematron file).<ph
               product="author editor authorEclipse editorEclipse"> For more details about editing
               validation scenarios, see <xref href="../topics/dg-validation-scenarios.dita"
             />.</ph></li>
-          <li conkeyref="reusables-editing-documents/step9" id="li_axg_cgk_54b"/>
-          <li id="li_bxg_cgk_54b">Open an XML document that matches your framework configuration and test the new
+          <li conkeyref="reusables-editing-documents/step9" id="li_axg_cgk_54b" irina="irina"/>
+          <li id="li_bxg_cgk_54b" irina="irina">Open an XML document that matches your framework configuration and test the new
             rule.</li>
-          <li conkeyref="reusables-editing-documents/step12" id="li_cxg_cgk_54b"/>
+          <li conkeyref="reusables-editing-documents/step12" id="li_cxg_cgk_54b" irina="irina"/>
         </ol></p>
     </section>
     <section id="sharing_schematron_quick_fixes">

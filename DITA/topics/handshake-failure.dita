@@ -28,11 +28,11 @@
           <p id="p_ank_dgk_54b">To deploy it in <ph keyref="product"/>, unpack the downloaded zip archive and move the
             two jar files (<b>local_policy.jar</b> and <b>US_export_policy.jar</b>) from
               <b>UnlimitedJCEPolicyJDK8</b> to the following directory, overwriting existing files:<ul id="ul_bnk_dgk_54b">
-              <li id="li_cnk_dgk_54b"><b>Windows</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+              <li id="li_cnk_dgk_54b" irina="irina"><b>Windows</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
                   />/jre/lib/security</filepath></li>
-              <li id="li_dnk_dgk_54b"><b>Linux</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+              <li id="li_dnk_dgk_54b" irina="irina"><b>Linux</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
                   />/jre/lib/security</filepath></li>
-              <li id="li_enk_dgk_54b"><b>macOS</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+              <li id="li_enk_dgk_54b" irina="irina"><b>macOS</b> - <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
                   />/jre.bundle/Contents/Home/jre/lib/security</filepath></li>
             </ul></p>
         </steps-informal>

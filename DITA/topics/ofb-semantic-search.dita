@@ -18,17 +18,17 @@
       <title>Enabling Semantic Search</title>
       <p>The semantic search functionality is not enabled by default. To enable semantic search:<ol
           id="ol_cgt_fxp_dzb">
-          <li>In the administration interface of <ph keyref="product"/>, go to the <xref
+          <li irina="irina">In the administration interface of <ph keyref="product"/>, go to the <xref
               href="ofb-version-management.dita"><uicontrol>Version Settings</uicontrol> page</xref>
             for the particular version where you want semantic search enabled.</li>
-          <li>Scroll to the <uicontrol>Content Indexing and Search</uicontrol> section and click
+          <li irina="irina">Scroll to the <uicontrol>Content Indexing and Search</uicontrol> section and click
               <uicontrol>Edit</uicontrol> to expand the section.</li>
-          <li>Select the <uicontrol>Enable content indexing</uicontrol> and <uicontrol>Enable
+          <li irina="irina">Select the <uicontrol>Enable content indexing</uicontrol> and <uicontrol>Enable
               semantic search</uicontrol> options.<note id="note_svy_byp_dzb">The semantic search
               functionality requires that you configure <ph keyref="product"/> to <xref
                 href="ofb-configuring-openai-connection.dita">connect to <tm tmtype="tm">OpenAI</tm>
                 on your behalf</xref>.</note></li>
-          <li>Click <uicontrol>Save</uicontrol>.</li>
+          <li irina="irina">Click <uicontrol>Save</uicontrol>.</li>
         </ol></p>
       <p>After editing the <uicontrol>Content Indexing and Search</uicontrol> section and enabling
         the semantic search functionality, a re-indexing operation is automatically triggered. </p>

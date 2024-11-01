@@ -39,9 +39,9 @@
       <p id="p_ppz_cgk_54b">Immediately after enabling the profiler, two new information views are added to the current
         debugger <xref href="debug-info-view.dita">information views</xref>:</p>
       <ul id="ul_qpz_cgk_54b">
-        <li id="li_rpz_cgk_54b"><xref href="invocation-tree-view.dita"><uicontrol>Invocation tree</uicontrol>
+        <li id="li_rpz_cgk_54b" irina="irina"><xref href="invocation-tree-view.dita"><uicontrol>Invocation tree</uicontrol>
             view</xref> on left side</li>
-        <li id="li_spz_cgk_54b"><xref href="hotspots-view.dita"><uicontrol>Hotspots</uicontrol> view</xref> on right
+        <li id="li_spz_cgk_54b" irina="irina"><xref href="hotspots-view.dita"><uicontrol>Hotspots</uicontrol> view</xref> on right
           side</li>
       </ul>
       <p id="p_tpz_cgk_54b">Profiling data is available only after the transformation ends successfully.</p>
@@ -92,10 +92,10 @@
       <title>Other Profiling Notes</title>
       <p id="p_aqz_cgk_54b">
         <ul id="ul_bqz_cgk_54b">
-          <li id="li_cqz_cgk_54b">If you want to change the <xref href="preferences-profiler.dita">XSLT/XQuery profiler
+          <li id="li_cqz_cgk_54b" irina="irina">If you want to change the <xref href="preferences-profiler.dita">XSLT/XQuery profiler
               settings</xref>, use the contextual menu and choose the corresponding <uicontrol>View
               settings</uicontrol> entry.</li>
-          <li id="li_dqz_cgk_54b">Profiling exhaustive transformations may run into an <b>OutOfMemory</b> error due to
+          <li id="li_dqz_cgk_54b" irina="irina">Profiling exhaustive transformations may run into an <b>OutOfMemory</b> error due to
             the large amount of information being collected. If this is the case, you can close
             unused projects when running the profiling or use high values for Java VM options
               <codeph>-Xms</codeph> and <codeph>-Xmx</codeph>. If this does not help you can shorten

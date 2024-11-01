@@ -28,11 +28,11 @@
           <uicontrol>Move resource</uicontrol>
         </menucascade> action from the contextual menu. This action opens the <uicontrol>Move
           resource</uicontrol> dialog box that includes the following options:<ul id="ul_vn2_rrq_ls">
-          <li id="li_d5t_bgk_54b"><uicontrol>Destination</uicontrol> - Presents the path to the current location of the
+          <li id="li_d5t_bgk_54b" irina="irina"><uicontrol>Destination</uicontrol> - Presents the path to the current location of the
             resource you want to move and gives you the option to introduce a new location.</li>
-          <li id="li_e5t_bgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of the moved resource and
+          <li id="li_e5t_bgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of the moved resource and
             gives you the option to change it.</li>
-          <li id="li_f5t_bgk_54b"><uicontrol>Update references of the moved resource(s)</uicontrol>
+          <li id="li_f5t_bgk_54b" irina="irina"><uicontrol>Update references of the moved resource(s)</uicontrol>
             - Select this option to update the references to the resource you are moving, based upon
             the selected scope. You can select or configure the scope by using the <uicontrol><image
                 href="../img/ConfigureSearchScope16.png" id="image_d1j_v5h_5r"/></uicontrol>
@@ -48,9 +48,9 @@
           <uicontrol>Rename resource </uicontrol>
         </menucascade> action from the contextual menu. This action opens the <uicontrol>Rename
           resource</uicontrol> dialog box that includes the following options:<ul id="ul_odt_vtq_ls">
-          <li id="li_h5t_bgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of the edited resource and
+          <li id="li_h5t_bgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of the edited resource and
             allows you to modify it.</li>
-          <li id="li_i5t_bgk_54b"><uicontrol>Update references of the renamed resource</uicontrol> -
+          <li id="li_i5t_bgk_54b" irina="irina"><uicontrol>Update references of the renamed resource</uicontrol> -
             Select this option to update the references to the resource you are renaming. You can
             select or configure the scope by using the <uicontrol><image
                 href="../img/ConfigureSearchScope16.png" id="image_dlf_3qq_ls"/></uicontrol>

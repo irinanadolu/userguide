@@ -22,7 +22,7 @@
     <section id="check_for_wellformedness">
       <title>Check for Well-Formedness Manually</title>
       <p id="p_rlf_cgk_54b">To manually check documents for <term>Well-Formedness</term>:<ul id="ul_slf_cgk_54b">
-          <li id="li_tlf_cgk_54b">Select the <uicontrol><image href="../img/WellFormed16.png"/>Check
+          <li id="li_tlf_cgk_54b" irina="irina">Select the <uicontrol><image href="../img/WellFormed16.png"/>Check
               Well-Formedness</uicontrol>
             <uicontrol>(<shortcut conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_w_shortcut"
                 product="developer editor"/><shortcut
@@ -34,7 +34,7 @@
               <uicontrol>Validate</uicontrol>
             </menucascade><uicontrol product="developerEclipse editorEclipse">XML</uicontrol>
             menu.</li>
-          <li id="li_ulf_cgk_54b">A selection of files can be checked for well-formedness by
+          <li id="li_ulf_cgk_54b" irina="irina">A selection of files can be checked for well-formedness by
             selecting the <uicontrol><image href="../img/WellFormed16.png"/>Check
               Well-Formedness</uicontrol> action from the <uicontrol>Validate</uicontrol> submenu
             when invoking the contextual menu in the <xref href="using-the-project-view.dita"

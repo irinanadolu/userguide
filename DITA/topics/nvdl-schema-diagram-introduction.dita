@@ -21,9 +21,9 @@
     <p id="p_jcf_cgk_54b"><ph keyref="product"/> provides a side-by-side source and diagram presentation with real-time
       synchronization: </p>
     <ul id="ul_kcf_cgk_54b">
-      <li id="li_lcf_cgk_54b">The changes you make in the editor are immediately visible in the Diagram (no background
+      <li id="li_lcf_cgk_54b" irina="irina">The changes you make in the editor are immediately visible in the Diagram (no background
         parsing).</li>
-      <li id="li_mcf_cgk_54b">Changing the selected element in the diagram selects the underlying code in the source
+      <li id="li_mcf_cgk_54b" irina="irina">Changing the selected element in the diagram selects the underlying code in the source
         editor.</li>
     </ul>
   </body>

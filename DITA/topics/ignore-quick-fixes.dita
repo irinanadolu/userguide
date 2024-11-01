@@ -18,13 +18,13 @@
       ignored using quick fix actions that are automatically added to the list of proposals for
       fixing the problem. These quick fix actions are available for validation problems that have an
       ID in the following places in the interface:<ul id="ul_rdy_2pb_t4b">
-        <li id="li_s4r_hpb_t4b">When the cursor is placed at the location of the problem in the main
+        <li id="li_s4r_hpb_t4b" irina="irina">When the cursor is placed at the location of the problem in the main
           editor pane, a <term>Quick Fix</term> icon (<image href="../img/QuickFix16.png"
             id="image_zts_v2y_xn"/>) is displayed in the stripe on the left side of the editor.
           Clicking that icon opens a pop-up window where the quick fix proposals are presented.</li>
-        <li id="li_sdy_2pb_t4b">When you hover over the problem in the editor, the proposals are
+        <li id="li_sdy_2pb_t4b" irina="irina">When you hover over the problem in the editor, the proposals are
           presented in a tooltip.</li>
-        <li id="li_w3f_1qb_t4b">When you right-click a problem in the <xref href="results-view.dita"
+        <li id="li_w3f_1qb_t4b" irina="irina">When you right-click a problem in the <xref href="results-view.dita"
               ><uicontrol>Results</uicontrol> view</xref>, the proposals are available in the
           contextual menu.</li>
       </ul><note id="note_jlq_dnb_t4b">For Schematron-based validation, these quick fix actions for
@@ -59,19 +59,19 @@
       </fig>
     </p>
     <p id="p_y5m_ykq_r4b">When a validation problem is ignored:<ul id="ul_wph_2lv_q4b">
-        <li id="li_z5m_ykq_r4b">It is added to the <xref
+        <li id="li_z5m_ykq_r4b" irina="irina">It is added to the <xref
             href="preferences-ignored-editor-problems.dita#preferences-ignored-editor-problems/ignored-problems-table"
               ><i>Ignored Problems Table</i></xref> in the <xref
             href="preferences-ignored-editor-problems.dita"><uicontrol>Ignored Validation
               Problems</uicontrol> preferences page</xref>. The table displays all the problems that
           you have specified to be ignored and you can remove items from the table by selecting them
           and clicking the <uicontrol>Delete</uicontrol> button located under the table.</li>
-        <li id="li_avm_ykq_r4b">It will no longer be highlighted in the editor pane.</li>
-        <li id="li_bvm_ykq_r4b">In the vertical range ruler on the right side of the editor, the
+        <li id="li_avm_ykq_r4b" irina="irina">It will no longer be highlighted in the editor pane.</li>
+        <li id="li_bvm_ykq_r4b" irina="irina">In the vertical range ruler on the right side of the editor, the
           problem will be marked with a gray color.</li>
-        <li id="li_cvm_ykq_r4b">In the <xref href="results-view.dita"><uicontrol>Results</uicontrol>
+        <li id="li_cvm_ykq_r4b" irina="irina">In the <xref href="results-view.dita"><uicontrol>Results</uicontrol>
             view</xref>, the problem will be marked with a disabled (grayed out) action.</li>
-        <li id="li_lz4_vnb_t4b">The ignored problem will also be marked when a batch validation
+        <li id="li_lz4_vnb_t4b" irina="irina">The ignored problem will also be marked when a batch validation
           operation is executed. </li>
       </ul></p>
     <section id="section_mdn_f3b_t4b">

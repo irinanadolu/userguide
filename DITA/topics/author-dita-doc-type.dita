@@ -27,11 +27,11 @@
       <p id="p_zfj_cgk_54b">A file is considered to be a DITA topic document when one of the following conditions are
         true:</p>
       <ul id="ul_agj_cgk_54b">
-        <li id="li_bgj_cgk_54b">The root element name is one of the following: <xmlelement>concept</xmlelement>,
+        <li id="li_bgj_cgk_54b" irina="irina">The root element name is one of the following: <xmlelement>concept</xmlelement>,
             <xmlelement>task</xmlelement>, <xmlelement>reference</xmlelement>,
             <xmlelement>dita</xmlelement>, or <xmlelement>topic</xmlelement>.</li>
-        <li id="li_cgj_cgk_54b">The PUBLIC ID of the document is a PUBLIC ID for the elements listed above.</li>
-        <li id="li_dgj_cgk_54b">The root element of the file has a <xmlatt>DITAArchVersion</xmlatt> attribute for the
+        <li id="li_cgj_cgk_54b" irina="irina">The PUBLIC ID of the document is a PUBLIC ID for the elements listed above.</li>
+        <li id="li_dgj_cgk_54b" irina="irina">The root element of the file has a <xmlatt>DITAArchVersion</xmlatt> attribute for the
             <q>http://dita.oasis-open.org/architecture/2005/</q> namespace. This enhanced case of
           matching is only applied when the <xref
             href="preferences-document-type-association.dita#preferences-document-type-association/enable-dtd-schema-processing"
@@ -74,12 +74,12 @@
       <title>Default XML Catalogs</title>
       <p id="p_jgj_cgk_54b">The default <xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> for the
         DITA topic document type are as follows:<ul id="ul_ogy_fqf_fr">
-          <li id="li_kgj_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"/>/catalog-dita.xml</filepath></li>
-          <li id="li_lgj_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_kgj_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"/>/catalog-dita.xml</filepath></li>
+          <li id="li_lgj_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/catalog.xml</filepath></li>
-          <li id="li_mgj_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_mgj_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/plugin/catalog.xml</filepath></li>
-          <li id="li_ngj_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_ngj_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/styleguide/catalog.xml</filepath></li>
         </ul></p>
     </section>
@@ -95,11 +95,11 @@
       <title>Resources</title>
       <p id="p_pgj_cgk_54b">
         <ul id="ul_qgj_cgk_54b">
-          <li id="li_rgj_cgk_54b"><xref href="https://www.oxygenxml.com/dita/1.3/specs/" format="html" scope="external"
+          <li id="li_rgj_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/1.3/specs/" format="html" scope="external"
               >DITA Specifications</xref></li>
-          <li id="li_sgj_cgk_54b"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
+          <li id="li_sgj_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
               format="html" scope="external">DITA Style Guide Best Practices for Authors</xref></li>
-          <li id="li_tgj_cgk_54b"><xref format="html" scope="external"
+          <li id="li_tgj_cgk_54b" irina="irina"><xref format="html" scope="external"
               href="https://www.oxygenxml.com/demo/DITA_Editing.html">Oxygen Video Tutorial: DITA
               Editing</xref></li>
         </ul>

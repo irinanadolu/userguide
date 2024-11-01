@@ -12,12 +12,12 @@
   <body>
     <p id="p_r2n_bgk_54b">
       <ol id="ol_s2n_bgk_54b">
-        <li id="li_t2n_bgk_54b"><b>[Prerequisite]</b> Java 11 or later must be installed.</li>
-        <li id="li_u2n_bgk_54b">Download the HTTP license server all-platform archive from the <xref
+        <li id="li_t2n_bgk_54b" irina="irina"><b>[Prerequisite]</b> Java 11 or later must be installed.</li>
+        <li id="li_u2n_bgk_54b" irina="irina">Download the HTTP license server all-platform archive from the <xref
             href="https://www.oxygenxml.com/license_server.html" format="html" scope="external">HTTP
             License Server website</xref>.</li>
-        <li id="li_v2n_bgk_54b">Unpack the archive.</li>
-        <li id="li_w2n_bgk_54b">Run the license server scripts suitable for your operating system
+        <li id="li_v2n_bgk_54b" irina="irina">Unpack the archive.</li>
+        <li id="li_w2n_bgk_54b" irina="irina">Run the license server scripts suitable for your operating system
             (<filepath>licenseServer.bat</filepath> for Windows or
             <filepath>licenseServer.sh</filepath> for Linux and macOS).<note id="note_x2n_bgk_54b"
             >To specify a port other than the default 8080, you can pass a new port number as an
@@ -25,11 +25,11 @@
             can also change the port by editing the <i>vmoptions</i> file located at
               <filepath>oXygen HTTP License Server\Windows
               Service\oXygenHTTPLicenseServer.vmoptions</filepath>.</note></li>
-        <li id="li_y2n_bgk_54b">On the first run, you are prompted to set two sets of
+        <li id="li_y2n_bgk_54b" irina="irina">On the first run, you are prompted to set two sets of
             credentials:<ol id="ol_z2n_bgk_54b">
-            <li id="li_afn_bgk_54b"><b>Administrator credentials</b> - Used for accessing the
+            <li id="li_afn_bgk_54b" irina="irina"><b>Administrator credentials</b> - Used for accessing the
                 <uicontrol>Oxygen</uicontrol> license server administrative interface.</li>
-            <li id="li_bfn_bgk_54b"><b>Standard user credentials</b> - Used by an
+            <li id="li_bfn_bgk_54b" irina="irina"><b>Standard user credentials</b> - Used by an
                 <uicontrol>Oxygen</uicontrol> application to connect to the license server.<note
                 conkeyref="reusables-user-guide/manual-install-note" type="tip"
                 id="note_dfn_bgk_54b"

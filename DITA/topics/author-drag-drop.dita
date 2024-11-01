@@ -21,13 +21,13 @@
       can be moved or copied by using the drag and drop feature. The following situations can be
       encountered:</p>
     <ul id="ul_pbx_bgk_54b">
-      <li id="li_qbx_bgk_54b">When both of the drag and drop sources are from the <uicontrol>Author</uicontrol> mode
+      <li id="li_qbx_bgk_54b" irina="irina">When both of the drag and drop sources are from the <uicontrol>Author</uicontrol> mode
         editor, a well-formed XML fragment is transferred. The section is balanced before dropping
         it by adding matching tags when needed.</li>
-      <li id="li_rbx_bgk_54b">When the drag source is from the <uicontrol>Author</uicontrol> mode editor but the drop
+      <li id="li_rbx_bgk_54b" irina="irina">When the drag source is from the <uicontrol>Author</uicontrol> mode editor but the drop
         target is a text-based editor, only the text inside the selection is transferred as it
         is.</li>
-      <li id="li_sbx_bgk_54b">The text dropped from another text editor or another application into the
+      <li id="li_sbx_bgk_54b" irina="irina">The text dropped from another text editor or another application into the
           <uicontrol>Author</uicontrol> mode editor is inserted without changes.</li>
     </ul>
   </body>

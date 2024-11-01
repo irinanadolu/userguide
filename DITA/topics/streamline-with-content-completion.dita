@@ -66,25 +66,25 @@
         preferences page.</note>
       <p id="p_rvv_bgk_54b">After inserting an element, the cursor is positioned:</p>
       <ul id="ul_svv_bgk_54b">
-        <li id="li_tvv_bgk_54b">Before the &gt; character of the start tag, if the element allows attributes, to allow
+        <li id="li_tvv_bgk_54b" irina="irina">Before the &gt; character of the start tag, if the element allows attributes, to allow
           rapid insertion of any of the attributes supported by the element. Pressing the space bar
           displays the Content Completion list once again. This time it contains the list of allowed
           attribute names. If the attribute supports a fixed set of parameters, the assistant list
           displays the list of valid parameters. If the parameter setting is user-defined and
           therefore variable, the assistant is closed to allow manual insertion. The values of the
           attributes can be learned from the same elements in the current document.</li>
-        <li id="li_uvv_bgk_54b">After the &gt; character of the start tag, if the element has no attributes.</li>
+        <li id="li_uvv_bgk_54b" irina="irina">After the &gt; character of the start tag, if the element has no attributes.</li>
       </ul>
     </section>
     <section id="where_the_content_completion_assistant_is_display">
       <title>Where the Content Completion Assistant is Displayed</title>
       <p id="p_vvv_bgk_54b">The <term>Content Completion Assistant</term> is displayed:</p>
       <ul id="ul_wvv_bgk_54b">
-        <li id="li_xvv_bgk_54b">Anywhere within a tag name or at the beginning of a tag name in an XML document, XML
+        <li id="li_xvv_bgk_54b" irina="irina">Anywhere within a tag name or at the beginning of a tag name in an XML document, XML
           Schema, DTD, or Relax NG (full or compact syntax) schema.</li>
-        <li id="li_yvv_bgk_54b">Anywhere within an attribute name or at the beginning of an attribute name in any XML
+        <li id="li_yvv_bgk_54b" irina="irina">Anywhere within an attribute name or at the beginning of an attribute name in any XML
           document with an associated schema.</li>
-        <li id="li_zvv_bgk_54b">Within attribute values or at the beginning of attribute values in XML documents where
+        <li id="li_zvv_bgk_54b" irina="irina">Within attribute values or at the beginning of attribute values in XML documents where
           lists of possible values have been defined for that element in the schema associated with
           the document.</li>
       </ul>

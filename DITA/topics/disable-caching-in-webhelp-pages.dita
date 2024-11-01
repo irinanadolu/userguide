@@ -17,10 +17,10 @@
       from the server upon re-loading it in a Web browser on the client side, rather than re-using
       an outdated <i>cached</i> version in the browser.</p>
     <p id="p_xrp_cgk_54b">To disable caching in WebHelp Classic output, follow this procedure:<ol id="ol_eqz_q11_5s">
-        <li id="li_yrp_cgk_54b">Edit the following file: <filepath><term
+        <li id="li_yrp_cgk_54b" irina="irina">Edit the following file: <filepath><term
               conkeyref="reusables-user-guide/oxy-install-dir"
             />\frameworks\docbook\xsl\com.oxygenxml.webhelp.classic\xsl\createMainFiles.xsl</filepath>.</li>
-      <li id="li_zrp_cgk_54b">Locate the following template in the XSL file: <xmlelement>xsl:template
+      <li id="li_zrp_cgk_54b" irina="irina">Locate the following template in the XSL file: <xmlelement>xsl:template
             name-"create-toc-common-file"</xmlelement> and add the following code
             snippet:<codeblock outputclass="language-xml" id="codeblock_asp_cgk_54b">&lt;meta http-equiv="Pragma" content="no-cache" />
 &lt;meta http-equiv="Expires" content="-1" /></codeblock><note id="note_bsp_cgk_54b">The
@@ -35,8 +35,8 @@
       &lt;meta http-equiv="Pragma" content="no-cache" />
       &lt;meta http-equiv="Expires" content="-1" />
 ....</codeblock></note></li>
-        <li id="li_dsp_cgk_54b">Save your changes to the file.</li>
-        <li id="li_esp_cgk_54b">Re-run your WebHelp transformation scenario.</li>
+        <li id="li_dsp_cgk_54b" irina="irina">Save your changes to the file.</li>
+        <li id="li_esp_cgk_54b" irina="irina">Re-run your WebHelp transformation scenario.</li>
       </ol></p>
   </body>
 </topic>

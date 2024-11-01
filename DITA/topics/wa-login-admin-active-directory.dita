@@ -17,8 +17,8 @@
         <filepath>shiro.ini</filepath> file located in the following location depending on your type
       of distribution:</p>
     <ul id="ul_m2n_gpw_vhb">
-      <li id="li_ebr_dgk_54b"><b>WAR distribution</b>: <filepath>WEB-INF/shiro.ini</filepath></li>
-      <li id="li_fbr_dgk_54b"><b>Windows/Linux/All Platforms</b>:
+      <li id="li_ebr_dgk_54b" irina="irina"><b>WAR distribution</b>: <filepath>WEB-INF/shiro.ini</filepath></li>
+      <li id="li_fbr_dgk_54b" irina="irina"><b>Windows/Linux/All Platforms</b>:
           <filepath>tomcat/webapps/oxygen-xml-web-author/WEB-INF/shiro.ini</filepath></li>
     </ul>
     <p id="p_gbr_dgk_54b">Replace the line: </p>
@@ -34,11 +34,11 @@ usersFileRealm.systemUsername=&lt;user>
 usersFileRealm.systemPassword=***</codeblock>
     <p id="p_kbr_dgk_54b">where</p>
     <ul id="ul_n2n_gpw_vhb">
-      <li id="li_lbr_dgk_54b"><codeph>principalSuffix</codeph> is usually the mail domain so that
+      <li id="li_lbr_dgk_54b" irina="irina"><codeph>principalSuffix</codeph> is usually the mail domain so that
         you do not have to enter it in the login form.</li>
-      <li id="li_mbr_dgk_54b"><codeph>CN=Users,DC=mycompany,DC=com</codeph> is a query used to
+      <li id="li_mbr_dgk_54b" irina="irina"><codeph>CN=Users,DC=mycompany,DC=com</codeph> is a query used to
         search for the user.</li>
-      <li id="li_nbr_dgk_54b"><codeph>CN=Web Author Admins,DC=mycompany,DC=com</codeph> is the group
+      <li id="li_nbr_dgk_54b" irina="irina"><codeph>CN=Web Author Admins,DC=mycompany,DC=com</codeph> is the group
         that will have access to the <xref href="webapp-admin-page.dita">Web Author Administration
           page</xref>.</li>
     </ul>

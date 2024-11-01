@@ -39,9 +39,9 @@
       <title>Using the Content Completion Assistant in JSON</title>
       <p id="p_f5f_cgk_54b">The feature is activated in <uicontrol>Text</uicontrol> mode for JSON documents by: <ul
           id="ul_ns3_3rl_pnb">
-          <li id="li_g5f_cgk_54b">Typing a quote symbol (<uicontrol><shortcut>"</shortcut></uicontrol>) to insert a
+          <li id="li_g5f_cgk_54b" irina="irina">Typing a quote symbol (<uicontrol><shortcut>"</shortcut></uicontrol>) to insert a
             property or value.</li>
-          <li id="li_h5f_cgk_54b">Pressing <uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_space"/> or
+          <li id="li_h5f_cgk_54b" irina="irina">Pressing <uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_space"/> or
               <uicontrol conkeyref="reusable-oxygen-shortcuts-list/alt_slash"/>.</li>
         </ul></p>
       <p product="editor editorEclipse" id="p_i5f_cgk_54b">The feature is activated in <uicontrol>Author</uicontrol>
@@ -61,10 +61,10 @@
       <p id="p_k5f_cgk_54b">The proposals that populate the <term>Content Completion Assistant</term> for JSON
         documents depend on the structure defined in the associated JSON Schema. The types of
         structure proposed in the content completion window include:<ul id="ul_l5f_cgk_54b">
-          <li id="li_m5f_cgk_54b">JSON properties</li>
-          <li id="li_n5f_cgk_54b">JSON values</li>
-          <li id="li_o5f_cgk_54b">JSON arrays</li>
-          <li id="li_p5f_cgk_54b">JSON objects</li>
+          <li id="li_m5f_cgk_54b" irina="irina">JSON properties</li>
+          <li id="li_n5f_cgk_54b" irina="irina">JSON values</li>
+          <li id="li_o5f_cgk_54b" irina="irina">JSON arrays</li>
+          <li id="li_p5f_cgk_54b" irina="irina">JSON objects</li>
         </ul></p>
       <p id="p_q5f_cgk_54b">The number and type of proposals displayed by the <term>Content Completion Assistant</term>
         is dependent on the cursor's current position in the JSON document and the child items

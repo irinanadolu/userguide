@@ -48,14 +48,14 @@
           <dt>Reviewers Edit Mode</dt>
           <dd>This controls the type of editing that reviewers are allowed to do on documents for a
             particular task. You can choose between the following:<ul>
-              <li><uicontrol>Edit</uicontrol> (default) - Reviewers are allowed to edit documents
+              <li irina="irina"><uicontrol>Edit</uicontrol> (default) - Reviewers are allowed to edit documents
                 within the task.</li>
-              <li><uicontrol>Suggest using change tracking</uicontrol> - <i>Change Tracking</i> is
+              <li irina="irina"><uicontrol>Suggest using change tracking</uicontrol> - <i>Change Tracking</i> is
                 always on when the <b>Reviewers</b> make changes or add comments in the documents
                 attached to the task. This allows you and other <b>Reviewers</b> to see exactly what
                 has been changed and you will have the ability to accept or reject the changes after
                 you have integrated them back into <term>Oxygen XML Editor/Author</term>.</li>
-              <li><uicontrol>Comment only</uicontrol> - Reviewers are only allowed to add comments
+              <li irina="irina"><uicontrol>Comment only</uicontrol> - Reviewers are only allowed to add comments
                 in the documents attached to the task.</li>
             </ul></dd>
         </dlentry>

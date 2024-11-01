@@ -40,16 +40,16 @@
     <section id="section_cdq_wl2_5gb">
       <title>Migrating Google Docs to DITA</title>
       <p id="p_e14_dgk_54b">There are several possibilities to convert Google Docs to DITA:<ul id="ul_e1s_yl2_5gb">
-          <li id="li_f14_dgk_54b">Copy the content from Google Docs and paste it in an open DITA topic in
+          <li id="li_f14_dgk_54b" irina="irina">Copy the content from Google Docs and paste it in an open DITA topic in
               <uicontrol>Author</uicontrol> mode. The <xref
               href="smart-paste-support.dita#smart-paste-support"><term>Smart Paste</term>
               functionality</xref> will attempt to convert the content to DITA.</li>
-          <li id="li_g14_dgk_54b">Save the Google document as OpenDocumentFormat (<b>ODF</b>), then open it in the free
+          <li id="li_g14_dgk_54b" irina="irina">Save the Google document as OpenDocumentFormat (<b>ODF</b>), then open it in the free
               <i>LibreOffice</i> application and save it as <b>DocBook</b>. Next, open the
               <b>DocBook</b> document in <ph keyref="product"/> and run the built-in <xref
               href="docbook-2-dita-transform.dita#docbook-2-dita-transform">transformation scenario
               called <uicontrol>DocBook to DITA</uicontrol></xref>.</li>
-          <li product="author editor" id="li_h14_dgk_54b">If you want to convert multiple Google documents at once, save
+          <li product="author editor" id="li_h14_dgk_54b" irina="irina">If you want to convert multiple Google documents at once, save
             the documents as HTML, then use <xref href="batch-converter-addon.dita"
                 ><uicontrol>Oxygen's Batch Documents Converter add-on</uicontrol></xref> to convert
             the documents to <b>DITA</b>.</li>
@@ -60,11 +60,11 @@
     <section id="section_gdg_tv4_4gb" product="author editor">
       <title>Migrating Markdown Content to DITA</title>
       <p id="p_j14_dgk_54b">There are several possibilities to convert Markdown content to DITA:<ul id="ul_k14_dgk_54b">
-          <li id="li_l14_dgk_54b">The DITA Open Toolkit publishing engine bundled with <ph keyref="product"/> allows you
+          <li id="li_l14_dgk_54b" irina="irina">The DITA Open Toolkit publishing engine bundled with <ph keyref="product"/> allows you
             to reference Markdown files directly in a DITA map and either publish them directly or
             export the Markdown files to DITA one by one. For details, see <xref
               href="markdown-dita.dita"/>.</li>
-          <li id="li_m14_dgk_54b">If you want to convert multiple Markdown files at once, you can use <xref
+          <li id="li_m14_dgk_54b" irina="irina">If you want to convert multiple Markdown files at once, you can use <xref
               href="batch-converter-addon.dita"><uicontrol>Oxygen's Batch Documents Converter
                 add-on</uicontrol></xref> to convert the documents to <b>DITA</b>. </li>
         </ul></p>
@@ -73,11 +73,11 @@
       <title>Migrating HTML Content to DITA</title>
       <p id="p_o14_dgk_54b">There are several possibilities to convert HTML content to DITA:</p>
       <ul id="ul_p14_dgk_54b">
-        <li id="li_q14_dgk_54b">Copy the HTML content and paste it in an open DITA topic in
+        <li id="li_q14_dgk_54b" irina="irina">Copy the HTML content and paste it in an open DITA topic in
             <uicontrol>Author</uicontrol> mode. The <xref
             href="smart-paste-support.dita#smart-paste-support"><term>Smart Paste</term>
             functionality</xref> will attempt to convert the content to DITA.</li>
-        <li id="li_r14_dgk_54b">Convert the HTML file to XHTML by selecting <menucascade>
+        <li id="li_r14_dgk_54b" irina="irina">Convert the HTML file to XHTML by selecting <menucascade>
             <uicontrol>File</uicontrol>
             <uicontrol>Import/Convert</uicontrol>
             <uicontrol>HTML File to XHTML</uicontrol>
@@ -85,7 +85,7 @@
             href="author-xhtml-doc-type.dita#author-xhtml-doc-type/transformation_scenarios"
               ><uicontrol>XHTML to DITA</uicontrol> Transformation Scenarios</xref> to convert the
           content to DITA.</li>
-        <li product="author editor" id="li_s14_dgk_54b">If you want to convert multiple HTML files at once, you can use
+        <li product="author editor" id="li_s14_dgk_54b" irina="irina">If you want to convert multiple HTML files at once, you can use
             <xref href="batch-converter-addon.dita"><uicontrol>Oxygen's Batch Converter
               add-on</uicontrol></xref> to convert the documents to <b>DITA</b>. </li>
       </ul>
@@ -143,18 +143,18 @@
       <title>Resources</title>
       <p id="p_orm_dgk_54b">For more information about migrating to DITA, see the following
           resources:<ul id="ul_fv5_flp_dvb">
-          <li id="li_w3b_jxc_rvb"><xref
+          <li id="li_w3b_jxc_rvb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2022/webinar_integrating_various_document_formats.html"
               format="html" scope="external">Webinar: <b>Integrating Various Document Formats
                 (OpenAPI, Word, Markdown, HTML, Excel) into DITA Documentation</b></xref></li>
-          <li id="li_gv5_flp_dvb"><xref
+          <li id="li_gv5_flp_dvb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2021/webinar_working_with_dita_in_oxygen_migrating_to_dita_and_refactoring.html"
               format="html" scope="external">Webinar: <b>Working with DITA in Oxygen - Migrating to
                 DITA and Refactoring</b></xref></li>
-          <li id="li_bxq_mkp_dvb"><xref href="https://www.youtube.com/watch?v=mzmnOBzJ5Uk"
+          <li id="li_bxq_mkp_dvb" irina="irina"><xref href="https://www.youtube.com/watch?v=mzmnOBzJ5Uk"
               format="html" scope="external">Video: <b>Integrating REST-API Content into DITA
                 Documentation in Oxygen</b></xref></li>
-          <li id="li_o5v_s2n_rvb"><xref
+          <li id="li_o5v_s2n_rvb" irina="irina"><xref
               href="https://blog.oxygenxml.com/topics/migrating_word_to_dita_bdc/migrating_word_to_dita_using_batch_documents_converter.html"
               format="html" scope="external">Blog post: <b>Migrating MS Word to DITA Using the Batch
                 Documents Converter</b></xref></li>

@@ -36,7 +36,7 @@
               selection of multiple columns/cells (<xmlatt>align</xmlatt> attribute). The allowed
               values are as follows:<ul
                 conkeyref="reusables-editing-documents/horizontal-align-docbook-ul" id="ul_ezx_bgk_54b">
-                <li id="li_fzx_bgk_54b"/>
+                <li id="li_fzx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_gzx_bgk_54b">
@@ -45,7 +45,7 @@
             <dd>Specifies the vertical alignment of text within the current row/cell or selection of
               multiple rows/cells (<xmlatt>valign</xmlatt> attribute). The allowed values are as
                 follows:<ul conkeyref="reusables-editing-documents/vert-align-docbook-ul" id="ul_hzx_bgk_54b">
-                <li id="li_izx_bgk_54b"/>
+                <li id="li_izx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry conkeyref="reusables-editing-documents/table-column-separator-dlentry" id="dlentry_jzx_bgk_54b">
@@ -98,7 +98,7 @@
               selection of multiple rows/columns/cells (<xmlatt>align</xmlatt> attribute). The
               allowed values are:<ul
                 conkeyref="reusables-editing-documents/horizontal-align-docbook-ul" id="ul_uzx_bgk_54b">
-                <li id="li_vzx_bgk_54b"/>
+                <li id="li_vzx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_wzx_bgk_54b">
@@ -109,7 +109,7 @@
               selection of multiple rows/columns/cells (<xmlatt>valign</xmlatt> attribute). The
               allowed values are:<ul
                 conkeyref="reusables-editing-documents/vert-align-docbook-html-ul" id="ul_xzx_bgk_54b">
-                <li id="li_yzx_bgk_54b"/>
+                <li id="li_yzx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
         </dl>

@@ -73,13 +73,13 @@
           <dt>Comments Moderation</dt>
           <dd>
             <ul id="ul_sh4_hbg_gjb">
-              <li id="li_dyw_dgk_54b"><b>All</b> - Select this option if you want all comments to require approval by an
+              <li id="li_dyw_dgk_54b" irina="irina"><b>All</b> - Select this option if you want all comments to require approval by an
                   <xref href="ofb-team-management.dita"><i>Owner</i>, <i>Admin</i>, or
                     <i>Moderator</i></xref> before they are posted. Also, each <i>Owner</i>,
                   <i>Admin</i>, and <i>Moderator</i> for the site configuration will receive an
                 email when a user adds a comment notifying them that there is a comment waiting for
                 approval.</li>
-              <li id="li_eyw_dgk_54b"><b>None</b> - Select this option if you want all comments to be posted without
+              <li id="li_eyw_dgk_54b" irina="irina"><b>None</b> - Select this option if you want all comments to be posted without
                 requiring approval.<note id="note_fyw_dgk_54b">If you change this option to <uicontrol>None</uicontrol> on
                   a site configuration that was previously being moderated and had rejected
                   comments, all of those rejected comments will be purged.</note></li>
@@ -126,10 +126,10 @@
                     community uses like/dislike icons or text. If <uicontrol>Text</uicontrol> is
                     selected (default value), you can also configure the possible responses:<ul
                       id="ul_lcn_ydn_btb">
-                      <li id="li_d3h_zdn_btb"><b>Option 1 (positive)</b> - The positive response to
+                      <li id="li_d3h_zdn_btb" irina="irina"><b>Option 1 (positive)</b> - The positive response to
                         the question. The default value is <term>Yes</term>, but you can change it
                         depending on your needs.</li>
-                      <li id="li_djm_b2n_btb"><b>Option 2 (negative)</b> - The negative response to
+                      <li id="li_djm_b2n_btb" irina="irina"><b>Option 2 (negative)</b> - The negative response to
                         the question. The default value is <term>No</term>, but you can change it
                         depending on your needs.</li>
                     </ul></dd>

@@ -36,7 +36,7 @@
     <section id="creating_a_dita_topic">
       <title>Creating a DITA Topic in <ph keyref="product"/></title>
       <p id="p_qql_bgk_54b">To <xref href="create-topic-in-map.dita#create-topic-in-map">create a DITA topic</xref>:<ol id="ol_rql_bgk_54b">
-          <li id="li_sql_bgk_54b">
+          <li id="li_sql_bgk_54b" irina="irina">
             <p id="p_tql_bgk_54b">Select <ph product="author editor"><menucascade>
                   <uicontrol>File</uicontrol>
                   <uicontrol><image href="../img/New16.png" id="image_owg_fqs_vs" placement="inline"
@@ -71,7 +71,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_zql_bgk_54b">Go to <menucascade>
+          <li id="li_zql_bgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Framework templates</uicontrol>
               <uicontrol>DITA</uicontrol>
               <uicontrol>topic</uicontrol>
@@ -82,9 +82,9 @@
               types of topics may be provided for your use. Check with the person who manages your
               DITA system to see if you should be using templates from another
             directory.</note></li>
-          <li id="li_brl_bgk_54b">Select a file path where it will be saved.<ph product="author editor"> You can also
+          <li id="li_brl_bgk_54b" irina="irina">Select a file path where it will be saved.<ph product="author editor"> You can also
               optionally specify a title.</ph></li>
-          <li id="li_crl_bgk_54b">Click <uicontrol product="author editor">Create</uicontrol><uicontrol
+          <li id="li_crl_bgk_54b" irina="irina">Click <uicontrol product="author editor">Create</uicontrol><uicontrol
               product="authorEclipse editorEclipse">Finish</uicontrol>.</li>
         </ol></p>
       <p id="p_drl_bgk_54b"><b>Result:</b> Your document is opened in the editor. Eventually, you will need to <xref
@@ -117,7 +117,7 @@
     <section id="creating_a_map">
       <title>Creating a Map in <ph keyref="product"/></title>
       <p id="p_hrl_bgk_54b">To <xref href="creating-dita-map.dita#creating-dita-map">create a map</xref>:<ol id="ol_irl_bgk_54b">
-          <li id="li_jrl_bgk_54b">Select <ph product="author editor"><menucascade>
+          <li id="li_jrl_bgk_54b" irina="irina">Select <ph product="author editor"><menucascade>
                 <uicontrol>File</uicontrol>
                 <uicontrol><image href="../img/New16.png" placement="inline"/>New</uicontrol>
               </menucascade> or click the <uicontrol><image href="../img/New16.png"
@@ -130,12 +130,12 @@
                   placement="inline"/>New </uicontrol></ph> button on the toolbar<ph
               product="authorEclipse editorEclipse">, and select <uicontrol>New from
                 Templates</uicontrol></ph>.</li>
-          <li id="li_krl_bgk_54b">Go to <menucascade>
+          <li id="li_krl_bgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Framework templates</uicontrol>
               <uicontrol>DITA Map</uicontrol>
               <uicontrol>map</uicontrol>
             </menucascade> and select the type of map you want to create.</li>
-          <li id="li_lrl_bgk_54b">
+          <li id="li_lrl_bgk_54b" irina="irina">
             <p id="p_mrl_bgk_54b">Choose whether you want to open the map in the <uicontrol>Editor</uicontrol> or in
               the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                   Manager</uicontrol></xref>. Usually, opening it in the <uicontrol>DITA Maps
@@ -156,8 +156,8 @@
       <p id="p_orl_bgk_54b">There are several ways to <xref href="eppo-add-topic-to-map.dita#eppo-add-topic-to-map">add
           a topic reference to a map</xref>. Perhaps the easiest method is to add a reference to a
         topic that is already open in the editor:<ol id="ol_prl_bgk_54b">
-          <li id="li_qrl_bgk_54b">Open the DITA topic in the main editing window.</li>
-          <li id="li_rrl_bgk_54b">
+          <li id="li_qrl_bgk_54b" irina="irina">Open the DITA topic in the main editing window.</li>
+          <li id="li_rrl_bgk_54b" irina="irina">
             <p id="p_srl_bgk_54b">Right-click the <term>DITA map</term> in the <xref
                 href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                   Manager</uicontrol> view</xref> and choose <uicontrol>Reference to the currently
@@ -181,11 +181,11 @@
               </fig>
             </p>
           </li>
-          <li id="li_wrl_bgk_54b">You can fill in additional information in the various tabs in this dialog box or add
+          <li id="li_wrl_bgk_54b" irina="irina">You can fill in additional information in the various tabs in this dialog box or add
             it to the map later.</li>
-          <li id="li_xrl_bgk_54b">Select <uicontrol>Insert and close</uicontrol> to add a reference to your topic in the
+          <li id="li_xrl_bgk_54b" irina="irina">Select <uicontrol>Insert and close</uicontrol> to add a reference to your topic in the
             map.</li>
-          <li id="li_yrl_bgk_54b">Save the <term>DITA map</term>.</li>
+          <li id="li_yrl_bgk_54b" irina="irina">Save the <term>DITA map</term>.</li>
         </ol></p>
     </section>
     <section id="adding_new_topics_to_a_map_in">
@@ -194,14 +194,14 @@
         another topic. This is usually done at the map level. </p>
       <p id="p_asl_bgk_54b">To <xref href="eppo-add-topic-to-map.dita#eppo-add-topic-to-map">add a new topic to a
           map</xref>, follow these steps:<ol conkeyref="reusables-author-for-dita/new-dita-topic-ol" id="ol_bsl_bgk_54b">
-          <li id="li_csl_bgk_54b"/>
+          <li id="li_csl_bgk_54b" irina="irina"/>
         </ol></p>
       <p id="p_dsl_bgk_54b">You can also change the order and nesting of topics in the <uicontrol>DITA Maps
           Manager</uicontrol> view by doing either of the following:<ul id="ul_ddp_brn_3q">
-          <li id="li_esl_bgk_54b">Select the topic to move while holding down the
+          <li id="li_esl_bgk_54b" irina="irina">Select the topic to move while holding down the
               <uicontrol><shortcut>Alt</shortcut></uicontrol> key and use the arrow keys to move it
             around.</li>
-          <li id="li_fsl_bgk_54b">Use the mouse to drag and drop the topic to the desired location.</li>
+          <li id="li_fsl_bgk_54b" irina="irina">Use the mouse to drag and drop the topic to the desired location.</li>
         </ul></p>
       <p id="p_gsl_bgk_54b">The way your parent and child topics are organized in any particular output depends on both
         the configuration of those topics in the map and the rules of the output transformation that
@@ -219,7 +219,7 @@
         or a page on a website. To build a publication out of these smaller maps, you must add them
         to a map that represents the overall publication.</p>
       <p id="p_isl_bgk_54b">To <xref href="eppo-submaps.dita#eppo-submaps">add a child map to the current map</xref>:<ol id="ol_jsl_bgk_54b">
-          <li id="li_ksl_bgk_54b">
+          <li id="li_ksl_bgk_54b" irina="irina">
             <p id="p_lsl_bgk_54b">Right-click the parent <term>DITA map</term> in the <xref
                 href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                   Manager</uicontrol> view</xref> and choose <menucascade>
@@ -231,11 +231,11 @@
                   Reference</uicontrol> dialog box</xref> with all of the required fields already
               filled in for you.</p>
           </li>
-          <li id="li_nsl_bgk_54b">You can fill in additional information in the various tabs in this dialog box or add
+          <li id="li_nsl_bgk_54b" irina="irina">You can fill in additional information in the various tabs in this dialog box or add
             it to the map later.</li>
-          <li id="li_osl_bgk_54b">Select <uicontrol>Insert and close</uicontrol> to add a reference to your submap in
+          <li id="li_osl_bgk_54b" irina="irina">Select <uicontrol>Insert and close</uicontrol> to add a reference to your submap in
             the main map.</li>
-          <li id="li_psl_bgk_54b">Save the main <term>DITA map</term>.</li>
+          <li id="li_psl_bgk_54b" irina="irina">Save the main <term>DITA map</term>.</li>
         </ol></p>
     </section>
     <section id="validating_a_map">
@@ -245,13 +245,13 @@
           keyref="product"/> provides a validation function for <term>DITA maps</term> that does
         more than simply validating that the XML is well-formed. It also does the following: <ul
           id="ul_yp4_4bl_vp">
-          <li id="li_rsl_bgk_54b">Validates all of the relationships defined in the maps.</li>
-          <li id="li_ssl_bgk_54b">Validates all of the files that are included in the map.</li>
-          <li id="li_tsl_bgk_54b">Validates all of the links that are expressed in the files.</li>
+          <li id="li_rsl_bgk_54b" irina="irina">Validates all of the relationships defined in the maps.</li>
+          <li id="li_ssl_bgk_54b" irina="irina">Validates all of the files that are included in the map.</li>
+          <li id="li_tsl_bgk_54b" irina="irina">Validates all of the links that are expressed in the files.</li>
         </ul>Validating the map that describes your entire publication validates all the files that
         make up the publication and all of the relationships between them.</p>
       <p id="p_usl_bgk_54b">To validate a map:<ol id="ol_vsl_bgk_54b">
-          <li id="li_wsl_bgk_54b">
+          <li id="li_wsl_bgk_54b" irina="irina">
             <p id="p_xsl_bgk_54b">Click the <uicontrol><image href="../img/ValidateAndCheck16.png"
                   id="image_wqb_3vv_sr"/>Validate and Check for Completeness</uicontrol> button in
               the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
@@ -261,8 +261,8 @@
                 format="dita"><uicontrol>DITA Map Completeness Check</uicontrol> dialog
               box</xref>.</p>
           </li>
-          <li id="li_zsl_bgk_54b">Select any of the various options you want to check.</li>
-          <li id="li_atl_bgk_54b">Click <uicontrol>Check</uicontrol> to run the validation process.</li>
+          <li id="li_zsl_bgk_54b" irina="irina">Select any of the various options you want to check.</li>
+          <li id="li_atl_bgk_54b" irina="irina">Click <uicontrol>Check</uicontrol> to run the validation process.</li>
         </ol></p>
     </section>
     <section id="publishing_your_topics">
@@ -277,7 +277,7 @@
         built-in <uicontrol>DITA Open Toolkit</uicontrol> transformations. In either case, <ph
           keyref="product"/> manages them by using transformation scenarios. </p>
       <p id="p_ctl_bgk_54b">To publish output for a map:<ol id="ol_dtl_bgk_54b">
-          <li id="li_etl_bgk_54b">
+          <li id="li_etl_bgk_54b" irina="irina">
             <p id="p_ftl_bgk_54b">Click the <uicontrol><image href="../img/TransformConfig16.png"
                   id="image_lf3_5b1_x3b"/>Configure Transformation Scenario(s)</uicontrol> button in
               the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
@@ -293,10 +293,10 @@
               </fig>
             </p>
           </li>
-          <li id="li_jtl_bgk_54b">Select the appropriate transformation depending on the type of output you desire.</li>
-          <li id="li_ktl_bgk_54b">To change or view the configuration or storage options for a transformation scenario,
+          <li id="li_jtl_bgk_54b" irina="irina">Select the appropriate transformation depending on the type of output you desire.</li>
+          <li id="li_ktl_bgk_54b" irina="irina">To change or view the configuration or storage options for a transformation scenario,
             select the transformation and click <uicontrol>Edit</uicontrol>.</li>
-          <li id="li_ltl_bgk_54b">
+          <li id="li_ltl_bgk_54b" irina="irina">
             <p id="p_mtl_bgk_54b">Click <uicontrol>Apply associated</uicontrol>.</p>
           </li>
         </ol></p>

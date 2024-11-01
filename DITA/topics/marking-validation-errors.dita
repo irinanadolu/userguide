@@ -37,11 +37,11 @@
     <section id="validation_marker_locations">
       <title>Validation Marker Locations</title>
       <p id="p_ofz_bgk_54b">In <uicontrol>Text</uicontrol> mode, validation issues are marked in the following locations:<ul id="ul_pfz_bgk_54b">
-          <li id="li_qfz_bgk_54b">In the main editing pane, with the issue underlined in a color according to the type
+          <li id="li_qfz_bgk_54b" irina="irina">In the main editing pane, with the issue underlined in a color according to the type
             of issue.</li>
-          <li id="li_rfz_bgk_54b">In the right-side vertical stripe, with a marker that is colored according to the type
+          <li id="li_rfz_bgk_54b" irina="irina">In the right-side vertical stripe, with a marker that is colored according to the type
             of issue.</li>
-          <li id="li_sfz_bgk_54b">For attributes with detected issues, in the <xref
+          <li id="li_sfz_bgk_54b" irina="irina">For attributes with detected issues, in the <xref
               href="attributes-panel.dita#attributes-panel"><uicontrol>Attributes</uicontrol>
               view</xref>, with the attribute and its value colored according to the type of
             issue.</li>
@@ -51,7 +51,7 @@
       <title>Validation Marker Colors</title>
       <p id="p_tfz_bgk_54b">The colors for each type of issue are as follows:<ul
           conkeyref="reusables-editing-modes/ul-validation-markers" id="ul_ufz_bgk_54b">
-          <li id="li_vfz_bgk_54b"/>
+          <li id="li_vfz_bgk_54b" irina="irina"/>
         </ul><ph conkeyref="reusables-editing-modes/p-doc-pref-link"/><ph
           conkeyref="reusables-editing-modes/p-annotations-pref-eclipse"/></p>
     </section>
@@ -67,7 +67,7 @@
       <title>Details About Validation Issues</title>
       <p id="p_yfz_bgk_54b">
         <ul id="ul_zfz_bgk_54b">
-          <li id="li_agz_bgk_54b">Information about the issue is also displayed in the message area on the bottom of the
+          <li id="li_agz_bgk_54b" irina="irina">Information about the issue is also displayed in the message area on the bottom of the
             editor panel (clicking the <uicontrol><image href="../img/Options16.png"/>Document
               checking options</uicontrol> button opens the <xref
               href="preferences-editor-document-checking.dita"><uicontrol>Document
@@ -76,7 +76,7 @@
               validation issues)</ph>. Some validation messages have an icon (<image
               href="../img/Specs16.png" id="image_pgg_wcz_3mb"/>) and clicking it opens a dialog box
             with additional information and a link to specifications.</li>
-          <li product="author developer editor" id="li_bgz_bgk_54b">When a validation is processed, information about
+          <li product="author developer editor" id="li_bgz_bgk_54b" irina="irina">When a validation is processed, information about
             the validation scenario is displayed in the stripe at the very bottom of the
             application. It includes the name of the validation scenario and its status. If you
             hover over the information, a tooltip is presented with more information. You can also
@@ -86,10 +86,10 @@
                 displayed.<p id="p_cgz_bgk_54b"><image href="../img/validation-tooltip.png" id="image_izh_mnq_qlb"
               /></p></li>
           <li conkeyref="reusables-editing-modes/EC-console-view"
-            product="authorEclipse developerEclipse editorEclipse" id="li_dgz_bgk_54b"/>
-          <li conkeyref="reusables-editing-modes/results-view" product="author developer editor" id="li_egz_bgk_54b"/>
+            product="authorEclipse developerEclipse editorEclipse" id="li_dgz_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editing-modes/results-view" product="author developer editor" id="li_egz_bgk_54b" irina="irina"/>
           <li conkeyref="reusables-editing-modes/EC-results-view"
-            product="authorEclipse developerEclipse editorEclipse" id="li_fgz_bgk_54b"/>
+            product="authorEclipse developerEclipse editorEclipse" id="li_fgz_bgk_54b" irina="irina"/>
         </ul>
       </p>
     </section>

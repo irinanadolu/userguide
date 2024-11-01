@@ -6,10 +6,10 @@
         <p id="p_k2t_dgk_54b"><ph keyref="product"/> is a web application with two components:</p>
     <p id="p_l2t_dgk_54b">
       <ul id="ul_kdy_twy_dlb">
-        <li id="li_m2t_dgk_54b">The back-end is implemented in Java. It stores the DOM model of the document and is
+        <li id="li_m2t_dgk_54b" irina="irina">The back-end is implemented in Java. It stores the DOM model of the document and is
           responsible for advanced processing of the XML document (such as validation and executing
           operations whose behavior is influenced by the document schema).</li>
-        <li id="li_n2t_dgk_54b">The front-end is implemented in JavaScript. It renders the user interface of the editor,
+        <li id="li_n2t_dgk_54b" irina="irina">The front-end is implemented in JavaScript. It renders the user interface of the editor,
           provides basic access to the document model, and makes requests to the back-end to modify
           the document in response to user actions. Some performance-sensitive actions (such as
           typing) are first executed on the front-end and then the result is synchronized with the
@@ -38,16 +38,16 @@
             <dd>When an <term>Editor</term> is loaded, depending on the type of document, an
                 <term>editing support</term> is created. It can be one of the following:<p id="p_u2t_dgk_54b">
                 <ul id="ul_ksc_tyy_dlb">
-                  <li id="li_v2t_dgk_54b"><b>Author mode editing support</b> - Used for XML documents to provide WYSIWYG
+                  <li id="li_v2t_dgk_54b" irina="irina"><b>Author mode editing support</b> - Used for XML documents to provide WYSIWYG
                     editing features.</li>
-                  <li id="li_w2t_dgk_54b"><b>Markdown editing support</b> - Used to edit Markdown documents.</li>
-                  <li id="li_x2t_dgk_54b"><b>Plain-text editing support</b> - Used to provide read-only access to text
+                  <li id="li_w2t_dgk_54b" irina="irina"><b>Markdown editing support</b> - Used to edit Markdown documents.</li>
+                  <li id="li_x2t_dgk_54b" irina="irina"><b>Plain-text editing support</b> - Used to provide read-only access to text
                     documents.</li>
-                  <li id="li_y2t_dgk_54b"><b>Image editing support</b> - Used to provide view-only access to
+                  <li id="li_y2t_dgk_54b" irina="irina"><b>Image editing support</b> - Used to provide view-only access to
                     images.</li>
-                  <li id="li_z2t_dgk_54b"><b>Diff editing support</b> - Used by the <i>File Comparison</i> plugin to
+                  <li id="li_z2t_dgk_54b" irina="irina"><b>Diff editing support</b> - Used by the <i>File Comparison</i> plugin to
                     display two documents side-by-side.</li>
-                  <li id="li_aft_dgk_54b"><b>Custom editing supports</b> - Can be implemented for other use-cases.</li>
+                  <li id="li_aft_dgk_54b" irina="irina"><b>Custom editing supports</b> - Can be implemented for other use-cases.</li>
                 </ul>
               </p><p id="p_bft_dgk_54b">If a document fails to load, no editing support is created.</p></dd>
           </dlentry>

@@ -22,7 +22,7 @@
       <p id="p_mt1_dgk_54b">There are two ways to customize the <term>Content Completion Assistant</term> in <ph
           keyref="product"/>:</p>
       <ul id="ul_v1w_gdj_qnb">
-        <li id="li_nt1_dgk_54b">You can add, modify, or remove actions that are proposed for each particular document
+        <li id="li_nt1_dgk_54b" irina="irina">You can add, modify, or remove actions that are proposed for each particular document
           type (<xref keyref="glossentry_framework"><term>framework</term></xref>) by using the
             <xref href="the-content-completion-tab.dita#the-content-completion-tab"
               ><uicontrol>Content Completion</uicontrol> subtab in the <uicontrol>Document Type
@@ -34,7 +34,7 @@
               <uicontrol>Duplicate</uicontrol>, or <uicontrol>Extend</uicontrol> button</xref>,
           click on the <uicontrol>Author</uicontrol> tab, and then the <uicontrol>Content
             Completion</uicontrol> subtab.<note id="note_ot1_dgk_54b">This works only for Author visual mode.</note></li>
-        <li id="li_pt1_dgk_54b">You can use a <filepath>cc_config.xml</filepath> configuration file that is specific to
+        <li id="li_pt1_dgk_54b" irina="irina">You can use a <filepath>cc_config.xml</filepath> configuration file that is specific to
           each document type (<term>framework</term>) to configure the values that are proposed in
           certain contexts, to customize the attributes or elements that are proposed, or to
           customize how certain aspects of the proposals are rendered in the interface. The rest of

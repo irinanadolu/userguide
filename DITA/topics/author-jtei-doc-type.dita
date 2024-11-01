@@ -59,11 +59,11 @@
       <p id="p_okk_cgk_54b">The default <xref keyref="glossentry_xml-catalog"><term>XML
             Catalogs</term></xref> for <term>jTEI</term> are as follows:</p>
       <ul id="ul_phz_rpg_wq">
-        <li id="li_pkk_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+        <li id="li_pkk_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
             />/frameworks/tei/xml/tei/schema/dtd/catalog.xml</filepath></li>
-        <li id="li_qkk_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+        <li id="li_qkk_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
             />/frameworks/tei/xml/tei/custom/schema/dtd/catalog.xml</filepath></li>
-        <li id="li_rkk_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+        <li id="li_rkk_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
             />/frameworks/tei/xml/tei/stylesheet/catalog.xml</filepath></li>
       </ul>
     </section>
@@ -79,10 +79,10 @@
       <title>Resources</title>
       <p id="p_tkk_cgk_54b">
         <ul id="ul_ukk_cgk_54b">
-          <li id="li_vkk_cgk_54b"><xref href="https://www.oxygenxml.com/xml_editor/tei_editor.html" format="html"
+          <li id="li_vkk_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/xml_editor/tei_editor.html" format="html"
               scope="external" product="author editor authorEclipse editorEclipse">Oxygen Video
               Tutorial: Editing TEI Documents in Author Mode</xref></li>
-          <li id="li_wkk_cgk_54b"><xref href="https://www.tei-c.org/guidelines/customization/jtei/"
+          <li id="li_wkk_cgk_54b" irina="irina"><xref href="https://www.tei-c.org/guidelines/customization/jtei/"
               format="html" scope="external"><term>jTEI</term> Article Guidelines</xref></li>
         </ul>
       </p>

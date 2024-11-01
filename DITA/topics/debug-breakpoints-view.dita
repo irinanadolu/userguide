@@ -39,12 +39,12 @@
     </p>
     <p id="p_kfz_cgk_54b">The <uicontrol>Breakpoints</uicontrol> view contains the following columns:<ul
         id="ul_npq_dkp_2r">
-        <li id="li_lfz_cgk_54b"><uicontrol>Enabled</uicontrol> - If selected, the current condition is evaluated and
+        <li id="li_lfz_cgk_54b" irina="irina"><uicontrol>Enabled</uicontrol> - If selected, the current condition is evaluated and
           taken into account.</li>
-        <li id="li_mfz_cgk_54b"><uicontrol>Resource</uicontrol> - Resource file and number of the line where the
+        <li id="li_mfz_cgk_54b" irina="irina"><uicontrol>Resource</uicontrol> - Resource file and number of the line where the
             <term>breakpoint</term> is set.<ph product="developer editor"> The Entire path of
             resource file is available as tooltip.</ph></li>
-        <li id="li_nfz_cgk_54b"><uicontrol>Condition</uicontrol> - XSLT/XQuery expression to be evaluated during
+        <li id="li_nfz_cgk_54b" irina="irina"><uicontrol>Condition</uicontrol> - XSLT/XQuery expression to be evaluated during
           debugging. The expression will be evaluated at every debug step.</li>
       </ul></p>
     <p id="p_ofz_cgk_54b">Clicking a record highlights the <term>breakpoint</term> line in the document.</p>

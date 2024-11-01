@@ -117,7 +117,7 @@
                     <dt><uicontrol>Change Search and Refactor operations scope</uicontrol></dt>
                     <dd>Allows you to change the collection of documents that define the context of
                       the search and refactor operations. <ul id="ul_opt_bgk_54b">
-                        <li id="li_ppt_bgk_54b"><uicontrol>Use only Main Files, if
+                        <li id="li_ppt_bgk_54b" irina="irina"><uicontrol>Use only Main Files, if
                             enabled</uicontrol> - Restricts <ph keyref="product"/> to perform the
                           search and refactor operations starting from the <xref
                             keyref="glossentry_main-file"><term>main files</term></xref> that are
@@ -125,7 +125,7 @@
                             <uicontrol>Project</uicontrol> in the <uicontrol>Select the scope for
                             Search and Refactor operations</uicontrol> dialog box and the
                             <uicontrol>Main Files</uicontrol> support is enabled.</li>
-                        <li id="li_qpt_bgk_54b"><uicontrol>Working sets</uicontrol> - Allows you to
+                        <li id="li_qpt_bgk_54b" irina="irina"><uicontrol>Working sets</uicontrol> - Allows you to
                           specify the set of files that will be used for the scope of the search and
                           refactor operations.</li>
                       </ul></dd>
@@ -142,7 +142,7 @@
         explorers. The XML project (<filepath>.xpr</filepath> file) is a logical container with a
         collection of resources (folders and files). The types of resources displayed include:</p>
       <ul id="ul_spt_bgk_54b">
-        <li id="li_tpt_bgk_54b"><b>Logical folders with Linked folders/files</b> - <ph
+        <li id="li_tpt_bgk_54b" irina="irina"><b>Logical folders with Linked folders/files</b> - <ph
             product="author developer editor json">Marked with a blue icon on Windows and Unix/Linux
               (<image href="../img/LogicalFolderWindows16.png"/>) and a magenta icon on macOS
               (<image href="../img/LogicalFolderOpenMac16.png"/>), they help you group files within
@@ -175,7 +175,7 @@
                 href="../img/TrashIcon16.gif"/>Remove from Disk
               (<shortcut>Shift+Delete</shortcut>)</uicontrol> action can be used to remove them from
             both the project and the local file system</ph>.</li>
-        <li id="li_upt_bgk_54b"><b>Physical folders and files</b> - Marked with the operating
+        <li id="li_upt_bgk_54b" irina="irina"><b>Physical folders and files</b> - Marked with the operating
           system-specific icon for folders (usually a yellow icon on Windows and a blue icon on
           macOS). These folders and files are mirrors of real folders or files that exist in the
           local file system. They are created or added to the project by using contextual menu
@@ -416,12 +416,12 @@
                 </menucascade> action from the contextual menu. This action opens the
                   <uicontrol>Move resource</uicontrol> dialog box that includes the following
                   options:<ul id="ul_vn2_rrq_ls">
-                  <li id="li_ert_bgk_54b"><uicontrol>Destination</uicontrol> - Presents the path to the current location
+                  <li id="li_ert_bgk_54b" irina="irina"><uicontrol>Destination</uicontrol> - Presents the path to the current location
                     of the resource you want to move and gives you the option to introduce a new
                     location.</li>
-                  <li id="li_frt_bgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of the moved
+                  <li id="li_frt_bgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of the moved
                     resource and gives you the option to change it.</li>
-                  <li id="li_grt_bgk_54b"><uicontrol>Update references of the moved
+                  <li id="li_grt_bgk_54b" irina="irina"><uicontrol>Update references of the moved
                       resource(s)</uicontrol> - Select this option to update the references to the
                     resource you are moving, based upon the selected scope. You can select or
                     configure the scope by using the <uicontrol><image
@@ -435,9 +435,9 @@
             <dd>
               <p id="p_irt_bgk_54b">There are several ways to rename a folder or file in the project (this works for
                 both physical and linked resources):<ul id="ul_nkv_dtq_y3b">
-                  <li id="li_jrt_bgk_54b">Select <uicontrol>Rename</uicontrol> from the contextual menu.</li>
-                  <li id="li_krt_bgk_54b">Press <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</li>
-                  <li product="author developer editor json" id="li_lrt_bgk_54b">Select the item,
+                  <li id="li_jrt_bgk_54b" irina="irina">Select <uicontrol>Rename</uicontrol> from the contextual menu.</li>
+                  <li id="li_krt_bgk_54b" irina="irina">Press <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</li>
+                  <li product="author developer editor json" id="li_lrt_bgk_54b" irina="irina">Select the item,
                     then click the name, and type the new name.</li>
                 </ul></p>
               <p id="p_mrt_bgk_54b">You also can rename certain types of files (such as XML<ph
@@ -448,9 +448,9 @@
                 </menucascade> action from the contextual menu. This action opens the
                   <uicontrol>Rename resource</uicontrol> dialog box that includes the following
                   options:<ul id="ul_odt_vtq_ls">
-                  <li id="li_nrt_bgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of the edited
+                  <li id="li_nrt_bgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of the edited
                     resource and allows you to modify it.</li>
-                  <li id="li_ort_bgk_54b"><uicontrol>Update references of the renamed
+                  <li id="li_ort_bgk_54b" irina="irina"><uicontrol>Update references of the renamed
                       resource</uicontrol> - Select this option to update the references to the
                     resource you are renaming. You can select or configure the scope by using the
                         <uicontrol><image href="../img/ConfigureSearchScope16.png"
@@ -461,15 +461,15 @@
           <dlentry id="dlentry_prt_bgk_54b">
             <dt>Opening Files</dt>
             <dd>There are several ways to open a file:<ul id="ul_qrt_bgk_54b">
-                <li id="li_rrt_bgk_54b">Double-click the file.</li>
-                <li id="li_srt_bgk_54b">Select it and press <uicontrol><shortcut>Enter</shortcut></uicontrol> on your
+                <li id="li_rrt_bgk_54b" irina="irina">Double-click the file.</li>
+                <li id="li_srt_bgk_54b" irina="irina">Select it and press <uicontrol><shortcut>Enter</shortcut></uicontrol> on your
                   keyboard.</li>
-                <li id="li_trt_bgk_54b">Right-click the file and select <uicontrol>Open</uicontrol>.</li>
-                <li id="li_urt_bgk_54b"><ph product="author developer editor json">If there are no
+                <li id="li_trt_bgk_54b" irina="irina">Right-click the file and select <uicontrol>Open</uicontrol>.</li>
+                <li id="li_urt_bgk_54b" irina="irina"><ph product="author developer editor json">If there are no
                     other files open in the editor area, you can drag</ph><ph
                     product="authorEclipse developerEclipse editorEclipse">Drag</ph> the file from
                   the project tree and drop it in the editor area.</li>
-                <li id="li_vrt_bgk_54b">If you want to choose the application or location where to open it, you can
+                <li id="li_vrt_bgk_54b" irina="irina">If you want to choose the application or location where to open it, you can
                   right-click the file and select <uicontrol>Open with</uicontrol>.</li>
               </ul></dd>
           </dlentry>

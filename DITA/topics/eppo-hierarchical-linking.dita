@@ -25,12 +25,12 @@
         <xmlatt>linking</xmlatt> attribute.</note>
     <p id="p_m1n_dgk_54b">To add the <xmlatt>collection-type</xmlatt> to an item in a map:</p>
     <ol id="ol_bpt_fqg_1q">
-      <li id="li_n1n_dgk_54b">Right-click the topic and choose <uicontrol><image
+      <li id="li_n1n_dgk_54b" irina="irina">Right-click the topic and choose <uicontrol><image
             href="../img/DockableFrameProperties16.png"/>Edit Properties</uicontrol>. The
           <uicontrol>Edit Properties</uicontrol> dialog box is displayed.</li>
-      <li id="li_o1n_dgk_54b">In the <uicontrol>Attributes</uicontrol> tab, select the appropriate value from the
+      <li id="li_o1n_dgk_54b" irina="irina">In the <uicontrol>Attributes</uicontrol> tab, select the appropriate value from the
           <uicontrol>Collection type</uicontrol> drop-down list.</li>
-      <li id="li_p1n_dgk_54b">You can use the <uicontrol>Other attributes</uicontrol> table to add a value to the
+      <li id="li_p1n_dgk_54b" irina="irina">You can use the <uicontrol>Other attributes</uicontrol> table to add a value to the
           <xmlatt>linking</xmlatt> attribute.</li>
     </ol>
   </body>

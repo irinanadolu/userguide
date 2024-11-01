@@ -14,7 +14,7 @@
         <term>framework</term>. Once the framework is uploaded, the document templates will be
       available when creating new documents.</p>
     <p id="p_sgs_dgk_54b">To create your own custom document template, follow these steps:<ol id="ol_tgs_dgk_54b">
-        <li id="li_ugs_dgk_54b">In <b>Oxygen XML Editor/Author</b>, create a new file and customize it to become a
+        <li id="li_ugs_dgk_54b" irina="irina">In <b>Oxygen XML Editor/Author</b>, create a new file and customize it to become a
           starting point for creating new files of this type.<note type="tip" id="note_vgs_dgk_54b">You can use <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/editor-variables.html"
               format="html" scope="external">editor variables</xref> in the template file content
@@ -23,7 +23,7 @@
             example, you could <xref
               href="wa-customizing-templates.dita#wa-customizing-templates/adding_placeholders_or_hints_in_a_document_templa"
               >add placeholders or hints to assist authors</xref>).</note></li>
-        <li id="step2">Save the new template in a directory (for example, called
+        <li id="step2" irina="irina">Save the new template in a directory (for example, called
             <filepath>templates</filepath>) within your custom framework directory.<note
             type="attention" id="note_wgs_dgk_54b">The name that you use to save the template will be the name that
             appears in the new document wizard, including capitalization, space, and characters (for
@@ -32,7 +32,7 @@
             properties file by following the procedure found in the <xref
               href="wa-customizing-templates.dita#wa-customizing-templates/configure_the_displayed_names_for_document_templa"
             /> section.</note></li>
-        <li id="step3">Open the <xref
+        <li id="step3" irina="irina">Open the <xref
             href="https://www.oxygenxml.com/doc/ug-editor/topics/the-document-type-dialog.html"
             format="html" scope="external"><uicontrol>Document Type</uicontrol> configuration dialog
             box</xref> for that specific framework, go to the <xref
@@ -44,8 +44,8 @@
             <filepath>${frameworkDir}/templates</filepath>). Binding to an absolute file (e. g.:
             <filepath>C:\some_dir\templates</filepath>) makes the association difficult to share
           between users.</li>
-        <li id="li_xgs_dgk_54b">Click <uicontrol>OK</uicontrol> for all of the dialog boxes to save your changes.</li>
-        <li id="li_ygs_dgk_54b"> Create an archive that only contains your custom framework folder and <xref
+        <li id="li_xgs_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> for all of the dialog boxes to save your changes.</li>
+        <li id="li_ygs_dgk_54b" irina="irina"> Create an archive that only contains your custom framework folder and <xref
             href="customizing_frameworks.dita#customizing_frameworks/deploying_a_framework">upload
             the changes to your <term>framework</term> to Web Author</xref>.</li>
       </ol></p>

@@ -19,7 +19,7 @@
           href="duplicating-transformations.dita#duplicating-transformations">duplicate it and edit
           the duplicated scenario</xref>.</note></p>
     <p id="p_vcm_cgk_54b">To configure an existing transformation scenario, follow these steps:<ol id="ol_wcm_cgk_54b">
-        <li id="li_xcm_cgk_54b">
+        <li id="li_xcm_cgk_54b" irina="irina">
           <p id="p_ycm_cgk_54b">Select the <uicontrol><image href="../img/TransformConfig16.png" id="image_jvp_vn1_x3b"
               />Configure Transformation Scenario(s) (<shortcut
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
@@ -36,7 +36,7 @@
                 ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref> is
             opened.</p>
         </li>
-        <li id="li_adm_cgk_54b">Select the particular transformation scenario and click the <uicontrol>Edit</uicontrol>
+        <li id="li_adm_cgk_54b" irina="irina">Select the particular transformation scenario and click the <uicontrol>Edit</uicontrol>
           button at the bottom of the dialog box or from the contextual menu.<note type="tip" id="note_bdm_cgk_54b">You
             could also select the scenario and the <uicontrol><image href="../img/Wrench16.png"
               />Edit</uicontrol> button in the <xref href="scenarios-view.dita#scenarios-view"
@@ -63,57 +63,57 @@
         name of each tab below to see details about all the options that are available):</p>
       <p id="p_hdm_cgk_54b">
         <ul id="ul_idm_cgk_54b">
-          <li id="li_jdm_cgk_54b"><b>DITA-OT</b> - This type of transformation includes configurable options in the
+          <li id="li_jdm_cgk_54b" irina="irina"><b>DITA-OT</b> - This type of transformation includes configurable options in the
             following tabs:<ul id="ul_kdm_cgk_54b">
-              <li id="li_ldm_cgk_54b"><xref href="templates-tab-whr.dita#templates-tab-whr">Templates Tab</xref></li>
-              <li id="li_mdm_cgk_54b"><xref href="dita-pdf-select-processor.dita#dita-pdf-select-processor">FO Processor
+              <li id="li_ldm_cgk_54b" irina="irina"><xref href="templates-tab-whr.dita#templates-tab-whr">Templates Tab</xref></li>
+              <li id="li_mdm_cgk_54b" irina="irina"><xref href="dita-pdf-select-processor.dita#dita-pdf-select-processor">FO Processor
                   Tab</xref> (Available for PDF output)</li>
-              <li id="li_ndm_cgk_54b"><xref href="dita-map-edit-parameters.dita#dita-map-edit-parameters">Parameters
+              <li id="li_ndm_cgk_54b" irina="irina"><xref href="dita-map-edit-parameters.dita#dita-map-edit-parameters">Parameters
                   Tab</xref></li>
-              <li id="li_odm_cgk_54b"><xref href="dita-map-edit-filters.dita#dita-map-edit-filters">Filters
+              <li id="li_odm_cgk_54b" irina="irina"><xref href="dita-map-edit-filters.dita#dita-map-edit-filters">Filters
                 Tab</xref></li>
-              <li id="li_pdm_cgk_54b"><xref href="dita-map-edit-advanced.dita#dita-map-edit-advanced">Advanced
+              <li id="li_pdm_cgk_54b" irina="irina"><xref href="dita-map-edit-advanced.dita#dita-map-edit-advanced">Advanced
                   Tab</xref></li>
-              <li id="li_qdm_cgk_54b"><xref href="dita-map-edit-output.dita#dita-map-edit-output">Output Tab</xref></li>
+              <li id="li_qdm_cgk_54b" irina="irina"><xref href="dita-map-edit-output.dita#dita-map-edit-output">Output Tab</xref></li>
             </ul></li>
-          <li id="li_rdm_cgk_54b"><b>ANT</b> - This type of transformation includes configurable options in the
+          <li id="li_rdm_cgk_54b" irina="irina"><b>ANT</b> - This type of transformation includes configurable options in the
             following tabs:<ul id="ul_sdm_cgk_54b">
-              <li id="li_tdm_cgk_54b"><xref href="ant-transformation-options-tab.dita#ant-transformation-options-tab"
+              <li id="li_tdm_cgk_54b" irina="irina"><xref href="ant-transformation-options-tab.dita#ant-transformation-options-tab"
                   >Options Tab</xref></li>
-              <li id="li_udm_cgk_54b"><xref
+              <li id="li_udm_cgk_54b" irina="irina"><xref
                   href="ant-transformation-parameters-tab.dita#ant-transformation-parameters-tab"
                   >Parameters Tab</xref></li>
-              <li id="li_vdm_cgk_54b"><xref href="ant-transformation-output-tab.dita#ant-transformation-output-tab"
+              <li id="li_vdm_cgk_54b" irina="irina"><xref href="ant-transformation-output-tab.dita#ant-transformation-output-tab"
                   >Output Tab</xref></li>
             </ul></li>
-          <li id="li_wdm_cgk_54b"><b>XSLT</b> - This type of transformation includes configurable options in the
+          <li id="li_wdm_cgk_54b" irina="irina"><b>XSLT</b> - This type of transformation includes configurable options in the
             following tabs:<ul id="ul_xdm_cgk_54b">
-              <li id="li_ydm_cgk_54b"><xref href="xslt-tab.dita#xslt-tab">XSLT Tab</xref></li>
-              <li id="li_zdm_cgk_54b"><xref href="fo-processor-tab.dita#fo-processor-tab">FO Processor Tab</xref></li>
-              <li id="li_a2m_cgk_54b"><xref href="the-output-tab.dita#the-output-tab">Output Tab</xref></li>
+              <li id="li_ydm_cgk_54b" irina="irina"><xref href="xslt-tab.dita#xslt-tab">XSLT Tab</xref></li>
+              <li id="li_zdm_cgk_54b" irina="irina"><xref href="fo-processor-tab.dita#fo-processor-tab">FO Processor Tab</xref></li>
+              <li id="li_a2m_cgk_54b" irina="irina"><xref href="the-output-tab.dita#the-output-tab">Output Tab</xref></li>
             </ul></li>
-          <li id="li_b2m_cgk_54b"><b>XProc</b> - This type of transformation includes configurable options in the
+          <li id="li_b2m_cgk_54b" irina="irina"><b>XProc</b> - This type of transformation includes configurable options in the
             following tabs:<ul id="ul_c2m_cgk_54b">
-              <li id="li_d2m_cgk_54b"><xref href="xproc-transformation-xproc-tab.dita#xproc-transformation-xproc-tab"
+              <li id="li_d2m_cgk_54b" irina="irina"><xref href="xproc-transformation-xproc-tab.dita#xproc-transformation-xproc-tab"
                   >XProc Tab</xref></li>
-              <li id="li_e2m_cgk_54b"><xref href="xproc-transformation-inputs-tab.dita#xproc-transformation-inputs-tab"
+              <li id="li_e2m_cgk_54b" irina="irina"><xref href="xproc-transformation-inputs-tab.dita#xproc-transformation-inputs-tab"
                   >Inputs Tab</xref></li>
-              <li id="li_f2m_cgk_54b"><xref
+              <li id="li_f2m_cgk_54b" irina="irina"><xref
                   href="xproc-transformation-parameters-tab.dita#xproc-transformation-parameters-tab"
                   >Parameters Tab</xref></li>
-              <li id="li_g2m_cgk_54b"><xref
+              <li id="li_g2m_cgk_54b" irina="irina"><xref
                   href="xproc-transformation-outputs-tab.dita#xproc-transformation-outputs-tab"
                   >Outputs Tab</xref></li>
-              <li id="li_h2m_cgk_54b"><xref
+              <li id="li_h2m_cgk_54b" irina="irina"><xref
                   href="xproc-transformation-options-tab.dita#xproc-transformation-options-tab"
                   >Options Tab</xref></li>
             </ul></li>
-          <li id="li_i2m_cgk_54b"><b>XQuery</b> - This type of transformation includes configurable options in the
+          <li id="li_i2m_cgk_54b" irina="irina"><b>XQuery</b> - This type of transformation includes configurable options in the
             following tabs:<ul id="ul_j2m_cgk_54b">
-              <li id="li_k2m_cgk_54b"><xref href="the-xquery-tab.dita#the-xquery-tab">XQuery Tab</xref></li>
-              <li id="li_l2m_cgk_54b"><xref href="fo-processor-tab--xml-xquery.dita#fo-processor-tab--xml-xquery">FO
+              <li id="li_k2m_cgk_54b" irina="irina"><xref href="the-xquery-tab.dita#the-xquery-tab">XQuery Tab</xref></li>
+              <li id="li_l2m_cgk_54b" irina="irina"><xref href="fo-processor-tab--xml-xquery.dita#fo-processor-tab--xml-xquery">FO
                   Processor Tab</xref></li>
-              <li id="li_m2m_cgk_54b"><xref href="output-xml-xquery.dita#output-xml-xquery">Output Tab</xref></li>
+              <li id="li_m2m_cgk_54b" irina="irina"><xref href="output-xml-xquery.dita#output-xml-xquery">Output Tab</xref></li>
             </ul></li>
         </ul>
       </p>

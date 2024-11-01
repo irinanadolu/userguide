@@ -17,11 +17,11 @@
     <section id="validation_marker_locations">
       <title>Validation Marker Locations</title>
       <p id="p_n4f_cgk_54b">Validation issues are marked in the following locations:<ul id="ul_o4f_cgk_54b">
-          <li id="li_p4f_cgk_54b">In the main editing pane, with the issue underlined in a color according to the type
+          <li id="li_p4f_cgk_54b" irina="irina">In the main editing pane, with the issue underlined in a color according to the type
             of issue.</li>
-          <li id="li_q4f_cgk_54b">In the right-side vertical stripe, with a marker that is colored according to the type
+          <li id="li_q4f_cgk_54b" irina="irina">In the right-side vertical stripe, with a marker that is colored according to the type
             of issue.</li>
-          <li id="li_r4f_cgk_54b">In the <uicontrol>Outline</uicontrol> view, with an icon that is colored according to
+          <li id="li_r4f_cgk_54b" irina="irina">In the <uicontrol>Outline</uicontrol> view, with an icon that is colored according to
             the type of issue.</li>
         </ul></p>
     </section>
@@ -29,7 +29,7 @@
       <title>Validation Marker Colors</title>
       <p id="p_s4f_cgk_54b">The colors for each type of issue are as follows:<ul
           conkeyref="reusables-editing-modes/ul-validation-markers" id="ul_t4f_cgk_54b">
-          <li id="li_u4f_cgk_54b"/>
+          <li id="li_u4f_cgk_54b" irina="irina"/>
         </ul><ph conkeyref="reusables-editing-modes/p-doc-pref-link"/><ph
           conkeyref="reusables-editing-modes/p-annotations-pref-eclipse"/></p>
     </section>
@@ -47,7 +47,7 @@
       <title>Details About Validation Issues</title>
       <p id="p_x4f_cgk_54b">
         <ul id="ul_y4f_cgk_54b">
-          <li id="li_z4f_cgk_54b">Information about the issue is also displayed in the message area
+          <li id="li_z4f_cgk_54b" irina="irina">Information about the issue is also displayed in the message area
             on the bottom of the editor panel (clicking the <uicontrol><image
                 href="../img/Options16.png"/>Document checking options</uicontrol> button opens the
               <xref href="preferences-editor-document-checking.dita"><uicontrol>Document
@@ -57,11 +57,11 @@
               href="../img/Specs16.png" id="image_pgg_wcz_3mb"/>) and clicking it opens a dialog box
             with additional information and a link to specifications.</li>
           <li conkeyref="reusables-editing-modes/EC-console-view"
-            product="developerEclipse editorEclipse" id="li_apf_cgk_54b"/>
+            product="developerEclipse editorEclipse" id="li_apf_cgk_54b" irina="irina"/>
           <li conkeyref="reusables-editing-modes/results-view" product="developer editor json"
-            id="li_bpf_cgk_54b"/>
+            id="li_bpf_cgk_54b" irina="irina"/>
           <li conkeyref="reusables-editing-modes/EC-results-view"
-            product="developerEclipse editorEclipse" id="li_cpf_cgk_54b"/>
+            product="developerEclipse editorEclipse" id="li_cpf_cgk_54b" irina="irina"/>
         </ul>
       </p>
     </section>

@@ -21,13 +21,13 @@
       connections from websites you consider and configure as trusted or untrusted.</p>
     <p id="p_vh2_dgk_54b">To develop an integration project, follow this steps:</p>
     <ul id="ul_wh2_dgk_54b">
-      <li id="li_xh2_dgk_54b">Copy the <filepath>oxygen.jar</filepath> file from <filepath><term
+      <li id="li_xh2_dgk_54b" irina="irina">Copy the <filepath>oxygen.jar</filepath> file from <filepath><term
             conkeyref="reusables-user-guide/oxy-install-dir"/>/lib</filepath> to the
           <filepath>lib</filepath> folder of your project.</li>
-      <li id="li_yh2_dgk_54b">Implement the
+      <li id="li_yh2_dgk_54b" irina="irina">Implement the
           <term>ro.sync.exml.plugin.workspace.security.TrustedHostsProviderExtension</term>
         extension point.</li>
-      <li id="li_zh2_dgk_54b">In the <term>plugin</term> descriptor file, define the <xmlelement>extension</xmlelement>
+      <li id="li_zh2_dgk_54b" irina="irina">In the <term>plugin</term> descriptor file, define the <xmlelement>extension</xmlelement>
         element that points to the implementation of your
         classes:<codeblock outputclass="language-xml" id="codeblock_a32_dgk_54b">&lt;extension type="TrustedHosts" class="my.trusted.hosts.provider.class.qualified.name"/></codeblock></li>
     </ul>

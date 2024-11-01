@@ -28,13 +28,13 @@
         <p id="p_eqj_dgk_54b">When comparing text, the differences are computed using a <i>line differencing
         algorithm</i>. The view can be used to show the differences between two files in the
       following cases: <ul id="ul_fqj_dgk_54b">
-        <li id="li_gqj_dgk_54b">After obtaining the outgoing status of a file with a <uicontrol>Refresh</uicontrol>
+        <li id="li_gqj_dgk_54b" irina="irina">After obtaining the outgoing status of a file with a <uicontrol>Refresh</uicontrol>
           operation, the view can be used to show the differences between your working file and the
           pristine copy. In this way you can find out what changes you will be committing.</li>
-        <li id="li_hqj_dgk_54b">After obtaining the incoming and outgoing status of the file with the
+        <li id="li_hqj_dgk_54b" irina="irina">After obtaining the incoming and outgoing status of the file with the
             <uicontrol>Synchronize</uicontrol> operation, you can examine the exact differences
           between your local file and the <i>HEAD</i> revision file.</li>
-        <li id="li_iqj_dgk_54b">You can use the <uicontrol>Compare view</uicontrol> from the <uicontrol>History
+        <li id="li_iqj_dgk_54b" irina="irina">You can use the <uicontrol>Compare view</uicontrol> from the <uicontrol>History
             view</uicontrol> to compare the local file and a selected revision or compare two
           revisions of the same file.</li>
       </ul>The Compare view contains two editors. Edits are allowed only in the left editor and only

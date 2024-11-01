@@ -179,7 +179,7 @@ column:first-of-type {
         your page. For instance, the default page orientation is <i>portrait</i>, but if you have a
         wide table with lots of columns, it might bleed to the right of the page.</p>
 			<p id="p_whv_dgk_54b">There are two ways of solving this:<ul id="ol_gqs_tjt_cbb">
-          <li id="li_xhv_dgk_54b">Associate a wider page (i.e. landscape) to the table that needs more space. The
+          <li id="li_xhv_dgk_54b" irina="irina">Associate a wider page (i.e. landscape) to the table that needs more space. The
             disadvantage is that the table will force a page break before and after
             it.<codeblock outputclass="language-css" id="codeblock_yhv_dgk_54b">@page landscape-page-for-large-tables {
     size: A4 landscape;
@@ -189,7 +189,7 @@ tbl {
   display: table;
   page: landscape-page-for-large-tables;
 }</codeblock></li>
-          <li id="li_zhv_dgk_54b">Rotate the table using the <codeph>transform</codeph> CSS property. The table will not
+          <li id="li_zhv_dgk_54b" irina="irina">Rotate the table using the <codeph>transform</codeph> CSS property. The table will not
             create page breaks, but is susceptible to bleeding if its height exceeds the page
               width.<codeblock outputclass="language-css" id="codeblock_a3v_dgk_54b">tbl {
   display: table;

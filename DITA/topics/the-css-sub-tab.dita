@@ -59,10 +59,10 @@
           <dt><uicontrol>If there are CSSs specified in the document then</uicontrol></dt>
           <dd>You can choose between the following options for controlling how the CSS files that
             are set in this subtab will be handled if a CSS is specified in the document itself:<ul id="ul_nzn_bgk_54b">
-              <li id="li_ozn_bgk_54b"><uicontrol>Ignore CSSs from the associated document type</uicontrol> - The CSS
+              <li id="li_ozn_bgk_54b" irina="irina"><uicontrol>Ignore CSSs from the associated document type</uicontrol> - The CSS
                 files set in this CSS subtab are overwritten by the CSS files specified in the
                 document itself.</li>
-              <li id="li_pzn_bgk_54b"><uicontrol>Merge them with CSSs from the associated document type</uicontrol> -
+              <li id="li_pzn_bgk_54b" irina="irina"><uicontrol>Merge them with CSSs from the associated document type</uicontrol> -
                 The CSS files set in this CSS subtab are merged with the CSS files specified in the
                 document itself.</li>
             </ul></dd>

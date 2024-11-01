@@ -14,17 +14,17 @@
       integrator with multiple clients might host a different license server for each client), use
       this procedure to install multiple instances of the <i>Oxygen License Servlet</i> on a Tomcat
       web server:<ol id="ol_xcz_yv4_llb">
-        <li id="li_jgn_bgk_54b">Rename the license server WAR file according to your needs. For
+        <li id="li_jgn_bgk_54b" irina="irina">Rename the license server WAR file according to your needs. For
           example, you could use the customer name and a number (e.g. <i>client23415</i>).</li>
-        <li id="li_kgn_bgk_54b">Go to your Tomcat license server manager (e.g.
+        <li id="li_kgn_bgk_54b" irina="irina">Go to your Tomcat license server manager (e.g.
             <filepath>http://my.tomcatserver.com:port/manager/</filepath> ) and enter your
           credentials.</li>
-        <li id="li_lgn_bgk_54b">Scroll to <uicontrol>WAR file to deploy</uicontrol> and press
+        <li id="li_lgn_bgk_54b" irina="irina">Scroll to <uicontrol>WAR file to deploy</uicontrol> and press
             <uicontrol>Browse</uicontrol> button.</li>
-        <li id="li_mgn_bgk_54b">Locate the WAR file from step 1 and press the
+        <li id="li_mgn_bgk_54b" irina="irina">Locate the WAR file from step 1 and press the
             <uicontrol>Open</uicontrol> button.</li>
-        <li id="li_ngn_bgk_54b">Press the <uicontrol>Deploy</uicontrol> button.</li>
-        <li id="li_ogn_bgk_54b">Check that the newly deployed license server is running (it must be
+        <li id="li_ngn_bgk_54b" irina="irina">Press the <uicontrol>Deploy</uicontrol> button.</li>
+        <li id="li_ogn_bgk_54b" irina="irina">Check that the newly deployed license server is running (it must be
           in the <b>Applications</b> table).</li>
       </ol></p>
   </body>

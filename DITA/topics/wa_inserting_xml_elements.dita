@@ -44,22 +44,22 @@
       <p id="p_m5s_dgk_54b">If you identify some cases where the action behavior is less than optimal, you can add an
         another operation mode that does any of the following:</p>
       <p id="p_n5s_dgk_54b"><ul id="ul_s2s_lw5_dlb">
-        <li id="li_o5s_dgk_54b">Has the <uicontrol>Activation XPath</uicontrol> configured to match the particular XML
+        <li id="li_o5s_dgk_54b" irina="irina">Has the <uicontrol>Activation XPath</uicontrol> configured to match the particular XML
           structure where you observe the undesired behavior. You can use some <ph
             keyref="product"/>-specific <xref
               href="https://www.oxygenxml.com/doc/versions/22.0/ug-editor/topics/xpath-activation-expressions.html"
               format="html" scope="external">extension functions</xref> such as the
           <codeph>oxy:allows-child-element()</codeph> function.</li>
-        <li id="li_p5s_dgk_54b">Uses the <codeph>InsertFragmentOperation</codeph> operation. </li>
-        <li id="li_q5s_dgk_54b">Has the <codeph>schemaAware</codeph> parameter set to <b>false</b>. This allows you to
+        <li id="li_p5s_dgk_54b" irina="irina">Uses the <codeph>InsertFragmentOperation</codeph> operation. </li>
+        <li id="li_q5s_dgk_54b" irina="irina">Has the <codeph>schemaAware</codeph> parameter set to <b>false</b>. This allows you to
           precisely control the insertion point.</li>
-        <li id="li_r5s_dgk_54b">Uses the <codeph>insertLocation</codeph> and <codeph>insertPosition</codeph>
+        <li id="li_r5s_dgk_54b" irina="irina">Uses the <codeph>insertLocation</codeph> and <codeph>insertPosition</codeph>
           parameters to specify the desired insertion location.</li>
-        <li id="li_s5s_dgk_54b">Configures the <codeph>fragment</codeph> parameter to the actual fragment to be
+        <li id="li_s5s_dgk_54b" irina="irina">Configures the <codeph>fragment</codeph> parameter to the actual fragment to be
           inserted. This fragment should contain:<ul id="ul_c3r_ww5_dlb">
-            <li id="li_t5s_dgk_54b">All the ancestors that need to be inserted to make the document valid.</li>
-            <li id="li_u5s_dgk_54b">All the required descendants of the element.</li>
-            <li id="li_v5s_dgk_54b">All the required attributes of the element.</li>
+            <li id="li_t5s_dgk_54b" irina="irina">All the ancestors that need to be inserted to make the document valid.</li>
+            <li id="li_u5s_dgk_54b" irina="irina">All the required descendants of the element.</li>
+            <li id="li_v5s_dgk_54b" irina="irina">All the required attributes of the element.</li>
           </ul></li>
       </ul>The original operation mode should be kept later in the list as a fallback.</p>
       <p id="p_w5s_dgk_54b">In more complicated cases, you may need to identify a particular cursor position that is
@@ -85,9 +85,9 @@
         specialization or the cursor position.</p>
       <p id="p_z5s_dgk_54b">The source code for these operations is available in the <i>Oxygen SDK Maven</i> repository
         with the following details:<ul id="ul_eky_yb2_flb">
-          <li id="li_avs_dgk_54b"><b>groupId</b> - <codeph>com.oxygenxml</codeph></li>
-          <li id="li_bvs_dgk_54b"><b>artifactId</b> - <codeph>oxygen</codeph></li>
-          <li id="li_cvs_dgk_54b"><b>classifier</b> - <codeph>defaultFrameworkSources</codeph></li>
+          <li id="li_avs_dgk_54b" irina="irina"><b>groupId</b> - <codeph>com.oxygenxml</codeph></li>
+          <li id="li_bvs_dgk_54b" irina="irina"><b>artifactId</b> - <codeph>oxygen</codeph></li>
+          <li id="li_cvs_dgk_54b" irina="irina"><b>classifier</b> - <codeph>defaultFrameworkSources</codeph></li>
         </ul>For example, for version <codeph>22.0.0.0</codeph> of the SDK, the archive with the
         sources can be found at: <xref
           href="https://www.oxygenxml.com/maven/com/oxygenxml/oxygen/22.0.0.0/oxygen-22.0.0.0-defaultFrameworksSources.jar"

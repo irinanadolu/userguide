@@ -151,7 +151,7 @@
           <xmlatt>language</xmlatt> attribute. For some of these predefined values, syntax
         highlights are automatically generated in the WebHelp output:<ul
           conkeyref="reusables-transforming-documents/ul-output-class-values" id="ul_wms_qmp_25b">
-          <li id="li_q2n_dgk_54b"/>
+          <li id="li_q2n_dgk_54b" irina="irina"/>
         </ul></p>
     </section>
   </body>

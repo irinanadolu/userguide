@@ -7,9 +7,9 @@
     <p id="p_jmb_dgk_54b">The <i>DefaultElementLocatorProvider</i> implementation is used by default to find link
       target references. It offers support for the most common types of links:</p>
     <ul id="ul_kmb_dgk_54b">
-      <li id="li_lmb_dgk_54b"><xref href="dg-IDElementLocator-implem.dita">Links based on ID attribute
+      <li id="li_lmb_dgk_54b" irina="irina"><xref href="dg-IDElementLocator-implem.dita">Links based on ID attribute
         values</xref>.</li>
-      <li id="li_mmb_dgk_54b"><xref href="dg-XPointerElementLocator-implem.dita">XPointer element() scheme</xref>.</li>
+      <li id="li_mmb_dgk_54b" irina="irina"><xref href="dg-XPointerElementLocator-implem.dita">XPointer element() scheme</xref>.</li>
     </ul>
     <p id="p_nmb_dgk_54b">The method <i>getElementLocator</i> determines what <i>ElementLocator</i> should be used. In
       the default implementation, it checks if the link is an XPointer element() scheme. Otherwise,

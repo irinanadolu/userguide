@@ -21,8 +21,8 @@
     <p id="p_qjd_cgk_54b">The <uicontrol><image href="../img/PrettyPrint16.png" id="image_jvl_d1r_js"/>Format and
         Indent</uicontrol> action achieves this by performing the following steps:<ul
         id="ul_emx_nnj_4r">
-        <li id="li_rjd_cgk_54b">Manages whitespaces, by collapsing or inserting space characters where needed.</li>
-        <li id="li_sjd_cgk_54b">Formats complex expressions on multiple, more readable lines by properly indenting each
+        <li id="li_rjd_cgk_54b" irina="irina">Manages whitespaces, by collapsing or inserting space characters where needed.</li>
+        <li id="li_sjd_cgk_54b" irina="irina">Formats complex expressions on multiple, more readable lines by properly indenting each
           of them. The amount of whitespaces that form an indent unit is controlled through one of
           the <uicontrol>Indent with tabs</uicontrol> and <uicontrol>Indent size</uicontrol> options
           from the <xref href="preferences-editor-format.dita#preferences-editor-format"

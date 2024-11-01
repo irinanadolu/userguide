@@ -24,13 +24,13 @@
       <title>How to Start a File Comparison</title>
       <p id="p_tjh_dgk_54b">There are various ways to automatically start the file comparison, but the most common ways
           are:<ul id="ul_dhd_lcl_rlb">
-          <li id="li_ujh_dgk_54b">You can select two files (or three file if one of them is a common ancestor) in the
+          <li id="li_ujh_dgk_54b" irina="irina">You can select two files (or three file if one of them is a common ancestor) in the
               <uicontrol>Project Explorer</uicontrol> view, right-click, and select one of the
             options in the <uicontrol>Compare With</uicontrol> menu (e.g. <menucascade>
               <uicontrol>Compare With</uicontrol>
               <uicontrol>Each Other</uicontrol>
             </menucascade> to compare the selected files).</li>
-          <li id="li_vjh_dgk_54b">If you use a versioning system, you can compare files directly from the
+          <li id="li_vjh_dgk_54b" irina="irina">If you use a versioning system, you can compare files directly from the
               <uicontrol>Synchronize</uicontrol> view (e.g. double-click a file or right-click
             selected files and choose <uicontrol>Open In Compare Editor</uicontrol>) or the
               <uicontrol>History</uicontrol> view.</li>
@@ -82,25 +82,25 @@
             <uicontrol>Appearance</uicontrol>
           </menucascade> preferences page</xref>. The default colors and their shades mean the
           following:<ul id="ul_hh2_32l_rlb">
-          <li id="li_ekh_dgk_54b"><b>Pink</b> - Identifies modifications on either side. For 3-way comparisons, it
+          <li id="li_ekh_dgk_54b" irina="irina"><b>Pink</b> - Identifies modifications on either side. For 3-way comparisons, it
             identifies blocks of changes that include conflicts.</li>
-          <li id="li_fkh_dgk_54b"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
+          <li id="li_fkh_dgk_54b" irina="irina"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
             changes). For 3-way comparisons, it identifies your outgoing changes that do not include
             conflicts.</li>
-          <li id="li_gkh_dgk_54b"><b>Blue</b> - Identifies an addition of a node in the right side (incoming changes).
+          <li id="li_gkh_dgk_54b" irina="irina"><b>Blue</b> - Identifies an addition of a node in the right side (incoming changes).
             For 3-way comparisons, it identifies incoming changes that do not include
             conflicts.</li>
-          <li id="li_hkh_dgk_54b"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in their
+          <li id="li_hkh_dgk_54b" irina="irina"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in their
             entirety.</li>
-          <li id="li_ikh_dgk_54b"><b>Darker Shade</b> - Identifies specific changes within the blocks that can be merged
+          <li id="li_ikh_dgk_54b" irina="irina"><b>Darker Shade</b> - Identifies specific changes within the blocks that can be merged
             more precisely.</li>
         </ul></p>
     </section>
     <section id="section_xcn_phl_rlb">
       <title>Navigating Differences</title>
       <p id="p_jkh_dgk_54b">To navigate through differences, do one of the following:<ul id="ul_lrm_q3f_lf">
-          <li id="li_kkh_dgk_54b">Use the navigation buttons on the toolbar.</li>
-          <li id="li_lkh_dgk_54b">Select a block of differences by clicking its small colored marker in the overview
+          <li id="li_kkh_dgk_54b" irina="irina">Use the navigation buttons on the toolbar.</li>
+          <li id="li_lkh_dgk_54b" irina="irina">Select a block of differences by clicking its small colored marker in the overview
             ruler located in the right-most part of the window. At the top of the overview ruler
             there is a success indicator that turns green where there are no differences, or red if
             differences are found.</li>
@@ -260,36 +260,36 @@
             id="image_jsr_gc4_wmb"/>Algorithm Drop-down menu</uicontrol> that is available on the
         toolbar. The following diff algorithms are available (depending on whether it is a two-way
         or three-way comparison):<ul id="ul_fqm_b5m_wmb">
-          <li id="auto">
+          <li id="auto" irina="irina">
             <uicontrol>Auto (only available for two-way comparisons)</uicontrol> - Selects the most
             appropriate algorithm, based on the compared content and its size (selected by
             default).</li>
-          <li id="characters">
+          <li id="characters" irina="irina">
             <uicontrol>Characters (only available for two-way comparisons)</uicontrol> - Computes
             the differences at character level, meaning that it compares two files or fragments
             looking for identical characters.<ph product="author editor"> This algorithm is not
               available when the file comparison is in <uicontrol>Author</uicontrol> comparison
               mode.</ph></li>
-          <li id="words">
+          <li id="words" irina="irina">
             <uicontrol>Words (only available for two-way comparisons)</uicontrol> - Computes the
             differences at word level, meaning that it compares two files or fragments looking for
             identical words.<ph product="author editor"> This algorithm is not available when the
               file comparison is in <uicontrol>Author</uicontrol> comparison mode.</ph></li>
-          <li id="lines">
+          <li id="lines" irina="irina">
             <uicontrol>Lines</uicontrol> - Computes the differences at line level, meaning that it
             compares two files or fragments looking for identical lines of text.<ph
               product="author editor"> This algorithm is not available when the file comparison is
               in <uicontrol>Author</uicontrol> comparison mode.</ph></li>
-          <li id="syntax-aware">
+          <li id="syntax-aware" irina="irina">
             <uicontrol>Syntax Aware (only available for two-way comparisons)</uicontrol> - Computes
             differences for the file types or fragments known by <ph keyref="product"/>, taking the
             syntax (the specific types of tokens) into consideration.<ph product="author editor">
               This algorithm is not available when the file comparison is in
                 <uicontrol>Author</uicontrol> comparison mode.</ph></li>
-          <li id="xml-fast">
+          <li id="xml-fast" irina="irina">
             <uicontrol>XML Fast</uicontrol> - Comparison that works well on large files or
             fragments, but it is less precise than <uicontrol>XML Accurate</uicontrol>.</li>
-          <li id="xml-accurate">
+          <li id="xml-accurate" irina="irina">
             <uicontrol>XML Accurate</uicontrol> - Comparison that is more precise than
               <uicontrol>XML Fast</uicontrol>, at the expense of speed. It compares two XML files or
             fragments looking for identical XML nodes.</li>

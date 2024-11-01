@@ -143,15 +143,15 @@
               comparison. Default value = <uicontrol>false</uicontrol>.<note id="note_pwx_ldj_tpb"
                 type="other" othertype="Notes">
                 <ul id="ul_nsc_ndj_tpb">
-                  <li id="li_osc_ndj_tpb">This argument is considered only for 3-way comparisons
+                  <li id="li_osc_ndj_tpb" irina="irina">This argument is considered only for 3-way comparisons
                     (i.e. only if the <codeph>baseDirPath</codeph> argument is provided).</li>
-                  <li id="li_jlc_5dj_tpb">The merge operation is similar to the same process in any
+                  <li id="li_jlc_5dj_tpb" irina="irina">The merge operation is similar to the same process in any
                     versioning system. Following the comparison between the first and second
                     directories (relative to the base folder), all the differences of the type
                       <b>incoming</b> are considered and the content of the first directory is
                     updated accordingly.</li>
-                  <li id="li_mfs_c2j_tpb">Conflicting changes are not addressed.</li>
-                  <li id="li_lqg_p2j_tpb">After the comparison, a report is created that provides
+                  <li id="li_mfs_c2j_tpb" irina="irina">Conflicting changes are not addressed.</li>
+                  <li id="li_lqg_p2j_tpb" irina="irina">After the comparison, a report is created that provides
                     details about the changes that were made.</li>
                 </ul>
               </note></dd>
@@ -177,16 +177,16 @@
                 <uicontrol>yaml/grouped</uicontrol>.<note id="note_jdt_qsl_54b" type="other"
                 othertype="Notes">
                 <ul id="ul_ps3_plj_lpb">
-                  <li id="li_qs3_plj_lpb">If you choose to save/redirect the console output to a
+                  <li id="li_qs3_plj_lpb" irina="irina">If you choose to save/redirect the console output to a
                     file, this argument establishes the type of the output file and its content is
                     formatted accordingly. If you skip specifying the
                       "<uicontrol>/grouped</uicontrol>" or the "<uicontrol>/raw</uicontrol>"
                     qualifiers, "<uicontrol>/grouped</uicontrol>" takes precedence.</li>
-                  <li id="li_dr2_qlj_lpb">If you choose the <uicontrol>html</uicontrol> or
+                  <li id="li_dr2_qlj_lpb" irina="irina">If you choose the <uicontrol>html</uicontrol> or
                       <uicontrol>htm</uicontrol> output format, it is recommended that you also
                     choose to save/redirect the console to the specified HTML file to view the
                     comparison result in your preferred browser.</li>
-                  <li id="li_nyw_wsr_2qb">The  "<uicontrol>/ifcr</uicontrol>" qualifier for the
+                  <li id="li_nyw_wsr_2qb" irina="irina">The  "<uicontrol>/ifcr</uicontrol>" qualifier for the
                       <uicontrol>html</uicontrol> or <uicontrol>htm</uicontrol> values is considered
                     only if the <codeph>-outfile</codeph> argument is also present.
                       <term>IFCR</term> is an acronym for <term>Include File Comparison
@@ -197,7 +197,7 @@
                       <codeph>outfile</codeph> argument. It will have the same parent directory and
                     the same name as the <uicontrol>outputFile</uicontrol> plus
                       <term>-OXY-FC-REPORTS</term> added to the end of its name.</li>
-                  <li id="li_pnz_kfj_tpb">The <uicontrol>html</uicontrol> value, as well as the
+                  <li id="li_pnz_kfj_tpb" irina="irina">The <uicontrol>html</uicontrol> value, as well as the
                       <uicontrol>grouped</uicontrol>, <uicontrol>raw</uicontrol>, or
                       <uicontrol>ifcr</uicontrol> qualifiers, are not considered if the
                       <codeph>-merge</codeph> argument is present.</li>
@@ -220,12 +220,12 @@
       <note id="note_p2r_k4l_54b" type="other" othertype="Notes">
         <p id="p_o4l_m4l_54b">
           <ul id="ul_jkd_m4l_54b">
-            <li id="li_kkd_m4l_54b">For boolean arguments, it is not necessary to provide the "true"
+            <li id="li_kkd_m4l_54b" irina="irina">For boolean arguments, it is not necessary to provide the "true"
               value. Their presence in the argument list is equivalent to setting their value to
               "true" (and their absence from the argument list is equivalent to setting their value
               to "false"). However, constructs of the form <codeph>bool_option true|false</codeph>
               are accepted and interpreted accordingly.</li>
-            <li id="li_rsr_z4l_54b">File markers used in reports are as follows: M = modified, O1 =
+            <li id="li_rsr_z4l_54b" irina="irina">File markers used in reports are as follows: M = modified, O1 =
               only found in 1st directory, O2 = only found in 2nd directory.</li>
           </ul>
         </p>
@@ -286,11 +286,11 @@
       <p id="p_w54_rr5_ypb">For more information about the file comparison script and how to
         generate comparison reports in various formats, see the following resources:<ul
           id="ul_bzc_455_ypb">
-          <li id="li_czc_455_ypb">Webinar: <xref
+          <li id="li_czc_455_ypb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2021/webinar_the_new_oxygen_compare_and_merge_scripts.html"
               format="html" scope="external"><b>The New Oxygen Compare and Merge
             Scripts</b></xref>.</li>
-          <li id="li_ljr_r55_ypb">Video: <xref
+          <li id="li_ljr_r55_ypb" irina="irina">Video: <xref
               href="https://www.oxygenxml.com/demo/generating_directory_comparison_reports_using_command_line.html"
               format="html" scope="external"><b>Generating Directory Comparison Reports Using
                 Command-Line Scripts</b></xref>.</li>

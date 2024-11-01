@@ -22,17 +22,17 @@
         <uicontrol>Find/Replace in Files</uicontrol> dialog box, use the <uicontrol><image
           href="../img/SearchInPath16.png" id="image_pbj_xhk_qr"/>Find/Replace in Files</uicontrol>
       action that is available in the following locations:<ul id="ul_b25_bgk_54b">
-        <li id="li_c25_bgk_54b">The <uicontrol>Find</uicontrol> menu. </li>
-        <li id="li_d25_bgk_54b">The <uicontrol><image href="../img/SearchInPath16.png"/>Find/Replace in
+        <li id="li_c25_bgk_54b" irina="irina">The <uicontrol>Find</uicontrol> menu. </li>
+        <li id="li_d25_bgk_54b" irina="irina">The <uicontrol><image href="../img/SearchInPath16.png"/>Find/Replace in
             Files</uicontrol> button on the main toolbar.</li>
-        <li product="author editor" id="li_e25_bgk_54b">The contextual menu of the <xref
+        <li product="author editor" id="li_e25_bgk_54b" irina="irina">The contextual menu of the <xref
             href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps Manager</uicontrol>
             view</xref>.</li>
-        <li id="li_f25_bgk_54b">The contextual menu of the <xref
+        <li id="li_f25_bgk_54b" irina="irina">The contextual menu of the <xref
             href="using-the-project-view.dita#using-the-project-view"><uicontrol>Project</uicontrol>
             view</xref>.</li>
         <li id="li_g25_bgk_54b"
-          product="author developer editor authorEclipse developerEclipse editorEclipse">The
+          product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina">The
           contextual menu of the <xref
             href="../topics/relational-database-explorer.dita#relational-database-explorer"
               ><uicontrol>Data Source Explorer</uicontrol> view</xref> for most types of database
@@ -266,17 +266,17 @@
     </section>
     <note id="note_bg5_bgk_54b">
       <ul id="ul_cg5_bgk_54b">
-        <li id="li_dg5_bgk_54b">You can use <xref href="regular-expressions.dita#regular-expressions">Perl-like regular
+        <li id="li_dg5_bgk_54b" irina="irina">You can use <xref href="regular-expressions.dita#regular-expressions">Perl-like regular
             expression syntax</xref> to match patterns in text content. The <i>replace</i> operation
           can bind regular expression capturing groups ($1, $2, etc.) from the find pattern.</li>
-        <li id="li_eg5_bgk_54b">Exclusion patterns are accepted. For example, <codeph>*.java, !*Test.java</codeph> would
+        <li id="li_eg5_bgk_54b" irina="irina">Exclusion patterns are accepted. For example, <codeph>*.java, !*Test.java</codeph> would
           search for all files with a <i>.java</i> extension, with the exception of any file whose
           name ends in <i>Test</i>.</li>
-        <li id="li_fg5_bgk_54b">To replace the <xmlelement>tag-name</xmlelement> start tag and its attributes with the
+        <li id="li_fg5_bgk_54b" irina="irina">To replace the <xmlelement>tag-name</xmlelement> start tag and its attributes with the
             <xmlelement>new-tag-name</xmlelement> tag use as <uicontrol>Text to find</uicontrol> the
           expression <i>&lt;tag-name(\s+)(.*)&gt;</i> and as <uicontrol>Replace with</uicontrol> the
           expression <i>&lt;new-tag-name$1$2&gt;</i>. </li>
-        <li id="li_gg5_bgk_54b">The encoding used to read and write the files is detected from the XML header or from
+        <li id="li_gg5_bgk_54b" irina="irina">The encoding used to read and write the files is detected from the XML header or from
           the BOM. If a file does not have an XML header or BOM <ph keyref="product"/> uses by
           default the UTF-8 encoding for files of type XML, that is for files with one of the
           extensions: <filepath>.xml</filepath>, <filepath>.xsl</filepath>,
@@ -285,10 +285,10 @@
             <xref keyref="file-types-preferences">an extension associated with the XML editor
             type</xref>. For the other files it uses <xref href="preferences-encoding.dita">the
             encoding configured for non-XML files</xref>.</li>
-        <li id="li_hg5_bgk_54b">You can cancel a long operation at any time by pressing the
+        <li id="li_hg5_bgk_54b" irina="irina">You can cancel a long operation at any time by pressing the
             <uicontrol>Cancel</uicontrol> button of the progress dialog box, but doing so will not
           revert any replacements that have been processed up to that point.</li>
-        <li id="li_ig5_bgk_54b">Since the content of read-only files cannot be modified, the
+        <li id="li_ig5_bgk_54b" irina="irina">Since the content of read-only files cannot be modified, the
             <uicontrol>Replace</uicontrol> operation does not process those files. For every such
           file, a warning message is displayed in the message panel.</li>
       </ul>

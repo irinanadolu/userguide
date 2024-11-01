@@ -27,11 +27,11 @@
             error you should <xref href="performance-problems-large-documents.dita">increase the
               memory available to <ph keyref="product"/></xref>. </p>
           <p id="p_ivk_dgk_54b">Other tips:<ul id="ul_jvk_dgk_54b">
-              <li id="li_kvk_dgk_54b">Make sure that you close other files before opening the large file.</li>
-              <li id="li_lvk_dgk_54b">You can set the default editing mode <xref href="preferences-editor-pages.dita">in
+              <li id="li_kvk_dgk_54b" irina="irina">Make sure that you close other files before opening the large file.</li>
+              <li id="li_lvk_dgk_54b" irina="irina">You can set the default editing mode <xref href="preferences-editor-pages.dita">in
                   the Preferences dialog box</xref>. The <uicontrol>Text</uicontrol> editing mode
                 uses less memory than other editing modes.</li>
-              <li id="li_mvk_dgk_54b">If the file is too large for the editor to handle, you can <xref
+              <li id="li_mvk_dgk_54b" irina="irina">If the file is too large for the editor to handle, you can <xref
                   href="large-file-viewer.dita">open it in for viewing in <uicontrol>Large File
                     Viewer</uicontrol></xref>.</li>
             </ul></p>

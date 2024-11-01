@@ -12,7 +12,7 @@
   <body>
     <p id="p_efn_bgk_54b">
       <ol id="ol_ffn_bgk_54b">
-        <li id="li_gfn_bgk_54b">Make sure that you have Java Servlet Container installed on the
+        <li id="li_gfn_bgk_54b" irina="irina">Make sure that you have Java Servlet Container installed on the
           server you have selected to be the license server. Apache Tomcat 5.5 through 9.x is
           recommended (available at <xref href="http://tomcat.apache.org" format="org"
             scope="external"/>). Tomcat 9.x is officially supported.<note id="note_ljq_2m3_lzb"
@@ -23,16 +23,16 @@
             stopped or restarted. However, you can set the
               <codeph>oxygen.license.server.work.dir</codeph> system property to specify a different
             path for the directory where the database is stored.</note></li>
-        <li id="li_ifn_bgk_54b">Download the HTTP license server <uicontrol>Web Archive</uicontrol>
+        <li id="li_ifn_bgk_54b" irina="irina">Download the HTTP license server <uicontrol>Web Archive</uicontrol>
             (<b>.war</b>) from the <xref href="https://www.oxygenxml.com/license_server.html"
             format="html" scope="external">HTTP License Server website</xref>. </li>
-        <li id="li_jfn_bgk_54b">
+        <li id="li_jfn_bgk_54b" irina="irina">
           <p id="p_kfn_bgk_54b">Configure three user roles in your installation of the Java Servlet
             Container (such as Apache Tomcat):<ol id="ol_asc_kb5_53b">
-              <li id="li_lfn_bgk_54b">One user with the role <i>user</i>, used by an
+              <li id="li_lfn_bgk_54b" irina="irina">One user with the role <i>user</i>, used by an
                   <uicontrol>Oxygen</uicontrol> application to connect to the license server. In the
                 subsequent example, this user name is <b>John</b>.</li>
-              <li id="li_mfn_bgk_54b">Another user with the role <i>admin</i>, used for accessing
+              <li id="li_mfn_bgk_54b" irina="irina">Another user with the role <i>admin</i>, used for accessing
                 the HTTP License Server administrative interface and the management interface. In
                 the subsequent example, this user name is <b>Mary</b>.</li>
             </ol></p>
@@ -52,7 +52,7 @@
   &lt;user username="Mary" password="admin_pass" roles="admin"/>
 &lt;/tomcat-users></codeblock></p>
         </li>
-        <li id="li_pfn_bgk_54b">
+        <li id="li_pfn_bgk_54b" irina="irina">
           <p id="p_qfn_bgk_54b">Deploy the WAR file.</p>
           <p id="p_rfn_bgk_54b">For example, in Apache Tomcat, go to the Web Application Manager
             page and log in with the user you configured with the <i>admin</i> role (<i>Mary</i> in
@@ -61,7 +61,7 @@
               <codeph>oXygenLicenseServlet</codeph> application is now up and running, but the
             license key is not yet registered. </p>
         </li>
-        <li id="li_sfn_bgk_54b">
+        <li id="li_sfn_bgk_54b" irina="irina">
           <p id="p_tfn_bgk_54b">Go to the HTTP License Server administration page. By default, the
             address of this page is
             <codeph>http://&lt;server-address>/oXygenLicenseServlet</codeph>. In Apache Tomcat, you
@@ -70,7 +70,7 @@
           <p id="p_ufn_bgk_54b">You need to authenticate with the user configured with the
               <codeph>admin</codeph> role (<i>Mary</i> in the example above).</p>
         </li>
-        <li id="activate-li">
+        <li id="activate-li" irina="irina">
           <p id="p_vfn_bgk_54b"><b>Activate the license key</b>. This process involves binding your
             license key to your license server deployment. The browser used in the activation
             process needs to have Internet access.<note id="note_wfn_bgk_54b">If you cannot access
@@ -80,7 +80,7 @@
           <p id="p_xfn_bgk_54b">Once the process is completed you cannot activate the license on
             another license server. Follow these steps to activate the license:<ol
               id="substeps_sjt_w54_5r">
-              <li id="li_yfn_bgk_54b">
+              <li id="li_yfn_bgk_54b" irina="irina">
                 <p id="p_zfn_bgk_54b">Paste your license key into the form and click
                     <uicontrol>Register/Activate</uicontrol>.</p>
                 <p id="p_agn_bgk_54b"><b>Step Result:</b> You will be redirected to an online form
@@ -88,7 +88,7 @@
                   an activation code that uniquely identifies your license server deployment, and
                   your license key.</p>
               </li>
-              <li id="li_bgn_bgk_54b">
+              <li id="li_bgn_bgk_54b" irina="irina">
                 <p id="p_cgn_bgk_54b">Click <uicontrol>Register/Activate</uicontrol>.</p>
                 <p id="p_dgn_bgk_54b">If the activation process is successfully completed, your
                   license server is running. Follow the on-screen instructions to configure the <ph
@@ -96,7 +96,7 @@
               </li>
             </ol></p>
         </li>
-        <li id="li_egn_bgk_54b">
+        <li id="li_egn_bgk_54b" irina="irina">
           <p id="p_fgn_bgk_54b">The application's log file location is specified by the
               <codeph>log4j.appender.R2.File</codeph> property from the
               <filepath>WEB-INF/lib/log4j.properties</filepath> configuration file.</p>

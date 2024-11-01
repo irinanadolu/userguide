@@ -46,7 +46,7 @@
                   <dt><uicontrol>Default algorithm</uicontrol></dt>
                   <dd>The default algorithm used for comparing two files. The following options are
                       available:<ul conkeyref="reusables-tools/algorithm-ul" id="ul_qzq_bgk_54b">
-                      <li id="li_rzq_bgk_54b"/>
+                      <li id="li_rzq_bgk_54b" irina="irina"/>
                     </ul></dd>
                 </dlentry>
                 <dlentry conkeyref="reusables-configuring-oxygen/algorithm-strength" id="dlentry_szq_bgk_54b">
@@ -66,10 +66,10 @@
                   <dt><uicontrol>Default algorithm</uicontrol></dt>
                   <dd>The default algorithm used for performing a three-way comparison. The
                     following options are available:<ul id="ul_xzq_bgk_54b">
-                      <li conkeyref="reusables-tools/auto" id="li_yzq_bgk_54b"/>
-                      <li conkeyref="reusables-tools/lines" id="li_zzq_bgk_54b"/>
-                      <li conkeyref="reusables-tools/xml-fast" id="li_a1r_bgk_54b"/>
-                      <li conkeyref="reusables-tools/xml-accurate" id="li_b1r_bgk_54b"/>
+                      <li conkeyref="reusables-tools/auto" id="li_yzq_bgk_54b" irina="irina"/>
+                      <li conkeyref="reusables-tools/lines" id="li_zzq_bgk_54b" irina="irina"/>
+                      <li conkeyref="reusables-tools/xml-fast" id="li_a1r_bgk_54b" irina="irina"/>
+                      <li conkeyref="reusables-tools/xml-accurate" id="li_b1r_bgk_54b" irina="irina"/>
                     </ul></dd>
                 </dlentry>
                 <dlentry conkeyref="reusables-configuring-oxygen/algorithm-strength" id="dlentry_c1r_bgk_54b">

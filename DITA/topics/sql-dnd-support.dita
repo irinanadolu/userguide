@@ -45,28 +45,28 @@
           <p id="p_ajy_cgk_54b">Depending on your choice, dragging a table results in one of the following statements
             being inserted into the document:</p>
           <ul id="ul_bjy_cgk_54b">
-            <li id="li_cjy_cgk_54b"><b>SELECT `<i>field1</i>`,`<i>field2</i>`, <i>....</i> FROM `<i>catalog</i>`.
+            <li id="li_cjy_cgk_54b" irina="irina"><b>SELECT `<i>field1</i>`,`<i>field2</i>`, <i>....</i> FROM `<i>catalog</i>`.
                   `<i>table</i>`</b> (for example: <codeph>SELECT `DEPT`,`DEPTNAME`,`LOCATION` FROM
                 `camera`.`cameraDesc`</codeph>)</li>
-            <li id="li_djy_cgk_54b"><b>UPDATE `<i>catalog</i>`. `<i>table</i>` SET `<i>field1</i>`=,
+            <li id="li_djy_cgk_54b" irina="irina"><b>UPDATE `<i>catalog</i>`. `<i>table</i>` SET `<i>field1</i>`=,
                   `<i>field2</i>`=,<i>.... </i></b> (for example: <codeph>UPDATE
                 `camera`.`cameraDesc` SET `DEPT`=, `DEPTNAME`=, `LOCATION`=</codeph>)</li>
-            <li id="li_ejy_cgk_54b"><b>INSERT INTO `<i>catalog</i>`. `<i>table</i>` ( `<i>field1</i>`,`<i>field2</i>`,
+            <li id="li_ejy_cgk_54b" irina="irina"><b>INSERT INTO `<i>catalog</i>`. `<i>table</i>` ( `<i>field1</i>`,`<i>field2</i>`,
                   <i>....</i>) VALUES (, , )</b> (for example: <codeph>INSERT INTO
                 `camera`.`cameraDesc` (`DEPT`,`DEPTNAME`,`LOCATION`) VALUES (, , )</codeph>)</li>
-            <li id="li_fjy_cgk_54b"><b>DELETE FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example: <codeph>DELETE
+            <li id="li_fjy_cgk_54b" irina="irina"><b>DELETE FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example: <codeph>DELETE
                 FROM `camera`.`cameraDesc`</codeph>)</li>
           </ul>
           <p id="p_gjy_cgk_54b">Depending on your choice, dragging a column results in one of the following statements
             being inserted into the document:</p>
           <ul id="ul_hjy_cgk_54b">
-            <li id="li_ijy_cgk_54b"><b>SELECT `<i>field</i>` FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example:
+            <li id="li_ijy_cgk_54b" irina="irina"><b>SELECT `<i>field</i>` FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example:
                 <codeph>SELECT `DEPT` FROM `camera`.`cameraDesc`</codeph> )</li>
-            <li id="li_jjy_cgk_54b"><b>UPDATE `<i>catalog</i>`. `<i>table</i>` SET `<i>field</i>`=</b> (for example:
+            <li id="li_jjy_cgk_54b" irina="irina"><b>UPDATE `<i>catalog</i>`. `<i>table</i>` SET `<i>field</i>`=</b> (for example:
                 <codeph>UPDATE `camera`.`cameraDesc` SET `DEPT`=</codeph>)</li>
-            <li id="li_kjy_cgk_54b"><b>INSERT INTO `<i>catalog</i>`. `<i>table</i>` ( `<i>field1</i>) VALUES ()</b> (for
+            <li id="li_kjy_cgk_54b" irina="irina"><b>INSERT INTO `<i>catalog</i>`. `<i>table</i>` ( `<i>field1</i>) VALUES ()</b> (for
               example: <codeph>INSERT INTO `camera`.`cameraDesc` (`DEPT`) VALUES ()</codeph>)</li>
-            <li id="li_ljy_cgk_54b"><b>DELETE FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example: <codeph>DELETE
+            <li id="li_ljy_cgk_54b" irina="irina"><b>DELETE FROM `<i>catalog</i>`. `<i>table</i>`</b> (for example: <codeph>DELETE
                 FROM `camera`.`cameraDesc` WHERE `DEPT`=</codeph>)</li>
           </ul>
         </stepresult>

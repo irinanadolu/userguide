@@ -13,17 +13,17 @@
   <body>
     <p id="p_nbl_cgk_54b">To produce Kindle books from DITA XML content, follow these steps:<ol
         id="ol_obl_cgk_54b">
-        <li id="li_rbl_cgk_54b">Start <ph keyref="product"/> and open a <term>DITA map</term><ph
+        <li id="li_rbl_cgk_54b" irina="irina">Start <ph keyref="product"/> and open a <term>DITA map</term><ph
             product="author editor authorEclipse editorEclipse"> in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref></ph>.</li>
-        <li id="li_sbl_cgk_54b">Click the <uicontrol><image id="image_d3c_lxq_vr"
+        <li id="li_sbl_cgk_54b" irina="irina">Click the <uicontrol><image id="image_d3c_lxq_vr"
               href="../img/TransformConfig16.png"/>Configure Transformation Scenario(s)</uicontrol>
           button.</li>
-        <li id="li_tbl_cgk_54b">Select the <uicontrol>DITA Map EPUB</uicontrol> transformation and
+        <li id="li_tbl_cgk_54b" irina="irina">Select the <uicontrol>DITA Map EPUB</uicontrol> transformation and
           click the <uicontrol>Edit</uicontrol> button to edit it. </li>
-        <li>Run the transformation scenario and produce the EPUB.</li>
-        <li>Install the Amazon <xref
+        <li irina="irina">Run the transformation scenario and produce the EPUB.</li>
+        <li irina="irina">Install the Amazon <xref
             href="https://www.amazon.com/Kindle-Previewer/b?ie=UTF8&amp;node=21381691011"
             format="html" scope="external">Kindle Previewer</xref> utility and use it to produce a
           Kindle book from the EPUB.</li>

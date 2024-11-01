@@ -16,10 +16,10 @@
         <dlentry id="dlentry_oqj_dgk_54b">
           <dt><uicontrol>Algorithm</uicontrol></dt>
           <dd>The algorithm to be used for performing a comparison. The following options are available:<ul id="ul_pqj_dgk_54b">
-              <li conkeyref="reusables-tools/auto" id="li_qqj_dgk_54b"/>
-              <li conkeyref="reusables-tools/lines" id="li_rqj_dgk_54b"/>
-              <li conkeyref="reusables-tools/xml-fast" id="li_sqj_dgk_54b"/>
-              <li conkeyref="reusables-tools/xml-accurate" id="li_tqj_dgk_54b"/>
+              <li conkeyref="reusables-tools/auto" id="li_qqj_dgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/lines" id="li_rqj_dgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/xml-fast" id="li_sqj_dgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/xml-accurate" id="li_tqj_dgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
         <dlentry id="dlentry_uqj_dgk_54b">

@@ -25,7 +25,7 @@
       <title>Triggering the Merge Tool</title>
       <p id="p_km3_xtj_drb">The Web Author Merge tool is activated in the following ways:<ul
           id="ul_yrx_xtj_drb">
-          <li id="li_zrx_xtj_drb">It is triggered when you select <menucascade>
+          <li id="li_zrx_xtj_drb" irina="irina">It is triggered when you select <menucascade>
               <uicontrol>Compare with</uicontrol>
               <uicontrol>Latest version from repository</uicontrol>
             </menucascade> or <menucascade>
@@ -33,20 +33,20 @@
               <uicontrol>Another File</uicontrol>
             </menucascade> from the <uicontrol><image href="../img/WebappMore18.png"/>More drop-down
               menu</uicontrol> in the main toolbar.<ul id="ul_asx_xtj_drb">
-              <li id="li_bsx_xtj_drb">These actions open the <uicontrol>Merge</uicontrol> dialog box
+              <li id="li_bsx_xtj_drb" irina="irina">These actions open the <uicontrol>Merge</uicontrol> dialog box
                 if the editor is not <term>read-only</term> and if the file is not part of a <xref
                   href="webauthor-concurrent-editing.dita">concurrent editing session</xref>.
                 Otherwise the <xref href="wa-file-comparison-tool.dita">file comparison tool</xref>
                 is opened.</li>
-              <li id="li_csx_xtj_drb">After you close the dialog box, changes that you merge into
+              <li id="li_csx_xtj_drb" irina="irina">After you close the dialog box, changes that you merge into
                 the left file (your local version) are synchronized with the main editor.</li>
             </ul></li>
-          <li id="li_dsx_xtj_drb">When you commit a file to a Git repository and there is a
+          <li id="li_dsx_xtj_drb" irina="irina">When you commit a file to a Git repository and there is a
             conflict, you are presented with the choice to <uicontrol>Merge and commit</uicontrol>
             or <uicontrol>Commit to a new branch</uicontrol>. If you choose the <uicontrol>Merge and
               commit</uicontrol> option, the Merge tool is triggered to help you visualize and
             resolve the conflict.</li>
-          <li id="li_esx_xtj_drb">In cases were Web Author is integrated in a CMS, it can be
+          <li id="li_esx_xtj_drb" irina="irina">In cases were Web Author is integrated in a CMS, it can be
             triggered based on an <xref
               href="https://www.oxygenxml.com/doc/ug-waCustom/topics/wa-merge-tool-cms.html"
               format="html" scope="external">configuration specified by the CMS</xref>.</li>
@@ -69,35 +69,35 @@
           >3-way file comparison</xref>.</p>
       <p id="p_uzt_b5j_drb">To merge the changes, you can use the following functions:<ul
           id="ul_yg4_3gq_crb">
-          <li id="li_bd2_c5j_drb">Use the <uicontrol><image href="../img/DiffCopyRightToLeft20.png"
+          <li id="li_bd2_c5j_drb" irina="irina">Use the <uicontrol><image href="../img/DiffCopyRightToLeft20.png"
                 id="image_3hq_4k3_tc" placement="inline"/>Copy Change from Right to Left</uicontrol>
             toolbar button to copy a specific change or block of changes from the right-side file to
             the left.</li>
-          <li id="li_cd2_c5j_drb">Use the <uicontrol><image
+          <li id="li_cd2_c5j_drb" irina="irina">Use the <uicontrol><image
                 href="../img/DiffCopyAllRightToLeft20.png" id="image_svr_pk3_tc" placement="inline"
               />Copy All Changes from Right to Left</uicontrol> toolbar button to copy all changes
             from the right-side file to the left. If a 3-way merge is performed and the editor
             identified conflicts, the action will only copy all <b>non-conflicting</b> changes.</li>
-          <li id="li_dd2_c5j_drb">You can manually edit the content in the left-side with various
+          <li id="li_dd2_c5j_drb" irina="irina">You can manually edit the content in the left-side with various
             features that include: <ul id="ul_njr_chq_crb">
-              <li id="li_fd2_c5j_drb">Insert new elements using the Content Completion menu
+              <li id="li_fd2_c5j_drb" irina="irina">Insert new elements using the Content Completion menu
                 (triggered when pressing <uicontrol><shortcut>Enter</shortcut></uicontrol>).</li>
-              <li id="li_pbm_whl_jsb">Editing actions can be triggered using various keyboard
+              <li id="li_pbm_whl_jsb" irina="irina">Editing actions can be triggered using various keyboard
                 shortcuts (e.g. <uicontrol><shortcut>Ctrl+Z</shortcut></uicontrol> for undo,
                     <uicontrol><shortcut>Ctrl+Y</shortcut></uicontrol> for redo,
                     <uicontrol><shortcut>Ctrl+C</shortcut></uicontrol> for copy,
                     <uicontrol><shortcut>Ctrl+V</shortcut></uicontrol> for paste,
                     <uicontrol><shortcut>Ctrl+B</shortcut></uicontrol> for bold,
                     <uicontrol><shortcut>Ctrl+U</shortcut></uicontrol> for underline, etc.).</li>
-              <li id="li_w2b_f3l_jsb">Various editing actions are also available from the contextual
+              <li id="li_w2b_f3l_jsb" irina="irina">Various editing actions are also available from the contextual
                 menu.</li>
-              <li id="li_jd2_c5j_drb">Editing/styling actions can also be easily triggered using the
+              <li id="li_jd2_c5j_drb" irina="irina">Editing/styling actions can also be easily triggered using the
                   <xref href="wa-floating-toolbar.dita"><term>Floating Contextual
                   Toolbar</term></xref>.</li>
-              <li id="li_hd2_c5j_drb">Find and replace content by using
+              <li id="li_hd2_c5j_drb" irina="irina">Find and replace content by using
                     <uicontrol><shortcut>Ctrl+F</shortcut></uicontrol> to trigger a
                   <uicontrol>Find/Replace</uicontrol> dialog box.</li>
-              <li id="li_id2_c5j_drb"> Add and remove attributes using actions from the contextual
+              <li id="li_id2_c5j_drb" irina="irina"> Add and remove attributes using actions from the contextual
                 menu. </li>
             </ul></li>
         </ul></p>

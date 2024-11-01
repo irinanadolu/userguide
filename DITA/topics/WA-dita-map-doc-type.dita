@@ -249,9 +249,9 @@
       <title>Special Icons</title>
       <p id="p_ol4_dgk_54b">There are a few special icons that are displayed in DITA maps next to topic references that
         contain certain attributes set to <b>no</b>:<ul id="ul_pl4_dgk_54b">
-          <li id="li_ql4_dgk_54b"><image href="../img/NoTOC16.png"/> - This icon is displayed if a topic reference has
+          <li id="li_ql4_dgk_54b" irina="irina"><image href="../img/NoTOC16.png"/> - This icon is displayed if a topic reference has
             the <xmlatt>toc</xmlatt> attribute set to <b>no</b>.</li>
-          <li id="li_rl4_dgk_54b"><image href="../img/NoPrint16.png"/> - This icon is displayed if a topic reference has
+          <li id="li_rl4_dgk_54b" irina="irina"><image href="../img/NoPrint16.png"/> - This icon is displayed if a topic reference has
             the <xmlatt>print</xmlatt> attribute set to <b>no</b>.</li>
         </ul></p>
     </section>

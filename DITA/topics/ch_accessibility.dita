@@ -81,9 +81,9 @@
       <p id="p_k2v_dgk_54b">To make the PDF fully accessible, you have to activate the PDF/UA-1 mode. PDF/UA documents
         meet the regulations set in Section 508. This mode has special requirements:</p>
       <ol id="ol_xm5_zkd_xz">
-        <li id="li_l2v_dgk_54b">Activate the PDF UA-1 mode from the command line using the <codeph>-pdf-ua</codeph>
+        <li id="li_l2v_dgk_54b" irina="irina">Activate the PDF UA-1 mode from the command line using the <codeph>-pdf-ua</codeph>
           parameter.</li>
-        <li id="li_m2v_dgk_54b">All the fonts must be embedded. If you are using one of the basic fonts (such as
+        <li id="li_m2v_dgk_54b" irina="irina">All the fonts must be embedded. If you are using one of the basic fonts (such as
           "Times", "Helvetica", etc.), make sure you explicitly define CSS font faces for them. For
           details, see: <xref href="ch_fonts_font_embedding.dita"/>. <note type="trouble" id="note_n2v_dgk_54b">If you are using fonts other than the basic ones and
             still have problems embedding the basic default fonts, make sure all elements are styled
@@ -105,7 +105,7 @@
     @bottom-left-corner {font-family: Arial }
     @bottom-right-corner {font-family: Arial }
 }</codeblock></note></li>
-        <li id="li_p2v_dgk_54b">The title of the document must be marked using the metadata. This is important for
+        <li id="li_p2v_dgk_54b" irina="irina">The title of the document must be marked using the metadata. This is important for
           accessibility since it will allow the screen reader to identify the publication title.
           This is important for accessibility since it will allow the screen reader to identify the
           publication title. This is an example using the <codeph>-oxy-pdf-meta-title</codeph>
@@ -119,10 +119,10 @@
     <section id="section_krm_lcy_zz">
       <title>Tools for Checking the Document Accessibility</title>
       <ul id="ul_s2v_dgk_54b">
-        <li id="li_t2v_dgk_54b">For smaller documents, this site might be helpful: <xref
+        <li id="li_t2v_dgk_54b" irina="irina">For smaller documents, this site might be helpful: <xref
             href="http://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html"
             format="html" scope="external"/></li>
-        <li id="li_u2v_dgk_54b">From Adobe: <xref
+        <li id="li_u2v_dgk_54b" irina="irina">From Adobe: <xref
             href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html"
             format="html" scope="external"/></li>
       </ul>

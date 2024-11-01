@@ -84,10 +84,10 @@
           <dt><uicontrol>Share files matching global ignore patterns</uicontrol></dt>
           <dd>When selected, the file names that match the patterns defined in either of the
             following locations are also imported into the repository:<ul id="ul_xgf_cck_4r">
-              <li id="li_sy3_dgk_54b">The <codeph>global-ignores</codeph> property in <xref
+              <li id="li_sy3_dgk_54b" irina="irina">The <codeph>global-ignores</codeph> property in <xref
                   href="svn-preferences.dita#svn-preferences">the SVN configuration
                 file</xref>.</li>
-              <li id="li_ty3_dgk_54b">The <xref
+              <li id="li_ty3_dgk_54b" irina="irina">The <xref
                   href="preferences-svn-working-copy.dita#preferences-svn-working-copy/svn-options-app-global-ignores"
                     ><uicontrol>File name ignore patterns</uicontrol> option</xref> in the <xref
                   href="preferences-svn-working-copy.dita#preferences-svn-working-copy"><menucascade>

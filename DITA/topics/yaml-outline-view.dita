@@ -24,10 +24,10 @@
     <section id="outline_view_features">
       <title>Outline View Features</title>
       <p id="p_zvf_cgk_54b">The <uicontrol>Outline</uicontrol> view allows you to:<ul id="ul_awf_cgk_54b">
-          <li id="li_bwf_cgk_54b">Quickly navigate through the document by selecting nodes in the
+          <li id="li_bwf_cgk_54b" irina="irina">Quickly navigate through the document by selecting nodes in the
               <uicontrol>Outline</uicontrol> tree.</li>
-          <li id="li_cwf_cgk_54b">Move elements by dragging them to a new position in the tree structure.</li>
-          <li id="li_dwf_cgk_54b">Highlight elements in the editor area. It is synchronized with the editor area, so
+          <li id="li_cwf_cgk_54b" irina="irina">Move elements by dragging them to a new position in the tree structure.</li>
+          <li id="li_dwf_cgk_54b" irina="irina">Highlight elements in the editor area. It is synchronized with the editor area, so
             when you make a selection in the editor area, the corresponding nodes are highlighted in
             the <uicontrol>Outline</uicontrol> view, and vice versa.</li>
         </ul></p>

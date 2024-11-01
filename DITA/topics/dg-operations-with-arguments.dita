@@ -208,16 +208,16 @@ private static final String ARG_CONNECTION ="connection";</codeblock>
         <cmd>Go to the <uicontrol>Actions</uicontrol> subtab. The action properties are:</cmd>
         <info>
           <ul id="ul_hqb_dgk_54b">
-            <li id="li_iqb_dgk_54b">Set <b>ID</b> to <b>clients_report</b>.</li>
-            <li id="li_jqb_dgk_54b">Set <b>Name</b> to <b>Clients Report</b>.</li>
-            <li id="li_kqb_dgk_54b">Set <b>Menu access key</b> to letter <b>r</b>.</li>
-            <li id="li_lqb_dgk_54b">Set <b>Description</b> to <b>Connects to the database and collects the list of
+            <li id="li_iqb_dgk_54b" irina="irina">Set <b>ID</b> to <b>clients_report</b>.</li>
+            <li id="li_jqb_dgk_54b" irina="irina">Set <b>Name</b> to <b>Clients Report</b>.</li>
+            <li id="li_kqb_dgk_54b" irina="irina">Set <b>Menu access key</b> to letter <b>r</b>.</li>
+            <li id="li_lqb_dgk_54b" irina="irina">Set <b>Description</b> to <b>Connects to the database and collects the list of
                 clients</b>.</li>
-            <li id="li_mqb_dgk_54b">Set <b>Toolbar icon</b> to <b>${framework}/TableDB20.png</b> (the
+            <li id="li_mqb_dgk_54b" irina="irina">Set <b>Toolbar icon</b> to <b>${framework}/TableDB20.png</b> (the
                 <filepath>TableDB20.png</filepath> icon is stored in the
                 <filepath>frameworks/sdf</filepath> folder).</li>
-            <li id="li_nqb_dgk_54b">Leave empty the <b>Menu icon</b>.</li>
-            <li id="li_oqb_dgk_54b">Set <b>shortcut key</b> to <uicontrol
+            <li id="li_nqb_dgk_54b" irina="irina">Leave empty the <b>Menu icon</b>.</li>
+            <li id="li_oqb_dgk_54b" irina="irina">Set <b>shortcut key</b> to <uicontrol
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c"/>.</li>
           </ul>
         </info>
@@ -227,9 +227,9 @@ private static final String ARG_CONNECTION ="connection";</codeblock>
           operation as follows:</cmd>
         <info>
           <ul id="ul_pqb_dgk_54b">
-            <li id="li_qqb_dgk_54b">Set <b>XPath expression</b>
+            <li id="li_qqb_dgk_54b" irina="irina">Set <b>XPath expression</b>
               to:<codeblock outputclass="language-ini" id="codeblock_rqb_dgk_54b">local-name()='section'</codeblock></li>
-            <li id="li_sqb_dgk_54b">
+            <li id="li_sqb_dgk_54b" irina="irina">
               <p id="p_tqb_dgk_54b">Use the Java operation defined earlier to set the <b>Invoke
                   operation</b> field. Click the <uicontrol>Choose</uicontrol> button, then select
                   <codeph>simple.documentation.framework.QueryDatabaseOperation</codeph>. Once

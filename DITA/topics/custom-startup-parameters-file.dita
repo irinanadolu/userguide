@@ -15,9 +15,9 @@
       the executable tools will automatically include your custom parameters at startup. The
       following custom files are recognized by the application and the executable tools:<ul
         id="ul_cqw_5xr_1s">
-        <li id="li_tls_bgk_54b"><filepath>custom_commons.vmoptions</filepath> - The parameters and their values of this
+        <li id="li_tls_bgk_54b" irina="irina"><filepath>custom_commons.vmoptions</filepath> - The parameters and their values of this
           file will be included in all the startup launchers.</li>
-        <li id="li_uls_bgk_54b"><filepath>custom_&lt;app name>.vmoptions</filepath> - The <i>&lt;app name></i> is the
+        <li id="li_uls_bgk_54b" irina="irina"><filepath>custom_&lt;app name>.vmoptions</filepath> - The <i>&lt;app name></i> is the
           name of the executable application or tool (for example,
             <filepath>custom_diffFiles.vmoptions</filepath> for the <uicontrol>Compare
             Files</uicontrol> tool). The parameters and their values of this file will be included

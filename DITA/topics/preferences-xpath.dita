@@ -40,18 +40,18 @@
           <dt><uicontrol>XPath Default Namespace (only for XPath version 2.0)</uicontrol></dt>
           <dd>Specifies the default namespace to be used for unprefixed element names. You can
             choose between the following four options:<ul id="ul_ajq_bgk_54b">
-              <li id="li_bjq_bgk_54b"><uicontrol>No namespace</uicontrol> - If selected, <ph keyref="product"/>
+              <li id="li_bjq_bgk_54b" irina="irina"><uicontrol>No namespace</uicontrol> - If selected, <ph keyref="product"/>
                 considers unprefixed element names of the evaluated XPath expressions as belonging
                 to no namespace.</li>
-              <li id="li_cjq_bgk_54b"><uicontrol>Use the default namespace from the root element</uicontrol> (default
+              <li id="li_cjq_bgk_54b" irina="irina"><uicontrol>Use the default namespace from the root element</uicontrol> (default
                 selection) - <ph keyref="product"/> considers unprefixed element names of the
                 evaluated XPath expressions as belonging to the default namespace declared on the
                 root element of the XML document you are querying.</li>
-              <li id="li_djq_bgk_54b"><uicontrol>Use the namespace of the root</uicontrol> - If selected, <ph
+              <li id="li_djq_bgk_54b" irina="irina"><uicontrol>Use the namespace of the root</uicontrol> - If selected, <ph
                   keyref="product"/> considers unprefixed element names of the evaluated XPath
                 expressions as belonging to the same namespace as the root element of the XML
                 document you are querying.</li>
-              <li id="li_ejq_bgk_54b"><uicontrol>This namespace</uicontrol> - If selected, you can use the corresponding
+              <li id="li_ejq_bgk_54b" irina="irina"><uicontrol>This namespace</uicontrol> - If selected, you can use the corresponding
                 text field to enter the namespace of the unprefixed elements.</li>
             </ul></dd>
         </dlentry>

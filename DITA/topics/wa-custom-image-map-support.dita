@@ -7,15 +7,15 @@
       custom framework. This implementation will require the following:</p>
     <p>
       <ul id="ul_sqq_xp2_15b">
-        <li><xref
+        <li irina="irina"><xref
             href="https://www.oxygenxml.com/doc/versions/24.1.0/ug-waCustom/topics/webauthor-customize-with-css.html"
             format="html" scope="external">Write some CSS</xref> to configure the rendering of the
           image map.</li>
-        <li><xref
+        <li irina="irina"><xref
             href="https://www.oxygenxml.com/doc/versions/24.1.0/ug-waCustom/topics/wa-framework-java-extension.html"
             format="html" scope="external">Write Java classes</xref> to work with the custom image
           map format.</li>
-        <li><xref
+        <li irina="irina"><xref
             href="https://www.oxygenxml.com/doc/versions/24.1.0/ug-waCustom/topics/customizing_frameworks.html#customizing_frameworks__adding_javascript_code_to_a_framework"
             format="html" scope="external">Write JavaScript code</xref> to enable the web-based
           image map editor.</li>
@@ -27,11 +27,11 @@
         should have the following properties:</p>
       <p>
         <ul id="ul_ggs_hc2_15b">
-          <li><codeph>webappRendererClassName</codeph> should be set to
+          <li irina="irina"><codeph>webappRendererClassName</codeph> should be set to
               <codeph>ro.sync.ecss.webapp.formcontrols.WebappImageMapRenderer</codeph>.</li>
-          <li><codeph>imageUrl</codeph> should be set to the (possibly relative) URL of the
+          <li irina="irina"><codeph>imageUrl</codeph> should be set to the (possibly relative) URL of the
             image.</li>
-          <li><codeph>imageMapSupportFactory</codeph> should be the name of a Java class in your
+          <li irina="irina"><codeph>imageMapSupportFactory</codeph> should be the name of a Java class in your
             framework that implements
               <codeph>ro.sync.ecss.extensions.api.webapp.imagemap.WebappImageMapSupportFactory</codeph>.
             Its purpose is to decode the shapes from the document markup.</li>

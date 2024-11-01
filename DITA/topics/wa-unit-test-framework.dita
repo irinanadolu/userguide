@@ -16,7 +16,7 @@
       asserts its styles that are configured in the framework.</p>
     <p>To write unit tests for a framework customization, follow this procedure (this same procedure
       was used for the sample project mentioned above):<ol id="ol_ij3_qqz_vvb">
-        <li>Add <b>Oxygen SDK</b> to the classpath and <i>logback-classic</i> (in our sample, they
+        <li irina="irina">Add <b>Oxygen SDK</b> to the classpath and <i>logback-classic</i> (in our sample, they
           are added using Maven
           dependencies):<codeblock id="codeblock_nfq_tqz_vvb" outputclass="language-xml">&lt;dependency>
   &lt;groupId>com.oxygenxml&lt;/groupId>
@@ -30,15 +30,15 @@
   &lt;version>1.2.10&lt;/version>
   &lt;scope>provided&lt;/scope>
 &lt;/dependency></codeblock></li>
-        <li>Before running a test, initialize <b>Oxygen</b> classes by running
+        <li irina="irina">Before running a test, initialize <b>Oxygen</b> classes by running
             <codeph>MockAuthorDocumentFactory.initForTest()</codeph> and specify the location of the
           framework by specifying the "<codeph>additional.frameworks.directories</codeph>"
           option:<codeblock id="codeblock_rbz_zqz_vvb" outputclass="language-java">Options.getInstance().setStringArrayProperty(
     "additional.frameworks.directories",
     new String[] {sampleFrameworkDir.getAbsolutePath()});</codeblock></li>
-        <li>In your test, load the <codeph>AuthorDocumentModel</codeph> using
+        <li irina="irina">In your test, load the <codeph>AuthorDocumentModel</codeph> using
             <codeph>MockAuthorDocumentFactory.create(testFile)</codeph>.</li>
-        <li>Use that <codeph>AuthorDocumentModel</codeph> object to access and assert classes in the
+        <li irina="irina">Use that <codeph>AuthorDocumentModel</codeph> object to access and assert classes in the
             <xref href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/" format="html"
             scope="external">Oxygen SDK</xref>.</li>
       </ol></p>

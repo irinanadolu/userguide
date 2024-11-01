@@ -35,10 +35,10 @@
           Attribute to an Element</i>
       </title>
       <p id="p_s31_cgk_54b">The XQuery Update script does the following:<ul id="ul_rhp_bsn_kr">
-          <li id="li_t31_cgk_54b">Iterates over all elements from the document that have the specified local name and
+          <li id="li_t31_cgk_54b" irina="irina">Iterates over all elements from the document that have the specified local name and
             namespace.</li>
-          <li id="li_u31_cgk_54b">Finds the attribute that will be converted to an element. </li>
-          <li id="li_v31_cgk_54b">Computes the <xref keyref="glossentry_qname"><term>QName</term></xref> of the new
+          <li id="li_u31_cgk_54b" irina="irina">Finds the attribute that will be converted to an element. </li>
+          <li id="li_v31_cgk_54b" irina="irina">Computes the <xref keyref="glossentry_qname"><term>QName</term></xref> of the new
             element to be inserted and inserts it as the first child of the parent element.</li>
         </ul><codeblock outputclass="language-xml" id="codeblock_w31_cgk_54b">(: 
     XQuery document used to implement 'Convert attribute to element'

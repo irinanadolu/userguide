@@ -54,17 +54,17 @@
       <title>OpenAPI Tools</title>
       <p id="p_wfk_vld_rtb">The following additional OpenAPI tools are available as free add-ons:
           <ul id="ul_nc5_cmd_rtb">
-          <li id="li_oc5_cmd_rtb"><b>OpenAPI Tester</b> - Provides the ability to inspect OpenAPI
+          <li id="li_oc5_cmd_rtb" irina="irina"><b>OpenAPI Tester</b> - Provides the ability to inspect OpenAPI
             request responses and to ensure that they work as expected. It can be used for <xref
               href="https://spec.openapis.org/oas/v3.1.0" format="html" scope="external">OpenAPI
               3.x</xref> in JSON or YAML format. For details, see <xref href="openapi-tester.dita"
               >OpenAPI Tester Add-on</xref>.</li>
-          <li id="li_fz5_y5q_l5b"><b>Run OpenAPI Test Scenario</b> - Provides the ability to run a
+          <li id="li_fz5_y5q_l5b" irina="irina"><b>Run OpenAPI Test Scenario</b> - Provides the ability to run a
             test suite for an OpenAPI document in JSON format. It performs the requests based on the
             specified OpenAPI document and the data entered in the test file, and then checks if the
             server responses are as expected. For details, see <xref
               href="run-openapi-test-scenario.dita">Run OpenAPI Test Scenario</xref>.</li>
-          <li id="li_mm1_gmd_rtb"><b>OpenAPI Documentation Generator</b> - Provides the ability to
+          <li id="li_mm1_gmd_rtb" irina="irina"><b>OpenAPI Documentation Generator</b> - Provides the ability to
             generate documentation for <term>OpenAPI</term> components in HTML format, including
             annotations and cross references. The documentation displays information about the
             servers, paths, components and tags defined in the <xref
@@ -78,16 +78,16 @@
     <section id="section_vvs_vvd_1rb">
       <title>Resources</title>
       <ul id="ul_rll_xfn_dtb">
-        <li id="li_us3_yfn_dtb">For more details about the <i>OpenAPI Specification</i>, along with
+        <li id="li_us3_yfn_dtb" irina="irina">For more details about the <i>OpenAPI Specification</i>, along with
           example documents, go to <xref href="https://spec.openapis.org/oas/latest.html"
             format="html" scope="external"/>.</li>
-        <li id="li_vzk_cnp_dvb"><xref href="https://www.youtube.com/watch?v=1WcETCUFqlw"
+        <li id="li_vzk_cnp_dvb" irina="irina"><xref href="https://www.youtube.com/watch?v=1WcETCUFqlw"
             format="html" scope="external">Video: <b>OpenAPI Document Editing in Oxygen XML
               Editor</b></xref></li>
-        <li id="li_fzt_xfn_dtb"><xref href="https://www.youtube.com/watch?v=gKdabeh49Qk"
+        <li id="li_fzt_xfn_dtb" irina="irina"><xref href="https://www.youtube.com/watch?v=gKdabeh49Qk"
             format="html" scope="external">Webinar: <b>OpenAPI Editing, Testing, and
             Documenting</b></xref></li>
-        <li id="li_mfk_vm5_vvb"><xref
+        <li id="li_mfk_vm5_vvb" irina="irina"><xref
             href="https://www.oxygenxml.com/events/2022/webinar_openapi_support_in_oxygen.html"
             format="html" scope="external">Webinar: <b>OpenAPI/AsyncAPI Support in
           Oxygen</b></xref></li>

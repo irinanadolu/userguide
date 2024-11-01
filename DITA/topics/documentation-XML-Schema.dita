@@ -57,21 +57,21 @@
       <title>Output Tab</title>
       <p id="p_kyc_cgk_54b">The following options are available in the <uicontrol>Output</uicontrol> tab:<ul
           id="ul_gwz_4lb_gs">
-          <li id="li_lyc_cgk_54b"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
+          <li id="li_lyc_cgk_54b" irina="irina"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
               id="ul_pnl_ztg_gs">
-              <li id="li_myc_cgk_54b"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
+              <li id="li_myc_cgk_54b" irina="irina"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
                   href="output-formats-documentation-XML-Schema.dita#output-formats-documentation-XML-Schema/HTML-section"
                   >HTML output format</xref>.</li>
-              <li id="li_nyc_cgk_54b"><uicontrol>PDF</uicontrol> - The documentation is generated in <xref
+              <li id="li_nyc_cgk_54b" irina="irina"><uicontrol>PDF</uicontrol> - The documentation is generated in <xref
                   href="output-formats-documentation-XML-Schema.dita#output-formats-documentation-XML-Schema/PDF-section"
                   >PDF output format</xref>.</li>
-              <li id="li_oyc_cgk_54b"><uicontrol>DocBook</uicontrol> - The documentation is generated in <xref
+              <li id="li_oyc_cgk_54b" irina="irina"><uicontrol>DocBook</uicontrol> - The documentation is generated in <xref
                   href="output-formats-documentation-XML-Schema.dita#output-formats-documentation-XML-Schema/DocBook-section"
                   >DocBook output format</xref>.</li>
-              <li id="li_pyc_cgk_54b"><uicontrol>DITA</uicontrol> - The documentation is generated in <xref
+              <li id="li_pyc_cgk_54b" irina="irina"><uicontrol>DITA</uicontrol> - The documentation is generated in <xref
                   href="output-formats-documentation-XML-Schema.dita#output-formats-documentation-XML-Schema/DITA-section"
                   >DITA output format</xref>.</li>
-              <li id="li_qyc_cgk_54b"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
+              <li id="li_qyc_cgk_54b" irina="irina"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
                   href="output-formats-documentation-XML-Schema.dita#output-formats-documentation-XML-Schema/Custom-section"
                   >custom output format</xref>, allowing you to control the output. Click the
                   <uicontrol>Options</uicontrol> button to open a <uicontrol>Custom format
@@ -82,16 +82,16 @@
                 keep the intermediate XML files created during the documentation process by
                 deselecting the <uicontrol>Delete intermediate XML file</uicontrol> option.</li>
             </ul></li>
-          <li id="li_ryc_cgk_54b"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
+          <li id="li_ryc_cgk_54b" irina="irina"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
             entering it in the text field, or by using the <uicontrol><image
                 href="../img/InsertEditorVariables16.png" id="image_pdh_bwg_gs"/>Insert Editor
               Variables</uicontrol> button or the options in the <uicontrol><image
                 href="../img/BrowseDrop.png" id="image_qdh_bwg_gs"/>Browse</uicontrol> drop-down
             menu.</li>
-          <li id="split-output-muliple-files"><uicontrol>Split output into multiple
+          <li id="split-output-muliple-files" irina="irina"><uicontrol>Split output into multiple
               files</uicontrol> - Instructs the application to split the output into multiple files.
             You can choose to split them by namespace, location, or component name.</li>
-          <li id="li_syc_cgk_54b"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
+          <li id="li_syc_cgk_54b" irina="irina"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
             system application associated with the output file type. For DITA and DocBook documents,
             this option appears as <uicontrol>Open in Editor</uicontrol> and the result will be
             opened in <ph keyref="product"/> (in the current editor).<note id="note_tyc_cgk_54b">To set the browser or
@@ -105,7 +105,7 @@
                   <uicontrol>Web Browser</uicontrol>
                 </menucascade> and specify it there</ph>. This will take precedence over the default
               system application settings.</note></li>
-          <li id="li_uyc_cgk_54b"><uicontrol>Keep only the annotations with xml:lang set to</uicontrol> - The generated
+          <li id="li_uyc_cgk_54b" irina="irina"><uicontrol>Keep only the annotations with xml:lang set to</uicontrol> - The generated
             output will contain only the annotations with the <xmlatt>xml:lang</xmlatt> attribute
             set to the selected language. If you choose a primary language code (for example,
               <uicontrol>en</uicontrol> for English), this includes all its possible variations
@@ -138,52 +138,52 @@
           <uicontrol>Include notations</uicontrol>.</p>
       <p id="p_zyc_cgk_54b">You can choose whether or not to include the following other details:</p>
       <ul id="ul_bpx_1pb_gs">
-        <li id="li_azc_cgk_54b"><uicontrol>Diagram</uicontrol> - Displays the diagram for each component. You can choose
+        <li id="li_azc_cgk_54b" irina="irina"><uicontrol>Diagram</uicontrol> - Displays the diagram for each component. You can choose
           the image format (JPEG, PNG, <ph product="editor developer">GIF, </ph>SVG) to use for the
           diagram section. The generated diagrams are dependent on the options from the <xref
             href="preferences-editor-schema-properties.dita#preferences-editor-schema-properties"
             >Schema Design Properties</xref> page.</li>
-        <li id="li_bzc_cgk_54b"><uicontrol>Diagram annotations</uicontrol> - This option controls whether or not the
+        <li id="li_bzc_cgk_54b" irina="irina"><uicontrol>Diagram annotations</uicontrol> - This option controls whether or not the
           annotations of the components presented in the diagram sections are included.</li>
-        <li id="li_czc_cgk_54b"><uicontrol>Namespace</uicontrol> - Displays the namespace for each component.</li>
-        <li id="li_dzc_cgk_54b"><uicontrol>Location</uicontrol> - Displays the schema location for each component.</li>
-        <li id="li_ezc_cgk_54b"><uicontrol>Type</uicontrol> - Displays the component type if it is not an anonymous
+        <li id="li_czc_cgk_54b" irina="irina"><uicontrol>Namespace</uicontrol> - Displays the namespace for each component.</li>
+        <li id="li_dzc_cgk_54b" irina="irina"><uicontrol>Location</uicontrol> - Displays the schema location for each component.</li>
+        <li id="li_ezc_cgk_54b" irina="irina"><uicontrol>Type</uicontrol> - Displays the component type if it is not an anonymous
           one.</li>
-        <li id="li_fzc_cgk_54b"><uicontrol>Type hierarchy</uicontrol> - Displays the types hierarchy.</li>
-        <li id="li_gzc_cgk_54b"><uicontrol>Model</uicontrol> - Displays the model (sequence, choice, all) presented in
+        <li id="li_fzc_cgk_54b" irina="irina"><uicontrol>Type hierarchy</uicontrol> - Displays the types hierarchy.</li>
+        <li id="li_gzc_cgk_54b" irina="irina"><uicontrol>Model</uicontrol> - Displays the model (sequence, choice, all) presented in
           BNF form. The separator characters that are used depend upon the information item used:<ul
             id="ul_cpx_1pb_gs">
-            <li id="li_hzc_cgk_54b"><b>xs:all</b> - Its children will be separated by space characters.</li>
-            <li id="li_izc_cgk_54b"><b>xs:sequence</b> - Its children will be separated by comma
+            <li id="li_hzc_cgk_54b" irina="irina"><b>xs:all</b> - Its children will be separated by space characters.</li>
+            <li id="li_izc_cgk_54b" irina="irina"><b>xs:sequence</b> - Its children will be separated by comma
               characters.</li>
-            <li id="li_jzc_cgk_54b"><b>xs:choice</b> - Its children will be separated by <i>|</i>
+            <li id="li_jzc_cgk_54b" irina="irina"><b>xs:choice</b> - Its children will be separated by <i>|</i>
               characters.</li>
           </ul></li>
-        <li id="li_kzc_cgk_54b"><uicontrol>Children</uicontrol> - Displays the list of component's children.</li>
-        <li id="li_lzc_cgk_54b"><uicontrol>Instance</uicontrol> - Displays an XML instance generated based on each
+        <li id="li_kzc_cgk_54b" irina="irina"><uicontrol>Children</uicontrol> - Displays the list of component's children.</li>
+        <li id="li_lzc_cgk_54b" irina="irina"><uicontrol>Instance</uicontrol> - Displays an XML instance generated based on each
           schema element.</li>
-        <li id="li_mzc_cgk_54b"><uicontrol>Used by</uicontrol> - Displays the list of all the components that reference
+        <li id="li_mzc_cgk_54b" irina="irina"><uicontrol>Used by</uicontrol> - Displays the list of all the components that reference
           the current one. The list is sorted by component type and name.</li>
-        <li id="li_nzc_cgk_54b"><uicontrol>Properties</uicontrol> - Displays some of the component's properties.</li>
-        <li id="li_ozc_cgk_54b"><uicontrol>Facets</uicontrol> - Displays the facets for each simple type.</li>
-        <li id="li_pzc_cgk_54b"><uicontrol>Identity constraints</uicontrol> - Displays the identity constraints for each
+        <li id="li_nzc_cgk_54b" irina="irina"><uicontrol>Properties</uicontrol> - Displays some of the component's properties.</li>
+        <li id="li_ozc_cgk_54b" irina="irina"><uicontrol>Facets</uicontrol> - Displays the facets for each simple type.</li>
+        <li id="li_pzc_cgk_54b" irina="irina"><uicontrol>Identity constraints</uicontrol> - Displays the identity constraints for each
           element. For each constraint there are presented the name, type (unique, key, keyref),
           reference attribute, selector and field(s).</li>
-        <li id="li_qzc_cgk_54b"><uicontrol>Attributes</uicontrol> - Displays the attributes for the component. For each
+        <li id="li_qzc_cgk_54b" irina="irina"><uicontrol>Attributes</uicontrol> - Displays the attributes for the component. For each
           attribute there are presented the name, type, fixed or default value, usage and
           annotation.</li>
-        <li id="li_rzc_cgk_54b"><uicontrol>Asserts</uicontrol> - Displays the <uicontrol>assert</uicontrol> elements
+        <li id="li_rzc_cgk_54b" irina="irina"><uicontrol>Asserts</uicontrol> - Displays the <uicontrol>assert</uicontrol> elements
           defined in a complex type. The test, XPath default namespace, and annotation are presented
           for each assert.</li>
-        <li id="li_szc_cgk_54b"><uicontrol>Annotations</uicontrol> - Displays the annotations for the component. If you
+        <li id="li_szc_cgk_54b" irina="irina"><uicontrol>Annotations</uicontrol> - Displays the annotations for the component. If you
           choose <uicontrol>Escape XML Content</uicontrol>, the XML tags are present in the
           annotations.</li>
-        <li id="li_tzc_cgk_54b"><uicontrol>Source</uicontrol> - Displays the text schema source for each component.</li>
-        <li id="li_uzc_cgk_54b"><uicontrol>Generate index</uicontrol> - Displays an index with the components included
+        <li id="li_tzc_cgk_54b" irina="irina"><uicontrol>Source</uicontrol> - Displays the text schema source for each component.</li>
+        <li id="li_uzc_cgk_54b" irina="irina"><uicontrol>Generate index</uicontrol> - Displays an index with the components included
           in the documentation.<ul id="ul_ajd_yk3_gs">
-            <li id="li_vzc_cgk_54b"><uicontrol>Include local elements and attributes</uicontrol> - If selected, local
+            <li id="li_vzc_cgk_54b" irina="irina"><uicontrol>Include local elements and attributes</uicontrol> - If selected, local
               elements and attributes are included in the documentation index.</li>
-            <li id="li_wzc_cgk_54b"><uicontrol>Include resource hierarchy</uicontrol> - Specifies whether or not the
+            <li id="li_wzc_cgk_54b" irina="irina"><uicontrol>Include resource hierarchy</uicontrol> - Specifies whether or not the
               resource hierarchy for an XML Schema documentation is generated. It is deselected by
               default.</li>
           </ul></li>

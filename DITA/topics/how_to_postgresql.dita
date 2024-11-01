@@ -4,16 +4,16 @@
   <title>Configuring a PostgreSQL Database Connection</title>
   <body>
     <p id="p_b1x_cgk_54b">To configure the support for a PostgreSQL database, follow this procedure:<ol id="ol_c1x_cgk_54b">
-        <li id="li_d1x_cgk_54b"><ph id="postgresql-download-driver">Go to <xref
+        <li id="li_d1x_cgk_54b" irina="irina"><ph id="postgresql-download-driver">Go to <xref
               keyref="url_PostgreSQLDriver"/> and download the PostgreSQL JDBC driver specific for
             your server version.</ph></li>
-        <li id="li_e1x_cgk_54b"><xref
+        <li id="li_e1x_cgk_54b" irina="irina"><xref
             href="configure-postgreSQL-datasource.dita#configure-postgreSQL-datasource"
             >Configure PostgreSQL <term>Data Source</term> drivers</xref>.</li>
-        <li id="li_f1x_cgk_54b"><xref
+        <li id="li_f1x_cgk_54b" irina="irina"><xref
             href="configure-postgreSQL-connection.dita#configure-postgreSQL-connection"
             >Configure a PostgreSQL <term>Connection</term></xref>.</li>
-        <li id="li_g1x_cgk_54b">To view your connection, go to the <xref
+        <li id="li_g1x_cgk_54b" irina="irina">To view your connection, go to the <xref
             href="../topics/relational-database-explorer.dita#relational-database-explorer"
               ><uicontrol>Data Source Explorer</uicontrol> view</xref>
           <ph conkeyref="reusables-user-guide/reopen-view-parenthesis"/> or switch to the

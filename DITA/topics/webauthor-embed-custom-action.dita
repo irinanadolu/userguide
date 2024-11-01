@@ -15,9 +15,9 @@
       you could create an action that checks a file in or out of a file repository, or an action
       that marks the file as being reviewed.</p>
     <p id="p_ids_dgk_54b">To embed a custom action:<ol id="ol_jds_dgk_54b">
-        <li id="li_kds_dgk_54b"><xref href="customizing_plugins.dita#customizing_plugins">Create a plugin for Web
+        <li id="li_kds_dgk_54b" irina="irina"><xref href="customizing_plugins.dita#customizing_plugins">Create a plugin for Web
             Author</xref>.</li>
-        <li id="li_lds_dgk_54b">Use the <term>Oxygen</term> JavaScript API to <xref keyref="jscript_api_customaction"
+        <li id="li_lds_dgk_54b" irina="irina">Use the <term>Oxygen</term> JavaScript API to <xref keyref="jscript_api_customaction"
             >implement a custom action</xref> and add it in the <term>Web Author</term>
           interface.</li>
       </ol></p>

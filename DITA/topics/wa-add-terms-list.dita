@@ -18,12 +18,12 @@
     <section id="create_and_add_personalized_term_lists">
       <title>Create and Add Personalized Term Lists</title>
       <p id="p_ntq_dgk_54b">To create and add a personalized terms list, follow these steps:<ol id="ol_otq_dgk_54b">
-          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li1" id="li_ptq_dgk_54b"/>
-          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li2" id="li_qtq_dgk_54b"/>
-          <li id="li_rtq_dgk_54b">Save the file (<filepath>.tdi</filepath>) to the <filepath>options/spell</filepath>
+          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li1" id="li_ptq_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li2" id="li_qtq_dgk_54b" irina="irina"/>
+          <li id="li_rtq_dgk_54b" irina="irina">Save the file (<filepath>.tdi</filepath>) to the <filepath>options/spell</filepath>
             folder that is located inside your <xref href="wa-oxygen-data-dir.dita"><term>Oxygen
                 Data Directory</term></xref> (<codeph>oxygen.data.dir/options/spell</codeph>).</li>
-          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li4" id="li_stq_dgk_54b"/>
+          <li conkeyref="reusables-cf-wa-waCustom/options-spell-li4" id="li_stq_dgk_54b" irina="irina"/>
         </ol></p>
     </section>
     <note type="tip" id="note_ttq_dgk_54b">There is also a plugin available on GitHub that explains how you can define

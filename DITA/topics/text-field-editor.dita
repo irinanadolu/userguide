@@ -18,27 +18,27 @@
   <body>
     <p id="p_lwd_dgk_54b">The <codeph>oxy_textfield</codeph> form control supports the following properties:</p>
     <ul id="ul_mwd_dgk_54b">
-      <li id="li_nwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
+      <li id="li_nwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
           conkeyref="reusables-author-mode-customization/edit_property_ul" id="ul_owd_dgk_54b">
-          <li id="li_pwd_dgk_54b"/>
+          <li id="li_pwd_dgk_54b" irina="irina"/>
         </ul></li>
-      <li id="li_qwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/columns-property"
+      <li id="li_qwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/columns-property"
         /></li>
-      <li id="li_rwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property"
+      <li id="li_rwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property"
         /></li>
-      <li id="li_swd_dgk_54b"><ph
+      <li id="li_swd_dgk_54b" irina="irina"><ph
           conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
-      <li id="li_twd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"
+      <li id="li_twd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"
         /></li>
-      <li id="li_uwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/values-property"
+      <li id="li_uwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/values-property"
         /></li>
-      <li id="li_vwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/tooltips-property"
+      <li id="li_vwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/tooltips-property"
         /></li>
-      <li id="li_wwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/tooltip-property"
+      <li id="li_wwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/tooltip-property"
         /></li>
-      <li id="li_xwd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/color-property"
+      <li id="li_xwd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/color-property"
         /></li>
-      <li id="li_ywd_dgk_54b"><uicontrol>hasMultipleValues</uicontrol> - Specifies if the text field
+      <li id="li_ywd_dgk_54b" irina="irina"><uicontrol>hasMultipleValues</uicontrol> - Specifies if the text field
         allows multiple values separated by spaces or just a single value.<note
           id="note_zwd_dgk_54b">If the value is <codeph>false</codeph>, the <xref
             keyref="glossentry_content-completion-assistant"><term>Content Completion
@@ -56,7 +56,7 @@
               <term>Content Completion Assistant</term> would only suggest <codeph>value a</codeph>
             and <codeph>value b</codeph> because the space is considered part of the
           prefix.</p></note></li>
-      <li id="li_bxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+      <li id="li_bxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
         /><codeblock outputclass="language-css" id="codeblock_cxd_dgk_54b">p:before {
   content: oxy_textfield(hoverPseudoclassName, 'showBorder')
 }

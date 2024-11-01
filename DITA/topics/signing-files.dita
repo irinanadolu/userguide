@@ -37,51 +37,51 @@
           <image href="../img/configure_certificate.png" id="image_scw_xk3_xq" placement="break"/>
         </p></note></p>
     <ul id="ul_d41_cgk_54b">
-      <li product="author developer editor developerEclipse editorEclipse" id="li_e41_cgk_54b"
+      <li product="author developer editor developerEclipse editorEclipse" id="li_e41_cgk_54b" irina="irina"
           ><uicontrol>Input</uicontrol> - Available if the <uicontrol>Sign</uicontrol> action was
         selected from the <uicontrol product="author developer editor">Tools</uicontrol><uicontrol
           product="developerEclipse editorEclipse">XML Tools</uicontrol> menu. Specifies the
         location of the input URL.</li>
-      <li id="transformation-options-li"><uicontrol>Transformation Options</uicontrol> - See the
+      <li id="transformation-options-li" irina="irina"><uicontrol>Transformation Options</uicontrol> - See the
           <xref href="digital-signature-overview.dita#digital-signature-overview">Digital Signature
           Overview</xref> section for more information about these options.<ul id="ul_xwp_h33_xq">
-          <li id="li_f41_cgk_54b"><uicontrol>None</uicontrol> - If selected, no <xref keyref="glossentry_canonicalize"
+          <li id="li_f41_cgk_54b" irina="irina"><uicontrol>None</uicontrol> - If selected, no <xref keyref="glossentry_canonicalize"
                 ><term>canonicalization</term></xref> algorithm is used.</li>
-          <li id="li_g41_cgk_54b"><uicontrol>Exclusive</uicontrol> - If selected, the exclusive (uncommented) <xref
+          <li id="li_g41_cgk_54b" irina="irina"><uicontrol>Exclusive</uicontrol> - If selected, the exclusive (uncommented) <xref
               keyref="glossentry_canonicalize"><term>canonicalization</term></xref> method is
               used.<note conkeyref="reusables-user-guide/exclusive-note" id="note_h41_cgk_54b"/></li>
-          <li id="li_i41_cgk_54b"><uicontrol>Exclusive with comments</uicontrol> - If selected, the exclusive with
+          <li id="li_i41_cgk_54b" irina="irina"><uicontrol>Exclusive with comments</uicontrol> - If selected, the exclusive with
             comments <xref keyref="glossentry_canonicalize"><term>canonicalization</term></xref>
             method is used.</li>
-          <li id="li_j41_cgk_54b"><uicontrol>Inclusive</uicontrol> - If selected, the inclusive (uncommented) <xref
+          <li id="li_j41_cgk_54b" irina="irina"><uicontrol>Inclusive</uicontrol> - If selected, the inclusive (uncommented) <xref
               keyref="glossentry_canonicalize"><term>canonicalization</term></xref> method is
               used.<note conkeyref="reusables-user-guide/inclusive-note" id="note_k41_cgk_54b"/></li>
-          <li id="li_l41_cgk_54b"><uicontrol>Inclusive with comments</uicontrol> - If selected, the inclusive with
+          <li id="li_l41_cgk_54b" irina="irina"><uicontrol>Inclusive with comments</uicontrol> - If selected, the inclusive with
             comments <xref keyref="glossentry_canonicalize"><term>canonicalization</term></xref>
             method is used.</li>
         </ul></li>
-      <li id="li_m41_cgk_54b"><uicontrol>XPath</uicontrol> - The XPath expression provides the fragments of the XML
+      <li id="li_m41_cgk_54b" irina="irina"><uicontrol>XPath</uicontrol> - The XPath expression provides the fragments of the XML
         document to be signed.</li>
-      <li id="li_n41_cgk_54b"><uicontrol>ID</uicontrol> - Provides ID of the XML element to be signed.</li>
-      <li id="envelope-li"><uicontrol>Envelope</uicontrol> - If selected, the <i>enveloped</i>
+      <li id="li_n41_cgk_54b" irina="irina"><uicontrol>ID</uicontrol> - Provides ID of the XML element to be signed.</li>
+      <li id="envelope-li" irina="irina"><uicontrol>Envelope</uicontrol> - If selected, the <i>enveloped</i>
         signature is used. See the <xref
           href="digital-signature-overview.dita#digital-signature-overview">Digital Signature
           Overview</xref> for more information.</li>
-      <li id="li_o41_cgk_54b"><uicontrol>Detached</uicontrol> - If selected, the <i>detached</i> signature is
+      <li id="li_o41_cgk_54b" irina="irina"><uicontrol>Detached</uicontrol> - If selected, the <i>detached</i> signature is
         used. See the <xref href="digital-signature-overview.dita#digital-signature-overview"
           >Digital Signature Overview</xref> for more information.</li>
-      <li id="li_p41_cgk_54b"><uicontrol>Append KeyInfo</uicontrol> - If this option is selected, the
+      <li id="li_p41_cgk_54b" irina="irina"><uicontrol>Append KeyInfo</uicontrol> - If this option is selected, the
         <xmlelement>ds:KeyInfo</xmlelement> element will be added in the signed document.</li>
-      <li id="li_q41_cgk_54b"><uicontrol>Signature algorithm</uicontrol> - The algorithm used for signing the document.
+      <li id="li_q41_cgk_54b" irina="irina"><uicontrol>Signature algorithm</uicontrol> - The algorithm used for signing the document.
         The following options are available: <uicontrol>RSA with SHA1</uicontrol>, <uicontrol>RSA
           with SHA256</uicontrol>, <uicontrol>RSA with SHA384</uicontrol>, and <uicontrol>RSA with
           SHA512</uicontrol>.</li>
-      <li product="author developer editor developerEclipse editorEclipse" id="li_r41_cgk_54b"
+      <li product="author developer editor developerEclipse editorEclipse" id="li_r41_cgk_54b" irina="irina"
           ><uicontrol>Output</uicontrol> - Available if the <uicontrol>Sign</uicontrol> action was
         selected from the <uicontrol product="author developer editor">Tools</uicontrol><uicontrol
           product="developerEclipse editorEclipse">XML Tools</uicontrol> menu. Specifies the path of
         the output file where the signed XML document will be saved.</li>
-      <li product="author developer editor developerEclipse editorEclipse" id="li_s41_cgk_54b"><uicontrol>Open in
+      <li product="author developer editor developerEclipse editorEclipse" id="li_s41_cgk_54b" irina="irina"><uicontrol>Open in
           editor</uicontrol> - If selected, the output file will be opened in <ph keyref="product"
         />.</li>
     </ul>

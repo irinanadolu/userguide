@@ -11,10 +11,10 @@
             <dt>Operating Systems</dt>
             <dd>
               <ul id="ul_wrm_bgk_54b">
-                <li id="li_xrm_bgk_54b">Windows 7, Windows 8, Windows 10, Windows 11, Windows Server
+                <li id="li_xrm_bgk_54b" irina="irina">Windows 7, Windows 8, Windows 10, Windows 11, Windows Server
                   2008, Windows Server 2012</li>
-                <li id="li_yrm_bgk_54b">macOS version 10.11 64-bit or later</li>
-                <li id="li_zrm_bgk_54b">Any Unix/Linux distribution with an available Java SE
+                <li id="li_yrm_bgk_54b" irina="irina">macOS version 10.11 64-bit or later</li>
+                <li id="li_zrm_bgk_54b" irina="irina">Any Unix/Linux distribution with an available Java SE
                   Runtime Environment version 11 from Oracle</li>
               </ul>
             </dd>
@@ -23,8 +23,8 @@
             <dt>CPU</dt>
             <dd id="CPU">
               <ul id="ul_lym_bqd_x4">
-                <li id="li_bsm_bgk_54b">Minimum - 1 GHz processor</li>
-                <li id="li_csm_bgk_54b">Recommended - Dual-core class processor</li>
+                <li id="li_bsm_bgk_54b" irina="irina">Minimum - 1 GHz processor</li>
+                <li id="li_csm_bgk_54b" irina="irina">Recommended - Dual-core class processor</li>
               </ul>
             </dd>
           </dlentry>
@@ -32,8 +32,8 @@
             <dt>Memory</dt>
             <dd id="memory.windows">
               <ul id="ul_esm_bgk_54b">
-                <li id="li_fsm_bgk_54b">Minimum - 2 GB of RAM</li>
-                <li id="li_gsm_bgk_54b">Recommended - 4 GB of RAM</li>
+                <li id="li_fsm_bgk_54b" irina="irina">Minimum - 2 GB of RAM</li>
+                <li id="li_gsm_bgk_54b" irina="irina">Recommended - 4 GB of RAM</li>
               </ul>
             </dd>
           </dlentry>
@@ -41,8 +41,8 @@
             <dt>Storage</dt>
             <dd id="storage">
               <ul id="ul_yym_bqd_x4">
-                <li id="li_ism_bgk_54b">Minimum - 400 MB free disk space</li>
-                <li id="li_jsm_bgk_54b">Recommended - 1 GB free disk space</li>
+                <li id="li_ism_bgk_54b" irina="irina">Minimum - 400 MB free disk space</li>
+                <li id="li_jsm_bgk_54b" irina="irina">Recommended - 1 GB free disk space</li>
               </ul>
             </dd>
           </dlentry>
@@ -61,15 +61,15 @@
     <section id="update_site_method">
       <title>Update Site Method</title>
       <p id="p_msm_bgk_54b">To install the Eclipse plugin using the <i>Update Site</i> method, follow this procedure:<ol id="ol_nsm_bgk_54b">
-          <li id="li_osm_bgk_54b">Start Eclipse.</li>
-          <li id="li_psm_bgk_54b">Go to <menucascade>
+          <li id="li_osm_bgk_54b" irina="irina">Start Eclipse.</li>
+          <li id="li_psm_bgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Install New Software</uicontrol>
               <uicontrol>Available Software</uicontrol>
             </menucascade>.</li>
-          <li id="li_qsm_bgk_54b">Click <uicontrol>Add</uicontrol> in the <uicontrol>Available Software</uicontrol>
+          <li id="li_qsm_bgk_54b" irina="irina">Click <uicontrol>Add</uicontrol> in the <uicontrol>Available Software</uicontrol>
             dialog box.</li>
-          <li id="li_rsm_bgk_54b">Enter <filepath product="editorEclipse"
+          <li id="li_rsm_bgk_54b" irina="irina">Enter <filepath product="editorEclipse"
               >https://www.oxygenxml.com/InstData/Editor/Eclipse/site.xml</filepath><filepath
               product="authorEclipse"
               >https://www.oxygenxml.com/InstData/Author/Eclipse/site.xml</filepath><filepath
@@ -77,12 +77,12 @@
               >https://www.oxygenxml.com/InstData/Developer/Eclipse/site.xml</filepath> into the
               <uicontrol>Location</uicontrol> field of the <uicontrol>Add Site</uicontrol> dialog
             box.</li>
-          <li id="li_ssm_bgk_54b">Click <uicontrol>OK</uicontrol>.</li>
-          <li id="li_tsm_bgk_54b">Select the <uicontrol keyref="product"/> checkbox.</li>
-          <li id="li_usm_bgk_54b">Click <uicontrol>Next</uicontrol> and continue with the rest of the installation
+          <li id="li_ssm_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_tsm_bgk_54b" irina="irina">Select the <uicontrol keyref="product"/> checkbox.</li>
+          <li id="li_usm_bgk_54b" irina="irina">Click <uicontrol>Next</uicontrol> and continue with the rest of the installation
             wizard.</li>
-          <li id="li_vsm_bgk_54b">Restart Eclipse when prompted.</li>
-          <li id="li_wsm_bgk_54b">Verify that <ph keyref="product"/> is installed correctly by creating a new XML
+          <li id="li_vsm_bgk_54b" irina="irina">Restart Eclipse when prompted.</li>
+          <li id="li_wsm_bgk_54b" irina="irina">Verify that <ph keyref="product"/> is installed correctly by creating a new XML
             Project. Go to <menucascade>
               <uicontrol>File</uicontrol>
               <uicontrol>New</uicontrol>
@@ -91,7 +91,7 @@
               <uicontrol keyref="product"/>
               <uicontrol>XML Project</uicontrol>
             </menucascade>.</li>
-          <li id="li_xsm_bgk_54b">When prompted for a license key, enter the license information received in the
+          <li id="li_xsm_bgk_54b" irina="irina">When prompted for a license key, enter the license information received in the
             registration email.<note id="note_ysm_bgk_54b">If you already have a native version of <ph keyref="product"/>
               installed on your computer, you will not be prompted for a license key for the Eclipse
               version. The existing license key will be used automatically.</note></li>
@@ -100,12 +100,12 @@
     <section id="zip_archive_method">
       <title>Zip Archive Method</title>
       <p id="p_zsm_bgk_54b">To install the Eclipse plugin using the <i>Zip Archive</i> method, follow this procedure:<ol id="ol_atm_bgk_54b">
-          <li id="li_btm_bgk_54b"><ph><xref href="https://www.oxygenxml.com/download.html" scope="external"
+          <li id="li_btm_bgk_54b" irina="irina"><ph><xref href="https://www.oxygenxml.com/download.html" scope="external"
                 format="html">Download</xref></ph> the zip archive with the Eclipse plugin.</li>
-          <li id="li_ctm_bgk_54b">Unzip the downloaded zip archive in the <filepath>dropins</filepath> subdirectory of
+          <li id="li_ctm_bgk_54b" irina="irina">Unzip the downloaded zip archive in the <filepath>dropins</filepath> subdirectory of
             the Eclipse installation directory.</li>
-          <li id="li_dtm_bgk_54b">Restart Eclipse.</li>
-          <li id="li_etm_bgk_54b">Verify that <ph keyref="product"/> is installed correctly by creating a new XML
+          <li id="li_dtm_bgk_54b" irina="irina">Restart Eclipse.</li>
+          <li id="li_etm_bgk_54b" irina="irina">Verify that <ph keyref="product"/> is installed correctly by creating a new XML
             Project. Go to <menucascade>
               <uicontrol>File</uicontrol>
               <uicontrol>New</uicontrol>
@@ -114,7 +114,7 @@
               <uicontrol keyref="product"/>
               <uicontrol>XML Project</uicontrol>
             </menucascade>.</li>
-          <li id="li_ftm_bgk_54b">When prompted for a license key, enter the license information received in the
+          <li id="li_ftm_bgk_54b" irina="irina">When prompted for a license key, enter the license information received in the
             registration email.<note id="note_gtm_bgk_54b">If you already have a native version of <ph keyref="product"/>
               installed on your computer, you will not be prompted for a license key for the Eclipse
               version. The existing license key will be used automatically.</note></li>

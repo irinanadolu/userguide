@@ -57,31 +57,31 @@
                 views can also be configured</xref> according to your preferences. </p>
             <p id="p_sns_bgk_54b">Some of the most helpful views in the <uicontrol>DITA</uicontrol>
               <term>perspective</term> include the following:<ul id="ul_pjd_x5z_gf">
-                <li id="li_tns_bgk_54b"><xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
+                <li id="li_tns_bgk_54b" irina="irina"><xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                       Manager</uicontrol> view</xref> - This view helps you organize, manage, and
                   edit DITA maps.</li>
-                <li id="li_uns_bgk_54b"><xref href="dita-reusable-components-view.dita"><uicontrol>DITA Reusable
+                <li id="li_uns_bgk_54b" irina="irina"><xref href="dita-reusable-components-view.dita"><uicontrol>DITA Reusable
                       Components</uicontrol> view</xref> - This view is helpful if you use a large
                   amount of keys or reusable components in your DITA project. It collects all of the
                   keys and reusable components that are defined in the <xref
                     keyref="glossentry_root-map"><term>root map</term></xref> and presents them in
                   several tabs. It includes various features to make it easy to locate and insert
                   references to the reusable content.</li>
-                <li id="li_vns_bgk_54b"><xref href="dita-resource-hierarchy-view.dita"
+                <li id="li_vns_bgk_54b" irina="irina"><xref href="dita-resource-hierarchy-view.dita"
                       ><uicontrol>DITA Referenced/Dependent Resources</uicontrol> view</xref> - This
                   view displays the references or dependencies for resources that are directly
                   referenced in the DITA topic.</li>
-                <li id="li_wns_bgk_54b"><xref href="using-the-project-view.dita"><uicontrol>Project</uicontrol>
+                <li id="li_wns_bgk_54b" irina="irina"><xref href="using-the-project-view.dita"><uicontrol>Project</uicontrol>
                     view</xref> - Enables the definition of projects and logical management of the
                   documents they contain.</li>
-                <li id="li_xns_bgk_54b"><xref href="open-find-resource-view.dita#open-find-resource-view"
+                <li id="li_xns_bgk_54b" irina="irina"><xref href="open-find-resource-view.dita#open-find-resource-view"
                       ><uicontrol>Open/Find Resource</uicontrol> view</xref> - Designed to offer
                   advanced search capabilities in various scopes.</li>
-                <li id="li_yns_bgk_54b"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol>
+                <li id="li_yns_bgk_54b" irina="irina"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol>
                     view</xref> - It provides an XML tag overview and offers a variety of functions,
                   such as modifications follow-up, document structure change, document tag
                   selection, and elements filtering. </li>
-                <li id="li_zns_bgk_54b"><xref href="results-view.dita#results-view"><uicontrol>Results
+                <li id="li_zns_bgk_54b" irina="irina"><xref href="results-view.dita#results-view"><uicontrol>Results
                     view</uicontrol></xref> - Displays the messages generated as a result of user
                   actions such as <xref
                     href="validating-XML-documents.dita#validating-XML-documents" format="dita"
@@ -91,14 +91,14 @@
                     format="dita">spell checking in multiple files</xref>, search operations, and
                   others. Each message is a link to the location related to the event that triggered
                   the message.</li>
-                <li id="li_a4s_bgk_54b"><xref href="attributes-panel.dita#attributes-panel"
+                <li id="li_a4s_bgk_54b" irina="irina"><xref href="attributes-panel.dita#attributes-panel"
                       ><uicontrol>Attributes</uicontrol> view</xref> - Presents all possible
                   attributes of the current element and allows you to edit attribute values. You can
                   also use this view to insert attributes in <uicontrol>Text</uicontrol> mode.
                     <uicontrol>Author</uicontrol> mode also includes an <xref
                     href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
                     >in-place attribute editor</xref>.</li>
-                <li id="li_b4s_bgk_54b"><xref href="text-elements-view.dita#text-elements-view"><uicontrol>Elements
+                <li id="li_b4s_bgk_54b" irina="irina"><xref href="text-elements-view.dita#text-elements-view"><uicontrol>Elements
                       view</uicontrol></xref> - Presents a list of all defined elements that you can
                   insert at the current cursor position according to the document's schema. In <xref
                     href="author-elements-view.dita#author-elements-view"

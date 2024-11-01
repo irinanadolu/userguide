@@ -75,12 +75,12 @@
       </tgroup>
     </table>
     <note type="important" id="note_c3z_cgk_54b">Remarks:<ul id="ul_d3z_cgk_54b">
-        <li id="li_e3z_cgk_54b">Clicking a record from the stack highlights that node's location inside resource.</li>
-        <li id="li_f3z_cgk_54b">Using Saxon, the stylesheet elements are qualified with XSL proxy, while using Xalan you
+        <li id="li_e3z_cgk_54b" irina="irina">Clicking a record from the stack highlights that node's location inside resource.</li>
+        <li id="li_f3z_cgk_54b" irina="irina">Using Saxon, the stylesheet elements are qualified with XSL proxy, while using Xalan you
           only see their names. (example: <codeph>xsl:template</codeph> using Saxon and
             <codeph>template</codeph> using Xalan).</li>
-        <li id="li_g3z_cgk_54b">Only the Saxon processor shows element attributes.</li>
-        <li id="li_h3z_cgk_54b">The Xalan processor shows also the built-in rules.</li>
+        <li id="li_g3z_cgk_54b" irina="irina">Only the Saxon processor shows element attributes.</li>
+        <li id="li_h3z_cgk_54b" irina="irina">The Xalan processor shows also the built-in rules.</li>
       </ul></note>
   </body>
 </topic>

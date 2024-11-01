@@ -47,16 +47,16 @@
         output by using the <b>webhelp.labels.generation.mode</b> transformation parameter. The
         possible values for this parameter are: <ul
           id="webhelp-responsive-plugin-additional-parameters_ul_mhm_w1h_bzb">
-          <li id="webhelp-responsive-plugin-additional-parameters_li_nhm_w1h_bzb"
+          <li id="webhelp-responsive-plugin-additional-parameters_li_nhm_w1h_bzb" irina="irina"
               ><b>keywords-label</b> - Generates labels for each defined
               <codeph>&lt;keyword></codeph> element that has the <codeph>@outputclass</codeph>
             attribute value set to <b>label</b>.</li>
-          <li id="webhelp-responsive-plugin-additional-parameters_li_okv_kbh_bzb"><b>keywords</b> -
+          <li id="webhelp-responsive-plugin-additional-parameters_li_okv_kbh_bzb" irina="irina"><b>keywords</b> -
             Generates labels for each defined <codeph>&lt;keyword></codeph> element. If the topic
             contains <codeph>&lt;keyword></codeph> elements with the <codeph>@outputclass</codeph>
             attribute value set to <b>label</b>, then only these elements will have labels generated
             for them in the output.</li>
-          <li id="webhelp-responsive-plugin-additional-parameters_li_zvf_4bh_bzb"><b>disable</b> -
+          <li id="webhelp-responsive-plugin-additional-parameters_li_zvf_4bh_bzb" irina="irina"><b>disable</b> -
             Disables the generation of labels in the WebHelp Responsive output.</li>
         </ul><note id="note_xd5_tlv_fzb">The default value for the
             <b>webhelp.labels.generation.mode</b> transformation parameter is

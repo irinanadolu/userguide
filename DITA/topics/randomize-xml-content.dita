@@ -44,13 +44,13 @@
         <dlentry id="dlentry_uwl_bgk_54b">
           <dt><uicontrol>Filters</uicontrol></dt>
           <dd>This section includes the following options:<ul id="ul_t3v_nzv_3r">
-              <li id="li_vwl_bgk_54b"><uicontrol>Include files</uicontrol> - Allows you to filter the selected resources
+              <li id="li_vwl_bgk_54b" irina="irina"><uicontrol>Include files</uicontrol> - Allows you to filter the selected resources
                 by using a file pattern. For example, to restrict the operation to only analyze
                 build files you could use <userinput>build*.xml</userinput> for the file
                 pattern.</li>
-              <li id="li_wwl_bgk_54b"><uicontrol>Restrict only to known XML file types</uicontrol> - When selected, only
+              <li id="li_wwl_bgk_54b" irina="irina"><uicontrol>Restrict only to known XML file types</uicontrol> - When selected, only
                 resources with a known XML file type will be affected by the operation.</li>
-              <li product="author developer editor" id="li_xwl_bgk_54b"><uicontrol>Look inside archives</uicontrol> -
+              <li product="author developer editor" id="li_xwl_bgk_54b" irina="irina"><uicontrol>Look inside archives</uicontrol> -
                 When selected, the resources inside archives will also be affected.</li>
             </ul></dd>
         </dlentry>

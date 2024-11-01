@@ -19,17 +19,17 @@
       <title>Uploading a Review Task</title>
       <p id="p_pwt_dgk_54b">To create a review task using files from a CMS, there are several possibilities:</p>
       <ul id="ul_jnt_rxx_rfb">
-        <li id="li_qwt_dgk_54b">You can open the file in the editor and then use the <uicontrol><image
+        <li id="li_qwt_dgk_54b" irina="irina">You can open the file in the editor and then use the <uicontrol><image
               href="../img/ShowFusion18.png" id="image_ivx_cl4_f1b"/>Add File to Review
             Task</uicontrol> action from the contextual menu.</li>
-        <li id="li_rwt_dgk_54b">If you work with DITA resources, you can open the map in the <uicontrol>DITA Maps
+        <li id="li_rwt_dgk_54b" irina="irina">If you work with DITA resources, you can open the map in the <uicontrol>DITA Maps
             Manager</uicontrol> view and use the <uicontrol><image href="../img/ShowFusion18.png"
             />Add File to Review Task</uicontrol> action from the contextual menu. You can also drag
           the map entries and drop them in the <uicontrol>New Task</uicontrol> box.</li>
-        <li id="li_swt_dgk_54b">If it is available in your customized version of <b>Oxygen</b>, you can drag resources
+        <li id="li_swt_dgk_54b" irina="irina">If it is available in your customized version of <b>Oxygen</b>, you can drag resources
           from the <uicontrol>Data Source Explorer</uicontrol> view and drop them in the
             <uicontrol>New Task</uicontrol> box.</li>
-        <li id="li_twt_dgk_54b">If you have a special view for exploring the server containing documents on your CMS,
+        <li id="li_twt_dgk_54b" irina="irina">If you have a special view for exploring the server containing documents on your CMS,
           you can also drag resources from that view and drop them in the <uicontrol>New
             Task</uicontrol> box.</li>
       </ul>
@@ -45,11 +45,11 @@
       <title>Getting the changes</title>
       <p id="p_vwt_dgk_54b">To retrieve the changes made by reviewers and save them in the CMS, follow these steps:<ol
           id="ol_w4w_myx_rfb">
-          <li id="li_wwt_dgk_54b">Click the <uicontrol>Get Changes</uicontrol> link in the task box. The <xref
+          <li id="li_wwt_dgk_54b" irina="irina">Click the <uicontrol>Get Changes</uicontrol> link in the task box. The <xref
               href="merging_changes.dita">merge tool</xref> is displayed.</li>
-          <li id="li_xwt_dgk_54b">Merge the changes from the remote files with the current version of the files. The
+          <li id="li_xwt_dgk_54b" irina="irina">Merge the changes from the remote files with the current version of the files. The
             files are automatically opened in the editor as modified with all the changes applied. </li>
-          <li id="li_ywt_dgk_54b">Save the files using the specific procedure for your CMS.</li>
+          <li id="li_ywt_dgk_54b" irina="irina">Save the files using the specific procedure for your CMS.</li>
         </ol></p>
     </section>
   </body>

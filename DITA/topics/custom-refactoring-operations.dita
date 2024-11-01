@@ -18,9 +18,9 @@
       specific needs. For example, you could create a custom refactoring operation to convert an
       attribute to an element and insert the element as the first child of the parent element.</p>
     <p id="p_pf1_cgk_54b">An XML Refactoring operation is defined as a pair of resources:<ul id="ul_gwv_s4c_jr">
-        <li id="li_qf1_cgk_54b">An <i>XQuery Update script</i> or <i>XSLT stylesheet</i> that <ph keyref="product"/>
+        <li id="li_qf1_cgk_54b" irina="irina">An <i>XQuery Update script</i> or <i>XSLT stylesheet</i> that <ph keyref="product"/>
           will run to refactor the XML files.</li>
-        <li id="li_rf1_cgk_54b">An <i>XML Operation Descriptor</i> file that contains information about the operation
+        <li id="li_rf1_cgk_54b" irina="irina">An <i>XML Operation Descriptor</i> file that contains information about the operation
           (such as the name, description, and parameters).</li>
       </ul></p>
     <p id="p_sf1_cgk_54b">
@@ -37,22 +37,22 @@
     <p id="p_uf1_cgk_54b">After the user chooses an operation and specifies its parameters, <ph keyref="product"/>
       processes an XQuery Update or XSLT transformation over the input file. This transformation is
       executed in a <b>safe mode</b>, which implies the following:<ul id="ul_psd_jpm_kr">
-        <li id="li_vf1_cgk_54b">When loading the document:<ul id="ul_jgd_kpm_kr">
-            <li id="li_wf1_cgk_54b">The <b>XInclude</b> mechanism is disabled. This means that the resources included by
+        <li id="li_vf1_cgk_54b" irina="irina">When loading the document:<ul id="ul_jgd_kpm_kr">
+            <li id="li_wf1_cgk_54b" irina="irina">The <b>XInclude</b> mechanism is disabled. This means that the resources included by
               using XInclude will not be visible in the transformation.</li>
-            <li id="li_xf1_cgk_54b">The DTD entities will be processed without being expanded.</li>
-            <li id="li_yf1_cgk_54b">The associated DTD will be not loaded, so the default attributes declared in the DTD
+            <li id="li_xf1_cgk_54b" irina="irina">The DTD entities will be processed without being expanded.</li>
+            <li id="li_yf1_cgk_54b" irina="irina">The associated DTD will be not loaded, so the default attributes declared in the DTD
               will not be visible in the transformation.</li>
           </ul></li>
-        <li id="li_zf1_cgk_54b">When saving the updated XML document:<ul id="ul_bcl_ppm_kr">
-            <li id="li_ag1_cgk_54b">The <codeph>DOCTYPE</codeph> will be preserved.<note id="note_bg1_cgk_54b">This can be changed using <xref
+        <li id="li_zf1_cgk_54b" irina="irina">When saving the updated XML document:<ul id="ul_bcl_ppm_kr">
+            <li id="li_ag1_cgk_54b" irina="irina">The <codeph>DOCTYPE</codeph> will be preserved.<note id="note_bg1_cgk_54b">This can be changed using <xref
                   href="custom_operation_sample.dita#custom_operation_sample/using_saxon_extension_functions_to_allow_custom_r"
                   >Saxon extension functions in XSLT</xref>.</note></li>
-            <li id="li_cg1_cgk_54b">The DTD entities will be preserved as they are in the original document when the
+            <li id="li_cg1_cgk_54b" irina="irina">The DTD entities will be preserved as they are in the original document when the
               document is saved.</li>
-            <li id="li_dg1_cgk_54b">The attribute values will be kept in their original form without being
+            <li id="li_dg1_cgk_54b" irina="irina">The attribute values will be kept in their original form without being
               normalized.</li>
-            <li id="li_eg1_cgk_54b">The spaces between attributes are preserved. Basically, the spaces are lost by a
+            <li id="li_eg1_cgk_54b" irina="irina">The spaces between attributes are preserved. Basically, the spaces are lost by a
               regular XML serialization since they are not considered important.</li>
           </ul></li>
       </ul></p>
@@ -72,18 +72,18 @@
     <section id="creating_a_custom_refactoring_operation">
       <title>Creating a Custom Refactoring Operation</title>
       <p id="p_ig1_cgk_54b">To create a custom refactoring operation, follow these steps:<ol id="ol_swm_crc_jr">
-          <li id="li_jg1_cgk_54b">Create an <xref
+          <li id="li_jg1_cgk_54b" irina="irina">Create an <xref
               href="custom_operation_sample_xquery.dita#custom_operation_sample_xquery">XQuery
               Update script</xref> or <xref
               href="custom_operation_sample.dita#custom_operation_sample">XSLT stylesheet
               file</xref>.</li>
-          <li id="li_kg1_cgk_54b">Create an XML refactoring operation descriptor file, that
+          <li id="li_kg1_cgk_54b" irina="irina">Create an XML refactoring operation descriptor file, that
             references the above script, as explained in these sections:  <xref
               href="custom_operation_sample_xquery.dita#custom_operation_sample_xquery/descriptor-example-section"
               >Example descriptor file for an XQuery Update script</xref> or <xref
               href="custom_operation_sample.dita#custom_operation_sample/descriptor-example-section"
               >Example descriptor file for an XSLT stylesheet</xref>.</li>
-          <li id="li_lg1_cgk_54b">
+          <li id="li_lg1_cgk_54b" irina="irina">
             <p id="p_mg1_cgk_54b">Store both files in <xref
                 href="sharing-custom-refactoring-operations.dita#sharing-custom-refactoring-operations"
                 >one of the locations that <ph keyref="product"/></xref> scans when loading the

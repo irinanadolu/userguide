@@ -6,9 +6,9 @@
   <body>
     <p id="p_fyx_bgk_54b">The DocBook <xref keyref="glossentry_framework"><term>framework</term></xref> supports the
       following two table model layouts:<ul id="ul_gyx_bgk_54b">
-        <li id="li_hyx_bgk_54b"><xref href="#author-editing-tables-docbook/cals-table-model-docbook" format="dita"
+        <li id="li_hyx_bgk_54b" irina="irina"><xref href="#author-editing-tables-docbook/cals-table-model-docbook" format="dita"
               ><term>CALS</term> table model</xref></li>
-        <li id="li_iyx_bgk_54b"><xref href="#author-editing-tables-docbook/html-table-model-docbook" format="dita"
+        <li id="li_iyx_bgk_54b" irina="irina"><xref href="#author-editing-tables-docbook/html-table-model-docbook" format="dita"
               ><term>HTML</term> table model</xref></li>
       </ul></p>
     <section id="cals-table-model-docbook">
@@ -51,9 +51,9 @@
         them to <i>HTML</i> tables, set the <codeph>docbook.html.table</codeph> parameter to
           <codeph>1</codeph>. You can find this parameter in the following stylesheet:<ul
           id="ul_xnw_bfq_c4">
-          <li id="li_qyx_bgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_qyx_bgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/docbook/resources/xhtml2db5Driver.xsl</filepath> for DocBook 5</li>
-          <li id="li_ryx_bgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_ryx_bgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/docbook/resources/xhtml2db4Driver.xsl</filepath> for DocBook 4</li>
         </ul></p>
     </section>

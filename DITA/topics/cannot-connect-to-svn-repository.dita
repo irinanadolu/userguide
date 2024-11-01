@@ -22,7 +22,7 @@
           <p id="p_pdk_dgk_54b">If the above conditions are verified and you cannot connect to the SVN repository,
             generate logging files on your computer and send them to <ph keyref="supportEmail"/>.
             For generating the logging files, follow these steps:<ol id="ol_wdj_44r_js">
-              <li id="li_qdk_dgk_54b">Create a text file called <filepath>logback.xml</filepath> in
+              <li id="li_qdk_dgk_54b" irina="irina">Create a text file called <filepath>logback.xml</filepath> in
                 the application installation folder with the following content:
                 <codeblock outputclass="language-ini" id="codeblock_rdk_dgk_54b">&lt;configuration>
     &lt;appender name="R2" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -44,10 +44,10 @@
         &lt;appender-ref ref="R2" />
     &lt;/root>
 &lt;/configuration></codeblock></li>
-              <li id="li_sdk_dgk_54b">Restart the application.</li>
-              <li id="li_tdk_dgk_54b">Reproduce the error.</li>
-              <li id="li_udk_dgk_54b">Close the application.</li>
-              <li id="li_vdk_dgk_54b">Delete the <filepath>logback.xml</filepath> file because it
+              <li id="li_sdk_dgk_54b" irina="irina">Restart the application.</li>
+              <li id="li_tdk_dgk_54b" irina="irina">Reproduce the error.</li>
+              <li id="li_udk_dgk_54b" irina="irina">Close the application.</li>
+              <li id="li_vdk_dgk_54b" irina="irina">Delete the <filepath>logback.xml</filepath> file because it
                 might cause performance issues if you leave it in the installation folder. <note
                   type="important" id="note_wdk_dgk_54b">The logging mode may severely decrease the
                   performance of the application. Therefore, do not forget to delete the

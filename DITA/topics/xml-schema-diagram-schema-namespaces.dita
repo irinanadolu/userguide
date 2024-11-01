@@ -18,8 +18,8 @@
     <p id="p_bmc_cgk_54b">The <uicontrol>XML Schema Namespaces</uicontrol> dialog box allows you to edit the following
       information: </p>
     <ul id="ul_cmc_cgk_54b">
-      <li id="li_dmc_cgk_54b"><uicontrol>Target namespace</uicontrol> - The target namespace of the schema.</li>
-      <li id="li_emc_cgk_54b"><uicontrol>Prefixes</uicontrol> - The dialog box displays a table with namespaces and the
+      <li id="li_dmc_cgk_54b" irina="irina"><uicontrol>Target namespace</uicontrol> - The target namespace of the schema.</li>
+      <li id="li_emc_cgk_54b" irina="irina"><uicontrol>Prefixes</uicontrol> - The dialog box displays a table with namespaces and the
         mapped prefixes. You can add a new prefix mapping or remove an already existing one.</li>
     </ul>
   </body>

@@ -35,14 +35,14 @@ Deactivate change tracking and try again. </codeblock></p>
           <p>An administrator can set the <codeph>changeTrackingBehavior</codeph> parameter for the
               <codeph>DeleteTableRowOperation</codeph> with one of the following values:<ul
               id="ul_l5p_3ys_s4b">
-              <li id="li_m5p_3ys_s4b"><b>Block</b> - The operation is not executed when change
+              <li id="li_m5p_3ys_s4b" irina="irina"><b>Block</b> - The operation is not executed when change
                 tracking is activated.</li>
-              <li id="li_frf_kys_s4b"><b>Allow</b> - The operation is executed when change tracking
+              <li id="li_frf_kys_s4b" irina="irina"><b>Allow</b> - The operation is executed when change tracking
                 is activated. In the future, if complex table operations are performed, the
                 resulting table layout may be broken.</li>
-              <li id="li_ewh_mys_s4b"><b>Allow without change tracking</b> - The operation is
+              <li id="li_ewh_mys_s4b" irina="irina"><b>Allow without change tracking</b> - The operation is
                 executed with change tracking disabled.</li>
-              <li id="li_uwj_4ys_s4b"><b>Allow</b> - The editor decides which strategy to use,
+              <li id="li_uwj_4ys_s4b" irina="irina"><b>Allow</b> - The editor decides which strategy to use,
                 possibly asking the end user.</li>
             </ul></p>
         </steps-informal>

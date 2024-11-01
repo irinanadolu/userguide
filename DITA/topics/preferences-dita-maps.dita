@@ -29,12 +29,12 @@
             in the <xref keyref="dita_edit-maps"><uicontrol>DITA Maps Manager</uicontrol></xref>.
             This option allows you to specify how a map will be opened. You can choose one of the
             following options:<ul id="ul_mkd_yzz_gmb">
-              <li id="li_ppq_bgk_54b"><uicontrol>Always open in the DITA Maps Manager</uicontrol> - A <term>DITA
+              <li id="li_ppq_bgk_54b" irina="irina"><uicontrol>Always open in the DITA Maps Manager</uicontrol> - A <term>DITA
                   map</term> file is always opened in the <uicontrol>DITA Maps Manager</uicontrol>
                 view.</li>
-              <li id="li_qpq_bgk_54b"><uicontrol>Always open as XML</uicontrol> - A <term>DITA map</term> file is always
+              <li id="li_qpq_bgk_54b" irina="irina"><uicontrol>Always open as XML</uicontrol> - A <term>DITA map</term> file is always
                 opened in the XML editor.</li>
-              <li id="li_rpq_bgk_54b"><uicontrol>Always ask</uicontrol> - When opening a <term>DITA map</term>, you are
+              <li id="li_rpq_bgk_54b" irina="irina"><uicontrol>Always ask</uicontrol> - When opening a <term>DITA map</term>, you are
                 prompted to choose between opening it in the XML editor panel or in the
                   <uicontrol>DITA Maps Manager</uicontrol> view.</li>
             </ul></dd>
@@ -109,13 +109,13 @@
               attributes will always be automatically populated with a detected value (based on the
               specifications), even if it is the same as the default value. You can choose to always
               populate the values for the following attributes:<ul id="ul_otf_2zz_gmb">
-                <li id="li_aqq_bgk_54b"><uicontrol>Format</uicontrol> - If selected, the <xmlatt>format</xmlatt>
+                <li id="li_aqq_bgk_54b" irina="irina"><uicontrol>Format</uicontrol> - If selected, the <xmlatt>format</xmlatt>
                   attribute will always be automatically populated with a detected value.</li>
-                <li id="li_bqq_bgk_54b"><uicontrol>Scope</uicontrol> - If selected, the <xmlatt>scope</xmlatt> attribute
+                <li id="li_bqq_bgk_54b" irina="irina"><uicontrol>Scope</uicontrol> - If selected, the <xmlatt>scope</xmlatt> attribute
                   will always be automatically populated with a detected value.</li>
-                <li id="li_cqq_bgk_54b"><uicontrol>Type</uicontrol> - If selected, the <xmlatt>type</xmlatt> attribute
+                <li id="li_cqq_bgk_54b" irina="irina"><uicontrol>Type</uicontrol> - If selected, the <xmlatt>type</xmlatt> attribute
                   will always be automatically populated with a detected value.</li>
-                <li id="li_dqq_bgk_54b"><uicontrol>Navigation title</uicontrol> - If selected, the
+                <li id="li_dqq_bgk_54b" irina="irina"><uicontrol>Navigation title</uicontrol> - If selected, the
                     <xmlatt>navtitle</xmlatt> attribute will always be automatically populated with
                   a detected value.</li>
               </ul></dd>
@@ -128,14 +128,14 @@
                 <xmlelement>topicref</xmlelement> for references to DITA maps. This option has a
               slightly different effect depending on the method used for inserting the topic
                 reference:<ul id="ul_w4f_qcq_klb">
-                <li id="li_fqq_bgk_54b"><b>Drag/Drop or Copy/Paste in the DITA Maps Manager</b> - If
+                <li id="li_fqq_bgk_54b" irina="irina"><b>Drag/Drop or Copy/Paste in the DITA Maps Manager</b> - If
                   you drag or copy a resource from another view (or outside <ph keyref="product"/>)
                   and drop or paste it into the <uicontrol>DITA Maps Manager</uicontrol> and a key
                   is already defined for that resource, a <xmlatt>keyref</xmlatt> attribute will be
                   inserted instead. This even works for two consecutive drag/drop or copy/paste
                   operations without saving the file and it works for multiple selections of topic
                   references.</li>
-                <li id="li_gqq_bgk_54b"><b>Drag/Drop or Copy/Paste in a Map opened in Author
+                <li id="li_gqq_bgk_54b" irina="irina"><b>Drag/Drop or Copy/Paste in a Map opened in Author
                     Mode</b> - If you drag or copy a resource from another view (or outside <ph
                     keyref="product"/>) and drop or paste it into a map that is open in
                     <uicontrol>Author</uicontrol> mode and a key is already defined for that
@@ -146,14 +146,14 @@
                     attribute will be the same for both inserted topic references. The workaround
                     for this limitation is to simply save the map after each drag/drop or copy/paste
                     operation.</note></li>
-                <li id="li_iqq_bgk_54b"><b>Using the Fast Create Topics or Duplicate Actions</b> -
+                <li id="li_iqq_bgk_54b" irina="irina"><b>Using the Fast Create Topics or Duplicate Actions</b> -
                   If you use the <xref href="fast-create-topics.dita"><uicontrol>Fast Create
                       Topics</uicontrol> feature</xref> or <xref href="create-topic-in-map.dita"
                       ><uicontrol>Duplicate</uicontrol> action</xref> to insert topic references,
                   the newly created <xmlelement>topicref</xmlelement> elements will contain the
                     <xmlatt>keys</xmlatt> attribute with its value set depending on the file
                   name.</li>
-                <li id="li_jqq_bgk_54b"><b>Using the <uicontrol>Insert Topic Reference</uicontrol>
+                <li id="li_jqq_bgk_54b" irina="irina"><b>Using the <uicontrol>Insert Topic Reference</uicontrol>
                     Dialog Box from the DITA Maps Manager</b> - If you use an action in the
                     <uicontrol>DITA Maps Manager</uicontrol> to insert topic references (e.g. <menucascade>
                     <uicontrol>Append Child</uicontrol>
@@ -209,19 +209,19 @@
               items in the <xref href="review-view.dita"><uicontrol>Review</uicontrol> view</xref>
               and you reach the last or first review item. You can choose one of the following
                 options:<ul id="ul_emz_r11_hmb">
-                <li id="li_nqq_bgk_54b"><uicontrol>Open the next/previous document (in the current DITA map hierarchy)
+                <li id="li_nqq_bgk_54b" irina="irina"><uicontrol>Open the next/previous document (in the current DITA map hierarchy)
                     that contains review items</uicontrol> - If you reach the last/first review item
                   in the document, clicking the <uicontrol><image href="../img/NextReference16.png"
                       id="image_fmz_r11_hmb"/>Next</uicontrol> or <uicontrol><image
                       href="../img/PreviousReference16.png" id="image_gmz_r11_hmb"
                     />Previous</uicontrol> navigation buttons will open the next/previous document
                   (from the current DITA map hierarchy) that contains review items.</li>
-                <li id="li_oqq_bgk_54b"><uicontrol>Do nothing</uicontrol> - If you reach the last/first review item in
+                <li id="li_oqq_bgk_54b" irina="irina"><uicontrol>Do nothing</uicontrol> - If you reach the last/first review item in
                   the document, clicking the <uicontrol><image href="../img/NextReference16.png"
                       id="image_hmz_r11_hmb"/>Next</uicontrol> or <uicontrol><image
                       href="../img/PreviousReference16.png" id="image_imz_r11_hmb"
                     />Previous</uicontrol> navigation buttons will do nothing.</li>
-                <li id="li_pqq_bgk_54b"><uicontrol>Always ask</uicontrol> - If you reach the last/first review item in
+                <li id="li_pqq_bgk_54b" irina="irina"><uicontrol>Always ask</uicontrol> - If you reach the last/first review item in
                   the document, clicking the <uicontrol><image href="../img/NextReference16.png"
                       id="image_jmz_r11_hmb"/>Next</uicontrol> or <uicontrol><image
                       href="../img/PreviousReference16.png" id="image_kmz_r11_hmb"

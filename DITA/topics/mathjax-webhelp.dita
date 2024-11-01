@@ -29,20 +29,20 @@
     <section id="section_dr4_xkq_jnb">
       <title>Alternate Method for DITA</title>
       <p id="p_rs4_cgk_54b">For DITA documents, you can also use the following procedure:<ol id="ol_u34_ykq_jnb">
-          <li id="li_ss4_cgk_54b">Create an XML file that contains a script similar to the one shown in the example
+          <li id="li_ss4_cgk_54b" irina="irina">Create an XML file that contains a script similar to the one shown in the example
             above.</li>
-          <li id="li_ts4_cgk_54b">Edit the DITA Map transformation scenario and open the
+          <li id="li_ts4_cgk_54b" irina="irina">Edit the DITA Map transformation scenario and open the
               <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_us4_cgk_54b">Set the following parameter to point to the XML file created in step 1:<ul
+          <li id="li_us4_cgk_54b" irina="irina">Set the following parameter to point to the XML file created in step 1:<ul
               id="ul_v34_ykq_jnb">
-              <li id="li_vs4_cgk_54b"><b>WebHelp Responsive Systems</b> - Set the <codeph>webhelp.fragment.head</codeph>
+              <li id="li_vs4_cgk_54b" irina="irina"><b>WebHelp Responsive Systems</b> - Set the <codeph>webhelp.fragment.head</codeph>
                 parameter to point to your XML file.</li>
-              <li id="li_ws4_cgk_54b"><b>WebHelp Classic Systems</b> - Set the <codeph>webhelp.head.script</codeph>
+              <li id="li_ws4_cgk_54b" irina="irina"><b>WebHelp Classic Systems</b> - Set the <codeph>webhelp.head.script</codeph>
                 parameter to point to your XML file.</li>
-              <li id="li_xs4_cgk_54b"><b>Any other type of HTML-based publishing</b> - Set the <codeph>args.hdf</codeph>
+              <li id="li_xs4_cgk_54b" irina="irina"><b>Any other type of HTML-based publishing</b> - Set the <codeph>args.hdf</codeph>
                 parameter to point to your XML file.</li>
             </ul></li>
-          <li id="li_ys4_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_ys4_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
       <p id="p_zs4_cgk_54b"><b>Result:</b> The equation should now be properly rendered in other browsers, such as
         Edge, IE, or Chrome.</p>

@@ -12,10 +12,10 @@
   </prolog>
   <body>
     <p id="p_tvt_dgk_54b">There are two ways to delete a task:<ul id="ul_uvt_dgk_54b">
-        <li id="li_vvt_dgk_54b">In the <uicontrol>Content Fusion Tasks Manager</uicontrol> view,
+        <li id="li_vvt_dgk_54b" irina="irina">In the <uicontrol>Content Fusion Tasks Manager</uicontrol> view,
           hover over the task you want to delete and click the <uicontrol>Delete Task</uicontrol>
           link.</li>
-        <li id="li_wvt_dgk_54b">Open the task in the <ph keyref="product"/> interface, click on
+        <li id="li_wvt_dgk_54b" irina="irina">Open the task in the <ph keyref="product"/> interface, click on
             <uicontrol>Settings</uicontrol> in the left stripe, and click
             <uicontrol>Delete</uicontrol>.</li>
       </ul></p>

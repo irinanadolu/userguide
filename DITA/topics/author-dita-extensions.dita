@@ -382,10 +382,10 @@
                     <dd>Allows you to insert a predefined entity or character entity. Surrogate
                       character entities (range #x10000 to #x10FFFF) are also accepted. Character
                       entities can be entered in one of the following forms: <ul id="ul_t3w_twm_ps">
-                        <li id="li_djj_cgk_54b">#<i>&lt;decimal value&gt;</i> - e.g. #65</li>
-                        <li id="li_ejj_cgk_54b">&amp;#<i>&lt;decimal value&gt;</i> - e.g. &amp;#65</li>
-                        <li id="li_fjj_cgk_54b">#x<i>&lt;hexadecimal value&gt;</i> - e.g. #x41</li>
-                        <li id="li_gjj_cgk_54b">&amp;#x<i>&lt;hexadecimal value&gt;</i> - e.g. &amp;#x41</li>
+                        <li id="li_djj_cgk_54b" irina="irina">#<i>&lt;decimal value&gt;</i> - e.g. #65</li>
+                        <li id="li_ejj_cgk_54b" irina="irina">&amp;#<i>&lt;decimal value&gt;</i> - e.g. &amp;#65</li>
+                        <li id="li_fjj_cgk_54b" irina="irina">#x<i>&lt;hexadecimal value&gt;</i> - e.g. #x41</li>
+                        <li id="li_gjj_cgk_54b" irina="irina">&amp;#x<i>&lt;hexadecimal value&gt;</i> - e.g. &amp;#x41</li>
                       </ul></dd>
                   </dlentry>
                 </dl>
@@ -985,48 +985,48 @@
       </p>
       <p id="p_f4j_cgk_54b">The <term>floating contextual toolbar</term> is automatically displayed when editing DITA
         documents in various situations, including:<ul id="ul_oq2_twx_smb">
-          <li id="li_g4j_cgk_54b">When a <xmlelement>p</xmlelement>, <xmlelement>li</xmlelement>, or
+          <li id="li_g4j_cgk_54b" irina="irina">When a <xmlelement>p</xmlelement>, <xmlelement>li</xmlelement>, or
               <xmlelement>shortdesc</xmlelement> element has a selection inside, the floating
             toolbar includes actions such as <uicontrol><image href="../img/Bold16.gif"
                 id="image_ss1_fxx_smb"/>Bold</uicontrol>, <uicontrol><image
                 href="../img/Italic16.png" id="image_zq2_lxx_smb"/>Italic</uicontrol>,
                 <uicontrol><image href="../img/Underline16.gif" id="image_dtv_lxx_smb"
               />Underline</uicontrol>, a <uicontrol>Link</uicontrol> submenu, and more.</li>
-          <li id="li_h4j_cgk_54b">When an <xmlelement>image</xmlelement> or <xmlelement>xref</xmlelement> element is
+          <li id="li_h4j_cgk_54b" irina="irina">When an <xmlelement>image</xmlelement> or <xmlelement>xref</xmlelement> element is
               selected:<ul id="ul_lhm_wxx_smb">
-              <li id="li_i4j_cgk_54b">If the element has an <xmlatt>href</xmlatt> attribute, the floating toolbar
+              <li id="li_i4j_cgk_54b" irina="irina">If the element has an <xmlatt>href</xmlatt> attribute, the floating toolbar
                 includes a URL chooser where you can select the appropriate target.</li>
-              <li id="li_j4j_cgk_54b">If the element has a <xmlatt>keyref</xmlatt> attribute, the floating toolbar
+              <li id="li_j4j_cgk_54b" irina="irina">If the element has a <xmlatt>keyref</xmlatt> attribute, the floating toolbar
                 includes a drop-down control where you can select the appropriate target key
                 reference.</li>
             </ul></li>
-          <li id="li_k4j_cgk_54b">When an <xmlelement>object</xmlelement> element is selected:<ul id="ul_vvt_wyx_smb">
-              <li id="li_l4j_cgk_54b">If the element has a <xmlatt>data</xmlatt> attribute, the floating toolbar
+          <li id="li_k4j_cgk_54b" irina="irina">When an <xmlelement>object</xmlelement> element is selected:<ul id="ul_vvt_wyx_smb">
+              <li id="li_l4j_cgk_54b" irina="irina">If the element has a <xmlatt>data</xmlatt> attribute, the floating toolbar
                 includes a URL chooser where you can select the appropriate target.</li>
-              <li id="li_m4j_cgk_54b">If the element has a <xmlatt>datakeyref</xmlatt> attribute, the floating toolbar
+              <li id="li_m4j_cgk_54b" irina="irina">If the element has a <xmlatt>datakeyref</xmlatt> attribute, the floating toolbar
                 includes a drop-down control where you can select the appropriate target key
                 reference.</li>
             </ul></li>
-          <li id="li_n4j_cgk_54b">When an element with a <xmlatt>conref</xmlatt> attribute is selected, the floating
+          <li id="li_n4j_cgk_54b" irina="irina">When an element with a <xmlatt>conref</xmlatt> attribute is selected, the floating
             toolbar includes actions for editing, removing, or replacing content references.</li>
-          <li id="li_o4j_cgk_54b">When a <xmlelement>codeblock</xmlelement> element is selected, the floating toolbar
+          <li id="li_o4j_cgk_54b" irina="irina">When a <xmlelement>codeblock</xmlelement> element is selected, the floating toolbar
             includes a drop-down control where you can select the value of the
               <xmlatt>outputclass</xmlatt> attribute.</li>
-          <li id="li_p4j_cgk_54b">When a <xmlelement>ul</xmlelement> element is selected, the floating toolbar includes
+          <li id="li_p4j_cgk_54b" irina="irina">When a <xmlelement>ul</xmlelement> element is selected, the floating toolbar includes
             actions for converting it to an ordered list or sorting the list.</li>
-          <li id="li_q4j_cgk_54b">When an <xmlelement>ol</xmlelement> element is selected, the floating toolbar includes
+          <li id="li_q4j_cgk_54b" irina="irina">When an <xmlelement>ol</xmlelement> element is selected, the floating toolbar includes
             actions for converting it to an unordered list or sorting the list.</li>
-          <li id="li_r4j_cgk_54b">When an <xmlelement>li</xmlelement> or <xmlelement>step</xmlelement> element is
+          <li id="li_r4j_cgk_54b" irina="irina">When an <xmlelement>li</xmlelement> or <xmlelement>step</xmlelement> element is
             selected, the floating toolbar includes actions for moving the item up or down in the
             list/procedure.</li>
-          <li id="li_s4j_cgk_54b">When a <xmlelement>row</xmlelement> or <xmlelement>strow</xmlelement> element is
+          <li id="li_s4j_cgk_54b" irina="irina">When a <xmlelement>row</xmlelement> or <xmlelement>strow</xmlelement> element is
             selected in a table, the floating toolbar includes various table-related actions (such
             as actions for editing table properties, inserting rows, or deleting rows).</li>
-          <li id="li_t4j_cgk_54b">When an <xmlelement>entry</xmlelement> or <xmlelement>stentry</xmlelement> element is
+          <li id="li_t4j_cgk_54b" irina="irina">When an <xmlelement>entry</xmlelement> or <xmlelement>stentry</xmlelement> element is
             selected in a table, the floating toolbar includes various table-related actions (such
             as actions for editing table properties, inserting/deleting rows, or inserting/deleting
             columns).</li>
-          <li id="li_u4j_cgk_54b">When a <xmlelement>table</xmlelement> or <xmlelement>simpletable</xmlelement> element
+          <li id="li_u4j_cgk_54b" irina="irina">When a <xmlelement>table</xmlelement> or <xmlelement>simpletable</xmlelement> element
             is selected, the floating toolbar includes actions for editing table properties or
             sorting the table.</li>
         </ul></p>

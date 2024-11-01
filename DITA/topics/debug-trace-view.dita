@@ -20,13 +20,13 @@
   <body>
     <p id="p_rjz_cgk_54b">Usually, the XSLT/XQuery processors signal the following events during transformation:</p>
     <ul id="ul_sjz_cgk_54b">
-      <li id="li_tjz_cgk_54b"><uicontrol><image href="../img/EnteringXml12.png" id="image_nmc_hym_wr"/></uicontrol> -
+      <li id="li_tjz_cgk_54b" irina="irina"><uicontrol><image href="../img/EnteringXml12.png" id="image_nmc_hym_wr"/></uicontrol> -
         Entering a source (XML) node.</li>
-      <li id="li_ujz_cgk_54b"><uicontrol><image href="../img/LeavingXml12.png" id="image_wz2_jbn_wr"/></uicontrol> -
+      <li id="li_ujz_cgk_54b" irina="irina"><uicontrol><image href="../img/LeavingXml12.png" id="image_wz2_jbn_wr"/></uicontrol> -
         Leaving a source (XML) node.</li>
-      <li id="li_vjz_cgk_54b"><uicontrol><image href="../img/EnteringXsl12.png" id="image_qnq_hym_wr"/></uicontrol> -
+      <li id="li_vjz_cgk_54b" irina="irina"><uicontrol><image href="../img/EnteringXsl12.png" id="image_qnq_hym_wr"/></uicontrol> -
         Entering an XSLT/XQuery node.</li>
-      <li id="li_wjz_cgk_54b"><uicontrol><image href="../img/LeavingXsl12.png" id="image_vyn_jbn_wr"/></uicontrol> -
+      <li id="li_wjz_cgk_54b" irina="irina"><uicontrol><image href="../img/LeavingXsl12.png" id="image_vyn_jbn_wr"/></uicontrol> -
         Leaving an XSLT/XQuery node.</li>
     </ul>
     <p id="p_xjz_cgk_54b">The <uicontrol>Trace</uicontrol> view catches all of these events, so you can see how the
@@ -96,9 +96,9 @@
       </tgroup>
     </table>
     <note type="important" id="note_gkz_cgk_54b">Remarks:<ul id="ul_hkz_cgk_54b">
-        <li id="li_ikz_cgk_54b">Clicking a record highlights that node's location inside the resource.</li>
-        <li id="li_jkz_cgk_54b">Only the Saxon processor shows the element attributes.</li>
-        <li id="li_kkz_cgk_54b">The Xalan processor shows also the built-in rules.</li>
+        <li id="li_ikz_cgk_54b" irina="irina">Clicking a record highlights that node's location inside the resource.</li>
+        <li id="li_jkz_cgk_54b" irina="irina">Only the Saxon processor shows the element attributes.</li>
+        <li id="li_kkz_cgk_54b" irina="irina">The Xalan processor shows also the built-in rules.</li>
       </ul></note>
   </body>
 </topic>

@@ -18,18 +18,18 @@
         href="author-docbook-topic-doc-type.dita#author-docbook-topic-doc-type">DocBook 5.1
           <i>topics</i></xref>) to form a hierarchical structure for a larger publication.</p>
     <p id="p_p2j_cgk_54b">An <i>Assembly</i> document usually has four major parts:<ul id="ul_q2j_cgk_54b">
-        <li id="li_r2j_cgk_54b"><b>Resources</b> - Identifies a collection of resources (such as topics). An
+        <li id="li_r2j_cgk_54b" irina="irina"><b>Resources</b> - Identifies a collection of resources (such as topics). An
             <i>Assembly</i> may identify one or more collections.</li>
-        <li id="li_s2j_cgk_54b"><b>Structure</b> - Identifies an artifact to be assembled. A document in this case is
+        <li id="li_s2j_cgk_54b" irina="irina"><b>Structure</b> - Identifies an artifact to be assembled. A document in this case is
           the particular collection of resources (such as topics) that forms the documentation.
           Within the <xmlelement>structure</xmlelement> element, an <xmlelement>output</xmlelement> element can be
           used to identify the type of output to be generated and <xmlelement>module</xmlelement> elements
           can be used to identify the resources to be included. An <i>Assembly</i> may identify one
           or more <i>structures</i>.</li>
-        <li id="li_t2j_cgk_54b"><b>Relationships</b> - Identifies relationships between resources. These relationships
+        <li id="li_t2j_cgk_54b" irina="irina"><b>Relationships</b> - Identifies relationships between resources. These relationships
           may be manifested in any number of <i>structures</i> during assembly. An <i>Assembly</i>
           may identify any number of relationships.</li>
-        <li id="li_u2j_cgk_54b"><b>Transformations</b> - Identifies transformations that can be applied during assembly.
+        <li id="li_u2j_cgk_54b" irina="irina"><b>Transformations</b> - Identifies transformations that can be applied during assembly.
           An <i>Assembly</i> may identify any number of transformations.</li>
       </ul></p>
     <p id="p_v2j_cgk_54b">For detailed information about the DocBook <i>Assembly</i> document type,
@@ -76,11 +76,11 @@
       <title>Resources</title>
       <p id="p_bfj_cgk_54b">
         <ul id="ul_cfj_cgk_54b">
-          <li id="li_dfj_cgk_54b"><xref href="http://tdg.docbook.org/tdg/5.2/ch06.html"
+          <li id="li_dfj_cgk_54b" irina="irina"><xref href="http://tdg.docbook.org/tdg/5.2/ch06.html"
               format="html" scope="external">The Definitive Guide - DocBook Assemblies</xref></li>
-          <li id="li_qfj_cgk_54b"><xref href="http://docbook.org/specs/" format="html"
+          <li id="li_qfj_cgk_54b" irina="irina"><xref href="http://docbook.org/specs/" format="html"
               scope="external">DocBook Specifications</xref></li>
-          <li id="li_ffj_cgk_54b">Sample files: <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_ffj_cgk_54b" irina="irina">Sample files: <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/samples/docbook/v5/assembly/</filepath></li>
         </ul>
       </p>

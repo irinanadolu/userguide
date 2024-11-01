@@ -8,11 +8,11 @@
       <p id="p_vq1_dgk_54b">You can customize the content of the following <uicontrol>Author</uicontrol> controls,
         adding items (which, when invoked, perform custom actions) or filtering the default
         contributed ones:<ul id="ul_bzi_waa_y">
-          <li id="li_wq1_dgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+          <li id="li_wq1_dgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
                 Assistant</term></xref> window</li>
-          <li id="li_xq1_dgk_54b"><xref href="author-elements-view.dita#author-elements-view"
+          <li id="li_xq1_dgk_54b" irina="irina"><xref href="author-elements-view.dita#author-elements-view"
                 ><uicontrol>Elements</uicontrol> view</xref></li>
-          <li id="li_yq1_dgk_54b"><uicontrol>Insert Element</uicontrol> menus (from the <xref
+          <li id="li_yq1_dgk_54b" irina="irina"><uicontrol>Insert Element</uicontrol> menus (from the <xref
               href="outliner-view.dita#outliner-view"
                 ><uicontrol>Outline</uicontrol> view</xref> or <xref
               href="author-editing-markup.dita#author-editing-markup/using_the_breadcrumb_in_author_mode"

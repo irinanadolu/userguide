@@ -17,7 +17,7 @@
     <p id="p_uzl_cgk_54b">A sequence of transformations described by an XProc script can be executed with an XProc
       transformation scenario. To create an <uicontrol>XProc transformation</uicontrol> scenario,
       use one of the following methods:<ul id="ul_fln_h5g_br">
-        <li id="li_vzl_cgk_54b">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_imp_tvv_sr"
+        <li id="li_vzl_cgk_54b" irina="irina">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_imp_tvv_sr"
             />Configure Transformation Scenario(s) (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
               product="author developer editor"/><shortcut
@@ -29,7 +29,7 @@
           </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
             >XML</uicontrol> menu. Then click the <uicontrol>New</uicontrol> button and select
             <uicontrol>XProc transformation</uicontrol>.</li>
-        <li id="li_wzl_cgk_54b">Go to <menucascade>
+        <li id="li_wzl_cgk_54b" irina="irina">Go to <menucascade>
             <uicontrol>Window</uicontrol>
             <uicontrol>Show View</uicontrol>
           </menucascade> and select <uicontrol><image href="../img/TransformConfig16.png"

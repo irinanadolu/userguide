@@ -40,43 +40,43 @@
     <p id="p_r5b_2h1_psb">To trust a certificate, follow this procedure:</p>
       <p id="p_fmd_g3p_4sb">
       <ol id="ol_es3_g3p_4sb">
-        <li id="li_fs3_g3p_4sb">Export a certificate into a local file using any HTTPS-capable web
+        <li id="li_fs3_g3p_4sb" irina="irina">Export a certificate into a local file using any HTTPS-capable web
             browser:<p id="p_jdp_n3p_4sb"><u><b>Chrome or Edge</b></u><ol id="ol_i34_q3p_4sb">
-              <li id="li_j34_q3p_4sb">Navigate to the page that uses the certificate.</li>
-              <li id="li_orw_r3p_4sb">Right-click the page and select
+              <li id="li_j34_q3p_4sb" irina="irina">Navigate to the page that uses the certificate.</li>
+              <li id="li_orw_r3p_4sb" irina="irina">Right-click the page and select
                 <uicontrol>Inspect</uicontrol>.</li>
-              <li id="li_v23_t3p_4sb">Select the <uicontrol>Security</uicontrol> tab.</li>
-              <li id="li_j4g_53p_4sb">Click <uicontrol>View
+              <li id="li_v23_t3p_4sb" irina="irina">Select the <uicontrol>Security</uicontrol> tab.</li>
+              <li id="li_j4g_53p_4sb" irina="irina">Click <uicontrol>View
                     Certificate</uicontrol>.<itemgroup><b>Step Result:</b> A
                     <uicontrol>Certificate</uicontrol> dialog box is displayed.</itemgroup></li>
-              <li id="li_dnw_w3p_4sb">Select the <uicontrol>Details</uicontrol> tab of the
+              <li id="li_dnw_w3p_4sb" irina="irina">Select the <uicontrol>Details</uicontrol> tab of the
                   <uicontrol>Certificate</uicontrol> dialog box.</li>
-              <li id="li_enw_w3p_4sb">Click the <uicontrol>Export</uicontrol> button.</li>
-              <li id="li_fnw_w3p_4sb">In the resulting dialog box, for the <uicontrol>Save as
+              <li id="li_enw_w3p_4sb" irina="irina">Click the <uicontrol>Export</uicontrol> button.</li>
+              <li id="li_fnw_w3p_4sb" irina="irina">In the resulting dialog box, for the <uicontrol>Save as
                   type</uicontrol> option, select <uicontrol>DER-encoded binary, single certificate
                   (*.der)</uicontrol>.</li>
-              <li id="li_xry_ck1_sxb">Save the certificate to the local file
+              <li id="li_xry_ck1_sxb" irina="irina">Save the certificate to the local file
                   <filepath>server.der</filepath>.</li>
             </ol></p><p id="p_wxb_qjp_4sb"><u><b>Safari</b></u><ol id="ol_xxb_qjp_4sb">
-              <li id="li_yxb_qjp_4sb">Navigate to the page that uses the certificate.</li>
-              <li id="li_zxb_qjp_4sb">If there is a <i>"This connection is not private"</i> message,
+              <li id="li_yxb_qjp_4sb" irina="irina">Navigate to the page that uses the certificate.</li>
+              <li id="li_zxb_qjp_4sb" irina="irina">If there is a <i>"This connection is not private"</i> message,
                 click <b>Show Details</b> and in the expanded panel, click <b>view the
                   certificate</b>.</li>
-              <li id="li_ayb_qjp_4sb">Otherwise, in the address bar, click the <i>padlock icon</i>
+              <li id="li_ayb_qjp_4sb" irina="irina">Otherwise, in the address bar, click the <i>padlock icon</i>
                 on the left side of the website name and in the displayed pop-up, click <b>Show
                   Certificate</b>.</li>
-              <li id="li_byb_qjp_4sb">Another pop-up box is displayed showing information about the
+              <li id="li_byb_qjp_4sb" irina="irina">Another pop-up box is displayed showing information about the
                   <b>certificate</b>. Drag the large <b>certificate</b> icon to a
                   <term>Finder</term> window. A <filepath>.cer</filepath> file will be created in
                 the indicated folder from <term>Finder</term>.</li>
             </ol></p></li>
-        <li id="li_kpj_4kp_4sb">Import the local file into the JRE running <ph keyref="product"
+        <li id="li_kpj_4kp_4sb" irina="irina">Import the local file into the JRE running <ph keyref="product"
             />:<ol id="ol_cyk_qkp_4sb">
-            <li id="li_dyk_qkp_4sb">Open a text-mode console with administrative
+            <li id="li_dyk_qkp_4sb" irina="irina">Open a text-mode console with administrative
                 rights.<itemgroup>If <ph keyref="product"/> has been installed in a user's home
                 directory and includes a bundled JRE, administrative rights are not required. In all
                 other cases, administrative rights will be required.</itemgroup></li>
-            <li id="li_eyk_qkp_4sb">Go to the <filepath>lib/security</filepath> directory of the JRE
+            <li id="li_eyk_qkp_4sb" irina="irina">Go to the <filepath>lib/security</filepath> directory of the JRE
               running <ph keyref="product"/>. You can find the home directory of the JRE in the
                 <i>java.home</i> property that is displayed in the <uicontrol>About</uicontrol>
               dialog box (<ph product="author developer editor json"><uicontrol>System
@@ -90,7 +90,7 @@
                     <filepath>.install4j/jre.bundle/Contents/Home/jre/lib/security/cacerts</filepath>
                   path within its installation directory.</note>
               </itemgroup></li>
-            <li id="li_gyk_qkp_4sb">Run the following
+            <li id="li_gyk_qkp_4sb" irina="irina">Run the following
                 command:<itemgroup><codeblock outputclass="language-ini">..\..\bin\keytool -import -trustcacerts -file server.cer -keystore cacerts</codeblock>The
                   <filepath>server.cer</filepath> file contains the server certificate, created
                 during the previous step. The <term>keytool</term> requires a password before adding
@@ -109,7 +109,7 @@ server1.cer -keystore cacerts
 server2.cer -keystore cacerts </codeblock>
                   </p></note></itemgroup></li>
           </ol></li>
-        <li id="li_aps_vkp_4sb"> Restart <ph keyref="product"/>. </li>
+        <li id="li_aps_vkp_4sb" irina="irina"> Restart <ph keyref="product"/>. </li>
       </ol>
     </p>
   </body>

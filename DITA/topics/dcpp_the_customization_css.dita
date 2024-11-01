@@ -29,18 +29,18 @@
       <title>Create Custom CSS Rules from Scratch</title>
       <p>
         <ol id="ol_p2g_l1t_zdb">
-          <li id="li_n3q_cgk_54b">Create a CSS file that will contain all of your customizations. It
+          <li id="li_n3q_cgk_54b" irina="irina">Create a CSS file that will contain all of your customizations. It
             is recommended to create this file in your project directory so you can edit it
               easily.<note type="tip" id="note_l3q_cgk_54b">If you use the default Chemistry
               processor in <b>Oxygen XML Editor/Author</b>, you can use LESS instead of CSS. In this
               case, the customization files should have the <filepath>.less</filepath>
               extension.</note></li>
-          <li id="li_o3q_cgk_54b">Add your custom CSS rules. As a good starting point, you can check
+          <li id="li_o3q_cgk_54b" irina="irina">Add your custom CSS rules. As a good starting point, you can check
             the various topics in this section for assistance with specific types of
             customizations.</li>
-          <li id="li_r3q_cgk_54b">Link the CSS file. For this, you have two options:<ul
+          <li id="li_r3q_cgk_54b" irina="irina">Link the CSS file. For this, you have two options:<ul
               id="ul_s3q_cgk_54b">
-              <li id="li_t3q_cgk_54b">Create a publishing template, create the customization CSS
+              <li id="li_t3q_cgk_54b" irina="irina">Create a publishing template, create the customization CSS
                 file inside the template folder, and link it to the publishing template descriptor.
                 For assistance, see <xref keyref="wh-publishing-template"
                   product="author developer editor authorEclipse developerEclipse editorEclipse"
@@ -48,12 +48,12 @@
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/whr-publishing-template.html"
                   format="html" scope="external" product="pdf-css ope">Publishing
                 Templates</xref>.</li>
-              <li id="li_u3q_cgk_54b">Choose an existing publishing template, then edit the scenario
+              <li id="li_u3q_cgk_54b" irina="irina">Choose an existing publishing template, then edit the scenario
                 and set the full path to the custom CSS file as the value of the
                   <codeph>args.css</codeph> parameter. The rules from custom CSS will override the
                 rules from the template CSS files.</li>
             </ul></li>
-          <li id="li_v3q_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_v3q_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol>
       </p>
     </section>
@@ -83,22 +83,22 @@
     </section>
     <note id="note_sdn_sqx_j4b" type="tip">For more information and some tips in regard to
       publishing DITA documents to PDF using CSS, watch our Webinars:<ul id="ul_gy1_kzt_tsb">
-        <li><xref
+        <li irina="irina"><xref
             href="https://www.oxygenxml.com/events/2021/webinar_transforming_dita_documents_to_pdf_part_1.html"
             format="html" scope="external"><b>Transforming DITA documents to PDF using CSS, Part 1 –
               Page Definitions, Cover Page and PDF Metadata</b></xref>:<div><object width="450" height="250"
               data="https://www.youtube.com/embed/5NsVEOvxbas" outputclass="iframe"/></div></li>
-        <li id="li_bdf_gzt_tsb"><xref
+        <li id="li_bdf_gzt_tsb" irina="irina"><xref
             href="https://www.oxygenxml.com/events/2022/webinar_transforming_dita_documents_to_pdf_using_css_part_2.html"
             format="html" scope="external"><b>Transforming DITA documents to PDF using CSS, Part 2 –
               Book Design, Pagination, Page Layout, and Bookmarks</b></xref>:<div><object width="450" height="250"
               data="https://www.youtube.com/embed/UiYwPBOJQcg" outputclass="iframe"/></div></li>
-        <li id="li_i3z_5jf_ftb"><xref
+        <li id="li_i3z_5jf_ftb" irina="irina"><xref
             href="https://www.oxygenxml.com/events/2022/webinar_transforming_dita_documents_to_pdf_using_css_part_3.html"
             format="html" scope="external"><b>Transforming DITA documents to PDF using CSS, Part 3 –
               Advanced Fonts Usage</b></xref>:<div><object width="450" height="250"
               data="https://www.youtube.com/embed/1fzS8AzOGao" outputclass="iframe"/></div></li>
-        <li id="li_abd_mf4_fwb"><xref
+        <li id="li_abd_mf4_fwb" irina="irina"><xref
             href="https://www.oxygenxml.com/events/2023/webinar_transforming_dita_documents_to_pdf_using_css_part_4.html"
             format="html" scope="external"><b>Transforming DITA documents to PDF using CSS, Part 4 –
               Advanced CSS Rules</b></xref>:<div><object width="450" height="250"

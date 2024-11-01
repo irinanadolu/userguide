@@ -6,9 +6,9 @@
     <p id="p_lx5_dgk_54b">You can use the <codeph>oxy_xpath</codeph> CSS extension function to execute an XPath
       expression over the input document. The main advantage is that you can execute any XPath
       processing, including:<ul id="ul_tdr_1vc_dfb">
-        <li id="li_mx5_dgk_54b">Document data retrieval </li>
-        <li id="li_nx5_dgk_54b">Mathematical calculations</li>
-        <li id="li_ox5_dgk_54b">If/then/else conditions</li>
+        <li id="li_mx5_dgk_54b" irina="irina">Document data retrieval </li>
+        <li id="li_nx5_dgk_54b" irina="irina">Mathematical calculations</li>
+        <li id="li_ox5_dgk_54b" irina="irina">If/then/else conditions</li>
       </ul>You can use <codeph>oxy_xpath</codeph> in values of all properties defined in a page
       rule.</p>
     <note type="important" id="note_px5_dgk_54b">This technique is not standard and is guaranteed to work only with this

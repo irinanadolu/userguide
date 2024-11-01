@@ -23,22 +23,22 @@
     <p id="p_iwv_cgk_54b"><b><u>Examples:</u></b></p>
     <p id="p_jwv_cgk_54b">
       <ul id="ul_kwv_cgk_54b">
-        <li id="li_lwv_cgk_54b"><b>child::*</b> - Selects all children of the root node.</li>
-        <li id="li_mwv_cgk_54b"><b>.//name</b> - Selects all <xmlelement>name</xmlelement> elements
+        <li id="li_lwv_cgk_54b" irina="irina"><b>child::*</b> - Selects all children of the root node.</li>
+        <li id="li_mwv_cgk_54b" irina="irina"><b>.//name</b> - Selects all <xmlelement>name</xmlelement> elements
           and descendants of the current node.</li>
-        <li id="li_nwv_cgk_54b"><b>/catalog/cd[price&gt;10.80]</b> - Selects all the
+        <li id="li_nwv_cgk_54b" irina="irina"><b>/catalog/cd[price&gt;10.80]</b> - Selects all the
             <xmlelement>cd</xmlelement> elements that have a <xmlelement>price</xmlelement> element
           with a value larger than 10.80.</li>
-        <li id="li_bpv_4lp_4pb"><b>//prolog</b> - Finds all <xmlelement>prolog</xmlelement>
+        <li id="li_bpv_4lp_4pb" irina="irina"><b>//prolog</b> - Finds all <xmlelement>prolog</xmlelement>
           elements.</li>
-        <li id="li_ljy_4lp_4pb"><b>//prolog[@platform='mac']</b> - Finds all
+        <li id="li_ljy_4lp_4pb" irina="irina"><b>//prolog[@platform='mac']</b> - Finds all
             <xmlelement>prolog</xmlelement> elements that have the <xmlatt>platform</xmlatt>
           attribute value set to <b>mac</b>.</li>
-        <li id="li_gsz_4lp_4pb"><b>//child::prolog</b> - Selects all <xmlatt>prolog</xmlatt>
+        <li id="li_gsz_4lp_4pb" irina="irina"><b>//child::prolog</b> - Selects all <xmlatt>prolog</xmlatt>
           elements and the child content.</li>
-        <li id="li_sz5_gtk_qpb"><b>/*[count(//accountNumber) > 5]</b> - Searches for instances where
+        <li id="li_sz5_gtk_qpb" irina="irina"><b>/*[count(//accountNumber) > 5]</b> - Searches for instances where
           more than 5 <xmlelement>accountNumber</xmlelement> elements are found.</li>
-        <li id="li_cyn_wtk_qpb"
+        <li id="li_cyn_wtk_qpb" irina="irina"
             ><b>collection('file:/C:/path/to/folder/?select=*.xml')/*[not(//prolog)]</b> - Finds a
           list of all XML files that do not contain any <xmlelement>prolog</xmlelement>
           elements.</li>

@@ -19,14 +19,14 @@
       that have wide images. To avoid having the images bleed outside of the page, you could use a
       wider page setting (landscape).</p>
     <ol id="ol_ehx_nsd_scb">
-      <li id="li_cqq_cgk_54b">Mark the topic with an <xmlatt>outputclass</xmlatt> attribute and give it a distinct value
+      <li id="li_cqq_cgk_54b" irina="irina">Mark the topic with an <xmlatt>outputclass</xmlatt> attribute and give it a distinct value
         (for example, <b>wide</b>), you can set the attribute on the root element of the topic or on
         the <xmlelement>topicref</xmlelement> element from the map. <note id="note_dqq_cgk_54b">The
             <xmlatt>outputclass</xmlatt> values from the <xmlelement>topicref</xmlelement>
           automatically propagate to the root of the topic from the <xref
             href="dcpp_debugging_the_css.dita#dcpp_debugging_the_css/merged_map_file">merged
             map</xref>.</note></li>
-      <li id="li_eqq_cgk_54b">In your <xref href="dcpp_the_customization_css.dita">customization CSS</xref>, match the
+      <li id="li_eqq_cgk_54b" irina="irina">In your <xref href="dcpp_the_customization_css.dita">customization CSS</xref>, match the
         output class and associate it with a named page. In the following example, the page has a
         landscape orientation and small margins. This technique works for any element (e.g. a table
         or list) not just for a

@@ -97,24 +97,24 @@
                             <dd>Click this button if you want to duplicate an existing template to
                               customize fine details in the output. This opens the template gallery.
                               Follow these instructions:<ol id="ol_dd1_byp_zxb">
-                                <li id="li_ed1_byp_zxb">Select the template you want to
+                                <li id="li_ed1_byp_zxb" irina="irina">Select the template you want to
                                   duplicate.</li>
-                                <li id="li_mfm_byp_zxb">Click the 3 vertical dots on that template
+                                <li id="li_mfm_byp_zxb" irina="irina">Click the 3 vertical dots on that template
                                   and select <uicontrol>Duplicate &amp; Edit</uicontrol>.</li>
-                                <li id="li_bfb_cyp_zxb">Choose a name for the new template and click
+                                <li id="li_bfb_cyp_zxb" irina="irina">Choose a name for the new template and click
                                     <uicontrol>Duplicate</uicontrol>. This automatically opens it in
                                   the <b>Oxygen Styles Basket</b>, which is a simple web-based tool
                                   that makes it very easy to customize the look and feel of your PDF
                                   or WebHelp output. For more details, go to <xref
                                     href="https://www.oxygenxml.com/styles_basket.html"
                                     format="html" scope="external"/>.</li>
-                                <li id="li_lvm_cyp_zxb">When you are done customizing the styling,
+                                <li id="li_lvm_cyp_zxb" irina="irina">When you are done customizing the styling,
                                   click the <uicontrol>Finish</uicontrol> button in the top-right
                                   corner. This automatically re-opens the template gallery page and
                                   your newly customized template is listed in the top section.</li>
-                                <li id="li_emr_gyp_zxb">Select new customized template and click the
+                                <li id="li_emr_gyp_zxb" irina="irina">Select new customized template and click the
                                     <uicontrol>Choose</uicontrol> button at the bottom.</li>
-                                <li id="li_uwg_jyp_zxb">Click <uicontrol>Save</uicontrol> to
+                                <li id="li_uwg_jyp_zxb" irina="irina">Click <uicontrol>Save</uicontrol> to
                                   complete the deliverable.</li>
                               </ol></dd>
                           </dlentry>
@@ -126,14 +126,14 @@
                     <dd>Select this option to specify the path to a directory that contains custom
                         templates.<note id="note_nbr_3ql_lzb">There are 2 ways to obtain a custom
                         template to use for transformations:<ul id="ul_prd_mql_lzb">
-                          <li><u><b>Oxygen Styles Basket</b></u><p>You can use the <xref
+                          <li irina="irina"><u><b>Oxygen Styles Basket</b></u><p>You can use the <xref
                                 href="https://www.oxygenxml.com/styles_basket.html" format="html"
                                 scope="external"><b>Oxygen Styles Basket</b></xref> to customize a
                               custom template. After finishing with your customization, you can
                               download it by using the <b>Download</b> button on the upper toolbar.
                               You can then add the template folder to your Git repository and use it
                               for the transformation.</p></li>
-                          <li><u><b>Oxygen XML Editor/Author</b></u><p>You can use <b><xref
+                          <li irina="irina"><u><b>Oxygen XML Editor/Author</b></u><p>You can use <b><xref
                                   href="https://oxygenxml.com/doc/ug-editor/cshelp.html?contextId=create-your-own-templates"
                                   format="html" scope="external">Oxygen XML Editor/Author</xref></b>
                               to create your own custom document templates. These templates can then

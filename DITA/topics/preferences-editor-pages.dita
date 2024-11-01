@@ -40,11 +40,11 @@
               product="author developer editor json">Edit</uicontrol> button to change the initial
             edit mode for each type of document (editor). The initial edit mode can be one of the
               following:<ul id="ul_kn4_bgk_54b">
-              <li id="li_ln4_bgk_54b"><uicontrol>Text</uicontrol></li>
-              <li product="author editor authorEclipse editorEclipse json" id="li_mn4_bgk_54b"
+              <li id="li_ln4_bgk_54b" irina="irina"><uicontrol>Text</uicontrol></li>
+              <li product="author editor authorEclipse editorEclipse json" id="li_mn4_bgk_54b" irina="irina"
                   ><uicontrol>Author</uicontrol></li>
-              <li id="li_nn4_bgk_54b"><uicontrol>Grid</uicontrol></li>
-              <li id="li_on4_bgk_54b"><uicontrol>Design</uicontrol> (available only for the XSD
+              <li id="li_nn4_bgk_54b" irina="irina"><uicontrol>Grid</uicontrol></li>
+              <li id="li_on4_bgk_54b" irina="irina"><uicontrol>Design</uicontrol> (available only for the XSD
                 editor).</li>
             </ul></dd>
         </dlentry>

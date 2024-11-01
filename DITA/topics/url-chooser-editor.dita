@@ -16,16 +16,16 @@
   </prolog>
   <body>
     <p id="p_jxd_dgk_54b">The <codeph>oxy_urlChooser</codeph> editor supports the following properties:<ul id="ul_kxd_dgk_54b">
-        <li id="li_lxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
+        <li id="li_lxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
             conkeyref="reusables-author-mode-customization/edit_property_ul" id="ul_mxd_dgk_54b">
-            <li id="li_nxd_dgk_54b"/>
+            <li id="li_nxd_dgk_54b" irina="irina"/>
           </ul></li>
-        <li id="li_oxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/columns-property"/></li>
-        <li id="li_pxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
-        <li id="li_qxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
-        <li id="li_rxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
-        <li id="li_sxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
-        <li id="li_txd_dgk_54b"><uicontrol>fileFilter</uicontrol> - string value that holds
+        <li id="li_oxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/columns-property"/></li>
+        <li id="li_pxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
+        <li id="li_qxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
+        <li id="li_rxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
+        <li id="li_sxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
+        <li id="li_txd_dgk_54b" irina="irina"><uicontrol>fileFilter</uicontrol> - string value that holds
           comma-separated file extensions. The URL chooser uses these extensions to filter the
           displayed files. <ph product="author editor">A value such as
               <codeph>"jpg,png,gif"</codeph> is mapped to a single filter that will display all
@@ -33,7 +33,7 @@
             product="authorEclipse editorEclipse">A value such as <codeph>"jpg,png,gif"</codeph> is
             mapped to three filters that will display all <codeph>jpg</codeph>,
             <codeph>png</codeph>, and <codeph>gif</codeph> files respectively.</ph></li>
-        <li id="li_uxd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+        <li id="li_uxd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" id="codeblock_vxd_dgk_54b">p:before {
   content: oxy_urlChooser(hoverPseudoclassName, 'showBorder')
 }

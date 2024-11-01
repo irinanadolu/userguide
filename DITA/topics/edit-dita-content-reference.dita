@@ -68,18 +68,18 @@
         used the <xref href="#edit-dita-content-reference/multiple-documents" format="dita"
             ><b>Multiple Documents At Once Method</b></xref>, the wizard page allows you to choose a
         scope for the operation and some filtering options:<ul id="ul_unm_dgk_54b">
-          <li id="li_vnm_dgk_54b"><uicontrol>Scope</uicontrol> - Select from a variety of options to define the scope
+          <li id="li_vnm_dgk_54b" irina="irina"><uicontrol>Scope</uicontrol> - Select from a variety of options to define the scope
             that will have resources affected by the operation. For example, you can choose to
             affect all resources in the <uicontrol>Project</uicontrol>, <uicontrol>All opened
               files</uicontrol>, <uicontrol>Current DITA map hierarchy</uicontrol>, or just the
               <uicontrol>Current file</uicontrol>.</li>
-          <li id="li_wnm_dgk_54b"><uicontrol>Filters</uicontrol> section<ul id="ul_xnm_dgk_54b">
-              <li id="li_ynm_dgk_54b"><uicontrol>Include files</uicontrol> - Specifies files to be excluded from the
+          <li id="li_wnm_dgk_54b" irina="irina"><uicontrol>Filters</uicontrol> section<ul id="ul_xnm_dgk_54b">
+              <li id="li_ynm_dgk_54b" irina="irina"><uicontrol>Include files</uicontrol> - Specifies files to be excluded from the
                 operation. You can specify multiple files by separating them with commas and the
                 patterns can include wildcards (such as <b>*</b> or <b>?</b>).</li>
-              <li id="li_znm_dgk_54b"><uicontrol>Restrict to known XML file types only</uicontrol> - Excludes non-XML
+              <li id="li_znm_dgk_54b" irina="irina"><uicontrol>Restrict to known XML file types only</uicontrol> - Excludes non-XML
                 file types from the operation.</li>
-              <li product="author developer editor" id="li_a4m_dgk_54b"><uicontrol>Look inside archives</uicontrol> - If
+              <li product="author developer editor" id="li_a4m_dgk_54b" irina="irina"><uicontrol>Look inside archives</uicontrol> - If
                 this option is selected, the scope of the operation will include files inside
                 archives.</li>
             </ul></li>

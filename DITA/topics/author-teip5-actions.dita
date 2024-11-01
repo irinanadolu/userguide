@@ -187,10 +187,10 @@
                     <dd>Allows you to insert a predefined entity or character entity. Surrogate
                       character entities (range #x10000 to #x10FFFF) are also accepted. Character
                       entities can be entered in one of the following forms: <ul id="ul_t3w_twm_ps">
-                        <li id="li_dck_cgk_54b">#<i>&lt;decimal value&gt;</i> - e.g. #65</li>
-                        <li id="li_eck_cgk_54b">&amp;#<i>&lt;decimal value&gt;</i> - e.g. &amp;#65</li>
-                        <li id="li_fck_cgk_54b">#x<i>&lt;hexadecimal value&gt;</i> - e.g. #x41</li>
-                        <li id="li_gck_cgk_54b">&amp;#x<i>&lt;hexadecimal value&gt;</i> - e.g. &amp;#x41</li>
+                        <li id="li_dck_cgk_54b" irina="irina">#<i>&lt;decimal value&gt;</i> - e.g. #65</li>
+                        <li id="li_eck_cgk_54b" irina="irina">&amp;#<i>&lt;decimal value&gt;</i> - e.g. &amp;#65</li>
+                        <li id="li_fck_cgk_54b" irina="irina">#x<i>&lt;hexadecimal value&gt;</i> - e.g. #x41</li>
+                        <li id="li_gck_cgk_54b" irina="irina">&amp;#x<i>&lt;hexadecimal value&gt;</i> - e.g. &amp;#x41</li>
                       </ul></dd>
                   </dlentry>
                 </dl>

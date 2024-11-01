@@ -15,12 +15,12 @@
       (for example, opening and saving files directly in archives, or browsing and modifying archive
       structures). The archive support is available for all ZIP-type archives, including:</p>
         <ul id="ul_pcw_cgk_54b">
-            <li id="li_qcw_cgk_54b">ZIP archives</li>
-            <li id="li_rcw_cgk_54b">EPUB books</li>
-            <li id="li_scw_cgk_54b"><xref keyref="glossentry_jar"><term>JAR archives</term></xref></li>
-            <li id="li_tcw_cgk_54b">Office Open XML (OOXML) files</li>
-            <li id="li_ucw_cgk_54b">Open Document Format (ODF) files</li>
-            <li id="li_vcw_cgk_54b"><xref keyref="glossentry_idml"><term>IDML files</term></xref></li>
+            <li id="li_qcw_cgk_54b" irina="irina">ZIP archives</li>
+            <li id="li_rcw_cgk_54b" irina="irina">EPUB books</li>
+            <li id="li_scw_cgk_54b" irina="irina"><xref keyref="glossentry_jar"><term>JAR archives</term></xref></li>
+            <li id="li_tcw_cgk_54b" irina="irina">Office Open XML (OOXML) files</li>
+            <li id="li_ucw_cgk_54b" irina="irina">Open Document Format (ODF) files</li>
+            <li id="li_vcw_cgk_54b" irina="irina"><xref keyref="glossentry_idml"><term>IDML files</term></xref></li>
         </ul>
     <p id="p_wcw_cgk_54b">You can transform, validate, and perform many other operations on files directly from an
       archive. For instance, you can transform, or validate files directly from OOXML or ODF

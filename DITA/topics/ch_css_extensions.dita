@@ -46,10 +46,10 @@
             <entry>-oxy-borders-conditionality</entry>
             <entry>This can be used to configure whether or not bottom and top borders appear on a
               split element when a page break occurs. Supported values are:<ul id="ul_zk1_3dw_ljb">
-                <li id="li_kvv_dgk_54b"><b>discard</b> - Makes the borders disappear.</li>
-                <li id="li_lvv_dgk_54b"><b>retain</b> - Forces the bottom and top border to be
+                <li id="li_kvv_dgk_54b" irina="irina"><b>discard</b> - Makes the borders disappear.</li>
+                <li id="li_lvv_dgk_54b" irina="irina"><b>retain</b> - Forces the bottom and top border to be
                   displayed.</li>
-                <li id="li_mvv_dgk_54b"><b>inherit</b> - Inherits the value specified in the parent
+                <li id="li_mvv_dgk_54b" irina="irina"><b>inherit</b> - Inherits the value specified in the parent
                   element. </li>
               </ul><codeblock outputclass="language-css" id="codeblock_nvv_dgk_54b">td {
   -oxy-borders-conditionality: retain;
@@ -63,10 +63,10 @@
             <entry id="entry_asp_r53_55b">-oxy-break-line-at-hyphens</entry>
             <entry>This can be used to set the line break inside a word that contains a hard hyphen.
               Supported values are:<ul id="ul_d4x_f31_55b">
-                <li><b>auto</b> - Let the default hyphenation algorithm process the words</li>
-                <li><b>avoid</b> - Forces the algorithm not to break inside a word at hard
+                <li irina="irina"><b>auto</b> - Let the default hyphenation algorithm process the words</li>
+                <li irina="irina"><b>avoid</b> - Forces the algorithm not to break inside a word at hard
                   hyphen</li>
-                <li><b>always</b> - Forces the algorithm to break inside a word at hard hyphen</li>
+                <li irina="irina"><b>always</b> - Forces the algorithm to break inside a word at hard hyphen</li>
               </ul><note id="note_qn1_k31_55b">Breaking the line at a hard hyphen can cause the PDF
                 readers to join the lines but discard the hyphen character when copying and pasting
                 content.</note></entry>

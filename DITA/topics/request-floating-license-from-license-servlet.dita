@@ -16,13 +16,13 @@
       <title>How to Request a Floating License</title>
       <p id="p_ecn_bgk_54b">To request a floating license from an HTTP license server, follow this
           procedure:<ol id="ol_frq_jm5_shb">
-          <li id="li_fcn_bgk_54b">Contact your server administrator to make sure the license server
+          <li id="li_fcn_bgk_54b" irina="irina">Contact your server administrator to make sure the license server
             has already been set up and get network address and login details for the license
             server.</li>
-          <li id="li_gcn_bgk_54b"><ph product="author developer editor svnClient">Start <ph
+          <li id="li_gcn_bgk_54b" irina="irina"><ph product="author developer editor svnClient">Start <ph
                 keyref="product"/>.</ph><ph product="editorEclipse authorEclipse developerEclipse"
               >Start the Eclipse platform.</ph></li>
-          <li id="li_hcn_bgk_54b">
+          <li id="li_hcn_bgk_54b" irina="irina">
             <p id="p_icn_bgk_54b"><ph product="author developer editor svnClient">Go to <menucascade>
                   <uicontrol>Help</uicontrol>
                   <uicontrol>Register</uicontrol>
@@ -37,15 +37,15 @@
             <p id="p_jcn_bgk_54b"><b>Step Result:</b> The license registration dialog box is
               displayed.</p>
           </li>
-          <li id="li_kcn_bgk_54b">Choose <uicontrol>Use a license server</uicontrol> as licensing
+          <li id="li_kcn_bgk_54b" irina="irina">Choose <uicontrol>Use a license server</uicontrol> as licensing
             method.</li>
-          <li id="li_lcn_bgk_54b">Select <uicontrol>HTTP/HTTPS Server</uicontrol> as server
+          <li id="li_lcn_bgk_54b" irina="irina">Select <uicontrol>HTTP/HTTPS Server</uicontrol> as server
             type.</li>
-          <li id="li_mcn_bgk_54b">In the <i>URL</i> field, enter the address of the license server.
+          <li id="li_mcn_bgk_54b" irina="irina">In the <i>URL</i> field, enter the address of the license server.
             The URL address has the following format:
               <codeph>http://hostName:port/oXygenLicenseServlet/license-servlet</codeph>.</li>
-          <li id="li_ncn_bgk_54b">Complete the <i>User</i> and <i>Password</i> fields.</li>
-          <li id="li_ocn_bgk_54b">Click the <uicontrol>OK</uicontrol> button.</li>
+          <li id="li_ncn_bgk_54b" irina="irina">Complete the <i>User</i> and <i>Password</i> fields.</li>
+          <li id="li_ocn_bgk_54b" irina="irina">Click the <uicontrol>OK</uicontrol> button.</li>
         </ol></p>
       <p id="p_pcn_bgk_54b"><b>Result</b>: If a floating license is available, it is registered in
           <ph keyref="product"/>. To display the license details, <ph
@@ -62,9 +62,9 @@
         for multiple users without having to open <ph keyref="product"/> on each machine to manually
         configure the registration details one by one, you can use the following procedure:<ol
           id="ol_vhv_d55_shb">
-          <li id="li_rcn_bgk_54b">Reset the registration details in <ph keyref="product"/>:<ol
+          <li id="li_rcn_bgk_54b" irina="irina">Reset the registration details in <ph keyref="product"/>:<ol
               id="ol_a3j_255_shb">
-              <li id="li_scn_bgk_54b">
+              <li id="li_scn_bgk_54b" irina="irina">
                 <p id="p_tcn_bgk_54b"><ph product="author developer editor svnClient">Go to <menucascade>
                       <uicontrol>Help</uicontrol>
                       <uicontrol>Register</uicontrol>
@@ -77,21 +77,21 @@
                       <uicontrol>Register</uicontrol>
                     </menucascade>.</ph></p>
               </li>
-              <li id="li_ucn_bgk_54b">Click <b>OK</b> without entering any information in this
+              <li id="li_ucn_bgk_54b" irina="irina">Click <b>OK</b> without entering any information in this
                 dialog box.</li>
-              <li id="li_vcn_bgk_54b">Click <b>Reset</b> and restart the application.</li>
+              <li id="li_vcn_bgk_54b" irina="irina">Click <b>Reset</b> and restart the application.</li>
             </ol></li>
-          <li id="li_wcn_bgk_54b">Register the license using one of the <xref
+          <li id="li_wcn_bgk_54b" irina="irina">Register the license using one of the <xref
               href="how-floating-licenses-work.dita">floating license registration
               procedures</xref>.<p id="p_xcn_bgk_54b"><b>Step Result:</b> A
                 <filepath>license.xml</filepath> file is created.</p></li>
-          <li product="author developer editor license-server" id="li_ycn_bgk_54b">Copy the
+          <li product="author developer editor license-server" id="li_ycn_bgk_54b" irina="irina">Copy the
               <filepath>license.xml</filepath> file from the <xref
               href="preferences.dita#preferences/preferences-directory-location"
               product="author developer editor"><filepath>preferences</filepath> directory</xref><ph
               product="license-server"><filepath>preferences</filepath> directory</ph> and place it
             in the installation folder on each machine to be registered.</li>
-          <li product="authorEclipse developerEclipse editorEclipse" id="li_zcn_bgk_54b">Copy the
+          <li product="authorEclipse developerEclipse editorEclipse" id="li_zcn_bgk_54b" irina="irina">Copy the
               <filepath>license.xml</filepath> file from the <xref
               href="preferences.dita#preferences/preferences-directory-location"
                 ><filepath>preferences</filepath> directory</xref> and place it in the

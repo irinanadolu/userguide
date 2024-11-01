@@ -9,9 +9,9 @@
         <codeph>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</codeph>. </p>
     <p>To set this argument for the JVM that runs <ph keyref="product"/>, the procedure depends on
       the distribution that you use. For example: <ul id="ul_r1v_5fl_1vb">
-        <li>When using the <b>All Platforms</b> distribution, this argument can be added on a new
+        <li irina="irina">When using the <b>All Platforms</b> distribution, this argument can be added on a new
           line in the <filepath>oXygenXmlWebAuthor.vmoptions</filepath> file.</li>
-        <li>When using the <b>WAR</b> distribution, the arguments needs to be set for the JVM that
+        <li irina="irina">When using the <b>WAR</b> distribution, the arguments needs to be set for the JVM that
           runs the servlet container. With <b>Tomcat</b>, this can be done by setting the
             <codeph>CATALINA_OPTS</codeph> environment variable to contain this argument.</li>
       </ul></p>

@@ -27,11 +27,11 @@
         <dlentry id="dlentry_w1s_lbv_s4b">
           <dt><uicontrol>Server Type</uicontrol></dt>
           <dd>Specifies the type of server. You can choose between:<ul id="ul_jsb_tbv_s4b">
-              <li id="li_ksb_tbv_s4b"><b>WebDav FTP</b> - For generic HTTP/FTP/WebDav and other
+              <li id="li_ksb_tbv_s4b" irina="irina"><b>WebDav FTP</b> - For generic HTTP/FTP/WebDav and other
                 servers.</li>
-              <li id="li_qgk_5bv_s4b"><b>SharePoint Online</b>  - For SharePoint Online
+              <li id="li_qgk_5bv_s4b" irina="irina"><b>SharePoint Online</b>  - For SharePoint Online
                 servers.</li>
-              <li id="li_ez3_vbv_s4b"><b>SharePoint On-Premises</b> - For SharePoint (older version)
+              <li id="li_ez3_vbv_s4b" irina="irina"><b>SharePoint On-Premises</b> - For SharePoint (older version)
                 servers.</li>
             </ul></dd>
         </dlentry>
@@ -39,10 +39,10 @@
           <dt><uicontrol>Server URL</uicontrol></dt>
           <dd>Specifies the protocol (HTTP, HTTPS or FTP) and the host name or IP of the
               server.<note type="tip" id="note_fht_bgk_54b">When specifying a URL, follow these rules:<ul id="ul_ght_bgk_54b">
-                <li id="li_hht_bgk_54b">To access an FTP server, write the protocol, host, and port (if using a
+                <li id="li_hht_bgk_54b" irina="irina">To access an FTP server, write the protocol, host, and port (if using a
                   non-standard one). For example, <codeph>ftp://server.com</codeph> or
                     <codeph>ftp://server.com:7800/</codeph>.</li>
-                <li id="li_iht_bgk_54b">To access a WebDAV server, write the path to the directory of the WebDAV
+                <li id="li_iht_bgk_54b" irina="irina">To access a WebDAV server, write the path to the directory of the WebDAV
                   repository along with the protocol and the host name. For example,
                     <codeph>https://www.some-webdav-server.com:443/webdav-repository/</codeph>.</li>
               </ul><p id="p_jht_bgk_54b">
@@ -81,13 +81,13 @@
           <dt>Browser view</dt>
           <dd>
             <ul id="ul_nht_bgk_54b">
-              <li id="li_oht_bgk_54b">If you are browsing a WebDAV or FTP repository, the items are presented in a
+              <li id="li_oht_bgk_54b" irina="irina">If you are browsing a WebDAV or FTP repository, the items are presented in a
                 tree-like fashion. You can browse the directories, and make multiple selections.
                 Additionally, you may use the <uicontrol>Rename</uicontrol>,
                   <uicontrol>Delete</uicontrol>, and <uicontrol>New Folder</uicontrol> actions to
                 manage the file repository.<note id="note_pht_bgk_54b">The file names are sorted in a case-insensitive
                   way.</note></li>
-              <li id="li_qht_bgk_54b">
+              <li id="li_qht_bgk_54b" irina="irina">
                 <p id="p_rht_bgk_54b">When you browse a SharePoint repository, a specialized component renders the
                   SharePoint site content.</p>
                 <p id="p_sht_bgk_54b">The left side navigation area presents the SharePoint site structure in a

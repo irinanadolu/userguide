@@ -36,16 +36,16 @@
         <steps-informal>
           <p id="p_kmk_dgk_54b">You need to manually delete the perspective for the product you uninstalled by
             following this procedure:<ol id="ol_lmk_dgk_54b">
-              <li id="li_mmk_dgk_54b">Go to <menucascade>
+              <li id="li_mmk_dgk_54b" irina="irina">Go to <menucascade>
                   <uicontrol>Window</uicontrol>
                   <uicontrol>Preferences</uicontrol>
                   <uicontrol>General</uicontrol>
                   <uicontrol>Perspectives</uicontrol>
                 </menucascade>.</li>
-              <li id="li_nmk_dgk_54b">Select the perspective for the product you uninstalled (for example,
+              <li id="li_nmk_dgk_54b" irina="irina">Select the perspective for the product you uninstalled (for example,
                   <b>&lt;oXygen/> XML</b>) and click <uicontrol>Delete</uicontrol>.</li>
-              <li id="li_omk_dgk_54b">Restart Eclipse.</li>
-              <li id="li_pmk_dgk_54b">Go to <menucascade>
+              <li id="li_omk_dgk_54b" irina="irina">Restart Eclipse.</li>
+              <li id="li_pmk_dgk_54b" irina="irina">Go to <menucascade>
                   <uicontrol>Window</uicontrol>
                   <uicontrol>Open Perspective</uicontrol>
                 </menucascade> and select the perspective for the new product (for example,

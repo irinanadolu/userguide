@@ -22,16 +22,16 @@
           format="html" scope="external"><uicontrol>Document Type</uicontrol> configuration dialog
           box</xref> to specify which elements or actions should be proposed in the <b>Content
           Completion Assistant</b>. To use this method, follow this procedure:<ol id="ol_j3s_dgk_54b">
-          <li id="li_k3s_dgk_54b">Open the <uicontrol>Preferences</uicontrol> dialog box <menucascade>
+          <li id="li_k3s_dgk_54b" irina="irina">Open the <uicontrol>Preferences</uicontrol> dialog box <menucascade>
               <uicontrol>(Options</uicontrol>
               <uicontrol>Preferences)</uicontrol>
             </menucascade> and go to <uicontrol>Document Type Associations</uicontrol>.</li>
-          <li id="li_l3s_dgk_54b">Select your document type and click the <uicontrol>Extend</uicontrol> button.</li>
-          <li id="li_m3s_dgk_54b">Go to the <uicontrol>Author</uicontrol> tab and <uicontrol>Content
+          <li id="li_l3s_dgk_54b" irina="irina">Select your document type and click the <uicontrol>Extend</uicontrol> button.</li>
+          <li id="li_m3s_dgk_54b" irina="irina">Go to the <uicontrol>Author</uicontrol> tab and <uicontrol>Content
               Completion</uicontrol> subtab. In this subtab, you can specify:<ul id="ul_n3s_dgk_54b">
-              <li id="li_o3s_dgk_54b">Elements to remove from the proposals listed in the <term>Content Completion
+              <li id="li_o3s_dgk_54b" irina="irina">Elements to remove from the proposals listed in the <term>Content Completion
                   Assistant</term>.</li>
-              <li id="li_p3s_dgk_54b">Actions to be added to the proposals listed in the <term>Content Completion
+              <li id="li_p3s_dgk_54b" irina="irina">Actions to be added to the proposals listed in the <term>Content Completion
                   Assistant</term>.<note id="note_q3s_dgk_54b">To add an action that is implemented in JavaScript, you
                   need to define a stub action with the same ID in the
                     <uicontrol>Actions</uicontrol> subtab and add it in the <uicontrol>Content
@@ -49,7 +49,7 @@
   });
 ...</codeblock></p></note></li>
             </ul></li>
-          <li id="li_t3s_dgk_54b"> Create an archive that only contains your custom framework folder and <xref
+          <li id="li_t3s_dgk_54b" irina="irina"> Create an archive that only contains your custom framework folder and <xref
               href="customizing_frameworks.dita#customizing_frameworks/deploying_a_framework">upload
               the changes to your <term>framework</term> to Web Author</xref>.</li>
         </ol></p>
@@ -63,17 +63,17 @@
           <filepath>resources</filepath> folder inside your custom framework directory and <xref
           href="customizing_frameworks.dita#customizing_frameworks/deploying_a_framework">upload
           your <term>framework</term> to Web Author</xref>.<ul id="ul_v3s_dgk_54b">
-          <li id="li_w3s_dgk_54b">To configure the possible elements or attributes that are proposed in the
+          <li id="li_w3s_dgk_54b" irina="irina">To configure the possible elements or attributes that are proposed in the
               <term>Content Completion Assistant</term>, see <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/configure-elements-attr-cc-individually.html"
               format="html" scope="external">Configuring the Proposals for Elements and
               Attributes</xref>.</li>
-          <li id="li_x3s_dgk_54b">To configure the possible values for attributes or elements that are proposed in the
+          <li id="li_x3s_dgk_54b" irina="irina">To configure the possible values for attributes or elements that are proposed in the
               <term>Content Completion Assistant</term>, see <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/configuring-content-completion-proposals.html"
               format="html" scope="external">Configuring the Proposals for Attribute and Element
               Values</xref>.</li>
-          <li id="li_y3s_dgk_54b">To configure how the elements are rendered in the <term>Content Completion
+          <li id="li_y3s_dgk_54b" irina="irina">To configure how the elements are rendered in the <term>Content Completion
               Assistant</term>, see <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/rendering-elements-cc-author.html"
               format="html" scope="external">Customizing the Rendering of Elements</xref>.</li>

@@ -6,9 +6,9 @@
     <p id="p_j1v_dgk_54b">Usually, when linking to resources outside the documentation, normal web links are used. </p>
     <p id="p_k1v_dgk_54b">There are two aspects to take in consideration when styling them:</p>
     <ul id="ol_czh_vkm_vz">
-      <li id="li_l1v_dgk_54b">When printed on paper, show the entire URL so that the user can see it and type it in a
+      <li id="li_l1v_dgk_54b" irina="irina">When printed on paper, show the entire URL so that the user can see it and type it in a
         browser.</li>
-      <li id="li_m1v_dgk_54b">When displayed in a PDF reader, mark it as a link so that the user can click on it.</li>
+      <li id="li_m1v_dgk_54b" irina="irina">When displayed in a PDF reader, mark it as a link so that the user can click on it.</li>
     </ul>
     <p id="p_n1v_dgk_54b">For example:</p>
     <codeblock outputclass="language-xml" id="codeblock_o1v_dgk_54b">&lt;p>This is a link to the &lt;a href='http://www.w3.org/'>W3C&lt;/a> website. &lt;/p></codeblock>

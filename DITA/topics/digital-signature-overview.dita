@@ -15,11 +15,11 @@
         signature</i> provides a mechanism for assuring integrity of data, the authentication of its
       signer, and the non-repudiation of the entire signature to an external party:</p>
     <ul id="ul_bm1_cgk_54b">
-      <li id="li_cm1_cgk_54b">A <i>digital signature</i> must provide a way to verify that the data has not been
+      <li id="li_cm1_cgk_54b" irina="irina">A <i>digital signature</i> must provide a way to verify that the data has not been
         modified or replaced to ensure integrity.</li>
-      <li id="li_dm1_cgk_54b">The <i>signature</i> must provide a way to establish the identity of the data's signer for
+      <li id="li_dm1_cgk_54b" irina="irina">The <i>signature</i> must provide a way to establish the identity of the data's signer for
         authentication.</li>
-      <li id="li_em1_cgk_54b">The <i>signature</i> must provide the ability for the data's integrity and authentication
+      <li id="li_em1_cgk_54b" irina="irina">The <i>signature</i> must provide the ability for the data's integrity and authentication
         to be provable to a third party for non-repudiation.</li>
     </ul>
     <p id="p_fm1_cgk_54b">A <i>public key system</i> is used to create the digital signature and it is also used for
@@ -38,9 +38,9 @@
         format="html">XML-Signature Syntax and Processing</xref>). An XML Signature may be applied
       to the content of one or more resources:</p>
     <ul id="ul_hm1_cgk_54b">
-      <li id="li_im1_cgk_54b">Enveloped or enveloping signatures are applied over data within the same XML document as
+      <li id="li_im1_cgk_54b" irina="irina">Enveloped or enveloping signatures are applied over data within the same XML document as
         the signature</li>
-      <li id="li_jm1_cgk_54b">Detached signatures are applied over data external to the signature element; the signature
+      <li id="li_jm1_cgk_54b" irina="irina">Detached signatures are applied over data external to the signature element; the signature
         is "detached" from the content it signs. This definition typically applies to separate data
         objects, but it also includes the instance where the signature and data object reside within
         the same XML document but are sibling elements.</li>
@@ -80,7 +80,7 @@
       />:</p>
     <p id="p_pm1_cgk_54b">
       <ul id="ul_qm1_cgk_54b">
-        <li id="li_rm1_cgk_54b">
+        <li id="li_rm1_cgk_54b" irina="irina">
           <p id="p_sm1_cgk_54b"><b>Canonical XML (or Inclusive XML Canonicalization)</b> (<xref
               href="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" scope="external" format="html"
               >XMLC14N</xref>) - Used for XML where the context doesn't change.</p>
@@ -94,7 +94,7 @@
               <term>Inclusive Canonicalization</term> will copy them and the signature will be
             invalid.</p>
         </li>
-        <li id="li_um1_cgk_54b">
+        <li id="li_um1_cgk_54b" irina="irina">
           <p id="p_vm1_cgk_54b"><b>Exclusive XML Canonicalization</b> (<xref
               href="http://www.w3.org/TR/2002/REC-xml-exc-c14n-20020718/" scope="external"
               format="html">EXCC14N</xref>) - Designed for <term>canonicalization</term> where the

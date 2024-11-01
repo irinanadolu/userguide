@@ -36,14 +36,14 @@
     <section id="os_x_installation">
       <title>macOS Installation</title>
       <p id="p_vvm_bgk_54b">To install <ph keyref="product"/> on macOS, follow these steps:<ol id="ol_wvm_bgk_54b">
-          <li id="li_xvm_bgk_54b"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
+          <li id="li_xvm_bgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
               >Download</xref> the macOS installation package (<ph keyref="archiveInstallMac"
             />).</li>
-          <li id="li_yvm_bgk_54b">[Optional] Validate the integrity of the downloaded file by <xref
+          <li id="li_yvm_bgk_54b" irina="irina">[Optional] Validate the integrity of the downloaded file by <xref
               href="http://en.wikipedia.org/wiki/Md5sum" format="html" scope="external">checking it
               against the MD5 sum</xref> published on the download page.</li>
-          <li id="li_zvm_bgk_54b">Double-click the <ph keyref="archiveInstallMac"/> disk image file to mount it.</li>
-          <li id="li_awm_bgk_54b">Drag/Copy the <filepath
+          <li id="li_zvm_bgk_54b" irina="irina">Double-click the <ph keyref="archiveInstallMac"/> disk image file to mount it.</li>
+          <li id="li_awm_bgk_54b" irina="irina">Drag/Copy the <filepath
               conkeyref="reusables-user-guide/installMacFolder"/> folder to your
               <filepath>/Applications</filepath> folder (or another location if you wish).<note
               type="warning" id="note_bwm_bgk_54b">If you receive a warning that an <filepath
@@ -57,20 +57,20 @@
                 conkeyref="reusables-user-guide/installMacFolder"/> folder (always copy the folder
               itself), otherwise you will omit invisible files/folders and the application may no
               longer start.</note></li>
-          <li id="li_dwm_bgk_54b">Start <ph keyref="product"/>, using one of the following methods:<ul id="ul_ewm_bgk_54b">
-              <li id="li_fwm_bgk_54b">Double-click <filepath product="editor">Oxygen XML
+          <li id="li_dwm_bgk_54b" irina="irina">Start <ph keyref="product"/>, using one of the following methods:<ul id="ul_ewm_bgk_54b">
+              <li id="li_fwm_bgk_54b" irina="irina">Double-click <filepath product="editor">Oxygen XML
                   Editor.app</filepath><filepath product="author">Oxygen XML
                   Author.app</filepath><filepath product="developer">Oxygen XML
                   Developer.app</filepath><filepath product="json">Oxygen JSON
                   Editor.app</filepath><filepath product="svnClient">Syncro SVN
                   Client.app</filepath>.</li>
-              <li id="li_gwm_bgk_54b">Run <codeph product="editor">sh oxygen.sh</codeph><codeph
+              <li id="li_gwm_bgk_54b" irina="irina">Run <codeph product="editor">sh oxygen.sh</codeph><codeph
                   product="author">sh oxygenAuthor.sh</codeph><codeph product="developer">sh
                   oxygenDeveloper.sh</codeph><codeph product="developer json">sh
                   oxygenJSONEditor.sh</codeph><codeph product="svnClient">sh
                   syncroSVNClient.sh</codeph> in the command-line interface.</li>
             </ul></li>
-          <li id="li_hwm_bgk_54b">To license your copy of <ph keyref="product"/>, go to <menucascade>
+          <li id="li_hwm_bgk_54b" irina="irina">To license your copy of <ph keyref="product"/>, go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Register</uicontrol>
             </menucascade> to enter your <xref keyref="install_license-key">license key</xref>.</li>
@@ -80,12 +80,12 @@
       <title>macOS Unattended Installation</title>
       <p id="p_iwm_bgk_54b">To install <ph keyref="product"/> on macOS in unattended mode, follow
         these steps:<ol id="ol_jwm_bgk_54b">
-          <li id="li_kwm_bgk_54b"><xref href="https://www.oxygenxml.com/download.html" format="html"
+          <li id="li_kwm_bgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/download.html" format="html"
               scope="external">Download</xref> the macOS installation package (<ph
               keyref="archiveInstallMac"/>).</li>
-          <li id="li_lwm_bgk_54b">Mount the <ph keyref="archiveInstallMac"/> file in the command
+          <li id="li_lwm_bgk_54b" irina="irina">Mount the <ph keyref="archiveInstallMac"/> file in the command
             line.<codeblock outputclass="language-javascript" id="codeblock_mwm_bgk_54b">hdiutil attach oxygen.dmg|oxygenAuthor.dmg|oxygenDeveloper.dmg</codeblock></li>
-          <li id="li_nwm_bgk_54b">Copy the <filepath>oxygen</filepath> folder for the particular
+          <li id="li_nwm_bgk_54b" irina="irina">Copy the <filepath>oxygen</filepath> folder for the particular
             version from the mounted volume to the <filepath>Applications</filepath> folder (or
             another folder where you want to install it), as in the following example:<p
               id="p_d1x_kpl_dwb" product="editor"><codeph>cp -aR "/Volumes/Oxygen XML Editor <ph
@@ -96,7 +96,7 @@
                   <ph keyref="minorVersion"/>/Oxygen XML Developer" /Applications/|</codeph></p><p
               product="json" id="p_ljj_hf2_1zb"><codeph>cp -aR "/Volumes/Oxygen JSON Editor <ph
                   keyref="minorVersion"/>/Oxygen JSON Editor" /Applications/|</codeph></p></li>
-          <li id="li_rwm_bgk_54b">Eject the mounted disc image:<p product="editor"
+          <li id="li_rwm_bgk_54b" irina="irina">Eject the mounted disc image:<p product="editor"
               id="p_osz_tpl_dwb"><codeph>hdiutil detach "/Volumes/Oxygen XML Editor <ph
                   keyref="minorVersion"/>"|</codeph></p><p product="author" id="p_vh5_vpl_dwb"
                 ><codeph>hdiutil detach "/Volumes/Oxygen XML Author <ph keyref="minorVersion"

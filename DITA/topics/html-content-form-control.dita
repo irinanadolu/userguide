@@ -18,17 +18,17 @@
   <body>
     <p id="p_rsd_dgk_54b">The <codeph>oxy_htmlContent</codeph> form control supports the following properties:<ul
         id="ul_n1f_5tk_jq">
-        <li id="li_ssd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/href-property"/> The resource needs
+        <li id="li_ssd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/href-property"/> The resource needs
           to be a well-formed HTML file.</li>
-        <li id="li_tsd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/id-property"/> This is a
+        <li id="li_tsd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/id-property"/> This is a
           <xmlelement>div</xmlelement> element that has a unique <xmlatt>id</xmlatt> and is a child of the
           <xmlelement>body</xmlelement> element. The <xmlelement>div</xmlelement> element is the container of the
           HTML content to be rendered by the form control.</li>
-        <li id="li_usd_dgk_54b"><uicontrol>content</uicontrol> - An alternative to the
+        <li id="li_usd_dgk_54b" irina="irina"><uicontrol>content</uicontrol> - An alternative to the
             <xmlatt>href</xmlatt> and <xmlatt>id</xmlatt> pair of elements. It provides the HTML
           content that will be displayed in the form control.</li>
-        <li id="li_vsd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
-        <li id="li_wsd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+        <li id="li_vsd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
+        <li id="li_wsd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" id="codeblock_xsd_dgk_54b">p:before {
   content: oxy_htmlContent(hoverPseudoclassName, 'showBorder')
 }

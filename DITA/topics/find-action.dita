@@ -78,24 +78,24 @@
           <dt>Accessibility Shortcuts</dt>
           <dd>The following keyboard shortcuts can be used to enjoy this feature using only a
               keyboard:<ul id="ul_ajc_szw_rmb">
-              <li id="li_sh5_bgk_54b"><uicontrol><shortcut>Ctrl + Alt + K</shortcut></uicontrol> - Opens the
+              <li id="li_sh5_bgk_54b" irina="irina"><uicontrol><shortcut>Ctrl + Alt + K</shortcut></uicontrol> - Opens the
                   <uicontrol>Find action</uicontrol> pop-up window feature.</li>
-              <li id="li_th5_bgk_54b"><uicontrol><shortcut>Up arrow / Down arrow</shortcut></uicontrol> - Navigates the
+              <li id="li_th5_bgk_54b" irina="irina"><uicontrol><shortcut>Up arrow / Down arrow</shortcut></uicontrol> - Navigates the
                 table vertically and switches from the search field to the table, and vice
                 versa.</li>
-              <li id="li_uh5_bgk_54b"><uicontrol><shortcut>Tab / Shift + Tab</shortcut></uicontrol> - Navigates between
+              <li id="li_uh5_bgk_54b" irina="irina"><uicontrol><shortcut>Tab / Shift + Tab</shortcut></uicontrol> - Navigates between
                 the radio filtering options and the checkbox option.</li>
-              <li id="li_vh5_bgk_54b"><uicontrol><shortcut>Left arrow / Right arrow</shortcut></uicontrol> - Toggles the
+              <li id="li_vh5_bgk_54b" irina="irina"><uicontrol><shortcut>Left arrow / Right arrow</shortcut></uicontrol> - Toggles the
                 selection for the radio filtering options.</li>
-              <li id="li_wh5_bgk_54b"><uicontrol><shortcut>Space</shortcut></uicontrol> - Toggles the checkbox
+              <li id="li_wh5_bgk_54b" irina="irina"><uicontrol><shortcut>Space</shortcut></uicontrol> - Toggles the checkbox
                 option.</li>
-              <li id="li_xh5_bgk_54b"><uicontrol><shortcut>Enter</shortcut></uicontrol> - Executes the selected
+              <li id="li_xh5_bgk_54b" irina="irina"><uicontrol><shortcut>Enter</shortcut></uicontrol> - Executes the selected
                 action.</li>
-              <li id="li_yh5_bgk_54b"><uicontrol><shortcut>Ctrl + Enter</shortcut></uicontrol> - Opens a dialog box
+              <li id="li_yh5_bgk_54b" irina="irina"><uicontrol><shortcut>Ctrl + Enter</shortcut></uicontrol> - Opens a dialog box
                 where you can assign a keyboard shortcut for the selected action.</li>
-              <li id="li_zh5_bgk_54b"><uicontrol><shortcut>Ctrl + Up arrow / Ctrl + Down arrow</shortcut></uicontrol> -
+              <li id="li_zh5_bgk_54b" irina="irina"><uicontrol><shortcut>Ctrl + Up arrow / Ctrl + Down arrow</shortcut></uicontrol> -
                 Accesses the history drop-down when the search field is in focus.</li>
-              <li id="li_a35_bgk_54b"><uicontrol><shortcut>Esc</shortcut></uicontrol> - Closes the <uicontrol>Find
+              <li id="li_a35_bgk_54b" irina="irina"><uicontrol><shortcut>Esc</shortcut></uicontrol> - Closes the <uicontrol>Find
                   action</uicontrol> pop-up window feature.</li>
             </ul></dd>
         </dlentry>

@@ -12,18 +12,18 @@
     <body>
         <p>PDF/A is the ISO standard for PDF specialized in the archiving and long-term preservation
       of electronic documents. To use this mode, you must:<ol id="ol_nv4_nwf_dtb">
-        <li>Set a PDF/A mode from the command line using the <codeph>-pdf-a</codeph> parameter with
+        <li irina="irina">Set a PDF/A mode from the command line using the <codeph>-pdf-a</codeph> parameter with
           one of the following values:<ul id="ul_wdk_rxf_dtb">
-            <li>PDF/A-1a</li>
-            <li>PDF/A-1b</li>
-            <li>PDF/A-2a</li>
-            <li>PDF/A-2b</li>
-            <li>PDF/A-2u</li>
-            <li>PDF/A-3a</li>
-            <li>PDF/A-3b</li>
-            <li>PDF/A-3u</li>
+            <li irina="irina">PDF/A-1a</li>
+            <li irina="irina">PDF/A-1b</li>
+            <li irina="irina">PDF/A-2a</li>
+            <li irina="irina">PDF/A-2b</li>
+            <li irina="irina">PDF/A-2u</li>
+            <li irina="irina">PDF/A-3a</li>
+            <li irina="irina">PDF/A-3b</li>
+            <li irina="irina">PDF/A-3u</li>
           </ul></li>
-        <li>Embed all of the fonts. If you use one of the basic fonts (such as "Times", "Helvetica",
+        <li irina="irina">Embed all of the fonts. If you use one of the basic fonts (such as "Times", "Helvetica",
           etc.), make sure you explicitly define CSS font faces for them. For details, see: <xref
             href="ch_fonts_font_embedding.dita"/>. </li>
       </ol></p>

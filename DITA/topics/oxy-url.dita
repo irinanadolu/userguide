@@ -17,11 +17,11 @@
     <p id="p_gzr_dgk_54b">An <term>OXY-URL</term> is a URL from a technical point of view, but it is not a normal HTTP
       URL like the ones that browsers use. It should have several characteristics:<ol
         id="ol_fdt_krl_3z">
-        <li id="li_hzr_dgk_54b">It must have a <xref href="#oxy-url/oxyurl_unique_scheme" format="dita">unique
+        <li id="li_hzr_dgk_54b" irina="irina">It must have a <xref href="#oxy-url/oxyurl_unique_scheme" format="dita">unique
               <term>scheme</term></xref> according to the file storage system the file comes
           from.</li>
-        <li id="li_izr_dgk_54b">It should behave like an identifier for the file that it references.</li>
-        <li id="li_jzr_dgk_54b">
+        <li id="li_izr_dgk_54b" irina="irina">It should behave like an identifier for the file that it references.</li>
+        <li id="li_jzr_dgk_54b" irina="irina">
           <p id="p_kzr_dgk_54b">It is usually different from other URLs identifying the file, such as one that would
             open it in a CMS web interface (herein called <term>CMS-URL</term>) or the one that is
             used to access the raw content of the file (herein called <term>RAW-URL</term>).</p>
@@ -31,12 +31,12 @@
             Manual (hosted on GitHub) is the
             following:<codeblock outputclass="language-ini" id="codeblock_nzr_dgk_54b">gitgh://https%3A%2F%2Fgithub.com%2Foxygenxml%2Fug/master/DITA/topics/introduction.dita</codeblock></p>
           <p id="p_ozr_dgk_54b">Notice that:<ol id="ol_xc5_xsl_3z">
-              <li id="li_pzr_dgk_54b">The URL <term>scheme</term> is
+              <li id="li_pzr_dgk_54b" irina="irina">The URL <term>scheme</term> is
                 <uicontrol>gitgh</uicontrol>.</li>
-              <li id="li_qzr_dgk_54b">It uniquely identifies the file <filepath>DITA/topics/introduction.dita</filepath>
+              <li id="li_qzr_dgk_54b" irina="irina">It uniquely identifies the file <filepath>DITA/topics/introduction.dita</filepath>
                 on branch <codeph>master</codeph> in the repository <codeph>oxygenxml/ug</codeph> on
                 GitHub.</li>
-              <li id="li_rzr_dgk_54b">It is different from the URL used to access the file in the GitHub web interface
+              <li id="li_rzr_dgk_54b" irina="irina">It is different from the URL used to access the file in the GitHub web interface
                   (<term>CMS-URL</term>)
                   <codeph>https://github.com/oxygenxml/ug/blob/master/DITA/topics/introduction.dita</codeph>
                 and from the URL used to access the file's raw content (<term>RAW-URL</term>)
@@ -56,17 +56,17 @@
             </dd>
             <dd>
               <p id="p_wzr_dgk_54b">where:<ul id="ul_htj_2wj_y3b">
-                  <li id="li_xzr_dgk_54b"><uicontrol>gitgh</uicontrol> = The URL scheme. Note that
+                  <li id="li_xzr_dgk_54b" irina="irina"><uicontrol>gitgh</uicontrol> = The URL scheme. Note that
                     the <xref
                       href="webapp-integrate-github-plugin.dita#webapp-integrate-github-plugin/github_integration"
                       >GitHub plugin must be configured</xref> for this URL scheme to work.</li>
-                  <li id="li_yzr_dgk_54b"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
+                  <li id="li_yzr_dgk_54b" irina="irina"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
                     GitHub repository (URI-encoded).</li>
-                  <li id="li_zzr_dgk_54b"><uicontrol>BRANCH</uicontrol> = The name of the branch
+                  <li id="li_zzr_dgk_54b" irina="irina"><uicontrol>BRANCH</uicontrol> = The name of the branch
                     where the file is located (URI-encoded).<note
                       conkeyref="reusables-webauthor-customization/note_oxy-url-git"
                       id="note_evc_c5l_dwb"/></li>
-                  <li id="li_a1s_dgk_54b"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
+                  <li id="li_a1s_dgk_54b" irina="irina"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
                     file. Each entry in the path should be URI-encoded.</li>
                 </ul></p>
               <p id="p_b1s_dgk_54b">Example:
@@ -81,17 +81,17 @@
             </dd>
             <dd>
               <p id="p_f1s_dgk_54b">where:<ul id="ul_wpd_dwj_y3b">
-                  <li id="li_g1s_dgk_54b"><uicontrol>gitgl</uicontrol> = The URL scheme. Note that
+                  <li id="li_g1s_dgk_54b" irina="irina"><uicontrol>gitgl</uicontrol> = The URL scheme. Note that
                     the <xref
                       href="webapp-integrate-github-plugin.dita#webapp-integrate-github-plugin/gitlab_integration"
                       >GitLab plugin must be configured</xref> for this URL scheme to work.</li>
-                  <li id="li_h1s_dgk_54b"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
+                  <li id="li_h1s_dgk_54b" irina="irina"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
                     GitLab repository (URI-encoded).</li>
-                  <li id="li_i1s_dgk_54b"><uicontrol>BRANCH</uicontrol> = The name of the branch
+                  <li id="li_i1s_dgk_54b" irina="irina"><uicontrol>BRANCH</uicontrol> = The name of the branch
                     where the file is located (URI-encoded).<note
                       conkeyref="reusables-webauthor-customization/note_oxy-url-git"
                       id="note_fz4_c5l_dwb"/></li>
-                  <li id="li_j1s_dgk_54b"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
+                  <li id="li_j1s_dgk_54b" irina="irina"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
                     file. Each entry in the path should be URI-encoded.</li>
                 </ul></p>
               <p id="p_k1s_dgk_54b">Example:
@@ -106,18 +106,18 @@
             </dd>
             <dd>
               <p id="p_o1s_dgk_54b">where:<ul id="ul_wd3_cwj_y3b">
-                  <li id="li_p1s_dgk_54b"><uicontrol>gitgle</uicontrol> = The URL scheme. Note that
+                  <li id="li_p1s_dgk_54b" irina="irina"><uicontrol>gitgle</uicontrol> = The URL scheme. Note that
                     the <xref
                       href="webapp-integrate-github-plugin.dita#webapp-integrate-github-plugin/gitlab_integration"
                       >GitLab On-Premise plugin must be configured</xref> for this URL scheme to
                     work.</li>
-                  <li id="li_q1s_dgk_54b"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
+                  <li id="li_q1s_dgk_54b" irina="irina"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
                     GitLab On-Premise repository (URI-encoded).</li>
-                  <li id="li_r1s_dgk_54b"><uicontrol>BRANCH</uicontrol> = The name of the branch
+                  <li id="li_r1s_dgk_54b" irina="irina"><uicontrol>BRANCH</uicontrol> = The name of the branch
                     where the file is located (URI-encoded).<note
                       conkeyref="reusables-webauthor-customization/note_oxy-url-git"
                       id="note_qzt_c5l_dwb"/></li>
-                  <li id="li_s1s_dgk_54b"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
+                  <li id="li_s1s_dgk_54b" irina="irina"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
                     file. Each entry in the path should be URI-encoded.</li>
                 </ul></p>
               <p id="p_t1s_dgk_54b">Example:
@@ -132,17 +132,17 @@
             </dd>
             <dd>
               <p id="p_x1s_dgk_54b">where:<ul id="ul_vjf_bwj_y3b">
-                  <li id="li_y1s_dgk_54b"><uicontrol>gitbb</uicontrol> = The URL scheme. Note that
+                  <li id="li_y1s_dgk_54b" irina="irina"><uicontrol>gitbb</uicontrol> = The URL scheme. Note that
                     the <xref
                       href="webapp-integrate-github-plugin.dita#webapp-integrate-github-plugin/bitucket_integration"
                       >Bitbucket plugin must be configured</xref> for this URL scheme to work.</li>
-                  <li id="li_z1s_dgk_54b"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
+                  <li id="li_z1s_dgk_54b" irina="irina"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the
                     Bitbucket repository (URI-encoded).</li>
-                  <li id="li_abs_dgk_54b"><uicontrol>BRANCH</uicontrol> = The name of the branch
+                  <li id="li_abs_dgk_54b" irina="irina"><uicontrol>BRANCH</uicontrol> = The name of the branch
                     where the file is located (URI-encoded).<note
                       conkeyref="reusables-webauthor-customization/note_oxy-url-git"
                       id="note_ptz_c5l_dwb"/></li>
-                  <li id="li_bbs_dgk_54b"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
+                  <li id="li_bbs_dgk_54b" irina="irina"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
                     file. Each entry in the path should be URI-encoded.</li>
                 </ul></p>
               <p id="p_cbs_dgk_54b">Example:
@@ -157,14 +157,14 @@
             </dd>
             <dd>
               <p id="p_gbs_dgk_54b">where:<ul id="ul_kmf_wvj_y3b">
-                  <li id="li_hbs_dgk_54b"><uicontrol>git</uicontrol> = The URL scheme.</li>
-                  <li id="li_ibs_dgk_54b"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the Git
+                  <li id="li_hbs_dgk_54b" irina="irina"><uicontrol>git</uicontrol> = The URL scheme.</li>
+                  <li id="li_ibs_dgk_54b" irina="irina"><uicontrol>REPOSITORY_URI</uicontrol> = The URI of the Git
                     repository (URI-encoded).</li>
-                  <li id="li_jbs_dgk_54b"><uicontrol>BRANCH</uicontrol> = The name of the branch
+                  <li id="li_jbs_dgk_54b" irina="irina"><uicontrol>BRANCH</uicontrol> = The name of the branch
                     where the file is located (URI-encoded).<note
                       conkeyref="reusables-webauthor-customization/note_oxy-url-git"
                       id="note_grf_d5l_dwb"/></li>
-                  <li id="li_kbs_dgk_54b"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
+                  <li id="li_kbs_dgk_54b" irina="irina"><uicontrol>PATH_TO_FILE</uicontrol> = The path to the
                     file. Each entry in the path should be URI-encoded.</li>
                 </ul></p>
               <p id="p_lbs_dgk_54b">Example:
@@ -211,11 +211,11 @@
               <p id="p_bcs_dgk_54b">The URLs have the following
                 format:<codeblock outputclass="language-ini" id="codeblock_ccs_dgk_54b">p4java://&lt;server-address>:&lt;server-port>//&lt;depot>/path/to/file.xml</codeblock></p>
               <p id="p_dcs_dgk_54b">where:<ul id="ul_xdz_czq_whb">
-                  <li id="li_ecs_dgk_54b"><uicontrol>server-address</uicontrol> = The domain name or
+                  <li id="li_ecs_dgk_54b" irina="irina"><uicontrol>server-address</uicontrol> = The domain name or
                     IP of the server.</li>
-                  <li id="li_fcs_dgk_54b"><uicontrol>server-port</uicontrol> = The server port,
+                  <li id="li_fcs_dgk_54b" irina="irina"><uicontrol>server-port</uicontrol> = The server port,
                     usually 1666.</li>
-                  <li id="li_gcs_dgk_54b"><uicontrol>depot</uicontrol> = The name of the depot that
+                  <li id="li_gcs_dgk_54b" irina="irina"><uicontrol>depot</uicontrol> = The name of the depot that
                     contains the file.</li>
                 </ul></p>
             </dd>
@@ -240,7 +240,7 @@
           <uicontrol>contextId</uicontrol> for each open and save. This
           <uicontrol>contextId</uicontrol> is the session ID of the user that will open or save the
         file. <ul id="ul_amj_vcm_3z">
-          <li id="li_jcs_dgk_54b">If the user is not authenticated to the CMS or if the credentials
+          <li id="li_jcs_dgk_54b" irina="irina">If the user is not authenticated to the CMS or if the credentials
             are denied by the CMS, you should throw a <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/webapp/plugin/UserActionRequiredException.html"
               format="html" scope="external"
@@ -248,13 +248,13 @@
             exception. This exception is automatically relayed to the client-side as a <xref
               keyref="jscript_api_WebappMessage"><codeph>sync.api.WebappMessage</codeph></xref>
             JavaScript object.</li>
-          <li id="li_kcs_dgk_54b">On the client side, follow these steps:<ol id="ol_bmj_vcm_3z">
-              <li id="li_lcs_dgk_54b">Use the <xref keyref="jscript_api_Editor"
+          <li id="li_kcs_dgk_54b" irina="irina">On the client side, follow these steps:<ol id="ol_bmj_vcm_3z">
+              <li id="li_lcs_dgk_54b" irina="irina">Use the <xref keyref="jscript_api_Editor"
                     ><codeph>sync.api.Editor.EventTypes.CUSTOM_MESSAGE_RECEIVED</codeph></xref>
                 event to intercept the messages sent from the server-side.</li>
-              <li id="li_mcs_dgk_54b"><xref keyref="jscript_api_dialog">Display a dialog box</xref>
+              <li id="li_mcs_dgk_54b" irina="irina"><xref keyref="jscript_api_dialog">Display a dialog box</xref>
                 to collect the user credentials.</li>
-              <li id="li_ncs_dgk_54b">Send the new credentials to a <xref
+              <li id="li_ncs_dgk_54b" irina="irina">Send the new credentials to a <xref
                   href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/webapp/plugin/WebappServletPluginExtension.html"
                   format="html" scope="external"
                     ><term>ro.sync.ecss.extensions.api.webapp.plugin.WebappServletPluginExtension</term></xref>
@@ -263,7 +263,7 @@
                   format="html" scope="external"
                     ><codeph>ro.sync.ecss.extensions.api.webapp.plugin.URLStreamHandlerWithContext</codeph></xref>
                 instance presented above.</li>
-              <li id="li_ocs_dgk_54b">Retry the operation that triggered the authentication
+              <li id="li_ocs_dgk_54b" irina="irina">Retry the operation that triggered the authentication
                 procedure.</li>
             </ol></li>
         </ul></p>
@@ -352,7 +352,7 @@
           <term>#fragment</term> anchor that can be used to select or highlight a specific content
         fragment.</p>
       <ul id="ol_hyx_kp2_vsb">
-        <li>
+        <li irina="irina">
           <p id="p_cyr_bn3_vsb">If the anchor has the
               <codeph>comment(author=...,timestamp=...)</codeph> form, it points to the first review
             comment encountered in the document that has the author and the creation time indicated
@@ -367,9 +367,9 @@
                 format="html" scope="external">timestamp serialized in the XML document</xref> or
               the UNIX timestamp.</note></p>
         </li>
-        <li>If the anchor has the <codeph>line=...,column=...</codeph> form, it points to the
+        <li irina="irina">If the anchor has the <codeph>line=...,column=...</codeph> form, it points to the
           element located at the given line and column in the source of the XML document.</li>
-        <li>
+        <li irina="irina">
           <p id="p_kkt_1n3_vsb">If the anchor has a different syntax, then it will be interpreted by
             the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/index.html?ro/sync/ecss/extensions/api/link/ElementLocatorProvider.html"

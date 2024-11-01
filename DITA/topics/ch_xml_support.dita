@@ -15,9 +15,9 @@
       <p id="p_jwv_dgk_54b">Although it does not validate the input, <ph keyref="product"/> uses information from the
         schema associated with the document. The supported schema languages are:<ul
           id="ol_myn_rfb_dbb">
-          <li id="li_kwv_dgk_54b">XML Schema</li>
-          <li id="li_lwv_dgk_54b">DTD</li>
-          <li id="li_mwv_dgk_54b">Relax NG</li>
+          <li id="li_kwv_dgk_54b" irina="irina">XML Schema</li>
+          <li id="li_lwv_dgk_54b" irina="irina">DTD</li>
+          <li id="li_mwv_dgk_54b" irina="irina">Relax NG</li>
         </ul></p>
     </section>
     <section id="section_ugq_5fb_dbb">

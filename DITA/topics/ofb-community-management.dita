@@ -32,32 +32,32 @@
       <i>Admin</i> or <i>Moderator</i> are also assigned as <b>site</b>
       <i>Admin</i>/<i>Moderator</i>.</note>
     <p id="p_u3n_4jz_prb">The possible <b>site</b> user roles are:<ul id="ul_jh2_q1m_gjb">
-        <li id="li_xww_dgk_54b"><b><term keyref="glossentry_fb_owner"/></b> (This role is
+        <li id="li_xww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_owner"/></b> (This role is
           automatically assigned when the site configuration is created) - This type of user has
           rights to moderate comment posts (edit, approve, reject, or delete), configure site
           settings, versions, team members, and user roles, as well as rights to delete or transfer
           the ownership of the site configuration. An <b>organization</b>
           <i>Owner</i> is also indirectly considered to have a role of <b>site</b>
           <i>Owner</i></li>
-        <li id="li_yww_dgk_54b"><b><term keyref="glossentry_fb_admin"/></b> - This type of user has
+        <li id="li_yww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_admin"/></b> - This type of user has
           rights to moderate comment posts (edit, approve, reject, or delete) and to configure site
           settings, versions, team members, and user roles. An <b>organization</b>
           <i>Admin</i> is also assigned as <b>site</b>
           <i>Admin</i>.</li>
-        <li id="li_zww_dgk_54b"><b><term keyref="glossentry_fb_moderator"/></b> - This type of user
+        <li id="li_zww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_moderator"/></b> - This type of user
           has rights to moderate comment posts (edit, approve, reject, or delete). An
             <b>organization</b>
           <i>Moderator</i> is also assigned as <b>site</b>
           <i>Moderator</i>.</li>
-        <li id="li_axw_dgk_54b"><b><term keyref="glossentry_fb_trusted"/></b> - Comments posted by
+        <li id="li_axw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_trusted"/></b> - Comments posted by
           this type of user are automatically approved (this includes existing and future comments).
           Users with a <i>Trusted</i> role at <b>organization</b> level are also assigned as
             <i>Trusted</i> at <b>site</b> level.</li>
-        <li id="li_bxw_dgk_54b"><b><term keyref="glossentry_fb_member"/></b> - This type of user has
+        <li id="li_bxw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_member"/></b> - This type of user has
           rights to post new comments. If the site is moderated, comments posted by this type of
           user require approval by a user with a role of <i>Owner</i>, <i>Admin</i>, or
             <i>Moderator</i>.</li>
-        <li id="li_cxw_dgk_54b"><b><term keyref="glossentry_fb_banned"/></b> - This type of user
+        <li id="li_cxw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_banned"/></b> - This type of user
           cannot post comments and all existing pending comments added by this user are
           automatically rejected. Users with a <i>Banned</i> role at <b>organization</b> level are
           also assigned as <i>Banned</i> at <b>site</b> level.</li>

@@ -14,7 +14,7 @@
     <p id="p_xsq_dgk_54b"><ph keyref="webappProduct"/> includes an automatic spell checking feature and you can
       customize the words that are detected by adding custom dictionaries.</p>
     <p id="p_ysq_dgk_54b">To add a custom dictionary, follow these steps:<ol id="ol_zsq_dgk_54b">
-        <li id="li_atq_dgk_54b">Download the files needed for your custom dictionary (or create your own). You will need
+        <li id="li_atq_dgk_54b" irina="irina">Download the files needed for your custom dictionary (or create your own). You will need
           a <i>dictionary</i> file (<filepath>.dic</filepath> file extension) and an <i>affix</i>
           file (<filepath>.aff</filepath> file extension). If the dictionary did not include an
           affix file (<filepath>.aff</filepath>), you can create one and leave it empty, but it is
@@ -22,7 +22,7 @@
             includes numerous dictionary files is: <xref
               href="http://extensions.openoffice.org/dictionary" format="html" scope="external"
             />.</note></li>
-        <li id="li_ctq_dgk_54b">Copy both files (<filepath>.dic</filepath> and
+        <li id="li_ctq_dgk_54b" irina="irina">Copy both files (<filepath>.dic</filepath> and
             <filepath>.aff</filepath>) to the <filepath>dicts</filepath> folder that is located
           inside your <xref href="wa-oxygen-data-dir.dita"><term>Oxygen Data Directory</term></xref>
             (<codeph>oxygen.data.dir/dicts</codeph>).<note type="important" id="note_dtq_dgk_54b"
@@ -34,7 +34,7 @@
               scope="external"/>.</note><note type="notice" id="note_ynl_53m_bzb">It is important to
             have the <codeph>xml:lang</codeph> attribute set to <b>lang_LANG</b> in the document to
             ensure proper integration with the added custom dictionary.</note></li>
-        <li id="li_etq_dgk_54b"><xref href="webauthor-restart.dita">Restart <ph keyref="webappProduct"/></xref> for the
+        <li id="li_etq_dgk_54b" irina="irina"><xref href="webauthor-restart.dita">Restart <ph keyref="webappProduct"/></xref> for the
           spell checker to start using the new dictionary.</li>
       </ol></p>
     <section id="specifying_a_particular_language_for_the_spell_ch">
@@ -43,11 +43,11 @@
           href="https://www.oxygenxml.com/maven/com/oxygenxml/languagetool-plugin/" format="html"
           scope="external"/>) that provides support for using additional languages for the spell
         checker. The following languages are supported:<ul id="ul_gtq_dgk_54b">
-          <li id="li_htq_dgk_54b">Italian</li>
-          <li id="li_itq_dgk_54b">Dutch</li>
-          <li id="li_jtq_dgk_54b">Spanish</li>
-          <li id="li_ktq_dgk_54b">Japanese</li>
-          <li id="li_ltq_dgk_54b">Simplified Chinese</li>
+          <li id="li_htq_dgk_54b" irina="irina">Italian</li>
+          <li id="li_itq_dgk_54b" irina="irina">Dutch</li>
+          <li id="li_jtq_dgk_54b" irina="irina">Spanish</li>
+          <li id="li_ktq_dgk_54b" irina="irina">Japanese</li>
+          <li id="li_ltq_dgk_54b" irina="irina">Simplified Chinese</li>
         </ul></p>
     </section>
   </body>

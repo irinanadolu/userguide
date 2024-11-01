@@ -79,16 +79,16 @@
                     <dd>Specifies the hyperlink target for the selected area. This will become the
                       value of the <xmlatt>href</xmlatt> attribute for the particular
                       <xmlelement>area</xmlelement> element. The possible values are:<ul id="ul_fsy_bgk_54b">
-                        <li id="li_gsy_bgk_54b"><b>An Absolute URL</b> - A URL of another website (for example,
+                        <li id="li_gsy_bgk_54b" irina="irina"><b>An Absolute URL</b> - A URL of another website (for example,
                             <codeph>http://www.example.com/index.htm</codeph>).</li>
-                        <li id="li_hsy_bgk_54b"><b>A Relative URL</b> - A link to a file within your website (for
+                        <li id="li_hsy_bgk_54b" irina="irina"><b>A Relative URL</b> - A link to a file within your website (for
                           example, <codeph>index.htm</codeph>).</li>
-                        <li id="li_isy_bgk_54b"><b>An Element</b> - A link to the ID of an element within the page (for
+                        <li id="li_isy_bgk_54b" irina="irina"><b>An Element</b> - A link to the ID of an element within the page (for
                           example, <codeph>#top</codeph>).</li>
-                        <li id="li_jsy_bgk_54b"><b>Other Protocols</b> - A specified path using other protocols (such as
+                        <li id="li_jsy_bgk_54b" irina="irina"><b>Other Protocols</b> - A specified path using other protocols (such as
                             <codeph>https://</codeph>, <codeph>ftp://</codeph>,
                             <codeph>mailto:</codeph>, <codeph>file:</codeph>).</li>
-                        <li id="li_ksy_bgk_54b"><b>A Script</b> - A link to a script (for example,
+                        <li id="li_ksy_bgk_54b" irina="irina"><b>A Script</b> - A link to a script (for example,
                             <codeph>javascript:alert('Hello');</codeph>) </li>
                       </ul></dd>
                   </dlentry>
@@ -102,12 +102,12 @@
                   <dlentry id="target">
                     <dt><uicontrol>Target</uicontrol></dt>
                     <dd>Specifies where to open the linked resource. The allowed values are:<ul id="ul_lsy_bgk_54b">
-                        <li id="li_msy_bgk_54b"><b>_blank</b> - Opens the linked resource in a new window or tab.</li>
-                        <li id="li_nsy_bgk_54b"><b>_self</b> - Opens the linked resource in the same frame as it was
+                        <li id="li_msy_bgk_54b" irina="irina"><b>_blank</b> - Opens the linked resource in a new window or tab.</li>
+                        <li id="li_nsy_bgk_54b" irina="irina"><b>_self</b> - Opens the linked resource in the same frame as it was
                           clicked.</li>
-                        <li id="li_osy_bgk_54b"><b>_parent</b> - Opens the linked resource in the full body of the
+                        <li id="li_osy_bgk_54b" irina="irina"><b>_parent</b> - Opens the linked resource in the full body of the
                           window.</li>
-                        <li id="li_psy_bgk_54b"><b>framename</b> - Opens the linked resource in the named frame.</li>
+                        <li id="li_psy_bgk_54b" irina="irina"><b>framename</b> - Opens the linked resource in the named frame.</li>
                       </ul></dd>
                   </dlentry>
                 </dl>
@@ -119,16 +119,16 @@
     <section id="how_to_create_an_image_map_in_xhtml">
       <title>How to Create an Image Map in XHTML</title>
       <p id="p_qsy_bgk_54b">To create an image map on an existing image in an XHTML document, follow these steps:<ol id="ol_rsy_bgk_54b">
-          <li id="li_ssy_bgk_54b">
+          <li id="li_ssy_bgk_54b" irina="irina">
             <p id="p_tsy_bgk_54b">Right-click the image and select <uicontrol>Image Map Editor</uicontrol>.</p>
             <p id="p_usy_bgk_54b"><b>Step Result:</b> This action will apply an <i>image map</i> to the current image
               and open the <uicontrol>Image Map Editor</uicontrol> dialog box.</p>
           </li>
-          <li id="li_vsy_bgk_54b">Add hyperlinks to the image by selecting one of the shape buttons (<uicontrol><image
+          <li id="li_vsy_bgk_54b" irina="irina">Add hyperlinks to the image by selecting one of the shape buttons (<uicontrol><image
                 href="../img/NewRectangle20.png"/>New Rectangle</uicontrol>, <uicontrol><image
                 href="../img/NewCircle20.png"/>New Circle</uicontrol>, or <uicontrol><image
                 href="../img/NewPolygon20.png"/>New Polygon</uicontrol>).</li>
-          <li id="li_wsy_bgk_54b">Move the shape to the desired area in the image and drag any of the points on the
+          <li id="li_wsy_bgk_54b" irina="irina">Move the shape to the desired area in the image and drag any of the points on the
             shape to adjust its size or form. You can use the <xref href="#image-map-xhtml/toolbar"
               format="dita">other buttons on the toolbar</xref> to adjust its layer and color, or to
             perform other editing actions.<note type="tip" id="note_xsy_bgk_54b">You can right-click any of the points,
@@ -137,16 +137,16 @@
               actions</xref>. For example, the easiest way to remove a point is to right-click the
               point and select <uicontrol><image href="../img/Remove16.png"/>Remove
                 Point</uicontrol>.</note></li>
-          <li id="li_ysy_bgk_54b">With the shape selected, specify the hyperlink target in the <xref
+          <li id="li_ysy_bgk_54b" irina="irina">With the shape selected, specify the hyperlink target in the <xref
               href="#image-map-xhtml/href" format="dita"><uicontrol>Href</uicontrol> field</xref>
             and enter a description for the selected area in the <xref href="#image-map-xhtml/alt"
               format="dita"><uicontrol>Alternate</uicontrol> field</xref>.</li>
-          <li id="li_zsy_bgk_54b">(Optional) Specify where the hyperlink resource will be opened in the <xref
+          <li id="li_zsy_bgk_54b" irina="irina">(Optional) Specify where the hyperlink resource will be opened in the <xref
               href="#image-map-xhtml/target" format="dita"><uicontrol>Target</uicontrol>
               field</xref>.</li>
-          <li id="li_aty_bgk_54b">If you want to add more hyperlinks to the image, select a shape button again and
+          <li id="li_aty_bgk_54b" irina="irina">If you want to add more hyperlinks to the image, select a shape button again and
             repeat the appropriate steps.</li>
-          <li id="li_bty_bgk_54b">When you are finished creating hyperlinks, click <uicontrol>OK</uicontrol> to process
+          <li id="li_bty_bgk_54b" irina="irina">When you are finished creating hyperlinks, click <uicontrol>OK</uicontrol> to process
             your changes.</li>
         </ol></p>
       <p id="p_cty_bgk_54b"><b>Result:</b> The <i>image map</i> is applied on the image and the appropriate
@@ -157,9 +157,9 @@
     <section id="how_to_edit_an_existing_image_map_in_xhtml">
       <title>How to Edit an Existing Image Map in XHTML</title>
       <p id="p_dty_bgk_54b">To edit an existing image map, use any of the following methods:<ul id="ul_ety_bgk_54b">
-          <li id="li_fty_bgk_54b">Simply double-click the image.</li>
-          <li id="li_gty_bgk_54b">Right-click the image and select <uicontrol>Image Map Editor</uicontrol>.</li>
-          <li id="li_hty_bgk_54b">Click the <uicontrol>Image Map Editor</uicontrol> button below the image.</li>
+          <li id="li_fty_bgk_54b" irina="irina">Simply double-click the image.</li>
+          <li id="li_gty_bgk_54b" irina="irina">Right-click the image and select <uicontrol>Image Map Editor</uicontrol>.</li>
+          <li id="li_hty_bgk_54b" irina="irina">Click the <uicontrol>Image Map Editor</uicontrol> button below the image.</li>
         </ul>All three methods open the <uicontrol>Image Map Editor</uicontrol> where you can make
         changes to the image map using the various features described above. You can also make
         changes to the XML structure of the image map in the <uicontrol>Text</uicontrol> editing

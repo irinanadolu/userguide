@@ -26,8 +26,8 @@
       dependencies graph computed for the main schema. In this case, it considers the current module
       as the main schema.</p>
     <p id="p_pvg_cgk_54b">The advantages of editing in the context of main file include:<ul id="ul_qvg_cgk_54b">
-        <li id="li_rvg_cgk_54b">Correct validation of a module in the context of a larger schema structure. </li>
-        <li id="li_svg_cgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_rvg_cgk_54b" irina="irina">Correct validation of a module in the context of a larger schema structure. </li>
+        <li id="li_svg_cgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all the referable components valid in the current
           context. This include components defined in modules other than the currently edited
           one.</li>

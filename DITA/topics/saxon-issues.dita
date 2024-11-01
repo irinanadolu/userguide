@@ -15,17 +15,17 @@
         <steps-informal>
           <p id="p_zwk_dgk_54b">There is a plugin available that can be installed and it allows you to use Saxon 9.6.
             To install it, follow these instructions:<ol id="ol_axk_dgk_54b">
-              <li id="li_bxk_dgk_54b">Go to <menucascade>
+              <li id="li_bxk_dgk_54b" irina="irina">Go to <menucascade>
                   <uicontrol>Help</uicontrol>
                   <uicontrol>Install new add-ons</uicontrol>
                 </menucascade> to open an add-on selection dialog box.</li>
-              <li id="li_cxk_dgk_54b">Select the <i>default</i> update site from the drop-down menu
+              <li id="li_cxk_dgk_54b" irina="irina">Select the <i>default</i> update site from the drop-down menu
                   (<b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b>).</li>
-              <li id="li_dxk_dgk_54b">Select the <b>Saxon 9.6 XSLT and XQuery Transformer</b> plugin and click
+              <li id="li_dxk_dgk_54b" irina="irina">Select the <b>Saxon 9.6 XSLT and XQuery Transformer</b> plugin and click
                   <uicontrol>Next</uicontrol>.</li>
-              <li id="li_exk_dgk_54b">Select the <b>I accept all terms of the end user license agreement</b> option and
+              <li id="li_exk_dgk_54b" irina="irina">Select the <b>I accept all terms of the end user license agreement</b> option and
                 click <uicontrol>Finish</uicontrol>.</li>
-              <li id="li_fxk_dgk_54b">Restart the application.</li>
+              <li id="li_fxk_dgk_54b" irina="irina">Restart the application.</li>
             </ol></p>
           <p id="p_gxk_dgk_54b"><b>Result:</b> When you configure the transformation scenario, you will now have the
             option to choose the Saxon 9.6 transformer.</p>

@@ -38,16 +38,16 @@
       <title>Default Schema for Validation and Content Completion</title>
       <p id="p_b5j_cgk_54b">Default schemas that are used if one is not detected in the XHTML file are stored in the
         following locations:<ul id="ul_ujs_2mf_fr">
-          <li id="li_c5j_cgk_54b">XHTML 1.0 - <filepath><term
+          <li id="li_c5j_cgk_54b" irina="irina">XHTML 1.0 - <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"/>/frameworks/xhtml/dtd/</filepath>
             or <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml/nvdl/</filepath>.</li>
-          <li id="li_d5j_cgk_54b">XHTML 1.1 - <filepath><term
+          <li id="li_d5j_cgk_54b" irina="irina">XHTML 1.1 - <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml11/dtd/</filepath> or <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml11/schema/</filepath>.</li>
-          <li id="li_e5j_cgk_54b">XHTML 5 - <filepath><term
+          <li id="li_e5j_cgk_54b" irina="irina">XHTML 5 - <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"/>/frameworks/xhtml/xhtml5
               (epub3)/</filepath>.</li>
         </ul></p>
@@ -66,17 +66,17 @@
       <title>Default XML Catalogs</title>
       <p id="p_h5j_cgk_54b">The default <xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> for the
         XHTML document type are as follows:<ul id="ul_i5j_cgk_54b">
-          <li id="li_j5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_j5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml/dtd/xhtmlcatalog.xml</filepath></li>
-          <li id="li_k5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_k5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/relaxng/catalog.xml</filepath></li>
-          <li id="li_l5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_l5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/nvdl/catalog.xml</filepath></li>
-          <li id="li_m5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_m5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml11/dtd/xhtmlcatalog.xml</filepath></li>
-          <li id="li_n5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_n5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/xhtml11/schema/xhtmlcatalog.xml</filepath></li>
-          <li id="li_o5j_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_o5j_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/xhtml5 (epub3)/catalog-compat.xml</filepath></li>
         </ul></p>
     </section>

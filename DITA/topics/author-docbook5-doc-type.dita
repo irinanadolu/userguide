@@ -83,15 +83,15 @@
       <title>Resources</title>
       <p id="p_ty3_cgk_54b">
         <ul id="ul_uy3_cgk_54b">
-          <li product="author editor authorEclipse editorEclipse" id="li_vy3_cgk_54b"><xref
+          <li product="author editor authorEclipse editorEclipse" id="li_vy3_cgk_54b" irina="irina"><xref
               href="https://www.oxygenxml.com/demo/DocBook_Editing_Support.html" format="html"
               scope="external">Oxygen Video Tutorial: Editing DocBook Documents in Author
               Mode</xref></li>
-          <li id="li_wy3_cgk_54b"><xref href="http://docbook.org/specs/" format="html" scope="external">DocBook 5.0 (and
+          <li id="li_wy3_cgk_54b" irina="irina"><xref href="http://docbook.org/specs/" format="html" scope="external">DocBook 5.0 (and
               older) Specifications</xref></li>
-          <li id="li_xy3_cgk_54b"><xref href="http://docbook.org/specs/docbook-v5.1-csprd02.html" format="html"
+          <li id="li_xy3_cgk_54b" irina="irina"><xref href="http://docbook.org/specs/docbook-v5.1-csprd02.html" format="html"
               scope="external">DocBook 5.1 Specifications</xref></li>
-          <li id="li_yy3_cgk_54b"><xref href="http://tdg.docbook.org/tdg/5.1/" format="html" scope="external">DocBook
+          <li id="li_yy3_cgk_54b" irina="irina"><xref href="http://tdg.docbook.org/tdg/5.1/" format="html" scope="external">DocBook
               5.1: The Definitive Guide</xref></li>
         </ul>
       </p>

@@ -19,20 +19,20 @@
     <section id="creating_a_json_validation_scenario">
       <title>Creating a JSON Validation Scenario</title>
       <p id="p_epf_cgk_54b">To create a validation scenario, follow these steps:<ol id="ol_fpf_cgk_54b">
-          <li id="li_gpf_cgk_54b">
+          <li id="li_gpf_cgk_54b" irina="irina">
             <p id="p_hpf_cgk_54b">Select the <uicontrol><image href="../img/ValidationConfig16.png"
                   id="image_k3g_x5v_sr"/>Configure Validation Scenario(s)</uicontrol> action in one
               of the following ways:<ul id="ul_trg_zcy_b2b">
-                <li id="li_ipf_cgk_54b">From the <ph product="developer editor json"
+                <li id="li_ipf_cgk_54b" irina="irina">From the <ph product="developer editor json"
                         ><uicontrol><image href="../img/ValidateDrop.png" id="image_dyn_x5v_sr"
                       />Validation</uicontrol> toolbar drop-down menu</ph><ph
                     product="developerEclipse editorEclipse">toolbar</ph>.</li>
-                <li id="li_jpf_cgk_54b">From the <menucascade product="developer editor json">
+                <li id="li_jpf_cgk_54b" irina="irina">From the <menucascade product="developer editor json">
                     <uicontrol>Document</uicontrol>
                     <uicontrol>Validate</uicontrol>
                   </menucascade><uicontrol product="developerEclipse editorEclipse">JSON</uicontrol>
                   menu.</li>
-                <li id="li_kpf_cgk_54b">From the <uicontrol>Validate</uicontrol> submenu, when
+                <li id="li_kpf_cgk_54b" irina="irina">From the <uicontrol>Validate</uicontrol> submenu, when
                   invoking the contextual menu on a file in the <xref
                     href="using-the-project-view.dita#using-the-project-view"><ph
                       product="developer editor json"><uicontrol>Project</uicontrol> view</ph><ph
@@ -42,7 +42,7 @@
             <p id="p_lpf_cgk_54b"><b>Step Result:</b> The <uicontrol>Configure Validation Scenario(s)</uicontrol>
               dialog box is displayed.</p>
           </li>
-          <li id="li_mpf_cgk_54b">
+          <li id="li_mpf_cgk_54b" irina="irina">
             <p id="p_npf_cgk_54b">Click the <uicontrol>New</uicontrol> button.</p>
             <p id="p_opf_cgk_54b"><b>Step Result:</b> A validation scenario configuration dialog box is displayed.</p>
             <p id="p_ppf_cgk_54b">
@@ -71,12 +71,12 @@
                     edit the URL, <ph product="developer editor json">double-</ph>click its cell and
                     specify the URL of the main module by doing one of the following:<ul
                       id="ul_wpf_cgk_54b">
-                      <li id="li_xpf_cgk_54b">Enter the URL in the text field or select it from the
+                      <li id="li_xpf_cgk_54b" irina="irina">Enter the URL in the text field or select it from the
                         drop-down list.</li>
-                      <li id="li_ypf_cgk_54b">Use the <uicontrol><image href="../img/BrowseDrop.png"
+                      <li id="li_ypf_cgk_54b" irina="irina">Use the <uicontrol><image href="../img/BrowseDrop.png"
                           />Browse</uicontrol> drop-down button to browse for a local, remote, or
                         archived file.</li>
-                      <li id="li_zpf_cgk_54b">
+                      <li id="li_zpf_cgk_54b" irina="irina">
                         <p id="p_aqf_cgk_54b">Use the <uicontrol><image
                               href="../img/InsertEditorVariables16.png" id="image_gbn_qvd_w3b"
                             />Insert Editor Variable</uicontrol> button to insert an <xref
@@ -109,16 +109,16 @@
                   <dt><uicontrol>Validation engine</uicontrol></dt>
                   <dd>You can choose between the following types of validation engines for
                     validating JSON documents:<ul id="ul_n4q_tc4_3kb">
-                      <li id="li_hqf_cgk_54b"><uicontrol>Default engine</uicontrol> - The built-in JSON Validator will
+                      <li id="li_hqf_cgk_54b" irina="irina"><uicontrol>Default engine</uicontrol> - The built-in JSON Validator will
                         be used. For JSON Schema documents, this type should not be chosen unless
                         the document has a schema version specified.</li>
-                      <li id="li_iqf_cgk_54b"><uicontrol>JSON Schema Validator</uicontrol> - This type is for JSON
+                      <li id="li_iqf_cgk_54b" irina="irina"><uicontrol>JSON Schema Validator</uicontrol> - This type is for JSON
                         Schema documents only. It will use the version specified in the JSON Schema,
                         or if a version is not specified, the <xref
                           href="https://tools.ietf.org/html/draft-fge-json-schema-validation-00"
                           format="html" scope="external">JSON Schema draft-04</xref> will be
                         used.</li>
-                      <li id="li_jqf_cgk_54b"><uicontrol>JSON Schematron Validator</uicontrol> - The built-in JSON
+                      <li id="li_jqf_cgk_54b" irina="irina"><uicontrol>JSON Schematron Validator</uicontrol> - The built-in JSON
                         Schematron Validator will be used to validation JSON documents against a
                         specified Schematron schema.<note
                           conkeyref="reusables-editing-documents/note-JSON-validate-against-schematron" id="note_kqf_cgk_54b"
@@ -163,10 +163,10 @@
                 </dlentry>
               </dl></p>
           </li>
-          <li id="li_sqf_cgk_54b">Configure any of the existing validation units according to the information above. You
+          <li id="li_sqf_cgk_54b" irina="irina">Configure any of the existing validation units according to the information above. You
             can use the buttons at the bottom of the table to add, remove, or move validation
             units.</li>
-          <li id="li_tqf_cgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_tqf_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol></p>
       <p id="p_uqf_cgk_54b"><b>Result:</b> The newly created validation scenario will now be included in the list of
         scenarios in the <uicontrol>Configure Validation Scenario(s)</uicontrol> dialog box. You can

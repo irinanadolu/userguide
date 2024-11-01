@@ -33,10 +33,10 @@
           the text from the document).</note>
       </p>
       <p id="p_d1d_lpv_tyb">The list of available fields:<ul id="ul_e1d_lpv_tyb">
-          <li id="li_f1d_lpv_tyb"><b>title</b> - The title of the document.</li>
-          <li id="li_g1d_lpv_tyb"><b>description</b> - The description of the document.</li>
-          <li id="li_h1d_lpv_tyb"><b>text</b> - The raw text content of the document.</li>
-          <li id="li_i1d_lpv_tyb"><b>keywords</b> - The keywords of the document.</li>
+          <li id="li_f1d_lpv_tyb" irina="irina"><b>title</b> - The title of the document.</li>
+          <li id="li_g1d_lpv_tyb" irina="irina"><b>description</b> - The description of the document.</li>
+          <li id="li_h1d_lpv_tyb" irina="irina"><b>text</b> - The raw text content of the document.</li>
+          <li id="li_i1d_lpv_tyb" irina="irina"><b>keywords</b> - The keywords of the document.</li>
         </ul></p>
     </section>
     <section id="section_bn1_npv_tyb">

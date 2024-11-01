@@ -93,9 +93,9 @@
         for configuring the notifications that you will receive when certain events are
         triggered.</p>
       <p id="p_yjd_5js_s4b">At the top of this tab, you can select between:<ul id="ul_cxw_qks_s4b">
-          <li id="li_dxw_qks_s4b"><uicontrol>Global</uicontrol> - Use this subtab to configure
+          <li id="li_dxw_qks_s4b" irina="irina"><uicontrol>Global</uicontrol> - Use this subtab to configure
             notification settings for all site configurations.</li>
-          <li id="li_ktl_rks_s4b"><uicontrol>By Site</uicontrol> - Use this subtab to create a
+          <li id="li_ktl_rks_s4b" irina="irina"><uicontrol>By Site</uicontrol> - Use this subtab to create a
             custom notification scheme for a particular site configuration. You simply choose your
             site configuration from the drop-down menu, click the <uicontrol>Add scheme</uicontrol>
             button, and configure the notification options that appear (details can be found
@@ -113,13 +113,13 @@
               notifications of this type by deselecting the <uicontrol>Send me email notifications
                 when</uicontrol> option. Otherwise, you can choose whether or not to receive an
               email notification when the following occurs:<ul id="ul_vgw_rls_s4b">
-                <li id="li_wgw_rls_s4b"><b>Someone replies to one of my comments</b> - You will
+                <li id="li_wgw_rls_s4b" irina="irina"><b>Someone replies to one of my comments</b> - You will
                   receive an email notification when someone replies to a comment that you
                   added.</li>
-                <li id="li_xgw_rls_s4b"><b>Someone adds a comment on a topic where I added a
+                <li id="li_xgw_rls_s4b" irina="irina"><b>Someone adds a comment on a topic where I added a
                     comment</b> - You will receive an email notification when someone adds a comment
                   on any page where you have added a comment.</li>
-                <li id="li_ppj_4tj_1tb"><b>Someone resolves one of my comments</b> - You will
+                <li id="li_ppj_4tj_1tb" irina="irina"><b>Someone resolves one of my comments</b> - You will
                   receive an email notification when someone marks a comment you added as
                   resolved.</li>
               </ul></dd>
@@ -131,34 +131,34 @@
               deselecting the <uicontrol>Send me email notifications when</uicontrol> option.
               Otherwise, you can choose whether or not to receive an email notification when the
               following occurs:<ul id="ul_ql3_5ls_s4b">
-                <li id="li_xlq_dms_s4b"><b>Someone adds a comment that needs to be approved</b> -
+                <li id="li_xlq_dms_s4b" irina="irina"><b>Someone adds a comment that needs to be approved</b> -
                   You will receive an email notification when a user adds or edits a comment and the
                   site configuration has the <xref
                     href="ofb-editing-site.dita#ofb-editing-site/comment-moderation"
                       ><uicontrol>Comment Moderation</uicontrol> option enabled</xref>.</li>
-                <li id="li_sl3_5ls_s4b"><b>A moderator approves a comment</b> - You will receive an
+                <li id="li_sl3_5ls_s4b" irina="irina"><b>A moderator approves a comment</b> - You will receive an
                   email notification when a moderator approves a comment and the site configuration
                   has the <xref href="ofb-editing-site.dita#ofb-editing-site/comment-moderation"
                       ><uicontrol>Comment Moderation</uicontrol> option enabled</xref>.</li>
-                <li id="li_slk_qms_s4b"><b>Someone adds a comment</b> - You will receive an email
+                <li id="li_slk_qms_s4b" irina="irina"><b>Someone adds a comment</b> - You will receive an email
                   notification when a user adds a comment for any site configuration that you are
                   assigned as a <i>Moderator</i>.</li>
-                <li id="li_bjc_sms_s4b"><b>Someone edits a comment</b> - You will receive an email
+                <li id="li_bjc_sms_s4b" irina="irina"><b>Someone edits a comment</b> - You will receive an email
                   notification when a user edits a comment for any site configuration that you are
                   assigned as a <i>Moderator</i>.</li>
-                <li id="li_rjd_sms_s4b"><b>Someone deletes a comment</b> - You will receive an email
+                <li id="li_rjd_sms_s4b" irina="irina"><b>Someone deletes a comment</b> - You will receive an email
                   notification when a user deletes a comment for any site configuration that you are
                   assigned as a <i>Moderator</i>.</li>
-                <li id="li_y22_sms_s4b"><b>A moderator rejects a comment</b> - You will receive an
+                <li id="li_y22_sms_s4b" irina="irina"><b>A moderator rejects a comment</b> - You will receive an
                   email notification when a moderator rejects a comment for any site configuration
                   that you are assigned as a <i>Moderator</i>.</li>
-                <li id="li_dbf_sms_s4b"><b>A moderator restores a comment</b> - You will receive an
+                <li id="li_dbf_sms_s4b" irina="irina"><b>A moderator restores a comment</b> - You will receive an
                   email notification when a moderator restores a rejected/deleted comment for any
                   site configuration that you are assigned as a <i>Moderator</i>.</li>
-                <li id="li_exf_sms_s4b"><b>A moderator resolves a comment</b> - You will receive an
+                <li id="li_exf_sms_s4b" irina="irina"><b>A moderator resolves a comment</b> - You will receive an
                   email notification when a moderator resolves a comment for any site configuration
                   that you are assigned as a <i>Moderator</i>.</li>
-                <li id="li_ctg_sms_s4b"><b>A moderator reopens a comment</b> - You will receive an
+                <li id="li_ctg_sms_s4b" irina="irina"><b>A moderator reopens a comment</b> - You will receive an
                   email notification when a moderator reopens a resolved comment for any site
                   configuration that you are assigned as a <i>Moderator</i>.</li>
               </ul></dd>
@@ -170,22 +170,22 @@
                 <uicontrol>Send me email notifications when</uicontrol> option. Otherwise, you can
               choose whether or not to receive an email notification when the following occurs:<ul
                 id="ul_wrg_sns_s4b">
-                <li id="li_zrg_sns_s4b"><b>An administrator edits a site</b> - You will receive an
+                <li id="li_zrg_sns_s4b" irina="irina"><b>An administrator edits a site</b> - You will receive an
                   email notification when an administrator edits any site configuration that you are
                   assigned as <i>Owner</i> or <i>Admin</i>.</li>
-                <li id="li_zdy_xns_s4b"><b>An administrator deletes a site</b> - You will receive an
+                <li id="li_zdy_xns_s4b" irina="irina"><b>An administrator deletes a site</b> - You will receive an
                   email notification when an administrator deletes any site configuration that you
                   are assigned as <i>Owner</i> or <i>Admin</i>.</li>
-                <li id="li_uqz_yns_s4b"><b>An administrator adds a version</b> - You will receive an
+                <li id="li_uqz_yns_s4b" irina="irina"><b>An administrator adds a version</b> - You will receive an
                   email notification when an administrator adds a version to any site configuration
                   that you are assigned as <i>Owner</i> or <i>Admin</i>.</li>
-                <li id="li_wgb_c4s_s4b"><b>An administrator edits a version</b> - You will receive
+                <li id="li_wgb_c4s_s4b" irina="irina"><b>An administrator edits a version</b> - You will receive
                   an email notification when an administrator edits a version for any site
                   configuration that you are assigned as <i>Owner</i> or <i>Admin</i>.</li>
-                <li id="li_kjn_f4s_s4b"><b>An administrator deletes a version</b> - You will receive
+                <li id="li_kjn_f4s_s4b" irina="irina"><b>An administrator deletes a version</b> - You will receive
                   an email notification when an administrator deletes a version for any site
                   configuration that you are assigned as <i>Owner</i> or <i>Admin</i>.</li>
-                <li id="li_xqc_gsm_btb"><uicontrol>Send me a daily email with a page ratings
+                <li id="li_xqc_gsm_btb" irina="irina"><uicontrol>Send me a daily email with a page ratings
                     report</uicontrol> - If selected (default), users who are assigned as
                     <i>Owner</i> or <i>Admin</i> will receive a daily email that contains a report
                   of the pages that were rated within the past 24 hours.</li>

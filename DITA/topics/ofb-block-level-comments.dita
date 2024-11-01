@@ -51,12 +51,12 @@
       <title>How to Automatically Generate IDs in Oxygen XML Editor/Author</title>
       <p id="p_a2x_dgk_54b">If your source content is maintained in <b>Oxygen XML Editor/Author</b>, there are several
         convenient methods for automatically generating IDs:<ul id="ul_c3v_bfv_q4b">
-          <li id="li_b2x_dgk_54b">If you right-click a map in the <uicontrol>DITA Maps Manager</uicontrol> and select <menucascade>
+          <li id="li_b2x_dgk_54b" irina="irina">If you right-click a map in the <uicontrol>DITA Maps Manager</uicontrol> and select <menucascade>
               <uicontrol>Refactoring</uicontrol>
               <uicontrol>Generate IDs</uicontrol>
             </menucascade>, a wizard will be presented where you can select which elements will have
             an ID automatically generated (and you can specify a value pattern).</li>
-          <li id="li_c2x_dgk_54b">To have IDs automatically generated for specific elements as you edit documents going
+          <li id="li_c2x_dgk_54b" irina="irina">To have IDs automatically generated for specific elements as you edit documents going
             forward, go to <menucascade>
               <uicontrol>DITA</uicontrol>
               <uicontrol>ID Options</uicontrol>

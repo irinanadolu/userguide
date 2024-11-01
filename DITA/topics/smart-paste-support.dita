@@ -30,10 +30,10 @@
       or more choices for where to place it.</p>
     <note type="other" id="note_vbx_bgk_54b" othertype="Notes">
       <ul id="ul_bjf_ycn_15b">
-        <li id="li_cjf_ycn_15b">When pasting text fragments formatted with the <i>Courier New</i>
+        <li id="li_cjf_ycn_15b" irina="irina">When pasting text fragments formatted with the <i>Courier New</i>
           font, the <term>Smart Paste</term> mechanism will wrap it in an inline code element (for
           example, in DITA it would be wrapped in a <xmlelement>codeph</xmlelement> element).</li>
-        <li id="li_kvr_ycn_15b">Review comments that exist in the copied Word content are
+        <li id="li_kvr_ycn_15b" irina="irina">Review comments that exist in the copied Word content are
           intentionally ignored when pasting the content in <uicontrol>Author</uicontrol> mode.</li>
       </ul>
     </note>
@@ -43,23 +43,23 @@
         There are several options in the <xref
           href="preferences-schema-aware.dita#preferences-schema-aware"><uicontrol>Schema
             Aware</uicontrol> preferences page</xref> that control the <term>Smart Paste</term> mechanism:<ul id="ul_xbx_bgk_54b">
-          <li id="li_ybx_bgk_54b"><xref
+          <li id="li_ybx_bgk_54b" irina="irina"><xref
               href="preferences-schema-aware.dita#preferences-schema-aware/smart-paste-drag-drop"
                 ><uicontrol>Smart paste and drag and drop</uicontrol></xref> - This option
             determines whether or not <ph keyref="product"/> will try to find an appropriate insert
             position when the current location is not valid for the pasted content. This option is
             selected by default.</li>
-          <li id="li_zbx_bgk_54b"><xref href="preferences-schema-aware.dita#preferences-schema-aware/reject-action"
+          <li id="li_zbx_bgk_54b" irina="irina"><xref href="preferences-schema-aware.dita#preferences-schema-aware/reject-action"
                 ><uicontrol>Reject action when its result is invalid</uicontrol></xref> - If you
             select this option, <ph keyref="product"/> will not let you paste content into a
             position where it would be invalid. This option is deselected by default.</li>
-          <li id="li_acx_bgk_54b"><xref
+          <li id="li_acx_bgk_54b" irina="irina"><xref
               href="preferences-schema-aware.dita#preferences-schema-aware/convert_external_content_on_paste"
                 ><uicontrol>Convert external content on paste</uicontrol></xref> - This option
             determines whether or not <ph keyref="product"/> will convert the styling and formatting
             of copied content from external sources when pasting it into a document type that
             supports the feature. This option is selected by default.</li>
-          <li id="li_bcx_bgk_54b"><xref
+          <li id="li_bcx_bgk_54b" irina="irina"><xref
               href="preferences-schema-aware.dita#preferences-schema-aware/convert-even-space-preserve"
                 ><uicontrol>Convert even when pasting inside space-preserve
               elements</uicontrol></xref> - If you select this option, the <term>Smart Paste</term>
@@ -72,12 +72,12 @@
       <title>Smart Paste Supported Document Types</title>
       <p id="p_ccx_bgk_54b">The <term>Smart Paste</term> feature is supported for the following document types (<xref
           keyref="glossentry_framework"><term>frameworks</term></xref>):<ul id="ul_dcx_bgk_54b">
-          <li id="li_ecx_bgk_54b">DITA</li>
-          <li id="li_fcx_bgk_54b">DocBook 4</li>
-          <li id="li_gcx_bgk_54b">DocBook 5</li>
-          <li id="li_hcx_bgk_54b">TEI</li>
-          <li id="li_icx_bgk_54b">XHTML</li>
-          <li id="li_jcx_bgk_54b">JATS</li>
+          <li id="li_ecx_bgk_54b" irina="irina">DITA</li>
+          <li id="li_fcx_bgk_54b" irina="irina">DocBook 4</li>
+          <li id="li_gcx_bgk_54b" irina="irina">DocBook 5</li>
+          <li id="li_hcx_bgk_54b" irina="irina">TEI</li>
+          <li id="li_icx_bgk_54b" irina="irina">XHTML</li>
+          <li id="li_jcx_bgk_54b" irina="irina">JATS</li>
         </ul></p>
     </section>
     <section id="section_vms_yx2_w5b">

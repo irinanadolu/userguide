@@ -19,10 +19,10 @@
         <dlentry id="dlentry_n4l_cgk_54b">
           <dt><uicontrol>Input</uicontrol></dt>
           <dd>Choose between the following options to specify which input file to use:<ul id="ul_o4l_cgk_54b">
-              <li id="li_p4l_cgk_54b"><ph id="xslt-result-as-input"><uicontrol>XQuery result as input</uicontrol> - The
+              <li id="li_p4l_cgk_54b" irina="irina"><ph id="xslt-result-as-input"><uicontrol>XQuery result as input</uicontrol> - The
                   FO processor is applied to the result of the XQuery transformation that is defined
                   in the <uicontrol>XQuery</uicontrol> tab.</ph></li>
-              <li id="li_q4l_cgk_54b"><uicontrol>XML URL as input</uicontrol> - The FO processor is applied to the input
+              <li id="li_q4l_cgk_54b" irina="irina"><uicontrol>XML URL as input</uicontrol> - The FO processor is applied to the input
                 XML file.</li>
             </ul></dd>
         </dlentry>

@@ -19,14 +19,14 @@
       <title>Using Oxygen XML Editor/Author</title>
       <p id="p_g3p_cgk_54b">To copy additional resources to the output directory using a transformation scenario from
         within <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_h3p_cgk_54b">
-          <li id="li_i3p_cgk_54b">Place all your resources in the same directory.</li>
-          <li id="li_j3p_cgk_54b">Edit the WebHelp transformation scenario, then open the
+          <li id="li_i3p_cgk_54b" irina="irina">Place all your resources in the same directory.</li>
+          <li id="li_j3p_cgk_54b" irina="irina">Edit the WebHelp transformation scenario, then open the
               <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_k3p_cgk_54b">Edit the value for the <codeph>webhelp.custom.resources</codeph> parameter and set it
+          <li id="li_k3p_cgk_54b" irina="irina">Edit the value for the <codeph>webhelp.custom.resources</codeph> parameter and set it
             to the absolute path of the directory in step 1.</li>
-          <li id="li_l3p_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
+          <li id="li_l3p_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
             scenario.</li>
-          <li id="li_m3p_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_m3p_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
       <p id="p_n3p_cgk_54b"><b>Result:</b> All files from the new directory will be copied to the root of the WebHelp
         output directory.</p>
@@ -38,10 +38,10 @@
       <p id="p_p3p_cgk_54b">To copy additional resources to the output directory using a <xref
           href="using-the-webhelp-plugin-docbook.dita">script outside of <b>Oxygen XML
             Editor/Author</b></xref>, follow this procedure:<ol id="ol_q3p_cgk_54b">
-          <li id="li_r3p_cgk_54b">Place all your resources in the same directory.</li>
-          <li id="li_s3p_cgk_54b">Specify the absolute path to that directory using the
+          <li id="li_r3p_cgk_54b" irina="irina">Place all your resources in the same directory.</li>
+          <li id="li_s3p_cgk_54b" irina="irina">Specify the absolute path to that directory using the
               <codeph>webhelp.custom.resources</codeph> parameter.</li>
-          <li id="li_t3p_cgk_54b">Execute the transformation script.</li>
+          <li id="li_t3p_cgk_54b" irina="irina">Execute the transformation script.</li>
         </ol></p>
       <p id="p_u3p_cgk_54b"><b>Result:</b> All files from the new directory will be copied to the root of the WebHelp
         output directory.</p>

@@ -14,9 +14,9 @@
   <body>
     <p id="p_kvz_bgk_54b">There are two conditions for including a document fragment using DTD entities:</p>
     <ul id="ul_lvz_bgk_54b">
-      <li id="li_mvz_bgk_54b">The main document should declare the DTD to be used, while the external entities should
+      <li id="li_mvz_bgk_54b" irina="irina">The main document should declare the DTD to be used, while the external entities should
         declare the XML fragments to be referenced.</li>
-      <li id="li_nvz_bgk_54b">The referenced documents that contain the fragments cannot also define the DTD because the
+      <li id="li_nvz_bgk_54b" irina="irina">The referenced documents that contain the fragments cannot also define the DTD because the
         main document will not be valid. If you want to validate the parts separately you have to
           <xref href="including-document-parts-with-XInclude.dita">use XInclude</xref> for
         assembling the parts together with the <term>main file</term>.</li>

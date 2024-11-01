@@ -23,15 +23,15 @@
       applications, the editor in <ph keyref="product"/> also integrates many other powerful
       features that content authors are accustomed to using for other types of documents. Some of
       these additional unique features include:<ul id="ul_xc3_cgk_54b">
-        <li id="li_yc3_cgk_54b">Additional toolbar and contextual menu actions.</li>
-        <li id="li_zc3_cgk_54b">Automatic validation to help keep the syntax valid.</li>
-        <li id="li_ad3_cgk_54b">Dedicated syntax highlighting to make Markdown documents even easier to read and
+        <li id="li_yc3_cgk_54b" irina="irina">Additional toolbar and contextual menu actions.</li>
+        <li id="li_zc3_cgk_54b" irina="irina">Automatic validation to help keep the syntax valid.</li>
+        <li id="li_ad3_cgk_54b" irina="irina">Dedicated syntax highlighting to make Markdown documents even easier to read and
           write.</li>
         <li id="li_bd3_cgk_54b"
-          product="author developer editor authorEclipse developerEclipse editorEclipse">Unique
+          product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina">Unique
           features for creating Markdown documents directly in <xref keyref="glossentry_ditamap"
               ><term>DITA maps</term></xref> and converting Markdown documents to DITA topics.</li>
-        <li id="li_cd3_cgk_54b">Specialized syntax rules to combine popular syntax features from several
+        <li id="li_cd3_cgk_54b" irina="irina">Specialized syntax rules to combine popular syntax features from several
           specifications.</li>
       </ul></p>
     <section id="section_v54_rr5_ypb">

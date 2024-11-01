@@ -196,20 +196,20 @@
         attribute must be relative.</note>
       <p id="p_o3n_cgk_54b">This section is defined using the <b>resources</b> element and the types of resources that
         can be specified include:<ul id="ul_p3n_cgk_54b">
-          <li id="li_q3n_cgk_54b"><b>CSS files</b> - One or more CSS files that will define the styles of all generated
+          <li id="li_q3n_cgk_54b" irina="irina"><b>CSS files</b> - One or more CSS files that will define the styles of all generated
             HTML pages. They are referenced using the <xmlelement>css</xmlelement> element.</li>
-          <li id="li_r3n_cgk_54b"><b>Favicon</b> - You can specify the path to an image for the <term>favicon</term>
+          <li id="li_r3n_cgk_54b" irina="irina"><b>Favicon</b> - You can specify the path to an image for the <term>favicon</term>
             associated with your website. It is referenced using the
               <xmlelement>favicon</xmlelement> element.</li>
-          <li id="li_s3n_cgk_54b"><b>Logo</b> - You can specify the path to a logo image that will be displayed in the
+          <li id="li_s3n_cgk_54b" irina="irina"><b>Logo</b> - You can specify the path to a logo image that will be displayed in the
             left side of the output header. It is referenced using the <xmlelement>logo</xmlelement>
             element. Optionally, you can also specify:<ul id="ul_t3n_cgk_54b">
-              <li id="li_u3n_cgk_54b"><xmlelement>target-url</xmlelement> - will redirect the user to the specified URL
+              <li id="li_u3n_cgk_54b" irina="irina"><xmlelement>target-url</xmlelement> - will redirect the user to the specified URL
                 if they click the logo in the output.</li>
-              <li id="li_v3n_cgk_54b"><xmlelement>alt</xmlelement> - provides an alternate text for the logo image.
+              <li id="li_v3n_cgk_54b" irina="irina"><xmlelement>alt</xmlelement> - provides an alternate text for the logo image.
               </li>
             </ul></li>
-          <li id="li_x3n_cgk_54b"><b>Additional Resources (graphics, JS, fonts, folders)</b> - For other resources (such
+          <li id="li_x3n_cgk_54b" irina="irina"><b>Additional Resources (graphics, JS, fonts, folders)</b> - For other resources (such
             as images referenced in CSS, JavaScript, fonts, entire folders, etc.) that need to be
             included in the output, you need to instruct the transformation to include them in the
             output folder. You can specify one or more sets of additional resources to be copied to
@@ -509,31 +509,31 @@
           pages (<i>main page</i>, <i>topic page</i>, <i>search results page</i>, <i>index terms
             page</i>). The parameter values can be either a <b>well-formed</b> XHTML fragment or a
           path to a file that contains a <b>well-formed</b> XHTML fragment:<ul id="ul_u32_jxs_54b">
-            <li id="webhelp-fragment-head"><b>1 = webhelp.fragment.head</b> - Displays the specified XHTML
+            <li id="webhelp-fragment-head" irina="irina"><b>1 = webhelp.fragment.head</b> - Displays the specified XHTML
               fragment in the header section.</li>
-            <li id="webhelp-fragment-after-header"><b>2 = webhelp.fragment.after.header</b> - Displays the
+            <li id="webhelp-fragment-after-header" irina="irina"><b>2 = webhelp.fragment.after.header</b> - Displays the
               specified XHTML fragment after the header section.</li>
-            <li id="webhelp-fragment-before-body"><b>3 = webhelp.fragment.before.body</b> - Displays the specified
+            <li id="webhelp-fragment-before-body" irina="irina"><b>3 = webhelp.fragment.before.body</b> - Displays the specified
               XHTML fragment before the body.</li>
-            <li id="webhelp-fragment-before-logo-title"><b>4 = webhelp.fragment.before.logo_and_title</b> - Displays the
+            <li id="webhelp-fragment-before-logo-title" irina="irina"><b>4 = webhelp.fragment.before.logo_and_title</b> - Displays the
               specified XHTML fragment before the logo and title.</li>
-            <li id="webhelp-fragment-after-logo-title"><b>5 = webhelp.fragment.after.logo_and_title</b> - Displays the
+            <li id="webhelp-fragment-after-logo-title" irina="irina"><b>5 = webhelp.fragment.after.logo_and_title</b> - Displays the
               specified XHTML fragment after the logo and title.</li>
-            <li id="webhelp-fragment-before-top-menu"><b>6 = webhelp.fragment.before.top_menu</b> - Displays the
+            <li id="webhelp-fragment-before-top-menu" irina="irina"><b>6 = webhelp.fragment.before.top_menu</b> - Displays the
               specified XHTML fragment before the top menu.</li>
-            <li id="webhelp-fragment-after-top-menu"><b>7 = webhelp.fragment.after.top_menu</b> - Displays the
+            <li id="webhelp-fragment-after-top-menu" irina="irina"><b>7 = webhelp.fragment.after.top_menu</b> - Displays the
               specified XHTML fragment after the top menu.</li>
-            <li id="webhelp-fragment-before-search-input"><b>8 = webhelp.fragment.before.search.input</b> - Displays the
+            <li id="webhelp-fragment-before-search-input" irina="irina"><b>8 = webhelp.fragment.before.search.input</b> - Displays the
               specified XHTML fragment before the search input component.</li>
-            <li id="webhelp-fragment-after-search-input"><b>9 = webhelp.fragment.after.search.input</b> - Displays the
+            <li id="webhelp-fragment-after-search-input" irina="irina"><b>9 = webhelp.fragment.after.search.input</b> - Displays the
               specified XHTML fragment after the search input component.</li>
-            <li id="webhelp-fragment-before-main-content-area"><b>10 = webhelp.fragment.before.main.content.area</b> - Displays
+            <li id="webhelp-fragment-before-main-content-area" irina="irina"><b>10 = webhelp.fragment.before.main.content.area</b> - Displays
               the specified XHTML fragment before the main content area</li>
-            <li id="webhelp-fragment-after-main-content-area"><b>11 = webhelp.fragment.after.main.content.area</b> - Displays
+            <li id="webhelp-fragment-after-main-content-area" irina="irina"><b>11 = webhelp.fragment.after.main.content.area</b> - Displays
               the specified XHTML fragment after the main content area.</li>
-            <li id="webhelp-fragment-footer"><b>12 = webhelp.fragment.footer</b> - Displays the specified
+            <li id="webhelp-fragment-footer" irina="irina"><b>12 = webhelp.fragment.footer</b> - Displays the specified
               XHTML fragment in the footer section.</li>
-            <li id="webhelp-fragment-after-body"><b>13 = webhelp.fragment.after.body</b> - Displays the specified
+            <li id="webhelp-fragment-after-body" irina="irina"><b>13 = webhelp.fragment.after.body</b> - Displays the specified
               XHTML fragment after the body.</li>
           </ul></p>
       </section>
@@ -542,26 +542,26 @@
         <p id="p_byh_tys_54b">The following placeholder parameters can be used in the <i>main
             page</i>. The parameter values can be either a <b>well-formed</b> XHTML fragment or a
           path to a file that contains a <b>well-formed</b> XHTML fragment:<ul id="ul_cyh_tys_54b">
-            <li id="li_dyh_tys_54b"><b>webhelp.fragment.head.main.page</b> - Displays the specified
+            <li id="li_dyh_tys_54b" irina="irina"><b>webhelp.fragment.head.main.page</b> - Displays the specified
               XHTML fragment in the header section.</li>
-            <li id="li_eyh_tys_54b"><b>webhelp.fragment.after.header.main.page</b> - Displays the
+            <li id="li_eyh_tys_54b" irina="irina"><b>webhelp.fragment.after.header.main.page</b> - Displays the
               specified XHTML fragment after the header section.</li>
-            <li id="li_fyh_tys_54b"><b>webhelp.fragment.before.body.main.page</b> - Displays the
+            <li id="li_fyh_tys_54b" irina="irina"><b>webhelp.fragment.before.body.main.page</b> - Displays the
               specified XHTML fragment before the body.</li>
-            <li id="li_kyh_tys_54b"><b>webhelp.fragment.before.search.input.main.page</b> - Displays
+            <li id="li_kyh_tys_54b" irina="irina"><b>webhelp.fragment.before.search.input.main.page</b> - Displays
               the specified XHTML fragment before the search input component.</li>
-            <li id="li_lyh_tys_54b"><b>webhelp.fragment.after.search.input.main.page</b> - Displays
+            <li id="li_lyh_tys_54b" irina="irina"><b>webhelp.fragment.after.search.input.main.page</b> - Displays
               the specified XHTML fragment after the search input component.</li>
-            <li id="li_myh_tys_54b"><b>webhelp.fragment.before.main.content.area.main.page</b> -
+            <li id="li_myh_tys_54b" irina="irina"><b>webhelp.fragment.before.main.content.area.main.page</b> -
               Displays the specified XHTML fragment before the main content area</li>
-            <li id="li_nyh_tys_54b"><b>webhelp.fragment.after.main.content.area.main.page</b> -
+            <li id="li_nyh_tys_54b" irina="irina"><b>webhelp.fragment.after.main.content.area.main.page</b> -
               Displays the specified XHTML fragment after the main content area.</li>
-            <li id="li_pyh_tys_54b"><b>webhelp.fragment.after.body.main.page</b> - Displays the
+            <li id="li_pyh_tys_54b" irina="irina"><b>webhelp.fragment.after.body.main.page</b> - Displays the
               specified XHTML fragment after the body.</li>
-            <li id="li_vnb_czs_54b"><b>webhelp.fragment.before.toc_or_tiles</b> - Displays the
+            <li id="li_vnb_czs_54b" irina="irina"><b>webhelp.fragment.before.toc_or_tiles</b> - Displays the
               specified XHTML fragment before the main table of contents or tiles component on the
               main page.</li>
-            <li id="li_evc_czs_54b"><b>webhelp.fragment.after.toc_or_tiles</b> - Displays the
+            <li id="li_evc_czs_54b" irina="irina"><b>webhelp.fragment.after.toc_or_tiles</b> - Displays the
               specified XHTML fragment after the main table of contents or tiles component on the
               main page.</li>
           </ul></p>
@@ -571,52 +571,52 @@
         <p id="p_j5j_lzs_54b">The following placeholder parameters can be used in the <i>topic
             page</i>. The parameter values can be either a <b>well-formed</b> XHTML fragment or a
           path to a file that contains a <b>well-formed</b> XHTML fragment:<ul id="ul_k5j_lzs_54b">
-            <li id="li_l5j_lzs_54b"><b>webhelp.fragment.head.topic.page</b> - Displays the specified
+            <li id="li_l5j_lzs_54b" irina="irina"><b>webhelp.fragment.head.topic.page</b> - Displays the specified
               XHTML fragment in the header section.</li>
-            <li id="li_m5j_lzs_54b"><b>webhelp.fragment.after.header.topic.page</b> - Displays the
+            <li id="li_m5j_lzs_54b" irina="irina"><b>webhelp.fragment.after.header.topic.page</b> - Displays the
               specified XHTML fragment after the header section.</li>
-            <li id="li_n5j_lzs_54b"><b>webhelp.fragment.before.body.topic.page</b> - Displays the
+            <li id="li_n5j_lzs_54b" irina="irina"><b>webhelp.fragment.before.body.topic.page</b> - Displays the
               specified XHTML fragment before the body.</li>
-            <li id="li_o5j_lzs_54b"><b>webhelp.fragment.before.search.input.topic.page</b> -
+            <li id="li_o5j_lzs_54b" irina="irina"><b>webhelp.fragment.before.search.input.topic.page</b> -
               Displays the specified XHTML fragment before the search input component.</li>
-            <li id="li_p5j_lzs_54b"><b>webhelp.fragment.after.search.input.topic.page</b> - Displays
+            <li id="li_p5j_lzs_54b" irina="irina"><b>webhelp.fragment.after.search.input.topic.page</b> - Displays
               the specified XHTML fragment after the search input component.</li>
-            <li id="li_q5j_lzs_54b"><b>webhelp.fragment.before.main.content.area.topic.page</b> -
+            <li id="li_q5j_lzs_54b" irina="irina"><b>webhelp.fragment.before.main.content.area.topic.page</b> -
               Displays the specified XHTML fragment before the main content area</li>
-            <li id="li_r5j_lzs_54b"><b>webhelp.fragment.after.main.content.area.topic.page</b> -
+            <li id="li_r5j_lzs_54b" irina="irina"><b>webhelp.fragment.after.main.content.area.topic.page</b> -
               Displays the specified XHTML fragment after the main content area.</li>
-            <li id="li_s5j_lzs_54b"><b>webhelp.fragment.after.body.topic.page</b> - Displays the
+            <li id="li_s5j_lzs_54b" irina="irina"><b>webhelp.fragment.after.body.topic.page</b> - Displays the
               specified XHTML fragment after the body.</li>
-            <li id="li_t5j_lzs_54b"><b>webhelp.fragment.before.topic.toolbar</b> - Displays the
+            <li id="li_t5j_lzs_54b" irina="irina"><b>webhelp.fragment.before.topic.toolbar</b> - Displays the
               specified XHTML fragment before the toolbar buttons above the topic content in the
               topic page.</li>
-            <li id="li_jxp_tzs_54b"><b>webhelp.fragment.after.topic.toolbar</b> - Displays the
+            <li id="li_jxp_tzs_54b" irina="irina"><b>webhelp.fragment.after.topic.toolbar</b> - Displays the
               specified XHTML fragment after the toolbar buttons above the topic content in the
               topic page.</li>
-            <li id="li_up2_5zs_54b"><b>webhelp.fragment.before.topic.breadcrumb</b> - Displays the
+            <li id="li_up2_5zs_54b" irina="irina"><b>webhelp.fragment.before.topic.breadcrumb</b> - Displays the
               specified XHTML fragment before the breadcrumb component in the topic page.</li>
-            <li id="li_ic4_xzs_54b"><b>webhelp.fragment.after.topic.breadcrumb</b> - Displays the
+            <li id="li_ic4_xzs_54b" irina="irina"><b>webhelp.fragment.after.topic.breadcrumb</b> - Displays the
               specified XHTML fragment after the breadcrumb component in the topic page.</li>
-            <li id="li_t1l_yzs_54b"><b>webhelp.fragment.before.publication.toc</b> - Displays the
+            <li id="li_t1l_yzs_54b" irina="irina"><b>webhelp.fragment.before.publication.toc</b> - Displays the
               specified XHTML fragment before the publication's table of contents component in the
               topic page.</li>
-            <li id="li_uvb_b1t_54b"><b>webhelp.fragment.after.publication.toc</b> - Displays the
+            <li id="li_uvb_b1t_54b" irina="irina"><b>webhelp.fragment.after.publication.toc</b> - Displays the
               specified XHTML fragment after the publication's table of contents component in the
               topic page.</li>
-            <li id="li_g5x_b1t_54b"><b>webhelp.fragment.before.topic.content</b> - Displays the
+            <li id="li_g5x_b1t_54b" irina="irina"><b>webhelp.fragment.before.topic.content</b> - Displays the
               specified XHTML fragment before the topic's main content in the topic page.</li>
-            <li id="li_i2k_d1t_54b"><b>webhelp.fragment.after.topic.content</b> - Displays the
+            <li id="li_i2k_d1t_54b" irina="irina"><b>webhelp.fragment.after.topic.content</b> - Displays the
               specified XHTML fragment after the topic's main content in the topic page.</li>
-            <li id="li_lff_21t_54b"><b>webhelp.fragment.before.feedback</b> - Displays the specified
+            <li id="li_lff_21t_54b" irina="irina"><b>webhelp.fragment.before.feedback</b> - Displays the specified
               XHTML fragment before the <b>Oxygen Feedback</b> commenting component in the topic
               page.</li>
-            <li id="li_zhg_g1t_54b"><b>webhelp.fragment.after.feedback</b> - Displays the specified
+            <li id="li_zhg_g1t_54b" irina="irina"><b>webhelp.fragment.after.feedback</b> - Displays the specified
               XHTML fragment after the <b>Oxygen Feedback</b> commenting component in the topic
               page.</li>
-            <li id="li_vmb_h1t_54b"><b>webhelp.fragment.before.topic.toc</b> - Displays the
+            <li id="li_vmb_h1t_54b" irina="irina"><b>webhelp.fragment.before.topic.toc</b> - Displays the
               specified XHTML fragment before the topic's table of contents component in the topic
               page.</li>
-            <li id="li_j2t_h1t_54b"><b>webhelp.fragment.after.topic.toc</b> - Displays the specified
+            <li id="li_j2t_h1t_54b" irina="irina"><b>webhelp.fragment.after.topic.toc</b> - Displays the specified
               XHTML fragment after the topic's table of contents component in the topic page.</li>
           </ul></p>
       </section>
@@ -626,23 +626,23 @@
             results page</i>. The parameter values can be either a <b>well-formed</b> XHTML fragment
           or a path to a file that contains a <b>well-formed</b> XHTML fragment:<ul
             id="ul_r1d_j1t_54b">
-            <li id="li_s1d_j1t_54b"><b>webhelp.fragment.head.search.page</b> - Displays the
+            <li id="li_s1d_j1t_54b" irina="irina"><b>webhelp.fragment.head.search.page</b> - Displays the
               specified XHTML fragment in the header section.</li>
-            <li id="li_t1d_j1t_54b"><b>webhelp.fragment.after.header.search.page</b> - Displays the
+            <li id="li_t1d_j1t_54b" irina="irina"><b>webhelp.fragment.after.header.search.page</b> - Displays the
               specified XHTML fragment after the header section.</li>
-            <li id="li_u1d_j1t_54b"><b>webhelp.fragment.before.body.search.page</b> - Displays the
+            <li id="li_u1d_j1t_54b" irina="irina"><b>webhelp.fragment.before.body.search.page</b> - Displays the
               specified XHTML fragment before the body.</li>
-            <li id="li_v1d_j1t_54b"><b>webhelp.fragment.before.search.input.search.page</b> -
+            <li id="li_v1d_j1t_54b" irina="irina"><b>webhelp.fragment.before.search.input.search.page</b> -
               Displays the specified XHTML fragment before the search input component.</li>
-            <li id="li_w1d_j1t_54b"><b>webhelp.fragment.after.search.input.search.page</b> -
+            <li id="li_w1d_j1t_54b" irina="irina"><b>webhelp.fragment.after.search.input.search.page</b> -
               Displays the specified XHTML fragment after the search input component.</li>
-            <li id="li_x1d_j1t_54b"><b>webhelp.fragment.before.main.content.area.search.page</b> -
+            <li id="li_x1d_j1t_54b" irina="irina"><b>webhelp.fragment.before.main.content.area.search.page</b> -
               Displays the specified XHTML fragment before the main content area</li>
-            <li id="li_y1d_j1t_54b"><b>webhelp.fragment.after.main.content.area.search.page</b> -
+            <li id="li_y1d_j1t_54b" irina="irina"><b>webhelp.fragment.after.main.content.area.search.page</b> -
               Displays the specified XHTML fragment after the main content area.</li>
-            <li id="li_z1d_j1t_54b"><b>webhelp.fragment.after.body.search.page</b> - Displays the
+            <li id="li_z1d_j1t_54b" irina="irina"><b>webhelp.fragment.after.body.search.page</b> - Displays the
               specified XHTML fragment after the body.</li>
-            <li id="li_abd_j1t_54b"><b>webhelp.google.search.script</b> - Replaces the search input
+            <li id="li_abd_j1t_54b" irina="irina"><b>webhelp.google.search.script</b> - Replaces the search input
               component with a Google search component.</li>
           </ul></p>
       </section>
@@ -652,21 +652,21 @@
             results page</i>. The parameter values can be either a <b>well-formed</b> XHTML fragment
           or a path to a file that contains a <b>well-formed</b> XHTML fragment:<ul
             id="ul_mmm_q1t_54b">
-            <li id="li_nmm_q1t_54b"><b>webhelp.fragment.head.terms.page</b> - Displays the specified
+            <li id="li_nmm_q1t_54b" irina="irina"><b>webhelp.fragment.head.terms.page</b> - Displays the specified
               XHTML fragment in the header section.</li>
-            <li id="li_omm_q1t_54b"><b>webhelp.fragment.after.header.terms.page</b> - Displays the
+            <li id="li_omm_q1t_54b" irina="irina"><b>webhelp.fragment.after.header.terms.page</b> - Displays the
               specified XHTML fragment after the header section.</li>
-            <li id="li_pmm_q1t_54b"><b>webhelp.fragment.before.body.terms.page</b> - Displays the
+            <li id="li_pmm_q1t_54b" irina="irina"><b>webhelp.fragment.before.body.terms.page</b> - Displays the
               specified XHTML fragment before the body.</li>
-            <li id="li_qmm_q1t_54b"><b>webhelp.fragment.before.search.input.terms.page</b> -
+            <li id="li_qmm_q1t_54b" irina="irina"><b>webhelp.fragment.before.search.input.terms.page</b> -
               Displays the specified XHTML fragment before the search input component.</li>
-            <li id="li_rmm_q1t_54b"><b>webhelp.fragment.after.search.input.terms.page</b> - Displays
+            <li id="li_rmm_q1t_54b" irina="irina"><b>webhelp.fragment.after.search.input.terms.page</b> - Displays
               the specified XHTML fragment after the search input component.</li>
-            <li id="li_smm_q1t_54b"><b>webhelp.fragment.before.main.content.area.terms.page</b> -
+            <li id="li_smm_q1t_54b" irina="irina"><b>webhelp.fragment.before.main.content.area.terms.page</b> -
               Displays the specified XHTML fragment before the main content area</li>
-            <li id="li_tmm_q1t_54b"><b>webhelp.fragment.after.main.content.area.terms.page</b> -
+            <li id="li_tmm_q1t_54b" irina="irina"><b>webhelp.fragment.after.main.content.area.terms.page</b> -
               Displays the specified XHTML fragment after the main content area.</li>
-            <li id="li_umm_q1t_54b"><b>webhelp.fragment.after.body.terms.page</b> - Displays the
+            <li id="li_umm_q1t_54b" irina="irina"><b>webhelp.fragment.after.body.terms.page</b> - Displays the
               specified XHTML fragment after the body.</li>
           </ul></p>
       </section>

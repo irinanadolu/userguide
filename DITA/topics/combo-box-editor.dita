@@ -17,36 +17,36 @@
   </prolog>
   <body>
     <p id="p_yqd_dgk_54b">The <codeph>oxy_combobox</codeph> form control supports the following properties:<ul id="ul_zqd_dgk_54b">
-        <li id="li_ard_dgk_54b"><ph conkeyref="reusables-author-mode-customization/edit_property"
+        <li id="li_ard_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/edit_property"
             /><ul conkeyref="reusables-author-mode-customization/edit_property_ul"
             id="ul_brd_dgk_54b">
-            <li id="li_crd_dgk_54b"/>
+            <li id="li_crd_dgk_54b" irina="irina"/>
           </ul></li>
-        <li id="li_drd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/columns-property"
+        <li id="li_drd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/columns-property"
           /></li>
-        <li id="li_erd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property"
+        <li id="li_erd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property"
           /></li>
-        <li id="li_frd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"
+        <li id="li_frd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"
           /></li>
-        <li id="li_grd_dgk_54b"><uicontrol>editable</uicontrol> - This property accepts the
+        <li id="li_grd_dgk_54b" irina="irina"><uicontrol>editable</uicontrol> - This property accepts the
             <uicontrol>true</uicontrol> and <uicontrol>false</uicontrol> values. In addition to a
           drop-down menu, the <uicontrol>true</uicontrol> value also generates an editable text
           field box that allows you to insert other values than the proposed ones. The
             <uicontrol>false</uicontrol> value generates a drop-down menu that only accepts the
           proposed values.</li>
-        <li id="li_hrd_dgk_54b"><ph
+        <li id="li_hrd_dgk_54b" irina="irina"><ph
             conkeyref="reusables-author-mode-customization/tooltips-property"/></li>
-        <li id="li_ird_dgk_54b"><ph conkeyref="reusables-author-mode-customization/values-property"
+        <li id="li_ird_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/values-property"
             />.<note conkeyref="reusables-author-mode-customization/values-note"
             id="note_jrd_dgk_54b"/></li>
-        <li id="li_krd_dgk_54b"><ph
+        <li id="li_krd_dgk_54b" irina="irina"><ph
             conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
-        <li id="li_lrd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/labels-property"
+        <li id="li_lrd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/labels-property"
             /><note id="note_mrd_dgk_54b">This property is only available for read-only combo boxes
             (the <codeph>editable</codeph> property is set to <codeph>false</codeph>).</note></li>
-        <li id="li_nrd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/color-property"
+        <li id="li_nrd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/color-property"
           /></li>
-        <li id="li_ord_dgk_54b"><ph
+        <li id="li_ord_dgk_54b" irina="irina"><ph
             conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" id="codeblock_prd_dgk_54b">p:before {
   content: oxy_combobox(hoverPseudoclassName, 'showBorder')
@@ -54,11 +54,11 @@
 p:showBorder {
   border: 1px solid red;
 }</codeblock></li>
-        <li id="li_qrd_dgk_54b"><uicontrol>canRemoveValue</uicontrol> - If the value is set to
+        <li id="li_qrd_dgk_54b" irina="irina"><uicontrol>canRemoveValue</uicontrol> - If the value is set to
             <codeph>true</codeph> and the combo box is not editable, then a new
             <codeph>&lt;Empty></codeph> value is added in that combo box. This clears or removes the
           value being edited, depending on if it edits an element or attribute.</li>
-        <li id="li_rrd_dgk_54b"><uicontrol>onChange</uicontrol> - Can be used to invoke an action
+        <li id="li_rrd_dgk_54b" irina="irina"><uicontrol>onChange</uicontrol> - Can be used to invoke an action
           when the value of the combo box changes. The action can be created in the CSS using the
             <xref href="dg-action-function.dita#dg-action-function"><codeph>oxy_action()</codeph>
             function</xref> or referenced from the <xref keyref="glossentry_framework"

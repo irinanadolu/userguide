@@ -37,21 +37,21 @@
           <dt><uicontrol>New</uicontrol></dt>
           <dd>Opens the <uicontrol>Code template</uicontrol> dialog box that allows you to define a
             new code template. You can define the following fields:<ul id="ul_bmp_bgk_54b">
-              <li id="li_cmp_bgk_54b"><uicontrol>Name</uicontrol> - The name of the code template.</li>
-              <li conkeyref="reusables-configuring-oxygen/ct_desc" id="li_dmp_bgk_54b"/>
-              <li id="li_emp_bgk_54b"><uicontrol>Associate with</uicontrol> - You can choose to set the code template to
+              <li id="li_cmp_bgk_54b" irina="irina"><uicontrol>Name</uicontrol> - The name of the code template.</li>
+              <li conkeyref="reusables-configuring-oxygen/ct_desc" id="li_dmp_bgk_54b" irina="irina"/>
+              <li id="li_emp_bgk_54b" irina="irina"><uicontrol>Associate with</uicontrol> - You can choose to set the code template to
                 be associated with a specific type of editor or for all editor types.</li>
-              <li conkeyref="reusables-configuring-oxygen/ct_shortcut_key" id="li_fmp_bgk_54b"/>
-              <li conkeyref="reusables-configuring-oxygen/ct_content" id="li_gmp_bgk_54b"/>
+              <li conkeyref="reusables-configuring-oxygen/ct_shortcut_key" id="li_fmp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-configuring-oxygen/ct_content" id="li_gmp_bgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
         <dlentry id="dlentry_hmp_bgk_54b">
           <dt><uicontrol>Edit</uicontrol></dt>
           <dd>Opens the <uicontrol>Code template</uicontrol> dialog box and allows you to edit an
             existing code template. You can edit the following fields:<ul id="ul_imp_bgk_54b">
-              <li conkeyref="reusables-configuring-oxygen/ct_desc" id="li_jmp_bgk_54b"/>
-              <li conkeyref="reusables-configuring-oxygen/ct_shortcut_key" id="li_kmp_bgk_54b"/>
-              <li conkeyref="reusables-configuring-oxygen/ct_content" id="li_lmp_bgk_54b"/>
+              <li conkeyref="reusables-configuring-oxygen/ct_desc" id="li_jmp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-configuring-oxygen/ct_shortcut_key" id="li_kmp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-configuring-oxygen/ct_content" id="li_lmp_bgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
         <dlentry id="dlentry_mmp_bgk_54b">
@@ -76,24 +76,24 @@
     </p>
     <p id="p_qmp_bgk_54b">You can use the following <xref href="editor-variables.dita#editor-variables">editor
         variables</xref> when you define a code template in the <uicontrol>Content</uicontrol> text box:<ul id="ul_rmp_bgk_54b">
-        <li conkeyref="reusables-editor-variables/edVar-caret" id="li_smp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edvar-selection" id="li_tmp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-ask" id="li_ump_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edvar-timestamp" id="li_vmp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edvar-uuid" id="li_wmp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-id" id="li_xmp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-cfn" id="li_ymp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_zmp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edvar-cf" id="li_anp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-cfd" id="li_bnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-frameworksDir" id="li_cnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-pd" id="li_dnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-oxygenInstallDir" id="li_enp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-homeDir" id="li_fnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-pn" id="li_gnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edvar-env" id="li_hnp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-system" id="li_inp_bgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-date" id="li_jnp_bgk_54b"/>
+        <li conkeyref="reusables-editor-variables/edVar-caret" id="li_smp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-selection" id="li_tmp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-ask" id="li_ump_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-timestamp" id="li_vmp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-uuid" id="li_wmp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-id" id="li_xmp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-cfn" id="li_ymp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_zmp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-cf" id="li_anp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-cfd" id="li_bnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-frameworksDir" id="li_cnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-pd" id="li_dnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-oxygenInstallDir" id="li_enp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-homeDir" id="li_fnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-pn" id="li_gnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-env" id="li_hnp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-system" id="li_inp_bgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-date" id="li_jnp_bgk_54b" irina="irina"/>
       </ul></p>
   </body>
   <related-links product="author developer editor authorEclipse developerEclipse editorEclipse">

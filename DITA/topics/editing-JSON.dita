@@ -17,15 +17,15 @@
       <title>Resources</title>
       <p id="p_w54_rr5_ypb">For more information about the JSON support in <ph keyref="product"/>,
         see the following resources:<ul id="ul_bzc_455_ypb">
-          <li id="li_ljr_r55_ypb"><xref href="https://www.youtube.com/watch?v=wgIkagwSDrU"
+          <li id="li_ljr_r55_ypb" irina="irina"><xref href="https://www.youtube.com/watch?v=wgIkagwSDrU"
               format="html" scope="external"><b>Video: JSON Editing</b></xref></li>
-          <li id="li_if5_gv5_ypb"><xref href="https://www.youtube.com/watch?v=k3LHBU01GFI"
+          <li id="li_if5_gv5_ypb" irina="irina"><xref href="https://www.youtube.com/watch?v=k3LHBU01GFI"
               format="html" scope="external"><b>Video: JSON Tools in Oxygen</b></xref></li>
-          <li id="li_czc_455_ypb"><xref
+          <li id="li_czc_455_ypb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2020/webinar_json_and_json_schema_support_in_oxygen_xml_editor.html"
               format="html" scope="external"><b>Webinar: JSON and JSON Schema Support in
               Oxygen</b></xref></li>
-          <li id="li_g3h_jpn_nzb"><xref format="html" scope="external"
+          <li id="li_g3h_jpn_nzb" irina="irina"><xref format="html" scope="external"
               href="https://www.oxygenxml.com/events/2023/webinar_introducing_oxygen_json_editor_the_ultimate_solution_for_json_editing.html"
                 ><b>Webinar: Introducing Oxygen JSON Editor - The Ultimate Solution for JSON
                 Editing</b></xref></li>

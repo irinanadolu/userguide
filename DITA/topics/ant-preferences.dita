@@ -19,9 +19,9 @@
         keyref="glossentry_ant"><term>Apache Ant</term></xref> libraries (the so-called <i>Ant
         Home</i>) that <ph keyref="product"/> uses to handle Ant build files.</p>
     <p id="p_umq_bgk_54b">There are two options available:<ul id="ul_ch5_5b5_5n">
-        <li id="li_vmq_bgk_54b"><uicontrol>Built-in</uicontrol> - the path to the Ant distribution that comes bundled
+        <li id="li_vmq_bgk_54b" irina="irina"><uicontrol>Built-in</uicontrol> - the path to the Ant distribution that comes bundled
           with <ph keyref="product"/> installation kit.</li>
-        <li id="li_wmq_bgk_54b"><uicontrol>Custom</uicontrol> - the path to an Ant distribution of your choice.</li>
+        <li id="li_wmq_bgk_54b" irina="irina"><uicontrol>Custom</uicontrol> - the path to an Ant distribution of your choice.</li>
       </ul></p>
   </body>
 </topic>

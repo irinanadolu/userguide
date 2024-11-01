@@ -18,7 +18,7 @@
     <p id="p_fpg_cgk_54b">For an enhanced assistance, JQuery methods are also presented. The following icons decorate
       the elements in the content completion list of proposals depending on their type:<ul
         conkeyref="reusables-editing-documents/cc_icons" id="ul_gpg_cgk_54b">
-        <li id="li_hpg_cgk_54b"/>
+        <li id="li_hpg_cgk_54b" irina="irina"/>
       </ul><note id="note_ipg_cgk_54b">These icons decorate both the elements from the content completion list of
         proposals and from the <xref href="outline-view-JavaScript.dita#outline-view-JavaScript"
             ><uicontrol>Outline</uicontrol> view</xref>. </note></p>
@@ -29,8 +29,8 @@
       </fig>
     </p>
     <p id="p_lpg_cgk_54b">The <term>Content Completion Assistant</term> collects:<ul id="ul_mpg_cgk_54b">
-        <li id="li_npg_cgk_54b">Method names from the current file and from the library files.</li>
-        <li id="li_opg_cgk_54b">Functions and variables defined in the current file.</li>
+        <li id="li_npg_cgk_54b" irina="irina">Method names from the current file and from the library files.</li>
+        <li id="li_opg_cgk_54b" irina="irina">Functions and variables defined in the current file.</li>
       </ul>If you edit the content of a function, the content completion list of proposals contains
       all the local variables defined in the current function, or in the functions that contain the
       current one.</p>

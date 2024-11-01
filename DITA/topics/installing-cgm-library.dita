@@ -22,17 +22,17 @@
           scope="external"/> and follow the instructions.</ph><ph product="author editor">follow
         this procedure:</ph></p>
     <ol product="author editor" id="ol_n3y_bgk_54b">
-      <li id="li_o3y_bgk_54b">Go to <menucascade>
+      <li id="li_o3y_bgk_54b" irina="irina">Go to <menucascade>
           <uicontrol>Help</uicontrol>
           <uicontrol>Install new add-ons</uicontrol>
         </menucascade> to open an add-on selection dialog box. </li>
-      <li id="li_p3y_bgk_54b">Enter or paste <b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b> in
+      <li id="li_p3y_bgk_54b" irina="irina">Enter or paste <b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b> in
         the <uicontrol>Show add-ons from</uicontrol> field or select it from the drop-down
         menu.</li>
-      <li id="li_q3y_bgk_54b">Select the <b>Oxygen CGM support</b> add-on and click <uicontrol>Next</uicontrol>. </li>
-      <li id="li_r3y_bgk_54b">Select the <b>I accept all terms of the end user license agreement</b> option and click
+      <li id="li_q3y_bgk_54b" irina="irina">Select the <b>Oxygen CGM support</b> add-on and click <uicontrol>Next</uicontrol>. </li>
+      <li id="li_r3y_bgk_54b" irina="irina">Select the <b>I accept all terms of the end user license agreement</b> option and click
           <uicontrol>Finish</uicontrol>. </li>
-      <li id="li_s3y_bgk_54b">Restart the application.</li>
+      <li id="li_s3y_bgk_54b" irina="irina">Restart the application.</li>
     </ol>
     <p product="author editor" id="p_t3y_bgk_54b"><b>Result:</b> You should be able to see CGM images in
         <uicontrol>Author</uicontrol> mode.<note id="note_u3y_bgk_54b">If you want to render CGM images in your PDF

@@ -11,8 +11,8 @@
   </prolog>
   <body>
     <p id="p_rtv_dgk_54b"><ph keyref="product"/> applies all the element CSS selectors that are:<ul id="ul_kbp_ktt_cbb">
-        <li id="li_stv_dgk_54b">not enclosed in a <codeph>@media</codeph> rule.</li>
-        <li id="li_ttv_dgk_54b">enclosed in a <codeph>@media</codeph> rule with type <codeph>print</codeph> or
+        <li id="li_stv_dgk_54b" irina="irina">not enclosed in a <codeph>@media</codeph> rule.</li>
+        <li id="li_ttv_dgk_54b" irina="irina">enclosed in a <codeph>@media</codeph> rule with type <codeph>print</codeph> or
             <codeph>oxygen-chemistry</codeph>.</li>
       </ul>It is recommended to enclose the rules that use <term>Oxygen</term> extensions in
         <codeph>@media oxygen-chemistry</codeph>, and the ones that apply only to print into a

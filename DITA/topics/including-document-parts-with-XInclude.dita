@@ -67,13 +67,13 @@
     &lt;/xi:include&gt;
 &lt;/article&gt;</codeblock></p>
       <p id="p_dwz_bgk_54b">In this example, note the following:<ul id="ul_ewz_bgk_54b">
-          <li id="li_fwz_bgk_54b">The DOCTYPE declaration defines an entity that references a file containing the
+          <li id="li_fwz_bgk_54b" irina="irina">The DOCTYPE declaration defines an entity that references a file containing the
             information to add the <i>xi</i> namespace to certain elements defined by the DocBook
             DTD.</li>
-          <li id="li_gwz_bgk_54b">The href attribute of the <i>xi:include</i> element specifies that the
+          <li id="li_gwz_bgk_54b" irina="irina">The href attribute of the <i>xi:include</i> element specifies that the
               <filepath>introduction.xml</filepath> file will replace the <i>xi:include</i> element
             when the document is parsed.</li>
-          <li id="li_hwz_bgk_54b">If the <filepath>introduction.xml</filepath> file cannot be found, the parser will use
+          <li id="li_hwz_bgk_54b" irina="irina">If the <filepath>introduction.xml</filepath> file cannot be found, the parser will use
             the value of the <i>xi:fallback</i> element - a <i>FIXME</i> message.</li>
         </ul></p>
     </section>
@@ -119,7 +119,7 @@
         support for fragment identifiers and attribute copying.</p>
       <p id="p_rwz_bgk_54b">
         <ul id="ul_swz_bgk_54b">
-          <li id="li_twz_bgk_54b">
+          <li id="li_twz_bgk_54b" irina="irina">
             <p id="p_uwz_bgk_54b"><u><b>Fragment Identifiers</b></u></p>
             <p id="p_vwz_bgk_54b">You can use <xmlelement>xi:include</xmlelement> to reference a text file and specify
               the <codeph>@fragid</codeph> value so that you only get part of that text file in the
@@ -130,7 +130,7 @@
                 scope="external"><b>Textual Inclusion Examples with RFC5147 Fragment
                 Identifiers</b></xref>.</p>
           </li>
-          <li id="li_wwz_bgk_54b">
+          <li id="li_wwz_bgk_54b" irina="irina">
             <p id="p_xwz_bgk_54b"><u><b>Attribute Copying</b></u></p>
             <p id="p_ywz_bgk_54b">Any <term>namespaced</term> attribute defined on the
                 <xmlelement>xi:include</xmlelement> element will be passed to the root element of

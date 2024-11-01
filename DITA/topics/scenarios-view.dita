@@ -37,10 +37,10 @@
     <p id="p_whm_cgk_54b"><ph product="author developer editor">The <uicontrol>Transformation Scenarios</uicontrol>
         view presents both global and <xref keyref="glossentry_project-options">project-level</xref>
         scenarios. </ph>By default, <ph keyref="product"/> presents the items in the following order:<ol id="ol_xhm_cgk_54b">
-        <li id="li_yhm_cgk_54b">Scenarios that match the current <xref keyref="glossentry_framework"
+        <li id="li_yhm_cgk_54b" irina="irina">Scenarios that match the current <xref keyref="glossentry_framework"
               ><term>framework</term></xref>.</li>
-        <li id="li_zhm_cgk_54b">Scenarios that match the current project.</li>
-        <li id="li_a3m_cgk_54b">Scenarios that match other <term>frameworks</term>.</li>
+        <li id="li_zhm_cgk_54b" irina="irina">Scenarios that match the current project.</li>
+        <li id="li_a3m_cgk_54b" irina="irina">Scenarios that match other <term>frameworks</term>.</li>
       </ol></p>
     <section id="toolbarcontextual_menu_actions_and_options">
       <title>Toolbar/Contextual Menu Actions and Options</title>
@@ -104,8 +104,8 @@
               want to import. If one of the scenarios you import is identical to an existing
               scenario, <ph keyref="product"/> ignores it. If a conflict appears (an imported
               scenario has the same name as an existing one), you can choose between two options: <ul id="ul_l3m_cgk_54b">
-                <li id="li_m3m_cgk_54b">Keep or replace the existing scenario.</li>
-                <li id="li_n3m_cgk_54b">Keep both scenarios. <note id="note_o3m_cgk_54b">When you keep both scenarios, <ph keyref="product"/>
+                <li id="li_m3m_cgk_54b" irina="irina">Keep or replace the existing scenario.</li>
+                <li id="li_n3m_cgk_54b" irina="irina">Keep both scenarios. <note id="note_o3m_cgk_54b">When you keep both scenarios, <ph keyref="product"/>
                     adds <filepath>imported</filepath> to the name of the imported scenario.
                   </note></li>
               </ul></dd>

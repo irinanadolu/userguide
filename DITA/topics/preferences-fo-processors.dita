@@ -77,11 +77,11 @@
             <dt><uicontrol>Generates PDF/A-1b output</uicontrol></dt>
             <dd>When selected, PDF/A-1b output is generated.<note type="other" othertype="Notes" id="note_glq_bgk_54b">
                 <ul id="ul_nwf_zfk_tlb">
-                  <li id="li_hlq_bgk_54b">All fonts have to be embedded, even the implicit ones. More information about
+                  <li id="li_hlq_bgk_54b" irina="irina">All fonts have to be embedded, even the implicit ones. More information about
                     configuring metrics files for the embedded fonts can be found in <xref
                       href="add-font-to-builtin-FOP.dita">Add a font to the built-in
                     FOP</xref>.</li>
-                  <li id="li_ilq_bgk_54b">You cannot use the <codeph>&lt;filterList&gt;</codeph> key in the
+                  <li id="li_ilq_bgk_54b" irina="irina">You cannot use the <codeph>&lt;filterList&gt;</codeph> key in the
                     configuration file since the FOP would generate the following error: <cite>The
                       Filter key is prohibited when PDF/A-1 is active</cite>.</li>
                 </ul>
@@ -165,11 +165,11 @@
                 <ph conkeyref="reusables-user-guide/specify-path-without-drop-down"/> You can use
               one of the following <xref href="editor-variables.dita#editor-variables">editor
                 variables</xref>:<ul id="ul_mm3_z4t_rs">
-                <li id="li_wlq_bgk_54b"><uicontrol>${homeDir}</uicontrol> - The path to the user home directory.</li>
-                <li id="li_xlq_bgk_54b"><uicontrol>${cfd}</uicontrol> - The path of the current file directory. If the
+                <li id="li_wlq_bgk_54b" irina="irina"><uicontrol>${homeDir}</uicontrol> - The path to the user home directory.</li>
+                <li id="li_xlq_bgk_54b" irina="irina"><uicontrol>${cfd}</uicontrol> - The path of the current file directory. If the
                   current file is not a local file, the target is the user desktop directory.</li>
-                <li id="li_ylq_bgk_54b"><uicontrol>${pd}</uicontrol> - The project directory.</li>
-                <li id="li_zlq_bgk_54b"><uicontrol>${oxygenInstallDir}</uicontrol> -The <ph keyref="product"/>
+                <li id="li_ylq_bgk_54b" irina="irina"><uicontrol>${pd}</uicontrol> - The project directory.</li>
+                <li id="li_zlq_bgk_54b" irina="irina"><uicontrol>${oxygenInstallDir}</uicontrol> -The <ph keyref="product"/>
                   installation directory.</li>
               </ul></dd>
           </dlentry>
@@ -179,18 +179,18 @@
                 conkeyref="reusables-user-guide/specify-path-without-drop-down"/> You can use one of
               the following <xref href="editor-variables.dita#editor-variables">editor
                 variables</xref>:<ul id="ul_xjq_1pt_rs">
-                <li id="li_bmq_bgk_54b"><uicontrol>${method}</uicontrol> - The FOP transformation method:
+                <li id="li_bmq_bgk_54b" irina="irina"><uicontrol>${method}</uicontrol> - The FOP transformation method:
                     <uicontrol>pdf</uicontrol>, <uicontrol>ps</uicontrol>, or
                     <uicontrol>txt</uicontrol>.</li>
-                <li id="li_cmq_bgk_54b"><uicontrol>${fo}</uicontrol> - The input FO file.</li>
-                <li id="li_dmq_bgk_54b"><uicontrol>${out}</uicontrol> - The output file.</li>
-                <li id="li_emq_bgk_54b"><uicontrol>${pd}</uicontrol> - The project directory.</li>
-                <li id="li_fmq_bgk_54b"><uicontrol>${frameworksDir}</uicontrol> - The path of the
+                <li id="li_cmq_bgk_54b" irina="irina"><uicontrol>${fo}</uicontrol> - The input FO file.</li>
+                <li id="li_dmq_bgk_54b" irina="irina"><uicontrol>${out}</uicontrol> - The output file.</li>
+                <li id="li_emq_bgk_54b" irina="irina"><uicontrol>${pd}</uicontrol> - The project directory.</li>
+                <li id="li_fmq_bgk_54b" irina="irina"><uicontrol>${frameworksDir}</uicontrol> - The path of the
                     <filepath>frameworks</filepath> subdirectory of the <ph keyref="product"/>
                   installation directory.</li>
-                <li id="li_gmq_bgk_54b"><uicontrol>${oxygenInstallDir}</uicontrol> - The <ph keyref="product"/>
+                <li id="li_gmq_bgk_54b" irina="irina"><uicontrol>${oxygenInstallDir}</uicontrol> - The <ph keyref="product"/>
                   installation directory.</li>
-                <li id="li_hmq_bgk_54b"><uicontrol>${ps}</uicontrol> - The platform-specific path separator. It is used
+                <li id="li_hmq_bgk_54b" irina="irina"><uicontrol>${ps}</uicontrol> - The platform-specific path separator. It is used
                   between the library files specified in the class path of the command line.</li>
               </ul></dd>
           </dlentry>

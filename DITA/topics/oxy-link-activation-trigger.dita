@@ -22,15 +22,15 @@
           (<uicontrol><shortcut>Command+Click</shortcut></uicontrol> on macOS) to activate
       hyperlinks.</p>
     <p id="p_cnc_dgk_54b">The possible values are:<ul id="ul_jbd_jdh_hlb">
-        <li id="li_dnc_dgk_54b"><uicontrol>click</uicontrol> - Hyperlinks are opened when a user
+        <li id="li_dnc_dgk_54b" irina="irina"><uicontrol>click</uicontrol> - Hyperlinks are opened when a user
           mouse-clicks the link icon or text.</li>
-        <li id="li_enc_dgk_54b"><uicontrol>modifier-click</uicontrol> - Hyperlinks are opened when a
+        <li id="li_enc_dgk_54b" irina="irina"><uicontrol>modifier-click</uicontrol> - Hyperlinks are opened when a
           user holds down <uicontrol><shortcut>Ctrl</shortcut></uicontrol>
               (<uicontrol><shortcut>Command</shortcut></uicontrol> on macOS) and mouse-clicks the
           link icon or text.</li>
-        <li id="li_fnc_dgk_54b"><uicontrol>auto</uicontrol> - The hyperlink strategy is determined
+        <li id="li_fnc_dgk_54b" irina="irina"><uicontrol>auto</uicontrol> - The hyperlink strategy is determined
           automatically, depending on the context.</li>
-        <li id="li_gnc_dgk_54b"><uicontrol>inherit</uicontrol> - The value is inherited from the
+        <li id="li_gnc_dgk_54b" irina="irina"><uicontrol>inherit</uicontrol> - The value is inherited from the
           parent element.</li>
       </ul></p>
   </body>

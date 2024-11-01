@@ -42,9 +42,9 @@
             setting if the detected value does not work for your particular case and you want to use
             a fixed-size indent for all the edited documents. If this option is selected, <ph
               keyref="product"/> detects the following:<ul id="ul_gcp_bgk_54b">
-              <li id="li_hcp_bgk_54b">When TAB characters are used to indent content, the size of the TAB characters is
+              <li id="li_hcp_bgk_54b" irina="irina">When TAB characters are used to indent content, the size of the TAB characters is
                 used for the indent size.</li>
-              <li id="li_icp_bgk_54b">Otherwise, the detected size of SPACE characters is used for the indent size.</li>
+              <li id="li_icp_bgk_54b" irina="irina">Otherwise, the detected size of SPACE characters is used for the indent size.</li>
             </ul><note type="tip" id="note_jcp_bgk_54b">If you want to minimize the formatting differences created by the
                 <uicontrol>Format and Indent</uicontrol> operation in a document edited in the
                 <uicontrol>Text</uicontrol> edited mode, make sure that both the <uicontrol>Detect
@@ -76,16 +76,16 @@
           <dt><uicontrol>Indent size</uicontrol></dt>
           <dd>
             <p id="p_ncp_bgk_54b">The meaning of this setting depends on the following:<ul id="ul_rkn_4wx_y3b">
-                <li id="li_ocp_bgk_54b">If the <xref href="#preferences-editor-format/detect-indent-on-open"
+                <li id="li_ocp_bgk_54b" irina="irina">If the <xref href="#preferences-editor-format/detect-indent-on-open"
                     format="dita"><uicontrol>Detect indent on open</uicontrol> option</xref> is
                   selected and TAB characters are detected at the beginning of the line, the
                     <i>indent size</i> is the width of a TAB character. Otherwise, the <i>indent
                     size</i> value is ignored and <ph keyref="product"/> uses the number of detected
                   SPACE characters.</li>
-                <li id="li_pcp_bgk_54b">If the <xref href="#preferences-editor-format/indent-with-tabs" format="dita"
+                <li id="li_pcp_bgk_54b" irina="irina">If the <xref href="#preferences-editor-format/indent-with-tabs" format="dita"
                       ><uicontrol>Indent with tabs</uicontrol> option</xref> is selected, the
                     <i>indent size</i> is the width of a TAB character.</li>
-                <li id="li_qcp_bgk_54b">If neither of these options are selected, the <i>indent size</i> is the number
+                <li id="li_qcp_bgk_54b" irina="irina">If neither of these options are selected, the <i>indent size</i> is the number
                   of SPACE characters used for indenting the text lines.</li>
               </ul></p>
             <p id="p_rcp_bgk_54b"
@@ -168,14 +168,14 @@
       <p id="p_ycp_bgk_54b">The values set in the <uicontrol>Indent Size</uicontrol> and <uicontrol>Line Width - Format
           and Indent</uicontrol> options are used in various places in the application, including
         the following:<ul id="ul_sz1_ttz_mr">
-          <li id="li_zcp_bgk_54b">When the <uicontrol>Format and Indent</uicontrol> action is used in the
+          <li id="li_zcp_bgk_54b" irina="irina">When the <uicontrol>Format and Indent</uicontrol> action is used in the
               <uicontrol>Text</uicontrol> editing mode.</li>
-          <li id="li_adp_bgk_54b">When you press <uicontrol><shortcut>Enter</shortcut></uicontrol> to break a line in
+          <li id="li_adp_bgk_54b" irina="irina">When you press <uicontrol><shortcut>Enter</shortcut></uicontrol> to break a line in
             the <uicontrol>Text</uicontrol> editing mode.</li>
-          <li id="li_bdp_bgk_54b">When the <uicontrol>Hard line wrap (Limit to "Line width - Format and
+          <li id="li_bdp_bgk_54b" irina="irina">When the <uicontrol>Hard line wrap (Limit to "Line width - Format and
               Indent")</uicontrol> option is selected and the maximum line width is reached while
             editing in the <uicontrol>Text</uicontrol> mode.</li>
-          <li product="author editor authorEclipse editorEclipse json" id="li_cdp_bgk_54b">When the
+          <li product="author editor authorEclipse editorEclipse json" id="li_cdp_bgk_54b" irina="irina">When the
             XML is serialized by saving content in the <uicontrol>Author</uicontrol> editing
             mode.</li>
         </ul></p>

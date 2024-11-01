@@ -21,10 +21,10 @@
     <p id="p_xzd_dgk_54b">In <ph keyref="product"/> they are used to hide/show the <codeph>colspec</codeph> elements
       from CALS tables. To take a look at the implementation, see:</p>
     <ol id="ol_yzd_dgk_54b">
-      <li id="li_zzd_dgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+      <li id="li_zzd_dgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
           />/frameworks/docbook/css/cals_table.css</filepath> (Search for
           <codeph>-oxy-visible-colspecs</codeph>)</li>
-      <li id="li_a12_dgk_54b">The definition of action <codeph>table.toggle.colspec</codeph> from
+      <li id="li_a12_dgk_54b" irina="irina">The definition of action <codeph>table.toggle.colspec</codeph> from
         the DocBook <xref keyref="glossentry_framework"><term>framework</term></xref> makes use of
         the pre-defined <xref
           href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/commons/operations/TogglePseudoClassOperation.html"
@@ -69,13 +69,13 @@ section:access-control-user {
           href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorOperation.html"
           format="html" scope="external"><uicontrol>Author</uicontrol> mode operations</xref> can be
         used directly in your <term>framework</term> to work with custom pseudo-classes:<ol id="ol_n12_dgk_54b">
-          <li id="li_o12_dgk_54b"><xref
+          <li id="li_o12_dgk_54b" irina="irina"><xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/commons/operations/TogglePseudoClassOperation.html"
               format="html" scope="external"><term>TogglePseudoClassOperation</term></xref></li>
-          <li id="li_p12_dgk_54b"><xref
+          <li id="li_p12_dgk_54b" irina="irina"><xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/commons/operations/SetPseudoClassOperation.html"
               format="html" scope="external"><term>SetPseudoClassOperation</term></xref></li>
-          <li id="li_q12_dgk_54b"><xref
+          <li id="li_q12_dgk_54b" irina="irina"><xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/commons/operations/RemovePseudoClassOperation.html"
               format="html" scope="external"><term>RemovePseudoClassOperation</term></xref></li>
         </ol></p>

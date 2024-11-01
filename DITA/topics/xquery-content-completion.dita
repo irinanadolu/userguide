@@ -28,12 +28,12 @@
     <p id="p_o3d_cgk_54b">The extension functions included in the Saxon engine are available on content completion if
       one of the following conditions are true:</p>
     <ul id="ul_p3d_cgk_54b">
-      <li id="li_q3d_cgk_54b">The edited file has a transformation scenario associated that uses as transformation
+      <li id="li_q3d_cgk_54b" irina="irina">The edited file has a transformation scenario associated that uses as transformation
         engine Saxon <ph keyref="saxon9FullVersion"/> PE or Saxon <ph keyref="saxon9FullVersion"/>
         EE.</li>
-      <li id="li_r3d_cgk_54b">The edited file has a validation scenario associated that use as validation engine Saxon
+      <li id="li_r3d_cgk_54b" irina="irina">The edited file has a validation scenario associated that use as validation engine Saxon
           <ph keyref="saxon9FullVersion"/> PE or Saxon <ph keyref="saxon9FullVersion"/> EE.</li>
-      <li id="li_s3d_cgk_54b">The validation engine specified in <xref href="preferences-xquery.dita">Preferences</xref>
+      <li id="li_s3d_cgk_54b" irina="irina">The validation engine specified in <xref href="preferences-xquery.dita">Preferences</xref>
         is Saxon <ph keyref="saxon9FullVersion"/> PE or Saxon <ph keyref="saxon9FullVersion"/>
         EE.</li>
     </ul>

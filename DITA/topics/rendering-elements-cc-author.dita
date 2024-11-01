@@ -174,19 +174,19 @@
       <title>Other Important Notes About the Configuration File for Rendering Elements</title>
       <note type="important" id="note_l1b_dgk_54b">
         <ul id="ul_m1b_dgk_54b">
-          <li id="li_n1b_dgk_54b">This configuration file only affects the content completion assistance, not
+          <li id="li_n1b_dgk_54b" irina="irina">This configuration file only affects the content completion assistance, not
             validation.</li>
-          <li id="li_o1b_dgk_54b">To test the effects of your changes, you should restart the application, although in
+          <li id="li_o1b_dgk_54b" irina="irina">To test the effects of your changes, you should restart the application, although in
             some cases, you can simply use the <uicontrol><image href="../img/Reload16.png"/>Reload
                 (<shortcut>F5</shortcut>)</uicontrol> action to test your customizations.</li>
-          <li id="li_p1b_dgk_54b">If the <xref keyref="glossentry_framework"><term>framework</term></xref> has an
+          <li id="li_p1b_dgk_54b" irina="irina">If the <xref keyref="glossentry_framework"><term>framework</term></xref> has an
             associated <i>style guide</i>, then the annotations defined in the configuration file
             will take precedence over those defined in the <i>style guide</i>. To check to see if
             your <term>framework</term> uses a <i>style guide</i>, look for the following folder:
               <filepath>${oXygenInstallDir}frameworks/${framework}/styleguide/</filepath>. If that
             folder exists, it is recommended that you make your annotation changes directly in the
               <term>style guide</term>, rather than in the configuration file.</li>
-          <li id="li_q1b_dgk_54b">If an <xref
+          <li id="li_q1b_dgk_54b" irina="irina">If an <xref
               href="configuring-xml-node-renderer-customizer.dita#configuring-xml-node-renderer-customizer"
                 ><i>XMLNodeRendererCustomizer</i> API extension</xref> has been implemented for the
               <term>framework</term> and a configuration file is also used, the rendering
@@ -196,7 +196,7 @@
             customizations will be rendered. However, if both implementations define the same
             property (for example, both specify the rendering of an element name), the
             customizations defined in the configuration file take precedence.</li>
-          <li id="li_r1b_dgk_54b">The rendering customizations defined in the configuration file also apply to aspects
+          <li id="li_r1b_dgk_54b" irina="irina">The rendering customizations defined in the configuration file also apply to aspects
             of the <ph keyref="webappProduct"/> interface.</li>
         </ul>
       </note>

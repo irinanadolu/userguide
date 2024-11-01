@@ -21,17 +21,17 @@
       lock (if any).</p>
     <p id="p_vyh_dgk_54b">The state of the lock can be one of the following:</p>
     <ul id="ul_wyh_dgk_54b">
-      <li id="li_xyh_dgk_54b"><image href="../img/SVNLockRemote10.png" id="image_nwz_251_tc"/> - Appears when one of the
+      <li id="li_xyh_dgk_54b" irina="irina"><image href="../img/SVNLockRemote10.png" id="image_nwz_251_tc"/> - Appears when one of the
         following conditions apply: <ul id="ul_yyh_dgk_54b">
-          <li id="li_zyh_dgk_54b">Another user has locked the file in the repository.</li>
-          <li id="li_azh_dgk_54b">The file was locked by the same user from another working copy.</li>
-          <li id="li_bzh_dgk_54b">The file was locked from the <uicontrol>Repositories</uicontrol> view.</li>
+          <li id="li_zyh_dgk_54b" irina="irina">Another user has locked the file in the repository.</li>
+          <li id="li_azh_dgk_54b" irina="irina">The file was locked by the same user from another working copy.</li>
+          <li id="li_bzh_dgk_54b" irina="irina">The file was locked from the <uicontrol>Repositories</uicontrol> view.</li>
         </ul></li>
-      <li id="li_czh_dgk_54b"><image href="../img/SVNLockLocal10.png" id="image_lnj_vv1_tc"/> - Displayed after you have
+      <li id="li_czh_dgk_54b" irina="irina"><image href="../img/SVNLockLocal10.png" id="image_lnj_vv1_tc"/> - Displayed after you have
         locked a file from the current working copy.</li>
-      <li id="li_dzh_dgk_54b"><image href="../img/SVNLockBroken10.png"/> - A file already locked from your working copy
+      <li id="li_dzh_dgk_54b" irina="irina"><image href="../img/SVNLockBroken10.png"/> - A file already locked from your working copy
         is no longer locked in the repository (it was unlocked by another user).</li>
-      <li id="li_ezh_dgk_54b"><image href="../img/SVNLockStolen10.png" id="image_j11_dw1_tc"/> - A file already locked
+      <li id="li_ezh_dgk_54b" irina="irina"><image href="../img/SVNLockStolen10.png" id="image_j11_dw1_tc"/> - A file already locked
         from your working copy is being locked by another user. Now the owner of the file lock is
         the user who stole the lock from you.</li>
     </ul>

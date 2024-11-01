@@ -16,13 +16,13 @@
       <title>Basic Information</title>
       <p id="p_txz_cgk_54b">Once you have created a new script file, you need to:</p>
       <ul id="ul_ovk_r3d_knb">
-        <li id="li_uxz_cgk_54b">Specify the name of the framework using the <xmlelement>name</xmlelement> element.
+        <li id="li_uxz_cgk_54b" irina="irina">Specify the name of the framework using the <xmlelement>name</xmlelement> element.
           Optionally, you can also add a description using the <xmlelement>description</xmlelement>
           element.</li>
-        <li id="li_vxz_cgk_54b">If you want to extend an existing framework (such as DITA or DocBook), specify the name
+        <li id="li_vxz_cgk_54b" irina="irina">If you want to extend an existing framework (such as DITA or DocBook), specify the name
           of the extended framework using the <xmlatt>base</xmlatt> attribute on the
             <xmlelement>script</xmlelement> element.</li>
-        <li id="li_wxz_cgk_54b">The <xmlelement>priority</xmlelement> element might be needed to
+        <li id="li_wxz_cgk_54b" irina="irina">The <xmlelement>priority</xmlelement> element might be needed to
           instruct <ph keyref="product"/> to use this new framework instead of the one being
           extended or another framework that matches the same document.</li>
       </ul>
@@ -80,11 +80,11 @@
           conkeyref="reusables-author-mode-customization/note_relative_paths" id="note_qkc_xzw_dwb"
           /><note id="note_x2v_fxc_v4b">When removing entries with framework editor variables, take
           into consideration how they were added in the base framework. <ul id="ul_y2v_fxc_v4b">
-            <li>An entry present in the base framework with the path
+            <li irina="irina">An entry present in the base framework with the path
                 <filepath>${framework}/file</filepath> can be removed using an identical path or by
               using the <term>${baseFramework}</term> variable:
                 <filepath>${baseFramework}/file</filepath>.</li>
-            <li>An entry present in the base framework with the path
+            <li irina="irina">An entry present in the base framework with the path
                 <filepath>${frameworkDir}/file</filepath> can be removed using an identical path or
               by using the <term>${baseFrameworkDir}</term> variable:
                 <filepath>${baseFrameworkDir}/file</filepath>.</li>
@@ -148,9 +148,9 @@
       <title>Adding New Transformation Scenarios and Removing Existing Ones</title>
       <p id="p_lyz_cgk_54b">You can create new transformation scenarios and export them in one of
         the following locations:<ul id="ul_fw5_dzm_knb">
-          <li id="li_myz_cgk_54b">The <xref href="scenarios-view.dita"/>.</li>
-          <li id="li_nyz_cgk_54b">The <xref href="configure-transformation-dialog.dita"/>.</li>
-          <li id="li_oyz_cgk_54b">The <xref href="document-type-transformation-tab.dita"/>.</li>
+          <li id="li_myz_cgk_54b" irina="irina">The <xref href="scenarios-view.dita"/>.</li>
+          <li id="li_nyz_cgk_54b" irina="irina">The <xref href="configure-transformation-dialog.dita"/>.</li>
+          <li id="li_oyz_cgk_54b" irina="irina">The <xref href="document-type-transformation-tab.dita"/>.</li>
         </ul></p>
       <p id="p_pyz_cgk_54b"><b><u>Example: Importing New Transformation Scenarios</u></b></p>
       <p conkeyref="reusables-author-mode-customization/p_import_scenarios" id="p_a1p_3rb_fpb"/>
@@ -169,9 +169,9 @@
       <title>Adding New Validation Scenarios and Removing Existing Ones</title>
       <p id="p_syz_cgk_54b">You can create new validation scenarios and export them in one of the
         following locations:<ul id="ul_ckx_zym_knb">
-          <li id="li_tyz_cgk_54b">The <xref href="create-validation-scenario.dita">Configure
+          <li id="li_tyz_cgk_54b" irina="irina">The <xref href="create-validation-scenario.dita">Configure
               Validation Scenario Dialog Box</xref>.</li>
-          <li id="li_uyz_cgk_54b">The <xref href="document-type-validation-tab.dita"/>.</li>
+          <li id="li_uyz_cgk_54b" irina="irina">The <xref href="document-type-validation-tab.dita"/>.</li>
         </ul></p>
       <p id="p_vyz_cgk_54b"><b><u>Example: Importing New Validation Scenarios</u></b></p>
       <p conkeyref="reusables-author-mode-customization/p_import_scenarios" id="p_krg_jrb_fpb"/>
@@ -309,9 +309,9 @@
       <p id="p_lzz_cgk_54b">The <uicontrol>Author</uicontrol> mode-specific toolbars for the new framework can be
         customized by:</p>
       <ul id="ul_i5v_yry_jnb">
-        <li id="li_mzz_cgk_54b">Adding or removing actions from toolbars.</li>
-        <li id="li_nzz_cgk_54b">Changing toolbar groups by adding or removing actions.</li>
-        <li id="li_ozz_cgk_54b">Creating new toolbars and action groups.</li>
+        <li id="li_mzz_cgk_54b" irina="irina">Adding or removing actions from toolbars.</li>
+        <li id="li_nzz_cgk_54b" irina="irina">Changing toolbar groups by adding or removing actions.</li>
+        <li id="li_ozz_cgk_54b" irina="irina">Creating new toolbars and action groups.</li>
       </ul>
       <p id="p_pzz_cgk_54b"><b><u>Example: Customizing the
           Toolbar</u></b><codeblock outputclass="language-xml" id="codeblock_qzz_cgk_54b">  &lt;author>
@@ -378,8 +378,8 @@
       <p id="p_zzz_cgk_54b">The <uicontrol>Author</uicontrol> mode-specific menus for the new framework can be
         customized by:</p>
       <ul id="ul_yky_pz2_knb">
-        <li id="li_a11_dgk_54b">Adding or removing actions and submenus.</li>
-        <li id="li_b11_dgk_54b">Changing existing submenus by adding or removing actions.</li>
+        <li id="li_a11_dgk_54b" irina="irina">Adding or removing actions and submenus.</li>
+        <li id="li_b11_dgk_54b" irina="irina">Changing existing submenus by adding or removing actions.</li>
       </ul>
       <p id="p_c11_dgk_54b"><b><u>Example: Customizing the Contextual
           Menu</u></b><codeblock outputclass="language-xml" id="codeblock_d11_dgk_54b">    &lt;contextualMenu>

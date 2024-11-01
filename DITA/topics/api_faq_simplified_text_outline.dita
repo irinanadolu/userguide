@@ -36,11 +36,11 @@ sec 15 Section title
 sec 15.1 Section title
 sec 16 Section title</codeblock></p>
       <p id="p_zhg_dgk_54b">Usually, an Outline view should have the following characteristics:<ol id="ol_w2p_kq4_qk">
-          <li id="li_a3g_dgk_54b">Double-clicking a node in the Outline view would select the corresponding XML content
+          <li id="li_a3g_dgk_54b" irina="irina">Double-clicking a node in the Outline view would select the corresponding XML content
             in the editor.</li>
-          <li id="li_b3g_dgk_54b">When the cursor moves in the open XML document, the Outline view would select the
+          <li id="li_b3g_dgk_54b" irina="irina">When the cursor moves in the open XML document, the Outline view would select the
             proper entry.</li>
-          <li id="li_c3g_dgk_54b">When modifications occur in the document, the Outline view would refresh.</li>
+          <li id="li_c3g_dgk_54b" irina="irina">When modifications occur in the document, the Outline view would refresh.</li>
         </ol></p>
       <p id="p_d3g_dgk_54b">A simple implementation using a Workspace Access plugin type could be something like
         this:<codeblock outputclass="language-java" id="codeblock_e3g_dgk_54b">/**

@@ -19,12 +19,12 @@
       implemented if you want to provide for your <xref keyref="glossentry_framework"
           ><term>framework</term></xref> the following features: </p>
     <ul id="ul_ghb_dgk_54b">
-      <li id="li_hhb_dgk_54b"><b>Automatic ID generation</b> - You can automatically generate unique IDs for newly
+      <li id="li_hhb_dgk_54b" irina="irina"><b>Automatic ID generation</b> - You can automatically generate unique IDs for newly
         inserted elements. Implementations are already available for the DITA and DocBook <xref
           keyref="glossentry_framework"><term>frameworks</term></xref>. The following methods can be
         implemented to accomplish this: <i>assignUniqueIDs(int startOffset, int endOffset)</i>,
           <i>isAutoIDGenerationActive()</i></li>
-      <li id="li_ihb_dgk_54b"><b>Avoiding copying unique attributes when "Split" is called inside an element</b> - You
+      <li id="li_ihb_dgk_54b" irina="irina"><b>Avoiding copying unique attributes when "Split" is called inside an element</b> - You
         can split the current <xref keyref="glossentry_block-element"><term>block
           element</term></xref> by pressing the "Enter" key and then choosing "Split". This is a
         very useful way to create new paragraphs, for example. All attributes are by default copied

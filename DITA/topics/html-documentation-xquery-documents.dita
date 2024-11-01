@@ -46,24 +46,24 @@
     </p>
     <p id="p_znd_cgk_54b">The following options are available:</p>
     <ul id="ul_a4d_cgk_54b">
-      <li id="li_b4d_cgk_54b">
+      <li id="li_b4d_cgk_54b" irina="irina">
         <uicontrol>Input</uicontrol> - The full path to the XQuery file must be specified in one of
         the two fields in this section:<ul id="ul_cmw_gg3_gs">
-          <li id="li_c4d_cgk_54b"><uicontrol>URL</uicontrol><uicontrol>File</uicontrol> - The URL of the file to be used
+          <li id="li_c4d_cgk_54b" irina="irina"><uicontrol>URL</uicontrol><uicontrol>File</uicontrol> - The URL of the file to be used
             for generating the documentation.</li>
-          <li id="li_d4d_cgk_54b"><uicontrol>Folder</uicontrol> - The directory that contains the files to be used for
+          <li id="li_d4d_cgk_54b" irina="irina"><uicontrol>Folder</uicontrol> - The directory that contains the files to be used for
             generating the documentation. You can also specify the XQuery file extensions to be
             searched for in the specified directory.</li>
         </ul></li>
-      <li id="li_e4d_cgk_54b">
+      <li id="li_e4d_cgk_54b" irina="irina">
         <uicontrol>Default function namespace</uicontrol> - Optional URI for the default namespace
         for the submitted XQuery. </li>
-      <li id="li_f4d_cgk_54b">
+      <li id="li_f4d_cgk_54b" irina="irina">
         <uicontrol>Predefined function namespaces</uicontrol> - Optional, engine-dependent,
         predefined namespaces that the submitted XQuery refers to. They allow the conversion to
         generate annotation information to support the presentation component hypertext linking
         (only if the predefined modules have been loaded into the local xqDoc XML repository). </li>
-      <li id="li_g4d_cgk_54b">
+      <li id="li_g4d_cgk_54b" irina="irina">
         <uicontrol>Open in Browser/System Application</uicontrol> - Select this option if you want
         the result to be opened in the system application associated with that file type.<note id="note_h4d_cgk_54b">To
           set the browser or system application that will be used, <ph product="developer editor"
@@ -76,7 +76,7 @@
               <uicontrol>Web Browser</uicontrol>
             </menucascade> and specify it there</ph>. This will take precedence over the default
           system application settings.</note></li>
-      <li id="li_i4d_cgk_54b">
+      <li id="li_i4d_cgk_54b" irina="irina">
         <uicontrol>Output</uicontrol> - Allows you to specify where the generated documentation is
         saved on disk. </li>
     </ul>

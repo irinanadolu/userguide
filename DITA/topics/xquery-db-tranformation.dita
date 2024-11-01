@@ -102,10 +102,10 @@
         <info>To view a more complex value returned by the query that cannot be entirely displayed
           in the XQuery query result table at the bottom of the <ph keyref="product"/> window (for
           example, an XMLTYPE or CLOB value), do the following:<ul id="ul_zny_cgk_54b">
-            <li id="li_a4y_cgk_54b">Right-click that table cell.</li>
-            <li id="li_b4y_cgk_54b">Select the <uicontrol>Copy cell</uicontrol> action from the contextual menu to copy
+            <li id="li_a4y_cgk_54b" irina="irina">Right-click that table cell.</li>
+            <li id="li_b4y_cgk_54b" irina="irina">Select the <uicontrol>Copy cell</uicontrol> action from the contextual menu to copy
               the value into the clipboard.</li>
-            <li id="li_c4y_cgk_54b">Paste the value wherever you need it (for example, in an open XQuery editor panel
+            <li id="li_c4y_cgk_54b" irina="irina">Paste the value wherever you need it (for example, in an open XQuery editor panel
               of <ph keyref="product"/>).</li>
           </ul></info>
       </step>

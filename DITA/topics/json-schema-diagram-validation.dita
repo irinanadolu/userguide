@@ -29,15 +29,15 @@
       <title>Visual Error Markers</title>
       <p id="p_nlc_cgk_54b">A schema validation error is presented by highlighting the invalid
         component in the following locations:<ul id="ul_olc_cgk_54b">
-          <li id="li_qlc_cgk_54b">The component is surrounded with a red or yellow border within the
+          <li id="li_qlc_cgk_54b" irina="irina">The component is surrounded with a red or yellow border within the
             diagram (you can customize these colors in the <xref
               href="preferences-editor-document-checking.dita">Document Validation preferences
               page</xref>).</li>
-          <li product="developer editor json" id="li_slc_cgk_54b">A tooltip contains information
+          <li product="developer editor json" id="li_slc_cgk_54b" irina="irina">A tooltip contains information
             about the error when hovering over the error within the diagram.</li>
-          <li product="developer editor json" id="li_rlc_cgk_54b">The vertical stripe at the right
+          <li product="developer editor json" id="li_rlc_cgk_54b" irina="irina">The vertical stripe at the right
             side of the editor displays error markers.</li>
-          <li product="developer editor json" id="li_slc_cgk_54b2">In the message area at the bottom
+          <li product="developer editor json" id="li_slc_cgk_54b2" irina="irina">In the message area at the bottom
             of the editor (denoted with a red icon <image href="../img/ValidationError12.png"
               id="image_cbz_pwv_sr"/>).</li>
         </ul></p>

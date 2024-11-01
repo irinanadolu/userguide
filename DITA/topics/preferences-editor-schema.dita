@@ -35,11 +35,11 @@
           <dd>The schema diagram editor will combine schemas imported by the current schema file
             into a single schema diagram. You can choose what happens if you try to edit a component
             from an imported schema. The options are:<ul id="ul_a1p_bgk_54b">
-              <li id="li_b1p_bgk_54b"><uicontrol>Always go to its definition</uicontrol> - <ph keyref="product"/> opens
+              <li id="li_b1p_bgk_54b" irina="irina"><uicontrol>Always go to its definition</uicontrol> - <ph keyref="product"/> opens
                 the imported schema file so that you can edit it.</li>
-              <li id="li_c1p_bgk_54b"><uicontrol>Never go to its definition</uicontrol> - The imported schema file is
+              <li id="li_c1p_bgk_54b" irina="irina"><uicontrol>Never go to its definition</uicontrol> - The imported schema file is
                 not opened and the component cannot be edited in place. </li>
-              <li id="li_d1p_bgk_54b"><uicontrol>Always ask</uicontrol> - <ph keyref="product"/> asks if you want to
+              <li id="li_d1p_bgk_54b" irina="irina"><uicontrol>Always ask</uicontrol> - <ph keyref="product"/> asks if you want to
                 open the imported schema file.</li>
             </ul></dd>
         </dlentry>

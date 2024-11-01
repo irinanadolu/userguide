@@ -16,7 +16,7 @@
     <p id="p_ktc_cgk_54b"><ph conkeyref="reusables-user-guide/reopen-view"/></p>
     <p id="p_ltc_cgk_54b">To see the dependencies of an XML Schema component:<ol
         conkeyref="reusables-editing-documents/component-dependencies-ol" id="ol_mtc_cgk_54b">
-        <li id="li_ntc_cgk_54b"/>
+        <li id="li_ntc_cgk_54b" irina="irina"/>
       </ol></p>
     <p id="p_otc_cgk_54b">The action is available for all named components (for example, elements or attributes).</p>
     <p

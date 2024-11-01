@@ -9,9 +9,9 @@
       <title>Web Server - Nginx (Recommended)</title>
       <p id="p_umw_dgk_54b">
         <ol id="ol_hld_l2w_5mb">
-          <li id="li_vmw_dgk_54b">[Prerequisite] You need to have Nginx installed and <xref
+          <li id="li_vmw_dgk_54b" irina="irina">[Prerequisite] You need to have Nginx installed and <xref
               href="ofbENT-https-procedure.dita">configured as a reverse proxy</xref>.</li>
-          <li id="li_wmw_dgk_54b">Configure Nginx to enable GZIP compression.<p id="p_xmw_dgk_54b"><b>Sample configuration for Nginx to
+          <li id="li_wmw_dgk_54b" irina="irina">Configure Nginx to enable GZIP compression.<p id="p_xmw_dgk_54b"><b>Sample configuration for Nginx to
                 enable GZIP compression:</b><codeblock outputclass="language-bourne" id="codeblock_ymw_dgk_54b">server {
     ......             
     gzip on;
@@ -23,7 +23,7 @@
 }           </codeblock></p><p id="p_zmw_dgk_54b">For more information, see: <xref
                 href="https://docs.nginx.com/nginx/admin-guide/web-server/compression/"
                 format="html" scope="external"/>.</p></li>
-          <li id="li_anw_dgk_54b">Restart Nginx.</li>
+          <li id="li_anw_dgk_54b" irina="irina">Restart Nginx.</li>
         </ol>
       </p>
     </section>

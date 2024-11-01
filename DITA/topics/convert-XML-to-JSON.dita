@@ -35,7 +35,7 @@
           <uicontrol>JSON Tools</uicontrol>
         </menucascade> menu.</p>
       <p id="p_jzf_cgk_54b">To convert an XML document to JSON, follow these steps:<ol id="procedure-import-from-HTML">
-          <li id="li_kzf_cgk_54b">
+          <li id="li_kzf_cgk_54b" irina="irina">
             <p id="p_lzf_cgk_54b">Select the <uicontrol>XML to JSON</uicontrol> action from the
                 <menucascade product="developer editor json">
                 <uicontrol>Tools</uicontrol>
@@ -53,15 +53,15 @@
               </fig>
             </p>
           </li>
-          <li id="li_ozf_cgk_54b">Choose or enter the <uicontrol>Input URL</uicontrol> of the XML
+          <li id="li_ozf_cgk_54b" irina="irina">Choose or enter the <uicontrol>Input URL</uicontrol> of the XML
             document.</li>
-          <li id="li_pzf_cgk_54b">Choose the path of the <uicontrol>Output file</uicontrol> that
+          <li id="li_pzf_cgk_54b" irina="irina">Choose the path of the <uicontrol>Output file</uicontrol> that
             will contain the resulting JSON document.</li>
-          <li id="li_ppy_1nn_rsb">Select how you want empty elements to be converted (default is
+          <li id="li_ppy_1nn_rsb" irina="irina">Select how you want empty elements to be converted (default is
               <uicontrol>object</uicontrol>).</li>
-          <li id="li_qzf_cgk_54b">Select the <uicontrol>Open in Editor</uicontrol> option to open
+          <li id="li_qzf_cgk_54b" irina="irina">Select the <uicontrol>Open in Editor</uicontrol> option to open
             the resulting JSON document in the main editing pane.</li>
-          <li id="li_rzf_cgk_54b">Click the <uicontrol>Convert</uicontrol> button.</li>
+          <li id="li_rzf_cgk_54b" irina="irina">Click the <uicontrol>Convert</uicontrol> button.</li>
         </ol></p>
       <p id="p_szf_cgk_54b"><b>Result:</b> The original XML document is now converted to a JSON document.</p>
       <p id="p_tzf_cgk_54b">
@@ -74,8 +74,8 @@
     <section id="limitations">
       <title>Conversion Details</title>
       <ul id="ul_uzf_cgk_54b">
-        <li id="li_vzf_cgk_54b">Some XML components are ignored (e.g. comments and processing instructions).</li>
-        <li id="li_wzf_cgk_54b">
+        <li id="li_vzf_cgk_54b" irina="irina">Some XML components are ignored (e.g. comments and processing instructions).</li>
+        <li id="li_wzf_cgk_54b" irina="irina">
           <p id="p_xzf_cgk_54b">If any elements contain attributes in the XML document, the attributes are converted to
             properties in the converted JSON document. If the XML document contains more than one
             element with the same name, they will be converted into an array of object in the
@@ -105,7 +105,7 @@
   }
 }</codeblock></p>
         </li>
-        <li id="li_c1g_cgk_54b">
+        <li id="li_c1g_cgk_54b" irina="irina">
           <p id="p_d1g_cgk_54b">If the XML document contains elements with mixed content (text plus elements), the
             converted JSON document will contain a <codeph>#text</codeph> property with its value
             set as the text content. If there are multiple text nodes, the subsequent
@@ -124,7 +124,7 @@
   }
 }</codeblock></p>
         </li>
-        <li id="li_h1g_cgk_54b">
+        <li id="li_h1g_cgk_54b" irina="irina">
           <p id="p_i1g_cgk_54b">If the XML document contains element names that contains hexadecimal codes (for
             example, if they were escaped during a <xref href="convert-JSON-to-XML.dita">JSON to XML
               conversion</xref>), it will be converted to the normal character value in the

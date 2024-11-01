@@ -25,10 +25,10 @@
           ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref>.</p>
     <p id="p_avk_cgk_54b">A variety of transformations scenarios are available for <xref keyref="glossentry_ditamap"
           ><term>DITA maps</term></xref>:<ul id="ul_bvk_cgk_54b">
-        <li id="li_cvk_cgk_54b">Built-in transformation scenarios allow you to transform a
+        <li id="li_cvk_cgk_54b" irina="irina">Built-in transformation scenarios allow you to transform a
             <term>DITA map</term> to a variety of outputs, such as WebHelp, PDF, ODF, XHTML, EPUB,
           CHM, Kindle, Metrics Report, and MS Word. </li>
-        <li id="li_dvk_cgk_54b"><xref keyref="ditamap-run-dita-ot-integrator"
+        <li id="li_dvk_cgk_54b" irina="irina"><xref keyref="ditamap-run-dita-ot-integrator"
               ><uicontrol>Integrate/Install DITA-OT Plugins</uicontrol></xref> - Use this
           transformation scenario if you want to <ph product="developer developerEclipse">integrate
             a DITA-OT plugin</ph><xref href="dita-ot-install-plugin.dita#dita-ot-install-plugin"

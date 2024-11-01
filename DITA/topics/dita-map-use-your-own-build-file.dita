@@ -12,12 +12,12 @@
     <p id="p_zdn_dgk_54b">You can use a <term>Custom Build File</term> to customize transformation scenarios. </p>
     <p id="p_a2n_dgk_54b">To use a custom build file in a DITA-OT transformation, follow these steps:<ol
         id="ol_lvk_r2s_hs">
-        <li id="li_b2n_dgk_54b">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"
+        <li id="li_b2n_dgk_54b" irina="irina">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"
             />Configure Transformation Scenario(s)</uicontrol> action to open the <xref
             href="configure-transformation-dialog.dita#configure-transformation-dialog"
               ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref>.</li>
-        <li id="li_c2n_dgk_54b">Select the transformation scenario and click <uicontrol>Edit</uicontrol>.</li>
-        <li id="li_d2n_dgk_54b">Go to the <xref href="dita-map-edit-advanced.dita"
+        <li id="li_c2n_dgk_54b" irina="irina">Select the transformation scenario and click <uicontrol>Edit</uicontrol>.</li>
+        <li id="li_d2n_dgk_54b" irina="irina">Go to the <xref href="dita-map-edit-advanced.dita"
             ><uicontrol>Advanced</uicontrol></xref> tab and change the <uicontrol>Custom build
             file</uicontrol> path to point to the custom build file.</li>
       </ol></p>

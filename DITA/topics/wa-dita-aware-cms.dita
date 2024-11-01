@@ -6,7 +6,7 @@
     <p id="p_qvr_dgk_54b"><ph keyref="webappProduct"/> supports the use of some API extensions and a method from
         <i>Oxygen XML Editor</i> that can be used to customize nodes within the <uicontrol>DITA
         Map</uicontrol> view. The following are supported:<ul id="ul_upq_yly_kjb">
-        <li id="li_rvr_dgk_54b">
+        <li id="li_rvr_dgk_54b" irina="irina">
           <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/editor/page/WSEditorPage.html#setReadOnly-java.lang.String-"
             format="html" scope="external"
@@ -15,7 +15,7 @@
           implemented as an optimization by a CMS that already has the titles of the topics cached
           in the database. By default, Web Author fetches each topic from the CMS, parses it, and
           extracts the title.</li>
-        <li id="li_svr_dgk_54b">
+        <li id="li_svr_dgk_54b" irina="irina">
           <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/editor/page/WSEditorPage.html#setReadOnly-java.lang.String-"
             format="html" scope="external"
@@ -23,7 +23,7 @@
           - API extension allows you to customize the rendering of information in the DITA Map view
           (for example, titles for topic references). This method is called after Web Author
           computes the title for topic references.</li>
-        <li id="li_tvr_dgk_54b">
+        <li id="li_tvr_dgk_54b" irina="irina">
           <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/editor/page/WSEditorPage.html#setReadOnly-java.lang.String-"
             format="html" scope="external"
@@ -37,12 +37,12 @@
       <p id="p_uvr_dgk_54b">To open a topic with a specific DITA context, there are two options:</p>
       <p id="p_vvr_dgk_54b">
         <ul id="ul_m3z_hd5_dlb">
-          <li id="li_wvr_dgk_54b">Use the <codeph>ditamap</codeph> and <codeph>dita.val.url</codeph>
+          <li id="li_wvr_dgk_54b" irina="irina">Use the <codeph>ditamap</codeph> and <codeph>dita.val.url</codeph>
             <xref
               href="webauthor-integrate-embedded-launch.dita#webauthor-integrate-embedded-launch/url_parameters"
               >URL parameters</xref> added to the <xref href="oxy-url.dita"
               ><term>OXY-URL</term></xref>.</li>
-          <li id="li_xvr_dgk_54b">Use the <codeph>workspace.getEditingContextManager()</codeph> JavaScript API. A sample
+          <li id="li_xvr_dgk_54b" irina="irina">Use the <codeph>workspace.getEditingContextManager()</codeph> JavaScript API. A sample
             plugin that uses this API to set the DITA Map for some popular repository layouts is
             available on GitHub: <xref
               href="https://github.com/oxygenxml/web-author-sample-plugins/tree/master/web-author-impose-ditamap"

@@ -21,7 +21,7 @@
     <section id="directory_comparisons">
       <title>How to Perform 3-Way Directory Comparisons</title>
       <p id="p_x3v_bgk_54b">To perform a 3-way directories comparison, follow these steps:<ol id="ol_y3v_bgk_54b">
-          <li id="li_z3v_bgk_54b">
+          <li id="li_z3v_bgk_54b" irina="irina">
             <p id="p_ajv_bgk_54b">Select <uicontrol><image href="../img/DiffDirsThreeWay16.png"
                   id="image_b1r_kbd_y3b"/>Compare Directories Against a Base (3-way)</uicontrol>
               from the <menucascade>
@@ -37,19 +37,19 @@
               </fig>
             </p>
           </li>
-          <li id="li_ejv_bgk_54b">Select the file sets to be compared:<ul id="ul_fjv_bgk_54b">
-              <li id="li_gjv_bgk_54b"><uicontrol>Base directory</uicontrol> - This is the original (base) file set
+          <li id="li_ejv_bgk_54b" irina="irina">Select the file sets to be compared:<ul id="ul_fjv_bgk_54b">
+              <li id="li_gjv_bgk_54b" irina="irina"><uicontrol>Base directory</uicontrol> - This is the original (base) file set
                 before any modifications were made by you or others.</li>
-              <li id="li_hjv_bgk_54b"><uicontrol>Directory with your changes</uicontrol> - This is the file set with
+              <li id="li_hjv_bgk_54b" irina="irina"><uicontrol>Directory with your changes</uicontrol> - This is the file set with
                 changes that you have made. This file set will be displayed in the left panel in the
                 comparison tool.</li>
-              <li id="li_ijv_bgk_54b"><uicontrol>Directory with changes made by others</uicontrol> - This is the file
+              <li id="li_ijv_bgk_54b" irina="irina"><uicontrol>Directory with changes made by others</uicontrol> - This is the file
                 set with changes made by others that you want to merge with your changes. This file
                 set will be displayed in the right panel in the comparison tool.</li>
             </ul></li>
-          <li id="li_jjv_bgk_54b">Click the <uicontrol>Compare</uicontrol> button to compare the file sets and open the
+          <li id="li_jjv_bgk_54b" irina="irina">Click the <uicontrol>Compare</uicontrol> button to compare the file sets and open the
             comparison and merge tool.</li>
-          <li id="li_kjv_bgk_54b">Use the features and actions described in the next section to identify and merge the
+          <li id="li_kjv_bgk_54b" irina="irina">Use the features and actions described in the next section to identify and merge the
             changes.</li>
         </ol></p>
     </section>
@@ -114,12 +114,12 @@
               <p id="p_bkv_bgk_54b">This panel shows the list of files in the compared file sets based upon the filter
                 button that is selected. This panel includes the following sortable columns:<ul
                   id="ul_src_rfb_1jb">
-                  <li id="li_ckv_bgk_54b"><b>Name</b> - The file names.</li>
-                  <li id="li_dkv_bgk_54b"><b>Status</b> - An icon that represents the file status. Red icons indicate
+                  <li id="li_ckv_bgk_54b" irina="irina"><b>Name</b> - The file names.</li>
+                  <li id="li_dkv_bgk_54b" irina="irina"><b>Status</b> - An icon that represents the file status. Red icons indicate
                     some sort of conflict. Gray icons indicate modifications made by you. Blue icons
                     indicate modifications made by others.</li>
-                  <li id="li_ekv_bgk_54b"><b>Description</b> - A description of the file status.</li>
-                  <li id="li_fkv_bgk_54b"><b>Merge Action</b> - This column provides a drop-down menu for each file that
+                  <li id="li_ekv_bgk_54b" irina="irina"><b>Description</b> - A description of the file status.</li>
+                  <li id="li_fkv_bgk_54b" irina="irina"><b>Merge Action</b> - This column provides a drop-down menu for each file that
                     allows you to choose some merge actions depending upon its status. A default
                     action is always set to <uicontrol>Automatically merge</uicontrol> the changes
                     made by others with your changes. If there is a conflict, the default is
@@ -166,10 +166,10 @@
                     <dt><uicontrol>Algorithm Drop-down Menu</uicontrol></dt>
                     <dd>This drop-down menu allows you to select one of the following diff
                       algorithms to be used for file comparisons:<ul id="ul_rkv_bgk_54b">
-                        <li conkeyref="reusables-tools/auto" id="li_skv_bgk_54b"/>
-                        <li conkeyref="reusables-tools/lines" id="li_tkv_bgk_54b"/>
-                        <li conkeyref="reusables-tools/xml-fast" id="li_ukv_bgk_54b"/>
-                        <li conkeyref="reusables-tools/xml-accurate" id="li_vkv_bgk_54b"/>
+                        <li conkeyref="reusables-tools/auto" id="li_skv_bgk_54b" irina="irina"/>
+                        <li conkeyref="reusables-tools/lines" id="li_tkv_bgk_54b" irina="irina"/>
+                        <li conkeyref="reusables-tools/xml-fast" id="li_ukv_bgk_54b" irina="irina"/>
+                        <li conkeyref="reusables-tools/xml-accurate" id="li_vkv_bgk_54b" irina="irina"/>
                       </ul></dd>
                   </dlentry>
                   <dlentry id="dlentry_wkv_bgk_54b">
@@ -305,14 +305,14 @@
                   href="preferences-diff-appearance.dita#preferences-diff-appearance"
                     ><uicontrol>Files Comparison / Appearance</uicontrol> preferences page</xref>,
                 but the default colors and their shades mean the following:<ul id="ul_wlv_bgk_54b">
-                  <li id="li_xlv_bgk_54b"><b>Pink</b> - Identifies modifications on either side.</li>
-                  <li id="li_ylv_bgk_54b"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
+                  <li id="li_xlv_bgk_54b" irina="irina"><b>Pink</b> - Identifies modifications on either side.</li>
+                  <li id="li_ylv_bgk_54b" irina="irina"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
                     changes).</li>
-                  <li id="li_zlv_bgk_54b"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
+                  <li id="li_zlv_bgk_54b" irina="irina"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
                     changes).</li>
-                  <li id="li_amv_bgk_54b"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in
+                  <li id="li_amv_bgk_54b" irina="irina"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in
                     their entirety.</li>
-                  <li id="li_bmv_bgk_54b"><b>Darker Shade</b> - Identifies specific changes within the blocks that can
+                  <li id="li_bmv_bgk_54b" irina="irina"><b>Darker Shade</b> - Identifies specific changes within the blocks that can
                     be merged more precisely.</li>
                 </ul></p>
             </dd>
@@ -373,13 +373,13 @@
                 the <uicontrol>Merge Action</uicontrol> drop-down menu), a dialog box will be
                 displayed that allows you to choose how to solve the conflicts. You can choose
                 between the following:<ul id="ul_omv_bgk_54b">
-                  <li id="li_pmv_bgk_54b"><uicontrol>Keep your changes</uicontrol> - If you select this option and then
+                  <li id="li_pmv_bgk_54b" irina="irina"><uicontrol>Keep your changes</uicontrol> - If you select this option and then
                     click <uicontrol>Apply</uicontrol>, your local changes will be preserved for the
                     unresolved conflicts.</li>
-                  <li id="li_qmv_bgk_54b"><uicontrol>Overwrite your changes</uicontrol> - If you select this option and
+                  <li id="li_qmv_bgk_54b" irina="irina"><uicontrol>Overwrite your changes</uicontrol> - If you select this option and
                     then click <uicontrol>Apply</uicontrol>, your local changes will be overwritten
                     with the changes made by others, for the unresolved conflicts.</li>
-                  <li id="li_rmv_bgk_54b"><uicontrol>Cancel</uicontrol> - You can click the
+                  <li id="li_rmv_bgk_54b" irina="irina"><uicontrol>Cancel</uicontrol> - You can click the
                       <uicontrol>Cancel</uicontrol> button to go back to the merge tool to resolve
                     the conflicts individually.</li>
                 </ul></p>
@@ -430,9 +430,9 @@
       <title>Author Mode Algorithms</title>
       <p id="p_ymv_bgk_54b">The visual <uicontrol>Author</uicontrol> mode offers the following diff
         algorithms to compare files:<ul id="ul_dcn_yjp_fbb">
-          <li conkeyref="reusables-tools/auto" id="li_zmv_bgk_54b"/>
-          <li conkeyref="reusables-tools/xml-fast" id="li_anv_bgk_54b"/>
-          <li conkeyref="reusables-tools/xml-accurate" id="li_bnv_bgk_54b"/>
+          <li conkeyref="reusables-tools/auto" id="li_zmv_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-tools/xml-fast" id="li_anv_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-tools/xml-accurate" id="li_bnv_bgk_54b" irina="irina"/>
         </ul></p>
     </section>
     <section id="second_level_comparisons_author" product="author editor">

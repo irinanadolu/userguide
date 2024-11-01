@@ -18,15 +18,15 @@
     <p id="p_ljb_cgk_54b">The <term>Content Completion Assistant</term> proposes various item types that are defined in
       the current Ant build and in the imported and included builds. The proposals include:</p>
     <ul id="ul_hj1_l45_5n">
-      <li id="li_mjb_cgk_54b">Element names</li>
-      <li id="li_njb_cgk_54b">Attribute names</li>
-      <li id="li_ojb_cgk_54b">Property names<note id="note_pjb_cgk_54b">In addition to the user-defined properties, the <term>Content
+      <li id="li_mjb_cgk_54b" irina="irina">Element names</li>
+      <li id="li_njb_cgk_54b" irina="irina">Attribute names</li>
+      <li id="li_ojb_cgk_54b" irina="irina">Property names<note id="note_pjb_cgk_54b">In addition to the user-defined properties, the <term>Content
             Completion Assistant</term> offers the following values:<ul id="ul_kcn_wyt_wn">
-            <li id="li_qjb_cgk_54b">The system properties set in the Java Virtual Machine.</li>
-            <li id="li_rjb_cgk_54b">The built-in properties that Ant provides.</li>
+            <li id="li_qjb_cgk_54b" irina="irina">The system properties set in the Java Virtual Machine.</li>
+            <li id="li_rjb_cgk_54b" irina="irina">The built-in properties that Ant provides.</li>
           </ul></note></li>
-      <li id="li_sjb_cgk_54b">Target names</li>
-      <li id="li_tjb_cgk_54b">Task and type reference IDs<note type="tip" id="note_ujb_cgk_54b">To make a custom task available in the
+      <li id="li_sjb_cgk_54b" irina="irina">Target names</li>
+      <li id="li_tjb_cgk_54b" irina="irina">Task and type reference IDs<note type="tip" id="note_ujb_cgk_54b">To make a custom task available in the
             <term>Content Completion Assistant</term>, add a <xref keyref="glossentry_jar"
               ><term>JAR</term></xref> file that contains the task implementation to the library
           directory of the built-in Ant distribution that comes bundled with <ph keyref="product"/>

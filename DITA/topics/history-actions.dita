@@ -50,9 +50,9 @@
                 <i>deleted</i>, or <i>replaced</i>, this action has no effect because such changes
               are considered to be changes to the parent directory. To revert these types of
               changes, follow these steps:<ol id="ul_ur2_ysd_4r">
-                <li id="li_pnj_dgk_54b">Request the history for the parent directory.</li>
-                <li id="li_qnj_dgk_54b">Identify the revision that contains the changes you want to revert.</li>
-                <li id="li_rnj_dgk_54b">Invoke the action on that revision.</li>
+                <li id="li_pnj_dgk_54b" irina="irina">Request the history for the parent directory.</li>
+                <li id="li_qnj_dgk_54b" irina="irina">Identify the revision that contains the changes you want to revert.</li>
+                <li id="li_rnj_dgk_54b" irina="irina">Invoke the action on that revision.</li>
               </ol></note><note type="warning" id="note_snj_dgk_54b">There are instances where the SVN Client is not able
               to identify the corresponding working copy item for the selected item in the
                 <uicontrol>Affected Paths</uicontrol> section. In this case, the action does not
@@ -91,9 +91,9 @@
         <dlentry id="dlentry_unj_dgk_54b">
           <dt><uicontrol>Change</uicontrol></dt>
           <dd>Allows you to change commit data for a file: <ul id="ul_vnj_dgk_54b">
-              <li id="li_wnj_dgk_54b"><i>Author</i> - Changes the name of the SVN user that committed the selected
+              <li id="li_wnj_dgk_54b" irina="irina"><i>Author</i> - Changes the name of the SVN user that committed the selected
                 revision.</li>
-              <li id="li_xnj_dgk_54b"><i>Message</i> - Changes the commit message of the selected revision.</li>
+              <li id="li_xnj_dgk_54b" irina="irina"><i>Message</i> - Changes the commit message of the selected revision.</li>
             </ul></dd>
         </dlentry>
       </dl>

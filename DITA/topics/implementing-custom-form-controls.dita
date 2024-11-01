@@ -16,21 +16,21 @@
     <section id="custom_form_controls_implementation">
       <title>Custom Form Controls Implementation</title>
       <p id="p_oyd_dgk_54b">You can specify custom form controls using the following properties:<ul id="ul_r3b_3wy_js">
-          <li id="li_pyd_dgk_54b"><uicontrol>rendererClassName</uicontrol> - The name of the class
+          <li id="li_pyd_dgk_54b" irina="irina"><uicontrol>rendererClassName</uicontrol> - The name of the class
             that draws the edited value. It must be an implementation of <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/editor/InplaceRenderer.html"
               format="html" scope="external"
                 ><term>ro.sync.ecss.extensions.api.editor.InplaceRenderer</term></xref>. The
             renderer has to be a <uicontrol>SWING</uicontrol> implementation and can be used both in
             the standalone and Eclipse distributions.</li>
-          <li id="li_qyd_dgk_54b"><uicontrol>swingEditorClassName</uicontrol> - You can use this
+          <li id="li_qyd_dgk_54b" irina="irina"><uicontrol>swingEditorClassName</uicontrol> - You can use this
             property for the standalone (<uicontrol>Swing</uicontrol>-based) distribution to specify
             the name of the class used for editing. It is a <uicontrol>Swing</uicontrol>
             implementation of <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/editor/InplaceEditor.html"
               format="html" scope="external"
                 ><term>ro.sync.ecss.extensions.api.editor.InplaceEditor</term></xref>.</li>
-          <li id="li_ryd_dgk_54b"><uicontrol>swtEditorClassName</uicontrol> - You can use this
+          <li id="li_ryd_dgk_54b" irina="irina"><uicontrol>swtEditorClassName</uicontrol> - You can use this
             property for the Eclipse plugin distribution to specify the name of the class used for
             editing. It is a <uicontrol>SWT</uicontrol> implementation of the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/editor/InplaceEditor.html"
@@ -42,16 +42,16 @@
                 <uicontrol>renderer</uicontrol> (the class that draws the value) has different
               properties from the <uicontrol>editor</uicontrol> (the class that edits the value)
               because you can present a value in one way and edit it in another.</note></li>
-          <li id="classpath"><uicontrol>classpath</uicontrol> - You can use this property to specify
+          <li id="classpath" irina="irina"><uicontrol>classpath</uicontrol> - You can use this property to specify
             the location of the classes used for a custom form control. The value of the
               <uicontrol>classpath</uicontrol> property is an enumeration of URLs separated by
             comma.</li>
-          <li id="li_tyd_dgk_54b"><uicontrol>edit</uicontrol> - If your form control edits the value of an attribute or
+          <li id="li_tyd_dgk_54b" irina="irina"><uicontrol>edit</uicontrol> - If your form control edits the value of an attribute or
             the text value of an element, you can use the <codeph>@attribute_name</codeph> and
               <codeph>#text</codeph> predefined values and <ph keyref="product"/> will perform the
             commit logic by itself. You can use the <codeph>custom</codeph> value to perform the
             commit logic yourself.</li>
-          <li product="author editor" id="li_uyd_dgk_54b">
+          <li product="author editor" id="li_uyd_dgk_54b" irina="irina">
             <p id="p_vyd_dgk_54b"><uicontrol>saHeavyFormControlClassName</uicontrol> - This type of
               form control is effectively present at all times at its allocated bounds. This is
               useful if you need a form control that renders dynamic or interactive SVG documents
@@ -72,7 +72,7 @@
                 <xref href="#implementing-custom-form-controls/classpath" format="dita"
                   ><codeph>classpath</codeph> property</xref>.</p>
           </li>
-          <li product="authorEclipse editorEclipse" id="li_xyd_dgk_54b">
+          <li product="authorEclipse editorEclipse" id="li_xyd_dgk_54b" irina="irina">
             <p id="p_yyd_dgk_54b"><uicontrol>ecHeavyFormControlClassName</uicontrol> - This type of
               form control is effectively present at all times at its allocated bounds. This is
               useful if you need a form control that renders dynamic or interactive SVG documents
@@ -136,10 +136,10 @@
     <section id="how_to_implement_custom_form_controls">
       <title>How to Implement Custom Form Controls</title>
       <p id="p_fzd_dgk_54b">To implement a custom form control, follow these steps:<ol id="ol_dkr_1xy_js">
-          <li id="li_gzd_dgk_54b">Download the <ph keyref="product"/> SDK at: <xref
+          <li id="li_gzd_dgk_54b" irina="irina">Download the <ph keyref="product"/> SDK at: <xref
               href="https://www.oxygenxml.com/oxygen_sdk.html" format="html" scope="external"
             />.</li>
-          <li id="li_hzd_dgk_54b">Implement the custom form control by extending <xref
+          <li id="li_hzd_dgk_54b" irina="irina">Implement the custom form control by extending <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/editor/InplaceEditorRendererAdapter.html"
               format="html" scope="external"
                 ><term>ro.sync.ecss.extensions.api.editor.InplaceEditorRendererAdapter</term></xref>.
@@ -148,17 +148,17 @@
               format="html" scope="external"
                 ><term>ro.sync.ecss.extensions.api.editor.AbstractInplaceEditor</term></xref>, which
             offers some default implementations and listeners management.</li>
-          <li id="li_izd_dgk_54b">Pack the previous implementation in a Java <xref keyref="glossentry_jar"
+          <li id="li_izd_dgk_54b" irina="irina">Pack the previous implementation in a Java <xref keyref="glossentry_jar"
                 ><term>JAR</term></xref> library.</li>
-          <li id="li_jzd_dgk_54b">Copy the <term>JAR</term> library to the <filepath><term
+          <li id="li_jzd_dgk_54b" irina="irina">Copy the <term>JAR</term> library to the <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/[FRAMEWORK_DIR]</filepath> directory.</li>
-          <li id="li_kzd_dgk_54b">In <ph keyref="product"/>, <ph
+          <li id="li_kzd_dgk_54b" irina="irina">In <ph keyref="product"/>, <ph
               conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to
               <uicontrol>Document Type Association</uicontrol>, edit the appropriate
               <term>framework</term>, and add the <term>JAR</term> library in the
               <uicontrol>Classpath</uicontrol> tab.</li>
-          <li id="li_lzd_dgk_54b">Specify the custom form control in your CSS, as described above.</li>
+          <li id="li_lzd_dgk_54b" irina="irina">Specify the custom form control in your CSS, as described above.</li>
         </ol></p>
     </section>
     <p id="p_mzd_dgk_54b">

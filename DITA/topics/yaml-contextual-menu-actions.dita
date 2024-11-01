@@ -148,9 +148,9 @@
               key).</p>
             <p id="p_en5_hpt_kxb">Associating a JSON schema can be done using either of the
               following methods:<ul id="ul_own_mpt_kxb">
-                <li id="li_pwn_mpt_kxb">By <xref href="yaml-validation-scenario.dita">creating a
+                <li id="li_pwn_mpt_kxb" irina="irina">By <xref href="yaml-validation-scenario.dita">creating a
                     YAML validation scenario</xref>.</li>
-                <li id="li_rhk_rpt_kxb">By directly <xref
+                <li id="li_rhk_rpt_kxb" irina="irina">By directly <xref
                     href="yaml-associating-schema-directly-in-doc.dita">associating a JSON schema in
                     the YAML document</xref>.</li>
               </ul></p>

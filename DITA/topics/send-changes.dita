@@ -33,8 +33,8 @@
       destination. Otherwise, the commit operation will fail.</note>
     <p id="p_sg3_dgk_54b">Besides the items that have one of the mentioned states, Syncro SVN Client also includes the
       files being <i>unversioned</i> or <i>missing</i> and these items are handled automatically:<ul id="ul_tg3_dgk_54b">
-        <li id="li_ug3_dgk_54b"><i>Unversioned</i> items are added under version control.</li>
-        <li id="li_vg3_dgk_54b"><i>Missing</i> items are deleted.</li>
+        <li id="li_ug3_dgk_54b" irina="irina"><i>Unversioned</i> items are added under version control.</li>
+        <li id="li_vg3_dgk_54b" irina="irina"><i>Missing</i> items are deleted.</li>
       </ul><note id="note_wg3_dgk_54b">If the <uicontrol>Show unversioned directories content</uicontrol> option is not
         selected, the <uicontrol>Commit</uicontrol> dialog box does not display the items inside an
           <i>unversioned</i>directory.</note></p>
@@ -43,13 +43,13 @@
       issuing the commit command.</p>
     <note id="note_yg3_dgk_54b">In some cases, items that have one of the above states are not presented in the
         <uicontrol>Commit</uicontrol> dialog box.<p id="p_zg3_dgk_54b">For example:<ul id="ul_ah3_dgk_54b">
-          <li id="li_bh3_dgk_54b">Items that have been <i>added</i> or <i>replaced</i> previously, but now are presented
+          <li id="li_bh3_dgk_54b" irina="irina">Items that have been <i>added</i> or <i>replaced</i> previously, but now are presented
             as <i>missing</i> after being removed from the file system, outside of an SVN client.
             Such items do not exist in the repository and you should use the
               <uicontrol>Delete</uicontrol> action to remove them from your working copy.</li>
-          <li id="li_ch3_dgk_54b">Items that have incoming changes from the repository, after a synchronization. You
+          <li id="li_ch3_dgk_54b" irina="irina">Items that have incoming changes from the repository, after a synchronization. You
             need to have your working copy up-to-date before committing your changes.</li>
-          <li id="li_dh3_dgk_54b">Files that, after a synchronization, appear as locked by other users or from other
+          <li id="li_dh3_dgk_54b" irina="irina">Files that, after a synchronization, appear as locked by other users or from other
             locations than the current working copy.</li>
         </ul></p></note>
     <note id="note_eh3_dgk_54b">Due to dependencies between items, when you select or clear an <i>unversioned</i> ( <image
@@ -72,7 +72,7 @@
         <uicontrol>Commit</uicontrol> dialog box has lock information associated with it, valid
       against the commit operation.</p>
     <p id="p_ih3_dgk_54b">The following options are available in this dialog box:<ul id="ul_jh3_dgk_54b">
-        <li id="enable-auto-properties"><uicontrol>Enable automatic properties</uicontrol> or
+        <li id="enable-auto-properties" irina="irina"><uicontrol>Enable automatic properties</uicontrol> or
             <uicontrol>Disable automatic properties</uicontrol> - enables or disables automatic
           property assignment (per runtime configuration rules), overriding the
             <codeph>enable-auto-props</codeph> runtime configuration directive, defined in the
@@ -84,7 +84,7 @@
               <codeph>enable-auto-props</codeph> runtime configuration directive, the presented
             option is either <uicontrol>Enable automatic properties</uicontrol>, or
               <uicontrol>Disable automatic properties</uicontrol>.</note></li>
-        <li id="li_lh3_dgk_54b"><uicontrol>Keep locks</uicontrol> - selecting the <uicontrol>Keep locks</uicontrol>
+        <li id="li_lh3_dgk_54b" irina="irina"><uicontrol>Keep locks</uicontrol> - selecting the <uicontrol>Keep locks</uicontrol>
           option preserves any locks you set on various files.<note id="note_mh3_dgk_54b">This option is available only
             when files that you locked are presented in the dialog box.</note></li>
       </ul></p>

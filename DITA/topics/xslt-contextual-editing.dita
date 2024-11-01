@@ -27,10 +27,10 @@
       current module as the main stylesheet.</p>
     <p id="p_ip1_cgk_54b">The advantages of editing in the context of <xref keyref="glossentry_main-file"
           ><term>main file</term></xref> include: <ul id="ul_jp1_cgk_54b">
-        <li id="li_kp1_cgk_54b">Correct validation of a module in the context of a larger stylesheet structure.</li>
-        <li id="li_lp1_cgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_kp1_cgk_54b" irina="irina">Correct validation of a module in the context of a larger stylesheet structure.</li>
+        <li id="li_lp1_cgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all components valid in the current context.</li>
-        <li id="li_mp1_cgk_54b">The <xref href="xslt-outline.dita#xslt-outline"><uicontrol>Outline</uicontrol>
+        <li id="li_mp1_cgk_54b" irina="irina">The <xref href="xslt-outline.dita#xslt-outline"><uicontrol>Outline</uicontrol>
             view</xref> displays the components collected from the entire stylesheet structure.</li>
       </ul></p>
     <section id="section_atb_2v2_w5b">

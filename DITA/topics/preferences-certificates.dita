@@ -33,19 +33,19 @@
       </fig>
     </p>
     <ul id="ul_g4q_bgk_54b">
-      <li id="li_h4q_bgk_54b"><uicontrol>Keystore type</uicontrol> - The type of <xref keyref="glossentry_keystore"
+      <li id="li_h4q_bgk_54b" irina="irina"><uicontrol>Keystore type</uicontrol> - The type of <xref keyref="glossentry_keystore"
             ><term>keystore</term></xref> that <ph keyref="product"/> uses
           (<uicontrol>JKS</uicontrol> or <uicontrol>PKCS-12</uicontrol>).</li>
-      <li id="li_i4q_bgk_54b"><uicontrol>Keystore file</uicontrol> - The location of the imported file.</li>
-      <li id="li_j4q_bgk_54b"><uicontrol>Keystore password</uicontrol> - The password that is used for protecting the
+      <li id="li_i4q_bgk_54b" irina="irina"><uicontrol>Keystore file</uicontrol> - The location of the imported file.</li>
+      <li id="li_j4q_bgk_54b" irina="irina"><uicontrol>Keystore password</uicontrol> - The password that is used for protecting the
         privacy of the stored keys.</li>
-      <li id="li_k4q_bgk_54b"><uicontrol>Certificate alias</uicontrol> - The alias used for storing the key entry (the
+      <li id="li_k4q_bgk_54b" irina="irina"><uicontrol>Certificate alias</uicontrol> - The alias used for storing the key entry (the
         certificate or the private key) inside the <xref keyref="glossentry_keystore"
             ><term>keystore</term></xref>.</li>
-      <li id="li_l4q_bgk_54b"><uicontrol>Private key password</uicontrol> - The private key password of the certificate
+      <li id="li_l4q_bgk_54b" irina="irina"><uicontrol>Private key password</uicontrol> - The private key password of the certificate
         (required only for JKS <xref keyref="glossentry_keystore"
         ><term>keystores</term></xref>).</li>
-      <li id="li_m4q_bgk_54b"><uicontrol>Validate</uicontrol> - Click this button to verify the configured <xref
+      <li id="li_m4q_bgk_54b" irina="irina"><uicontrol>Validate</uicontrol> - Click this button to verify the configured <xref
           keyref="glossentry_keystore"><term>keystore</term></xref> and the validity of the
         certificate.</li>
     </ul>

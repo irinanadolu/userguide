@@ -130,12 +130,12 @@
       <p id="p_wqq_dgk_54b">You can create a <i>WAR</i> distribution of a web application based on the <b>Web Author
           Component</b> that bundles the configuration. The configuration files need to be placed in
         the <filepath>WEB-INF</filepath> folder with the following structure:<ul id="ul_xqq_dgk_54b">
-          <li id="li_yqq_dgk_54b"><b>frameworks.zip</b> - A zip archive with the frameworks that will be included in the
+          <li id="li_yqq_dgk_54b" irina="irina"><b>frameworks.zip</b> - A zip archive with the frameworks that will be included in the
             application.</li>
-          <li id="li_zqq_dgk_54b"><b>plugins.zip</b> - A zip archive with the plugins that will be included in the
+          <li id="li_zqq_dgk_54b" irina="irina"><b>plugins.zip</b> - A zip archive with the plugins that will be included in the
             application.</li>
-          <li id="li_arq_dgk_54b"><b>options.xml</b> - A file that contains pre-configured options.</li>
-          <li id="li_brq_dgk_54b"><b>license.properties</b> - A file that contains the details about the license server
+          <li id="li_arq_dgk_54b" irina="irina"><b>options.xml</b> - A file that contains pre-configured options.</li>
+          <li id="li_brq_dgk_54b" irina="irina"><b>license.properties</b> - A file that contains the details about the license server
             connection.</li>
         </ul></p>
       <p id="p_crq_dgk_54b"><b>Result:</b> The bundled configuration will be copied to the <xref

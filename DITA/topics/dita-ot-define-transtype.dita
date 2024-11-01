@@ -25,7 +25,7 @@
         >transformation scenario's <uicontrol>Parameters</uicontrol> tab</xref>.</p>
     <p id="p_mpn_dgk_54b">To define a transformation type and its contributed parameters in a DITA-OT plugin, follow
       this procedure:<ol id="ol_npn_dgk_54b">
-        <li id="li_opn_dgk_54b">If you have not already done so, <xref href="simple-dita-ot-plugin.dita">create a
+        <li id="li_opn_dgk_54b" irina="irina">If you have not already done so, <xref href="simple-dita-ot-plugin.dita">create a
             DITA-OT <b>plugin.xml</b> file</xref> (you can easily create this file by using the
             <uicontrol>DITA-OT Plugin</uicontrol> new document template in the <xref
             href="new-dialog-sa.dita#new-dialog-sa" product="author editor"
@@ -33,11 +33,11 @@
             href="creating-from-templates.dita#creating-from-templates"
             product="authorEclipse editorEclipse"><uicontrol>New from templates</uicontrol>
             wizard</xref>).</li>
-        <li id="li_ppn_dgk_54b">In the <b>plugin.xml</b> file, define the transformation type details by using the
+        <li id="li_ppn_dgk_54b" irina="irina">In the <b>plugin.xml</b> file, define the transformation type details by using the
             <xmlelement>transtype</xmlelement> element to specify a name, description, and the
           transtype it
           extends.<codeblock outputclass="language-xml" id="codeblock_qpn_dgk_54b">&lt;transtype name="xhtml" extends="base-html" desc="HTML"&gt;</codeblock></li>
-        <li id="li_rpn_dgk_54b">Define allowed parameters by using the <xmlelement>param</xmlelement> element to specify
+        <li id="li_rpn_dgk_54b" irina="irina">Define allowed parameters by using the <xmlelement>param</xmlelement> element to specify
           the name, description, and information about the default and allowed set of values. For
           more information, see: <xref
             href="https://www.dita-ot.org/3.1/topics/plugin-configfile.html" format="html"
@@ -51,7 +51,7 @@
           scenario configuration dialog box. For example, for parameters of type <b>"enum"</b>, <ph
             keyref="product"/> will present a combo box for choosing the proper value for the
           parameter.</li>
-        <li id="li_tpn_dgk_54b">You can also extend various extension points in your <b>plugin.xml</b>. For more
+        <li id="li_tpn_dgk_54b" irina="irina">You can also extend various extension points in your <b>plugin.xml</b>. For more
           information, see: <xref
             href="https://www.dita-ot.org/3.1/extension-points/plugin-extension-points.html"
             format="html" scope="external"/>.<note type="other"
@@ -80,7 +80,7 @@
               </fig>
             </p>
           </note></li>
-        <li id="li_zpn_dgk_54b"><xref href="dita-ot-install-plugin.dita">Install the plugin</xref>.<note id="note_aqn_dgk_54b">If the plugin
+        <li id="li_zpn_dgk_54b" irina="irina"><xref href="dita-ot-install-plugin.dita">Install the plugin</xref>.<note id="note_aqn_dgk_54b">If the plugin
             is installed using an external command line, you may need to restart <ph
               keyref="product"/> to properly re-detect the newly contributed transtypes and
             parameters.</note></li>

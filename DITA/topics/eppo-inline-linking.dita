@@ -36,9 +36,9 @@
         completeness of a publication, by ensuring that a publication map provides a key definition
         for every key reference used in the content. </p>
       <p id="p_s1n_dgk_54b">Links based on keys require two pieces:<ul id="ul_t1n_dgk_54b">
-          <li id="li_u1n_dgk_54b">Key Definition - Assigns a key to a topic so that other topics can link to it. For
+          <li id="li_u1n_dgk_54b" irina="irina">Key Definition - Assigns a key to a topic so that other topics can link to it. For
             more information, see <xref href="insert-define-keys.dita#insert-define-keys"/>.</li>
-        <li id="li_v1n_dgk_54b">Key Reference - Created in an <xmlelement>xref</xmlelement> element and specifies the key to
+        <li id="li_v1n_dgk_54b" irina="irina">Key Reference - Created in an <xmlelement>xref</xmlelement> element and specifies the key to
             link to.</li>
         </ul>The key reference points to a key definition, and the key definition points to a topic.
         Key definitions are created in maps, as an element on the <xmlelement>topicref</xmlelement> element
@@ -66,10 +66,10 @@
               selected, you can also target specific elements within that resource. Depending on the
               context where it is invoked, the action inserts one of the following two elements: <ul
                 id="ul_tx4_ggb_2r">
-                <li id="li_z1n_dgk_54b"><xmlelement>xref</xmlelement> - Used to link to other topics or another location within
+                <li id="li_z1n_dgk_54b" irina="irina"><xmlelement>xref</xmlelement> - Used to link to other topics or another location within
                   the same topic and points to the target using the <xmlatt>href</xmlatt> or
                     <xmlatt>keyref</xmlatt> attribute.</li>
-                <li id="li_abn_dgk_54b"><xmlelement>fragref</xmlelement> - A logical reference to a fragment element within a
+                <li id="li_abn_dgk_54b" irina="irina"><xmlelement>fragref</xmlelement> - A logical reference to a fragment element within a
                   syntax diagram and points to the target using the <xmlatt>href</xmlatt> or
                     <xmlatt>keyref</xmlatt> attribute.</li>
               </ul></dd>
@@ -237,12 +237,12 @@
         detected values are different than the default values.</p>
       <note id="note_mbn_dgk_54b">For the sake of performance, the <xmlatt>type</xmlatt> attribute is never automatically
         computed in the following cases:<ul id="ul_igj_tm5_lkb">
-          <li id="li_nbn_dgk_54b">When using drag/drop or copy/paste actions from the <xref
+          <li id="li_nbn_dgk_54b" irina="irina">When using drag/drop or copy/paste actions from the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref> or from the <uicontrol>Keys</uicontrol> tab of the
               <xref href="dita-reusable-components-view.dita#dita-reusable-components-view"
                 ><uicontrol>DITA Reusable Components</uicontrol> view</xref>.</li>
-          <li id="li_obn_dgk_54b">When using the <uicontrol>Paste as Link</uicontrol> or <uicontrol>Paste as Link
+          <li id="li_obn_dgk_54b" irina="irina">When using the <uicontrol>Paste as Link</uicontrol> or <uicontrol>Paste as Link
               (keyref)</uicontrol> actions to paste a topic reference that was copied from the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref> and its <xmlelement>topicref</xmlelement> elements
@@ -252,20 +252,20 @@
         it is also possible to insert them with a <xmlatt>keyref</xmlatt> attribute using the
           <uicontrol>Paste as Link (keyref)</uicontrol> contextual menu action or copy/paste or
         drag/drop actions. For the latter method, follow these steps :<ol id="ol_cxy_npp_lkb">
-          <li id="li_qbn_dgk_54b">In the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
+          <li id="li_qbn_dgk_54b" irina="irina">In the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref>, make sure that the <xref
               href="dita-maps-manager.dita#dita-maps-manager/root-map"
                 ><uicontrol>Context</uicontrol> combo box</xref> points to the correct map that
             stores the keys.</li>
-          <li id="li_rbn_dgk_54b">Make sure the topic that contains the content you want to reference has a key assigned
+          <li id="li_rbn_dgk_54b" irina="irina">Make sure the topic that contains the content you want to reference has a key assigned
             to it. To assign a key, right-click the topic with its parent map opened in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol></xref>, select <uicontrol>Edit Properties</uicontrol>, and enter
             a value in the <uicontrol>Keys</uicontrol> field.</li>
-          <li id="li_sbn_dgk_54b">Copy an entire DITA element that has an ID attribute assigned to it from a topic with
+          <li id="li_sbn_dgk_54b" irina="irina">Copy an entire DITA element that has an ID attribute assigned to it from a topic with
             an assigned key, or a <xmlelement>topicref</xmlelement> from a <term>DITA map</term>. </li>
-          <li id="li_tbn_dgk_54b">Place the cursor at a location, where you want to insert the link.</li>
-          <li id="li_ubn_dgk_54b">Select the <uicontrol>Paste as Link (keyref)</uicontrol> action from the
+          <li id="li_tbn_dgk_54b" irina="irina">Place the cursor at a location, where you want to insert the link.</li>
+          <li id="li_ubn_dgk_54b" irina="irina">Select the <uicontrol>Paste as Link (keyref)</uicontrol> action from the
                 <uicontrol><image href="../img/PasteSpecialDITA16.png" id="image_dxy_npp_lkb"/>Paste
               Special</uicontrol> submenu from the contextual menu.</li>
         </ol></p>

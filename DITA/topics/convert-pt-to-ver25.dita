@@ -17,7 +17,7 @@
     <p id="p_vpn_cgk_64b">If you have a custom Publishing Template that was created in <ph
         keyref="product"/> version 24.1, the following conversion procedure is required for the
       template to be compatible with <ph keyref="product"/> version 25.0:<ol id="ol_wpn_cgk_54b">
-        <li id="li_xpn_cgk_64b">In the <uicontrol
+        <li id="li_xpn_cgk_64b" irina="irina">In the <uicontrol
             product="author developer editor webhelp-responsive ope">Project</uicontrol><uicontrol
             product="authorEclipse developerEclipse editorEclipse">Project Explorer</uicontrol>
           view, add the root directory for your custom Publishing Template (you can <xref
@@ -26,21 +26,21 @@
             linked folder</xref><ph product="webhelp-responsive ope">use a linked folder</ph> and
           the easiest way to do this is to drag and drop the folder).<note id="note_ypn_cgk_64b">If
             your template is stored as a ZIP archive, you first need to unzip it.</note></li>
-        <li id="li_zpn_cgk_64b">Expand your template directory, right-click the
+        <li id="li_zpn_cgk_64b" irina="irina">Expand your template directory, right-click the
             <filepath>page-templates</filepath> subfolder, and select <menucascade>
             <uicontrol>Refactoring</uicontrol>
             <uicontrol><image href="../img/XMLRefactoring16.png" id="image_mv4_ptt_lr"/>XML
               Refactoring</uicontrol>
           </menucascade>.</li>
-        <li id="li_aqn_cgk_64b">In the <uicontrol>XML Refactoring</uicontrol> dialog box, scroll to
+        <li id="li_aqn_cgk_64b" irina="irina">In the <uicontrol>XML Refactoring</uicontrol> dialog box, scroll to
           the <uicontrol>Publishing Template</uicontrol> section and select <uicontrol>Migrate HTML
             Page Layout Files to v25</uicontrol>, then click <uicontrol>Next</uicontrol>.</li>
-        <li id="li_bqn_cgk_64b">The <uicontrol>Scope</uicontrol> should be left as
+        <li id="li_bqn_cgk_64b" irina="irina">The <uicontrol>Scope</uicontrol> should be left as
             <uicontrol>Selected project resources</uicontrol>.</li>
-        <li id="li_cqn_cgk_64b">You can use the <uicontrol>Preview</uicontrol> button to open a
+        <li id="li_cqn_cgk_64b" irina="irina">You can use the <uicontrol>Preview</uicontrol> button to open a
           comparison panel where you can review all the changes that will be made by the refactoring
           operation before applying the changes.</li>
-        <li id="li_dqn_cgk_64b">Click <uicontrol>Finish</uicontrol> to perform the conversion.</li>
+        <li id="li_dqn_cgk_64b" irina="irina">Click <uicontrol>Finish</uicontrol> to perform the conversion.</li>
       </ol></p>
     <p id="p_eqn_cgk_64b"><b>Result:</b> The converted Publishing Template can now be used in
       version 25.0.</p>

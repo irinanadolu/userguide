@@ -76,9 +76,9 @@
       filter text field, you can use <uicontrol><shortcut>Tab</shortcut></uicontrol>,
           <uicontrol><shortcut>Shift-Tab</shortcut></uicontrol>.</p>
     <note type="tip" id="note_kld_cgk_54b">The search filter is case insensitive. The following wildcards are accepted:<ul id="ul_lld_cgk_54b">
-        <li id="li_mld_cgk_54b"><b>*</b> - any string</li>
-        <li id="li_nld_cgk_54b"><b>?</b> - any character</li>
-        <li id="li_old_cgk_54b"><b>,</b> - patterns separator</li>
+        <li id="li_mld_cgk_54b" irina="irina"><b>*</b> - any string</li>
+        <li id="li_nld_cgk_54b" irina="irina"><b>?</b> - any character</li>
+        <li id="li_old_cgk_54b" irina="irina"><b>,</b> - patterns separator</li>
       </ul><p id="p_pld_cgk_54b">If no wildcards are specified, the string to search is used as a partial match.</p></note>
     <p
       conkeyref="reusables-editing-documents/outliner-filter-box" id="p_qld_cgk_54b"/>

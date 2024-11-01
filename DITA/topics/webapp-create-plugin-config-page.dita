@@ -16,7 +16,7 @@
       ><term>plugin</term></xref> that does not already have the <uicontrol><image
         href="../img/ConfigureSearchScope16.png"/>Configure</uicontrol> icon displayed in the
       <uicontrol>Administration</uicontrol> page, follow these steps:<ol id="ol_uxq_dgk_54b">
-        <li id="li_vxq_dgk_54b">
+        <li id="li_vxq_dgk_54b" irina="irina">
           <p id="p_wxq_dgk_54b">Register a <codeph>WebappServlet</codeph> extension type with a <codeph>role</codeph>
             attribute set to <b>config</b> in your <filepath>plugin.xml</filepath> file, as in the
             following
@@ -25,14 +25,14 @@
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/webapp/plugin/PluginConfigExtension.html"
             format="html" scope="external"><i>PluginConfigExtension</i></xref> class.</p>
         </li>
-        <li id="li_zxq_dgk_54b">When extending the <xref
+        <li id="li_zxq_dgk_54b" irina="irina">When extending the <xref
           href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/webapp/plugin/PluginConfigExtension.html"
           format="html" scope="external"><i>PluginConfigExtension</i></xref> class, consider the
           following notes:<ul id="ul_ayq_dgk_54b">
-            <li id="li_byq_dgk_54b">Implement the <i>getOptionsForm</i> method to return an HTML
+            <li id="li_byq_dgk_54b" irina="irina">Implement the <i>getOptionsForm</i> method to return an HTML
               form and make sure it contains inputs with the <codeph>name</codeph> attribute the
               same as the option you want to configure.</li>
-            <li id="li_cyq_dgk_54b">Implement the <i>getOptionsJson</i> method to return a JSON
+            <li id="li_cyq_dgk_54b" irina="irina">Implement the <i>getOptionsJson</i> method to return a JSON
               string that contains the options that you want to make available to the JavaScript
               code. They will be accessible in your plugin's JavaScript code using the
               <codeph>sync.options.PluginsOptions.getClientOption(optionName)</codeph> method.
@@ -41,19 +41,19 @@
                 objects.</note><note type="tip" id="note_eyq_dgk_54b">You should not include any
                   sensitive information (e.g. OAuth secrets) in the options returned by this
                   method.</note></li>
-            <li id="li_fyq_dgk_54b">
+            <li id="li_fyq_dgk_54b" irina="irina">
               <p id="p_gyq_dgk_54b">Implement the <i>getPath</i> method to return a non-empty string
                 that represents the path that will have this extension served.</p>
               <p id="p_hyq_dgk_54b">For
                 example:<codeblock outputclass="language-bourne" id="codeblock_iyq_dgk_54b"> {webapp-context}/plugins-dispatcher/RESULT_OF_GETPATH</codeblock></p>
             </li>
-            <li id="li_jyq_dgk_54b">Override the <i>init</i> method to set some defaults for your
+            <li id="li_jyq_dgk_54b" irina="irina">Override the <i>init</i> method to set some defaults for your
               options and make sure you call <i>super.init()</i>. Otherwise, options will not be
               saved to disk and will be lost when you restart the application.</li>
-            <li id="li_kyq_dgk_54b">Optionally, if you need to override any of the
+            <li id="li_kyq_dgk_54b" irina="irina">Optionally, if you need to override any of the
               <i>doPut/doDelete</i> methods, make sure you call the <i>saveOptions</i> method at
               the end to save the options to disk.</li>
-            <li id="li_lyq_dgk_54b">Optionally, if you need to override the <i>doGet</i> method,
+            <li id="li_lyq_dgk_54b" irina="irina">Optionally, if you need to override the <i>doGet</i> method,
               make sure it responds with the result of <i>getOptionsForm</i> for header
               <codeph>Accept=text/html</codeph>, and with the result of <i>getOptionsJson</i> when
               called with header <codeph>Accept=application/json</codeph>. Use the <i>getOption</i>
@@ -62,7 +62,7 @@
             <i>com.oxygenxml.examples.webdav.WebdavPluginConfigExtension</i> in the <xref
               href="https://github.com/oxygenxml/web-author-webdav-plugin" format="html"
               scope="external">web-author-webdav-plugin</xref>.</note></li>
-        <li id="li_nyq_dgk_54b">To use these options from the Java code of your plugin, use the <xref
+        <li id="li_nyq_dgk_54b" irina="irina">To use these options from the Java code of your plugin, use the <xref
           href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/OptionsStorage.html"
           format="html" scope="external"><i>ro.sync.ecss.extensions.api.OptionsStorage</i></xref>
           API, as in the following

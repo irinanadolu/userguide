@@ -19,17 +19,17 @@
       perform some acceptance tests, and then switch all of your users to the new deployment.</p>
     <p id="p_xlq_dgk_54b">To upgrade <ph keyref="webappProduct"/>, follow these steps:</p>
     <ol id="ol_tr4_wlz_hw">
-      <li id="li_ylq_dgk_54b">Deploy the new version of <ph keyref="webappProduct"/> on a separate virtual machine and
+      <li id="li_ylq_dgk_54b" irina="irina">Deploy the new version of <ph keyref="webappProduct"/> on a separate virtual machine and
         connect it to your existing license server. The two deployments will work in parallel, both
         using the same license pool.</li>
-      <li id="li_zlq_dgk_54b">It might be necessary to update your license key. If you receive an error message
+      <li id="li_zlq_dgk_54b" irina="irina">It might be necessary to update your license key. If you receive an error message
         regarding the license key version, follow <xref
           href="https://www.oxygenxml.com/doc/ug-editor/topics/replace-floating-license.html"
           format="html" scope="external">this procedure</xref>. Your existing <ph
           keyref="webappProduct"/> deployment will continue to work with a license for the newer
         version.</li>
-      <li id="li_amq_dgk_54b">Tweak the settings for the new version to suit your needs.</li>
-      <li id="li_bmq_dgk_54b">Switch all of the users to the new version. This can be achieved either by changing the
+      <li id="li_amq_dgk_54b" irina="irina">Tweak the settings for the new version to suit your needs.</li>
+      <li id="li_bmq_dgk_54b" irina="irina">Switch all of the users to the new version. This can be achieved either by changing the
         DNS entry or configuring the <xref href="webapp-loadbalancing.dita#webapp-loadbalancing"
           >Load Balancer</xref> to use the new deployment.</li>
     </ol>

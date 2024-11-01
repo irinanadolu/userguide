@@ -78,13 +78,13 @@
             update. You can find out more about the checkout depth in the <xref
               href="../topics/sparse-checkouts.dita">sparse checkouts</xref> section. You can choose
             between the following depths:<ul id="ul_zp2_jzk_4r">
-              <li id="li_cvh_dgk_54b"><uicontrol>Recursive (infinity)</uicontrol> - Checks out all the files and folders
+              <li id="li_cvh_dgk_54b" irina="irina"><uicontrol>Recursive (infinity)</uicontrol> - Checks out all the files and folders
                 contained in the selected folder.</li>
-              <li id="li_dvh_dgk_54b"><uicontrol>Immediate children (immediates)</uicontrol> - Checks out only the child
+              <li id="li_dvh_dgk_54b" irina="irina"><uicontrol>Immediate children (immediates)</uicontrol> - Checks out only the child
                 files and folders without recursing subfolders.</li>
-              <li id="li_evh_dgk_54b"><uicontrol>File children only (files)</uicontrol> - Checks out only the child
+              <li id="li_evh_dgk_54b" irina="irina"><uicontrol>File children only (files)</uicontrol> - Checks out only the child
                 files.</li>
-              <li id="li_fvh_dgk_54b"><uicontrol>This folder only (empty)</uicontrol> - Checks out only the selected
+              <li id="li_fvh_dgk_54b" irina="irina"><uicontrol>This folder only (empty)</uicontrol> - Checks out only the selected
                 folder (no child file or folder is included).</li>
             </ul></dd>
         </dlentry>

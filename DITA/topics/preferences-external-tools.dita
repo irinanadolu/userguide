@@ -36,10 +36,10 @@
       <title>How to Configure an External Tool</title>
       <p id="p_adr_bgk_54b">To configure an external tool in the <uicontrol>External Tools</uicontrol> preferences
         page, use any of the following buttons at the bottom of the page:<ul id="ul_bdr_bgk_54b">
-          <li id="li_cdr_bgk_54b"><uicontrol>New</uicontrol> - Adds a new external tool to the list.</li>
-          <li id="li_ddr_bgk_54b"><uicontrol>Edit</uicontrol> - Allows you to configure an existing external tool,
+          <li id="li_cdr_bgk_54b" irina="irina"><uicontrol>New</uicontrol> - Adds a new external tool to the list.</li>
+          <li id="li_ddr_bgk_54b" irina="irina"><uicontrol>Edit</uicontrol> - Allows you to configure an existing external tool,
             selected from the list.</li>
-          <li id="li_edr_bgk_54b"><uicontrol>Duplicate</uicontrol> - Duplicates an existing external tool, selected from
+          <li id="li_edr_bgk_54b" irina="irina"><uicontrol>Duplicate</uicontrol> - Duplicates an existing external tool, selected from
             the list, to use as a template for configuring a similar tool.</li>
         </ul> Any of those three buttons opens the <uicontrol>External Tools</uicontrol>
         configuration dialog box.</p>
@@ -142,10 +142,10 @@
                   view</xref><uicontrol product="json">Results</uicontrol> view. When this option is
                 not selected, only the error messages are displayed. You can also choose the output
                 encoding and content type:<ul id="ul_pdr_bgk_54b">
-                  <li id="li_qdr_bgk_54b"><uicontrol>Output encoding</uicontrol> - The encoding of
+                  <li id="li_qdr_bgk_54b" irina="irina"><uicontrol>Output encoding</uicontrol> - The encoding of
                     the output stream of the external tool that will be used by<ph keyref="product"
                     /> to read the output of the tool. </li>
-                  <li id="li_rdr_bgk_54b"><uicontrol>Output content type</uicontrol> - A list of
+                  <li id="li_rdr_bgk_54b" irina="irina"><uicontrol>Output content type</uicontrol> - A list of
                     predefined content type formats that instruct<ph keyref="product"/> how to
                     display the generated output. For example, setting the <uicontrol>Output content
                       type</uicontrol> to <codeph>text/xml</codeph> enables the syntax coloring of

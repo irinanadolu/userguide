@@ -31,17 +31,17 @@
     <section id="managing_installed_addons">
       <title>Managing Installed Add-ons</title>
       <p id="p_nnn_bgk_54b">To manage the installed add-ons, follow these steps:<ol id="ol_onn_bgk_54b">
-          <li id="li_pnn_bgk_54b">Go to <menucascade>
+          <li id="li_pnn_bgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Manage add-ons</uicontrol>
             </menucascade></li>
-          <li id="li_qnn_bgk_54b">The displayed dialog box presents a list of your installed add-ons along with various
+          <li id="li_qnn_bgk_54b" irina="irina">The displayed dialog box presents a list of your installed add-ons along with various
             information (such as the installed version, the compatible <term>Oxygen</term> version,
             and more). The <uicontrol>Status</uicontrol> column will indicate if an update is
             available for a particular add-on. Also, you can click on the row for any particular
             add-on that has an update available to see details for the update (displayed in the
             preview pane below the list of add-ons).</li>
-          <li id="li_rnn_bgk_54b">To update an add-on, select the checkbox for the specific add-on, then click
+          <li id="li_rnn_bgk_54b" irina="irina">To update an add-on, select the checkbox for the specific add-on, then click
               <uicontrol>Update</uicontrol> to update it (or <uicontrol>Uninstall</uicontrol> to
             remove it). If there is a newer version of the add-on available, <ph keyref="product"/>
             will download the package and install it. Follow the on-screen instructions to complete

@@ -15,22 +15,22 @@
   <conbody>
     <p id="p_rzc_dgk_54b">The arguments of the function are <i>property name - property value</i> pairs. The following
       properties are supported:<ul id="ul_szc_dgk_54b">
-        <li id="li_tzc_dgk_54b"><ph conkeyref="reusables-author-mode-customization/text-property"/></li>
-        <li id="li_uzc_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
-        <li id="li_vzc_dgk_54b"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
-        <li id="li_wzc_dgk_54b"><ph conkeyref="reusables-author-mode-customization/background-color-property"/></li>
-        <li id="li_xzc_dgk_54b">
+        <li id="li_tzc_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/text-property"/></li>
+        <li id="li_uzc_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property"/></li>
+        <li id="li_vzc_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
+        <li id="li_wzc_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/background-color-property"/></li>
+        <li id="li_xzc_dgk_54b" irina="irina">
           <p id="p_yzc_dgk_54b"><uicontrol>styles</uicontrol> - Specifies styles for the form
             control. The values of this property are a set of CSS properties:<ul id="ul_rrh_nyh_sr">
-              <li id="li_zzc_dgk_54b"><uicontrol>font-weight</uicontrol>,
+              <li id="li_zzc_dgk_54b" irina="irina"><uicontrol>font-weight</uicontrol>,
                   <uicontrol>font-size</uicontrol>, <uicontrol>font-style</uicontrol>,
                   <uicontrol>font</uicontrol></li>
-              <li id="li_a1d_dgk_54b"><uicontrol>text-align</uicontrol>,
+              <li id="li_a1d_dgk_54b" irina="irina"><uicontrol>text-align</uicontrol>,
                   <uicontrol>text-decoration</uicontrol></li>
-              <li id="li_b1d_dgk_54b"><uicontrol>width</uicontrol></li>
-              <li id="li_c1d_dgk_54b"><uicontrol>color</uicontrol>,
+              <li id="li_b1d_dgk_54b" irina="irina"><uicontrol>width</uicontrol></li>
+              <li id="li_c1d_dgk_54b" irina="irina"><uicontrol>color</uicontrol>,
                   <uicontrol>background-color</uicontrol></li>
-              <li id="li_d1d_dgk_54b"><uicontrol>link</uicontrol> - For more information about this
+              <li id="li_d1d_dgk_54b" irina="irina"><uicontrol>link</uicontrol> - For more information about this
                 property, see the <xref href="dg-link-elements.dita#dg-link-elements"><i>link</i>
                   property section</xref>.</li>
             </ul></p>

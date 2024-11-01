@@ -16,13 +16,13 @@
     </p>
     <p id="p_rq3_dgk_54b">The options to resolve a conflict are as follows:</p>
     <ul id="ul_zg1_phy_4r">
-      <li id="li_sq3_dgk_54b"><uicontrol>Resolve later</uicontrol> - Used for leaving the conflict as it is, to manually
+      <li id="li_sq3_dgk_54b" irina="irina"><uicontrol>Resolve later</uicontrol> - Used for leaving the conflict as it is, to manually
         resolve it later.</li>
-      <li id="li_tq3_dgk_54b"><uicontrol>Keep incoming</uicontrol> - This option keeps all the incoming modifications
+      <li id="li_tq3_dgk_54b" irina="irina"><uicontrol>Keep incoming</uicontrol> - This option keeps all the incoming modifications
         and discards all current ones from your working copy.</li>
-      <li id="li_uq3_dgk_54b"><uicontrol>Keep outgoing</uicontrol> - This option keeps all current modifications from
+      <li id="li_uq3_dgk_54b" irina="irina"><uicontrol>Keep outgoing</uicontrol> - This option keeps all current modifications from
         your working copy and discards all incoming ones.</li>
-      <li id="li_vq3_dgk_54b"><uicontrol>Mark resolved</uicontrol> - You should choose this option after you have
+      <li id="li_vq3_dgk_54b" irina="irina"><uicontrol>Mark resolved</uicontrol> - You should choose this option after you have
         manually solved the conflict, to instruct the Subversion that it was resolved. To do this,
         use the <uicontrol>Edit conflict</uicontrol> button, which displays a dialog box that
         presents the contents of the conflicting items (the content of the working copy version

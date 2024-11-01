@@ -12,7 +12,7 @@
       set the <xmlatt>outputclass</xmlatt> attribute on the <xmlelement>codeblock</xmlelement>
       elements to one of these values:</p>
     <ul conkeyref="reusables-transforming-documents/ul-output-class-values" id="ul_gbv_cgk_54b">
-      <li id="li_hbv_cgk_54b"/>
+      <li id="li_hbv_cgk_54b" irina="irina"/>
     </ul>
     <p id="p_ibv_cgk_54b">For example, for a java
       snippet:<codeblock outputclass="language-xml" id="codeblock_jbv_cgk_54b">&lt;codeblock outputclass="language-java">

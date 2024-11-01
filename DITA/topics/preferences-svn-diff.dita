@@ -16,10 +16,10 @@
         <dlentry id="dlentry_wxq_bgk_54b">
           <dt><uicontrol>Default algorithm</uicontrol></dt>
           <dd>The default algorithm used for performing comparisons. The following options are available:<ul id="ul_xxq_bgk_54b">
-              <li conkeyref="reusables-tools/auto" id="li_yxq_bgk_54b"/>
-              <li conkeyref="reusables-tools/lines" id="li_zxq_bgk_54b"/>
-              <li conkeyref="reusables-tools/xml-fast" id="li_ayq_bgk_54b"/>
-              <li conkeyref="reusables-tools/xml-accurate" id="li_byq_bgk_54b"/>
+              <li conkeyref="reusables-tools/auto" id="li_yxq_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/lines" id="li_zxq_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/xml-fast" id="li_ayq_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-tools/xml-accurate" id="li_byq_bgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
         <dlentry
@@ -53,9 +53,9 @@
                   <dd>
                     <p id="p_jyq_bgk_54b">Specifies an external application to be launched for compare operations in
                       the following cases:<ul id="ul_rmq_gkk_y3b">
-                        <li id="li_kyq_bgk_54b">When two history revisions are compared.</li>
-                        <li id="li_lyq_bgk_54b">When the working copy file is compared with a history revision.</li>
-                        <li id="li_myq_bgk_54b">When <xref href="edit-conflict.dita">a conflict is edited</xref>.</li>
+                        <li id="li_kyq_bgk_54b" irina="irina">When two history revisions are compared.</li>
+                        <li id="li_lyq_bgk_54b" irina="irina">When the working copy file is compared with a history revision.</li>
+                        <li id="li_myq_bgk_54b" irina="irina">When <xref href="edit-conflict.dita">a conflict is edited</xref>.</li>
                       </ul></p>
                     <p id="p_nyq_bgk_54b">The parameters <b>${firstFile}</b> and <b>${secondFile}</b> specify the
                       positions of the two compared files in the command line for the external diff
@@ -84,10 +84,10 @@
           <dd>
             <p id="p_syq_bgk_54b">Specifies an external application to be launched for compare
               operations in the following cases:<ul id="ul_r5w_fkk_y3b">
-                <li id="li_tyq_bgk_54b">When two history revisions are compared.</li>
-                <li id="li_uyq_bgk_54b">When the working copy file is compared with a history
+                <li id="li_tyq_bgk_54b" irina="irina">When two history revisions are compared.</li>
+                <li id="li_uyq_bgk_54b" irina="irina">When the working copy file is compared with a history
                   revision.</li>
-                <li id="li_vyq_bgk_54b">When a conflict is edited.</li>
+                <li id="li_vyq_bgk_54b" irina="irina">When a conflict is edited.</li>
               </ul></p>
             <p id="p_wyq_bgk_54b">The parameters <b>${firstFile}</b> and <b>${secondFile}</b>
               specify the positions of the two compared files in the command line for the external

@@ -27,13 +27,13 @@ sudo bash /fusion/admin/start-content-fusion.sh</codeblock></p>
       <p id="p_ym5_dgk_54b">If you make certain customizations to the web-based editor (for example, if you upload a
         custom framework, or customize the terms list for the spell checker or AutoCorrect feature),
         you need to restart the web-based editor (Web Author):<ol id="upload-framework-ol">
-          <li id="li_zm5_dgk_54b">Go to your <xref href="cf-enterprise-configuration.dita#cf-enterprise-configuration"
+          <li id="li_zm5_dgk_54b" irina="irina">Go to your <xref href="cf-enterprise-configuration.dita#cf-enterprise-configuration"
               >Content Fusion Enterprise Administration Page</xref>.</li>
-          <li id="li_an5_dgk_54b">In the <uicontrol>Web Author</uicontrol> tab, click <uicontrol>Manage Web
+          <li id="li_an5_dgk_54b" irina="irina">In the <uicontrol>Web Author</uicontrol> tab, click <uicontrol>Manage Web
               Author</uicontrol>. This will open the <term>Oxygen XML Web Author</term>
             <uicontrol>Administration</uicontrol> page.</li>
-          <li id="li_bn5_dgk_54b">Select <uicontrol>Frameworks</uicontrol>.</li>
-          <li id="li_cn5_dgk_54b">Click the <uicontrol>Restart Server</uicontrol> button at the top of the page.</li>
+          <li id="li_bn5_dgk_54b" irina="irina">Select <uicontrol>Frameworks</uicontrol>.</li>
+          <li id="li_cn5_dgk_54b" irina="irina">Click the <uicontrol>Restart Server</uicontrol> button at the top of the page.</li>
         </ol></p>
     </section>
   </body>

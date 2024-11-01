@@ -30,10 +30,10 @@
       <p id="p_rf4_cgk_54b">To add a logo in the title area of your WebHelp output using an <xref
           keyref="wh-publishing-template"><term>Oxygen Publishing Template</term></xref>, follow
         this procedure:<ol id="ol_sf4_cgk_54b">
-          <li id="li_tf4_cgk_54b">If you have not already created a Publishing Template, see <xref
+          <li id="li_tf4_cgk_54b" irina="irina">If you have not already created a Publishing Template, see <xref
               href="whr-create-publishing-template.dita">How to Create a Publishing
             Template</xref>.</li>
-          <li id="li_uf4_cgk_54b">Open the <xref href="whr_publishing_template_contents.dita#template_descritpor_file"
+          <li id="li_uf4_cgk_54b" irina="irina">Open the <xref href="whr_publishing_template_contents.dita#template_descritpor_file"
               >template descriptor file</xref> associated with your publishing template and add the
               <codeph>default.language</codeph> parameter in the <term>parameters</term> section
             with its value set to
@@ -45,19 +45,19 @@
             &lt;parameter name="default.language" value="ja-jp"/>
         &lt;/parameters>
     &lt;/webhelp></codeblock></li>
-          <li id="li_wf4_cgk_54b">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
-          <li id="li_xf4_cgk_54b">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
+          <li id="li_wf4_cgk_54b" irina="irina">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
+          <li id="li_xf4_cgk_54b" irina="irina">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
             your template.</li>
-          <li id="li_yf4_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
+          <li id="li_yf4_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
             scenario.</li>
-          <li id="li_zf4_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_zf4_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
     </section>
     <section id="using_oxygen_xml_editorauthor">
       <title>Using a Transformation Scenario in Oxygen XML Editor/Author</title>
       <p id="p_ag4_cgk_54b">To activate the Japanese indexing in your WebHelp output using a transformation scenario
         from within <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_bg4_cgk_54b">
-          <li id="li_cg4_cgk_54b">Edit a <uicontrol>DITA to WebHelp</uicontrol> transformation scenario and in the
+          <li id="li_cg4_cgk_54b" irina="irina">Edit a <uicontrol>DITA to WebHelp</uicontrol> transformation scenario and in the
               <uicontrol>Parameters</uicontrol> tab, set the value of the
               <codeph>default.language</codeph> parameter to
               <codeph>ja-jp</codeph>.<note id="note_dg4_cgk_54b">Alternatively, you could set the
@@ -67,7 +67,7 @@
                 <codeph>webhelp.search.japanese.dictionary</codeph> parameter to specify a path to a
               Japanese dictionary that will be used by the <i>Kuromoji</i> morphological engine
               (note that the encoding for the dictionary must be <b>UTF8</b>).</note></li>
-          <li id="li_eg4_cgk_54b">Run the WebHelp transformation scenario to generate the output.</li>
+          <li id="li_eg4_cgk_54b" irina="irina">Run the WebHelp transformation scenario to generate the output.</li>
         </ol></p>
     </section>
   </body>

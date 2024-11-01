@@ -98,14 +98,14 @@
       </p>
       <note id="note_p2r_k4l_54b" othertype="Notes" type="other">
         <ul id="ul_xtb_wy3_xyb">
-          <li id="li_ytb_wy3_xyb">The merge process has a preliminary phase where the entire
+          <li id="li_ytb_wy3_xyb" irina="irina">The merge process has a preliminary phase where the entire
             structure and content of the base directory is copied to the output directory.</li>
-          <li id="li_aqs_xy3_xyb">For boolean arguments, it is not necessary to provide the "true"
+          <li id="li_aqs_xy3_xyb" irina="irina">For boolean arguments, it is not necessary to provide the "true"
             value. Their presence in the argument list is equivalent to setting their value to
             "true" (and their absence from the argument list is equivalent to setting their value to
             "false"). However, constructs of the form <codeph>bool_option true|false</codeph> are
             accepted and interpreted accordingly.</li>
-          <li id="li_b51_1z3_xyb">Once the merge operation is complete, a report file is created and
+          <li id="li_b51_1z3_xyb" irina="irina">Once the merge operation is complete, a report file is created and
             saved in the output directory (in a separate subdirectory named
             ".__OXY__MERGE__REPORT"). Loading the report file in <ph keyref="product"/> provides
             additional functionality. Aside from the fact that the report provides an overview of

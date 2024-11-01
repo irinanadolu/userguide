@@ -527,10 +527,10 @@
                           <xmlatt>conref</xmlatt>, or <xmlatt>conkeyref</xmlatt>) in the current
                         document with the content. Attributes are preserved according to the
                         following priority:<ol id="ol_cr5_hvj_y3b">
-                          <li id="li_gj4_dgk_54b">Attributes from the elements in the current document that reference
+                          <li id="li_gj4_dgk_54b" irina="irina">Attributes from the elements in the current document that reference
                             other content are preserved except for attributes with a
                               <codeph>-dita-use-conref-target</codeph> value.</li>
-                          <li id="li_hj4_dgk_54b">Attributes from the referenced content are brought into the replaced
+                          <li id="li_hj4_dgk_54b" irina="irina">Attributes from the referenced content are brought into the replaced
                             elements in the current document except for <xmlatt>id</xmlatt>
                             attributes.</li>
                         </ol></p>

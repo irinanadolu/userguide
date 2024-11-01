@@ -36,10 +36,10 @@
       <title>Referencing the Custom CSS Using Oxygen XML Editor/Author</title>
       <p id="p_c2p_cgk_54b">To use a custom CSS to style WebHelp output and use a transformation scenario from within
           <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_d2p_cgk_54b">
-          <li id="li_e2p_cgk_54b">Create your custom CSS file.</li>
-          <li id="li_f2p_cgk_54b"><ph conkeyref="reusable-webhelp-customizing/transform-parameters-tab-ph"/> Set the
+          <li id="li_e2p_cgk_54b" irina="irina">Create your custom CSS file.</li>
+          <li id="li_f2p_cgk_54b" irina="irina"><ph conkeyref="reusable-webhelp-customizing/transform-parameters-tab-ph"/> Set the
               <codeph>html.stylesheet</codeph> parameter to the path of your custom CSS file.</li>
-          <li id="li_g2p_cgk_54b">Run the WebHelp transformation scenario to generate the output.</li>
+          <li id="li_g2p_cgk_54b" irina="irina">Run the WebHelp transformation scenario to generate the output.</li>
         </ol></p>
     </section>
     <section id="using_a_script_outside_of_oxygen_xml_editorauthor">
@@ -49,10 +49,10 @@
       <p id="p_i2p_cgk_54b">To use a custom CSS to style WebHelp output and use a <xref
           href="using-the-webhelp-plugin-docbook.dita">script outside of <b>Oxygen XML
             Editor/Author</b></xref>, follow this procedure:<ol id="ol_j2p_cgk_54b">
-          <li id="li_k2p_cgk_54b">Create your custom CSS file.</li>
-          <li id="li_l2p_cgk_54b">Reference your custom CSS file. Use the <codeph>html.stylesheet</codeph> parameter in
+          <li id="li_k2p_cgk_54b" irina="irina">Create your custom CSS file.</li>
+          <li id="li_l2p_cgk_54b" irina="irina">Reference your custom CSS file. Use the <codeph>html.stylesheet</codeph> parameter in
             your transformation script and set its value to the path of your custom CSS file.</li>
-          <li id="li_m2p_cgk_54b">
+          <li id="li_m2p_cgk_54b" irina="irina">
             <p id="p_n2p_cgk_54b">Execute the transformation script.</p>
           </li>
         </ol></p>

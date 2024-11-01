@@ -35,10 +35,10 @@
       <title>Style the Topics Depending on Their Role</title>
       <p id="p_utr_cgk_54b">There might be cases when you need to distinguish between certain types of topics that have
         different roles in your publication:<ul id="ul_enm_xcy_mhb">
-          <li id="li_vtr_cgk_54b">Preface</li>
-          <li id="li_wtr_cgk_54b">Notice</li>
-          <li id="li_xtr_cgk_54b">Abstract</li>
-          <li id="li_ytr_cgk_54b">Copyright</li>
+          <li id="li_vtr_cgk_54b" irina="irina">Preface</li>
+          <li id="li_wtr_cgk_54b" irina="irina">Notice</li>
+          <li id="li_xtr_cgk_54b" irina="irina">Abstract</li>
+          <li id="li_ytr_cgk_54b" irina="irina">Copyright</li>
         </ul>These are referenced from the DITA map by specialized <xmlelement>topicref</xmlelement>
         elements, with different class attribute values. </p>
       <p id="p_ztr_cgk_54b">The class attribute values are then passed by the transformation process onto the

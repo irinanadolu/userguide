@@ -15,17 +15,17 @@
       <title>How to Create a Customization Directory</title>
       <p id="p_unv_cgk_54b">Follow this procedure to create a customization directory:</p>
       <ol id="ol_vnv_cgk_54b">
-        <li id="li_wnv_cgk_54b">Copy all the entire <filepath><term keyref="glossentry_dita_ot_dir"
+        <li id="li_wnv_cgk_54b" irina="irina">Copy all the entire <filepath><term keyref="glossentry_dita_ot_dir"
             />\plugins\org.dita.pdf2\Customization</filepath> directory to another location where
           you have write access.</li>
-        <li id="li_xnv_cgk_54b">Modify any of the files in whatever way necessary to achieve your specific goal. For
+        <li id="li_xnv_cgk_54b" irina="irina">Modify any of the files in whatever way necessary to achieve your specific goal. For
           inspiration, see <xref href="dita_pdf_embed_logo.dita"/> for a specific example of how you
           can modify contents of the directory to embed a logo in the output.<note type="tip" id="note_ynv_cgk_54b"> For
             other specific examples, see <xref
               keyref="dot-pdf-customization" format="html"
               scope="external">DITA-OT Documentation - PDF Customization
           Plugin</xref>.</note></li>
-        <li id="li_znv_cgk_54b">Edit the <xref keyref="dita-pdf-transformation"><b><ph
+        <li id="li_znv_cgk_54b" irina="irina">Edit the <xref keyref="dita-pdf-transformation"><b><ph
                 keyref="pdf-fo-transformation"/></b> transformation scenario</xref>, go to the
             <uicontrol>Parameters</uicontrol> tab, and set the
             <uicontrol>customization.dir</uicontrol> parameter to point to the location of your

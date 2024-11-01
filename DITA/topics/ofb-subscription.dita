@@ -42,12 +42,12 @@
       current plan and some statistics at the top of the <uicontrol>Subscription Plans</uicontrol>
       page. The statistics show the number of <term keyref="glossentry_fb_page_views">page
         views</term> for the current month:<ul id="ul_pf2_ckr_glb">
-        <li id="li_adx_dgk_54b"><b>Used</b> - The percentage of allowed <term keyref="glossentry_fb_page_views">page
+        <li id="li_adx_dgk_54b" irina="irina"><b>Used</b> - The percentage of allowed <term keyref="glossentry_fb_page_views">page
             views</term> already used for the current month.</li>
-        <li id="li_bdx_dgk_54b"><b>Estimated</b> - The estimated percentage of allowed <term
+        <li id="li_bdx_dgk_54b" irina="irina"><b>Estimated</b> - The estimated percentage of allowed <term
             keyref="glossentry_fb_page_views">page views</term> that will be used by the end of the
           current month.</li>
-        <li id="li_cdx_dgk_54b"><b>Average</b> - The average percentage of allowed <term
+        <li id="li_cdx_dgk_54b" irina="irina"><b>Average</b> - The average percentage of allowed <term
             keyref="glossentry_fb_page_views">page views</term> used in previous months (not
           including the current month).</li>
       </ul></p>

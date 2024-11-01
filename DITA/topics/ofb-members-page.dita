@@ -15,12 +15,12 @@
       Users with a role of organization <i>Owner</i> or <i>Admin</i> can also invite new members and
       change user roles.</p>
     <p id="p_wgr_qmz_prb">To invite a new member:<ol id="ol_mtd_sks_5rb">
-        <li id="li_ntd_sks_5rb">Enter their email address in the <uicontrol>Email</uicontrol> field
+        <li id="li_ntd_sks_5rb" irina="irina">Enter their email address in the <uicontrol>Email</uicontrol> field
           at the top (you can enter multiple email addresses to invite multiple members at
           once).</li>
-        <li id="li_smd_5ks_5rb">Choose a role for them. This role will be assigned to each of the
+        <li id="li_smd_5ks_5rb" irina="irina">Choose a role for them. This role will be assigned to each of the
           invited users when they register their accounts.</li>
-        <li id="li_rvp_xks_5rb">Click the <uicontrol>Invite</uicontrol> button. An email is sent to
+        <li id="li_rvp_xks_5rb" irina="irina">Click the <uicontrol>Invite</uicontrol> button. An email is sent to
           the new member and they will be listed in the <uicontrol>Pending Invitations</uicontrol>
           tab until they accept the invitation. Also in the <uicontrol>Pending
             Invitations</uicontrol> tab, you can click the vertical ellipsis to the far right of the
@@ -32,28 +32,28 @@
       drop-down menu to the right of their user name. A notification email will be sent to that user
       informing them that their user role has changed.</p>
     <p id="p_www_dgk_54b">The possible organization user roles are:<ul id="ul_jh2_q1m_gjb">
-        <li id="li_xww_dgk_54b"><b><term keyref="glossentry_fb_owner"/></b> (This role is
+        <li id="li_xww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_owner"/></b> (This role is
           automatically assigned when the organization is created) - This type of user has rights to
           moderate comment posts (edit, approve, reject, or delete), configure site settings, the
           organization profile, versions, team members, and user roles, change the organization ID,
           delete the organization, or to delete or transfer the ownership of site
           configurations.</li>
-        <li id="li_cxf_5lr_5rb" product="feedback"><b><term keyref="glossentry_fb_billing-manager"
+        <li id="li_cxf_5lr_5rb" product="feedback" irina="irina"><b><term keyref="glossentry_fb_billing-manager"
             /></b> - This type of user has rights to purchase and manage the subscription for an
           organization.</li>
-        <li id="li_yww_dgk_54b"><b><term keyref="glossentry_fb_admin"/></b> - This type of user has
+        <li id="li_yww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_admin"/></b> - This type of user has
           rights to moderate comment posts (edit, approve, reject, or delete) and to configure site
           settings, the organization profile, versions, team members, and user roles.</li>
-        <li id="li_zww_dgk_54b"><b><term keyref="glossentry_fb_moderator"/></b> - This type of user
+        <li id="li_zww_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_moderator"/></b> - This type of user
           has rights to moderate comment posts (edit, approve, reject, or delete).</li>
-        <li id="li_axw_dgk_54b"><b><term keyref="glossentry_fb_trusted"/></b> - Comments posted by
+        <li id="li_axw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_trusted"/></b> - Comments posted by
           this type of user are automatically approved (this includes existing and future
           comments).</li>
-        <li id="li_bxw_dgk_54b"><b><term keyref="glossentry_fb_member"/></b> - This type of user has
+        <li id="li_bxw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_member"/></b> - This type of user has
           rights to post new comments. If the site is moderated, comments posted by this type of
           user require approval by a user with a role of <i>Owner</i>, <i>Admin</i>, or
             <i>Moderator</i>.</li>
-        <li id="li_cxw_dgk_54b"><b><term keyref="glossentry_fb_banned"/></b> - This type of user
+        <li id="li_cxw_dgk_54b" irina="irina"><b><term keyref="glossentry_fb_banned"/></b> - This type of user
           cannot post comments and all existing pending comments added by this user are
           automatically rejected. A user banned at organization level is also banned from all sites
           attached to the organization.</li>

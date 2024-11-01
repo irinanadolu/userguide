@@ -14,10 +14,10 @@
   <body>
     <p id="p_gjx_cgk_54b">To configure a connection for an <term>eXist</term> database using the dedicated
         <uicontrol>Create eXist-db XML connection</uicontrol> wizard, follow these steps:<ol id="ol_hjx_cgk_54b">
-        <li id="li_ijx_cgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/>, go to
+        <li id="li_ijx_cgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/>, go to
             <uicontrol>Data Sources</uicontrol> and click the <uicontrol>Create eXist-db XML
             connection</uicontrol> link.</li>
-        <li id="li_jjx_cgk_54b">Enter your connection details in the connection wizard and click
+        <li id="li_jjx_cgk_54b" irina="irina">Enter your connection details in the connection wizard and click
             <uicontrol>OK</uicontrol>.<note type="important" id="note_kjx_cgk_54b">To create an
               <term>eXist</term> connection using this wizard, <ph keyref="product"/> expects the
               <filepath>exist/webstart/exist.jnlp</filepath> path to be accessible at the provided
@@ -29,7 +29,7 @@
             remove all libraries with the pattern <filepath>log4j-*.jar</filepath> from the folder
             of downloaded libraries because they may interfere with the logging in <ph
               keyref="product"/>. </note></li>
-        <li id="li_ljx_cgk_54b">To view your connection, go to the <xref
+        <li id="li_ljx_cgk_54b" irina="irina">To view your connection, go to the <xref
             href="../topics/relational-database-explorer.dita#relational-database-explorer"
               ><uicontrol>Data Source Explorer</uicontrol> view</xref>
           <ph conkeyref="reusables-user-guide/reopen-view-parenthesis"/> or switch to the

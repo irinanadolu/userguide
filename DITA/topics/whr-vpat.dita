@@ -46,8 +46,8 @@
                     Responsive</b>:</p>
                 <p id="p_q4m_cgk_54b">
                   <ul id="ul_hwl_jlb_hhb">
-                    <li id="li_r4m_cgk_54b">Desktop browsers: Chrome, Firefox, Safari, Edge.</li>
-                    <li id="li_s4m_cgk_54b">Assistive technologies: NVDA, VoiceOver, JAWS, Microsoft
+                    <li id="li_r4m_cgk_54b" irina="irina">Desktop browsers: Chrome, Firefox, Safari, Edge.</li>
+                    <li id="li_s4m_cgk_54b" irina="irina">Assistive technologies: NVDA, VoiceOver, JAWS, Microsoft
                       Narrator.</li>
                   </ul>
                 </p>
@@ -112,14 +112,14 @@
       <title>Terms</title>
       <p id="p_cpm_cgk_54b"> The terms used in the Conformance Level information are defined as follows:</p>
       <ul id="ul_ujk_bhd_fhb">
-        <li id="li_dpm_cgk_54b"><b>Supports</b>: The functionality of the product has at least one method that meets the
+        <li id="li_dpm_cgk_54b" irina="irina"><b>Supports</b>: The functionality of the product has at least one method that meets the
           criterion without known defects or meets with equivalent facilitation.</li>
-        <li id="li_epm_cgk_54b"><b>Partially Supports</b>: Some functionality of the product does not meet the
+        <li id="li_epm_cgk_54b" irina="irina"><b>Partially Supports</b>: Some functionality of the product does not meet the
           criterion.</li>
-        <li id="li_fpm_cgk_54b"><b>Does Not Support</b>: The majority of product functionality does not meet the
+        <li id="li_fpm_cgk_54b" irina="irina"><b>Does Not Support</b>: The majority of product functionality does not meet the
           criterion.</li>
-        <li id="li_gpm_cgk_54b"><b>Not Applicable</b>: The criterion is not relevant to the product.</li>
-        <li id="li_hpm_cgk_54b"><b>Not Evaluated</b>: The product has not been evaluated against the criterion. This can
+        <li id="li_gpm_cgk_54b" irina="irina"><b>Not Applicable</b>: The criterion is not relevant to the product.</li>
+        <li id="li_hpm_cgk_54b" irina="irina"><b>Not Evaluated</b>: The product has not been evaluated against the criterion. This can
           be used only in WCAG 2.0 Level AAA.</li>
       </ul>
     </section>
@@ -162,9 +162,9 @@
                   <!--<ul id="ul_bh3_53d_fhb" audience="eu-rules"><li><p> 9.1.1.1 (Web)</p></li><li><p> 10.1.1.1 (Non-web document)</p></li><li><p> 11.1.1.1.1 (Open Functionality Software)</p></li><li><p> 11.1.1.1.2 (Closed Functionality Software)</p></li><li><p> 11.8.2 (Authoring Tool)</p></li><li><p> 12.1.2 (Product Docs)</p></li><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_ppm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_n4r_kxv_vhb">
-                    <li id="li_qpm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_rpm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_spm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_qpm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_rpm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_spm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -183,9 +183,9 @@
                   <!--<ul id="ul_sd1_5td_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_vpm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_mqn_jxv_vhb">
-                    <li id="li_wpm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_xpm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ypm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_wpm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_xpm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ypm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -204,9 +204,9 @@
                   <!--<ul id="ul_kjg_tq3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_bqm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_ljg_tq3_fhb">
-                    <li id="li_cqm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_dqm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_eqm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_cqm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_dqm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_eqm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -225,9 +225,9 @@
                   <!--<ul id="ul_hsk_4r3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_hqm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_isk_4r3_fhb">
-                    <li id="li_iqm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_jqm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_kqm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_iqm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_jqm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_kqm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -253,9 +253,9 @@
                   <!--<ul id="ul_wzq_rr3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_pqm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_xzq_rr3_fhb">
-                    <li id="li_qqm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_rqm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_sqm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_qqm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_rqm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_sqm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -263,18 +263,18 @@
                   <p id="p_tqm_cgk_54b">Information, structure, and relationships conveyed through presentation can be
                     programmatically determined or are available in text, with exceptions that
                       include:<ul id="ul_ajn_v53_fhb">
-                      <li id="li_uqm_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190717T094206+0300" comment="WH-2266"?>Some
+                      <li id="li_uqm_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190717T094206+0300" comment="WH-2266"?>Some
                         landmarks are not marked with the corresponding role or do not have an
                         associated label.<?oxy_comment_end?></li>
-                      <li id="li_vqm_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190717T094234+0300" comment="WH-2268"?>Some
+                      <li id="li_vqm_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190717T094234+0300" comment="WH-2268"?>Some
                         link groups are not structured using lists or are not marked as navigation
                         regions.<?oxy_comment_end?></li>
                     </ul></p>
                   <p id="p_wqm_cgk_54b">The authors of the input DITA document are responsible for:<ul
                       id="ul_ahn_4vx_k3b">
-                      <li id="li_xqm_cgk_54b">Using semantic elements to mark up structure.</li>
-                      <li id="li_yqm_cgk_54b">Using semantic markup to mark emphasized or special text.</li>
-                      <li id="li_zqm_cgk_54b">Using caption elements to associate data table captions with data
+                      <li id="li_xqm_cgk_54b" irina="irina">Using semantic elements to mark up structure.</li>
+                      <li id="li_yqm_cgk_54b" irina="irina">Using semantic markup to mark emphasized or special text.</li>
+                      <li id="li_zqm_cgk_54b" irina="irina">Using caption elements to associate data table captions with data
                         tables.</li>
                     </ul></p>
                 </entry>
@@ -292,9 +292,9 @@
                   <!--<ul id="ul_lxy_gw3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_crm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_mxy_gw3_fhb">
-                    <li id="li_drm_cgk_54b"> 501 (Web)(Software)</li>
-                    <li id="li_erm_cgk_54b"> 504.2 (Authoring Tool)</li>
-                    <li id="li_frm_cgk_54b"> 602.3 (Support Docs)</li>
+                    <li id="li_drm_cgk_54b" irina="irina"> 501 (Web)(Software)</li>
+                    <li id="li_erm_cgk_54b" irina="irina"> 504.2 (Authoring Tool)</li>
+                    <li id="li_frm_cgk_54b" irina="irina"> 602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -317,9 +317,9 @@
                   <!--<ul id="ul_rdd_4x3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_krm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_sdd_4x3_fhb">
-                    <li id="li_lrm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_mrm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_nrm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_lrm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_mrm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_nrm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -339,9 +339,9 @@
                   <!--<ul id="ul_odr_yy3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qrm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_pdr_yy3_fhb">
-                    <li id="li_rrm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_srm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_trm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rrm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_srm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_trm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -361,9 +361,9 @@
                   <!--<ul id="ul_uql_nz3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_wrm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_qvw_nyv_vhb">
-                    <li id="li_xrm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_yrm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_zrm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_xrm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_yrm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_zrm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -382,20 +382,20 @@
                   <!--<ul id="ul_abv_31j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_csm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_pkk_5yv_vhb">
-                    <li id="li_dsm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_esm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_fsm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_dsm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_esm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_fsm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
                 <entry>Most of the content is operable through a keyboard interface, with exceptions
                   that include:<ul id="ul_vzp_wxx_k3b">
-                    <li id="li_gsm_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190717T100148+0300" comment="WH-2271"?>The
+                    <li id="li_gsm_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190717T100148+0300" comment="WH-2271"?>The
                       submenus (the user cannot tab to the submenus).<?oxy_comment_end?></li>
-                    <li id="li_hsm_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190717T100210+0300" comment="WH-2271"?>The
+                    <li id="li_hsm_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190717T100210+0300" comment="WH-2271"?>The
                       top-level links in the main page accordion cannot be
                       accessed.<?oxy_comment_end?></li>
-                    <li>The facets component does not have full keyboard support.</li>
+                    <li irina="irina">The facets component does not have full keyboard support.</li>
                   </ul></entry>
               </row>
               <row>
@@ -408,9 +408,9 @@
                   <!--<ul id="ul_szs_3sj_fhb" audience="eu-rules"><li>9.2.16 (Web)</li><li>10.2.16 (non-web document)</li><li>11.2.1.16 (Software)</li><li>11.2.2.16 (Closed Software) – Does not apply</li><li>11.6.2 (Authoring Tool)</li><li>12.1.2 (Product Docs)</li><li>12.2.4 (Support Docs)</li></ul>-->
                   <p id="p_ksm_cgk_54b">Revised Section 508</p>
                   <ul id="ul_tzs_3sj_fhb">
-                    <li id="li_lsm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_msm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_nsm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_lsm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_msm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_nsm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -446,9 +446,9 @@
                   <!--<ul id="ul_sf3_d5j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_usm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_ols_5yv_vhb">
-                    <li id="li_vsm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_wsm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_xsm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_vsm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_wsm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_xsm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -465,9 +465,9 @@
                   <!--<ul id="ul_npq_k5j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_atm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_jjy_5yv_vhb">
-                    <li id="li_btm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_ctm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_dtm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_btm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_ctm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_dtm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -486,9 +486,9 @@
                   <!--<ul id="ul_npx_zvj_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_gtm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_spl_vyv_vhb">
-                    <li id="li_htm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_itm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_jtm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_htm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_itm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_jtm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -507,9 +507,9 @@
                   <!--<ul id="ul_h5g_qwj_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_mtm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_i5g_qwj_fhb">
-                    <li id="li_ntm_cgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_otm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ptm_cgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_ntm_cgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_otm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ptm_cgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -529,9 +529,9 @@
                   <!--<ul id="ul_tmn_plk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_stm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_prm_xyv_vhb">
-                    <li id="li_ttm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_utm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_vtm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ttm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_utm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_vtm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -551,9 +551,9 @@
                   <!--<ul id="ul_y33_fnk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_ytm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_xcy_xyv_vhb">
-                    <li id="li_ztm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_a5m_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_b5m_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ztm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_a5m_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_b5m_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -572,9 +572,9 @@
                   <!--<ul id="ul_mgp_ynk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_e5m_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_knn_yyv_vhb">
-                    <li id="li_f5m_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_g5m_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_h5m_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_f5m_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_g5m_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_h5m_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -664,9 +664,9 @@
                   <!--<ul id="ul_smk_kwk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_z5m_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_nzz_yyv_vhb">
-                    <li id="li_avm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_bvm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_cvm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_avm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_bvm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_cvm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -685,9 +685,9 @@
                   <!--<ul id="ul_evm_wwk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_fvm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_alf_zyv_vhb">
-                    <li id="li_gvm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_hvm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ivm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_gvm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_hvm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ivm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -707,9 +707,9 @@
                   <!--<ul id="ul_o31_3yk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_lvm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_h5m_zyv_vhb">
-                    <li id="li_mvm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_nvm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ovm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_mvm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_nvm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ovm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -729,9 +729,9 @@
                   <!--<ul id="ul_asn_dzk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_rvm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_f1t_zyv_vhb">
-                    <li id="li_svm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_tvm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_uvm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_svm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_tvm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_uvm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -752,9 +752,9 @@
                   <!--<ul id="ul_jjn_31l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_xvm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_jw5_bzv_vhb">
-                    <li id="li_yvm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_zvm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_awm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_yvm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_zvm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_awm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -775,9 +775,9 @@
                   <!--<ul id="ul_xbt_wcl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_dwm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_sl1_czv_vhb">
-                    <li id="li_ewm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_fwm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_gwm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ewm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_fwm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_gwm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -797,9 +797,9 @@
                   <!--<ul id="ul_qz4_jdl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_jwm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_enj_czv_vhb">
-                    <li id="li_kwm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_lwm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_mwm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_kwm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_lwm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_mwm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -840,9 +840,9 @@
                   <!--<ul id="ul_urq_l2l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qwm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_yv3_dzv_vhb">
-                    <li id="li_rwm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_swm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_twm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rwm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_swm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_twm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -860,9 +860,9 @@
                   <!--<ul id="ul_bks_p2l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_wwm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_r34_dzv_vhb">
-                    <li id="li_xwm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_ywm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_zwm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_xwm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_ywm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_zwm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -911,9 +911,9 @@
                   <!--<ul id="ul_uc4_zfl_fhb" audience="eu-rules"><li><p> 11.8.2 (Authoring Tool)</p></li><li><p> 12.1.2 (Product Docs)</p></li><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_ixm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_y1p_2zv_vhb">
-                    <li id="li_jxm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_kxm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_lxm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_jxm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_kxm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_lxm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -933,9 +933,9 @@
                   <!--<ul id="ul_xsk_chl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_oxm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_gw5_2zv_vhb">
-                    <li id="li_pxm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_qxm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_rxm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_pxm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_qxm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_rxm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -960,9 +960,9 @@
                   <!--<ul id="ul_xyy_nhl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_wxm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_ukc_fzv_vhb">
-                    <li id="li_xxm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_yxm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_zxm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_xxm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_yxm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_zxm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1056,9 +1056,9 @@
                   <!--<ul id="ul_ij1_mmq_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_tym_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_jj1_mmq_fhb">
-                    <li id="li_uym_cgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_vym_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_wym_cgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_uym_cgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_vym_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_wym_cgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1083,9 +1083,9 @@
                   <!--<ul id="ul_xrh_3nq_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_bzm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_c11_hzv_vhb">
-                    <li id="li_czm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_dzm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ezm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_czm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_dzm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ezm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1108,9 +1108,9 @@
                   <!--<ul id="ul_u3p_c4q_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_jzm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_wns_hzv_vhb">
-                    <li id="li_kzm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_lzm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_mzm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_kzm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_lzm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_mzm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -1132,9 +1132,9 @@
                   <!--<ul id="ul_x4w_p4q_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_pzm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_apz_hzv_vhb">
-                    <li id="li_qzm_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_rzm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_szm_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_qzm_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_rzm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_szm_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1154,9 +1154,9 @@
                   <!--<ul id="ul_gpl_cbr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_vzm_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_hpl_cbr_fhb">
-                    <li id="li_wzm_cgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_xzm_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_yzm_cgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_wzm_cgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_xzm_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_yzm_cgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1176,9 +1176,9 @@
                   <!--<ul id="ul_vtx_jcr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_b1n_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_wtx_jcr_fhb">
-                    <li id="li_c1n_cgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_d1n_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_e1n_cgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_c1n_cgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_d1n_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_e1n_cgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -1187,9 +1187,9 @@
                     that have the same functionality.</p>
                   <p id="p_g1n_cgk_54b">Text alternatives are provided for many instances of non-text content, with
                     exceptions that include:<ul id="ul_n3s_jmf_l3b">
-                      <li id="li_h1n_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190718T105905+0300" comment="WH-2263"?>Permalinks
+                      <li id="li_h1n_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190718T105905+0300" comment="WH-2263"?>Permalinks
                         for subtopics and sections.<?oxy_comment_end?></li>
-                      <li id="li_i1n_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190718T105921+0300" comment="WH-2264"?>Enlarge
+                      <li id="li_i1n_cgk_54b" irina="irina"><?oxy_comment_start author="steven_higgs" timestamp="20190718T105921+0300" comment="WH-2264"?>Enlarge
                         images action.<?oxy_comment_end?></li>
                     </ul></p>
                   <p id="p_j1n_cgk_54b"><?oxy_comment_start author="steven_higgs" timestamp="20190718T105936+0300" comment="WH-2277"?>The
@@ -1210,9 +1210,9 @@
                   <!--<ul id="ul_vd2_b2r_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_m1n_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_cls_kzv_vhb">
-                    <li id="li_n1n_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_o1n_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_p1n_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_n1n_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_o1n_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_p1n_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Does Not Support</entry>
@@ -1234,9 +1234,9 @@
                   <!--<ul id="ul_tpb_thr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_s1n_cgk_54b"> Revised Section 508</p>
                   <ul id="ul_axy_kzv_vhb">
-                    <li id="li_t1n_cgk_54b">501 (Web)(Software)</li>
-                    <li id="li_u1n_cgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_v1n_cgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_t1n_cgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_u1n_cgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_v1n_cgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1645,10 +1645,10 @@
                 <entry>Partially Supports</entry>
                 <entry>Most of the content is accessible without vision with exceptions that
                     include:<ul id="ul_ajx_knf_l3b">
-                    <li id="li_hdn_cgk_54b">Some components do not have text alternatives or labels.</li>
-                    <li id="li_idn_cgk_54b">Some landmarks are not marked with the corresponding role or do not have an
+                    <li id="li_hdn_cgk_54b" irina="irina">Some components do not have text alternatives or labels.</li>
+                    <li id="li_idn_cgk_54b" irina="irina">Some landmarks are not marked with the corresponding role or do not have an
                       associated label.</li>
-                    <li id="li_jdn_cgk_54b">Some link groups are not structured using lists or are not marked as
+                    <li id="li_jdn_cgk_54b" irina="irina">Some link groups are not structured using lists or are not marked as
                       navigation regions.</li>
                   </ul></entry>
               </row>
@@ -1658,10 +1658,10 @@
                 <entry>
                   <p id="p_kdn_cgk_54b">Most of the content is accessible with limited vision with exceptions that
                       include:<ul id="ul_cgk_pnf_l3b">
-                      <li id="li_ldn_cgk_54b">Some components do not have text alternatives or labels.</li>
-                      <li id="li_mdn_cgk_54b">Some landmarks are not marked with the corresponding role or do not have
+                      <li id="li_ldn_cgk_54b" irina="irina">Some components do not have text alternatives or labels.</li>
+                      <li id="li_mdn_cgk_54b" irina="irina">Some landmarks are not marked with the corresponding role or do not have
                         an associated label.</li>
-                      <li id="li_ndn_cgk_54b">Some link groups are not structured using lists or are not marked as
+                      <li id="li_ndn_cgk_54b" irina="irina">Some link groups are not structured using lists or are not marked as
                         navigation regions.</li>
                     </ul></p>
                 </entry>

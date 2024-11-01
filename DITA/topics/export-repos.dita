@@ -95,13 +95,13 @@
             files that have the value or the <codeph>svn:eol-style</codeph> property set to
               <codeph>native</codeph>. You can choose between the following styles:<ul
               id="ul_a33_t5c_4r">
-              <li id="li_sz3_dgk_54b"><uicontrol>Default</uicontrol> - It uses the system-specific
+              <li id="li_sz3_dgk_54b" irina="irina"><uicontrol>Default</uicontrol> - It uses the system-specific
                   <i>end-of-line</i> marker.</li>
-              <li id="li_tz3_dgk_54b"><uicontrol>CRLF</uicontrol> - The Windows-specific <i>end-of-line</i> marker
+              <li id="li_tz3_dgk_54b" irina="irina"><uicontrol>CRLF</uicontrol> - The Windows-specific <i>end-of-line</i> marker
                   (<i>carriage return - line feed</i>).</li>
-              <li id="li_uz3_dgk_54b"><uicontrol>LF</uicontrol> - The Unix / macOS-specific <i>end-of-line</i>
+              <li id="li_uz3_dgk_54b" irina="irina"><uicontrol>LF</uicontrol> - The Unix / macOS-specific <i>end-of-line</i>
                 marker (<i>line feed</i>).</li>
-              <li id="li_vz3_dgk_54b"><uicontrol>CR</uicontrol> - The macOS 9 (or older)-specific
+              <li id="li_vz3_dgk_54b" irina="irina"><uicontrol>CR</uicontrol> - The macOS 9 (or older)-specific
                   <i>end-of-line</i> marker (<i>carriage return</i>).</li>
             </ul></dd>
         </dlentry>

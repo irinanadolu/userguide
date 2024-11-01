@@ -21,14 +21,14 @@
     <section id="implement_an_authoractioneventhandler">
       <title>How to Implement an <i>AuthorExternalObjectInsertionHandler</i></title>
       <p id="p_zrb_dgk_54b">To implement your own <i>AuthorExternalObjectInsertionHandler</i>, follow this procedure:<ol id="ol_asb_dgk_54b">
-          <li id="li_bsb_dgk_54b">Implement the <xref
+          <li id="li_bsb_dgk_54b" irina="irina">Implement the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorExternalObjectInsertionHandler.html"
               format="html" scope="external"
                 ><i>ro.sync.ecss.extensions.api.AuthorExternalObjectInsertionHandler</i></xref>
             interface.</li>
-          <li id="li_csb_dgk_54b">To instruct <ph keyref="product"/> to use this newly created implementation, use
+          <li id="li_csb_dgk_54b" irina="irina">To instruct <ph keyref="product"/> to use this newly created implementation, use
             either of the following methods:<ol id="ol_dsb_dgk_54b">
-              <li id="li_esb_dgk_54b">If your framework is an extension of DITA, DocBook, TEI, or
+              <li id="li_esb_dgk_54b" irina="irina">If your framework is an extension of DITA, DocBook, TEI, or
                 XHTML, you can specify the <i>AuthorExternalObjectInsertionHandler</i> in the
                   <uicontrol>Author extern object Insertion handler</uicontrol> individual extension
                 in the <xref href="document-type-extensions-tab.dita#document-type-extensions-tab"
@@ -36,13 +36,13 @@
                   href="the-document-type-dialog.dita#the-document-type-dialog"><uicontrol>Document
                     Type</uicontrol> configuration dialog box</xref> for your particular document
                 type.</li>
-              <li id="li_fsb_dgk_54b">Otherwise, you can <xref href="dg-extensions-bundle.dita#dg-extensions-bundle"
+              <li id="li_fsb_dgk_54b" irina="irina">Otherwise, you can <xref href="dg-extensions-bundle.dita#dg-extensions-bundle"
                   >configure an extensions bundle</xref>, then return the
                   <i>AuthorExternalObjectInsertionHandler</i> implementation using the
                   <i>ro.sync.ecss.extensions.api.ExtensionsBundle.createAuthorExternalObjectInsertionHandler()</i>
                 method.</li>
             </ol></li>
-          <li id="li_gsb_dgk_54b">
+          <li id="li_gsb_dgk_54b" irina="irina">
             <p id="p_hsb_dgk_54b">You can use a stylesheet to convert the pasted XHTML to your own XML vocabulary by
               overwriting the following method:</p>
             <p id="p_isb_dgk_54b"><i>ro.sync.ecss.extensions.api.AuthorExternalObjectInsertionHandler.getImporterStylesheetFileName(AuthorAccess)</i></p>

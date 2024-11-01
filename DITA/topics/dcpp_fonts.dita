@@ -16,19 +16,19 @@
       should take into consideration both design and the targeted ranges of characters.<note
         id="note_lbz_xlx_l5b" type="other" othertype="Notes">
         <ul id="ul_sc1_x14_myb">
-          <li>Before using a font, make sure you have the permissions to use it and make sure you
+          <li irina="irina">Before using a font, make sure you have the permissions to use it and make sure you
             comply with all the license terms.</li>
-          <li>When installing a font on Windows, make sure you select the <uicontrol>Install for all
+          <li irina="irina">When installing a font on Windows, make sure you select the <uicontrol>Install for all
               users</uicontrol> option.</li>
         </ul>
       </note></p>
     <p id="p_tnt_cgk_54b">To use them in the <xref href="dcpp_the_customization_css.dita">customization CSS</xref>:</p>
     <p id="p_unt_cgk_54b"><ul id="ul_v5s_pcq_fdb">
-        <li id="li_vnt_cgk_54b">You can place the font files in the same folder as your CSS and use a @font-face
+        <li id="li_vnt_cgk_54b" irina="irina">You can place the font files in the same folder as your CSS and use a @font-face
           definition to reference them.</li>
-        <li id="li_wnt_cgk_54b">You can use web fonts (for example, Google Fonts), and import the CSS snippet into your
+        <li id="li_wnt_cgk_54b" irina="irina">You can use web fonts (for example, Google Fonts), and import the CSS snippet into your
           CSS.</li>
-        <li id="li_xnt_cgk_54b">You can use system fonts.</li>
+        <li id="li_xnt_cgk_54b" irina="irina">You can use system fonts.</li>
       </ul>All these techniques are explained in: <xref
         href="https://www.oxygenxml.com/doc/ug-chemistry/topics/ch_fonts.html" format="html"
         scope="external"><b>Oxygen PDF Chemistry User Manual: Fonts</b></xref>.</p>

@@ -132,19 +132,19 @@
         <dlentry id="dlentry_kjj_dgk_54b">
           <dt><uicontrol>Compare with</uicontrol>:</dt>
           <dd><ul id="ul_ljj_dgk_54b">
-              <li id="li_mjj_dgk_54b"><uicontrol>Latest from HEAD <shortcut>(Ctrl + Alt + H (Command
+              <li id="li_mjj_dgk_54b" irina="irina"><uicontrol>Latest from HEAD <shortcut>(Ctrl + Alt + H (Command
                     + Option + H on macOS))</shortcut></uicontrol> - Performs a 3-way diff operation
                 between the selected file and the <i>HEAD</i> revision from the repository and
                 displays the result in the <uicontrol>Compare view</uicontrol>. The common ancestor
                 of the 3-way diff operation is the <i>BASE</i> version of the file from the local
                 working copy.</li>
-              <li id="li_njj_dgk_54b"><uicontrol>BASE revision <shortcut>(Ctrl + Alt + C (Command +
+              <li id="li_njj_dgk_54b" irina="irina"><uicontrol>BASE revision <shortcut>(Ctrl + Alt + C (Command +
                     Option + C on macOS))</shortcut></uicontrol> - Compares the working copy file
                 with the BASE revision file (the so-called <i>pristine copy</i>).</li>
-              <li id="li_ojj_dgk_54b"><uicontrol>Revision <shortcut>(Ctrl + Alt + R (Command +
+              <li id="li_ojj_dgk_54b" irina="irina"><uicontrol>Revision <shortcut>(Ctrl + Alt + R (Command +
                     Option + R on macOS))</shortcut></uicontrol> - Displays the <uicontrol>History
                   view</uicontrol> that contains the log history of that resource.</li>
-              <li id="li_pjj_dgk_54b"><uicontrol>Branch/Tag</uicontrol> - Opens the <uicontrol>Compare with
+              <li id="li_pjj_dgk_54b" irina="irina"><uicontrol>Branch/Tag</uicontrol> - Opens the <uicontrol>Compare with
                   Branch/Tag</uicontrol> dialog box that allows you to specify <xref
                   href="entering-local-paths-urls.dita#entering-local-paths-urls/url-section"
                   >another file from the repository</xref> (<uicontrol>To URL</uicontrol> field) to
@@ -156,7 +156,7 @@
                     href="../topics/using-peg-revisions.dita#using-peg-revisions"><term>peg</term>
                     revision</xref> at the end (for example,
                 <codeph>URL@rev1234</codeph>).</note></li>
-              <li id="li_rjj_dgk_54b"><uicontrol>Each other</uicontrol> - Compares two selected files with each
+              <li id="li_rjj_dgk_54b" irina="irina"><uicontrol>Each other</uicontrol> - Compares two selected files with each
                 other.</li>
             </ul> These <i>compare</i> actions are available only if the selected resource is a
             file. </dd>
@@ -165,26 +165,26 @@
           <dt><uicontrol>Replace with</uicontrol>:</dt>
           <dd>
             <ul id="ul_tjj_dgk_54b">
-              <li id="li_ujj_dgk_54b"><uicontrol>Latest from HEAD</uicontrol> - Replaces the selected resources with
+              <li id="li_ujj_dgk_54b" irina="irina"><uicontrol>Latest from HEAD</uicontrol> - Replaces the selected resources with
                 their versions from the <i>HEAD</i> revision of the repository.</li>
-              <li id="li_vjj_dgk_54b"><uicontrol>BASE revision</uicontrol> - Replace the selected resources with their
+              <li id="li_vjj_dgk_54b" irina="irina"><uicontrol>BASE revision</uicontrol> - Replace the selected resources with their
                 versions from the pristine copy (the BASE revision).</li>
             </ul>
             <note id="note_wjj_dgk_54b">In some cases it is impossible to replace the currently selected resources with
               their versions from the <i>BASE/HEAD</i> revision:<ul id="ul_xjj_dgk_54b">
-                <li id="li_yjj_dgk_54b">For the <uicontrol>Replace with BASE revision</uicontrol> action, the resources
+                <li id="li_yjj_dgk_54b" irina="irina">For the <uicontrol>Replace with BASE revision</uicontrol> action, the resources
                   being unversioned or added have no <i>BASE</i> revision, and thus cannot be
                   replaced. However, they will be deleted if the action is invoked on a parent
                   folder. The action will never work for missing folders or for obstructing files
                   (folders being obstructed by a file), since you cannot recover a tree of
                   folders.</li>
-                <li id="li_zjj_dgk_54b">For the <uicontrol>Replace with latest from HEAD</uicontrol> action, you must be
+                <li id="li_zjj_dgk_54b" irina="irina">For the <uicontrol>Replace with latest from HEAD</uicontrol> action, you must be
                   aware that there are cases when resources will be completely deleted or reverted
                   to the BASE revision and then updated to a HEAD revision to avoid conflicts. These
                   cases are:<ul id="ul_akj_dgk_54b">
-                    <li id="li_bkj_dgk_54b">The resource is <i>unversioned</i>, <i>added</i>, <i>obstructed</i>, or
+                    <li id="li_bkj_dgk_54b" irina="irina">The resource is <i>unversioned</i>, <i>added</i>, <i>obstructed</i>, or
                         <i>modified</i>.</li>
-                    <li id="li_ckj_dgk_54b">The resource is affected by a <codeph>svn:ignore</codeph> or
+                    <li id="li_ckj_dgk_54b" irina="irina">The resource is affected by a <codeph>svn:ignore</codeph> or
                         <codeph>svn:externals</codeph> property that is locally added on the parent
                       folder and not yet committed to the repository.</li>
                   </ul></li>
@@ -274,14 +274,14 @@
           <dd>
             <p id="p_kkj_dgk_54b">
               <ul id="ul_lkj_dgk_54b">
-                <li id="li_mkj_dgk_54b"><uicontrol><image href="../img/SVNNewFile16.png" placement="inline"/>New
+                <li id="li_mkj_dgk_54b" irina="irina"><uicontrol><image href="../img/SVNNewFile16.png" placement="inline"/>New
                     File</uicontrol> - Creates a new file inside the selected folder. The newly
                   created file will be added under version control only if the parent folder is
                   already versioned.</li>
-                <li id="li_nkj_dgk_54b"><uicontrol>New Folder <shortcut>(Ctrl + Shift + F (Command + Shift + F on macOS))</shortcut></uicontrol> - Creates a child folder inside the selected
+                <li id="li_nkj_dgk_54b" irina="irina"><uicontrol>New Folder <shortcut>(Ctrl + Shift + F (Command + Shift + F on macOS))</shortcut></uicontrol> - Creates a child folder inside the selected
                   folder. The newly created folder will be added under version control only if its
                   parent is already versioned.</li>
-                <li id="li_okj_dgk_54b">
+                <li id="li_okj_dgk_54b" irina="irina">
                   <p id="p_pkj_dgk_54b"><uicontrol>New External Folder <shortcut>(Ctrl + Shift + W (Command + Shift + W
                         on macOS))</shortcut></uicontrol> - This operation allows you to add a new
                     external definition on the selected folder. An external definition is a mapping
@@ -297,22 +297,22 @@
                   <p id="p_rkj_dgk_54b">The URL used in the external definition format can be relative. You can specify
                     the repository URL that the external folder points to by using one of the
                     following relative formats: <ul id="ul_bfw_5xv_g4">
-                      <li id="li_skj_dgk_54b"><b>../</b> - Relative to the URL of the directory that the
+                      <li id="li_skj_dgk_54b" irina="irina"><b>../</b> - Relative to the URL of the directory that the
                           <codeph>svn:externals</codeph> property is set.</li>
-                      <li id="li_tkj_dgk_54b"><b>^/</b> - Relative to the root of the repository where the
+                      <li id="li_tkj_dgk_54b" irina="irina"><b>^/</b> - Relative to the root of the repository where the
                           <codeph>svn:externals</codeph> property is versioned.</li>
-                      <li id="li_ukj_dgk_54b"><b>//</b> - Relative to the scheme of the URL of the directory that the
+                      <li id="li_ukj_dgk_54b" irina="irina"><b>//</b> - Relative to the scheme of the URL of the directory that the
                           <codeph>svn:externals</codeph> property is set.</li>
-                      <li id="li_vkj_dgk_54b"><b>/</b> - Relative to the root URL of the server that has the
+                      <li id="li_vkj_dgk_54b" irina="irina"><b>/</b> - Relative to the root URL of the server that has the
                           <codeph>svn:externals</codeph> property versioned. </li>
                     </ul></p>
                   <p id="p_wkj_dgk_54b">
                     <note type="important" id="note_xkj_dgk_54b">To change the target URL of an external definition, or to
                       delete an external item, do the following:<ol id="ol_nk2_klr_qq">
-                        <li id="li_ykj_dgk_54b">Modify or delete the item definition found in the
+                        <li id="li_ykj_dgk_54b" irina="irina">Modify or delete the item definition found in the
                             <codeph>svn:externals</codeph> property that is set on the parent
                           folder.</li>
-                        <li id="li_zkj_dgk_54b">For the change to take effect, use the <uicontrol>Update</uicontrol>
+                        <li id="li_zkj_dgk_54b" irina="irina">For the change to take effect, use the <uicontrol>Update</uicontrol>
                           operation on the parent folder of the external item.</li>
                       </ol></note>
                     <note type="note" id="note_alj_dgk_54b">Syncro SVN Client does not support definitions of local
@@ -362,19 +362,19 @@
           <dd>
             <p id="p_blj_dgk_54b">
               <ul id="ul_clj_dgk_54b">
-                <li id="li_dlj_dgk_54b"><uicontrol>Scan for locks <shortcut>(Ctrl + L (Command + L on macOS))</shortcut></uicontrol> - Contacts the repository and recursively obtains the
+                <li id="li_dlj_dgk_54b" irina="irina"><uicontrol>Scan for locks <shortcut>(Ctrl + L (Command + L on macOS))</shortcut></uicontrol> - Contacts the repository and recursively obtains the
                   list of locks for the selected resources. A dialog box containing the locked files
                   and the lock description will be displayed. This is only active for resources
                   under <i>version control</i>. For more details see <xref href="scan-locks.dita"
                     >Scanning for locks</xref>.</li>
-                <li id="li_elj_dgk_54b"><uicontrol><image href="../img/Lock16.png" placement="inline"/>Lock
+                <li id="li_elj_dgk_54b" irina="irina"><uicontrol><image href="../img/Lock16.png" placement="inline"/>Lock
                       <shortcut>(Ctrl + K (Command + K on macOS))</shortcut></uicontrol> - Allows you
                   to lock certain files that need exclusive access. You can write a comment
                   describing the reason for the lock and you can also force (<i>steal</i>) the lock.
                   This action is active only on files under <i>version control</i>. For more details
                   on the use of this action see <xref href="lock-file.dita"> Locking a
                   file</xref>.</li>
-                <li id="li_flj_dgk_54b"><uicontrol><image href="../img/Unlock16.png"
+                <li id="li_flj_dgk_54b" irina="irina"><uicontrol><image href="../img/Unlock16.png"
                       placement="inline"/>Unlock <shortcut>(Ctrl + Alt + K (Command + Option + K on
                       macOS))</shortcut></uicontrol> - Releases the exclusive access to a file from
                   the repository. You can also choose to unlock it by force (<i>break the lock</i>). </li>

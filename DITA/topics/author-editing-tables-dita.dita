@@ -5,13 +5,13 @@
   <title>DITA Table Layouts</title>
   <body>
     <p id="p_gcy_bgk_54b">Depending on the context, DITA accepts the following table layouts:<ul id="ul_hcy_bgk_54b">
-        <li id="li_icy_bgk_54b"><xref href="#author-editing-tables-dita/cals-table-layout-dita" format="dita"
+        <li id="li_icy_bgk_54b" irina="irina"><xref href="#author-editing-tables-dita/cals-table-layout-dita" format="dita"
               ><term>CALS</term> table model</xref></li>
-        <li id="li_jcy_bgk_54b"><xref href="#author-editing-tables-dita/simple-table-layout-dita" format="dita"
+        <li id="li_jcy_bgk_54b" irina="irina"><xref href="#author-editing-tables-dita/simple-table-layout-dita" format="dita"
               ><term>Simple</term> table model</xref></li>
-        <li id="li_kcy_bgk_54b"><xref href="#author-editing-tables-dita/choice-table-layout-dita" format="dita"
+        <li id="li_kcy_bgk_54b" irina="irina"><xref href="#author-editing-tables-dita/choice-table-layout-dita" format="dita"
               ><term>Choice</term> table model</xref></li>
-        <li id="li_lcy_bgk_54b"><xref href="#author-editing-tables-dita/properties_table_model_layout" format="dita"
+        <li id="li_lcy_bgk_54b" irina="irina"><xref href="#author-editing-tables-dita/properties_table_model_layout" format="dita"
               ><term>Properties</term> table model</xref></li>
       </ul></p>
     <section id="cals-table-layout-dita">
@@ -99,18 +99,18 @@
             <dt>CALS Tables</dt>
             <dd>
               <ul id="ul_cdy_bgk_54b">
-                <li id="li_ddy_bgk_54b">A row has fewer cells than the number of columns detected from the table
+                <li id="li_ddy_bgk_54b" irina="irina">A row has fewer cells than the number of columns detected from the table
                     <xmlatt>cols</xmlatt> attribute.</li>
-                <li id="li_edy_bgk_54b">A row has more cells than the number of columns detected from the table
+                <li id="li_edy_bgk_54b" irina="irina">A row has more cells than the number of columns detected from the table
                     <xmlatt>cols</xmlatt> attribute.</li>
-                <li id="li_fdy_bgk_54b">A cell has a vertical span greater than the available rows count.</li>
-                <li id="li_gdy_bgk_54b">The number of <xmlelement>colspecs</xmlelement> is different than the number of columns
+                <li id="li_fdy_bgk_54b" irina="irina">A cell has a vertical span greater than the available rows count.</li>
+                <li id="li_gdy_bgk_54b" irina="irina">The number of <xmlelement>colspecs</xmlelement> is different than the number of columns
                   detected from the table <xmlatt>cols</xmlatt> attribute.</li>
-                <li id="li_hdy_bgk_54b">The number of columns detected from the table <xmlatt>cols</xmlatt> attribute is
+                <li id="li_hdy_bgk_54b" irina="irina">The number of columns detected from the table <xmlatt>cols</xmlatt> attribute is
                   different than the number of columns detected in the table structure.</li>
-                <li id="li_idy_bgk_54b">The value of the <xmlatt>cols</xmlatt>, <xmlatt>rowsep</xmlatt>, or
+                <li id="li_idy_bgk_54b" irina="irina">The value of the <xmlatt>cols</xmlatt>, <xmlatt>rowsep</xmlatt>, or
                     <xmlatt>colsep</xmlatt> attributes are not numeric.</li>
-                <li id="li_jdy_bgk_54b">The <xmlatt>namest</xmlatt>, <xmlatt>nameend</xmlatt>, or
+                <li id="li_jdy_bgk_54b" irina="irina">The <xmlatt>namest</xmlatt>, <xmlatt>nameend</xmlatt>, or
                     <xmlatt>colname</xmlatt> attributes point to an incorrect column name.</li>
               </ul>
             </dd>

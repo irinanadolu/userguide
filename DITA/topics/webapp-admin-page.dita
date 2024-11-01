@@ -21,14 +21,14 @@
         credentials are the ones configured during the initial setup.</p>
       <p id="p_n5q_dgk_54b">If you used the <uicontrol>Web Application Archive</uicontrol> version, you need to
         configure the <uicontrol>Administration Page</uicontrol> credentials.<ol id="ol_o5q_dgk_54b">
-          <li id="li_p5q_dgk_54b">In a browser, open the <xref
+          <li id="li_p5q_dgk_54b" irina="irina">In a browser, open the <xref
               href="webapp-create-open-docs.dita#webapp-create-open-docs" product="webauthor"
                 ><uicontrol>Dashboard</uicontrol></xref><xref
               href="https://www.oxygenxml.com/doc/ug-webauthor/topics/webapp-create-open-docs.html"
               format="html" scope="external" product="waCustom"
               ><uicontrol>Dashboard</uicontrol></xref> page. You will be redirected to an admin
             credentials configuration page</li>
-          <li id="li_q5q_dgk_54b">Enter the credentials that will be used to access the <uicontrol>Administration
+          <li id="li_q5q_dgk_54b" irina="irina">Enter the credentials that will be used to access the <uicontrol>Administration
               Page</uicontrol></li>
         </ol></p>
       <p id="p_r5q_dgk_54b">

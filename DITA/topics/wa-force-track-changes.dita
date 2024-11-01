@@ -19,13 +19,13 @@
           <xref href="webapp-admin-page.dita#webapp-admin-page/dlentry_evq_dgk_54b"><uicontrol
             id="change-track-initial-state">Change tracking initial state</uicontrol>
         option</xref>). You can choose between:<ul id="ul_rf3_bjl_mqb">
-          <li id="li_sf3_bjl_mqb"><b>Stored in document</b> - When a document is initially opened in
+          <li id="li_sf3_bjl_mqb" irina="irina"><b>Stored in document</b> - When a document is initially opened in
             Web author, the change tracking state is set to <b>on</b> if the following processing
             instruction is found at the end of the document: <codeph>&lt;?oxy_options
               track_changes="on"?></codeph>.</li>
-          <li id="li_udx_hjl_mqb"><b>Always On</b> - The change tracking state is set to <b>on</b>
+          <li id="li_udx_hjl_mqb" irina="irina"><b>Always On</b> - The change tracking state is set to <b>on</b>
             when a document is opened in Web Author.</li>
-          <li id="li_qkt_kjl_mqb"><b>Always Off</b> - The change tracking state is set to <b>off</b>
+          <li id="li_qkt_kjl_mqb" irina="irina"><b>Always Off</b> - The change tracking state is set to <b>off</b>
             when a document is opened in Web Author.</li>
         </ul></p>
     </section>
@@ -34,12 +34,12 @@
       <p id="p_st5_1kl_mqb">You can also use a <b>trackChanges</b> flag to control whether or not
         the <term>Change Tracking</term> feature is enabled when a documented is opened in <ph
           keyref="webappProduct"/>. The flag can be set in two possible ways:<ul id="ul_yds_frk_mqb">
-          <li id="li_tt5_1kl_mqb">In an <xref
+          <li id="li_tt5_1kl_mqb" irina="irina">In an <xref
               href="webauthor-integrate-embedded-launch.dita#webauthor-integrate-embedded-launch"
               >embedded link that launches Web Author</xref> so that when a user clicks the
             constructed link, the documented is opened in Web Author with the <term>Change
               Tracking</term> feature enabled.</li>
-          <li id="li_ut5_1kl_mqb">In a <xref href="customizing_plugins.dita#customizing_plugins"
+          <li id="li_ut5_1kl_mqb" irina="irina">In a <xref href="customizing_plugins.dita#customizing_plugins"
               >plugin</xref>. You can set this flag in your plugin's JavaScript code as a <xref
               href="web_author_api_concepts.dita#web_author_api_concepts/loading-option">loading
               option</xref> like

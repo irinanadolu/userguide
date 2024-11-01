@@ -29,11 +29,11 @@
       <p>Here are some common table use-cases and the CSS selectors for customizing table rows,
         columns, and cells. These example uses the <codeph>background-color</codeph> CSS property
         but any CSS property can be used (border, margin, padding, etc.).<ul id="ul_pfn_d1t_hvb">
-          <li>Select all non-header
+          <li irina="irina">Select all non-header
             cells:<codeblock id="codeblock_t1j_tys_hvb" outputclass="language-css">*[class ~= "topic/tbody"] *[class ~= "topic/entry"] {
   background-color: lightgray;
 }</codeblock></li>
-          <li>Select some table rows (using <codeph>:nth-of-type()</codeph>
+          <li irina="irina">Select some table rows (using <codeph>:nth-of-type()</codeph>
             pseudo-class):<codeblock id="codeblock_cyr_1zs_hvb" outputclass="language-css">/* Select all even rows. */
 *[class ~= "topic/tbody"] *[class ~= "topic/row"]:nth-of-type(even) {
   background-color: lightgray;
@@ -42,7 +42,7 @@
 *[class ~= "topic/tbody"] *[class ~= "topic/row"]:nth-of-type(4) {
   background-color: yellow;
 }</codeblock></li>
-          <li>Select specific table columns (using <codeph>:nth-of-type()</codeph>
+          <li irina="irina">Select specific table columns (using <codeph>:nth-of-type()</codeph>
             pseudo-class):<codeblock outputclass="language-css" id="codeblock_ryw_3zs_hvb">/* Select all odd columns. */
 *[class ~= "topic/tbody"] *[class ~= "topic/entry"]:nth-of-type(odd) {
   background-color: lightgray;

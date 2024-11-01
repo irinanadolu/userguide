@@ -21,21 +21,21 @@
       <title>Selecting XML Markup in Author Mode</title>
       <p id="p_mxw_bgk_54b">Selecting XML tags in <ph keyref="product"/> is very simple with several methods for
         selecting entire elements:<ul id="ul_nxw_bgk_54b">
-          <li id="li_oxw_bgk_54b"><b>Breadcrumb</b> - Click the element (XML tag) on the <xref
+          <li id="li_oxw_bgk_54b" irina="irina"><b>Breadcrumb</b> - Click the element (XML tag) on the <xref
               href="#author-editing-markup/using_the_breadcrumb_in_author_mode" format="dita"
               >breadcrumb</xref> displayed at the top of the editing window.</li>
-          <li id="li_pxw_bgk_54b"><b>Outline View</b> - Click the element name in the <xref
+          <li id="li_pxw_bgk_54b" irina="irina"><b>Outline View</b> - Click the element name in the <xref
               href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol>
               view</xref>.</li>
-          <li id="li_qxw_bgk_54b"><b>Full Tags Mode</b> - While editing in <xref
+          <li id="li_qxw_bgk_54b" irina="irina"><b>Full Tags Mode</b> - While editing in <xref
               href="author-display-markup.dita#author-display-markup"><uicontrol>Full
                 Tags</uicontrol> mode</xref>, click the start or end tag of the element in the
             editor.</li>
-          <li id="li_rxw_bgk_54b"><b>Mouse Selection</b> - While editing in <xref
+          <li id="li_rxw_bgk_54b" irina="irina"><b>Mouse Selection</b> - While editing in <xref
               href="author-display-markup.dita#author-display-markup"><uicontrol>Full
                 Tags</uicontrol> mode</xref>, click before the start tag of the element, drag the
             selection, and release the mouse button after the end tag.</li>
-          <li id="li_sxw_bgk_54b"><b>Shift + Arrow Keys</b> - While editing in <xref
+          <li id="li_sxw_bgk_54b" irina="irina"><b>Shift + Arrow Keys</b> - While editing in <xref
               href="author-display-markup.dita#author-display-markup"><uicontrol>Full
                 Tags</uicontrol> mode</xref>, place the cursor before the start tag of the element,
             press and hold <uicontrol><shortcut>Shift</shortcut></uicontrol>, and use the arrow keys
@@ -217,13 +217,13 @@
       <note type="tip" id="note_dzw_bgk_54b">Specifically, the <uicontrol><shortcut>Delete</shortcut></uicontrol> or
             <uicontrol><shortcut>Backspace</shortcut></uicontrol> keys can be used to join
           <term>block elements</term> in the following situations:<ul id="ul_ezw_bgk_54b">
-          <li id="li_fzw_bgk_54b">The cursor is located before the end position of the first element and
+          <li id="li_fzw_bgk_54b" irina="irina">The cursor is located before the end position of the first element and
                 <uicontrol><shortcut>Delete</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_gzw_bgk_54b">The cursor is located after the end position of the first element and
+          <li id="li_gzw_bgk_54b" irina="irina">The cursor is located after the end position of the first element and
                 <uicontrol><shortcut>Backspace</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_hzw_bgk_54b">The cursor is located before the start position of the second element and
+          <li id="li_hzw_bgk_54b" irina="irina">The cursor is located before the start position of the second element and
                 <uicontrol><shortcut>Delete</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_izw_bgk_54b">The cursor is located after the start position of the second element and
+          <li id="li_izw_bgk_54b" irina="irina">The cursor is located after the start position of the second element and
                 <uicontrol><shortcut>Backspace</shortcut></uicontrol> key is pressed.</li>
         </ul>If the element has no sibling or the sibling element has a different name, an
           <uicontrol>Unwrap</uicontrol> operation will be performed.</note>
@@ -293,13 +293,13 @@
       <note type="tip" id="note_zzw_bgk_54b">Specifically, the <uicontrol><shortcut>Delete</shortcut></uicontrol> or
             <uicontrol><shortcut>Backspace</shortcut></uicontrol> keys can be used to unwrap the
         content of an element in the following situations:<ul id="ul_a1x_bgk_54b">
-          <li id="li_b1x_bgk_54b">The cursor is located before the start position of the element and
+          <li id="li_b1x_bgk_54b" irina="irina">The cursor is located before the start position of the element and
                 <uicontrol><shortcut>Delete</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_c1x_bgk_54b">The cursor is located after the start position of the element and
+          <li id="li_c1x_bgk_54b" irina="irina">The cursor is located after the start position of the element and
                 <uicontrol><shortcut>Backspace</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_d1x_bgk_54b">The cursor is located before the end position of the element and
+          <li id="li_d1x_bgk_54b" irina="irina">The cursor is located before the end position of the element and
                 <uicontrol><shortcut>Delete</shortcut></uicontrol> key is pressed.</li>
-          <li id="li_e1x_bgk_54b">The cursor is located after the end position of the element and
+          <li id="li_e1x_bgk_54b" irina="irina">The cursor is located after the end position of the element and
                 <uicontrol><shortcut>Backspace</shortcut></uicontrol> key is pressed.</li>
         </ul>If the element has no sibling or the sibling element has a different name, an
           <uicontrol>Unwrap</uicontrol> operation will be performed.</note>

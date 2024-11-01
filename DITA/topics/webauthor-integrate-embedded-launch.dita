@@ -48,18 +48,18 @@
       <p id="p_iyr_dgk_54b"><b>Oxygen XML Editor/Author</b> comes bundled with a built-in DITA-OT plugin that can be
         used to embed an <i>Edit</i> link in the WebHelp and PDF output for each topic.</p>
       <p id="p_jyr_dgk_54b">To embed an <i>Edit</i> link for each topic in DITA WebHelp or PDF output, follow this procedure:<ol id="ol_kyr_dgk_54b">
-          <li id="li_lyr_dgk_54b">In <b>Oxygen XML Editor/Author</b>, edit a DITA Map WebHelp Responsive or DITA Map PDF
+          <li id="li_lyr_dgk_54b" irina="irina">In <b>Oxygen XML Editor/Author</b>, edit a DITA Map WebHelp Responsive or DITA Map PDF
             transformation scenario and open the <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_myr_dgk_54b">Set values for the following parameters:<ul id="ul_nyr_dgk_54b">
-              <li id="li_oyr_dgk_54b"><b>editlink.ditamap.edit.url</b> - The custom <xref href="oxy-url.dita#oxy-url"
+          <li id="li_myr_dgk_54b" irina="irina">Set values for the following parameters:<ul id="ul_nyr_dgk_54b">
+              <li id="li_oyr_dgk_54b" irina="irina"><b>editlink.ditamap.edit.url</b> - The custom <xref href="oxy-url.dita#oxy-url"
                     ><term>OXY-URL</term></xref> of the DITA map used to publish your content. The
                 easiest way to obtain the URL is to open the map in Web Author and copy the URL from
                 the browser's address bar.</li>
-              <li id="li_pyr_dgk_54b"><b>editlink.additional.query.parameters</b> - Optional query parameters to be
+              <li id="li_pyr_dgk_54b" irina="irina"><b>editlink.additional.query.parameters</b> - Optional query parameters to be
                 appended to each generated edit link. Each parameter must start with <i>&amp;</i>
                 (for example: <i>&amp;tags-mode=no-tags</i>). </li>
             </ul></li>
-          <li id="li_qyr_dgk_54b">Run the transformation scenario.</li>
+          <li id="li_qyr_dgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
       <p id="p_ryr_dgk_54b"><b>Result:</b> In the WebHelp or PDF output, all topics will have an
           <uicontrol>Edit</uicontrol> link to the right side of the title and clicking the link will
@@ -105,27 +105,27 @@
       <p id="p_vyr_dgk_54b">To embed an <i>Edit</i> link for each topic in DITA PDF5 output (obtained using the <xref
           href="https://github.com/AntennaHouse/pdf5-ml" format="html" scope="external">PDF5-ML
           plugin</xref>), follow this procedure:<ol id="ol_jgl_lbq_f2b">
-          <li id="li_wyr_dgk_54b">Add the following import <codeph>xsl:include
+          <li id="li_wyr_dgk_54b" irina="irina">Add the following import <codeph>xsl:include
               href="../../com.oxygenxml.editlink/pdf5.xsl"/></codeph> in the
               <filepath>com.antennahouse.pdf5.ml/customization/dita2fo_custom.xsl</filepath> file of
             the PDF5 plugin.</li>
-          <li id="li_xyr_dgk_54b">In the <filepath>com.oxygenxml.editlink/plugin.xml</filepath> file, uncomment the
+          <li id="li_xyr_dgk_54b" irina="irina">In the <filepath>com.oxygenxml.editlink/plugin.xml</filepath> file, uncomment the
             lines that configure the parameters for the PDF5
             plugin:<codeblock outputclass="language-xml" id="codeblock_yyr_dgk_54b">&lt;feature extension="com.antennahouse.pdf5.ml.param" value="params.xml" type="file"/>
 &lt;feature extension="com.antennahouse.pdf5.ml.saxon.param" value="params.xml" type="file"/>
 &lt;feature extension="com.antennahouse.pdf5.ml.psmi.param" value="params.xml" type="file"/></codeblock></li>
-          <li id="li_zyr_dgk_54b">In <b>Oxygen XML Editor/Author</b>, edit a DITA Map PDF5 transformation scenario and
+          <li id="li_zyr_dgk_54b" irina="irina">In <b>Oxygen XML Editor/Author</b>, edit a DITA Map PDF5 transformation scenario and
             open the <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_azr_dgk_54b">Set values for the following parameters:<ul id="ul_a45_mvh_flb">
-              <li id="li_bzr_dgk_54b"><b>editlink.ditamap.edit.url</b> - The custom <xref href="oxy-url.dita#oxy-url"
+          <li id="li_azr_dgk_54b" irina="irina">Set values for the following parameters:<ul id="ul_a45_mvh_flb">
+              <li id="li_bzr_dgk_54b" irina="irina"><b>editlink.ditamap.edit.url</b> - The custom <xref href="oxy-url.dita#oxy-url"
                     ><term>OXY-URL</term></xref> of the DITA map used to publish your content. The
                 easiest way to obtain the URL is to open the map in Web Author and copy the URL from
                 the browser's address bar.</li>
-              <li id="li_czr_dgk_54b"><b>editlink.additional.query.parameters</b> - Optional query parameters to be
+              <li id="li_czr_dgk_54b" irina="irina"><b>editlink.additional.query.parameters</b> - Optional query parameters to be
                 appended to each generated edit link. Each parameter must start with <i>&amp;</i>
                 (for example: <i>&amp;tags-mode=no-tags</i>). </li>
             </ul></li>
-          <li id="li_dzr_dgk_54b">Run the transformation.</li>
+          <li id="li_dzr_dgk_54b" irina="irina">Run the transformation.</li>
         </ol></p>
       <p id="p_ezr_dgk_54b"><b>Result:</b> In the PDF output, all topics will have an <uicontrol>Edit</uicontrol> link
         to the right side of the title and clicking the link will launch that particular document in
@@ -136,11 +136,11 @@
       <p id="p_orm_dgk_54b">For more information about how Web Author can be integrated within
         various stages of a documentation review workflow, see the following resources:<ul
           id="ul_kdg_v5v_tvb">
-          <li id="li_ldg_v5v_tvb">Video: <xref
+          <li id="li_ldg_v5v_tvb" irina="irina">Video: <xref
               href="https://www.oxygenxml.com/demo/wa_web_author_into_your_documentation_review_workflow.html"
               format="html" scope="external"><b>Integrating Oxygen XML Web Author Into Your
                 Documentation Review Workflow</b></xref></li>
-          <li id="li_b1q_x5v_tvb">Video: <xref
+          <li id="li_b1q_x5v_tvb" irina="irina">Video: <xref
               href="https://www.oxygenxml.com/demo/using_oxygen_xml_web_author_diff_functionality.html"
               format="html" scope="external"><b>Using Oxygen XML Web Author's Diff
               Functionality</b></xref></li>

@@ -13,13 +13,13 @@
         <uicontrol>Table Filters</uicontrol>
       </menucascade>.</p>
     <p id="p_zvq_bgk_54b">You can choose to display the following types of tables:<ul id="ul_awq_bgk_54b">
-        <li id="li_bwq_bgk_54b"><uicontrol>Alias</uicontrol></li>
-        <li id="li_cwq_bgk_54b"><uicontrol>Global Temporary</uicontrol></li>
-        <li id="li_dwq_bgk_54b"><uicontrol>Local Temporary</uicontrol></li>
-        <li id="li_ewq_bgk_54b"><uicontrol>Synonym</uicontrol></li>
-        <li id="li_fwq_bgk_54b"><uicontrol>System Table</uicontrol></li>
-        <li id="li_gwq_bgk_54b"><uicontrol>Table</uicontrol></li>
-        <li id="li_hwq_bgk_54b"><uicontrol>View</uicontrol></li>
+        <li id="li_bwq_bgk_54b" irina="irina"><uicontrol>Alias</uicontrol></li>
+        <li id="li_cwq_bgk_54b" irina="irina"><uicontrol>Global Temporary</uicontrol></li>
+        <li id="li_dwq_bgk_54b" irina="irina"><uicontrol>Local Temporary</uicontrol></li>
+        <li id="li_ewq_bgk_54b" irina="irina"><uicontrol>Synonym</uicontrol></li>
+        <li id="li_fwq_bgk_54b" irina="irina"><uicontrol>System Table</uicontrol></li>
+        <li id="li_gwq_bgk_54b" irina="irina"><uicontrol>Table</uicontrol></li>
+        <li id="li_hwq_bgk_54b" irina="irina"><uicontrol>View</uicontrol></li>
       </ul></p>
   </body>
 </topic>

@@ -21,19 +21,19 @@
     </p>
     <p id="p_qtr_bgk_54b">The actions available in this panel are as follows:</p>
     <ul id="ul_rtr_bgk_54b">
-      <li id="li_str_bgk_54b"><uicontrol>Import Global Transformation Scenarios</uicontrol> - Allows you to import all
+      <li id="li_str_bgk_54b" irina="irina"><uicontrol>Import Global Transformation Scenarios</uicontrol> - Allows you to import all
         transformation scenarios from a file created with the export scenario action. The names of
         the imported scenarios will appear in the <uicontrol>Configure Transformation
           Scenario</uicontrol> dialog box followed by <i>(import)</i>. This way there are no
         scenario name conflicts.</li>
-      <li id="li_ttr_bgk_54b"><uicontrol>Export Global Transformation Scenarios</uicontrol> - Allows you to export all
+      <li id="li_ttr_bgk_54b" irina="irina"><uicontrol>Export Global Transformation Scenarios</uicontrol> - Allows you to export all
         global transformation scenarios available in the <uicontrol>Configure Transformation
           Scenario</uicontrol> dialog box.</li>
-      <li id="li_utr_bgk_54b"><uicontrol>Import Global Validation Scenarios</uicontrol> - Allows you to import all
+      <li id="li_utr_bgk_54b" irina="irina"><uicontrol>Import Global Validation Scenarios</uicontrol> - Allows you to import all
         validation scenarios from a file created with the export scenario action. The names of the
         imported scenarios will appear in the <uicontrol>Configure Validation Scenario</uicontrol>
         dialog box followed by <i>(import)</i>. This way there are no scenario name conflicts.</li>
-      <li id="li_vtr_bgk_54b"><uicontrol>Export Global Validation Scenarios</uicontrol> - Allows you to export all
+      <li id="li_vtr_bgk_54b" irina="irina"><uicontrol>Export Global Validation Scenarios</uicontrol> - Allows you to export all
         global validation scenarios available in the <uicontrol>Configure Validation
           Scenario</uicontrol> dialog box.</li>
     </ul>

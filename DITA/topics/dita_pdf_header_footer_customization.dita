@@ -18,14 +18,14 @@
       specific user values.</p>
     <p id="p_hpv_cgk_54b">Instead of modifying these resource files directly, they can be overwritten with modified
       versions of the resources in a PDF customization directory.<ol id="ol_ipv_cgk_54b">
-        <li id="li_jpv_cgk_54b"><xref href="dita_pdf_output_customization.dita">Create a customization directory</xref>
+        <li id="li_jpv_cgk_54b" irina="irina"><xref href="dita_pdf_output_customization.dita">Create a customization directory</xref>
           (if you have not already done so).</li>
-        <li id="li_kpv_cgk_54b">Locate the stylesheets and templates listed above in your customization directory and
+        <li id="li_kpv_cgk_54b" irina="irina">Locate the stylesheets and templates listed above in your customization directory and
           modify them in whatever way necessary to achieve your specific goal.<note type="tip" id="note_lpv_cgk_54b">For
             more information and examples, see the <xref
               href="https://github.com/oxygenxml/com.oxygenxml.pdf2.ug/wiki" format="html"
               scope="external">Oxygen PDF Customization Plugin project on GitHub</xref>.</note></li>
-        <li id="li_mpv_cgk_54b">Edit the <xref keyref="dita-pdf-transformation"><b><ph keyref="pdf-fo-transformation"
+        <li id="li_mpv_cgk_54b" irina="irina">Edit the <xref keyref="dita-pdf-transformation"><b><ph keyref="pdf-fo-transformation"
               /></b> transformation scenario</xref>, go to the <uicontrol>Parameters</uicontrol>
           tab, and set the <b>customization.dir</b> parameter to point to the location of your
           customization directory.</li>

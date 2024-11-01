@@ -24,16 +24,16 @@
       the project root folder in the <xref href="using-the-project-view.dita#using-the-project-view"
           ><uicontrol>Project Explorer</uicontrol> view</xref>. </p>
     <p product="author developer editor" id="p_ywt_bgk_54b">To enable <term>Main Files</term> support, do one of the following:<ul id="ul_zwt_bgk_54b">
-        <li id="li_axt_bgk_54b">Select <uicontrol>Enable Main Files Support</uicontrol> from the <uicontrol><image
+        <li id="li_axt_bgk_54b" irina="irina">Select <uicontrol>Enable Main Files Support</uicontrol> from the <uicontrol><image
               href="../img/Settings16.png"/>Settings</uicontrol> menu in the top-right corner of the
             <xref href="../topics/using-the-project-view.dita#using-the-project-view"
               ><uicontrol>Project</uicontrol> view</xref>.</li>
-        <li id="li_bxt_bgk_54b">Select <uicontrol>Enable Main Files Support</uicontrol> from the contextual menu of the
+        <li id="li_bxt_bgk_54b" irina="irina">Select <uicontrol>Enable Main Files Support</uicontrol> from the contextual menu of the
           project root folder in the <xref
             href="../topics/using-the-project-view.dita#using-the-project-view"
               ><uicontrol>Project</uicontrol> view</xref>. If a disabled <term>Main Files</term>
           folder exists, you can also select that option from its contextual menu.</li>
-        <li id="li_cxt_bgk_54b">Click the <uicontrol>Enable</uicontrol> button in the tooltip located at the bottom of
+        <li id="li_cxt_bgk_54b" irina="irina">Click the <uicontrol>Enable</uicontrol> button in the tooltip located at the bottom of
           the <xref href="../topics/using-the-project-view.dita#using-the-project-view"
               ><uicontrol>Project</uicontrol> view</xref>. This tooltip window is displayed when the
             <term>Main Files</term> support is disabled. Clicking the <uicontrol>Read

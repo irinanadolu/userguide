@@ -74,16 +74,16 @@
       <title>Sharing Publishing Template</title>
       <p id="p_nhn_cgk_54b">To share a publishing template with others, following these steps:</p>
       <ol id="ul_ms3_c5j_wcb">
-        <li id="li_ohn_cgk_54b">Copy your template in a new folder.</li>
-        <li id="li_phn_cgk_54b">Go to <menucascade>
+        <li id="li_ohn_cgk_54b" irina="irina">Copy your template in a new folder.</li>
+        <li id="li_phn_cgk_54b" irina="irina">Go to <menucascade>
             <uicontrol>Options</uicontrol>
             <uicontrol>Preferences</uicontrol>
             <uicontrol>DITA</uicontrol>
             <uicontrol>Publishing</uicontrol>
           </menucascade> and add that new folder to the list. </li>
-        <li id="li_qhn_cgk_54b">Switch the option as the bottom of that preferences page to <uicontrol>Project
+        <li id="li_qhn_cgk_54b" irina="irina">Switch the option as the bottom of that preferences page to <uicontrol>Project
             Options</uicontrol>.</li>
-        <li id="li_rhn_cgk_54b">Share your project file (<filepath>.xpr</filepath>).</li>
+        <li id="li_rhn_cgk_54b" irina="irina">Share your project file (<filepath>.xpr</filepath>).</li>
       </ol>
     </section>
   </body>

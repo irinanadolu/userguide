@@ -43,10 +43,10 @@
     <p>The following languages are supported by default:</p>
     <p>
       <ul id="ul_vfs_dn1_bqb">
-        <li>English</li>
-        <li>French</li>
-        <li>German</li>
-        <li>Spanish</li>
+        <li irina="irina">English</li>
+        <li irina="irina">French</li>
+        <li irina="irina">German</li>
+        <li irina="irina">Spanish</li>
       </ul>
     </p>
   </body>

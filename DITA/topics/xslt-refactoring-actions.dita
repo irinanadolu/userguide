@@ -56,25 +56,25 @@
           <dd><ph conkeyref="reusables-editing-documents/move_to_another_stylesheet_short_desc"/> It
             opens a dialog box that allows you to specify where the selected components will be
             moved to. Follow these steps when using the dialog box:<ol id="ul_u1t_d3b_c4">
-              <li id="li_bbb_cgk_54b">Choose whether you want to move the selected components to a new stylesheet or an
+              <li id="li_bbb_cgk_54b" irina="irina">Choose whether you want to move the selected components to a new stylesheet or an
                 existing one.</li>
-              <li id="li_cbb_cgk_54b">If you choose to move the components to an existing one, select the destination
+              <li id="li_cbb_cgk_54b" irina="irina">If you choose to move the components to an existing one, select the destination
                 stylesheet. Click the <uicontrol>Choose</uicontrol> button to select the destination
                 stylesheet file. <ph keyref="product"/> will automatically check if the destination
                 stylesheet is already contained by the hierarchy of the current stylesheet. If it is
                 not contained, choose whether or not the destination stylesheet will be referenced
                 (imported or included) from the current stylesheet. The following options are
                   available:<ul id="ul_byx_fhb_c4">
-                  <li id="li_dbb_cgk_54b"><uicontrol>Include</uicontrol> - The current stylesheet will use an
+                  <li id="li_dbb_cgk_54b" irina="irina"><uicontrol>Include</uicontrol> - The current stylesheet will use an
                       <xmlelement>xsl:include</xmlelement> instruction to reference the destination
                     stylesheet.</li>
-                  <li id="li_ebb_cgk_54b"><uicontrol>Import</uicontrol> - The current stylesheet will use an
+                  <li id="li_ebb_cgk_54b" irina="irina"><uicontrol>Import</uicontrol> - The current stylesheet will use an
                       <xmlelement>xsl:import</xmlelement> instruction to reference the destination
                     stylesheet.</li>
-                  <li id="li_fbb_cgk_54b"><uicontrol>None</uicontrol> - There will be created no relation between the
+                  <li id="li_fbb_cgk_54b" irina="irina"><uicontrol>None</uicontrol> - There will be created no relation between the
                     current and destination stylesheets.</li>
                 </ul></li>
-              <li id="li_gbb_cgk_54b">Click the <uicontrol>Move</uicontrol> button to move the components to the
+              <li id="li_gbb_cgk_54b" irina="irina">Click the <uicontrol>Move</uicontrol> button to move the components to the
                 destination. The moved components are highlighted in the destination
                 stylesheet.</li>
             </ol></dd>
@@ -102,10 +102,10 @@
               elements outside the XSL namespace. For example, the following element: It is the
               reverse of the <uicontrol>Convert attributes to xsl:attributes</uicontrol> action with
               the following limitations:<ul id="ul_bsv_mhb_1jb">
-                <li id="li_mbb_cgk_54b">The <xmlelement>xsl:attribute</xmlelement> element is "text only".</li>
-                <li id="li_nbb_cgk_54b">The <xmlelement>xsl:attribute</xmlelement> element has a single
+                <li id="li_mbb_cgk_54b" irina="irina">The <xmlelement>xsl:attribute</xmlelement> element is "text only".</li>
+                <li id="li_nbb_cgk_54b" irina="irina">The <xmlelement>xsl:attribute</xmlelement> element has a single
                     <xmlelement>xsl:text</xmlelement> child element.</li>
-                <li id="li_obb_cgk_54b">The <xmlelement>xsl:attribute</xmlelement> element has a single
+                <li id="li_obb_cgk_54b" irina="irina">The <xmlelement>xsl:attribute</xmlelement> element has a single
                     <xmlelement>xsl:value-of</xmlelement> child element. In this case, the value of
                   the attribute will be the XPath expression from the <xmlatt>select</xmlatt>
                   attribute surrounded by curly brackets (<i>text value template</i>).</li>

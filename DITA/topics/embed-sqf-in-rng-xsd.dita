@@ -19,12 +19,12 @@
     <p id="p_xrh_cgk_54b"><ph keyref="product"/> is able to extract and use the embedded Schematron <term>Quick
         Fixes</term>. To make the embedded Schematron <term>Quick Fixes</term> available, follow
       these steps:<ol id="ol_yrh_cgk_54b">
-        <li id="li_zrh_cgk_54b">Define a <xref
+        <li id="li_zrh_cgk_54b" irina="irina">Define a <xref
             href="validating-XML-documents-against-schema.dita#validating-XML-documents-against-schema"
             >validation against a schema</xref>.</li>
-        <li id="li_ash_cgk_54b">For the <uicontrol>Schema type</uicontrol>, choose <userinput>XML Schema</userinput> or
+        <li id="li_ash_cgk_54b" irina="irina">For the <uicontrol>Schema type</uicontrol>, choose <userinput>XML Schema</userinput> or
             <userinput>Relax NG</userinput>.</li>
-        <li id="li_bsh_cgk_54b">Select the <uicontrol>Embedded Schematron rules</uicontrol> option.</li>
+        <li id="li_bsh_cgk_54b" irina="irina">Select the <uicontrol>Embedded Schematron rules</uicontrol> option.</li>
       </ol></p>
     <p id="p_csh_cgk_54b"><b>Example: Embedded Schematron Quick Fix in XML
       Schema</b><codeblock outputclass="language-xml" id="codeblock_dsh_cgk_54b">&lt;xsd:appinfo>

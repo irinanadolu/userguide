@@ -11,9 +11,9 @@
   overflow-wrap: break-word;
 }</codeblock><note id="note_prr_lvw_ztb" type="other" othertype="Notes">
         <ul id="ul_iwm_4vw_ztb">
-          <li>It is possible to use <codeph>hyphens: auto</codeph> instead of <codeph>overflow-wrap:
+          <li irina="irina">It is possible to use <codeph>hyphens: auto</codeph> instead of <codeph>overflow-wrap:
               break-word</codeph>.</li>
-          <li>It is possible to use the same rule for software domain elements (e.g.
+          <li irina="irina">It is possible to use the same rule for software domain elements (e.g.
               <xmlelement>filepath</xmlelement> or <xmlelement>cmdname</xmlelement>).</li>
         </ul>
       </note></p>

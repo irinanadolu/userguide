@@ -17,30 +17,30 @@
     <p product="pdf-css ope" id="p_k3t_cgk_54b">The hyphenation dictionaries are located in:
         <filepath>[OPE_INSTALL_DIR]/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry/config/hyph</filepath>. </p>
     <p id="p_l3t_cgk_54b">One simple way to add more dictionaries:<ol id="ol_tm5_k2p_llb">
-        <li id="li_m3t_cgk_54b"><xref href="https://sourceforge.net/projects/offo/files/" format="html" scope="external"
+        <li id="li_m3t_cgk_54b" irina="irina"><xref href="https://sourceforge.net/projects/offo/files/" format="html" scope="external"
             >Download and extract the <filepath>offo-hyphenation-compiled.zip</filepath></xref>
           file. This file is a bundle of many dictionary files.</li>
       
-        <li product="chemistry" id="li_n3t_cgk_54b">Copy the <codeph>fop-hyph.jar</codeph> file to the
+        <li product="chemistry" id="li_n3t_cgk_54b" irina="irina">Copy the <codeph>fop-hyph.jar</codeph> file to the
             <filepath>[CHEMISTRY_INSTALL_DIR]/lib</filepath> directory.</li>
 
-        <li product="pdf-css ope" id="li_o3t_cgk_54b">Copy the <codeph>fop-hyph.jar</codeph> file to the
+        <li product="pdf-css ope" id="li_o3t_cgk_54b" irina="irina">Copy the <codeph>fop-hyph.jar</codeph> file to the
           <filepath product="ope">[OPE_INSTALL_DIR]/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry/lib</filepath>
           <filepath product="pdf-css">[DITA_OT_DIR]/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry/lib</filepath>
           directory.</li>
       
-        <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_p3t_cgk_54b">Copy the
+        <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_p3t_cgk_54b" irina="irina">Copy the
             <codeph>fop-hyph.jar</codeph> file to the <filepath>[OXYGEN_INSTALL_DIR]/lib</filepath>
           directory.</li>
-        <li product="chemistry" id="li_q3t_cgk_54b">If you just need a single dictionary, place the
+        <li product="chemistry" id="li_q3t_cgk_54b" irina="irina">If you just need a single dictionary, place the
             <codeph>.hyp</codeph> or <codeph>.xml</codeph> file extracted from the above jar in the
             <filepath>[CHEMISTRY_INSTALL_DIR]/config/hyph</filepath> directory, or in another
           directory and use the <codeph>-hyph-dir</codeph> parameter.</li>
-        <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_r3t_cgk_54b">If you
+        <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_r3t_cgk_54b" irina="irina">If you
           just need a single dictionary, place the <codeph>.hyp</codeph> or <codeph>.xml</codeph>
           file in the <filepath>[OXYGEN_INSTALL_DIR]/config/hyph</filepath> directory (create that
           directory if it is missing).</li>
-        <li product="pdf-css ope" id="li_s3t_cgk_54b">If you just need a single dictionary, place the
+        <li product="pdf-css ope" id="li_s3t_cgk_54b" irina="irina">If you just need a single dictionary, place the
             <codeph>.hyp</codeph> or <codeph>.xml</codeph> file in the
             <filepath product="ope">[OPE_INSTALL_DIR]/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry/config/hyph</filepath>
             <filepath product="pdf-css">[DITA_OT_DIR]/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry/config/hyph</filepath>

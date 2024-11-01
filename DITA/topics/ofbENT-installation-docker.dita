@@ -8,8 +8,8 @@
       <p id="p_qfw_xyx_twb">The <ph keyref="product"/> distribution contains two docker images that
         run the following services, each in its own container:</p>
       <ul id="ul_rfw_xyx_twb">
-        <li id="li_sfw_xyx_twb"><b>Oxygen Feedback Service</b></li>
-        <li id="li_tfw_xyx_twb"><b>Oxygen Text Search Service</b></li>
+        <li id="li_sfw_xyx_twb" irina="irina"><b>Oxygen Feedback Service</b></li>
+        <li id="li_tfw_xyx_twb" irina="irina"><b>Oxygen Text Search Service</b></li>
       </ul>
       <p id="p_ufw_xyx_twb">The Docker images do not include an email server or database server. The
         recommended solution is to configure these services to run in separate containers. For more
@@ -29,7 +29,7 @@
               <dt>Operating System</dt>
               <dd>
                 <ul id="ul_rk2_c3g_smb">
-                  <li id="li_sdw_dgk_54b">Ubuntu 18 is recommended since it has been thoroughly
+                  <li id="li_sdw_dgk_54b" irina="irina">Ubuntu 18 is recommended since it has been thoroughly
                     tested </li>
                 </ul>
               </dd>
@@ -38,8 +38,8 @@
               <dt>Database</dt>
               <dd>
                 <ul id="ul_xdm_t2f_lmb">
-                  <li id="li_wdw_dgk_54b">PostgreSQL 11, 12</li>
-                  <li id="li_xdw_dgk_54b">MySQL 8.0</li>
+                  <li id="li_wdw_dgk_54b" irina="irina">PostgreSQL 11, 12</li>
+                  <li id="li_xdw_dgk_54b" irina="irina">MySQL 8.0</li>
                 </ul>
               </dd>
             </dlentry>
@@ -47,7 +47,7 @@
               <dt>CPU</dt>
               <dd>
                 <ul id="ul_fnd_b3g_smb">
-                  <li id="li_zdw_dgk_54b">2 virtual cores</li>
+                  <li id="li_zdw_dgk_54b" irina="irina">2 virtual cores</li>
                 </ul>
               </dd>
             </dlentry>
@@ -55,7 +55,7 @@
               <dt>Memory</dt>
               <dd>
                 <ul id="ul_u5l_13g_smb">
-                  <li id="li_b2w_dgk_54b">2 GB RAM</li>
+                  <li id="li_b2w_dgk_54b" irina="irina">2 GB RAM</li>
                 </ul>
               </dd>
             </dlentry>
@@ -63,7 +63,7 @@
               <dt>Storage</dt>
               <dd>
                 <ul id="ul_cd5_zhg_smb">
-                  <li id="li_d2w_dgk_54b">20 GB disk storage</li>
+                  <li id="li_d2w_dgk_54b" irina="irina">20 GB disk storage</li>
                 </ul>
               </dd>
             </dlentry>
@@ -71,13 +71,13 @@
               <dt>Browser</dt>
               <dd>
                 <ul id="ul_cts_cgf_lmb">
-                  <li id="li_f2w_dgk_54b">Google Chrome 78.0 [recommended for optimal performance
+                  <li id="li_f2w_dgk_54b" irina="irina">Google Chrome 78.0 [recommended for optimal performance
                     and user experience]</li>
-                  <li id="li_g2w_dgk_54b">Mozilla Firefox 70.0</li>
-                  <li id="li_i2w_dgk_54b">Microsoft Edge 44</li>
-                  <li id="li_j2w_dgk_54b">macOS Safari 13</li>
-                  <li id="li_k2w_dgk_54b">Chrome for Android 78.0 [mobile devices]</li>
-                  <li id="li_l2w_dgk_54b">Safari Mobile iOS 13 [mobile devices]</li>
+                  <li id="li_g2w_dgk_54b" irina="irina">Mozilla Firefox 70.0</li>
+                  <li id="li_i2w_dgk_54b" irina="irina">Microsoft Edge 44</li>
+                  <li id="li_j2w_dgk_54b" irina="irina">macOS Safari 13</li>
+                  <li id="li_k2w_dgk_54b" irina="irina">Chrome for Android 78.0 [mobile devices]</li>
+                  <li id="li_l2w_dgk_54b" irina="irina">Safari Mobile iOS 13 [mobile devices]</li>
                 </ul>
                 <note type="tip" id="note_m2w_dgk_54b">For more details, see: <xref
                     href="ofb-browser-compatibility.dita"/>.</note>
@@ -190,8 +190,8 @@ unzip oxygen-feedback-enterprise.zip</codeblock></p>
         <title>4. Load Docker Images</title>
         <p id="p_y2w_dgk_54b">The <ph keyref="product"/> distribution contains two docker images
           running the following services each in its own container:<ul id="ul_u2y_fby_twb">
-            <li id="li_v2y_fby_twb"><b>Oxygen Feedback Service</b></li>
-            <li id="li_w2y_fby_twb"><b>Oxygen Text Search Service</b></li>
+            <li id="li_v2y_fby_twb" irina="irina"><b>Oxygen Feedback Service</b></li>
+            <li id="li_w2y_fby_twb" irina="irina"><b>Oxygen Text Search Service</b></li>
           </ul></p>
         <p id="p_wx2_hby_twb">Run <filepath>load-docker-images.sh</filepath> (e.g.
             <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/docker-images/load-docker-images.sh</filepath>)
@@ -203,12 +203,12 @@ sh load-docker-images.sh</codeblock></p>
       <section id="section_axp_cmz_mmb">
         <title>5. Set Up License</title>
         <p id="p_hfw_dgk_54b">Set up the license for Feedback Enterprise:<ol id="ol_hkh_4by_twb">
-            <li id="li_ikh_4by_twb">Go to
+            <li id="li_ikh_4by_twb" irina="irina">Go to
                 <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/oxygen-feedback-home</filepath> and create a
               new file named
               <i>licensekey.txt</i>.<codeblock outputclass="language-bourne">cd $OXYGEN_FEEDBACK_INSTALL_DIR/oxygen-feedback-home
 touch licensekey.txt</codeblock></li>
-            <li id="li_mdv_sby_twb">Copy and paste your license key inside the
+            <li id="li_mdv_sby_twb" irina="irina">Copy and paste your license key inside the
                 <filepath>licensekey.txt</filepath> file using a text editor or
               use:<codeblock outputclass="language-bourne">cat >> licensekey.txt
 # Paste license
@@ -221,25 +221,25 @@ touch licensekey.txt</codeblock></li>
             <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/oxygen-feedback-home/config</filepath>. The
           available configuration properties are described in the procedures linked below:<ul
             id="ul_ry2_kdy_twb">
-            <li id="li_sy2_kdy_twb"><xref href="ofbENT-database-setup-feedback.dita">How to Set Up the
+            <li id="li_sy2_kdy_twb" irina="irina"><xref href="ofbENT-database-setup-feedback.dita">How to Set Up the
                 Database</xref></li>
-            <li id="li_gfs_ldy_twb"><xref href="ofbENT-how-to-set-application-properties.dita">Set
+            <li id="li_gfs_ldy_twb" irina="irina"><xref href="ofbENT-how-to-set-application-properties.dita">Set
                 Up Application Properties</xref></li>
-            <li id="li_bww_ldy_twb"><xref href="ofbENT-how-to-set-email-notifications.dita">Set Up
+            <li id="li_bww_ldy_twb" irina="irina"><xref href="ofbENT-how-to-set-email-notifications.dita">Set Up
                 Email Notifications</xref></li>
-            <li id="li_gbr_1zn_5wb"><xref href="ofbENT-how-to-configure-OTSS.dita">How to Configure
+            <li id="li_gbr_1zn_5wb" irina="irina"><xref href="ofbENT-how-to-configure-OTSS.dita">How to Configure
                 Connection to Oxygen Text Search Service</xref></li>
-            <li id="li_tnc_mdy_twb">[Optional] <xref href="ofbENT-configure_http_proxy.dita">How to
+            <li id="li_tnc_mdy_twb" irina="irina">[Optional] <xref href="ofbENT-configure_http_proxy.dita">How to
                 Configure an HTTP Proxy</xref></li>
-            <li id="li_vhg_mdy_twb">[Optional] <xref href="ofbENT-how_to_configure_LDAP.dita">How to
+            <li id="li_vhg_mdy_twb" irina="irina">[Optional] <xref href="ofbENT-how_to_configure_LDAP.dita">How to
                 Set up LDAP Authentication</xref></li>
-            <li id="li_wtk_mdy_twb">[Optional] <xref href="ofbENT-set_up_oauth.dita">How to Set up
+            <li id="li_wtk_mdy_twb" irina="irina">[Optional] <xref href="ofbENT-set_up_oauth.dita">How to Set up
                 OAuth Authentication</xref></li>
-            <li id="li_n3r_mdy_twb">[Optional] <xref href="ofbENT-google-recaptcha.dita">How to
+            <li id="li_n3r_mdy_twb" irina="irina">[Optional] <xref href="ofbENT-google-recaptcha.dita">How to
                 Enable Google reCAPTCHA</xref></li>
-            <li id="li_qmv_mdy_twb">[Optional] <xref href="ofbENT-gzip-compression.dita">How to
+            <li id="li_qmv_mdy_twb" irina="irina">[Optional] <xref href="ofbENT-gzip-compression.dita">How to
                 Enable GZIP Compression in Oxygen Feedback</xref></li>
-            <li id="li_hz1_ndy_twb">[Optional] <xref href="ofbENT-https-procedure.dita">How to Run
+            <li id="li_hz1_ndy_twb" irina="irina">[Optional] <xref href="ofbENT-https-procedure.dita">How to Run
                 Oxygen Feedback Over HTTPS</xref></li>
           </ul></p>
       </section>
@@ -248,8 +248,8 @@ touch licensekey.txt</codeblock></li>
         <p id="p_vv4_t2y_twb">Edit the
             <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/docker-compose.yml</filepath> file to configure
           the docker containers for following services:<ul id="ul_wv4_t2y_twb">
-            <li id="li_xv4_t2y_twb"><b>Oxygen Feedback Service</b></li>
-            <li id="li_yv4_t2y_twb"><b>Oxygen Text Search Service</b></li>
+            <li id="li_xv4_t2y_twb" irina="irina"><b>Oxygen Feedback Service</b></li>
+            <li id="li_yv4_t2y_twb" irina="irina"><b>Oxygen Text Search Service</b></li>
           </ul><codeblock outputclass="language-bourne">version: '3'
 services:
   feedback-service:
@@ -297,9 +297,9 @@ services:
         target: /oxygen-text-search-service/logs/</codeblock></p>
         <p id="p_jsq_z2y_twb"><b>Oxygen Text Search Service</b> environment variables:</p>
         <ul id="ul_ksq_z2y_twb">
-          <li id="li_lsq_z2y_twb">Database configuration - see <xref
+          <li id="li_lsq_z2y_twb" irina="irina">Database configuration - see <xref
               href="ofbENT-database-setup-otss.dita"/>:<ul id="ul_msq_z2y_twb">
-              <li id="li_nsq_z2y_twb">
+              <li id="li_nsq_z2y_twb" irina="irina">
                 <p id="p_osq_z2y_twb"><b>spring.datasource.url</b> - The URL of the <b>Oxygen Text
                     Search Service</b> database that has the following format:
                     <codeph>jdbc:postgresql://&lt;hostname>:&lt;port>/&lt;database></codeph></p>
@@ -308,23 +308,23 @@ services:
                     id="note_tm4_gfy_twb"><b>Oxygen Text Search Service</b> only supports PostgreSQL
                     databases.</note></p>
               </li>
-              <li id="li_rsq_z2y_twb"><b>spring.datasource.username</b> - The username used to
+              <li id="li_rsq_z2y_twb" irina="irina"><b>spring.datasource.username</b> - The username used to
                 access the database.</li>
-              <li id="li_ssq_z2y_twb"><b>spring.datasource.password</b> - The password used to
+              <li id="li_ssq_z2y_twb" irina="irina"><b>spring.datasource.password</b> - The password used to
                 access the database.</li>
             </ul></li>
-          <li id="li_tsq_z2y_twb">HTTP Proxy configuration - see <xref
+          <li id="li_tsq_z2y_twb" irina="irina">HTTP Proxy configuration - see <xref
               href="ofbENT-configure_http_proxy.dita#ofbENT-configure_http_proxy/dlentry_i24_b5n_5wb"
             >How to Configure an HTTP Proxy for Oxygen Text Search Service</xref>:<ul id="ul_usq_z2y_twb">
-              <li id="li_vsq_z2y_twb"><b>http.proxyHost</b> - The hostname of the HTTP proxy
+              <li id="li_vsq_z2y_twb" irina="irina"><b>http.proxyHost</b> - The hostname of the HTTP proxy
                 server.</li>
-              <li id="li_wsq_z2y_twb"><b>http.proxyPort</b> - The port number of the HTTP proxy
+              <li id="li_wsq_z2y_twb" irina="irina"><b>http.proxyPort</b> - The port number of the HTTP proxy
                 server.</li>
-              <li id="li_xsq_z2y_twb"><b>https.proxyHost</b> - The hostname of the HTTPS proxy
+              <li id="li_xsq_z2y_twb" irina="irina"><b>https.proxyHost</b> - The hostname of the HTTPS proxy
                 server.</li>
-              <li id="li_ysq_z2y_twb"><b>https.proxyPort</b> - The port number of the HTTPS proxy
+              <li id="li_ysq_z2y_twb" irina="irina"><b>https.proxyPort</b> - The port number of the HTTPS proxy
                 server</li>
-              <li id="li_mqc_ct4_hzb"><b>https.nonProxyPort</b> - The list of hosts that will be
+              <li id="li_mqc_ct4_hzb" irina="irina"><b>https.nonProxyPort</b> - The list of hosts that will be
                 bypassed by the proxy server</li>
             </ul></li>
         </ul>

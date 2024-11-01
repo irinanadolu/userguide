@@ -83,11 +83,11 @@
         files, but there are some limitations:</p>
       <p>
         <ul id="ul_uln_gvd_crb">
-          <li>References that use the <xmlatt>conkeyref</xmlatt> attribute are not uploaded.</li>
-          <li>References that use the <xmlelement>xref</xmlelement> element will be uploaded and
+          <li irina="irina">References that use the <xmlatt>conkeyref</xmlatt> attribute are not uploaded.</li>
+          <li irina="irina">References that use the <xmlelement>xref</xmlelement> element will be uploaded and
             reviewers can open them. However, images and other references in these files will not be
             uploaded.</li>
-          <li>If the set of files to be reviewed is large, the upload will still take a long
+          <li irina="irina">If the set of files to be reviewed is large, the upload will still take a long
             time.</li>
         </ul>
       </p>
@@ -171,16 +171,16 @@
         notify you about those changes (for example, the number of messages or file changes were not
         updated in the <uicontrol>Tasks Manager</uicontrol> view), follow this procedure to report
         the problem:<ol id="ol_vn5_dgk_54b">
-          <li id="li_wn5_dgk_54b">Select <uicontrol>Connection status</uicontrol> from the drop-down menu at the
+          <li id="li_wn5_dgk_54b" irina="irina">Select <uicontrol>Connection status</uicontrol> from the drop-down menu at the
             top-right corner of the <uicontrol>Content Fusion Tasks Manager</uicontrol> view.</li>
-          <li id="li_xn5_dgk_54b">Click the <uicontrol>Copy and close</uicontrol> button.</li>
-          <li id="li_yn5_dgk_54b">Go to <menucascade>
+          <li id="li_xn5_dgk_54b" irina="irina">Click the <uicontrol>Copy and close</uicontrol> button.</li>
+          <li id="li_yn5_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Report problem</uicontrol>
             </menucascade> and paste the copied information in the <uicontrol>Problem
               description</uicontrol> area.</li>
-          <li id="li_zn5_dgk_54b">Add your contact details and any other information that might be helpful.</li>
-          <li id="li_a45_dgk_54b">Click <uicontrol>Submit</uicontrol> to send the report to the <term>Oxygen</term>
+          <li id="li_zn5_dgk_54b" irina="irina">Add your contact details and any other information that might be helpful.</li>
+          <li id="li_a45_dgk_54b" irina="irina">Click <uicontrol>Submit</uicontrol> to send the report to the <term>Oxygen</term>
             technical support team.</li>
         </ol></p>
     </section>

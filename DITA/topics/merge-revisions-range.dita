@@ -73,9 +73,9 @@
         <info>
           <p id="p_um3_dgk_54b">
             <ul id="ul_jcc_h5r_4r">
-              <li id="li_vm3_dgk_54b"><uicontrol>all revisions</uicontrol> - The operation will include <i>all eligible
+              <li id="li_vm3_dgk_54b" irina="irina"><uicontrol>all revisions</uicontrol> - The operation will include <i>all eligible
                   revisions</i> that were not yet merged.</li>
-              <li id="li_wm3_dgk_54b"><uicontrol>specific revision(s)</uicontrol> - You can specify one or more
+              <li id="li_wm3_dgk_54b" irina="irina"><uicontrol>specific revision(s)</uicontrol> - You can specify one or more
                 individual revisions and/or revision ranges. Also, you can mix <i>forward</i> ranges
                 (for example, <codeph>1-5</codeph>), <i>backward</i> ranges (for example,
                   <codeph>20-15</codeph>), and subtract specific revisions from a range (for

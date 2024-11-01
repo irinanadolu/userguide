@@ -40,21 +40,21 @@
     <section id="options_available_in_the_view">
       <title>Options Available in the View</title>
       <p id="p_jyt_bgk_54b">The <uicontrol>Open/Find Resource</uicontrol> view offers the following options:<ul id="ul_kyt_bgk_54b">
-          <li id="li_lyt_bgk_54b"><uicontrol><image href="../img/Settings16.png"/>Settings</uicontrol> - Drop-down menu
+          <li id="li_lyt_bgk_54b" irina="irina"><uicontrol><image href="../img/Settings16.png"/>Settings</uicontrol> - Drop-down menu
             that includes the following settings for the view:<ul id="ul_myt_bgk_54b">
-              <li id="li_nyt_bgk_54b"><ph conkeyref="reusables-editing-documents/clear-index"/></li>
-              <li id="li_oyt_bgk_54b"><uicontrol>Show description</uicontrol> - Presents the search results in a more
+              <li id="li_nyt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/clear-index"/></li>
+              <li id="li_oyt_bgk_54b" irina="irina"><uicontrol>Show description</uicontrol> - Presents the search results in a more
                 compact form, displaying only the title and the location of the resources.</li>
-              <li id="li_pyt_bgk_54b"><ph conkeyref="reusables-editing-documents/options"
+              <li id="li_pyt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/options"
                   product="author developer editor json"/></li>
             </ul></li>
-          <li id="li_qyt_bgk_54b"><ph conkeyref="reusables-editing-documents/in-file-paths"
+          <li id="li_qyt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/in-file-paths"
               product="author developer editor json"/></li>
-          <li id="li_ryt_bgk_54b"><ph conkeyref="reusables-editing-documents/in-content"
+          <li id="li_ryt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/in-content"
               product="author developer editor json"/></li>
-          <li id="in-reviews"><ph conkeyref="reusables-editing-documents/in-reviews"
+          <li id="in-reviews" irina="irina"><ph conkeyref="reusables-editing-documents/in-reviews"
               product="author developer editor json"/></li>
-          <li id="li_syt_bgk_54b"><ph conkeyref="reusables-editing-documents/reindex"/></li>
+          <li id="li_syt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/reindex"/></li>
         </ul></p>
     </section>
     <section id="contextual_menu_actions">

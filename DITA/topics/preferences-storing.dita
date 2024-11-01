@@ -33,9 +33,9 @@
     <p id="p_oyr_bgk_54b">If changes have been made to the options in a preferences page and you switch between
         <uicontrol>Project Options</uicontrol> and <uicontrol>Global Options</uicontrol>, a dialog
       box will be displayed that allows you to select one of the following:<ul id="ul_v4j_wv5_5r">
-        <li id="li_pyr_bgk_54b"><uicontrol>Overwrite</uicontrol> - The existing options from the current preferences
+        <li id="li_pyr_bgk_54b" irina="irina"><uicontrol>Overwrite</uicontrol> - The existing options from the current preferences
           page will be overwritten.</li>
-        <li id="li_qyr_bgk_54b"><uicontrol>Preserve</uicontrol> - The existing options from the current preferences page
+        <li id="li_qyr_bgk_54b" irina="irina"><uicontrol>Preserve</uicontrol> - The existing options from the current preferences page
           will be preserved. </li>
       </ul></p>
     <p id="p_ryr_bgk_54b">
@@ -55,7 +55,7 @@
           keyref="product"/> version 19.1) located in the following directories:<ul
           conkeyref="reusables-configuring-oxygen/preferences-directory-locations-ul"
           id="ul_qzf_kny_xs">
-          <li id="li_vyr_bgk_54b"/>
+          <li id="li_vyr_bgk_54b" irina="irina"/>
         </ul></p>
     </section>
     <section id="project-options-section">

@@ -30,9 +30,9 @@
     <p id="p_txp_pkz_t1c">To enable the Rate Limit Filter:</p>
     <p id="p_dmh_rkz_t1c">
       <ol id="ol_lkz_rkz_t1c">
-        <li id="li_mkz_rkz_t1c">Locate the <filepath>web.xml</filepath> file that is used by the
+        <li id="li_mkz_rkz_t1c" irina="irina">Locate the <filepath>web.xml</filepath> file that is used by the
           Tomcat server.</li>
-        <li id="li_fqn_tkz_t1c">
+        <li id="li_fqn_tkz_t1c" irina="irina">
           <p id="p_uvc_bmz_t1c">Define the <b>Rate Limit Filter</b>:</p>
           <p id="p_rxt_flz_t1c">You need to define the filter within the
               <filepath>web.xml</filepath> file. This involves specifying the filter name, the
@@ -102,7 +102,7 @@
 	&lt;/init-param>
     &lt;/filter></codeblock></p>
         </li>
-        <li id="li_lym_ylz_t1c">
+        <li id="li_lym_ylz_t1c" irina="irina">
           <p id="p_vmp_1mz_t1c">Map the filter to URL patterns:</p>
           <p id="p_rlm_cmz_t1c">You need to map the filter to specific URL patterns within your
             application. This determines which requests are subjected to rate limiting.</p>
@@ -114,7 +114,7 @@
 	&lt;url-pattern>*&lt;/url-pattern>
     &lt;/filter-mapping></codeblock></p>
         </li>
-        <li id="li_h4b_fmz_t1c">Deploy/Restart the Tomcat server.</li>
+        <li id="li_h4b_fmz_t1c" irina="irina">Deploy/Restart the Tomcat server.</li>
       </ol>
     </p>
   </body>

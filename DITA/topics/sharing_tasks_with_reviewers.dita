@@ -18,9 +18,9 @@
       <title>Sharing a Task</title>
       <p id="p_xnt_dgk_54b">
         <ol id="ol_oyf_rd1_hmb">
-          <li id="li_ynt_dgk_54b">Go to the Content Fusion browser interface and open the particular
+          <li id="li_ynt_dgk_54b" irina="irina">Go to the Content Fusion browser interface and open the particular
             review task you want to share.</li>
-          <li id="li_znt_dgk_54b">
+          <li id="li_znt_dgk_54b" irina="irina">
             <p id="p_a4t_dgk_54b">Click the <uicontrol>Share</uicontrol> button located in the top
               stripe.</p>
             <p id="p_b4t_dgk_54b"><b>Step Result:</b> This opens the <uicontrol>Sharing
@@ -96,7 +96,7 @@
               </dl>
             </p>
           </li>
-          <li id="li_d4t_dgk_54b">Choose whichever option is appropriate for your workflow and send
+          <li id="li_d4t_dgk_54b" irina="irina">Choose whichever option is appropriate for your workflow and send
             the link to the <b>Reviewers</b>.</li>
         </ol>
       </p>
@@ -108,13 +108,13 @@
           <uicontrol>Share</uicontrol> dialog box (in the browser).</p>
       <p id="p_unt_dgk_54b">
         <ol id="ol_bhn_nd1_hmb">
-          <li id="li_bwv_x3g_zxb"><b>[Prerequisite]</b> Enable the <uicontrol>Anyone who opens the
+          <li id="li_bwv_x3g_zxb" irina="irina"><b>[Prerequisite]</b> Enable the <uicontrol>Anyone who opens the
               link is automatically granted access as a Reviewer</uicontrol> option in the
               <uicontrol>Share</uicontrol> dialog box.</li>
-          <li id="li_vnt_dgk_54b">In the <uicontrol>Content Fusion Tasks Manager</uicontrol> view,
+          <li id="li_vnt_dgk_54b" irina="irina">In the <uicontrol>Content Fusion Tasks Manager</uicontrol> view,
             right-click the particular task that you want to share and select <uicontrol>Copy task
               link</uicontrol>.</li>
-          <li id="li_wnt_dgk_54b">Send the link to <b>Reviewers</b> using whatever method is
+          <li id="li_wnt_dgk_54b" irina="irina">Send the link to <b>Reviewers</b> using whatever method is
             appropriate in your working environment.</li>
         </ol>
       </p>

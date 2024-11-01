@@ -31,15 +31,15 @@
       <p id="p_jxz_bgk_54b">To access the tool, select the <uicontrol><image href="../img/XMLRefactoring16.png"
             id="image_mv4_ptt_kr"/>XML Refactoring</uicontrol> action from one of the following
           locations:<ul id="ul_lrm_wz5_3r">
-          <li id="li_kxz_bgk_54b">The <uicontrol product="author developer editor">Tools</uicontrol><uicontrol
+          <li id="li_kxz_bgk_54b" irina="irina">The <uicontrol product="author developer editor">Tools</uicontrol><uicontrol
               product="developerEclipse editorEclipse">XML Tools</uicontrol><uicontrol
               product="authorEclipse">XML</uicontrol> menu.</li>
-          <li id="li_lxz_bgk_54b">The <uicontrol>Refactoring</uicontrol> submenu from the contextual menu in the <xref
+          <li id="li_lxz_bgk_54b" irina="irina">The <uicontrol>Refactoring</uicontrol> submenu from the contextual menu in the <xref
               href="using-the-project-view.dita#using-the-project-view"><uicontrol
                 product="author developer editor">Project</uicontrol><uicontrol
                 product="authorEclipse developerEclipse editorEclipse">Project Explorer</uicontrol>
               view</xref>.</li>
-          <li product="author editor authorEclipse editorEclipse" id="li_mxz_bgk_54b">The
+          <li product="author editor authorEclipse editorEclipse" id="li_mxz_bgk_54b" irina="irina">The
               <uicontrol>Refactoring</uicontrol> submenu from the contextual menu in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref>.</li>
@@ -123,14 +123,14 @@
                     <dt><uicontrol>Filters</uicontrol></dt>
                     <dd>The <uicontrol>Filters</uicontrol> section includes the following
                         options:<ul id="ul_t3v_nzv_3r">
-                        <li id="li_byz_bgk_54b"><uicontrol>Include files</uicontrol> - Allows you to filter the selected
+                        <li id="li_byz_bgk_54b" irina="irina"><uicontrol>Include files</uicontrol> - Allows you to filter the selected
                           resources by using a file pattern. For example, to restrict the operation
                           to only analyze build files you could use
                             <userinput>build*.xml</userinput> for the file pattern.</li>
-                        <li id="li_cyz_bgk_54b"><uicontrol>Restrict only to known XML file types</uicontrol> - When
+                        <li id="li_cyz_bgk_54b" irina="irina"><uicontrol>Restrict only to known XML file types</uicontrol> - When
                           selected, only resources with a known XML file type will be affected by
                           the operation.</li>
-                        <li product="author developer editor" id="li_dyz_bgk_54b"><uicontrol>Look inside
+                        <li product="author developer editor" id="li_dyz_bgk_54b" irina="irina"><uicontrol>Look inside
                             archives</uicontrol> - When selected, the resources inside archives will
                           also be affected.</li>
                       </ul></dd>

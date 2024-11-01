@@ -24,13 +24,13 @@
       </fig>
     </p>
     <p id="p_igb_cgk_54b">The generated documentation includes the following:<ul id="ul_jgb_cgk_54b">
-        <li id="li_kgb_cgk_54b">Table of Contents - You can group the contents by namespace, location, or component
+        <li id="li_kgb_cgk_54b" irina="irina">Table of Contents - You can group the contents by namespace, location, or component
           type. The XSLT elements from each group are sorted alphabetically (named templates are
           presented first and the <xmlelement>match</xmlelement> elements second).</li>
-        <li id="li_lgb_cgk_54b">Information about main, imported, and included stylesheets. This information consists of:<ul id="ul_mgb_cgk_54b">
-            <li id="li_ngb_cgk_54b">XSLT modules included or imported by the current stylesheet.</li>
-            <li id="li_ogb_cgk_54b">The XSLT stylesheets where the current stylesheet is imported or included.</li>
-            <li id="li_pgb_cgk_54b">The stylesheet location.</li>
+        <li id="li_lgb_cgk_54b" irina="irina">Information about main, imported, and included stylesheets. This information consists of:<ul id="ul_mgb_cgk_54b">
+            <li id="li_ngb_cgk_54b" irina="irina">XSLT modules included or imported by the current stylesheet.</li>
+            <li id="li_ogb_cgk_54b" irina="irina">The XSLT stylesheets where the current stylesheet is imported or included.</li>
+            <li id="li_pgb_cgk_54b" irina="irina">The stylesheet location.</li>
           </ul></li>
       </ul></p>
     <p id="p_qgb_cgk_54b">

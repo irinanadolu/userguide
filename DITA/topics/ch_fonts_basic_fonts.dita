@@ -8,13 +8,13 @@
       The exception to this is some fonts that are considered to be available in all PDF rendering
       applications. These are called basic fonts and include:</p>
     <ul id="ul_ggt_2kd_5z">
-      <li id="li_ynv_dgk_54b"><term>Times</term> (v3) (in regular, italic, bold, and bold
+      <li id="li_ynv_dgk_54b" irina="irina"><term>Times</term> (v3) (in regular, italic, bold, and bold
         italic)</li>
-      <li id="li_znv_dgk_54b"><term>Courier</term> (in regular, oblique, bold and bold oblique)</li>
-      <li id="li_a4v_dgk_54b"><term>Helvetica</term> (v3) (in regular, oblique, bold and bold
+      <li id="li_znv_dgk_54b" irina="irina"><term>Courier</term> (in regular, oblique, bold and bold oblique)</li>
+      <li id="li_a4v_dgk_54b" irina="irina"><term>Helvetica</term> (v3) (in regular, oblique, bold and bold
         oblique)</li>
-      <li id="li_b4v_dgk_54b"><term>Symbol</term>.</li>
-      <li id="li_c4v_dgk_54b"><term>Zapf Dingbats</term>.</li>
+      <li id="li_b4v_dgk_54b" irina="irina"><term>Symbol</term>.</li>
+      <li id="li_c4v_dgk_54b" irina="irina"><term>Zapf Dingbats</term>.</li>
     </ul>
   </body>
 </topic>

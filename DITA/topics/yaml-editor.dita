@@ -26,10 +26,10 @@
       <p id="p_xjf_cgk_54b">When editing YAML documents in the <uicontrol>Text</uicontrol> editing
         mode, the usual text editing actions are available, along with other YAML editor-specific
         actions, including:<ul id="ul_jrz_25t_qmb">
-          <li id="li_yjf_cgk_54b"><xref href="yaml-syntax-highlight.dita">Syntax
+          <li id="li_yjf_cgk_54b" irina="irina"><xref href="yaml-syntax-highlight.dita">Syntax
             highlighting</xref></li>
-          <li id="li_zjf_cgk_54b"><xref href="yaml-validation.dita">Automatic validation</xref></li>
-          <li id="li_akf_cgk_54b"><xref href="yaml-format-indent.dita">Formatting and
+          <li id="li_zjf_cgk_54b" irina="irina"><xref href="yaml-validation.dita">Automatic validation</xref></li>
+          <li id="li_akf_cgk_54b" irina="irina"><xref href="yaml-format-indent.dita">Formatting and
               indenting</xref></li>
         </ul></p>
     </section>

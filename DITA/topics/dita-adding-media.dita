@@ -98,8 +98,8 @@
       <title>Adding a Media Resource</title>
       <p id="p_pfm_dgk_54b">To insert a media resource in a DITA document, use the following procedure:</p>
       <ol id="ol_eb4_q5d_xp">
-        <li id="li_qfm_dgk_54b">Place the cursor at the location where you want the media resource. </li>
-        <li id="li_rfm_dgk_54b">
+        <li id="li_qfm_dgk_54b" irina="irina">Place the cursor at the location where you want the media resource. </li>
+        <li id="li_rfm_dgk_54b" irina="irina">
           <p id="p_sfm_dgk_54b">Select the <uicontrol><image href="../img/InsertMedia16.png" id="image_exy_113_t3b"
               />Insert Media Resource</uicontrol> action from the toolbar. The <uicontrol>Insert
               Media</uicontrol> dialog box appears.<note id="note_tfm_dgk_54b">You can also drag media files from your
@@ -117,7 +117,7 @@
             </fig>
           </p>
         </li>
-        <li id="li_vfm_dgk_54b">
+        <li id="li_vfm_dgk_54b" irina="irina">
           <p id="p_wfm_dgk_54b">Configure the options in this dialog box and click <uicontrol>Insert</uicontrol>.</p>
           <p id="p_xfm_dgk_54b">The <uicontrol>Insert Media</uicontrol> dialog box includes the following options:<dl id="dl_yfm_dgk_54b">
               <dlentry id="url">
@@ -171,7 +171,7 @@
           <uicontrol>Author</uicontrol> mode so that it can be played directly from there.</p>
       <note type="attention" id="note_bgm_dgk_54b">
         <ul id="ul_cgm_dgk_54b">
-          <li id="li_dgm_dgk_54b">On Ubuntu 17.10, if you receive an error when trying to play videos in
+          <li id="li_dgm_dgk_54b" irina="irina">On Ubuntu 17.10, if you receive an error when trying to play videos in
               <uicontrol>Author</uicontrol> mode, you need to install the
               <codeph>libavformat57</codeph> library.</li>
         </ul>
@@ -179,11 +179,11 @@
       <p id="publishing-stage"><b>Result in Output:</b> In the publishing stage, the
         <xmlelement>object</xmlelement> element is converted to an HTML5 element so that it can be
         rendered properly and played in all HTML5-based outputs.<ul id="ul_egm_dgk_54b">
-          <li id="li_fgm_dgk_54b"><b>Videos</b> - The <xmlelement>object</xmlelement> element is converted to an HTML5
+          <li id="li_fgm_dgk_54b" irina="irina"><b>Videos</b> - The <xmlelement>object</xmlelement> element is converted to an HTML5
             <xmlelement>video</xmlelement> element.</li>
-          <li id="li_ggm_dgk_54b"><b>Audio Clips</b> - The <xmlelement>object</xmlelement> element is converted to an HTML5
+          <li id="li_ggm_dgk_54b" irina="irina"><b>Audio Clips</b> - The <xmlelement>object</xmlelement> element is converted to an HTML5
             <xmlelement>audio</xmlelement> element.</li>
-          <li id="li_hgm_dgk_54b"><b>Embedded HTML Frames</b> - The <xmlelement>object</xmlelement> element is converted to an
+          <li id="li_hgm_dgk_54b" irina="irina"><b>Embedded HTML Frames</b> - The <xmlelement>object</xmlelement> element is converted to an
             HTML5 <xmlelement>iframe</xmlelement> element.</li>
         </ul></p>
       <note type="tip" id="copy-embed-code-tip">There is an even faster way of inserting an embedded
@@ -206,17 +206,17 @@
         in the transformation scenario to present the media object as a plain link in the
         output.</p>
       <p id="p_jgm_dgk_54b">This can be achieved by following these steps:<ol id="ol_kgm_dgk_54b">
-          <li id="li_lgm_dgk_54b"><xref
+          <li id="li_lgm_dgk_54b" irina="irina"><xref
               href="create-dita-ot-transformation.dita#create-dita-ot-transformation/editing_a_dita_ot_transformation_scenario"
               >Edit the DITA transformation scenario</xref> for the output type that does not
             support embedded objects (for example, <uicontrol>DITA Map CHM</uicontrol>).</li>
-          <li id="li_mgm_dgk_54b">Go to the <xref href="dita-map-edit-parameters.dita#dita-map-edit-parameters"
+          <li id="li_mgm_dgk_54b" irina="irina">Go to the <xref href="dita-map-edit-parameters.dita#dita-map-edit-parameters"
                 ><uicontrol>Parameters</uicontrol> tab</xref> and click the
               <uicontrol>New</uicontrol> button to add a new parameter.</li>
-          <li id="li_ngm_dgk_54b">For the <uicontrol>Name</uicontrol>, enter:
+          <li id="li_ngm_dgk_54b" irina="irina">For the <uicontrol>Name</uicontrol>, enter:
               <uicontrol>com.oxygenxml.xhtml.linkToMediaResources</uicontrol>.</li>
-          <li id="li_ogm_dgk_54b">For the <uicontrol>Value</uicontrol>, enter: <b>true</b>.</li>
-          <li id="li_pgm_dgk_54b">Click <uicontrol>OK</uicontrol> and run the transformation.</li>
+          <li id="li_ogm_dgk_54b" irina="irina">For the <uicontrol>Value</uicontrol>, enter: <b>true</b>.</li>
+          <li id="li_pgm_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> and run the transformation.</li>
         </ol></p>
       <p id="p_qgm_dgk_54b"><b>Result:</b> The media object will appear in the output as a plain link instead of an
         embedded object.</p>

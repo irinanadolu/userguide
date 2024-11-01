@@ -45,13 +45,13 @@
         <dlentry id="dlentry_wm4_kz5_s4b">
           <dt><uicontrol>User</uicontrol> drop-down menu</dt>
           <dd>This drop-down includes:<ul id="ul_dlc_cm5_s4b">
-              <li id="li_elc_cm5_s4b"><uicontrol>Log in with Microsoft account</uicontrol> (if
+              <li id="li_elc_cm5_s4b" irina="irina"><uicontrol>Log in with Microsoft account</uicontrol> (if
                 logged out) - Opens the Microsoft login page in your default browser and
                 authenticates <ph keyref="product"/>.</li>
-              <li id="li_jdk_gm5_s4b"><uicontrol>Log out</uicontrol> (if logged in) - Logs out of
+              <li id="li_jdk_gm5_s4b" irina="irina"><uicontrol>Log out</uicontrol> (if logged in) - Logs out of
                 your Microsoft account and the authorization between <ph keyref="product"/> and
                 Microsoft is revoked.</li>
-              <li id="li_xdw_nm5_s4b"><uicontrol>Help</uicontrol> - Opens the online user guide to a
+              <li id="li_xdw_nm5_s4b" irina="irina"><uicontrol>Help</uicontrol> - Opens the online user guide to a
                 topic relevant to the current context.</li>
             </ul></dd>
         </dlentry>

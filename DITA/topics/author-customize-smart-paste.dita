@@ -30,18 +30,18 @@
       <title>How to Customize the Smart Paste Mapping</title>
       <p id="p_ns1_dgk_54b">To customize the mapping between the markup of the copied content and the markup of the
         pasted content for a particular document type, follow these steps:<ol id="ol_os1_dgk_54b">
-          <li id="li_ps1_dgk_54b">
+          <li id="li_ps1_dgk_54b" irina="irina">
             <p id="p_qs1_dgk_54b">Make sure the particular <term>framework</term> contains a folder named
                 <filepath>resources</filepath> in the following path structure:</p>
             <p id="p_rs1_dgk_54b"><filepath>/frameworks/[Document Type]/resources</filepath></p>
           </li>
-          <li id="li_ss1_dgk_54b">
+          <li id="li_ss1_dgk_54b" irina="irina">
             <p id="p_ts1_dgk_54b">Create an XSLT file named <filepath>xhtml2content.xsl</filepath> and save it in the
                 <filepath>resources</filepath> folder for the particular <term>framework</term>.</p>
             <p id="p_us1_dgk_54b">For example: <filepath>/frameworks/[Document
                 Type]/resources/xhtml2content.xsl</filepath></p>
           </li>
-          <li id="li_vs1_dgk_54b">Add your customized styling in the XSLT file. A list of supported parameters can be
+          <li id="li_vs1_dgk_54b" irina="irina">Add your customized styling in the XSLT file. A list of supported parameters can be
             found in the <xref
               href="#author-customize-smart-paste/supported_parameters_for_the_custom_xslt"
               format="dita"/> section below.<note type="tip" id="note_ws1_dgk_54b">The built-in DITA framework includes an
@@ -52,7 +52,7 @@
               are using a custom extension of the DITA framework, you can copy the entire contents
               of the built-in <filepath>dita/resources</filepath> folder and customize the
               stylesheets according to your needs.</note></li>
-          <li id="li_xs1_dgk_54b">You can test modifications done in the stylesheet by pasting content without having to
+          <li id="li_xs1_dgk_54b" irina="irina">You can test modifications done in the stylesheet by pasting content without having to
             restart <ph keyref="product"/>.</li>
         </ol></p>
       <p id="p_ys1_dgk_54b"><b>Result:</b> When you paste content from external applications (such as a web browser or

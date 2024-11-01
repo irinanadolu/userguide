@@ -23,7 +23,7 @@
       <title>Transformation Parameter Method</title>
       <p id="p_h24_cgk_54b">To exclude DITA topics from WebHelp search results using a transformation parameter, follow
         these steps:<ol id="ol_i24_cgk_54b">
-          <li id="li_j24_cgk_54b">
+          <li id="li_j24_cgk_54b" irina="irina">
             <p id="p_k24_cgk_54b">Create a simple text file that will contain your excluded file patterns. Each pattern
               must be on a new line. The patterns are considered to be relative to the output
               directory and they accept wildcards such as <userinput>'*'</userinput> (matches zero
@@ -39,14 +39,14 @@
               lines:<codeblock outputclass="language-ini" id="codeblock_m24_cgk_54b">resources/*
 topics/*.bak</codeblock></p>
           </li>
-          <li id="li_n24_cgk_54b">Set the <codeph>webhelp.search.custom.excludes.file</codeph> parameter to specify the
+          <li id="li_n24_cgk_54b" irina="irina">Set the <codeph>webhelp.search.custom.excludes.file</codeph> parameter to specify the
             path to the file that contains the excluded file patterns (for example,
               <filepath>exclude.properties</filepath> in step 1). The parameter can be specified in
             the <xref href="whr_publishing_template_contents.dita#transformation_parameters"
                 ><i>parameters</i> section of the template descriptor file</xref> associated with
             your publishing template or in the <uicontrol>Parameters</uicontrol> tab of the
             transformation scenario dialog box in <b>Oxygen XML Editor/Author</b>.</li>
-          <li id="li_o24_cgk_54b">Run the transformation.</li>
+          <li id="li_o24_cgk_54b" irina="irina">Run the transformation.</li>
         </ol></p>
     </section>
     <section id="search_attribute_method">
@@ -54,12 +54,12 @@ topics/*.bak</codeblock></p>
       <p id="p_p24_cgk_54b">The WebHelp <uicontrol>Search</uicontrol> engine does not index DITA topics that have the
           <xmlatt>search</xmlatt> attribute set to <codeph>no</codeph>.</p>
       <p id="p_q24_cgk_54b">To exclude DITA topics from WebHelp search results using this attribute, follow these steps:<ol id="ol_r24_cgk_54b">
-          <li id="li_s24_cgk_54b"> Edit the <term>DITA map</term> and for any <xmlelement>topicref</xmlelement> that you
+          <li id="li_s24_cgk_54b" irina="irina"> Edit the <term>DITA map</term> and for any <xmlelement>topicref</xmlelement> that you
             want to exclude from search results, set the <xmlatt>search</xmlatt> attribute to
               <codeph>no</codeph>. For
             example:<codeblock outputclass="language-xml" id="codeblock_t24_cgk_54b">&lt;topicref href="../topics/internal-topic1.dita" search="no"/></codeblock></li>
-          <li id="li_u24_cgk_54b"> Save your changes to the <term>DITA map</term>. </li>
-          <li id="li_v24_cgk_54b"> Run your WebHelp system transformation.</li>
+          <li id="li_u24_cgk_54b" irina="irina"> Save your changes to the <term>DITA map</term>. </li>
+          <li id="li_v24_cgk_54b" irina="irina"> Run your WebHelp system transformation.</li>
         </ol></p>
     </section>
   </body>

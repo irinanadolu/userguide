@@ -5,8 +5,8 @@
   <body>
     <note id="note_gmn_hvg_f1c" type="remember">
       <ul id="ul_rvr_hvg_f1c">
-        <li>The recommended icon format is SVG.</li>
-        <li>The default size of the note icons is 24x24px.</li>
+        <li irina="irina">The recommended icon format is SVG.</li>
+        <li irina="irina">The default size of the note icons is 24x24px.</li>
       </ul>
     </note>
     <p>To change the default icon for notes that do not have a <xmlatt>type</xmlatt> attribute, add

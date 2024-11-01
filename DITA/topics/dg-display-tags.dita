@@ -18,13 +18,13 @@
       working with <codeph>:before</codeph> and <codeph>:after</codeph> pseudo-elements, in which
       case the element range is already visually defined so the tag markers are redundant.</p>
     <p id="p_klc_dgk_54b">The property is named <codeph>-oxy-display-tags</codeph>, with the following possible values:<ul id="ul_llc_dgk_54b">
-        <li id="li_mlc_dgk_54b">
+        <li id="li_mlc_dgk_54b" irina="irina">
           <uicontrol>none</uicontrol> - Tags markers will not be presented regardless of the current
             <xref href="author-display-markup.dita">display mode</xref>.</li>
-        <li id="li_nlc_dgk_54b">
+        <li id="li_nlc_dgk_54b" irina="irina">
           <uicontrol>default</uicontrol> - The tag markers will be created depending on the current
             <xref href="author-display-markup.dita">display mode</xref>.</li>
-        <li id="li_olc_dgk_54b">
+        <li id="li_olc_dgk_54b" irina="irina">
           <uicontrol>inherit</uicontrol> - The value of the property is inherited from an ancestor
           element. </li>
       </ul><codeblock outputclass="language-css" id="codeblock_plc_dgk_54b">-oxy-display-tags

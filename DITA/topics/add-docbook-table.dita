@@ -17,8 +17,8 @@
     <p id="p_nwx_bgk_54b">You can use the <uicontrol><image href="../img/Table16.png"/>Insert Table</uicontrol> action
       on the toolbar or from the contextual menu to add a table in a DocBook document.</p>
     <p id="p_owx_bgk_54b">DocBook supports two types of tables:<ul id="ul_zs1_vhs_yq">
-        <li id="li_pwx_bgk_54b"><b>CALS</b> table model - This is used for more advanced functionality.</li>
-        <li id="li_qwx_bgk_54b"><b>HTML</b> table model - This is used for inserting a formal (captioned) HTML
+        <li id="li_pwx_bgk_54b" irina="irina"><b>CALS</b> table model - This is used for more advanced functionality.</li>
+        <li id="li_qwx_bgk_54b" irina="irina"><b>HTML</b> table model - This is used for inserting a formal (captioned) HTML
           table.</li>
       </ul></p>
     <section id="cals-table-model">
@@ -81,7 +81,7 @@
             <dd>Specifies the alignment of the text within the table (<xmlatt>align</xmlatt>
               attribute). The allowed values are:<ul
                 conkeyref="reusables-editing-documents/horizontal-align-docbook-ul" id="ul_exx_bgk_54b">
-                <li id="li_fxx_bgk_54b"/>
+                <li id="li_fxx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
         </dl><note id="note_gxx_bgk_54b">The options in the <uicontrol>Insert Table</uicontrol> dialog box for DocBook
@@ -151,7 +151,7 @@
             <dd>Specifies the alignment of the text within the table (<xmlatt>align</xmlatt>
               attribute). The allowed values are:<ul
                 conkeyref="reusables-editing-documents/horizontal-align-docbook-ul" id="ul_xxx_bgk_54b">
-                <li id="li_yxx_bgk_54b"/>
+                <li id="li_yxx_bgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
         </dl><note id="note_zxx_bgk_54b">The options in the <uicontrol>Insert Table</uicontrol> dialog box for DocBook

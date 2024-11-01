@@ -33,9 +33,9 @@
       <title>General Merge Recommendations</title>
       <p id="p_br3_dgk_54b">As a recommendation, you should only merge into clean working copies that <b>do not</b>
         contain any of the following:<ul id="ul_zgl_hpm_34">
-          <li id="li_cr3_dgk_54b">Modifications.</li>
-          <li id="li_dr3_dgk_54b">Sparse directories (all directories must be of depth <i>infinity</i>).</li>
-          <li id="li_er3_dgk_54b">Switched items.</li>
+          <li id="li_cr3_dgk_54b" irina="irina">Modifications.</li>
+          <li id="li_dr3_dgk_54b" irina="irina">Sparse directories (all directories must be of depth <i>infinity</i>).</li>
+          <li id="li_er3_dgk_54b" irina="irina">Switched items.</li>
         </ul><note type="important" id="note_fr3_dgk_54b">This recommendation becomes mandatory when performing a <xref
             href="merge-branch.dita#merge-branch/reintegrate-merge-prereq"><i>reintegrate
               merge</i></xref> operation. Also, trying to merge to mixed-revision working copies

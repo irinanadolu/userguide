@@ -39,12 +39,12 @@
 &lt;/catalog></codeblock></p>
     <p id="p_r1z_cgk_54b">The target resource part of the conversion URL must always follow the <codeph>!/</codeph>
       pattern. It can be any of the following:<ul id="ul_hbw_t3j_25">
-        <li id="li_s1z_cgk_54b">An absolute URL that points to a resource.</li>
-        <li id="li_t1z_cgk_54b">An identifier that will be resolved to an actual resource via the <xref
+        <li id="li_s1z_cgk_54b" irina="irina">An absolute URL that points to a resource.</li>
+        <li id="li_t1z_cgk_54b" irina="irina">An identifier that will be resolved to an actual resource via the <xref
             keyref="glossentry_xml-catalog"><term>XML Catalog</term></xref> support in the
           application. In the example above, the <b>urn:files:sample.xls</b> target resource is
           resolved via the <term>XML catalog</term>.</li>
-        <li id="li_u1z_cgk_54b">
+        <li id="li_u1z_cgk_54b" irina="irina">
           <p id="p_v1z_cgk_54b">A relative location. This location can only be resolved to an actual resource URL when
             the application has enough information about the location where the URL is
             referenced.</p>
@@ -69,21 +69,21 @@
         process. All parameters that are resolved to resources are passed through the <term>XML
           catalog</term> mapping.</p>
       <p id="p_bbz_cgk_54b">The following predefined conversion processors are included:<ul id="ul_r4y_5x2_mr">
-          <li id="li_cbz_cgk_54b"><b><codeph>xslt</codeph> Processor</b> - Converts an XML input using the Saxon EE XSLT
+          <li id="li_cbz_cgk_54b" irina="irina"><b><codeph>xslt</codeph> Processor</b> - Converts an XML input using the Saxon EE XSLT
             processor. The <codeph>ss</codeph> parameter indicates the stylesheet resource to be
             loaded. All other specified parameters will be set as parameters to the XSLT
             transformation.<codeblock outputclass="language-ini" id="codeblock_dbz_cgk_54b">convert:/processor=xslt;ss=urn:processors:convert.xsl;p1=v1!/urn:files:sample.xml</codeblock></li>
-          <li id="li_ebz_cgk_54b"><b><codeph>xquery</codeph> Processor</b> - Converts an XML input using the Saxon EE
+          <li id="li_ebz_cgk_54b" irina="irina"><b><codeph>xquery</codeph> Processor</b> - Converts an XML input using the Saxon EE
             XQuery processor. The <codeph>ss</codeph> parameter indicates the XQuery script to be
             loaded. All other specified parameters will be set as parameters to the XSLT
             transformation.<codeblock outputclass="language-ini" id="codeblock_fbz_cgk_54b">convert:/processor=xquery;ss=urn:processors:convert.xquery;p1=v1!/urn:files:sample.xml</codeblock></li>
-          <li id="li_gbz_cgk_54b"><b><codeph>excel</codeph> Processor</b> - Converts an <tm tmtype="tm">Excel</tm> input
+          <li id="li_gbz_cgk_54b" irina="irina"><b><codeph>excel</codeph> Processor</b> - Converts an <tm tmtype="tm">Excel</tm> input
             to an XML format that can later be converted by other piped processors. It has a single
             parameter <codeph>sn</codeph>, which indicates the name of the sheet that needs to be
             converted. If this parameter is missing, the XML will contain the combined content of
             all sheets included in the <tm tmtype="tm">Excel</tm> document.
             <codeblock outputclass="language-ini" id="codeblock_hbz_cgk_54b">convert:/processor=excel;sn=test!/urn:files:sample.xls</codeblock></li>
-          <li id="li_ibz_cgk_54b"><b><codeph>java</codeph> Processor</b> - Converts an input to another format by
+          <li id="li_ibz_cgk_54b" irina="irina"><b><codeph>java</codeph> Processor</b> - Converts an input to another format by
             applying a specific Java method. The <codeph>jars</codeph> parameter is a
             comma-separated list of <xref keyref="glossentry_jar"><term>JAR</term></xref> libraries,
             or folders that libraries will be loaded from. The <codeph>ccn</codeph> parameter is the
@@ -93,18 +93,18 @@
  InputStream is, OutputStream os, LinkedHashMap&lt;String, String> properties)
  throws IOException </codeblock><codeblock outputclass="language-ini" id="codeblock_kbz_cgk_54b">convert:/processor=java;jars=libs;ccn=test.JavaToXML!/
 urn:files:java/WSEditorBase.java</codeblock></li>
-          <li id="li_lbz_cgk_54b"><b><codeph>js</codeph> Processor</b> - Converts an input to another format by applying
+          <li id="li_lbz_cgk_54b" irina="irina"><b><codeph>js</codeph> Processor</b> - Converts an input to another format by applying
             a JavaScript method. The <codeph>js</codeph> parameter indicates the script that will be
             used. The <codeph>fn</codeph> parameter is the name of the method that will be called
             from the script. The method must take a string as an argument and return a string. If
             any of the parameters are missing, an error is thrown and the conversion
             stops.<codeblock outputclass="language-ini" id="codeblock_mbz_cgk_54b">convert:/processor=js;js=urn:processors:md.js;fn=convertExternal!/urn:files:sample.md</codeblock></li>
-          <li id="li_nbz_cgk_54b"><b><codeph>json</codeph> Processor</b> - Converts a JSON input to XML. It has no
+          <li id="li_nbz_cgk_54b" irina="irina"><b><codeph>json</codeph> Processor</b> - Converts a JSON input to XML. It has no
             parameters.<codeblock outputclass="language-ini" id="codeblock_obz_cgk_54b">convert:/processor=json!/urn:files:personal.json</codeblock></li>
-          <li id="li_pbz_cgk_54b"><b><codeph>xhtml</codeph> Processor</b> - Converts HTML content to well-formed XHTML.
+          <li id="li_pbz_cgk_54b" irina="irina"><b><codeph>xhtml</codeph> Processor</b> - Converts HTML content to well-formed XHTML.
             It has no
             parameters.<codeblock outputclass="language-ini" id="codeblock_qbz_cgk_54b">convert:/processor=xhtml!/urn:files:test.html</codeblock></li>
-          <li id="li_rbz_cgk_54b"><b><codeph>wrap</codeph> Processor</b> - Wraps content in a tag name making it
+          <li id="li_rbz_cgk_54b" irina="irina"><b><codeph>wrap</codeph> Processor</b> - Wraps content in a tag name making it
             well-formed XML. The <codeph>rn</codeph> parameter indicates the name of the root tag to
             use. By default, it is <codeph>wrapper</codeph>. The <codeph>encoding</codeph> parameter
             specifies the encoding that should be used to read the content. By default, it is
@@ -113,7 +113,7 @@ urn:files:java/WSEditorBase.java</codeblock></li>
             The CSV file is first wrapped as well-formed XML, which is then processed with an
               <codeph>xslt</codeph>
             processor.<codeblock outputclass="language-ini" id="codeblock_sbz_cgk_54b">convert:/processor=wrap!/urn:files:test.csv</codeblock></li>
-          <li id="li_tbz_cgk_54b"><b><codeph>cache</codeph> Processor</b> - Caches the converted content obtained from
+          <li id="li_tbz_cgk_54b" irina="irina"><b><codeph>cache</codeph> Processor</b> - Caches the converted content obtained from
             the original document to a temporary file. The cache will be used on subsequent uses of
             the same URL, thus increasing the speed for the application returning the converted
             content. If the original URL points to the local disk, the cache will be automatically

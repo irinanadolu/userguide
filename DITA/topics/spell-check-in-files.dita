@@ -15,14 +15,14 @@
     <p id="p_q45_bgk_54b">The <uicontrol><image href="../img/CheckSpelling16.png"/>Check Spelling in
         Files</uicontrol> action allows you to check the spelling on multiple local or remote
       documents. This action is available in the following locations:<ul id="ul_r45_bgk_54b">
-        <li id="li_s45_bgk_54b"><ph product="author developer editor json">The
+        <li id="li_s45_bgk_54b" irina="irina"><ph product="author developer editor json">The
               <uicontrol>Edit</uicontrol> menu.</ph></li>
-        <li id="li_t45_bgk_54b">The contextual menu of the <xref
+        <li id="li_t45_bgk_54b" irina="irina">The contextual menu of the <xref
             href="using-the-project-view.dita#using-the-project-view"><uicontrol
               product="author developer editor json">Project</uicontrol><uicontrol
               product="authorEclipse developerEclipse editorEclipse">Project Explorer</uicontrol>
             view</xref>.</li>
-        <li product="editor author authorEclipse editorEclipse" id="li_u45_bgk_54b">The contextual
+        <li product="editor author authorEclipse editorEclipse" id="li_u45_bgk_54b" irina="irina">The contextual
           menu of the <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
               Manager</uicontrol> view</xref>, when editing DITA documents.</li>
       </ul>This action opens the <uicontrol>Check Spelling in Files</uicontrol> dialog box that
@@ -45,29 +45,29 @@
     </p>
     <p id="p_x45_bgk_54b">The following scopes are possible, depending on where the action was invoked:</p>
     <ul id="ul_y45_bgk_54b">
-      <li id="li_z45_bgk_54b"><uicontrol>All opened files</uicontrol> - The spell check is performed in all open
+      <li id="li_z45_bgk_54b" irina="irina"><uicontrol>All opened files</uicontrol> - The spell check is performed in all open
         files.</li>
-      <li id="li_ap5_bgk_54b"><uicontrol>Current file directory</uicontrol> - All the files in the folder of the
+      <li id="li_ap5_bgk_54b" irina="irina"><uicontrol>Current file directory</uicontrol> - All the files in the folder of the
         currently edited file.</li>
-      <li id="li_bp5_bgk_54b"><b>Current DITA map hierarchy</b> - Option available when the dialog is invoked from the
+      <li id="li_bp5_bgk_54b" irina="irina"><b>Current DITA map hierarchy</b> - Option available when the dialog is invoked from the
           <uicontrol>DITA Maps Manager</uicontrol> view. Checks the spelling in all references
         contained in the DITA map.</li>
-      <li id="li_cp5_bgk_54b"><uicontrol>Project</uicontrol> - All files from the current project.</li>
-      <li id="li_dp5_bgk_54b"><uicontrol>Selected project resources</uicontrol> - The selected files from the current
+      <li id="li_cp5_bgk_54b" irina="irina"><uicontrol>Project</uicontrol> - All files from the current project.</li>
+      <li id="li_dp5_bgk_54b" irina="irina"><uicontrol>Selected project resources</uicontrol> - The selected files from the current
         project.</li>
-      <li id="li_ep5_bgk_54b"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a path
+      <li id="li_ep5_bgk_54b" irina="irina"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a path
         that you specify.</li>
     </ul>
     <p id="p_fp5_bgk_54b">The <uicontrol>Options</uicontrol> section includes the following options:</p>
     <ul id="ul_r43_tbh_wr">
-      <li id="li_gp5_bgk_54b"><uicontrol>File filter</uicontrol> - Allows you to filter the files from the selected
+      <li id="li_gp5_bgk_54b" irina="irina"><uicontrol>File filter</uicontrol> - Allows you to filter the files from the selected
         scope.</li>
-      <li id="li_hp5_bgk_54b"><uicontrol>Recurse subdirectories</uicontrol> - When selected, the spell check is
+      <li id="li_hp5_bgk_54b" irina="irina"><uicontrol>Recurse subdirectories</uicontrol> - When selected, the spell check is
         performed recursively for the specified scope. The one exception is that this option is
         ignored if the scope is set to <uicontrol>All opened files</uicontrol>.</li>
-      <li id="li_ip5_bgk_54b"><uicontrol>Include hidden files</uicontrol> - When selected, the spell check is also
+      <li id="li_ip5_bgk_54b" irina="irina"><uicontrol>Include hidden files</uicontrol> - When selected, the spell check is also
         performed in the hidden files.</li>
-      <li id="li_jp5_bgk_54b"><uicontrol>Spell Check Options</uicontrol> - The spell check processor uses the options
+      <li id="li_jp5_bgk_54b" irina="irina"><uicontrol>Spell Check Options</uicontrol> - The spell check processor uses the options
         available in the <xref href="preferences-editor-spell-check.dita"><uicontrol>Spell
             Check</uicontrol> preferences page</xref>.</li>
     </ul>
@@ -85,11 +85,11 @@
     <p product="editor author authorEclipse editorEclipse" id="p_mp5_bgk_54b">The following scopes are available when
       you check the spelling in files from the <xref href="dita-maps-manager.dita#dita-maps-manager"
           ><uicontrol>DITA Maps Manager</uicontrol></xref>:<ul id="ul_np5_bgk_54b">
-        <li id="li_op5_bgk_54b"><uicontrol>Current DITA Map hierarchy</uicontrol> - All the files referenced in the
+        <li id="li_op5_bgk_54b" irina="irina"><uicontrol>Current DITA Map hierarchy</uicontrol> - All the files referenced in the
           currently selected <xref keyref="glossentry_ditamap"><term>DITA map</term></xref> from in
           the <uicontrol>DITA Maps Manager</uicontrol> view.</li>
-        <li id="li_pp5_bgk_54b"><b>Selected references</b> - Checks the spelling in the selected references.</li>
-        <li id="li_qp5_bgk_54b"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a
+        <li id="li_pp5_bgk_54b" irina="irina"><b>Selected references</b> - Checks the spelling in the selected references.</li>
+        <li id="li_qp5_bgk_54b" irina="irina"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a
           path that you specify.</li>
       </ul></p>
   </body>

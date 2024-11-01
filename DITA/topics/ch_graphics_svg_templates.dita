@@ -17,7 +17,7 @@
       <title>Using SVG Template as a Cover Page</title>
       <p>A good use-case for SVG templates is when you want to create a custom cover page. For
           example:<ol id="ol_dds_1wr_lyb">
-          <li>Suppose the following HTML file should be printed with a cover
+          <li irina="irina">Suppose the following HTML file should be printed with a cover
             page:<codeblock id="codeblock_o54_y5r_lyb" outputclass="language-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE html>
 &lt;html xmlns="http://www.w3.org/1999/xhtml">
@@ -32,7 +32,7 @@
         ...
     &lt;/body>
 &lt;/html></codeblock></li>
-          <li>The cover image (for example, named <filepath>cover.template.svg</filepath>) should
+          <li irina="irina">The cover image (for example, named <filepath>cover.template.svg</filepath>) should
             display <xmlelement>meta</xmlelement> nodes information and the main title. Both the
               <i>author</i> and <i>version</i> will be displayed in rectangular shapes prefixed with
             the displayed information ("Author:" and "Version:"), while the title is positioned in
@@ -59,17 +59,17 @@
   &lt;/g>
 &lt;/svg></codeblock><note id="note_nkn_dxr_lyb" type="other" othertype="Notes">
               <ul id="ul_ixf_3xr_lyb">
-                <li>XPath expressions are not expanded if the SVG template is open in
+                <li irina="irina">XPath expressions are not expanded if the SVG template is open in
                     <uicontrol>Author</uicontrol> mode.</li>
-                <li>XPath expressions can be tested (without <codeph>${}</codeph>) using the
+                <li irina="irina">XPath expressions can be tested (without <codeph>${}</codeph>) using the
                   XPath/XQuery Builder view.</li>
               </ul>
             </note><note id="note_c5b_dg2_4yb" type="important">
               <ul id="ul_i13_psl_4yb">
-                <li>If you received the SVG image from someone else (e.g. a graphics designer), make
+                <li irina="irina">If you received the SVG image from someone else (e.g. a graphics designer), make
                   sure that the text from the image was not converted to glyph shapes and that it is
                   rendered using the <xmlelement>text</xmlelement> element.</li>
-                <li>The SVG <xmlelement>text</xmlelement> element does not wrap the text if it
+                <li irina="irina">The SVG <xmlelement>text</xmlelement> element does not wrap the text if it
                   overflows the image. If you have longer text that needs to be rendered, you might
                   consider using multiple <xmlelement>text</xmlelement> elements and more evolved
                   XPath expressions (for example, using the <codeph>substring()</codeph> function)
@@ -83,7 +83,7 @@
 >Version:&lt;/text>
 &lt;text font-size="16" stroke-width="0" y="104" x="659" stroke="#000" fill="#000000"
 >Here comes the version&lt;/text></codeblock></note></li>
-          <li>The CSS stylesheet should declare a synthetic page to be printed before the HTML
+          <li irina="irina">The CSS stylesheet should declare a synthetic page to be printed before the HTML
             document and display the SVG cover image on this new
               page:<codeblock id="codeblock_tj4_zwr_lyb" outputclass="language-css">@page cover-page {
   background-image: url('cover.template.svg');
@@ -99,7 +99,7 @@ html::before {
               <xref href="ch_advanced_styling_multiple_before_and_after_pseudo_elements.dita"
                 >pseudo-elements</xref> and multiple <codeph>@page</codeph> definitions for each of
               the <codeph>before</codeph> elements.</p></li>
-          <li>After the transformation, the final document cover will look like this:<p
+          <li irina="irina">After the transformation, the final document cover will look like this:<p
               id="p_yyc_f43_syb"><image href="../img/ch_svg_xpath.png" id="image_hvk_jyr_lyb"
             /></p></li>
         </ol></p>

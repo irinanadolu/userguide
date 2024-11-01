@@ -19,9 +19,9 @@
         directive at the beginning of your
         files:<codeblock outputclass="language-css" id="codeblock_wm2_cgk_54b">@charset "utf-8";</codeblock></note></p>
     <p id="p_xm2_cgk_54b">You have two options for compiling LESS files to CSS:<ol id="ol_wtt_fnp_lq">
-        <li id="li_ym2_cgk_54b">Use the contextual menu in a LESS file and select <uicontrol>Compile to CSS (<shortcut
+        <li id="li_ym2_cgk_54b" irina="irina">Use the contextual menu in a LESS file and select <uicontrol>Compile to CSS (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"/>)</uicontrol>.</li>
-        <li id="li_zm2_cgk_54b">Select the <xref
+        <li id="li_zm2_cgk_54b" irina="irina">Select the <xref
             href="preferences-editor-save.dita#preferences-editor-save/auto-compile"
               ><uicontrol>Automatically compile LESS to CSS when saving</uicontrol> option</xref>
           (in the <uicontrol>Save</uicontrol> preferences page). If selected, when you save a LESS

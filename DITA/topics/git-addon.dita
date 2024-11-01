@@ -20,18 +20,18 @@
     <section id="section_tdq_wvx_qsb">
       <title>Quick Installation</title>
       <p conkeyref="reusables-addons/p_install_button" id="p_hzl_4xg_rsb"/>
-      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed"><![CDATA[
-               <a
+      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed">
+               &lt;a
           title = "Drag and drop into the Oxygen editing area to install (Oxygen 24.1 and newer)."
           href="https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml?oxygenAddonId=com.oxygenxml.git"
           style="padding: 8px; border: 1px solid #cbcbcb; border-radius: 4px; cursor: grab;color:black;
-          text-decoration:none;"><img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/><span>Install</span></a>]]></foreign></p>
+          text-decoration:none;">&lt;img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/>&lt;span>Install&lt;/span>&lt;/a></foreign></p>
     </section>
     <section id="section_fqc_23y_kpb">
       <title>Manual Installation</title>
       <p id="p_hyg_dgk_54b">To manually install the add-on, follow this procedure:<ol
           id="ol_zdl_rpm_knb">
-          <li id="li_iyg_dgk_54b">Go to <menucascade>
+          <li id="li_iyg_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Install new add-ons</uicontrol>
             </menucascade> to open an add-on selection dialog box. Enter or paste
@@ -43,12 +43,12 @@
                 >download the add-on package</xref>, unzip it, then use the <uicontrol>Browse for
                 local files</uicontrol> action in the <uicontrol>Install new add-ons</uicontrol>
               dialog box to locate the downloaded <filepath>addon.xml</filepath> file.</note></li>
-          <li id="li_jyg_dgk_54b">Select the <b>Git Client</b> add-on and click
+          <li id="li_jyg_dgk_54b" irina="irina">Select the <b>Git Client</b> add-on and click
               <uicontrol>Next</uicontrol>.</li>
-          <li id="li_kyg_dgk_54b">Read the end-user license agreement. Then select the <uicontrol>I
+          <li id="li_kyg_dgk_54b" irina="irina">Read the end-user license agreement. Then select the <uicontrol>I
               accept all terms of the end-user license agreement</uicontrol> option and click
               <uicontrol>Finish</uicontrol>.</li>
-          <li id="li_lyg_dgk_54b">Restart the application.</li>
+          <li id="li_lyg_dgk_54b" irina="irina">Restart the application.</li>
         </ol></p>
       <p id="p_myg_dgk_54b"><b>Result:</b> The <uicontrol>Git Staging</uicontrol> view is now
         available. To open the view, select <uicontrol>Git Staging</uicontrol> from the <menucascade>
@@ -291,11 +291,11 @@
       <title>Cloning a Repository</title>
       <p id="p_egp_p3y_kpb">Click the <b>Clone new repository</b> button (it has a '+' sign as the
         icon) and provide the following:<ul id="ul_fgp_p3y_kpb">
-          <li id="li_ggp_p3y_kpb"><b>Repository URL</b> - The URL of the remote repository to be
+          <li id="li_ggp_p3y_kpb" irina="irina"><b>Repository URL</b> - The URL of the remote repository to be
             cloned.</li>
-          <li id="li_hgp_p3y_kpb"><b>Checkout branch</b> - A specific branch of the repository that
+          <li id="li_hgp_p3y_kpb" irina="irina"><b>Checkout branch</b> - A specific branch of the repository that
             is being cloned. The default branch will be cloned if another one is not specified.</li>
-          <li id="li_igp_p3y_kpb"><b>Destination path</b> - The local path where the repository will
+          <li id="li_igp_p3y_kpb" irina="irina"><b>Destination path</b> - The local path where the repository will
             be cloned. When you enter a URL of a repository, it will be proposed to automatically
             save it in a folder with the same name. </li>
         </ul></p>
@@ -338,12 +338,12 @@
         either a basic authentication method (username + password) or a personal access token.<note
           id="note_dwb_qky_kpb" type="other" othertype="Notes">
           <ul id="ul_ths_2ky_kpb">
-            <li id="li_uhs_2ky_kpb">The authentication using personal access tokens has been tested
+            <li id="li_uhs_2ky_kpb" irina="irina">The authentication using personal access tokens has been tested
               with GitHub and GitLab.</li>
-            <li id="li_vhs_2ky_kpb">Bitbucket uses a concept similar to personal access tokens,
+            <li id="li_vhs_2ky_kpb" irina="irina">Bitbucket uses a concept similar to personal access tokens,
               named <i>app passwords</i>. An app password must be provided as the password for
                 <i>Basic authentication</i>, along with the correct username.</li>
-            <li id="li_whs_2ky_kpb">As of August 13, 2021, GitHub will no longer accept
+            <li id="li_whs_2ky_kpb" irina="irina">As of August 13, 2021, GitHub will no longer accept
               password-based authentication.</li>
           </ul>
         </note></p>
@@ -438,18 +438,18 @@
         application.</p>
       <p>In the toolbar, you can choose which branches will have the history shown. You have the
         following options:<ul id="ul_jps_3v5_msb">
-          <li><uicontrol>Current branch</uicontrol> - Shows the commits for the current branch,
+          <li irina="irina"><uicontrol>Current branch</uicontrol> - Shows the commits for the current branch,
             including unpushed local and unpulled remote commits.</li>
-          <li><uicontrol>Current local branch</uicontrol> - Shows the commits only for the current
+          <li irina="irina"><uicontrol>Current local branch</uicontrol> - Shows the commits only for the current
             local branch, including unpushed local commits.</li>
-          <li><uicontrol>All branches</uicontrol> - Shows the commits for all branches (both local
+          <li irina="irina"><uicontrol>All branches</uicontrol> - Shows the commits for all branches (both local
             and remote), including unpushed local and unpulled remote commits.</li>
-          <li><uicontrol>All local branches</uicontrol> - Shows the commits only for local branches,
+          <li irina="irina"><uicontrol>All local branches</uicontrol> - Shows the commits only for local branches,
             including unpushed local commits.</li>
         </ul></p>
       <p id="p_tkw_lmy_kpb">For each commit in the history table, the following actions are
           available:<ul id="ul_ukw_lmy_kpb">
-          <li id="li_vkw_lmy_kpb">
+          <li id="li_vkw_lmy_kpb" irina="irina">
             <p id="p_wkw_lmy_kpb"><uicontrol>Create branch</uicontrol> - Used to create a new branch
               starting from the selected commit. The new branch is automatically checked out by
               default. To disable this behavior, deselect the <uicontrol>Checkout branch</uicontrol>
@@ -458,14 +458,14 @@
                 you need to simply push the local branch using the dedicated action from the
                   <uicontrol>Git Staging</uicontrol> side-view.</note></p>
           </li>
-          <li><uicontrol>Create tag</uicontrol> - Used to create a new tag on the selected commit.
+          <li irina="irina"><uicontrol>Create tag</uicontrol> - Used to create a new tag on the selected commit.
             You have the option to push the tag to the remote repository.</li>
-          <li id="li_k54_nw5_ksb"><uicontrol>Checkout</uicontrol> - Used to checkout a branch at a
+          <li id="li_k54_nw5_ksb" irina="irina"><uicontrol>Checkout</uicontrol> - Used to checkout a branch at a
             specific commit (either in detached head form or by creating a new branch at that
             commit).</li>
-          <li><uicontrol>Revert commit</uicontrol> - Used to create a new commit that reverts all
+          <li irina="irina"><uicontrol>Revert commit</uicontrol> - Used to create a new commit that reverts all
             the changes from the selected commit.</li>
-          <li id="li_ykw_lmy_kpb"><uicontrol>Reset "[branch_name]" to this commit</uicontrol> - Used
+          <li id="li_ykw_lmy_kpb" irina="irina"><uicontrol>Reset "[branch_name]" to this commit</uicontrol> - Used
             to undo changes by moving the HEAD of the current branch to the selected commit.</li>
         </ul></p>
       <p id="p_zkw_lmy_kpb">The <uicontrol>Git History</uicontrol> view presents all the affected
@@ -474,27 +474,27 @@
         An included revision graph helps you to understand how commits connect with one another. For
         each resource, the following actions are available in the contextual menu:<ul
           id="ul_alw_lmy_kpb">
-          <li id="li_blw_lmy_kpb"><uicontrol>Open</uicontrol> (available for added and modified
+          <li id="li_blw_lmy_kpb" irina="irina"><uicontrol>Open</uicontrol> (available for added and modified
             resources) - This action opens the selected resource.</li>
-          <li id="li_clw_lmy_kpb"><uicontrol>Open previous version</uicontrol> (available for
+          <li id="li_clw_lmy_kpb" irina="irina"><uicontrol>Open previous version</uicontrol> (available for
             deleted resources) - This action opens the version of the selected resource from before
             its deletion.</li>
-          <li><uicontrol>Open working copy version</uicontrol> (available for added and modified
+          <li irina="irina"><uicontrol>Open working copy version</uicontrol> (available for added and modified
             resources) - This action opens the working copy version of the selected resource. It
             also works if the resource has been renamed in between versions.</li>
-          <li><uicontrol>Reset file to this commit</uicontrol> (available for added and modified
+          <li irina="irina"><uicontrol>Reset file to this commit</uicontrol> (available for added and modified
             resources) - This action checks out the selected version of the resource, overwriting
             its current version. It does not work if the resource has been renamed or deleted in
             between versions.</li>
-          <li id="li_dlw_lmy_kpb"><uicontrol>Compare with previous version</uicontrol> (available
+          <li id="li_dlw_lmy_kpb" irina="irina"><uicontrol>Compare with previous version</uicontrol> (available
             for modified resources) - This action compares the selected version of the selected
             resource with the previous one using the <xref href="file-comparison.dita"><b>Compare
                 Files</b> tool</xref>.</li>
-          <li id="li_elw_lmy_kpb"><uicontrol>Compare with working copy version</uicontrol>
+          <li id="li_elw_lmy_kpb" irina="irina"><uicontrol>Compare with working copy version</uicontrol>
             (available for modified resources) - This action compares the selected version of the
             selected resource with the current one using the <xref href="file-comparison.dita"
                 ><b>Compare Files</b> tool</xref>.</li>
-          <li id="li_flw_lmy_kpb"><uicontrol>Compare with each other</uicontrol> (available when
+          <li id="li_flw_lmy_kpb" irina="irina"><uicontrol>Compare with each other</uicontrol> (available when
             selecting 2 versions of a single file) - This action compares the selected versions with
             each other using the <xref href="file-comparison.dita"><b>Compare Files</b>
             tool</xref>.</li>
@@ -516,16 +516,16 @@
       <p id="p_tpy_tny_kpb">In the <uicontrol>Unstaged files</uicontrol> area, you will see all the
         modifications that have occurred in your working copy (files that have been modified, new
         files, and deleted files) and are not part of the next commit.<ul id="ul_upy_tny_kpb">
-          <li id="li_vpy_tny_kpb">Various actions are available in the contextual menu (<b>Open</b>,
+          <li id="li_vpy_tny_kpb" irina="irina">Various actions are available in the contextual menu (<b>Open</b>,
               <b>Open in compare editor</b>, <b>Stage</b>, <b>Discard</b>, <b>Show history</b>,
               <b>Show blame</b>, and more).</li>
-          <li id="li_wpy_tny_kpb">You can stage files (i.e. move them to the <xref
+          <li id="li_wpy_tny_kpb" irina="irina">You can stage files (i.e. move them to the <xref
               href="#git-addon/section_pxw_wny_kpb" format="dita"><uicontrol>Staged
                 files</uicontrol> area</xref>) using the actions from the toolbar found above the
             top-right corner of this area. You can choose between staging all the files, by clicking
             the <b>Stage all</b> button (double arrow icon), and staging specific files, by
             selecting them and clicking the <b>Stage selected</b> button (single arrow icon).</li>
-          <li id="li_xpy_tny_kpb">You can switch between the list view and the tree view by clicking
+          <li id="li_xpy_tny_kpb" irina="irina">You can switch between the list view and the tree view by clicking
             on the <uicontrol>Switch to tree/list view</uicontrol> button positioned to the right of
             the staging buttons.</li>
         </ul></p>
@@ -561,13 +561,13 @@
       <p id="p_tbf_s4y_kpb">In the toolbar above the <uicontrol>Commit message</uicontrol> text
         area, there are a few toggle buttons that affect your commit if they are enabled:<ul
           id="ul_ubf_s4y_kpb">
-          <li id="li_vbf_s4y_kpb"><uicontrol>Amend last commit</uicontrol> - Enabling this option is
+          <li id="li_vbf_s4y_kpb" irina="irina"><uicontrol>Amend last commit</uicontrol> - Enabling this option is
             a convenient way to modify the most recent commit. It lets you combine staged changes
             with the previous commit instead of creating an entirely new commit. It can also be used
             to simply edit the previous commit message without changing its snapshot. This action
             should not be performed on public commits (commits that were pushed to the remote
             repository).</li>
-          <li id="li_wbf_s4y_kpb"><uicontrol>Automatically push changes to remote when
+          <li id="li_wbf_s4y_kpb" irina="irina"><uicontrol>Automatically push changes to remote when
               committing</uicontrol> - If this option is enabled, when a commit is performed, the
             committed changes are also pushed to the remote repository.</li>
         </ul></p>
@@ -590,9 +590,9 @@
       <p id="p_ijj_gpy_kpb">After editing a file, committing it to the local repository, and trying
         to push it to the remote repository, if a warning appears about not being up to date with
         the repository, follow these steps:<ol id="ol_jjj_gpy_kpb">
-          <li id="li_kjj_gpy_kpb">Pull the data from the repository using one of the <i>Pull</i>
+          <li id="li_kjj_gpy_kpb" irina="irina">Pull the data from the repository using one of the <i>Pull</i>
             actions.</li>
-          <li id="li_ljj_gpy_kpb">In the <xref href="#git-addon/section_t21_pny_kpb" format="dita"
+          <li id="li_ljj_gpy_kpb" irina="irina">In the <xref href="#git-addon/section_t21_pny_kpb" format="dita"
                 ><uicontrol>Unstaged files</uicontrol> area</xref>, select each conflicted file and
             resolve the conflicts. You can do this, for example, by opening the conflicted files in
             the compare editor, either by double-clicking on them or by using the contextual menu
@@ -600,31 +600,31 @@
             document. You can also use the <uicontrol>Resolve using Mine</uicontrol>,
               <uicontrol>Resolve using Theirs</uicontrol>, or <uicontrol>Mark as
               resolved</uicontrol> actions from the contextual menu of a resource.</li>
-          <li id="li_mjj_gpy_kpb">If you choose to use the compare editor, after you close it, the
+          <li id="li_mjj_gpy_kpb" irina="irina">If you choose to use the compare editor, after you close it, the
             file will be staged automatically and moved to the <xref
               href="#git-addon/section_pxw_wny_kpb" format="dita"><uicontrol>Staged
                 files</uicontrol> area</xref>.</li>
         </ol></p>
       <p id="p_njj_gpy_kpb">At this point, the next actions depend on which <i>Pull</i> action was
           chosen:<ul id="ul_ojj_gpy_kpb">
-          <li id="li_pjj_gpy_kpb">
+          <li id="li_pjj_gpy_kpb" irina="irina">
             <p id="p_qjj_gpy_kpb"><uicontrol>Pull (merge)</uicontrol>:<ol id="ol_rjj_gpy_kpb">
-                <li id="li_sjj_gpy_kpb">When all the conflicts are resolved and no more files are
+                <li id="li_sjj_gpy_kpb" irina="irina">When all the conflicts are resolved and no more files are
                   left in the <xref href="#git-addon/section_t21_pny_kpb" format="dita"
                       ><uicontrol>Unstaged files</uicontrol> area</xref>, the changes can be
                   committed.</li>
-                <li id="li_tjj_gpy_kpb">Enter a message and commit. You will now have new changes to
+                <li id="li_tjj_gpy_kpb" irina="irina">Enter a message and commit. You will now have new changes to
                   push.</li>
-                <li id="li_ujj_gpy_kpb">Push the changes to the remote repository.</li>
+                <li id="li_ujj_gpy_kpb" irina="irina">Push the changes to the remote repository.</li>
               </ol><note id="note_ymz_spy_kpb">You can abort the merge by clicking the
                   <uicontrol>Abort merge</uicontrol> button. This will revert the repository to its
                 previous state prior to the pull attempt.</note></p>
           </li>
-          <li id="li_wjj_gpy_kpb">
+          <li id="li_wjj_gpy_kpb" irina="irina">
             <p id="p_xjj_gpy_kpb"><uicontrol>Pull (rebase)</uicontrol>:<ol id="ol_yjj_gpy_kpb">
-                <li id="li_zjj_gpy_kpb">When all the conflicts are resolved, click the
+                <li id="li_zjj_gpy_kpb" irina="irina">When all the conflicts are resolved, click the
                     <uicontrol>Continue rebase</uicontrol> button.</li>
-                <li id="li_akj_gpy_kpb">Push any outgoing changes.</li>
+                <li id="li_akj_gpy_kpb" irina="irina">Push any outgoing changes.</li>
               </ol><note id="note_yh2_dqy_kpb">You can abort the rebase by clicking the
                   <uicontrol>Abort rebase</uicontrol> button. This will revert the repository to its
                 previous state prior to the pull request.</note></p>
@@ -676,9 +676,9 @@
       <p id="p_glv_4qy_kpb">The following actions are available in the contextual menu for each
         local branch:</p>
       <ul id="ul_hlv_4qy_kpb">
-        <li id="li_ilv_4qy_kpb"><uicontrol>Checkout</uicontrol> - Checks out the selected branch and
+        <li id="li_ilv_4qy_kpb" irina="irina"><uicontrol>Checkout</uicontrol> - Checks out the selected branch and
           switches the local repository to the selected branch.</li>
-        <li id="li_jlv_4qy_kpb">
+        <li id="li_jlv_4qy_kpb" irina="irina">
           <p id="p_klv_4qy_kpb"><uicontrol>Create branch</uicontrol> - Creates a new branch using
             the selected branch as the starting point. The new branch is automatically checked out
             by default. To disable this behavior, deselect the <uicontrol>Checkout
@@ -687,13 +687,13 @@
               start tracking that branch, you need to simply push the local branch using the
               dedicated action from the <uicontrol>Git Staging</uicontrol> side-view.</note></p>
         </li>
-        <li><uicontrol>Merge "SELECTED_BRANCH" into "CURRENT_BRANCH"</uicontrol> - Merges all the
+        <li irina="irina"><uicontrol>Merge "SELECTED_BRANCH" into "CURRENT_BRANCH"</uicontrol> - Merges all the
           changes from <i>SELECTED_BRANCH</i> into <i>CURRENT_BRANCH</i>.</li>
-        <li id="li_klx_ygf_ktb"><uicontrol>Squash merge "SELECTED_BRANCH" into
+        <li id="li_klx_ygf_ktb" irina="irina"><uicontrol>Squash merge "SELECTED_BRANCH" into
             "CURRENT_BRANCH"</uicontrol> - Merges all the changes made on the <i>SELECTED_BRANCH</i>
           since it diverged from the <i>CURRENT_BRANCH</i>, on top of the <i>CURRENT_BRANCH</i>, and
           it records the results in a new commit.</li>
-        <li id="li_mlv_4qy_kpb"><uicontrol>Delete</uicontrol> - Deletes the selected branch.</li>
+        <li id="li_mlv_4qy_kpb" irina="irina"><uicontrol>Delete</uicontrol> - Deletes the selected branch.</li>
       </ul>
       <p id="p_nlv_4qy_kpb">For the remote branches, the <uicontrol>Checkout branch</uicontrol>
         action checks out the selected branch and creates a local branch from the selected remote
@@ -715,42 +715,42 @@
           <uicontrol>Git Staging</uicontrol> view and select <uicontrol>Preferences</uicontrol>.
         This preferences page includes the following options:</p>
       <ul id="ul_xjr_pqy_kpb">
-        <li id="li_yjr_pqy_kpb">
+        <li id="li_yjr_pqy_kpb" irina="irina">
           <p id="p_zjr_pqy_kpb"><uicontrol>When detecting a Git repository inside a newly opened
               project</uicontrol> - This determines what happens to the current working copy when a
             project that contains a Git repository is opened in the <xref
               href="using-the-project-view.dita"><uicontrol>Project</uicontrol> side-view</xref>.
             You can choose between:<ul id="ul_akr_pqy_kpb">
-              <li id="li_bkr_pqy_kpb"><uicontrol>Always switch to the new working
+              <li id="li_bkr_pqy_kpb" irina="irina"><uicontrol>Always switch to the new working
                 copy</uicontrol></li>
-              <li id="li_ckr_pqy_kpb"><uicontrol>Never switch to the new working
+              <li id="li_ckr_pqy_kpb" irina="irina"><uicontrol>Never switch to the new working
                 copy</uicontrol></li>
-              <li id="li_dkr_pqy_kpb"><uicontrol>Always ask</uicontrol> (default value)</li>
+              <li id="li_dkr_pqy_kpb" irina="irina"><uicontrol>Always ask</uicontrol> (default value)</li>
             </ul></p>
         </li>
-        <li id="li_fkr_pqy_kpb">
+        <li id="li_fkr_pqy_kpb" irina="irina">
           <p id="p_gkr_pqy_kpb"><uicontrol>Notify me about new commits in the remote
               repository</uicontrol> - When this option is selected, <ph keyref="product"/> will
             show notification messages when it detects that new commits have been pushed to the
             remote repository. By default, this option is not selected.</p>
         </li>
-        <li id="li_hkr_pqy_kpb">
+        <li id="li_hkr_pqy_kpb" irina="irina">
           <p id="p_ikr_pqy_kpb"><uicontrol>Update all submodules after pulling changes from the
               remote repository</uicontrol> - If this option is selected, when a repository is
             updated using the <i>Pull</i> operation, all sub-modules are updated as well. This
             option is selected by default.</p>
         </li>
-        <li id="li_okr_pqy_kpb"><uicontrol>Detect and open Oxygen projects (.xpr) from opened
+        <li id="li_okr_pqy_kpb" irina="irina"><uicontrol>Detect and open Oxygen projects (.xpr) from opened
             working copies</uicontrol> - If this option is selected (by default, it is not selected)
           and a working copy that contains one or more project files (<filepath>.xpr</filepath>) is
           opened: <ul id="ul_ocz_ldd_45b">
-            <li>If one <filepath>.xpr</filepath> file is found, it will be opened
+            <li irina="irina">If one <filepath>.xpr</filepath> file is found, it will be opened
               automatically.</li>
-            <li>If more than one <filepath>.xpr</filepath> files are found and none of them are
+            <li irina="irina">If more than one <filepath>.xpr</filepath> files are found and none of them are
               opened, a dialog box will appear where the <filepath>.xpr</filepath> can be
               selected.</li>
           </ul></li>
-        <li id="li_jkr_pqy_kpb">
+        <li id="li_jkr_pqy_kpb" irina="irina">
           <p id="p_jkr_pqy_kpb"><uicontrol>Validate each file before commiting</uicontrol> - When
             this option is selected, each file to be committed will be validated individually. If
             validation problems are detected, the commit operation will be stopped and a dialog box
@@ -759,18 +759,18 @@
               problems occur</uicontrol> option is selected (the default state), the dialog box will
             include a <uicontrol>Commit anyway</uicontrol> button that allows the commit operation
             to be completed even if validation issues have been found.</p></li>
-        <li id="li_kkr_pqy_kpb" product="author developer editor">
+        <li id="li_kkr_pqy_kpb" product="author developer editor" irina="irina">
           <p id="p_kkr_pqy_kpb"><uicontrol>Validate all files from the project's "Main Files" folder
               before pushing</uicontrol> - When this option is selected, the files in the "Main
             Files" folder will be validated.</p>
           <p id="p_mnv_qm4_wtb">The following are required for this option to function properly:<ul
               id="ul_tqg_5l4_wtb">
-              <li id="li_ltj_km4_wtb"><xref href="enabling-the-main-files-support.dita"><b>Main
+              <li id="li_ltj_km4_wtb" irina="irina"><xref href="enabling-the-main-files-support.dita"><b>Main
                     Files</b> support must be enabled</xref> and the files must be properly inserted
                 in the "Main Files" folder.</li>
-              <li id="li_pyn_km4_wtb">It is mandatory that a validation scenario be configured
+              <li id="li_pyn_km4_wtb" irina="irina">It is mandatory that a validation scenario be configured
                 because the validation will be based on it.</li>
-              <li id="li_uqg_5l4_wtb">The current repository must be the same as the project loaded
+              <li id="li_uqg_5l4_wtb" irina="irina">The current repository must be the same as the project loaded
                 in the <b>Project View</b> and there must be no uncommitted changes (if detected, a
                 dialog box will appear offering the option to make a stash be applied after the
                 project validation).</li>
@@ -782,7 +782,7 @@
             dialog box will include a <uicontrol>Push anyway</uicontrol> button that allows the push
             operation to be completed even if validation issues are detected.</p>
         </li>
-        <li id="li_twy_sm4_drb"><uicontrol>Global Options/Project Options</uicontrol> - If you
+        <li id="li_twy_sm4_drb" irina="irina"><uicontrol>Global Options/Project Options</uicontrol> - If you
           select <uicontrol>Project Options</uicontrol>, the settings are stored in the project file
             (<filepath>.xpr</filepath>) that can easily be <xref
             href="sharing-possibilities.dita#sharing-possibilities/share_settings_through_a_project_file"
@@ -790,14 +790,14 @@
       </ul>
       <p> Under the preferences page, there is the "SSH Connections" page, which includes the
         following options: <ul id="ul_xjr_pqy_yut">
-          <li id="li_yjr_pqy_pop">
+          <li id="li_yjr_pqy_pop" irina="irina">
             <p id="p_zjr_pqy_iuo"><uicontrol>Use SSH agent</uicontrol> - when this option is
               selected, the selected SSH agent support is used to benefit from the SSH keys already
               stored in it. On <b>Linux</b>, <b>OS X</b>, and <b>BSD</b>, the only agent
               communication mechanism supported is the usual communication via a Unix domain socket.
               On Windows you can choose between:<ul id="ul_akr_pqy_yut">
-                <li id="li_bkr_pqy_kbr"><uicontrol>Pageant</uicontrol></li>
-                <li id="li_ckr_pqy_oio"><uicontrol>Win 32 Open SSH</uicontrol>(default value)</li>
+                <li id="li_bkr_pqy_kbr" irina="irina"><uicontrol>Pageant</uicontrol></li>
+                <li id="li_ckr_pqy_oio" irina="irina"><uicontrol>Win 32 Open SSH</uicontrol>(default value)</li>
               </ul></p>
           </li>
         </ul></p>
@@ -806,15 +806,15 @@
       <title>Editor Variables</title>
       <p id="p_em4_qqy_kpb">The <i>Git Client</i> contributes the following editor variables:</p>
       <ul id="ul_fm4_qqy_kpb">
-        <li id="li_gm4_qqy_kpb"><uicontrol>${git(working_copy_name)}</uicontrol> - The name of the
+        <li id="li_gm4_qqy_kpb" irina="irina"><uicontrol>${git(working_copy_name)}</uicontrol> - The name of the
           working copy directory.</li>
-        <li id="li_hm4_qqy_kpb"><uicontrol>${git(working_copy_path)}</uicontrol> - The absolute file
+        <li id="li_hm4_qqy_kpb" irina="irina"><uicontrol>${git(working_copy_path)}</uicontrol> - The absolute file
           path of the working copy directory.</li>
-        <li><uicontrol>${git(working_copy_url)}</uicontrol> - The location of the working copy
+        <li irina="irina"><uicontrol>${git(working_copy_url)}</uicontrol> - The location of the working copy
           directory as a URL.</li>
-        <li id="li_im4_qqy_kpb"><uicontrol>${git(short_branch_name)}</uicontrol> - The short name of
+        <li id="li_im4_qqy_kpb" irina="irina"><uicontrol>${git(short_branch_name)}</uicontrol> - The short name of
           the current branch (e.g. <codeph>dev</codeph>).</li>
-        <li id="li_jm4_qqy_kpb"><uicontrol>${git(full_branch_name)}</uicontrol> - The full name of
+        <li id="li_jm4_qqy_kpb" irina="irina"><uicontrol>${git(full_branch_name)}</uicontrol> - The full name of
           the current branch (e.g. <codeph>refs/heads/dev</codeph>).</li>
       </ul>
     </section>
@@ -823,23 +823,23 @@
       <p id="p_orm_dgk_54b">For more information about the Git Client add-on, as well as details
         regarding other popular add-ons that extend the functionality of <ph keyref="product"/>, see
         the following webinars/presentations/articles:<ul id="ul_kgv_tx1_jsb">
-          <li id="li_lgv_tx1_jsb"><xref
+          <li id="li_lgv_tx1_jsb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2021/webinar_add_ons_you_can_use_for_technical_writing.html"
               format="html" scope="external">Webinar: Add-ons You Can Use for Technical
               Writing</xref></li>
-          <li id="li_gfb_xx1_jsb"><xref
+          <li id="li_gfb_xx1_jsb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2020/webinar_extending_the_functionality_of_Oxygen_using_add_ons.html"
               format="html" scope="external">Webinar: Extending the Functionality of Oxygen Using
               Add-ons</xref></li>
-          <li><xref
+          <li irina="irina"><xref
               href="https://www.oxygenxml.com/events/2020/webinar_documentation_management_inspired_by_software_development.html"
               format="html" scope="external">Webinar: Docs as Code: Documentation Management
               Inspired by Software Development</xref></li>
-          <li><xref
+          <li irina="irina"><xref
               href="https://www.oxygenxml.com/events/2020/webinar_using_dita_for_small_technical_documentation_teams.html"
               format="html" scope="external">Webinar: Using DITA for Small Technical Documentation
               Teams</xref></li>
-          <li><xref
+          <li irina="irina"><xref
               href="https://blog.oxygenxml.com/git-tech-writers/using_git_for_technical_writing.html"
               format="html" scope="external">Blog Post: Using Git For Technical Writing</xref></li>
         </ul></p>

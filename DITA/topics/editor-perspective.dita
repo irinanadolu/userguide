@@ -88,25 +88,25 @@
                 >Editor</uicontrol><uicontrol product="authorEclipse developerEclipse editorEclipse"
                 >Oxygen XML</uicontrol>
               <term>perspective</term> include the following:<ul id="ul_pjd_x5z_gf">
-                <li id="li_ums_bgk_54b"><xref href="using-the-project-view.dita#using-the-project-view"
+                <li id="li_ums_bgk_54b" irina="irina"><xref href="using-the-project-view.dita#using-the-project-view"
                     product="author developer editor"><uicontrol>Project</uicontrol>
                     view</xref><xref href="using-the-project-view.dita#using-the-project-view"
                     product="authorEclipse developerEclipse editorEclipse"
                       ><uicontrol>Project Explorer</uicontrol> view</xref> - Enables the definition of
                   projects and logical management of the documents they contain.</li>
-                <li product="author editor authorEclipse editorEclipse" id="li_vms_bgk_54b"><xref
+                <li product="author editor authorEclipse editorEclipse" id="li_vms_bgk_54b" irina="irina"><xref
                     href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                       Manager</uicontrol> view</xref> - For DITA document types, this view helps you
                   organize, manage, and edit DITA topics and maps.</li>
-                <li product="author developer editor" id="li_wms_bgk_54b"><xref
+                <li product="author developer editor" id="li_wms_bgk_54b" irina="irina"><xref
                     href="open-find-resource-view.dita#open-find-resource-view"><uicontrol>Open/Find
                       Resource</uicontrol> view</xref> - Designed to offer advanced search
                   capabilities in various scopes.</li>
-                <li id="li_xms_bgk_54b"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol>
+                <li id="li_xms_bgk_54b" irina="irina"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol>
                     view</xref> - It provides an XML tag overview and offers a variety of functions,
                   such as modifications follow-up, document structure change, document tag
                   selection, and elements filtering. </li>
-                <li id="li_yms_bgk_54b"><xref href="results-view.dita#results-view"><uicontrol>Results
+                <li id="li_yms_bgk_54b" irina="irina"><xref href="results-view.dita#results-view"><uicontrol>Results
                     view</uicontrol></xref> - Displays the messages generated as a result of user
                   actions such as <xref
                     href="validating-XML-documents.dita#validating-XML-documents" format="dita"
@@ -116,7 +116,7 @@
                     format="dita">spell checking in multiple files</xref>, search operations, and
                   others. Each message is a link to the location related to the event that triggered
                   the message.</li>
-                <li id="li_zms_bgk_54b"><xref href="attributes-panel.dita#attributes-panel"
+                <li id="li_zms_bgk_54b" irina="irina"><xref href="attributes-panel.dita#attributes-panel"
                       ><uicontrol>Attributes</uicontrol> view</xref> - Presents all possible
                   attributes of the current element and allows you to edit attribute values. You can
                   also use this view to insert attributes in <uicontrol>Text</uicontrol> mode. <ph
@@ -124,41 +124,41 @@
                       ><uicontrol>Author</uicontrol> mode also includes an <xref
                       href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
                       >in-place attribute editor</xref>. </ph></li>
-                <li id="li_ans_bgk_54b"><xref href="model-panel.dita#model-panel"><uicontrol>Model</uicontrol>
+                <li id="li_ans_bgk_54b" irina="irina"><xref href="model-panel.dita#model-panel"><uicontrol>Model</uicontrol>
                     view</xref> - Presents the currently edited element structure model and
                   additional documentation as defined in the schema. </li>
-                <li id="li_bns_bgk_54b"><xref href="text-elements-view.dita#text-elements-view"><uicontrol>Elements
+                <li id="li_bns_bgk_54b" irina="irina"><xref href="text-elements-view.dita#text-elements-view"><uicontrol>Elements
                       view</uicontrol></xref> - Presents a list of all defined elements that you can
                   insert at the current cursor position according to the document's schema. <ph
                     product="author editor authorEclipse editorEclipse">In <xref
                       href="author-elements-view.dita#author-elements-view"
                         ><uicontrol>Author</uicontrol> mode this view</xref> includes tabs that
                     present additional information relative to the cursor location.</ph></li>
-                <li id="li_cns_bgk_54b"><xref href="entities-view.dita#entities-view"><uicontrol>Entities</uicontrol>
+                <li id="li_cns_bgk_54b" irina="irina"><xref href="entities-view.dita#entities-view"><uicontrol>Entities</uicontrol>
                     view</xref> - Displays a list with all entities declared in the current document
                   as well as built-in ones.</li>
-                <li id="li_dns_bgk_54b"><xref href="scenarios-view.dita#scenarios-view"><uicontrol>Transformation
+                <li id="li_dns_bgk_54b" irina="irina"><xref href="scenarios-view.dita#scenarios-view"><uicontrol>Transformation
                       Scenarios</uicontrol> view</xref> - Displays a list with all currently
                   configured transformation scenarios.</li>
-                <li id="li_ens_bgk_54b"><xref href="xpath-builder-view.dita#xpath-builder-view"><uicontrol>XPath/XQuery
+                <li id="li_ens_bgk_54b" irina="irina"><xref href="xpath-builder-view.dita#xpath-builder-view"><uicontrol>XPath/XQuery
                       Builder</uicontrol> view</xref> - Displays the results from running an XPath
                   expression.</li>
-                <li product="authorEclipse developerEclipse editorEclipse" id="li_fns_bgk_54b"><xref
+                <li product="authorEclipse developerEclipse editorEclipse" id="li_fns_bgk_54b" irina="irina"><xref
                     href="oxygen-text-view.dita#oxygen-text-view"><uicontrol>Text</uicontrol>
                     view</xref> - Displays the text output that is produced in XSLT
                   transformations.</li>
-                <li product="authorEclipse developerEclipse editorEclipse" id="li_gns_bgk_54b"><xref
+                <li product="authorEclipse developerEclipse editorEclipse" id="li_gns_bgk_54b" irina="irina"><xref
                     href="oxygen-browser-view.dita#oxygen-browser-view"
                       ><uicontrol>Browser</uicontrol> view</xref> - Displays HTML output from XSLT
                   transformations.</li>
-                <li product="authorEclipse developerEclipse editorEclipse" id="li_hns_bgk_54b"
+                <li product="authorEclipse developerEclipse editorEclipse" id="li_hns_bgk_54b" irina="irina"
                     ><uicontrol>Problems</uicontrol> view - A general Eclipse view that displays
                   system-generated errors, warnings, or information associated with a resource.</li>
-                <li product="authorEclipse developerEclipse editorEclipse" id="li_ins_bgk_54b"><xref
+                <li product="authorEclipse developerEclipse editorEclipse" id="li_ins_bgk_54b" irina="irina"><xref
                     href="view-status-information.dita#view-status-information"
                       ><uicontrol>Console</uicontrol> view</xref> - Status information generated by
                   the Schema detection, validation, and transformation threads.</li>
-                <li product="developer editor developerEclipse editorEclipse" id="li_jns_bgk_54b"><xref
+                <li product="developer editor developerEclipse editorEclipse" id="li_jns_bgk_54b" irina="irina"><xref
                     href="composing-web-service-calls.dita#composing-web-service-calls"
                       ><uicontrol>WSDL SOAP Analyzer</uicontrol> view</xref> - Provides a tool that
                   helps you test if the messages defined in a Web Service Descriptor (WSDL) are

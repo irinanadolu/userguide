@@ -22,13 +22,13 @@
       <title>Using Oxygen XML Editor/Author</title>
       <p id="p_nhp_cgk_54b">To add a logo in the title area of your WebHelp output using a transformation scenario from
         within <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_ohp_cgk_54b">
-          <li id="li_php_cgk_54b">Edit a <b>WebHelp Classic</b> transformation scenario, then open the
+          <li id="li_php_cgk_54b" irina="irina">Edit a <b>WebHelp Classic</b> transformation scenario, then open the
               <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_qhp_cgk_54b">Specify the path to your logo in the <codeph>webhelp.logo.image</codeph>
+          <li id="li_qhp_cgk_54b" irina="irina">Specify the path to your logo in the <codeph>webhelp.logo.image</codeph>
             parameter.</li>
-          <li id="li_rhp_cgk_54b">If you also want to add a link to your website when you click the logo image, set the
+          <li id="li_rhp_cgk_54b" irina="irina">If you also want to add a link to your website when you click the logo image, set the
             URL in the <codeph>webhelp.logo.image.target.url</codeph> parameter.</li>
-          <li id="li_shp_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_shp_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
     </section>
     <section id="from_a_command_line">
@@ -37,11 +37,11 @@
         product="author developer editor authorEclipse developerEclipse editorEclipse" id="note_thp_cgk_54b"/>
       <p id="p_uhp_cgk_54b">To add a logo in the title area of your WebHelp output using a script outside of <b>Oxygen
           XML Editor/Author</b>, follow this procedure:<ol id="ol_vhp_cgk_54b">
-          <li id="li_whp_cgk_54b">Specify the path to your logo using the <codeph>webhelp.logo.image</codeph>
+          <li id="li_whp_cgk_54b" irina="irina">Specify the path to your logo using the <codeph>webhelp.logo.image</codeph>
             parameter.</li>
-          <li id="li_xhp_cgk_54b">If you also want to add a link to your website when you click the logo image, set the
+          <li id="li_xhp_cgk_54b" irina="irina">If you also want to add a link to your website when you click the logo image, set the
             URL using the <codeph>webhelp.logo.image.target.url</codeph> parameter.</li>
-          <li id="li_yhp_cgk_54b">
+          <li id="li_yhp_cgk_54b" irina="irina">
             <p id="p_zhp_cgk_54b">Execute the transformation script.</p>
           </li>
         </ol></p>

@@ -87,16 +87,16 @@
         described above.</p>
       <p id="first-procedure">To add this functionality as a DITA-OT plugin, follow these steps:<ol
           id="ol_at4_wk1_dx">
-          <li id="li_un4_cgk_54b">In the <filepath><term keyref="glossentry_dita_ot_dir"/>\plugins\</filepath> folder,
+          <li id="li_un4_cgk_54b" irina="irina">In the <filepath><term keyref="glossentry_dita_ot_dir"/>\plugins\</filepath> folder,
             create a folder for this plugin (for example,
               <filepath>com.oxygenxml.webhelp.responsive.custom.footer</filepath>).</li>
-          <li id="li_vn4_cgk_54b">Create a <b>plugin.xml</b> file (in the folder you created in step 1) that specifies
+          <li id="li_vn4_cgk_54b" irina="irina">Create a <b>plugin.xml</b> file (in the folder you created in step 1) that specifies
             the extension point and your customization stylesheet. For
             example:<codeblock outputclass="language-xml" id="codeblock_wn4_cgk_54b">&lt;plugin id="com.oxygenxml.webhelp.responsive.custom.footer">
   &lt;feature extension="com.oxygenxml.webhelp.xsl.createMainPage"
               file="custom_mainpage.xsl"/>    
 &lt;/plugin></codeblock></li>
-          <li id="li_xn4_cgk_54b">Create your customization stylesheet (for example, <b>custom_mainpage.xsl</b>), and
+          <li id="li_xn4_cgk_54b" irina="irina">Create your customization stylesheet (for example, <b>custom_mainpage.xsl</b>), and
             edit it to override the template that produces the footer
             section:<codeblock outputclass="language-xml" id="codeblock_yn4_cgk_54b">&lt;xsl:template match="*:div[contains(@class, 'footer-container')]" mode="copy_template">
   &lt;!-- Apply the default processing -->
@@ -133,20 +133,20 @@
   &lt;/div>
 &lt;/xsl:template></codeblock></li>
           <li product="author developer editor authorEclipse developerEclipse editorEclipse"
-            id="li_zn4_cgk_54b">Use the <xref keyref="ditamap-run-dita-ot-integrator"
+            id="li_zn4_cgk_54b" irina="irina">Use the <xref keyref="ditamap-run-dita-ot-integrator"
                 ><uicontrol>Integrate/Install DITA-OT Plugins</uicontrol> transformation
               scenario</xref> found in the <uicontrol>DITA Map</uicontrol> section in the <xref
               href="configure-transformation-dialog.dita#configure-transformation-dialog"
                 ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref>.</li>
-          <li product="webhelp-responsive ope" id="li_a44_cgk_54b"><ph
+          <li product="webhelp-responsive ope" id="li_a44_cgk_54b" irina="irina"><ph
               conkeyref="reusables-webhelp-chapter/step_run_integrator"/><ul
               conkeyref="reusables-webhelp-chapter/script-ul" id="ul_b44_cgk_54b">
-              <li id="li_c44_cgk_54b"/>
+              <li id="li_c44_cgk_54b" irina="irina"/>
             </ul></li>
-          <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_d44_cgk_54b">Run a
+          <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_d44_cgk_54b" irina="irina">Run a
               <uicontrol>DITA Map WebHelp Responsive</uicontrol> transformation scenario to obtain
             the customized side TOC.</li>
-          <li product="webhelp-responsive ope" id="li_e44_cgk_54b">Execute a DITA Map to WebHelp Responsive
+          <li product="webhelp-responsive ope" id="li_e44_cgk_54b" irina="irina">Execute a DITA Map to WebHelp Responsive
             transformation script.</li>
         </ol></p>
     </section>
@@ -167,10 +167,10 @@
         </fig>
       </p>
       <p id="p_h44_cgk_54b">To add this functionality, follow these steps:<ol id="ol_i44_cgk_54b">
-          <li id="li_j44_cgk_54b">Create a DITA-OT plugin structure by following the first 3 steps in the <xref
+          <li id="li_j44_cgk_54b" irina="irina">Create a DITA-OT plugin structure by following the first 3 steps in the <xref
               href="#whr-responsive-override-xslt-dita-xslt-import-sample" format="dita">procedure
               above</xref>. </li>
-          <li id="li_k44_cgk_54b">In the customization stylesheet that you just created (for example,
+          <li id="li_k44_cgk_54b" irina="irina">In the customization stylesheet that you just created (for example,
               <b>custom_mainpage.xsl</b>), declare
               <codeph>webhelp.footer.add.generation.time</codeph> as a global parameter and modify
             the template by adding the following XSLT code at the
@@ -180,37 +180,37 @@
               current-dateTime(), '[h1]:[m01] [P] on [M01]/[D01]/[Y0001].')"/>
     &lt;/div>    
 &lt;/xsl:if></codeblock></li>
-          <li id="li_m44_cgk_54b">Edit the <b>plugin.xml</b> file to specify the
+          <li id="li_m44_cgk_54b" irina="irina">Edit the <b>plugin.xml</b> file to specify the
               <b>com.oxygenxml.webhelp.xsl.createMainPage.param</b> extension point and a custom
             parameter file by adding the following
             line:<codeblock outputclass="language-xml" id="codeblock_n44_cgk_54b">&lt;feature extension="com.oxygenxml.webhelp.xsl.createMainPage.param" file="params.xml"/></codeblock></li>
-          <li id="li_o44_cgk_54b">Create a custom parameter file (for example, <b>params.xml</b>). It should look like
+          <li id="li_o44_cgk_54b" irina="irina">Create a custom parameter file (for example, <b>params.xml</b>). It should look like
             this:<codeblock outputclass="language-xml" id="codeblock_p44_cgk_54b">&lt;dummy>
     &lt;param name="webhelp.footer.add.generation.time" 
         expression="${webhelp.footer.add.generation.time}"
         if="webhelp.footer.add.generation.time"/>    
 &lt;/dummy></codeblock></li>
           <li product="author developer editor authorEclipse developerEclipse editorEclipse"
-            id="li_q44_cgk_54b">Use the <xref keyref="ditamap-run-dita-ot-integrator"
+            id="li_q44_cgk_54b" irina="irina">Use the <xref keyref="ditamap-run-dita-ot-integrator"
                 ><uicontrol>Integrate/Install DITA-OT Plugins</uicontrol> transformation
               scenario</xref> found in the <uicontrol>DITA Map</uicontrol> section in the <xref
               href="configure-transformation-dialog.dita#configure-transformation-dialog"
                 ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref>.</li>
-          <li product="webhelp-responsive ope" id="li_r44_cgk_54b"><ph
+          <li product="webhelp-responsive ope" id="li_r44_cgk_54b" irina="irina"><ph
               conkeyref="reusables-webhelp-chapter/step_run_integrator"/><ul
               conkeyref="reusables-webhelp-chapter/script-ul" id="ul_s44_cgk_54b">
-              <li id="li_t44_cgk_54b"/>
+              <li id="li_t44_cgk_54b" irina="irina"/>
             </ul></li>
-          <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_u44_cgk_54b">Edit a
+          <li product="author developer editor authorEclipse developerEclipse editorEclipse" id="li_u44_cgk_54b" irina="irina">Edit a
               <uicontrol>DITA Map WebHelp Responsive</uicontrol> transformation scenario and in the
               <xref href="dita-map-edit-parameters.dita#dita-map-edit-parameters"
                 ><uicontrol>Parameters</uicontrol> tab</xref>, specify the desired value (<i>yes</i>
             or <i>no</i>) for your custom parameter
               (<codeph>webhelp.footer.add.generation.time</codeph>).</li>
-          <li product="webhelp-responsive ope" id="li_v44_cgk_54b">Use the
+          <li product="webhelp-responsive ope" id="li_v44_cgk_54b" irina="irina">Use the
               <codeph>webhelp.footer.add.generation.time</codeph> parameter in your DITA
             transformation script and specify the desired value (<i>yes</i> or <i>no</i>).</li>
-          <li id="li_w44_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_w44_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
     </section>
   </body>

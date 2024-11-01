@@ -40,19 +40,19 @@
       <title>Important Notes About Concurrent Editing for Users</title>
       <p id="p_afp_dgk_54b">
         <ul id="ul_r51_fc5_rnb">
-          <li id="li_bfp_dgk_54b">When using the <uicontrol>Edit as XML</uicontrol> action (to
+          <li id="li_bfp_dgk_54b" irina="irina">When using the <uicontrol>Edit as XML</uicontrol> action (to
             switch to the text-based editing mode) during an active concurrent editing session, the
             document is set as read-only to prevent overriding changes made by others.</li>
-          <li id="li_cfp_dgk_54b">The <uicontrol>Mark as Done</uicontrol> and <uicontrol>Reply</uicontrol> actions for
+          <li id="li_cfp_dgk_54b" irina="irina">The <uicontrol>Mark as Done</uicontrol> and <uicontrol>Reply</uicontrol> actions for
             tracked changes are removed during concurrent editing sessions. </li>
-          <li id="li_dfp_dgk_54b">Once a concurrent editing session starts, the <uicontrol>Edit
+          <li id="li_dfp_dgk_54b" irina="irina">Once a concurrent editing session starts, the <uicontrol>Edit
               Topic Content</uicontrol> option that is usually available from the <uicontrol><image
                 href="../img/DM_DisplayMode_drop.png" id="image_cg2_lt3_rnb"/>DITA Map Display
               Mode</uicontrol> drop-down menu becomes unavailable. To use the feature, you have to
             enable the <uicontrol>Edit Topic Content</uicontrol> option before starting the
             concurrent editing session. </li>
-          <li id="li_efp_dgk_54b">Changes made prior to the session being shared cannot be undone.</li>
-          <li id="li_ffp_dgk_54b">If the shared document contains content references (i.e. <codeph>xi:include</codeph>
+          <li id="li_efp_dgk_54b" irina="irina">Changes made prior to the session being shared cannot be undone.</li>
+          <li id="li_ffp_dgk_54b" irina="irina">If the shared document contains content references (i.e. <codeph>xi:include</codeph>
             or DITA <codeph>conref</codeph>) from other files, only the user that inserted them must
             have permission to open them from the file server. All other users that are part of the
             shared session are able to see them.</li>
@@ -63,10 +63,10 @@
       <title>Important Notes About Concurrent Editing for System Administrators</title>
       <p id="p_hfp_dgk_54b">
         <ul id="ul_of3_lsf_xnb">
-          <li id="li_ifp_dgk_54b">Concurrent editing does not work if <ph keyref="webappProduct"/> is deployed on
+          <li id="li_ifp_dgk_54b" irina="irina">Concurrent editing does not work if <ph keyref="webappProduct"/> is deployed on
             multiple servers behind a <xref href="webapp-loadbalancing.dita">load
             balancer</xref>.</li>
-          <li id="li_jfp_dgk_54b">
+          <li id="li_jfp_dgk_54b" irina="irina">
             <p id="p_kfp_dgk_54b"><ph keyref="webappProduct"/> uses Web Sockets to propagate changes in real time
               between collaborators. If you are using a reverse proxy, some additional configuration
               may be required to enable Web Socket connections to the <codeph>./ws</codeph> endpoint
@@ -85,9 +85,9 @@
             <p id="p_nfp_dgk_54b">As another example, when using Apache HTTP server as a reverse proxy, a system
               administrator must enable the following modules:</p>
             <ul id="ul_pf3_lsf_xnb">
-              <li id="li_ofp_dgk_54b"><codeph>rewrite</codeph></li>
-              <li id="li_qfp_dgk_54b"><codeph>proxy_http</codeph></li>
-              <li id="li_sfp_dgk_54b"><codeph>proxy_wstunnel</codeph>
+              <li id="li_ofp_dgk_54b" irina="irina"><codeph>rewrite</codeph></li>
+              <li id="li_qfp_dgk_54b" irina="irina"><codeph>proxy_http</codeph></li>
+              <li id="li_sfp_dgk_54b" irina="irina"><codeph>proxy_wstunnel</codeph>
               </li>
             </ul>
             <p id="p_ufp_dgk_54b">Also, a configuration similar to the one below should be
@@ -100,19 +100,19 @@ RewriteCond %{​HTTP:Connection}​ upgrade [NC]
 RewriteRule ^/oxygen-xml-web-author/?(.*) 
  "ws://&lt;internal-host>:8080/oxygen-xml-web-author/$1" [P,L]</codeblock></p>
           </li>
-          <li id="li_wfp_dgk_54b">Concurrent editing does not work if an existing plugin registered an
+          <li id="li_wfp_dgk_54b" irina="irina">Concurrent editing does not work if an existing plugin registered an
               <codeph>ro.sync.ecss.extensions.api.AuthorDocumentFilter</codeph> implementation.</li>
-          <li id="li_g14_hq2_fqb">Some customizations can cause problems if used in situations with
+          <li id="li_g14_hq2_fqb" irina="irina">Some customizations can cause problems if used in situations with
             high activity or a large number of users simultaneously. These possible limitations
               include:<ul id="ul_vyr_mq2_fqb">
-              <li id="li_oxj_sb2_tpb">The <codeph>onChange</codeph> property for the <xref
+              <li id="li_oxj_sb2_tpb" irina="irina">The <codeph>onChange</codeph> property for the <xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/combo-box-editor.html"
                   format="html" scope="external">combo box form control</xref> is not supported in
                 concurrent editing sessions.</li>
-              <li id="li_wyr_mq2_fqb">Inline CSS actions (for example, when used in an
+              <li id="li_wyr_mq2_fqb" irina="irina">Inline CSS actions (for example, when used in an
                   <codeph>oxy_button</codeph> form control).</li>
-              <li id="li_im1_nq2_fqb">Editable combo boxes on the floating toolbar.</li>
-              <li id="li_yc1_4q2_fqb">Quick fixes that come from XML Schema or DTD.</li>
+              <li id="li_im1_nq2_fqb" irina="irina">Editable combo boxes on the floating toolbar.</li>
+              <li id="li_yc1_4q2_fqb" irina="irina">Quick fixes that come from XML Schema or DTD.</li>
             </ul></li>
         </ul>
       </p>

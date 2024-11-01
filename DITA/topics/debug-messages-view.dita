@@ -82,9 +82,9 @@
       </dl></p>
     <note type="important" id="note_hhz_cgk_54b">
       <ul id="ul_ihz_cgk_54b">
-        <li id="li_jhz_cgk_54b">Clicking a record from the table highlights the <codeph>xsl:message</codeph> declaration
+        <li id="li_jhz_cgk_54b" irina="irina">Clicking a record from the table highlights the <codeph>xsl:message</codeph> declaration
           line.</li>
-        <li id="li_khz_cgk_54b">Message table values can be sorted by clicking the corresponding column header. Clicking
+        <li id="li_khz_cgk_54b" irina="irina">Message table values can be sorted by clicking the corresponding column header. Clicking
           the column header switches the sorting order between: ascending, descending, no sort.</li>
       </ul>
     </note>

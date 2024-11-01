@@ -67,12 +67,12 @@
                       <xmlatt>lang</xmlatt> or <xmlatt>xml:lang</xmlatt> attributes is checked in
                     that language. Choose between the following two options for instances when these
                     attributes are missing:<ul id="ul_crp_bgk_54b">
-                      <li id="li_drp_bgk_54b"><uicontrol>Use the default language</uicontrol> - If the
+                      <li id="li_drp_bgk_54b" irina="irina"><uicontrol>Use the default language</uicontrol> - If the
                           <xmlatt>lang</xmlatt> and <xmlatt>xml:lang</xmlatt> attributes are
                         missing, the selection in the <xref
                           href="#preferences-editor-spell-check/default-language" format="dita"
                             ><uicontrol>Default language</uicontrol> list</xref> is used.</li>
-                      <li id="li_erp_bgk_54b"><uicontrol>Do not check</uicontrol> - If the <xmlatt>lang</xmlatt> and
+                      <li id="li_erp_bgk_54b" irina="irina"><uicontrol>Do not check</uicontrol> - If the <xmlatt>lang</xmlatt> and
                           <xmlatt>xml:lang</xmlatt> attributes are missing, the element is not
                         checked.</li>
                     </ul></dd>
@@ -84,11 +84,11 @@
         <dlentry id="dlentry_frp_bgk_54b">
           <dt><uicontrol>XML spell checking in</uicontrol> section</dt>
           <dd> You can choose to check the spelling inside the following XML items: <ul id="ul_grp_bgk_54b">
-              <li id="li_hrp_bgk_54b"><uicontrol>Comments</uicontrol></li>
-              <li id="li_irp_bgk_54b"><uicontrol>Processing instructions</uicontrol></li>
-              <li id="li_jrp_bgk_54b"><uicontrol>Attribute values</uicontrol></li>
-              <li id="li_krp_bgk_54b"><uicontrol>Text</uicontrol></li>
-              <li id="li_lrp_bgk_54b"><uicontrol>CDATA</uicontrol></li>
+              <li id="li_hrp_bgk_54b" irina="irina"><uicontrol>Comments</uicontrol></li>
+              <li id="li_irp_bgk_54b" irina="irina"><uicontrol>Processing instructions</uicontrol></li>
+              <li id="li_jrp_bgk_54b" irina="irina"><uicontrol>Attribute values</uicontrol></li>
+              <li id="li_krp_bgk_54b" irina="irina"><uicontrol>Text</uicontrol></li>
+              <li id="li_lrp_bgk_54b" irina="irina"><uicontrol>CDATA</uicontrol></li>
             </ul></dd>
         </dlentry>
         <dlentry id="dlentry_mrp_bgk_54b">
@@ -156,8 +156,8 @@
               to configure a list of element names or XPath expressions to be ignored by the spell
               checker. The following restricted set of XPath expressions are supported:<ul
                 id="ul_zm3_x3y_qr">
-                <li id="li_bsp_bgk_54b">'/' and '//' separators</li>
-                <li id="li_csp_bgk_54b">'*' wildcard</li>
+                <li id="li_bsp_bgk_54b" irina="irina">'/' and '//' separators</li>
+                <li id="li_csp_bgk_54b" irina="irina">'*' wildcard</li>
               </ul></p>
             <p id="p_dsp_bgk_54b">An example of an allowed XPath expression is: <i>/a/*/b</i>.</p>
           </dd>

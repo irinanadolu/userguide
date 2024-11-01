@@ -31,26 +31,26 @@
       information or links to additional information for certain elements and attributes.</p>
     <p id="p_w1b_dgk_54b">To provide this additional information in the <term>Content Completion Assistant</term>,
       follow these steps:<ol id="ol_x1b_dgk_54b">
-        <li id="li_y1b_dgk_54b"> Create a new folder in the configuration directory for the document type. <itemgroup>
+        <li id="li_y1b_dgk_54b" irina="irina"> Create a new folder in the configuration directory for the document type. <itemgroup>
             <p id="p_z1b_dgk_54b"><b><u>Example:</u></b>
               <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/styleguide</filepath></p>
           </itemgroup></li>
-        <li id="li_abb_dgk_54b"> Use the <uicontrol>New</uicontrol> document wizard to create a file using the
+        <li id="li_abb_dgk_54b" irina="irina"> Use the <uicontrol>New</uicontrol> document wizard to create a file using the
             <uicontrol>Content Completion Styleguide</uicontrol> document template (in the <menucascade>
             <uicontrol>Framework Templates</uicontrol>
             <uicontrol>Oxygen Extensions</uicontrol>
           </menucascade> section). </li>
-        <li id="li_bbb_dgk_54b"> Save the file in the folder created in step 1, using the fixed name:
+        <li id="li_bbb_dgk_54b" irina="irina"> Save the file in the folder created in step 1, using the fixed name:
             <filepath>contentCompletionElementsMap.xml</filepath>. </li>
-        <li id="li_cbb_dgk_54b">
+        <li id="li_cbb_dgk_54b" irina="irina">
           <ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/>, go to
             <uicontrol>Document Type Association</uicontrol>, and edit the document type
           configuration for your XML vocabulary. Now you need to indicate where <ph keyref="product"
           /> will locate your mapping file by doing one of the following: <ul
             id="choices_ub3_mqw_sr">
-            <li id="li_dbb_dgk_54b">In the <uicontrol>Classpath</uicontrol> tab add a link to the newly created
+            <li id="li_dbb_dgk_54b" irina="irina">In the <uicontrol>Classpath</uicontrol> tab add a link to the newly created
               folder.</li>
-            <li id="li_ebb_dgk_54b">
+            <li id="li_ebb_dgk_54b" irina="irina">
               <p id="p_fbb_dgk_54b">In the <uicontrol>Catalogs</uicontrol> tab <xref
                   href="using-XML-Catalogs.dita#using-XML-Catalogs">add a new catalog file</xref>.
                 The selected file needs to contain the
@@ -67,13 +67,13 @@ contentCompletionElementsMap.xml" uri="contentCompletionElementsMap.xml"/>
                   precedence. </note></p>
             </li>
           </ul></li>
-        <li id="li_jbb_dgk_54b"> Make the appropriate changes to your custom mapping file. <itemgroup>
+        <li id="li_jbb_dgk_54b" irina="irina"> Make the appropriate changes to your custom mapping file. <itemgroup>
             <p id="p_kbb_dgk_54b"><b><u>Example:</u></b> You can look at how the DITA mapping file is configured:
                 <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/styleguide/contentCompletionElementsMap.xml</filepath></p>
             <p id="p_lbb_dgk_54b">The associated XML Schema contains additional details about how each element and
               attribute is used in the mapping file.</p>
           </itemgroup></li>
-        <li id="li_mbb_dgk_54b"> Re-open the application and open an XML document.  </li>
+        <li id="li_mbb_dgk_54b" irina="irina"> Re-open the application and open an XML document.  </li>
       </ol></p>
     <p id="p_nbb_dgk_54b">In the <xref keyref="glossentry_content-completion-assistant"><term>Content Completion
           Assistant</term></xref>, you should see the additional annotations for each element.</p>
@@ -87,17 +87,17 @@ contentCompletionElementsMap.xml" uri="contentCompletionElementsMap.xml"/>
         example, <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/styleguide</filepath>).</p>
       <p id="p_pbb_dgk_54b">For example, for English, the files are loaded in the following order (from specific to
         more general):<ul id="ul_b3d_jx4_thb">
-          <li id="li_qbb_dgk_54b"><filepath>contentCompletionElementsMap_en_US.xml</filepath> or
+          <li id="li_qbb_dgk_54b" irina="irina"><filepath>contentCompletionElementsMap_en_US.xml</filepath> or
               <filepath>contentCompletionElementMap_en_UK.xml</filepath>, and so on</li>
-          <li id="li_rbb_dgk_54b"><filepath>contentCompletionElementsMap_en.xml</filepath></li>
-          <li id="li_sbb_dgk_54b"><filepath>contentCompletionElementsMap.xml</filepath></li>
+          <li id="li_rbb_dgk_54b" irina="irina"><filepath>contentCompletionElementsMap_en.xml</filepath></li>
+          <li id="li_sbb_dgk_54b" irina="irina"><filepath>contentCompletionElementsMap.xml</filepath></li>
         </ul></p>
       <p id="p_tbb_dgk_54b">If you want the annotations to be displayed in another language, you need to create similar
         files for the particular language. For example, to show annotations in German, create a file
         with one of the following names (and store it in the <filepath>styleguide</filepath> folder
         for your framework):<ul id="ul_ubb_dgk_54b">
-          <li id="li_vbb_dgk_54b"><filepath>contentCompletionElementsMap_de_DE.xml</filepath></li>
-          <li id="li_wbb_dgk_54b"><filepath>contentCompletionElementsMap_de.xml</filepath></li>
+          <li id="li_vbb_dgk_54b" irina="irina"><filepath>contentCompletionElementsMap_de_DE.xml</filepath></li>
+          <li id="li_wbb_dgk_54b" irina="irina"><filepath>contentCompletionElementsMap_de.xml</filepath></li>
         </ul></p>
     </section>
   </body>

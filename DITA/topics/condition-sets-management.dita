@@ -24,10 +24,10 @@
     <section id="create_profiling_condition_sets">
       <title>Create Profiling Condition Sets</title>
       <p id="p_u5x_bgk_54b">To create a new profiling condition set, follow these steps:<ol id="ol_v5x_bgk_54b">
-          <li conkeyref="reusables-author-for-dita/ConditionSets-li-1" id="li_w5x_bgk_54b"/>
-          <li conkeyref="reusables-author-for-dita/ConditionSets-li-2" id="li_x5x_bgk_54b"/>
-          <li conkeyref="reusables-author-for-dita/ConditionSets-li-3" id="li_y5x_bgk_54b"/>
-          <li conkeyref="reusables-author-for-dita/ConditionSets-li-4" id="li_z5x_bgk_54b"/>
+          <li conkeyref="reusables-author-for-dita/ConditionSets-li-1" id="li_w5x_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-author-for-dita/ConditionSets-li-2" id="li_x5x_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-author-for-dita/ConditionSets-li-3" id="li_y5x_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-author-for-dita/ConditionSets-li-4" id="li_z5x_bgk_54b" irina="irina"/>
         </ol></p>
     </section>
     <section conkeyref="reusables-author-for-dita/sharing_condition-set_configurations" id="d173e60"

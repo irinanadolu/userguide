@@ -39,8 +39,8 @@ h1:before(1) {
 }</codeblock>
     <note type="other" othertype="Notes" id="note_w12_dgk_54b">
       <ul id="ul_ybj_c5b_ckb">
-        <li id="li_x12_dgk_54b">The bigger the level, the more distant the pseudo-element is.</li>
-        <li id="li_y12_dgk_54b">Level 1 corresponds to normal <codeph>:before</codeph> or <codeph>:after</codeph> pseudo-elements.</li>
+        <li id="li_x12_dgk_54b" irina="irina">The bigger the level, the more distant the pseudo-element is.</li>
+        <li id="li_y12_dgk_54b" irina="irina">Level 1 corresponds to normal <codeph>:before</codeph> or <codeph>:after</codeph> pseudo-elements.</li>
       </ul>
     </note>
   </body>

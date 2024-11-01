@@ -15,9 +15,9 @@
         <p>The <xmlelement>appendices</xmlelement> element that is available in the DITA bookmap has
       a special behavior (based on its sibling nodes):</p>
     <ol id="ol_bjb_mzb_x4b">
-      <li>If the bookmap contains <xmlelement>part</xmlelement> elements, the
+      <li irina="irina">If the bookmap contains <xmlelement>part</xmlelement> elements, the
           <xmlelement>appendices</xmlelement> will behave as a part.</li>
-      <li>If the bookmap contains <xmlelement>chapter</xmlelement> (and no
+      <li irina="irina">If the bookmap contains <xmlelement>chapter</xmlelement> (and no
           <xmlelement>part</xmlelement>) elements, the <xmlelement>appendices</xmlelement> will
         behave as a chapter.</li>
     </ol>

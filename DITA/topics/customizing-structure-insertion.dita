@@ -26,20 +26,20 @@
     <p id="p_as1_dgk_54b">It is possible to customize the particular configuration file
         (<filepath>structureAutocorrect.xml</filepath>) to define your own markup insertion shortcut
       patterns by following these steps:<ol id="ol_js3_4k5_kq">
-        <li id="li_bs1_dgk_54b">Create a new <filepath>resources</filepath> folder (if it does not already exist) in the
+        <li id="li_bs1_dgk_54b" irina="irina">Create a new <filepath>resources</filepath> folder (if it does not already exist) in the
             <filepath>frameworks</filepath> directory for the particular document type (for example,
             <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/resources</filepath>).</li>
-        <li id="li_cs1_dgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
+        <li id="li_cs1_dgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
             <uicontrol>Document Type Association</uicontrol>. Select the particular document type,
           click the <uicontrol>Edit</uicontrol> button, and in the <xref
             href="document-type-classpath-tab.dita#document-type-classpath-tab"
               ><uicontrol>Classpath</uicontrol> tab</xref> add a link to that
             <filepath>resources</filepath> folder (if it does not already exist).</li>
-        <li id="li_ds1_dgk_54b">Create a new <filepath>structureAutocorrect.xml</filepath> file or edit an existing one
+        <li id="li_ds1_dgk_54b" irina="irina">Create a new <filepath>structureAutocorrect.xml</filepath> file or edit an existing one
           (this file already exists in the <filepath>resources</filepath> folder of particular
           document types and you can use an existing file as a starting point for your
           customization).</li>
-        <li id="li_es1_dgk_54b">
+        <li id="li_es1_dgk_54b" irina="irina">
           <p id="p_fs1_dgk_54b">Make the appropriate changes to your <filepath>structureAutocorrect.xml</filepath>
             file. The file should look like
             this:<codeblock outputclass="language-xml" id="codeblock_gs1_dgk_54b">&lt;structure-autocorrect>
@@ -66,10 +66,10 @@
             node/element (in this example, the cursor would be placed in the first
               <xmlelement>li</xmlelement> element).</p>
         </li>
-        <li id="li_is1_dgk_54b">Save the file in the <filepath>resources</filepath> folder for the particular document
+        <li id="li_is1_dgk_54b" irina="irina">Save the file in the <filepath>resources</filepath> folder for the particular document
           type, using the fixed name: <filepath>structureAutocorrect.xml</filepath> (for example,
             <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/resources/structureAutocorrect.xml</filepath>).</li>
-        <li id="li_js1_dgk_54b">Restart the application and open a document for your particular framework to test your
+        <li id="li_js1_dgk_54b" irina="irina">Restart the application and open a document for your particular framework to test your
             customization.<note id="note_ks1_dgk_54b">Once the file is created, changes that you make to it are processed
             by <ph keyref="product"/> when you press the <uicontrol><image
                 href="../img/Reload16.png" id="image_zr1_xwc_mkb"/> Reload</uicontrol> toolbar

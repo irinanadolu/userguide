@@ -25,11 +25,11 @@
       <title>File Definition</title>
       <p id="p_z4j_cgk_54b">A file is considered to be a <term>DITA map</term> document when one of the following
         conditions are true:<ul id="ul_apj_cgk_54b">
-          <li id="li_bpj_cgk_54b">The root element name is one of the following: <xmlelement>map</xmlelement>,
+          <li id="li_bpj_cgk_54b" irina="irina">The root element name is one of the following: <xmlelement>map</xmlelement>,
             <xmlelement>bookmap</xmlelement>.</li>
-          <li id="li_cpj_cgk_54b">The public ID of the document is <codeph>-//OASIS//DTD DITA Map</codeph> or
+          <li id="li_cpj_cgk_54b" irina="irina">The public ID of the document is <codeph>-//OASIS//DTD DITA Map</codeph> or
               <codeph>-//OASIS//DTD DITA BookMap</codeph>.</li>
-          <li id="li_dpj_cgk_54b">The root element of the file has a <xmlatt>class</xmlatt> attribute that
+          <li id="li_dpj_cgk_54b" irina="irina">The root element of the file has a <xmlatt>class</xmlatt> attribute that
             contains the value <codeph>map/map</codeph> and a <xmlatt>DITAArchVersion</xmlatt>
             attribute from the <i>http://dita.oasis-open.org/architecture/2005/</i> namespace. This
             enhanced case of matching is only applied when the <xref
@@ -76,9 +76,9 @@
       <title>Default XML Catalogs</title>
       <p id="p_jpj_cgk_54b">The default <xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> for the
           <term>DITA map</term> document type are as follows:<ul id="ul_ogy_fqf_fr">
-          <li id="li_kpj_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_kpj_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/catalog.xml</filepath></li>
-          <li id="li_lpj_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"/>/catalog-dita.xml</filepath></li>
+          <li id="li_lpj_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"/>/catalog-dita.xml</filepath></li>
         </ul></p>
     </section>
     <section id="transformation_scenarios">
@@ -96,11 +96,11 @@
       <title>Resources</title>
       <p id="p_opj_cgk_54b">
         <ul id="ul_ppj_cgk_54b">
-          <li id="li_qpj_cgk_54b"><xref href="https://www.oxygenxml.com/dita/1.3/specs/" format="html" scope="external"
+          <li id="li_qpj_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/1.3/specs/" format="html" scope="external"
               >DITA Specifications</xref></li>
-          <li id="li_rpj_cgk_54b"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
+          <li id="li_rpj_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
               format="html" scope="external">DITA Style Guide Best Practices for Authors</xref></li>
-          <li id="li_spj_cgk_54b"><xref href="https://www.oxygenxml.com/demo/DITA_Maps_Manager.html" format="html"
+          <li id="li_spj_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/demo/DITA_Maps_Manager.html" format="html"
               scope="external">Oxygen Video Tutorial: DITA Maps Manager</xref></li>
         </ul>
       </p>

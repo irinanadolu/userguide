@@ -23,7 +23,7 @@
     <section id="new_document_wizard">
       <title>New Document Wizard</title>
       <p id="p_cvs_bgk_54b">To create a new document using this wizard, follow these steps:<ol id="ol_dvs_bgk_54b">
-          <li id="li_evs_bgk_54b">
+          <li id="li_evs_bgk_54b" irina="irina">
             <p id="p_fvs_bgk_54b">Click the <uicontrol><image href="../img/New16.png" id="image_hy1_zdp_sr"
                 />New</uicontrol> button on the toolbar or select <menucascade>
                 <uicontrol>File</uicontrol>
@@ -108,10 +108,10 @@
                 </dlentry>
               </dl></p>
           </li>
-          <li id="li_rvs_bgk_54b">Select the type of document that you want to create.<note type="tip" id="note_svs_bgk_54b">You can use the
+          <li id="li_rvs_bgk_54b" irina="irina">Select the type of document that you want to create.<note type="tip" id="note_svs_bgk_54b">You can use the
               text filter field at the top of the dialog box to search for a specific
               template.</note></li>
-          <li id="save-as-step">If you want to change the default name and path of the file, select
+          <li id="save-as-step" irina="irina">If you want to change the default name and path of the file, select
             the <uicontrol>Save as</uicontrol> option and specify the file path (the <xref
               href="preferences-editor-save.dita#preferences-editor-save/show-save-as-option"
                 ><uicontrol>Show "Save as" option to save newly created documents in the "New"
@@ -122,13 +122,13 @@
               additional options for generating a title, file name, and root ID attribute.<ph
                 product="author editor"> For more information, see <xref
                   href="create-topic-in-map.dita#create-topic-in-map"/>.</ph></note></li>
-          <li id="li_uvs_bgk_54b">
+          <li id="li_uvs_bgk_54b" irina="irina">
             <p id="p_vvs_bgk_54b">If you want to use the default settings in the creation process, select
                 <uicontrol>Create</uicontrol> at the bottom of the dialog box.</p>
             <p id="p_wvs_bgk_54b"><b>Result:</b> The document is created using the default settings and the new file is
               opened in the appropriate editor.</p>
           </li>
-          <li id="li_xvs_bgk_54b">
+          <li id="li_xvs_bgk_54b" irina="irina">
             <p id="p_yvs_bgk_54b">If you want to configure properties before creating the file, select
                 <uicontrol>Customize</uicontrol>. This action is available for XML, XML Schema,
               Schematron, and XSL documents.</p>

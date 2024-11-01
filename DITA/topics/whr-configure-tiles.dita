@@ -35,11 +35,11 @@
       <sectiondiv><b>Editing the DITA Map</b><p id="p_yzn_cgk_54b">To edit the metadata in the <term>DITA map</term> to
           control which topics on the first level of the <term>DITA map</term> will not be displayed
           as a tile, follow these steps:<ol id="ol_zzn_cgk_54b">
-            <li id="li_a14_cgk_54b">Open the <term>DITA map</term> in the <uicontrol>Text</uicontrol> editing mode of
+            <li id="li_a14_cgk_54b" irina="irina">Open the <term>DITA map</term> in the <uicontrol>Text</uicontrol> editing mode of
                 <ph keyref="product"
                 product="author developer editor authorEclipse developerEclipse editorEclipse"/><b
                 product="webhelp-responsive ope">Oxygen XML Editor/Author</b>.</li>
-            <li id="li_b14_cgk_54b">Add the following metadata information in the <xmlelement>topicref</xmlelement> element (or
+            <li id="li_b14_cgk_54b" irina="irina">Add the following metadata information in the <xmlelement>topicref</xmlelement> element (or
               any of its specializations) for each first-level topic that you do not want to be
               displayed as a
               tile:<codeblock outputclass="language-xml" id="codeblock_c14_cgk_54b">&lt;topicmeta>
@@ -50,15 +50,15 @@
           </ol></p></sectiondiv>
       <sectiondiv><b>Customizing the CSS</b><p id="p_d14_cgk_54b">To customize the CSS to control which topics on the
           first level of the <term>DITA map</term> will not be displayed as a tile, follow these steps:<ol id="ol_e14_cgk_54b">
-            <li id="li_f14_cgk_54b">Make sure you set an ID on the topic you want to hide.</li>
-            <li id="li_g14_cgk_54b">Create a new CSS file that contains a rule that hides the tile generated for the
+            <li id="li_f14_cgk_54b" irina="irina">Make sure you set an ID on the topic you want to hide.</li>
+            <li id="li_g14_cgk_54b" irina="irina">Create a new CSS file that contains a rule that hides the tile generated for the
               topic (identified in the following example by the topic ID
                 <codeph>growing-flowers</codeph>). The CSS file should have content that is similar
               to
               this:<codeblock outputclass="language-css" id="codeblock_h14_cgk_54b">.wh_tile [data-id='growing-flowers'] {
   display:none;
 }</codeblock></li>
-            <li id="li_i14_cgk_54b">Reference the CSS file in a <term>WebHelp Responsive</term> transformation using
+            <li id="li_i14_cgk_54b" irina="irina">Reference the CSS file in a <term>WebHelp Responsive</term> transformation using
                 <xref href="webhelp-customizing-with-css.dita#whr-custom-css-pt-oxy">an <term>Oxygen
                   Publishing Template</term></xref> or <xref
                 href="webhelp-customizing-with-css.dita#whr-custom-css-param-oxy">the
@@ -71,11 +71,11 @@
         editing the <term>DITA map</term>, and the other uses a CSS customization.</p>
       <sectiondiv><b>Editing the DITA Map</b><p id="p_k14_cgk_54b">To edit the metadata in the <term>DITA map</term> to
           set an image to be displayed in a tile, follow these steps:<ol id="ol_l14_cgk_54b">
-            <li id="li_m14_cgk_54b">Open the <term>DITA map</term> in the <uicontrol>Text</uicontrol> editing mode of
+            <li id="li_m14_cgk_54b" irina="irina">Open the <term>DITA map</term> in the <uicontrol>Text</uicontrol> editing mode of
                 <ph keyref="product"
                 product="author developer editor authorEclipse developerEclipse editorEclipse"/><b
                 product="webhelp-responsive ope">Oxygen XML Editor/Author</b>.</li>
-            <li id="li_n14_cgk_54b">Add the following metadata information in the <xmlelement>topicref</xmlelement> element (or
+            <li id="li_n14_cgk_54b" irina="irina">Add the following metadata information in the <xmlelement>topicref</xmlelement> element (or
               any of its specializations) for each first-level topic that will have an image
               displayed in the corresponding
                 tile:<codeblock outputclass="language-xml" id="codeblock_o14_cgk_54b">&lt;topicmeta>
@@ -91,14 +91,14 @@
           </ol></p></sectiondiv>
       <sectiondiv><b>Customizing the CSS</b><p id="p_q14_cgk_54b">To customize the CSS to set an image to be displayed
           in a tile, follow these steps:<ol id="ol_r14_cgk_54b">
-            <li id="li_s14_cgk_54b">Make sure you set an ID on the topic that you want the tile to include an
+            <li id="li_s14_cgk_54b" irina="irina">Make sure you set an ID on the topic that you want the tile to include an
               image.</li>
-            <li id="li_t14_cgk_54b">Create a new CSS file that contains a rule that associates an image with a specific
+            <li id="li_t14_cgk_54b" irina="irina">Create a new CSS file that contains a rule that associates an image with a specific
               tile. The CSS file should have content that is similar to
               this:<codeblock outputclass="language-css" id="codeblock_u14_cgk_54b">.wh_tile[data-id='growing-flowers']> div {
     background-image:url('resources/flower.png');
 }</codeblock></li>
-            <li id="li_v14_cgk_54b">Reference the CSS file in a <term>WebHelp Responsive</term> transformation using
+            <li id="li_v14_cgk_54b" irina="irina">Reference the CSS file in a <term>WebHelp Responsive</term> transformation using
                 <xref href="webhelp-customizing-with-css.dita#whr-custom-css-pt-oxy">an <term>Oxygen
                   Publishing Template</term></xref> or <xref
                 href="webhelp-customizing-with-css.dita#whr-custom-css-param-oxy">the

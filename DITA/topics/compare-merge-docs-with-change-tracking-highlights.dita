@@ -29,19 +29,19 @@
         the process are merged by saving the comparison results as documents with highlighted
         tracked changes.</p>
       <p>Here is the basic procedure:<ol>
-          <li>Select the <uicontrol>Merge Documents with Change Tracking Highlights</uicontrol>
+          <li irina="irina">Select the <uicontrol>Merge Documents with Change Tracking Highlights</uicontrol>
             action that is found in the <menucascade>
               <uicontrol>Tools</uicontrol>
               <uicontrol>Comparison Tools</uicontrol>
             </menucascade> menu to invoke the tool. It opens a dialog box where you can specify the
             documents to merge.</li>
-          <li>In the resulting dialog box, you need to provide the URLs of the base version of the
+          <li irina="irina">In the resulting dialog box, you need to provide the URLs of the base version of the
             document (<uicontrol>Base document</uicontrol>) and the modified version
               (<uicontrol>Document to merge with</uicontrol>), and then click the
               <uicontrol>Merge</uicontrol> button.<p><b>Step Result:</b> The resulting document is
               automatically loaded into a new editor tab. It incorporates special markings for the
               tracked changes/differences between the 2 compared and analyzed XML files.</p></li>
-          <li>Switch to the <uicontrol>Author</uicontrol> mode and then open the
+          <li irina="irina">Switch to the <uicontrol>Author</uicontrol> mode and then open the
               <uicontrol>Review</uicontrol> view (click the <uicontrol><image
                 href="../img/ManageReviews20.png"/>Manage reviews</uicontrol> button on the toolbar
             or select it from the <menucascade>
@@ -50,9 +50,9 @@
             </menucascade> menu).<p><b>Step Result:</b> All detected changes are listed in the
                 <uicontrol>Review</uicontrol> view and they are marked accordingly in the resulting
               document as well.</p></li>
-          <li>You can analyze each detected change one by one and accept or reject them individually
+          <li irina="irina">You can analyze each detected change one by one and accept or reject them individually
             or in bulk.</li>
-          <li>Save the changes you made during the reviewing process.</li>
+          <li irina="irina">Save the changes you made during the reviewing process.</li>
         </ol></p>
       <p id="p_ylj_f1h_nyb2">
         <fig>
@@ -69,31 +69,31 @@
         versions.</p>
       <p id="p_clb_lmf_pzb">Here is the basic procedure (for this particular example, suppose the
         resulting merged document is a DITA file):<ol>
-          <li>Select the <uicontrol>Merge Documents with Change Tracking Highlights</uicontrol>
+          <li irina="irina">Select the <uicontrol>Merge Documents with Change Tracking Highlights</uicontrol>
             action that is found in the <menucascade>
               <uicontrol>Tools</uicontrol>
               <uicontrol>Comparison Tools</uicontrol>
             </menucascade> menu to invoke the tool. It opens a dialog box where you can specify the
             documents to merge.</li>
-          <li>In the resulting dialog box, you need to provide the URLs of the base version of the
+          <li irina="irina">In the resulting dialog box, you need to provide the URLs of the base version of the
             document (<uicontrol>Base document</uicontrol>) and the modified version
               (<uicontrol>Document to merge with</uicontrol>), and then click the
               <uicontrol>Merge</uicontrol> button.</li>
-          <li>With the resulting merged document open in the editor, click the <uicontrol>Configure
+          <li irina="irina">With the resulting merged document open in the editor, click the <uicontrol>Configure
               Transformation Scenario(s)</uicontrol> button from the toolbar.</li>
-          <li>Select the default read-only scenario <uicontrol>DITA PDF - based on HTML5 &amp;
+          <li irina="irina">Select the default read-only scenario <uicontrol>DITA PDF - based on HTML5 &amp;
               CSS</uicontrol> and click the <uicontrol>Duplicate</uicontrol> button to create a copy
             so that you can make a few changes to the default settings.</li>
-          <li>In the resulting <uicontrol>Edit DITA Scenario</uicontrol> dialog box, go to the
+          <li irina="irina">In the resulting <uicontrol>Edit DITA Scenario</uicontrol> dialog box, go to the
               <uicontrol>Parameters</uicontrol> tab and type "changes" in text filter field above
             the table of parameters. This will display the three parameters that are responsible for
             displaying the tracked changes in the resulting PDF and they must all be set to the
             value of <i>yes</i>:<ul>
-              <li><codeph>show.changes.and.comments</codeph></li>
-              <li><codeph>show.changes.and.comments.as.changebars</codeph></li>
-              <li><codeph>show.changes.and.comments.as.pdf.sticky.notes</codeph></li>
+              <li irina="irina"><codeph>show.changes.and.comments</codeph></li>
+              <li irina="irina"><codeph>show.changes.and.comments.as.changebars</codeph></li>
+              <li irina="irina"><codeph>show.changes.and.comments.as.pdf.sticky.notes</codeph></li>
             </ul><p id="p_s3v_hs2_pzb"><image href="../img/param-edit-01.png"/></p></li>
-          <li>Click <uicontrol>OK</uicontrol>, and with the newly created copy of the scenario
+          <li irina="irina">Click <uicontrol>OK</uicontrol>, and with the newly created copy of the scenario
             selected, click the <uicontrol>Apply associated</uicontrol> button to run the
                 transformation.<p><b>Result:</b> Once the transformation is finished, the resulting
               PDF is automatically opened in the system's default PDF reader (e.g. Adobe). If you
@@ -112,24 +112,24 @@
         files.</p>
       <p>Here is the basic procedure (for this particular example, suppose you want to review the
         changes between two versions of an entire DITA project):<ol>
-          <li>Select the <uicontrol>Merge Directories with Change Tracking Highlights</uicontrol>
+          <li irina="irina">Select the <uicontrol>Merge Directories with Change Tracking Highlights</uicontrol>
             action that is found in the <menucascade>
               <uicontrol>Tools</uicontrol>
               <uicontrol>Comparison Tools</uicontrol>
             </menucascade> menu to invoke the tool. It opens a dialog box where you can specify the
             documents to merge.</li>
-          <li>In the resulting dialog box, you need to provide the URLs of the <uicontrol>Base
+          <li irina="irina">In the resulting dialog box, you need to provide the URLs of the <uicontrol>Base
               directory</uicontrol>, the <uicontrol>Directory to merge with</uicontrol>, and the
               <uicontrol>Output directory</uicontrol>.</li>
-          <li>You can optionally select the <uicontrol>Backup the base directory</uicontrol> option.
+          <li irina="irina">You can optionally select the <uicontrol>Backup the base directory</uicontrol> option.
             Not that this option is automatically activated and selected in the following cases:<ul>
-              <li>The output directory is not specified (the field is left blank).</li>
-              <li id="li_rhl_4t2_pzb">The specified output directory is the base directory
+              <li irina="irina">The output directory is not specified (the field is left blank).</li>
+              <li id="li_rhl_4t2_pzb" irina="irina">The specified output directory is the base directory
                 itself.</li>
             </ul><p id="p_shl_4t2_pzb">In these situations, a backup of the base directory will be
               performed automatically and the backup operation must succeed to proceed with the
               merge. Otherwise, the merge process is aborted.</p></li>
-          <li>You can adjust the settings in the <uicontrol>Merge options</uicontrol> section. You
+          <li irina="irina">You can adjust the settings in the <uicontrol>Merge options</uicontrol> section. You
             can find details for each option in <xref
               href="merge-dirs-with-change-tracking-highlights.dita#merge-dirs-with-change-tracking-highlights/dlentry_esx_djc_kqb"
               >Merge Directories with Change Tracking Highlights: Merge Options</xref>. Note that
@@ -142,7 +142,7 @@
               options in the <uicontrol>Merge options</uicontrol> section, including the
                 <uicontrol>Create change tracking markers for XML files to be added</uicontrol>
               option.</p></li>
-          <li>Click the he <uicontrol>Merge</uicontrol> button to start the process of generating
+          <li irina="irina">Click the he <uicontrol>Merge</uicontrol> button to start the process of generating
             the results of the merge operation. Depending on the number of files in the compared
             directories and the total number of changes detected, the process may take some
                 time.<p><b>Step Result:</b> The operation report should automatically open in
@@ -178,7 +178,7 @@
               even if they were initially copied to the output directory. The links also work for
               them, opening the associated files from the <uicontrol>Base
             directory</uicontrol>.</p></li>
-          <li>Now that you have the directory resulting from the merge operation at your disposal,
+          <li irina="irina">Now that you have the directory resulting from the merge operation at your disposal,
             you can apply a transformation scenario to obtain a PDF document that highlights the
             changes between the 2 versions. Open the DITA map that resulted from the merge operation
             in the <uicontrol>DITA Maps Manager</uicontrol>, click the <uicontrol>Configure
@@ -188,7 +188,7 @@
               href="#compare-merge-docs-with-change-tracking-highlights/section_fnt_lnf_pzb"
                 />.<p><b>Step Result:</b> Once the transformation is finished, the resulting PDF is
               automatically opened in the system's default PDF reader (e.g. Adobe).</p></li>
-          <li>In Adobe, there is a side view identified as <uicontrol>Bookmarks</uicontrol> (on the
+          <li irina="irina">In Adobe, there is a side view identified as <uicontrol>Bookmarks</uicontrol> (on the
             right or left side, depending of the Adobe version). By selecting
               <uicontrol>Contents</uicontrol> in this view and then scrolling down, you can hover
             the mouse over the presented colored markers for the new topics and you will notice that
@@ -196,11 +196,11 @@
             scroll to the respective topic and you will notice that it is marked with blue in the
             document (the color used for newly added content). If you continue to scroll down the
             PDF, you will notice various "insert" and "delete" changes.</li>
-          <li>Click the <uicontrol>Review comments</uicontrol> button on the side stripe of the
+          <li irina="irina">Click the <uicontrol>Review comments</uicontrol> button on the side stripe of the
               <uicontrol>Bookmarks</uicontrol> view:<p id="p_o3s_xt2_pzb"><image
                 href="../img/adobe-02.png"/></p><p><b>Step Result:</b> A list appears that contains
               all highlighted changes in the PDF.</p></li>
-          <li>You can scroll through the list and click on the changes listed to conveniently
+          <li irina="irina">You can scroll through the list and click on the changes listed to conveniently
             analyze and review all tracked and highlighted changes between the 2 versions of the
             DITA project.</li>
         </ol></p>
@@ -209,15 +209,15 @@
           CSS</uicontrol> transformation, there are other types of transformations that can be
         applied to the resulting DITA map, leading to a different kind of output. For example, you
         can use the <uicontrol>DITA Map WebHelp Responsive</uicontrol> transformation scenario:<ol>
-          <li>Select the default read-only scenario <uicontrol>DITA Map WebHelp
+          <li irina="irina">Select the default read-only scenario <uicontrol>DITA Map WebHelp
               Responsive</uicontrol> and click the <uicontrol>Duplicate</uicontrol> button to create
             a copy so that you can make a few changes to the default settings.</li>
-          <li>In the resulting <uicontrol>Edit DITA Scenario</uicontrol> dialog box, go to the
+          <li irina="irina">In the resulting <uicontrol>Edit DITA Scenario</uicontrol> dialog box, go to the
               <uicontrol>Parameters</uicontrol> tab and type "changes" in text filter field above
             the table of parameters. Make sure the
               <codeph>webhelp.show.changes.and.comments</codeph> parameter is set to <i>yes</i>.<p
               id="p_xtm_k52_pzb"><image href="../img/param-edit-02.png"/></p></li>
-          <li>Click <uicontrol>OK</uicontrol>, and with the newly created copy of the scenario
+          <li irina="irina">Click <uicontrol>OK</uicontrol>, and with the newly created copy of the scenario
             selected, click the <uicontrol>Apply associated</uicontrol> button to run the
                 transformation.<p><b>Step Result:</b> Once the transformation finishes, the
               resulting WebHelp output is opened in your default Internet browser. By clicking on

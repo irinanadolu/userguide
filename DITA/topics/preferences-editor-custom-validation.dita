@@ -69,10 +69,10 @@
             syntax, NVDL, Schematron, DTD, etc.) The arguments can include any custom switch (such
             as <option>-rng</option>) and the following <xref
               href="editor-variables.dita#editor-variables">editor variables</xref>:<ul id="ul_fpp_bgk_54b">
-              <li conkeyref="reusables-editor-variables/edvar-cf" id="li_gpp_bgk_54b"/>
-              <li conkeyref="reusables-editor-variables/edVar-currentFileURL" id="li_hpp_bgk_54b"/>
-              <li conkeyref="reusables-editor-variables/edVar-ds" id="li_ipp_bgk_54b"/>
-              <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_jpp_bgk_54b"/>
+              <li conkeyref="reusables-editor-variables/edvar-cf" id="li_gpp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-editor-variables/edVar-currentFileURL" id="li_hpp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-editor-variables/edVar-ds" id="li_ipp_bgk_54b" irina="irina"/>
+              <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_jpp_bgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
       </dl></p>

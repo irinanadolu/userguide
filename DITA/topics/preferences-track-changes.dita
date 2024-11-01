@@ -44,17 +44,17 @@
                     documents and disabled in others, or you can choose to always enable or disable
                     the feature for all documents. You can choose between the following options:<ul
                       id="ul_wt4_bgk_54b">
-                      <li id="li_xt4_bgk_54b"><uicontrol>Stored in document</uicontrol> - The
+                      <li id="li_xt4_bgk_54b" irina="irina"><uicontrol>Stored in document</uicontrol> - The
                         current state of the <term>Track Changes</term> feature is stored in the
                         document itself, meaning that it is on or off depending on the state the
                         last time the document was saved. This is the recommended setting when
                         multiple authors work on the same set of documents as it will make it
                         obvious to other authors that changes have been made in the document. </li>
-                      <li id="li_yt4_bgk_54b"><uicontrol>Always On</uicontrol> - The <term>Track
+                      <li id="li_yt4_bgk_54b" irina="irina"><uicontrol>Always On</uicontrol> - The <term>Track
                           Changes</term> feature is always on when you open a document. You can turn
                         it off for an open document, but it will be turned on for the next document
                         you open. </li>
-                      <li id="li_zt4_bgk_54b"><uicontrol>Always Off</uicontrol> - The <term>Track
+                      <li id="li_zt4_bgk_54b" irina="irina"><uicontrol>Always Off</uicontrol> - The <term>Track
                           Changes</term> feature is always off when you open a document. You can
                         turn it on for an open document, but it will be turned off for the next
                         document you open.</li>
@@ -65,10 +65,10 @@
                   <dd>Specifies whether or not all tracked changes and comments are visible when you
                     open a document in the <uicontrol>Author</uicontrol> visual editing mode. You
                     can choose between the following options:<ul>
-                      <li><uicontrol>View All Changes/Comments</uicontrol> - All tracked changes and
+                      <li irina="irina"><uicontrol>View All Changes/Comments</uicontrol> - All tracked changes and
                         comments are visible in the <uicontrol>Author</uicontrol> visual editing
                         mode. </li>
-                      <li><uicontrol>View Final</uicontrol> - Comments are hidden, while insertion
+                      <li irina="irina"><uicontrol>View Final</uicontrol> - Comments are hidden, while insertion
                         and deletion track changes are presented as if they would be accepted.</li>
                     </ul></dd>
                 </dlentry>
@@ -86,22 +86,22 @@
                     properties of the inserted content: <i>foreground</i>, <i>background</i>, and
                       <i>underline</i>. This section allows you to customize the following color
                       options:<ul id="ul_c54_bgk_54b">
-                      <li id="li_d54_bgk_54b"><uicontrol>Automatic</uicontrol> - If this option is
+                      <li id="li_d54_bgk_54b" irina="irina"><uicontrol>Automatic</uicontrol> - If this option is
                         selected, <ph keyref="product"/> automatically assigns a color to each user
                         who inserted content in the current document. The colors are picked from the
                           <xref href="#preferences-track-changes/auto-assign-list" format="dita"
                             ><uicontrol>Colors for automatic assignment</uicontrol> list</xref>, the
                         priority being established by the type of change (deletion, insertion, or
                         comment) and in the order that you see in the list.</li>
-                      <li id="li_e54_bgk_54b"><uicontrol>Fixed</uicontrol> - If this option is
+                      <li id="li_e54_bgk_54b" irina="irina"><uicontrol>Fixed</uicontrol> - If this option is
                         selected, <ph keyref="product"/> uses the specified color for all insertion
                         markers, regardless of who the author is.</li>
-                      <li id="li_f54_bgk_54b"><uicontrol>Use same color for text
+                      <li id="li_f54_bgk_54b" irina="irina"><uicontrol>Use same color for text
                           foreground</uicontrol> - If selected, <ph keyref="product"/> uses the
                         color defined above (<uicontrol>Automatic</uicontrol> or
                           <uicontrol>Fixed</uicontrol>) to render the foreground of the inserted
                         content.</li>
-                      <li id="li_g54_bgk_54b"><uicontrol>Use same color for background</uicontrol> -
+                      <li id="li_g54_bgk_54b" irina="irina"><uicontrol>Use same color for background</uicontrol> -
                         If selected, <ph keyref="product"/> uses the color defined above
                           (<uicontrol>Automatic</uicontrol> or <uicontrol>Fixed</uicontrol>) to
                         render the background of the inserted content. A slider control allows you
@@ -116,22 +116,22 @@
                     deleted content: <i>foreground</i>, <i>background</i>, and <i>strikethrough</i>.
                     This section allows you to customize the following color options:<ul
                       id="ul_i54_bgk_54b">
-                      <li id="li_j54_bgk_54b"><uicontrol>Automatic</uicontrol> - If this option is
+                      <li id="li_j54_bgk_54b" irina="irina"><uicontrol>Automatic</uicontrol> - If this option is
                         selected, <ph keyref="product"/> automatically assigns a color to each user
                         who deleted content in the current document. The colors are picked from the
                           <xref href="#preferences-track-changes/auto-assign-list" format="dita"
                             ><uicontrol>Colors for automatic assignment</uicontrol> list</xref>, the
                         priority being established by the type of change (deletion, insertion, or
                         comment) and in the order that you see in the list.</li>
-                      <li id="li_k54_bgk_54b"><uicontrol>Fixed</uicontrol> - If this option is
+                      <li id="li_k54_bgk_54b" irina="irina"><uicontrol>Fixed</uicontrol> - If this option is
                         selected, <ph keyref="product"/> uses the specified color for all deletion
                         markers, regardless of who the author is.</li>
-                      <li id="li_l54_bgk_54b"><uicontrol>Use same color for text
+                      <li id="li_l54_bgk_54b" irina="irina"><uicontrol>Use same color for text
                           foreground</uicontrol> - If selected, <ph keyref="product"/> uses the
                         color defined above (<uicontrol>Automatic</uicontrol> or
                           <uicontrol>Fixed</uicontrol>) to render the foreground of the deleted
                         content.</li>
-                      <li id="li_m54_bgk_54b"><uicontrol>Use same color for background</uicontrol> -
+                      <li id="li_m54_bgk_54b" irina="irina"><uicontrol>Use same color for background</uicontrol> -
                         If selected, <ph keyref="product"/> uses the color defined above
                           (<uicontrol>Automatic</uicontrol> or <uicontrol>Fixed</uicontrol>) to
                         render the background of the deleted content. A slider control allows you to
@@ -146,14 +146,14 @@
           <dt><uicontrol>Comments color</uicontrol> section (applies for all authors)</dt>
           <dd>Sets the background color of the text that is commented on. The options are:<ul
               id="ul_ab333fe6-748e-4ddd-9efc-8ad89410160e">
-              <li id="li_o54_bgk_54b"><uicontrol>Automatic</uicontrol> - If this option is selected,
+              <li id="li_o54_bgk_54b" irina="irina"><uicontrol>Automatic</uicontrol> - If this option is selected,
                   <ph keyref="product"/> automatically assigns a color to each user who adds a
                 comment in the current document. The colors are picked from the <xref
                   href="#preferences-track-changes/auto-assign-list" format="dita"><uicontrol>Colors
                     for automatic assignment</uicontrol> list</xref>, the priority being established
                 by the type of change (deletion, insertion, or comment) and in the order that you
                 see in the list.</li>
-              <li id="li_p54_bgk_54b"><uicontrol>Fixed</uicontrol> - If this option is selected, <ph
+              <li id="li_p54_bgk_54b" irina="irina"><uicontrol>Fixed</uicontrol> - If this option is selected, <ph
                   keyref="product"/> uses the specified color for all changes, regardless of who the
                 author is. A slider control allows you to set the transparency level of the
                 background.</li>

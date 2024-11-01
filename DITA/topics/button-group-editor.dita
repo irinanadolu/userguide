@@ -17,31 +17,31 @@
   </prolog>
   <body>
     <p id="p_y4d_dgk_54b">The <codeph>oxy_buttonGroup</codeph> form control supports the following properties: <ul id="ul_z4d_dgk_54b">
-        <li id="li_apd_dgk_54b"><uicontrol>label</uicontrol> - Specifies the label to be displayed
+        <li id="li_apd_dgk_54b" irina="irina"><uicontrol>label</uicontrol> - Specifies the label to be displayed
           on the button. This label can be translated using the <xref
             href="editor-variables.dita#editor-variables/localization"><term>${i18n()}</term> editor
             variable</xref>.</li>
-        <li id="li_bpd_dgk_54b"><uicontrol>icon</uicontrol> - The path to the icon to be displayed
+        <li id="li_bpd_dgk_54b" irina="irina"><uicontrol>icon</uicontrol> - The path to the icon to be displayed
           on the button.</li>
-        <li id="li_cpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
-        <li id="li_dpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/tooltip-property"/></li>
-        <li id="li_epd_dgk_54b"><uicontrol>transparent</uicontrol> - Makes the button transparent
+        <li id="li_cpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
+        <li id="li_dpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/tooltip-property"/></li>
+        <li id="li_epd_dgk_54b" irina="irina"><uicontrol>transparent</uicontrol> - Makes the button transparent
           without any borders or background colors. The values of this property can be
             <codeph>true</codeph> or <codeph>false</codeph>.</li>
-        <li id="li_fpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
-        <li id="li_gpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/enable-read-only-context-property"
+        <li id="li_fpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
+        <li id="li_gpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/enable-read-only-context-property"
           /></li>
-        <li id="li_hpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+        <li id="li_hpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" id="codeblock_ipd_dgk_54b">p:before {
   content: oxy_buttonGroup(hoverPseudoclassName, 'showBorder')
 }
 p:showBorder {
   border: 1px solid red;
 }</codeblock></li>
-        <li id="li_jpd_dgk_54b"><uicontrol>actionIDs</uicontrol> - The IDs of the actions that will
+        <li id="li_jpd_dgk_54b" irina="irina"><uicontrol>actionIDs</uicontrol> - The IDs of the actions that will
           be presented in the group of buttons.</li>
-        <li conkeyref="reusables-author-mode-customization/actionID-property" id="li_kpd_dgk_54b"/>
-        <li id="li_lpd_dgk_54b">
+        <li conkeyref="reusables-author-mode-customization/actionID-property" id="li_kpd_dgk_54b" irina="irina"/>
+        <li id="li_lpd_dgk_54b" irina="irina">
           <p id="p_mpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/action-list-property"
             /><codeblock outputclass="language-css" id="codeblock_npd_dgk_54b">oxy_buttonGroup(
     label, 'A group of actions', 
@@ -107,8 +107,8 @@ content:
 }</codeblock></note>
           </p>
         </li>
-        <li id="li_rpd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/actionContext-property"/></li>
-        <li id="li_spd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/actionDisplayStyle-property"/></li>
+        <li id="li_rpd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/actionContext-property"/></li>
+        <li id="li_spd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/actionDisplayStyle-property"/></li>
       </ul></p>
     <p id="p_tpd_dgk_54b"><b><u>Example: <term>oxy_buttonGroup</term> Form
       Control</u></b><codeblock outputclass="language-css" id="codeblock_upd_dgk_54b">buttongroup:before {     

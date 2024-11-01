@@ -27,13 +27,13 @@
             organization, and community members. <p id="p_ftw_dgk_54b">The following components are
               available to help you filter the information or navigate to a certain page:<ul
                 id="ul_ydh_lsp_ymb">
-                <li id="li_gtw_dgk_54b">You can use the search field at the top of the page to
+                <li id="li_gtw_dgk_54b" irina="irina">You can use the search field at the top of the page to
                   filter the results by site or owner.</li>
-                <li id="li_htw_dgk_54b">If you click on the name of the site configuration, it will
+                <li id="li_htw_dgk_54b" irina="irina">If you click on the name of the site configuration, it will
                   open the <xref href="ofb-moderating-comments.dita"><uicontrol>Comments</uicontrol>
                     page</xref> where comments can be moderated and managed for the particular
                   configuration.</li>
-                <li id="li_itw_dgk_54b">The number of <uicontrol>Pending</uicontrol> (not shown if
+                <li id="li_itw_dgk_54b" irina="irina">The number of <uicontrol>Pending</uicontrol> (not shown if
                   the <xref href="ofb-editing-site.dita#ofb-editing-site/comment-moderation"
                       ><uicontrol>Comments Moderation</uicontrol> option is set to
                     <i>None</i></xref>), <uicontrol>Open</uicontrol>, and
@@ -44,10 +44,10 @@
                     id="note_jtw_dgk_54b">The number of <uicontrol>Open</uicontrol> and
                       <uicontrol>Resolved</uicontrol> comments do not include replies (only
                     first-level comments).</note></li>
-                <li id="li_jtv_lny_prb">The name of the organization that the site configuration
+                <li id="li_jtv_lny_prb" irina="irina">The name of the organization that the site configuration
                   belongs to is displayed in the sortable <uicontrol>Organization</uicontrol>
                   column.</li>
-                <li id="li_ltw_dgk_54b">The number of community members is displayed in a blue box
+                <li id="li_ltw_dgk_54b" irina="irina">The number of community members is displayed in a blue box
                   in the <uicontrol>Members</uicontrol> column for each site configuration. Clicking
                   the blue box will open the <xref href="ofb-community-management.dita"
                       ><uicontrol>Members</uicontrol> page</xref> where you can see all the members

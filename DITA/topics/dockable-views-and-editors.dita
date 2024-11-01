@@ -146,15 +146,15 @@
       <title>Split Editor Actions</title>
       <p id="p_kbs_bgk_54b">You can divide the editing area vertically and horizontally using the following actions
         available in the toolbar and <uicontrol>Window</uicontrol> menu:<ul id="ul_a4z_14p_2r">
-          <li id="li_lbs_bgk_54b"><uicontrol><image href="../img/SplitVertical16.png" id="image_a2y_1zf_3kb"/>Split
+          <li id="li_lbs_bgk_54b" irina="irina"><uicontrol><image href="../img/SplitVertical16.png" id="image_a2y_1zf_3kb"/>Split
               Editor Horizontally</uicontrol> - Splits the editor horizontally so that two editor
             panes are displayed with one on top of the other. This is useful for comparing and
             merging content between two documents.</li>
-          <li id="li_mbs_bgk_54b"><uicontrol><image href="../img/SplitHorizontal16.png" id="image_ekq_4df_wr"/>Split
+          <li id="li_mbs_bgk_54b" irina="irina"><uicontrol><image href="../img/SplitHorizontal16.png" id="image_ekq_4df_wr"/>Split
               Editor Vertically</uicontrol> - Splits the editor vertically so that two editor panes
             are displayed side by side. This is useful for comparing and merging content between two
             documents.</li>
-          <li id="li_nbs_bgk_54b"><uicontrol><image href="../img/Unsplit16.png" id="image_gyg_pdf_wr"/>Unsplit
+          <li id="li_nbs_bgk_54b" irina="irina"><uicontrol><image href="../img/Unsplit16.png" id="image_gyg_pdf_wr"/>Unsplit
               Editor</uicontrol> - Removes a split action on the editing area. </li>
         </ul>To maximize or restore the editors, go to <menucascade>
           <uicontrol>Window</uicontrol>

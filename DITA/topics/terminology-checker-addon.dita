@@ -23,22 +23,22 @@
     <section id="section_tdq_wvx_qsb">
       <title>Quick Installation</title>
       <p conkeyref="reusables-addons/p_install_button" id="p_hzl_4xg_rsb"/>
-      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed"><![CDATA[
-               <a
+      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed">
+               &lt;a
           title = "Drag and drop into the Oxygen editing area to install (Oxygen 24.1 and newer)."
           href="https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml?oxygenAddonId=oxygen-terminology-checker-experimental"
           style="padding: 8px; border: 1px solid #cbcbcb; border-radius: 4px; cursor: grab;color:black;
-          text-decoration:none;"><img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/><span>Install</span></a>]]></foreign></p>
+          text-decoration:none;">&lt;img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/>&lt;span>Install&lt;/span>&lt;/a></foreign></p>
     </section>
     <section id="section_pbf_5yg_rsb">
       <title>Manual Installation</title>
       <p id="p_ybh_dgk_54b">To manually install the add-on, follow this procedure:</p>
       <ol id="ol_wjr_sjc_mnb">
-        <li id="li_zbh_dgk_54b">Go to <menucascade>
+        <li id="li_zbh_dgk_54b" irina="irina">Go to <menucascade>
             <uicontrol>Help</uicontrol>
             <uicontrol>Install new add-ons</uicontrol>
           </menucascade> to open an add-on selection dialog box. </li>
-        <li id="li_ach_dgk_54b">Enter or paste
+        <li id="li_ach_dgk_54b" irina="irina">Enter or paste
             <b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b> in the
             <uicontrol>Show add-ons from</uicontrol> field or select it from the drop-down
             menu.<note id="note_manual_installation">If you have issues connecting to the default
@@ -47,12 +47,12 @@
               >download the add-on package</xref>, unzip it, then use the <uicontrol>Browse for
               local files</uicontrol> action in the <uicontrol>Install new add-ons</uicontrol>
             dialog box to locate the downloaded <filepath>addon.xml</filepath> file.</note></li>
-        <li id="li_bch_dgk_54b">Select the <b>Terminology Checker</b> add-on and click
+        <li id="li_bch_dgk_54b" irina="irina">Select the <b>Terminology Checker</b> add-on and click
             <uicontrol>Next</uicontrol>. </li>
-        <li id="li_cch_dgk_54b">Read the end-user license agreement. Then select the <uicontrol>I
+        <li id="li_cch_dgk_54b" irina="irina">Read the end-user license agreement. Then select the <uicontrol>I
             accept all terms of the end-user license agreement</uicontrol> option and click
             <uicontrol>Finish</uicontrol>.</li>
-        <li id="li_dch_dgk_54b">Restart the application.</li>
+        <li id="li_dch_dgk_54b" irina="irina">Restart the application.</li>
       </ol>
     </section>
     <section id="section_ym2_vjc_mnb">
@@ -60,7 +60,7 @@
       <p id="p_ech_dgk_54b">To create your own custom rules for the terminology checker, follow this procedure:</p>
       <p id="p_fch_dgk_54b">
         <ol id="ol_gch_dgk_54b">
-          <li id="li_hch_dgk_54b">Create a terminology file. There is a template available to help
+          <li id="li_hch_dgk_54b" irina="irina">Create a terminology file. There is a template available to help
             you get started in the <xref href="new-dialog-sa.dita#new-dialog-sa"
               product="author editor"><uicontrol>New Document</uicontrol> wizard</xref><xref
               href="new-dialog-eclipse.dita#new-dialog-eclipse"
@@ -78,11 +78,11 @@
         &lt;message>Product name should be inside a tag.&lt;/message>
     &lt;/incorrect-term>
 &lt;/incorrect-terms></codeblock></li>
-          <li>Save the newly created terminology rules XML file either in a new subfolder named
+          <li irina="irina">Save the newly created terminology rules XML file either in a new subfolder named
               <filepath>oxygen-term-checker</filepath> located in the current project folder (the
             current project opened in the application <uicontrol>Project</uicontrol> view), or in a
             custom folder. </li>
-          <li id="li_uch_dgk_54b">If you saved the terminology file in a custom folder path, go to
+          <li id="li_uch_dgk_54b" irina="irina">If you saved the terminology file in a custom folder path, go to
             the <menucascade>
               <uicontrol>Options</uicontrol>
               <uicontrol>Preferences</uicontrol>
@@ -90,7 +90,7 @@
               <uicontrol>Terminology Checker</uicontrol>
             </menucascade> preferences page and set the <uicontrol>Additional Terminology
               folder</uicontrol> path to point to that folder. </li>
-          <li id="li_vch_dgk_54b">Click <uicontrol>OK</uicontrol> several times to apply the changes and close the
+          <li id="li_vch_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> several times to apply the changes and close the
             preferences dialog box.</li>
         </ol>
       </p>
@@ -155,11 +155,11 @@
               is inherited by <xmlelement>incorrect-term</xmlelement> children nodes. Not setting
               this attribute means the default phase is used. <p id="p_pyk_31q_ctb">The allowed
                 values are: <ul id="ul_aqj_b32_vsb">
-                  <li id="li_qyk_31q_ctb"><uicontrol>always</uicontrol> - Incorrect terms are always
+                  <li id="li_qyk_31q_ctb" irina="irina"><uicontrol>always</uicontrol> - Incorrect terms are always
                     presented (default value).</li>
-                  <li id="li_ryk_31q_ctb"><uicontrol>editing</uicontrol> - Incorrect terms are shown
+                  <li id="li_ryk_31q_ctb" irina="irina"><uicontrol>editing</uicontrol> - Incorrect terms are shown
                     when the document is opened in the <uicontrol>Author</uicontrol> mode.</li>
-                  <li id="li_syk_31q_ctb"><uicontrol>validation</uicontrol> - Incorrect terms are
+                  <li id="li_syk_31q_ctb" irina="irina"><uicontrol>validation</uicontrol> - Incorrect terms are
                     shown when the document is checked from a validation scenario.</li>
                 </ul></p><p id="p_tyk_31q_ctb">For example, set this attribute if you want to apply
                 the most important rules when validating with the <i>Validate and Check for
@@ -245,23 +245,23 @@
                 Example:<codeblock id="codeblock_stq_qjw_ktb" outputclass="language-xml">&lt;xpath-context include="p, div, codeblock"></codeblock><p>The
                 following are examples of how simplified XPath expressions might look like:</p><ul
                 id="ul_x3k_gfw_ktb">
-                <li><codeph>elementName</codeph></li>
-                <li><codeph>//elementName</codeph></li>
-                <li><codeph>/elementName1/elementName2/elementName3</codeph></li>
-                <li><codeph>//xs:localName</codeph><note id="note_mp4_zfw_ktb">The namespace
+                <li irina="irina"><codeph>elementName</codeph></li>
+                <li irina="irina"><codeph>//elementName</codeph></li>
+                <li irina="irina"><codeph>/elementName1/elementName2/elementName3</codeph></li>
+                <li irina="irina"><codeph>//xs:localName</codeph><note id="note_mp4_zfw_ktb">The namespace
                     prefixes (such as <codeph>xs</codeph>) are treated as part of the element name
                     without taking its binding to a namespace into account.</note></li>
               </ul><p>You can use one or more of the following attribute conditions:</p><note
                 id="note_ccl_2gw_ktb" type="attention">Default attribute values are not taken into
                 account.</note><ul id="ul_tpf_r3s_mtb">
-                <li><codeph>element[@attr]</codeph> - Matches all instances of the specified element
+                <li irina="irina"><codeph>element[@attr]</codeph> - Matches all instances of the specified element
                   when it includes the specified attribute.</li>
-                <li><codeph>element[not(@attr)]</codeph> - Matches all instances of the specified
+                <li irina="irina"><codeph>element[not(@attr)]</codeph> - Matches all instances of the specified
                   element when it does not include the specified attribute.</li>
-                <li><codeph>element[@attr = 'value']</codeph> - Matches all instances of the
+                <li irina="irina"><codeph>element[@attr = 'value']</codeph> - Matches all instances of the
                   specified element when it includes the specified attribute with the given
                   value.</li>
-                <li><codeph>element[@attr != 'value']</codeph> - Matches all instances of the
+                <li irina="irina"><codeph>element[@attr != 'value']</codeph> - Matches all instances of the
                   specified element when it includes the specified attribute and its value is
                   different than the one given.</li>
               </ul></dd>
@@ -299,13 +299,13 @@
           <uicontrol>Project</uicontrol> view, the add-on will start using those rules to check the
           content.</note><b>Resources:</b> You can find already created Vale rules that implement
         various checks on the following websites:<ul>
-          <li>Vale rules that aim to replicate <term>Grammarly</term> checks: <xref
+          <li irina="irina">Vale rules that aim to replicate <term>Grammarly</term> checks: <xref
               href="https://github.com/testthedocs/Openly/tree/master/Openly" format="html"
               scope="external"/>.</li>
-          <li>Vale rules that aim to automate the <term>Microsoft</term> style guide:<xref
+          <li irina="irina">Vale rules that aim to automate the <term>Microsoft</term> style guide:<xref
               href="https://github.com/errata-ai/Microsoft/tree/master/Microsoft" format="html"
               scope="external"/>.</li>
-          <li>Vale rules that aim to automate the <term>Google</term> style guide: <xref
+          <li irina="irina">Vale rules that aim to automate the <term>Google</term> style guide: <xref
               href="https://github.com/errata-ai/Google/tree/master/Google" format="html"
               scope="external"/>.</li>
         </ul></p>
@@ -321,12 +321,12 @@
           <uicontrol>Terminology Checker</uicontrol> preferences page.</p>
       <p id="p_edh_dgk_54b">You can also right-click problems highlighted in the <uicontrol>Author</uicontrol> visual
         editing mode to access the following contextual menu actions:<ul id="ul_k4z_b2j_dmb">
-          <li id="li_fdh_dgk_54b"><b>Replace with "…"</b> - Replaces the currently highlighted match with the content
+          <li id="li_fdh_dgk_54b" irina="irina"><b>Replace with "…"</b> - Replaces the currently highlighted match with the content
             inside the <xmlelement>suggestion</xmlelement> element.</li>
-          <li id="li_gdh_dgk_54b"><b>Replace all with "…"</b> - Replaces all instances of the highlighted match found in
+          <li id="li_gdh_dgk_54b" irina="irina"><b>Replace all with "…"</b> - Replaces all instances of the highlighted match found in
             the current document with the content inside the <xmlelement>suggestion</xmlelement>
             element.</li>
-          <li id="li_hdh_dgk_54b"><b>Correct all matching highlights</b> - Replaces all highlighted matches (all matched
+          <li id="li_hdh_dgk_54b" irina="irina"><b>Correct all matching highlights</b> - Replaces all highlighted matches (all matched
             terms) within the document with the content inside the first
               <xmlelement>suggestion</xmlelement> element from the terminology file.</li>
         </ul></p>
@@ -335,11 +335,11 @@
           Terminology Highlights</uicontrol> toolbar button.</p>
       <note id="note_p1g_xzj_krb" type="other" othertype="Other Notes">
         <ul id="ul_f2y_yzj_krb">
-          <li id="li_g2y_yzj_krb">The checker automatically skips deleted content with tracked
+          <li id="li_g2y_yzj_krb" irina="irina">The checker automatically skips deleted content with tracked
             changes and space-preserved elements (e.g. codeblocks).</li>
-          <li id="li_rqm_zzj_krb">When replacements are performed, the capitalization is
+          <li id="li_rqm_zzj_krb" irina="irina">When replacements are performed, the capitalization is
             preserved.</li>
-          <li id="li_g21_11k_krb">In the <ph keyref="product"/>
+          <li id="li_g21_11k_krb" irina="irina">In the <ph keyref="product"/>
             <menucascade>
               <uicontrol>Options</uicontrol>
               <uicontrol>Preferences</uicontrol>
@@ -350,7 +350,7 @@
             rules. This folder can contain other folders with terminology files or just the
             terminology files. The option that controls automatic capitalization can also be found
             in this preferences page.</li>
-          <li>If you select <uicontrol>Project Options</uicontrol> (in the <uicontrol>Terminology
+          <li irina="irina">If you select <uicontrol>Project Options</uicontrol> (in the <uicontrol>Terminology
               Checker</uicontrol> preferences page), the settings are stored in the project file
               (<filepath>.xpr</filepath>) that can be <xref
               href="sharing-possibilities.dita#sharing-possibilities/share_settings_through_a_project_file"
@@ -431,18 +431,18 @@
       <title>Checking Multiple Resources</title>
       <p>Once installed, the terminology checker add-on can be used to batch-check multiple
           files:<ul id="ul_utk_lvc_xsb">
-          <li>Right-click on the root of the DITA map opened in the <uicontrol>DITA Maps
+          <li irina="irina">Right-click on the root of the DITA map opened in the <uicontrol>DITA Maps
               Manager</uicontrol> view and choose <uicontrol>Check terminology</uicontrol>.</li>
-          <li>Right-click a folder in the <uicontrol>Project</uicontrol> view and choose
+          <li irina="irina">Right-click a folder in the <uicontrol>Project</uicontrol> view and choose
               <uicontrol>Check terminology</uicontrol>.</li>
-          <li>Create a new validation scenario or edit an existing validation scenario, and add a
+          <li irina="irina">Create a new validation scenario or edit an existing validation scenario, and add a
             new validation stage. For the <uicontrol>File type</uicontrol> field, choose
               <uicontrol>XML Document</uicontrol> and for the <uicontrol>Validation
               engine</uicontrol> field, choose <uicontrol>Terminology checker</uicontrol>. The
             validation scenario can be used in multiple ways:<ul id="ul_ih4_xvc_xsb">
-              <li>In the <uicontrol>Project</uicontrol> view, you can right-click a folder and
+              <li irina="irina">In the <uicontrol>Project</uicontrol> view, you can right-click a folder and
                 validate using a specific validation scenario.</li>
-              <li>In the <uicontrol>DITA Maps Manager</uicontrol> view, you can use the
+              <li irina="irina">In the <uicontrol>DITA Maps Manager</uicontrol> view, you can use the
                   <uicontrol>Validate and Check for Completeness</uicontrol> toolbar action and
                 choose to <uicontrol>Batch validate referenced DITA resources</uicontrol>. This will
                 apply the associated validation scenario for each topic or map referenced in the
@@ -456,7 +456,7 @@
         used by the Terminology Checker. The contributed terminology files will be loaded and used
         if the contributor add-on is enabled.</p>
       <p id="p_lvk_y4d_y5b">The following pre-conditions must be fulfilled:<ol id="ol_kyw_z4d_y5b">
-          <li id="li_lyw_z4d_y5b">The contributor add-on's <filepath>plugin.xml</filepath>
+          <li id="li_lyw_z4d_y5b" irina="irina">The contributor add-on's <filepath>plugin.xml</filepath>
             descriptor file should reference the rules folder in the <filepath>plugin.xml</filepath>
             as a <codeph>librariesFolder</codeph> with a <codeph>global</codeph>
             scope:<codeblock outputclass="language-xml">&lt;plugin
@@ -471,7 +471,7 @@
         &lt;librariesFolder name="Rules_Folder" scope="global"/>
     &lt;/runtime>
 &lt;/plugin></codeblock></li>
-          <li id="li_wyq_3pd_y5b">The contributor add-on should have a marker file named
+          <li id="li_wyq_3pd_y5b" irina="irina">The contributor add-on should have a marker file named
               <filepath>oxy-terms-auto-detect</filepath> inside the rules folder. The terminology
             files can be added in the rules folder or organized in subfolders (the Terminology
             Checker scans the subfolders to identify the terminology files). Inside the
@@ -518,7 +518,7 @@
       <p id="p_orm_dgk_54b">For more information about the Terminology Checker add-on, along with
         details regarding other popular add-ons that extend the functionality of <ph
           keyref="product"/>, watch the following webinar:<ul id="ul_kgv_tx1_jsb">
-          <li id="li_lgv_tx1_jsb"><xref
+          <li id="li_lgv_tx1_jsb" irina="irina"><xref
               href="https://www.oxygenxml.com/events/2021/webinar_add_ons_you_can_use_for_technical_writing.html"
               format="html" scope="external">Webinar: Add-ons You Can Use for Technical
               Writing</xref></li>

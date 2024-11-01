@@ -28,11 +28,11 @@
         business rules specified in the Schematron file. Issues are presented in the editor in
         several ways:</p>
       <ul id="ul_jvb_yg5_nkb">
-        <li id="li_bm4_dgk_54b">The corresponding content is underlined with a color according to the problem
+        <li id="li_bm4_dgk_54b" irina="irina">The corresponding content is underlined with a color according to the problem
           severity.</li>
-        <li id="li_cm4_dgk_54b">Details about the problem are presented in the <uicontrol>Validation</uicontrol>
+        <li id="li_cm4_dgk_54b" irina="irina">Details about the problem are presented in the <uicontrol>Validation</uicontrol>
           side-view.</li>
-        <li id="li_dm4_dgk_54b">Details about the problem appear in a tooltip when you hover over content where the
+        <li id="li_dm4_dgk_54b" irina="irina">Details about the problem appear in a tooltip when you hover over content where the
           problem is detected.</li>
       </ul>
       <note type="warning" id="note_em4_dgk_54b">If a Schematron file is not detected as being trusted, it is executed in
@@ -42,8 +42,8 @@
         />.</note>
       <p id="p_fm4_dgk_54b">This Markdown support is available for Web Author integrations with the following types of
         file repositories:<ul id="ul_g4h_3f5_nkb">
-          <li id="li_gm4_dgk_54b"><xref href="using-webapp-github.dita">Git</xref></li>
-          <li id="li_jm4_dgk_54b"><xref href="how_to_webapp_webdav.dita">WebDAV</xref><note id="note_km4_dgk_54b">Markdown documents do not
+          <li id="li_gm4_dgk_54b" irina="irina"><xref href="using-webapp-github.dita">Git</xref></li>
+          <li id="li_jm4_dgk_54b" irina="irina"><xref href="how_to_webapp_webdav.dita">WebDAV</xref><note id="note_km4_dgk_54b">Markdown documents do not
               support the autosave or auto-lock features for WebDAV repository
             integrations.</note></li>
         </ul></p>

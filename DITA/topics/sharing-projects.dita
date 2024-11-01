@@ -26,12 +26,12 @@
       <p id="p_cvt_bgk_54b">To share options that are configured in certain preferences pages, you can store them in a
           <term>project file</term> (<filepath>.xpr</filepath> file extension) that can easily be
         shared with others. To do so, follow these steps:<ol id="ul_bdf_d5t_zd">
-          <li id="li_dvt_bgk_54b">[Recommended] You may want to use a fresh install for this
+          <li id="li_dvt_bgk_54b" irina="irina">[Recommended] You may want to use a fresh install for this
             procedure to ensure that you do not copy personal or local preferences.</li>
-          <li conkeyref="reusables-editing-documents/li_evt_bgk_54b" id="li_emn_kcd_dpb"/>
-          <li conkeyref="reusables-editing-documents/li_fvt_bgk_54b" id="li_tj2_lcd_dpb"/>
-          <li conkeyref="reusables-editing-documents/li_gvt_bgk_54b" id="li_tdx_lcd_dpb"/>
-          <li conkeyref="reusables-editing-documents/li_ivt_bgk_54b" id="li_ox2_ncd_dpb"/>
+          <li conkeyref="reusables-editing-documents/li_evt_bgk_54b" id="li_emn_kcd_dpb" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/li_fvt_bgk_54b" id="li_tj2_lcd_dpb" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/li_gvt_bgk_54b" id="li_tdx_lcd_dpb" irina="irina"/>
+          <li conkeyref="reusables-editing-documents/li_ivt_bgk_54b" id="li_ox2_ncd_dpb" irina="irina"/>
         </ol></p>
     </section>
     <section id="sharing_transformation_scenarios" product="author developer editor">
@@ -39,18 +39,18 @@
       <p id="p_nvt_bgk_54b">To share created and edited transformation scenarios, you can store them
         in a <term>project file</term> (<filepath>.xpr</filepath> file extension) by following these
           steps:<ol id="ol_lzq_pcq_gs">
-          <li id="li_ovt_bgk_54b">In the <xref
+          <li id="li_ovt_bgk_54b" irina="irina">In the <xref
               href="using-the-project-view.dita#using-the-project-view" format="dita"
                 ><uicontrol>Project</uicontrol> view</xref>, create a project or open an existing
             one.</li>
-          <li id="li_pvt_bgk_54b">When you <xref
+          <li id="li_pvt_bgk_54b" irina="irina">When you <xref
               href="defining-new-transformation-scenario.dita#defining-new-transformation-scenario"
               >create a new transformation scenario</xref> or <xref
               href="edit-scenario-dialog.dita#edit-scenario-dialog">edit an existing one</xref>,
             there is a <uicontrol>Storage</uicontrol> option. Switch the storage preference to <xref
               keyref="glossentry_project-options"><uicontrol>Project Options</uicontrol></xref> in
             each transformation scenario you want to be included in the project file.</li>
-          <li id="li_qvt_bgk_54b">
+          <li id="li_qvt_bgk_54b" irina="irina">
             <p id="p_rvt_bgk_54b">Click <uicontrol>OK</uicontrol> to store the scenario in the
               project file.</p>
             <p id="p_svt_bgk_54b">You can then share the project file so that your team will have
@@ -67,14 +67,14 @@
       <p id="p_vvt_bgk_54b">To share created and edited validation scenarios, you can store them in a <term>project
           file</term> (<filepath>.xpr</filepath> file extension) by following these steps:<ol
           id="ol_wzq_m2q_gs">
-          <li id="li_wvt_bgk_54b">In the <xref href="using-the-project-view.dita#using-the-project-view" format="dita"
+          <li id="li_wvt_bgk_54b" irina="irina">In the <xref href="using-the-project-view.dita#using-the-project-view" format="dita"
                 ><uicontrol>Project</uicontrol> view</xref>, create a project or open an existing
             one.</li>
-          <li id="li_xvt_bgk_54b">When you create a new validation scenario or edit an existing one,
+          <li id="li_xvt_bgk_54b" irina="irina">When you create a new validation scenario or edit an existing one,
             there is a <uicontrol>Storage</uicontrol> option. Switch the storage preference to <xref
               keyref="glossentry_project-options"><uicontrol>Project Options</uicontrol></xref> in
             each validation scenario you want to be included in the project file.</li>
-          <li id="li_yvt_bgk_54b">
+          <li id="li_yvt_bgk_54b" irina="irina">
             <p id="p_zvt_bgk_54b">Click <uicontrol>OK</uicontrol> to store the scenario in the project file.</p>
             <p id="p_awt_bgk_54b">You can then share the project file so that your team will have
               access to the same validation scenarios that you stored in the project file. When you

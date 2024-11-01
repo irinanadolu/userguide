@@ -116,10 +116,10 @@
                   <dt><uicontrol>When searching in content, return</uicontrol></dt>
                   <dd>This option specifies how matches are returned when doing searches in content.
                     You can choose between two options:<ul id="ul_agr_bgk_54b">
-                      <li id="li_bgr_bgk_54b"><uicontrol>Exact matches</uicontrol> - The search results match the exact
+                      <li id="li_bgr_bgk_54b" irina="irina"><uicontrol>Exact matches</uicontrol> - The search results match the exact
                         whole words that you enter in the search field of the <uicontrol>Open/Find
                           Resource</uicontrol> dialog box/view.</li>
-                      <li id="li_cgr_bgk_54b"><uicontrol>Prefix matches</uicontrol> (default) - The search results match
+                      <li id="li_cgr_bgk_54b" irina="irina"><uicontrol>Prefix matches</uicontrol> (default) - The search results match
                         documents that contain words starting with the search terms. For instance,
                         searching for "pref page" will also find documents containing "preference
                         page".</li>

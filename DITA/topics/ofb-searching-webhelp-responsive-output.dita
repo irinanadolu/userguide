@@ -15,11 +15,11 @@
       searched terms in the content. </p>
     <p>The search ranking order, sorted by relevance is determined by the following locations:<ol
         id="ol_zmz_vyn_zyb">
-        <li>Page Title, Keywords &amp; index terms</li>
-        <li>Short description and section headings (H1 to H6)</li>
-        <li>Bold text</li>
-        <li>Italic &amp; underlined text</li>
-        <li>Plain text</li>
+        <li irina="irina">Page Title, Keywords &amp; index terms</li>
+        <li irina="irina">Short description and section headings (H1 to H6)</li>
+        <li irina="irina">Bold text</li>
+        <li irina="irina">Italic &amp; underlined text</li>
+        <li irina="irina">Plain text</li>
       </ol></p>
     <p>
       <note id="note_mtm_1zn_zyb" type="tip">The <markupname>indexterm</markupname> and

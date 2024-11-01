@@ -10,16 +10,16 @@
       <title>WebHelp Classic Output</title>
       <p id="p_bdl_bgk_54b">To publish a DocBook document as a <b>WebHelp Classic</b> system, follow
         these steps: <ol id="ol_ist_rny_cr2">
-          <li id="li_cdl_bgk_54b">Click the <uicontrol><image href="../img/TransformConfig16.png"
+          <li id="li_cdl_bgk_54b" irina="irina">Click the <uicontrol><image href="../img/TransformConfig16.png"
                 id="image_obc_2wv_sr3"/>Configure Transformation Scenario(s)</uicontrol> action from
             the toolbar<ph product="author developer editor webhelp"> (or the <menucascade>
                 <uicontrol>Document</uicontrol>
                 <uicontrol>Transformation</uicontrol>
               </menucascade> menu</ph>.</li>
-          <li id="li_ddl_bgk_54b">Select the <uicontrol>DocBook WebHelp Classic
+          <li id="li_ddl_bgk_54b" irina="irina">Select the <uicontrol>DocBook WebHelp Classic
               (Deprecated)</uicontrol> scenario from the <uicontrol>DocBook 4</uicontrol> or
               <uicontrol>DocBook 5</uicontrol> section.</li>
-          <li id="li_edl_bgk_54b">Click <uicontrol>Apply associated</uicontrol>.</li>
+          <li id="li_edl_bgk_54b" irina="irina">Click <uicontrol>Apply associated</uicontrol>.</li>
         </ol></p>
       <p id="p_fdl_bgk_54b">When the transformation is complete, the output is automatically opened
         in your default browser.</p>

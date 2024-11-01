@@ -28,13 +28,13 @@
       <p id="p_vsw_bgk_54b">The <term>framework</term> details that are created and customized by the developer
         include: </p>
       <ul id="ul_wsw_bgk_54b">
-        <li id="li_xsw_bgk_54b">The CSS stylesheet that drives the visual rendering of the document.</li>
-        <li id="li_ysw_bgk_54b">The rules for associating an XML schema with the document, which is needed for the
+        <li id="li_xsw_bgk_54b" irina="irina">The CSS stylesheet that drives the visual rendering of the document.</li>
+        <li id="li_ysw_bgk_54b" irina="irina">The rules for associating an XML schema with the document, which is needed for the
           content completion assistance and validation of the document.</li>
-        <li id="li_zsw_bgk_54b">Transformation scenarios for the document.</li>
-        <li id="li_atw_bgk_54b">Configuration of <xref keyref="glossentry_xml-catalog"><term>XML
+        <li id="li_zsw_bgk_54b" irina="irina">Transformation scenarios for the document.</li>
+        <li id="li_atw_bgk_54b" irina="irina">Configuration of <xref keyref="glossentry_xml-catalog"><term>XML
           Catalogs</term></xref>.</li>
-        <li id="li_btw_bgk_54b">Custom actions available as buttons on the toolbar or in menus.</li>
+        <li id="li_btw_bgk_54b" irina="irina">Custom actions available as buttons on the toolbar or in menus.</li>
       </ul>
       <p id="p_ctw_bgk_54b"><ph keyref="product"/> includes some ready-to-use built-in document types for XML
           <term>frameworks</term>, such as DocBook, DITA, TEI, JATS, and XHTML.</p>

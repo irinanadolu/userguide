@@ -50,8 +50,8 @@
         <xref href="preferences-xml-catalog.dita#preferences-xml-catalog"><uicontrol>XML
           Catalog</uicontrol> preferences page</xref>.</p>
     <p id="p_lvw_bgk_54b">The referenced content is refreshed as follows:<ul id="ul_mvw_bgk_54b">
-        <li id="li_nvw_bgk_54b">Automatically, when it is modified and saved from <ph keyref="product"/>.</li>
-        <li id="li_ovw_bgk_54b">On demand, by using the <xref href="author-editing-refreshing.dita"><uicontrol><image
+        <li id="li_nvw_bgk_54b" irina="irina">Automatically, when it is modified and saved from <ph keyref="product"/>.</li>
+        <li id="li_ovw_bgk_54b" irina="irina">On demand, by using the <xref href="author-editing-refreshing.dita"><uicontrol><image
                 href="../img/RefreshReferences16.png" id="image_ncp_4hw_sr"/>Refresh
               references</uicontrol> action</xref>. This is useful when the referenced content is
           modified outside the <ph keyref="product"/> scope.</li>

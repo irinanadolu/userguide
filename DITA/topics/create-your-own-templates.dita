@@ -22,12 +22,12 @@
       <title>Creating a New Document Template</title>
       <p id="p_r1t_bgk_54b">To create your own custom document template and have it appear in the new document wizard,
         follow these steps:<ol id="ol_s1t_bgk_54b">
-          <li id="li_t1t_bgk_54b">Create a new file (whatever type of document you need) and customize it to become a
+          <li id="li_t1t_bgk_54b" irina="irina">Create a new file (whatever type of document you need) and customize it to become a
             starting point for creating new files of this type.<note
               conkeyref="reusables-editing-documents/doc-template-note1" id="note_u1t_bgk_54b"/></li>
-          <li id="step2">Save the new document template and reference that location in <ph
+          <li id="step2" irina="irina">Save the new document template and reference that location in <ph
               keyref="product"/>. There are several options for doing this:<ul id="ul_v1t_bgk_54b">
-              <li id="li_w1t_bgk_54b"><b>Saving the new template in a specific framework's directory</b> - Save the new
+              <li id="li_w1t_bgk_54b" irina="irina"><b>Saving the new template in a specific framework's directory</b> - Save the new
                 template in a directory (for example, called <filepath>templates</filepath>) within
                 that specific framework directory<ph
                   product="author editor authorEclipse editorEclipse"> (usually a <xref
@@ -44,7 +44,7 @@
                 framework. Click <uicontrol>OK</uicontrol> to close the configuration dialog box and
                 then <uicontrol>OK</uicontrol> or <uicontrol>Apply</uicontrol> to save your
                 changes.</li>
-              <li id="li_x1t_bgk_54b"><b>Saving the new template in the Oxygen installation directory</b> - Save the new
+              <li id="li_x1t_bgk_54b" irina="irina"><b>Saving the new template in the Oxygen installation directory</b> - Save the new
                 template in the <filepath>templates</filepath> directory of the <ph keyref="product"
                 /> installation directory (<filepath><term
                     conkeyref="reusables-user-guide/oxy-install-dir"/>/templates</filepath>).
@@ -55,7 +55,7 @@
                   href="creating-from-templates.dita#creating-from-templates"
                   product="authorEclipse developerEclipse editorEclipse"><uicontrol>New from
                     templates</uicontrol> wizard</xref>.</li>
-              <li id="li_y1t_bgk_54b"><b>Saving the new template in a custom directory</b> - Save the new template in
+              <li id="li_y1t_bgk_54b" irina="irina"><b>Saving the new template in a custom directory</b> - Save the new template in
                 any directory of your choice and then add that directory to the list of templates in
                 the <xref
                   href="../topics/preferences-editor-document-templates.dita#preferences-editor-document-templates"
@@ -73,7 +73,7 @@
                 <i>*.zip.bin</i> or <i>*.epub.bin</i>). Otherwise, the files will be treated as
               XML/text documents and you will be prompted to choose the editor type.</note><note
               conkeyref="reusables-editing-documents/doc-templates-note2" id="note_abt_bgk_54b"/></li>
-          <li id="li_bbt_bgk_54b">Open the new document wizard (<uicontrol><image href="../img/New16.png"
+          <li id="li_bbt_bgk_54b" irina="irina">Open the new document wizard (<uicontrol><image href="../img/New16.png"
                 id="image_hy1_zdp_sr" product="author developer editor"/><image
                 href="../img/EclipseNew.png" id="image_nbd_fkf_wr"
                 product="authorEclipse developerEclipse editorEclipse"/>New</uicontrol> toolbar

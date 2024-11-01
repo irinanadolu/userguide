@@ -30,11 +30,11 @@
     </p>
     <p id="p_nlc_cgk_54b">A schema validation error is presented by highlighting the invalid component:</p>
     <ul id="ul_olc_cgk_54b">
-      <li id="li_plc_cgk_54b">In the <xref href="xml-schema-diagram-attributes-view.dita">Attributes View</xref>.</li>
-      <li id="li_qlc_cgk_54b">In the diagram by surrounding the component that has the error with a red border.</li>
-      <li product="editor developer" id="li_rlc_cgk_54b">A marker on the errors stripe at the right of the diagram
+      <li id="li_plc_cgk_54b" irina="irina">In the <xref href="xml-schema-diagram-attributes-view.dita">Attributes View</xref>.</li>
+      <li id="li_qlc_cgk_54b" irina="irina">In the diagram by surrounding the component that has the error with a red border.</li>
+      <li product="editor developer" id="li_rlc_cgk_54b" irina="irina">A marker on the errors stripe at the right of the diagram
         view.</li>
-      <li product="editor developer" id="li_slc_cgk_54b">A status label with a red icon (<image
+      <li product="editor developer" id="li_slc_cgk_54b" irina="irina">A status label with a red icon (<image
           href="../img/ValidationError12.png" id="image_cbz_pwv_sr"/>) below the diagram view.</li>
     </ul>
     <p id="p_tlc_cgk_54b">Invalid facets for a component are highlighted in the <xref

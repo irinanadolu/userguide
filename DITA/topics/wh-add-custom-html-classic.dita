@@ -20,8 +20,8 @@
       <title>Using Oxygen XML Editor/Author</title>
       <p id="p_p2p_cgk_54b">To include custom HTML content in the WebHelp Classic output using a transformation
         scenario from within <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_q2p_cgk_54b">
-          <li id="li_r2p_cgk_54b">Insert the HTML content in a well-formed XML file considering the following notes:<ul id="ul_s2p_cgk_54b">
-              <li id="li_ptj_spt_s4b">
+          <li id="li_r2p_cgk_54b" irina="irina">Insert the HTML content in a well-formed XML file considering the following notes:<ul id="ul_s2p_cgk_54b">
+              <li id="li_ptj_spt_s4b" irina="irina">
                 <p id="p_qtj_spt_s4b"><b>Well-Formedness</b> - If the content of the file is not
                     <xref href="checking-xml-well-formedness.dita#checking-xml-well-formedness"
                     product="author developer editor authorEclipse developerEclipse editorEclipse"
@@ -37,8 +37,8 @@
                     <xmlelement>body</xmlelement>, <xmlelement>html/head</xmlelement>, or
                     <xmlelement>html/body</xmlelement> elements.</p>
               </li>
-              <li conkeyref="reusables-transforming-documents/li-2" id="li_t2p_cgk_54b"/>
-              <li id="li_j2m_5pt_s4b">
+              <li conkeyref="reusables-transforming-documents/li-2" id="li_t2p_cgk_54b" irina="irina"/>
+              <li id="li_j2m_5pt_s4b" irina="irina">
                 <p id="p_k2m_5pt_s4b"><b>Inline JavaScript or CSS Content</b>:</p>
                 <p id="p_l2m_5pt_s4b"
                   >JavaScript:<codeblock outputclass="language-xml" id="codeblock_u2p_cgk_54b">&lt;script type="text/javascript">
@@ -74,14 +74,14 @@
                   </note></p>
               </li>
             </ul></li>
-          <li id="li_x2p_cgk_54b">Edit the WebHelp Classic transformation scenario.</li>
-          <li id="li_y2p_cgk_54b">Go to the <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_z2p_cgk_54b">Edit the value of the <codeph>webhelp.head.script</codeph> parameter and set it to
+          <li id="li_x2p_cgk_54b" irina="irina">Edit the WebHelp Classic transformation scenario.</li>
+          <li id="li_y2p_cgk_54b" irina="irina">Go to the <uicontrol>Parameters</uicontrol> tab.</li>
+          <li id="li_z2p_cgk_54b" irina="irina">Edit the value of the <codeph>webhelp.head.script</codeph> parameter and set it to
             reference the URL of the XML file created in step 1. Your additional content will be
             included at the end of the <codeph>head</codeph> element of your output
               document.<note id="note_afp_cgk_54b">If you want to include the content in the <codeph>body</codeph>
               element, use the <codeph>webhelp.body.script</codeph> parameter instead.</note></li>
-          <li id="li_bfp_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes and run the transformation
+          <li id="li_bfp_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes and run the transformation
             scenario.</li>
         </ol></p>
     </section>
@@ -92,8 +92,8 @@
       <p id="p_dfp_cgk_54b">To include custom HTML content in the WebHelp Classic output using a <xref
           href="using-the-webhelp-plugin-docbook.dita">script outside of <b>Oxygen XML
             Editor/Author</b></xref>, follow this procedure:<ol id="ol_efp_cgk_54b">
-          <li id="li_ffp_cgk_54b">Insert the HTML content in a well-formed XML file considering the following notes:<ul id="ul_gfp_cgk_54b">
-              <li id="li_njs_nqt_s4b">
+          <li id="li_ffp_cgk_54b" irina="irina">Insert the HTML content in a well-formed XML file considering the following notes:<ul id="ul_gfp_cgk_54b">
+              <li id="li_njs_nqt_s4b" irina="irina">
                 <p id="p_ojs_nqt_s4b"><b>Well-Formedness</b> - If the content of the file is not
                     <xref href="checking-xml-well-formedness.dita#checking-xml-well-formedness"
                     product="author developer editor authorEclipse developerEclipse editorEclipse"
@@ -109,8 +109,8 @@
                     <xmlelement>body</xmlelement>, <xmlelement>html/head</xmlelement>, or
                     <xmlelement>html/body</xmlelement> elements.</p>
               </li>
-              <li conkeyref="reusables-transforming-documents/li-2" id="li_hfp_cgk_54b"/>
-              <li id="li_jkh_mqt_s4b">
+              <li conkeyref="reusables-transforming-documents/li-2" id="li_hfp_cgk_54b" irina="irina"/>
+              <li id="li_jkh_mqt_s4b" irina="irina">
                 <p id="p_kkh_mqt_s4b"><b>Inline JavaScript or CSS Content</b>:</p>
                 <p id="p_lkh_mqt_s4b"
                   >JavaScript:<codeblock outputclass="language-xml" id="codeblock_ifp_cgk_54b">&lt;script type="text/javascript">
@@ -146,13 +146,13 @@
                   </note></p>
               </li>
             </ul></li>
-          <li id="li_lfp_cgk_54b">Use the <codeph>webhelp.head.script</codeph> parameter in your transformation script
+          <li id="li_lfp_cgk_54b" irina="irina">Use the <codeph>webhelp.head.script</codeph> parameter in your transformation script
             and set its value to reference the URL of the XML file created in step 1. Your
             additional content will be included at the end of the <codeph>head</codeph> element of
             your output document.<note id="note_mfp_cgk_54b">If you want to include the content in the
                 <codeph>body</codeph> element, use the <codeph>webhelp.body.script</codeph>
               parameter instead.</note></li>
-          <li id="li_nfp_cgk_54b">
+          <li id="li_nfp_cgk_54b" irina="irina">
             <p id="p_ofp_cgk_54b">Execute the transformation script.</p>
           </li>
         </ol></p>

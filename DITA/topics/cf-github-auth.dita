@@ -13,26 +13,26 @@
   <body>
     <p id="p_yk5_dgk_54b">To enable GitHub authentication in your <ph keyref="cfEnterprise"/> solution, follow these
         steps:<ol id="ul_q5l_zsv_m2b">
-        <li id="li_zk5_dgk_54b">Create a new <xref href="https://github.com/settings/applications/new" format="html"
+        <li id="li_zk5_dgk_54b" irina="irina">Create a new <xref href="https://github.com/settings/applications/new" format="html"
             scope="external">GitHub application</xref>.<ol id="ul_wqc_btv_m2b">
-            <li id="li_al5_dgk_54b">Visit <xref href="https://github.com/settings/applications/new" format="html"
+            <li id="li_al5_dgk_54b" irina="irina">Visit <xref href="https://github.com/settings/applications/new" format="html"
                 scope="external">this GitHub registration page</xref> and complete the details to
               register a new developer application.</li>
-            <li id="li_bl5_dgk_54b">For <uicontrol>Application name</uicontrol>, pick something like "Your Company -
+            <li id="li_bl5_dgk_54b" irina="irina">For <uicontrol>Application name</uicontrol>, pick something like "Your Company -
               Content Fusion".</li>
-            <li id="li_cl5_dgk_54b">For <uicontrol>Authorization callback URL</uicontrol>, type
+            <li id="li_cl5_dgk_54b" irina="irina">For <uicontrol>Authorization callback URL</uicontrol>, type
                 <i>https://example.com/api/oauthc/githubId/callback</i>.<note id="note_dl5_dgk_54b"><i>https://example.com</i>
                 should be replaced by the location where Content Fusion is hosted.</note></li>
-            <li id="li_el5_dgk_54b">Click <uicontrol>Register application</uicontrol>.</li>
-            <li id="li_fl5_dgk_54b">You will be presented with a <b>Client ID</b> and <b>Client Secret</b>. Take note of
+            <li id="li_el5_dgk_54b" irina="irina">Click <uicontrol>Register application</uicontrol>.</li>
+            <li id="li_fl5_dgk_54b" irina="irina">You will be presented with a <b>Client ID</b> and <b>Client Secret</b>. Take note of
               these 2 values.</li>
           </ol></li>
-        <li id="li_gl5_dgk_54b">On the machine where Content Fusion is installed, add these 2 lines to the
+        <li id="li_gl5_dgk_54b" irina="irina">On the machine where Content Fusion is installed, add these 2 lines to the
             <filepath>/fusion/data/config/api/api.properties</filepath> file, replacing Client ID
           and Client Secret with the 2 values from the previous step:
           <codeblock outputclass="language-javascript" id="codeblock_hl5_dgk_54b">gh_id=Client ID
 gh_secret=Client Secret</codeblock></li>
-        <li id="li_il5_dgk_54b">Restart the Content Fusion
+        <li id="li_il5_dgk_54b" irina="irina">Restart the Content Fusion
           machine.<codeblock outputclass="language-javascript" id="codeblock_jl5_dgk_54b">sudo bash /fusion/admin/stop-content-fusion.sh
 sudo bash /fusion/admin/start-content-fusion.sh</codeblock></li>
       </ol></p>

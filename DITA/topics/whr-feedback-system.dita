@@ -77,22 +77,22 @@
           href="https://www.oxygenxml.com/oxygen_feedback/buy_feedback.html" format="html"
           scope="external"/>.</p>
       <p id="p_smn_cgk_54b"><b><u>Installation Procedure</u></b><ol id="ol_pwy_sjx_fjb">
-          <li id="li_tmn_cgk_54b">Log in to your Feedback account from the <i>administration login page</i> (<xref
+          <li id="li_tmn_cgk_54b" irina="irina">Log in to your Feedback account from the <i>administration login page</i> (<xref
               href="https://feedback.oxygenxml.com/login" format="html" scope="external"/>). You can
             click on <uicontrol>Log in with Google</uicontrol> or <uicontrol>Log in with
               Facebook</uicontrol> to create an account using your Google or Facebook credentials,
             or click the <uicontrol>Sign Up</uicontrol> tab to create an account using your name and
             email address.</li>
-          <li id="li_umn_cgk_54b">Click the <uicontrol>Add site</uicontrol> button to create a site configuration. If
+          <li id="li_umn_cgk_54b" irina="irina">Click the <uicontrol>Add site</uicontrol> button to create a site configuration. If
             you have not already selected a subscription plan, you will be directed to a page where
             you can choose from several options.</li>
-          <li id="li_vmn_cgk_54b">In the <uicontrol>Settings</uicontrol> page, enter a <uicontrol>Name</uicontrol> and
+          <li id="li_vmn_cgk_54b" irina="irina">In the <uicontrol>Settings</uicontrol> page, enter a <uicontrol>Name</uicontrol> and
               <uicontrol>Description</uicontrol> for the site configuration. There are some optional
             settings that can be adjusted according to your needs. For more details, see the <xref
               href="https://www.oxygenxml.com/doc/ug-feedback/topics/ofb-creating-site.html#ariaid-title2"
               format="html" scope="external">Site Settings topic</xref>. Click
               <uicontrol>Continue</uicontrol>.</li>
-          <li id="li_wmn_cgk_54b">In the <uicontrol>Initial version</uicontrol> page, enter the
+          <li id="li_wmn_cgk_54b" irina="irina">In the <uicontrol>Initial version</uicontrol> page, enter the
               <uicontrol>Base URL</uicontrol> for your website (you can add additional URLs by
             clicking the <uicontrol><image href="../img/ofb-Add18.png" id="image_sxt_dmx_fjb"
               />Add</uicontrol> button). You can also specify an <uicontrol>Initial
@@ -101,35 +101,35 @@
             see the <xref
               href="https://www.oxygenxml.com/doc/ug-feedback/topics/ofb-creating-site.html#ariaid-title3"
               format="html" scope="external">Initial Version topic</xref>. </li>
-          <li>[Optional] To configure <ph keyref="product-ofb"/> as an external search engine check
+          <li irina="irina">[Optional] To configure <ph keyref="product-ofb"/> as an external search engine check
             the <uicontrol>Enable content indexing</uicontrol> option.</li>
-          <li>Click <uicontrol>Continue</uicontrol>.</li>
-          <li id="li_xmn_cgk_54b">In the <uicontrol>Installation</uicontrol> page, choose a site generation option:<ol
+          <li irina="irina">Click <uicontrol>Continue</uicontrol>.</li>
+          <li id="li_xmn_cgk_54b" irina="irina">In the <uicontrol>Installation</uicontrol> page, choose a site generation option:<ol
               id="ol_pmh_dnx_fjb">
-              <li id="li_ymn_cgk_54b">If you will generate the documentation using a transformation scenario in
+              <li id="li_ymn_cgk_54b" irina="irina">If you will generate the documentation using a transformation scenario in
                   <i>Oxygen XML Editor/Author</i>, select the <uicontrol>Oxygen XML
                   Editor</uicontrol> option and continue with these steps:<ol id="ol_i3r_xny_pkb">
-                  <li id="li_zmn_cgk_54b">Copy the generated HTML fragment and click <uicontrol>Finish</uicontrol>.</li>
-                  <li id="li_ann_cgk_54b">In <i>Oxygen XML Editor/Author</i>, open the <uicontrol>Configure
+                  <li id="li_zmn_cgk_54b" irina="irina">Copy the generated HTML fragment and click <uicontrol>Finish</uicontrol>.</li>
+                  <li id="li_ann_cgk_54b" irina="irina">In <i>Oxygen XML Editor/Author</i>, open the <uicontrol>Configure
                       Transformation Scenario(s)</uicontrol> dialog box.</li>
-                  <li id="li_bnn_cgk_54b">Select and duplicate the <uicontrol>DITA Map WebHelp Responsive</uicontrol>
+                  <li id="li_bnn_cgk_54b" irina="irina">Select and duplicate the <uicontrol>DITA Map WebHelp Responsive</uicontrol>
                     scenario.</li>
-                  <li id="li_cnn_cgk_54b">Go to the <uicontrol>Feedback</uicontrol> tab.</li>
-                  <li id="li_dnn_cgk_54b">Click the <uicontrol>Edit</uicontrol> button and paste the generated
+                  <li id="li_cnn_cgk_54b" irina="irina">Go to the <uicontrol>Feedback</uicontrol> tab.</li>
+                  <li id="li_dnn_cgk_54b" irina="irina">Click the <uicontrol>Edit</uicontrol> button and paste the generated
                     installation fragment.</li>
                 </ol></li>
-              <li id="li_enn_cgk_54b">If you will generate the documentation using a command-line script, select the
+              <li id="li_enn_cgk_54b" irina="irina">If you will generate the documentation using a command-line script, select the
                   <uicontrol>Oxygen XML WebHelp</uicontrol> option and continue with these steps:<ol
                   id="ol_myt_djb_qkb">
-                  <li id="li_fnn_cgk_54b">Copy the generated HTML fragment and click <uicontrol>Finish</uicontrol>.</li>
-                  <li id="li_gnn_cgk_54b">Create an XML file (for example, <filepath>feedback-install.xml</filepath>)
+                  <li id="li_fnn_cgk_54b" irina="irina">Copy the generated HTML fragment and click <uicontrol>Finish</uicontrol>.</li>
+                  <li id="li_gnn_cgk_54b" irina="irina">Create an XML file (for example, <filepath>feedback-install.xml</filepath>)
                     with the generated installation fragment.</li>
-                  <li id="li_hnn_cgk_54b">Use the <codeph>webhelp.fragment.feedback</codeph> parameter in your
+                  <li id="li_hnn_cgk_54b" irina="irina">Use the <codeph>webhelp.fragment.feedback</codeph> parameter in your
                     command-line script to specify the path to the file you just created. For
                     example:<codeblock outputclass="language-ini" id="codeblock_inn_cgk_54b">dita.bat -Dwebhelp.fragment.feedback=c:\path\to\feedback-install.xml</codeblock></li>
                 </ol></li>
             </ol></li>
-          <li id="li_jnn_cgk_54b">[Optional] If you want the <b>Oxygen Feedback</b> comments component to fill the
+          <li id="li_jnn_cgk_54b" irina="irina">[Optional] If you want the <b>Oxygen Feedback</b> comments component to fill the
             entire page width, contribute a custom CSS file (use the <codeph>args.css</codeph>
             parameter to reference it) that contains the following style
             rule:<codeblock outputclass="language-ini" id="codeblock_knn_cgk_54b">div.footer {

@@ -14,23 +14,23 @@
         the transformation using the other tabs to suit your needs.</p>
 			<p id="add-to-gallery">To add the publishing template to your templates gallery, follow these
 					steps:<ol id="ol_ebh_qtl_nhb">
-					<li id="li_a1q_cgk_54b">Open the transformation scenario dialog box by editing a <uicontrol
+					<li id="li_a1q_cgk_54b" irina="irina">Open the transformation scenario dialog box by editing a <uicontrol
               keyref="pdf-html5-transformation"/> transformation (or a <uicontrol
               keyref="single-topic-pdf-html5-transformation"/> transformation scenario).</li>
-					<li id="li_b1q_cgk_54b">
+					<li id="li_b1q_cgk_54b" irina="irina">
             <p id="p_c1q_cgk_54b">In the <uicontrol>Templates</uicontrol> tab, click the <uicontrol>Configure
                 Publishing Templates Gallery</uicontrol> link to.</p>
             <p id="p_d1q_cgk_54b">
               <b>Step Result:</b> This will open the preferences page.</p>
           </li>
-					<li id="li_e1q_cgk_54b">
+					<li id="li_e1q_cgk_54b" irina="irina">
             <p id="p_f1q_cgk_54b">Click the <uicontrol>Add</uicontrol> button and specify the location of your template
               directory.</p>
             <p id="p_g1q_cgk_54b">
               <b>Step Result:</b> Your template directory is now added to the <uicontrol>Additional
                 Publishing Templates Galleries</uicontrol> list.</p>
           </li>
-					<li id="li_h1q_cgk_54b">Click <uicontrol>OK</uicontrol> to return to the transformation scenario dialog box.</li>
+					<li id="li_h1q_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to return to the transformation scenario dialog box.</li>
 				</ol></p>
       <p id="p_i1q_cgk_54b">
         <b>Result:</b> All the templates contained in your template directory will be displayed in

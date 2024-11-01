@@ -470,13 +470,13 @@
               proposals will be automatically executed in bulk, one after the other.<note
                 id="note_pdd_kb1_p1c" type="other" othertype="Important Notes to Consider">
                 <ul id="ul_afw_fb1_p1c">
-                  <li id="li_bfw_fb1_p1c">To maintain the accuracy of the initially calculated error
+                  <li id="li_bfw_fb1_p1c" irina="irina">To maintain the accuracy of the initially calculated error
                     validation ranges, the quick fix proposals are applied in the reverse order of
                     their selection.</li>
-                  <li id="li_cfw_fb1_p1c">If two or more quick fixes act on the same "area" within
+                  <li id="li_cfw_fb1_p1c" irina="irina">If two or more quick fixes act on the same "area" within
                     the document, only one is applied (no changes can be made to changes already
                     made).</li>
-                  <li id="li_dfw_fb1_p1c">Quick fixes that involve "user-entered values" that
+                  <li id="li_dfw_fb1_p1c" irina="irina">Quick fixes that involve "user-entered values" that
                     normally present a dialog box to facilitate data entry will not be executed (the
                     automatic process of applying all selected quick fixes cannot be interrupted by
                     the presence of the respective dialog boxes).</li>

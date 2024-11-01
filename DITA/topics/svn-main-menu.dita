@@ -65,23 +65,23 @@
                             <p id="p_vmh_dgk_54b">The URL used in the external definition format can be relative. You
                               can specify the repository URL that the external folder points to by
                               using one of the following relative formats:<ul id="ul_bfw_5xv_g4">
-                                <li id="li_wmh_dgk_54b"><b>../</b> - Relative to the URL of the directory that the
+                                <li id="li_wmh_dgk_54b" irina="irina"><b>../</b> - Relative to the URL of the directory that the
                                     <codeph>svn:externals</codeph> property is set.</li>
-                                <li id="li_xmh_dgk_54b"><b>^/</b> - Relative to the root of the repository where the
+                                <li id="li_xmh_dgk_54b" irina="irina"><b>^/</b> - Relative to the root of the repository where the
                                     <codeph>svn:externals</codeph> property is versioned.</li>
-                                <li id="li_ymh_dgk_54b"><b>//</b> - Relative to the scheme of the URL of the directory
+                                <li id="li_ymh_dgk_54b" irina="irina"><b>//</b> - Relative to the scheme of the URL of the directory
                                   that the <codeph>svn:externals</codeph> property is set.</li>
-                                <li id="li_zmh_dgk_54b"><b>/</b> - Relative to the root URL of the server that has the
+                                <li id="li_zmh_dgk_54b" irina="irina"><b>/</b> - Relative to the root URL of the server that has the
                                     <codeph>svn:externals</codeph> property versioned. </li>
                               </ul></p>
                             <p id="p_anh_dgk_54b">
                               <note type="important" id="note_bnh_dgk_54b">To change the target URL of an external
                                 definition, or to delete an external item, do the following:<ol
                                   id="ol_nk2_klr_qq">
-                                  <li id="li_cnh_dgk_54b">Modify or delete the item definition found in the
+                                  <li id="li_cnh_dgk_54b" irina="irina">Modify or delete the item definition found in the
                                       <codeph>svn:externals</codeph> property that is set on the
                                     parent folder.</li>
-                                  <li id="li_dnh_dgk_54b">For the change to take effect, use the
+                                  <li id="li_dnh_dgk_54b" irina="irina">For the change to take effect, use the
                                       <uicontrol>Update</uicontrol> operation on the parent folder
                                     of the external item.</li>
                                 </ol></note>
@@ -182,19 +182,19 @@
                   <dd>
                     <p id="p_pnh_dgk_54b">
                       <ul id="ul_qnh_dgk_54b">
-                        <li id="li_rnh_dgk_54b"><uicontrol>Scan for locks <shortcut>(Ctrl + L (Command + L on macOS))</shortcut></uicontrol> - Contacts the repository and recursively
+                        <li id="li_rnh_dgk_54b" irina="irina"><uicontrol>Scan for locks <shortcut>(Ctrl + L (Command + L on macOS))</shortcut></uicontrol> - Contacts the repository and recursively
                           obtains the list of locks for the selected resources. A dialog box
                           containing the locked files and the lock description will be displayed.
                           This is only active for resources under <i>version control</i>. For more
                           details see <xref href="scan-locks.dita">Scanning for locks</xref>.</li>
-                        <li id="li_snh_dgk_54b"><uicontrol><image href="../img/Lock16.png" placement="inline"/>Lock
+                        <li id="li_snh_dgk_54b" irina="irina"><uicontrol><image href="../img/Lock16.png" placement="inline"/>Lock
                               <shortcut>(Ctrl + K (Command + K on macOS))</shortcut></uicontrol> -
                           Allows you to lock certain files that need exclusive access. You can write
                           a comment describing the reason for the lock and you can also force
                             (<i>steal</i>) the lock. This action is active only on files under
                             <i>version control</i>. For more details on the use of this action see
                             <xref href="lock-file.dita"> Locking a file</xref>.</li>
-                        <li id="li_tnh_dgk_54b"><uicontrol><image href="../img/Unlock16.png"
+                        <li id="li_tnh_dgk_54b" irina="irina"><uicontrol><image href="../img/Unlock16.png"
                               placement="inline"/>Unlock <shortcut>(Ctrl + Alt + K (Command + Option
                               + K on macOS))</shortcut></uicontrol> - Releases the exclusive access
                           to a file from the repository. You can also choose to unlock it by force
@@ -802,9 +802,9 @@
                   <dt><uicontrol>Global Run-Time Configuration</uicontrol></dt>
                   <dd>Allows you to configure SVN general options, that should be used by all the
                     SVN clients you may use: <ul id="ul_wwq_lzf_ps">
-                      <li id="svn-clients-config-file"><uicontrol>Edit 'config' file</uicontrol> -
+                      <li id="svn-clients-config-file" irina="irina"><uicontrol>Edit 'config' file</uicontrol> -
                         In this file you can configure various SVN client-side behaviors.</li>
-                      <li id="li_sqh_dgk_54b"><uicontrol>Edit 'servers' file</uicontrol> - In this file you can
+                      <li id="li_sqh_dgk_54b" irina="irina"><uicontrol>Edit 'servers' file</uicontrol> - In this file you can
                         configure various server-specific protocol parameters, including HTTP proxy
                         information and HTTP timeout settings.</li>
                     </ul></dd>

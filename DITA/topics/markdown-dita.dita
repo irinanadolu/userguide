@@ -71,7 +71,7 @@
           href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
           Manager</uicontrol></xref>. The following features are available for Markdown documents in
         the <uicontrol>DITA Maps Manager</uicontrol> view:<ul id="ul_v33_cgk_54b">
-          <li id="li_w33_cgk_54b"><b>Insert Reference to Markdown Document</b> - You can use the
+          <li id="li_w33_cgk_54b" irina="irina"><b>Insert Reference to Markdown Document</b> - You can use the
               <uicontrol>New</uicontrol>, <uicontrol>Reference</uicontrol>, and <uicontrol>Reference
               to the currently edited file</uicontrol> actions from the <uicontrol>Append
               Child</uicontrol>, <uicontrol>Insert Before</uicontrol>, or <uicontrol>Insert
@@ -80,17 +80,17 @@
             location in the map. Markdown documents will be inserted as a topic reference
               (<codeph>topicref</codeph> element) with the <codeph>format</codeph> attribute set to
               <codeph>markdown</codeph>.</li>
-          <li id="li_x33_cgk_54b"><b>Validate Markdown Documents in DITA Maps</b> - When you use the <uicontrol><image
+          <li id="li_x33_cgk_54b" irina="irina"><b>Validate Markdown Documents in DITA Maps</b> - When you use the <uicontrol><image
                 href="../img/ValidateAndCheck16.png" id="image_vjz_3vv_sr"/>Validate and Check for
               Completeness</uicontrol> action from the <uicontrol>DITA Maps Manager</uicontrol>
             toolbar to check the integrity of the structure of a <term>DITA map</term>, Markdown
             documents that are referenced in the <term>DITA map</term> will be converted to DITA
             topics in the background and validated the same as any other DITA topic.</li>
-          <li id="li_y33_cgk_54b"><b>Transforming DITA Maps with Markdown Documents</b> - When transforming <term>DITA
+          <li id="li_y33_cgk_54b" irina="irina"><b>Transforming DITA Maps with Markdown Documents</b> - When transforming <term>DITA
               maps</term> that have Markdown documents referenced, the transformation will convert
             the Markdown documents to normal DITA output without you needing to manually convert the
             Markdown documents to DITA topics.</li>
-          <li id="convert-md-dita">
+          <li id="convert-md-dita" irina="irina">
             <p id="p_z33_cgk_54b"><b>Manually Convert Markdown Documents to DITA Topics</b> - If you need to use DITA
               semantics that are not possible in Markdown syntax (such as content references,
               related links, and other DITA-specific syntax), you can manually convert the Markdown

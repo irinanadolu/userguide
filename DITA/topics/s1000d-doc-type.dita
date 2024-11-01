@@ -17,19 +17,19 @@
       specification for preparing, managing, and using equipment maintenance and operations
       information.</p>
     <p id="p_rsk_cgk_54b"><b>S1000D</b> is articulated based on three main notions:<ul id="ul_awq_pzn_5jb">
-        <li id="li_ssk_cgk_54b">
+        <li id="li_ssk_cgk_54b" irina="irina">
           <p id="p_tsk_cgk_54b"><b>Data Module</b> - It is an XML file that defines a standalone information unit.</p>
         </li>
-        <li id="li_usk_cgk_54b">
+        <li id="li_usk_cgk_54b" irina="irina">
           <p id="p_vsk_cgk_54b"><b>Data Module Structure</b> - It defines how a <term>Data Module</term> is divided:<ul
               id="ul_dck_wzn_5jb">
-              <li id="li_wsk_cgk_54b">The <term>Identification</term> and <term>Status</term> part that identifies the
+              <li id="li_wsk_cgk_54b" irina="irina">The <term>Identification</term> and <term>Status</term> part that identifies the
                   <term>Data Module</term> within the CSDB structure.</li>
-              <li id="li_xsk_cgk_54b">The <term>Content</term> part that is the detailed information of the <term>Data
+              <li id="li_xsk_cgk_54b" irina="irina">The <term>Content</term> part that is the detailed information of the <term>Data
                   Module</term>.</li>
             </ul></p>
         </li>
-        <li id="li_ysk_cgk_54b">
+        <li id="li_ysk_cgk_54b" irina="irina">
           <p id="p_zsk_cgk_54b"><b>Common Source DataBase (CSDB) </b> - It defines how the <term>Data Modules</term>
             are arranged inside a publication.</p>
         </li>
@@ -39,16 +39,16 @@
         keyref="product"/> to add support for S1000D documents.</p>
     <p id="p_btk_cgk_54b">To install the framework in <ph keyref="product"/>, follow these steps:<ol
         id="ol_rry_3xs_5jb">
-        <li id="li_ctk_cgk_54b">Download or clone the framework on <xref
+        <li id="li_ctk_cgk_54b" irina="irina">Download or clone the framework on <xref
             href="https://github.com/Amplexor/oxygen-asd-s1000d" format="html" scope="external"
             >GitHub</xref> and install it as an <xref href="framework-location.dita">additional
             framework</xref>.</li>
-        <li id="li_dtk_cgk_54b">
+        <li id="li_dtk_cgk_54b" irina="irina">
           <p id="p_etk_cgk_54b">Download the S1000D specifications package that contains samples and schemas at <xref
               href="http://s1000d.org/Downloads/Pages/S1000DDownloads.aspx" format="html"
               scope="external">S1000D Downloads</xref>.</p>
         </li>
-        <li id="li_ftk_cgk_54b">
+        <li id="li_ftk_cgk_54b" irina="irina">
           <p id="p_gtk_cgk_54b"> Copy the XML Schema files from <filepath>[ZIP]\XML Schema
               Package\xml_schema_flat</filepath> into the corresponding version of the
               <filepath>xml_schema_flat</filepath> folder.</p>

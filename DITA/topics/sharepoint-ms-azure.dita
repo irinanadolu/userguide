@@ -16,9 +16,9 @@
       SharePoint authentication. To configure the application to use your <i>client ID</i> and
         <i>client secret</i>, set the following <xref href="custom-system-properties.dita"
           ><b>Oxygen</b> system properties</xref>:<ul id="ul_yxw_2q3_t4b">
-        <li id="li_zxw_2q3_t4b"><codeph>com.oxygenxml.azure.active.directory.client.id</codeph> -
+        <li id="li_zxw_2q3_t4b" irina="irina"><codeph>com.oxygenxml.azure.active.directory.client.id</codeph> -
           Specifies a custom <i>client ID</i>.</li>
-        <li id="li_tss_gq3_t4b"><codeph>com.oxygenxml.azure.active.directory.client.secret</codeph>
+        <li id="li_tss_gq3_t4b" irina="irina"><codeph>com.oxygenxml.azure.active.directory.client.secret</codeph>
           - Specifies a custom <i>client secret</i>.</li>
       </ul></p>
     <p id="p_iq5_3q3_t4b">Your application should allow the following API permissions:</p>

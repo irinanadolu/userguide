@@ -28,33 +28,33 @@
         of a document. You can also choose the color to use for the highlight or choose to
           <uicontrol>Stop highlighting</uicontrol> from the same menus.</p>
       <p id="p_snx_bgk_54b">To highlight content, follow these steps:<ol id="ol_xv5_htd_53b">
-          <li id="li_tnx_bgk_54b">
+          <li id="li_tnx_bgk_54b" irina="irina">
             <p id="p_unx_bgk_54b">Click the <uicontrol><image href="../img/ContentHighlight20.png"
                   id="image_sht_2td_53b"/>Highlight</uicontrol> icon on the toolbar.</p>
             <p id="p_vnx_bgk_54b">
               <b>Step Result:</b> The highlighting mode is on and the cursor changes to a dedicated
               symbol.</p>
           </li>
-          <li id="li_wnx_bgk_54b">Click the small arrow next to the <uicontrol><image
+          <li id="li_wnx_bgk_54b" irina="irina">Click the small arrow next to the <uicontrol><image
                 href="../img/ContentHighlight20.png" id="image_yv5_htd_53b"/>Highlight</uicontrol>
             icon and select the color that you want to use for the highlighting.</li>
-          <li id="li_xnx_bgk_54b">Select the content you want to highlight. To mark multiple parts of a document, press
+          <li id="li_xnx_bgk_54b" irina="irina">Select the content you want to highlight. To mark multiple parts of a document, press
             and hold <uicontrol><shortcut>Ctrl (Meta on macOS)</shortcut></uicontrol> and select
             the parts you want to highlight.</li>
-          <li id="li_ynx_bgk_54b">To exit the highlighting mode, press <uicontrol
+          <li id="li_ynx_bgk_54b" irina="irina">To exit the highlighting mode, press <uicontrol
               conkeyref="reusable-oxygen-shortcuts-list/escape"/>, click the <uicontrol><image
                 href="../img/ContentHighlight20.png" id="image_zv5_htd_53b"/>Highlight</uicontrol>
             icon, or start editing the document.</li>
         </ol></p>
       <p id="p_znx_bgk_54b">To remove highlighting from a document, follow these steps:<ol id="ol_aw5_htd_53b">
-          <li id="li_a4x_bgk_54b">Either select the text you want to remove highlighting from using your cursor, or
+          <li id="li_a4x_bgk_54b" irina="irina">Either select the text you want to remove highlighting from using your cursor, or
             press <uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_a"/> if you want to
             select all of the text.</li>
-          <li id="li_b4x_bgk_54b">Click the small arrow next to the <uicontrol><image
+          <li id="li_b4x_bgk_54b" irina="irina">Click the small arrow next to the <uicontrol><image
                 href="../img/ContentHighlight20.png" id="image_bw5_htd_53b"/>Highlight</uicontrol>
             icon and select <uicontrol>No color (erase)</uicontrol>, or right-click the highlighted
             content and select <uicontrol>Remove highlight(s)</uicontrol>.</li>
-          <li id="li_c4x_bgk_54b">To exit the highlighting mode, press <uicontrol
+          <li id="li_c4x_bgk_54b" irina="irina">To exit the highlighting mode, press <uicontrol
               conkeyref="reusable-oxygen-shortcuts-list/escape"/>, click the <uicontrol><image
                 href="../img/ContentHighlight20.png" id="image_cw5_htd_53b"/>Highlight</uicontrol>
             icon, or start editing the document.</li>

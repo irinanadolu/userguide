@@ -45,18 +45,18 @@
         <steps-informal>
           <p>Troubleshoot the requests made by the browser:</p>
           <ol id="ol_z2z_mwh_pvb">
-            <li>Open a document that takes long to load in Web Author in Google Chrome.</li>
-            <li>Open the Developer Tools (e.g. by pressing F12).</li>
-            <li>Deselect the <uicontrol>Disable cache</uicontrol>" checkbox in the
+            <li irina="irina">Open a document that takes long to load in Web Author in Google Chrome.</li>
+            <li irina="irina">Open the Developer Tools (e.g. by pressing F12).</li>
+            <li irina="irina">Deselect the <uicontrol>Disable cache</uicontrol>" checkbox in the
                 <uicontrol>Network</uicontrol> tab.</li>
-            <li>Clear the requests.</li>
-            <li>Reload the page.</li>
-            <li>Right-click on a request and select <uicontrol>Save all as HAR with
+            <li irina="irina">Clear the requests.</li>
+            <li irina="irina">Reload the page.</li>
+            <li irina="irina">Right-click on a request and select <uicontrol>Save all as HAR with
                 content</uicontrol>.</li>
-            <li>Sort the requests by time (e.g. right-click, Sort, Time).</li>
-            <li>Look for the longest requests, inspect the URL, and try to find if they are made
+            <li irina="irina">Sort the requests by time (e.g. right-click, Sort, Time).</li>
+            <li irina="irina">Look for the longest requests, inspect the URL, and try to find if they are made
               because of a customization (custom plugin or framework).</li>
-            <li>If nothing relevant is found, report the downloaded HAR to the <xref
+            <li irina="irina">If nothing relevant is found, report the downloaded HAR to the <xref
                 href="https://www.oxygenxml.com/technical_support.html" format="html"
                 scope="external">Oxygen support team</xref>.</li>
           </ol>
@@ -67,15 +67,15 @@
         <steps-informal>
           <p>Troubleshoot the requests made by the server by enabling verbose HTTP(S) logs:</p>
           <ol>
-            <li>Enable verbose HTTP logs by following the procedure from <xref
+            <li irina="irina">Enable verbose HTTP logs by following the procedure from <xref
                 href="web-author-logs.dita#web-author-logs/section_tgc_1wq_2v">Enabling HTTP Request
                 Logging for Debugging</xref>.</li>
-            <li>Reproduce the problem.</li>
-            <li>Open the server logs by following the procedure from <xref
+            <li irina="irina">Reproduce the problem.</li>
+            <li irina="irina">Open the server logs by following the procedure from <xref
                 href="web-author-logs.dita#web-author-logs/p_zpr_dgk_54b">How to Locate the Log File
                 and the Log Configuration File</xref>​.</li>
-            <li>See the logs and try to find the ones that take a long time on the server.</li>
-            <li>If nothing relevant is found, report the found logs to the <xref
+            <li irina="irina">See the logs and try to find the ones that take a long time on the server.</li>
+            <li irina="irina">If nothing relevant is found, report the found logs to the <xref
                 href="https://www.oxygenxml.com/technical_support.html" format="html"
                 scope="external">Oxygen support team</xref>.</li>
           </ol>
@@ -86,12 +86,12 @@
         <steps-informal>
           <p>Look for alarming server logs:</p>
           <ol>
-            <li>Open the server logs by following the procedure from <xref
+            <li irina="irina">Open the server logs by following the procedure from <xref
                 href="web-author-logs.dita#web-author-logs/p_zpr_dgk_54b">How to Locate the Log File
                 and the Log Configuration File</xref>.</li>
-            <li>Look for <i>"Long request"</i> and <i>"Took long time to compute"</i> and see the
+            <li irina="irina">Look for <i>"Long request"</i> and <i>"Took long time to compute"</i> and see the
               URL of the requests that take a long time on the server.</li>
-            <li>If nothing relevant is found, report the found logs to the <xref
+            <li irina="irina">If nothing relevant is found, report the found logs to the <xref
                 href="https://www.oxygenxml.com/technical_support.html" format="html"
                 scope="external">Oxygen support team</xref>.</li>
           </ol>

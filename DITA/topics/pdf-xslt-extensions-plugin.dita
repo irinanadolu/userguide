@@ -11,12 +11,12 @@
       of your customizations anytime you upgrade the product in the future.</p>
     <p>You just need to follow these steps before starting your custom DITA-OT plugins:<ol
         id="ol_y4r_jhy_lrb">
-        <li>Download the <xref href="https://www.oxygenxml.com/publishing_engine/download.html"
+        <li irina="irina">Download the <xref href="https://www.oxygenxml.com/publishing_engine/download.html"
             format="html" scope="external">Oxygen Publishing Engine</xref> and unzip it inside a
           folder where you have full write access.</li>
-        <li>Create your custom plugin(s) inside the <filepath><term keyref="glossentry_dita_ot_dir"
+        <li irina="irina">Create your custom plugin(s) inside the <filepath><term keyref="glossentry_dita_ot_dir"
             />\plugins\</filepath> folder.</li>
-        <li>Go to <menucascade>
+        <li irina="irina">Go to <menucascade>
             <uicontrol>Options</uicontrol>
             <uicontrol>Preferences</uicontrol>
             <uicontrol>DITA</uicontrol>

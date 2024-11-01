@@ -10,11 +10,11 @@
       libraries used by the MathFlow library to parse MathML equations:</p>
     <p id="p_kgf_dgk_54b">
       <ol id="ol_ogj_zdq_c4">
-        <li id="li_lgf_dgk_54b"><filepath>MFComposer.jar</filepath></li>
-        <li id="li_mgf_dgk_54b"><filepath>MFExtraSymFonts.jar</filepath></li>
-        <li id="li_ngf_dgk_54b"><filepath>MFSimpleEditor.jar</filepath></li>
-        <li id="li_ogf_dgk_54b"><filepath>MFStructureEditor.jar</filepath></li>
-        <li id="li_pgf_dgk_54b"><filepath>MFStyleEditor.jar</filepath><note id="note_qgf_dgk_54b">For MathFlow 2.1, all of these <xref
+        <li id="li_lgf_dgk_54b" irina="irina"><filepath>MFComposer.jar</filepath></li>
+        <li id="li_mgf_dgk_54b" irina="irina"><filepath>MFExtraSymFonts.jar</filepath></li>
+        <li id="li_ngf_dgk_54b" irina="irina"><filepath>MFSimpleEditor.jar</filepath></li>
+        <li id="li_ogf_dgk_54b" irina="irina"><filepath>MFStructureEditor.jar</filepath></li>
+        <li id="li_pgf_dgk_54b" irina="irina"><filepath>MFStyleEditor.jar</filepath><note id="note_qgf_dgk_54b">For MathFlow 2.1, all of these <xref
               keyref="glossentry_jar"><term>JAR</term></xref> files are packaged into one file
             called <filepath>MathFlow.jar</filepath>.</note></li>
       </ol>

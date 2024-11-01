@@ -14,10 +14,10 @@
       your <filepath>.gitconfig</filepath> file and then you can simply start the tool from the
       command line.</p>
     <p id="p_t1v_bgk_54b">To integrate the <uicontrol>Compare Files</uicontrol> tool with your Git client, follow this procedure:<ol id="ol_u1v_bgk_54b">
-        <li id="li_v1v_bgk_54b">Use one of the following methods to instruct your Git client to use the
+        <li id="li_v1v_bgk_54b" irina="irina">Use one of the following methods to instruct your Git client to use the
             <term>Oxygen</term>
           <uicontrol>Compare Files</uicontrol> tool:<ul id="ul_w1v_bgk_54b">
-            <li id="li_x1v_bgk_54b"><b>Manual Configuration</b> - Locate your Git user-specific configuration file
+            <li id="li_x1v_bgk_54b" irina="irina"><b>Manual Configuration</b> - Locate your Git user-specific configuration file
                 (<filepath>.gitconfig</filepath>) and edit it with a text editor (for example, in
               Windows, the <filepath>.gitconfig</filepath> file is most likely located in your user
               home directory). Add (or replace) the following
@@ -42,7 +42,7 @@
 [mergetool "oxygendiff"]
    cmd = '"/home/user/Oxygen XML Editor 21/diffFiles.sh"' -ext $LOCAL $REMOTE $BASE 
         $MERGED trustExitCode = true</codeblock></note></li>
-            <li id="li_cbv_bgk_54b"><b>Command Line Configuration</b> - To automatically configure
+            <li id="li_cbv_bgk_54b" irina="irina"><b>Command Line Configuration</b> - To automatically configure
               the <filepath>.gitconfig</filepath> file, you can run the following commands from a
               command
                 line:<codeblock outputclass="language-ini" id="codeblock_dbv_bgk_54b">git config --global diff.tool oxygendiff
@@ -57,7 +57,7 @@ git config --global mergetool.oxygendiff.trustExitCode true</codeblock><note
                   "/Applications/Oxygen XML Editor/diffFiles.sh"</b>. For Linux, it would be
                 something like: <b>sh "/Oxygen XML Editor/diffFiles.sh"</b>.</note></li>
           </ul></li>
-        <li id="li_fbv_bgk_54b">To start the <uicontrol>Compare Files</uicontrol> tool and see a comparison of changes
+        <li id="li_fbv_bgk_54b" irina="irina">To start the <uicontrol>Compare Files</uicontrol> tool and see a comparison of changes
           for a particular file, run the following command from a command
             line:<codeblock outputclass="language-ini" id="codeblock_gbv_bgk_54b">git difftool [PathToFile]</codeblock><note
             type="tip" id="note_hbv_bgk_54b">If the file you want to compare has conflicts, you can start the

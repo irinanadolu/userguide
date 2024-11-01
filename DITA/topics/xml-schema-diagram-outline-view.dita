@@ -135,9 +135,9 @@
     </p>
     <p conkeyref="reusables-editing-documents/outliner-filter-box" id="p_lrc_cgk_54b"/>
     <note type="tip" id="note_mrc_cgk_54b">The search filter is case insensitive. The following wildcards are accepted:<ul id="ul_nrc_cgk_54b">
-        <li id="li_orc_cgk_54b"><b>*</b> - any string</li>
-        <li id="li_prc_cgk_54b"><b>?</b> - any character</li>
-        <li id="li_qrc_cgk_54b"><b>,</b> - patterns separator</li>
+        <li id="li_orc_cgk_54b" irina="irina"><b>*</b> - any string</li>
+        <li id="li_prc_cgk_54b" irina="irina"><b>?</b> - any character</li>
+        <li id="li_qrc_cgk_54b" irina="irina"><b>,</b> - patterns separator</li>
       </ul>If no wildcards are specified, the string to search will be searched as a partial
       match.</note>
     <p conkeyref="reusables-editing-documents/synchronized_views" id="p_rrc_cgk_54b"/>

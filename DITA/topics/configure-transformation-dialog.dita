@@ -78,11 +78,11 @@
                 both the scenarios associated with the current document type and the scenarios
                 defined at <xref keyref="glossentry_project-options">project level</xref>.</ph> The
               table includes following sortable columns:<ul id="ul_i4h_kxb_wmb">
-                <li id="li_vfm_cgk_54b"><uicontrol>Association</uicontrol> - The checkboxes in this column mark whether
+                <li id="li_vfm_cgk_54b" irina="irina"><uicontrol>Association</uicontrol> - The checkboxes in this column mark whether
                   or not a transformation scenario is associated with the current document.</li>
-                <li id="li_wfm_cgk_54b"><uicontrol>Scenario</uicontrol> - This column presents the names of the
+                <li id="li_wfm_cgk_54b" irina="irina"><uicontrol>Scenario</uicontrol> - This column presents the names of the
                   transformation scenarios.</li>
-                <li id="li_xfm_cgk_54b"><uicontrol>Type</uicontrol> - If the <uicontrol>Show Type</uicontrol> contextual
+                <li id="li_xfm_cgk_54b" irina="irina"><uicontrol>Type</uicontrol> - If the <uicontrol>Show Type</uicontrol> contextual
                   menu option is selected, this column displays the type of the transformation
                   scenario. For further details about the types of transformation scenarios that are
                   available in <ph keyref="product"/>, see the <xref

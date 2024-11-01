@@ -47,13 +47,13 @@
           <dlentry id="dlentry_k44_ql5_s4b">
             <dt>User drop-down menu</dt>
             <dd>This drop-down includes<ul id="ul_dlc_cm5_s4b">
-                <li id="li_elc_cm5_s4b"><uicontrol>Log in with Microsoft account</uicontrol> (if
+                <li id="li_elc_cm5_s4b" irina="irina"><uicontrol>Log in with Microsoft account</uicontrol> (if
                   logged out) - Opens the Microsoft login page in your default browser and
                   authenticates <ph keyref="product"/>.</li>
-                <li id="li_jdk_gm5_s4b"><uicontrol>Log out</uicontrol> (if logged in) - Logs out of
+                <li id="li_jdk_gm5_s4b" irina="irina"><uicontrol>Log out</uicontrol> (if logged in) - Logs out of
                   your Microsoft account and the authorization between <ph keyref="product"/> and
                   Microsoft is revoked.</li>
-                <li id="li_xdw_nm5_s4b"><uicontrol>Help</uicontrol> - Opens the online user guide to
+                <li id="li_xdw_nm5_s4b" irina="irina"><uicontrol>Help</uicontrol> - Opens the online user guide to
                   a topic relevant to the current context.</li>
               </ul></dd>
           </dlentry>
@@ -61,16 +61,16 @@
             <dt><uicontrol><image href="../img/Settings16.png"/>Settings</uicontrol> drop-down
               menu</dt>
             <dd>This drop-down includes<ul id="ul_l4d_xm5_s4b">
-                <li id="li_m4d_xm5_s4b"><uicontrol>New SharePoint Online Connection</uicontrol> -
+                <li id="li_m4d_xm5_s4b" irina="irina"><uicontrol>New SharePoint Online Connection</uicontrol> -
                   Opens the <uicontrol>Connection</uicontrol> dialog box with the SharePoint Online
                   data source automatically selected.</li>
-                <li id="li_pbc_dn5_s4b"><uicontrol>New SharePoint Connection</uicontrol> - Opens the
+                <li id="li_pbc_dn5_s4b" irina="irina"><uicontrol>New SharePoint Connection</uicontrol> - Opens the
                     <uicontrol>Connection</uicontrol> dialog box with the SharePoint (older version)
                   data source automatically selected.</li>
-                <li id="li_o4d_xm5_s4b"><uicontrol>Configure Database Sources</uicontrol> - Opens
+                <li id="li_o4d_xm5_s4b" irina="irina"><uicontrol>Configure Database Sources</uicontrol> - Opens
                   the <uicontrol>Database Sources</uicontrol> preferences page where you can
                   configure your SharePoint connection.</li>
-                <li id="li_nx3_ln5_s4b"><uicontrol>Layout</uicontrol> - Use this option to choose
+                <li id="li_nx3_ln5_s4b" irina="irina"><uicontrol>Layout</uicontrol> - Use this option to choose
                   the layout for the view. You can choose between: <uicontrol>Automatic</uicontrol>,
                     <uicontrol>Vertical</uicontrol>, and <uicontrol>Horizontal</uicontrol>.</li>
               </ul></dd>
@@ -80,11 +80,11 @@
       <p id="p_xmz_1g5_s4b">Once you are connected, the view is separated into two panes. The left
         pane is a navigation area that presents the SharePoint site structure in a tree-like fashion
         with the following node types:<ul id="ul_e3f_rg5_s4b">
-          <li id="li_f3f_rg5_s4b"><image href="../img/sharepoint-site-icon.png"/>
+          <li id="li_f3f_rg5_s4b" irina="irina"><image href="../img/sharepoint-site-icon.png"/>
             <b>Site</b></li>
-          <li id="li_r4n_2k5_s4b"><image href="../img/sharepoint-subsite-icon.png"/>
+          <li id="li_r4n_2k5_s4b" irina="irina"><image href="../img/sharepoint-subsite-icon.png"/>
             <b>Sub-site</b></li>
-          <li id="li_kps_hk5_s4b"><image href="../img/sharepoint-folder-icon.png"/>
+          <li id="li_kps_hk5_s4b" irina="irina"><image href="../img/sharepoint-folder-icon.png"/>
             <b>Folders</b></li>
         </ul></p>
       <p id="p_wll_mk5_s4b">When a folder node is selected in the left pane, the right pane displays

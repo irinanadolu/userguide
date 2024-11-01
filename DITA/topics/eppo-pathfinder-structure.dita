@@ -36,13 +36,13 @@
     <section id="semantic_structure">
       <title>Semantic Structure</title>
       <p id="p_uyl_dgk_54b">Semantic structure is structure that shows the meaning of things. For example:<ul id="ul_jnh_kk5_1q">
-        <li id="li_vyl_dgk_54b">A <xmlelement>task</xmlelement> element specifies that a block of content contains the
+        <li id="li_vyl_dgk_54b" irina="irina">A <xmlelement>task</xmlelement> element specifies that a block of content contains the
             description of a task.</li>
-        <li id="li_wyl_dgk_54b">A <xmlelement>codeblock</xmlelement> element specifies that a block of text consists of
+        <li id="li_wyl_dgk_54b" irina="irina">A <xmlelement>codeblock</xmlelement> element specifies that a block of text consists of
             programming code.</li>
-        <li id="li_xyl_dgk_54b">A <xmlelement>uicontrol</xmlelement> element specifies that a word is the name of a control in
+        <li id="li_xyl_dgk_54b" irina="irina">A <xmlelement>uicontrol</xmlelement> element specifies that a word is the name of a control in
             a computer GUI.</li>
-          <li id="li_yyl_dgk_54b">The <xmlatt>platform</xmlatt> profiling attribute specifies that a particular piece of
+          <li id="li_yyl_dgk_54b" irina="irina">The <xmlatt>platform</xmlatt> profiling attribute specifies that a particular piece of
             content applies only to certain computing platforms.</li>
         </ul></p>
       <p id="p_zyl_dgk_54b">Semantic structure is important in a structured writing system because it allows both
@@ -82,14 +82,14 @@
     <section id="creating_topic_structures">
       <title>Creating Topic Structures</title>
       <p id="p_ezl_dgk_54b"><ph keyref="product"/> provides a number of tools to help you create topic structures:<ul id="ul_j4r_yl5_1q">
-          <li id="li_fzl_dgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+          <li id="li_fzl_dgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
                 Assistant</term></xref> - Shows you which elements can be created at the current
             position.</li>
-          <li id="li_gzl_dgk_54b"><xref href="model-panel.dita#model-panel"><uicontrol>Model</uicontrol> view</xref> -
+          <li id="li_gzl_dgk_54b" irina="irina"><xref href="model-panel.dita#model-panel"><uicontrol>Model</uicontrol> view</xref> -
             Shows you the complete structure supported by the current element.</li>
-          <li id="li_hzl_dgk_54b"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol> view</xref> - Shows you the current structure of
+          <li id="li_hzl_dgk_54b" irina="irina"><xref href="outliner-view.dita#outliner-view"><uicontrol>Outline</uicontrol> view</xref> - Shows you the current structure of
             your document.</li>
-          <li id="li_izl_dgk_54b"><uicontrol>DITA</uicontrol> toolbar - Helps you to easily insert many common
+          <li id="li_izl_dgk_54b" irina="irina"><uicontrol>DITA</uicontrol> toolbar - Helps you to easily insert many common
             structures.</li>
         </ul></p>
     </section>

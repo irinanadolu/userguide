@@ -20,26 +20,26 @@
     </section>
     <p id="p_dbc_dgk_54b">
       <ul id="ul_u4n_slb_zq">
-        <li id="li_ebc_dgk_54b"><uicontrol>screen</uicontrol> - The styles marked with this media
+        <li id="li_ebc_dgk_54b" irina="irina"><uicontrol>screen</uicontrol> - The styles marked with this media
           type are used only for rendering a document on screen.</li>
-        <li id="li_fbc_dgk_54b"><uicontrol>print</uicontrol> - The styles marked with this media
+        <li id="li_fbc_dgk_54b" irina="irina"><uicontrol>print</uicontrol> - The styles marked with this media
           type are used only for printing a document.</li>
-        <li id="li_gbc_dgk_54b"><uicontrol>all</uicontrol> - The styles marked with this media type
+        <li id="li_gbc_dgk_54b" irina="irina"><uicontrol>all</uicontrol> - The styles marked with this media type
           are used for rendering a document in all supported types of media.</li>
-        <li id="li_hbc_dgk_54b"><uicontrol>oxygen</uicontrol> - The styles marked with this media
+        <li id="li_hbc_dgk_54b" irina="irina"><uicontrol>oxygen</uicontrol> - The styles marked with this media
           type are used only for rendering a document in the <ph keyref="product"/>
           <uicontrol>Author</uicontrol> mode. For more information, see <xref
             href="dg-oxygen-media-type.dita"/>.</li>
-        <li id="li_ibc_dgk_54b"><uicontrol>oxygen-dark-theme</uicontrol> - The styles marked with
+        <li id="li_ibc_dgk_54b" irina="irina"><uicontrol>oxygen-dark-theme</uicontrol> - The styles marked with
           this media type are used only for rendering a document in the <ph keyref="product"/>
           <uicontrol>Author</uicontrol> mode when a dark theme is used (for example,
           <i>Graphite</i>).</li>
-        <li id="li_jbc_dgk_54b"><uicontrol>oxygen-high-contrast-black</uicontrol> - The styles
+        <li id="li_jbc_dgk_54b" irina="irina"><uicontrol>oxygen-high-contrast-black</uicontrol> - The styles
           marked with this media type are used only for rendering a document in the <ph
             keyref="product"/>
           <uicontrol>Author</uicontrol> mode on a Windows High Contrast Theme with a black
           background.</li>
-        <li id="li_kbc_dgk_54b"><uicontrol>oxygen-high-contrast-white</uicontrol> - The styles
+        <li id="li_kbc_dgk_54b" irina="irina"><uicontrol>oxygen-high-contrast-white</uicontrol> - The styles
           marked with this media type are used only for rendering a document in the <ph
             keyref="product"/>
           <uicontrol>Author</uicontrol> mode on a Windows High Contrast Theme with a white
@@ -63,10 +63,10 @@
     <p id="p_nbc_dgk_54b"><ph keyref="product"/> also supports a few properties to set specific style rules that depend
       upon the size of the visible area in <uicontrol>Author</uicontrol> mode. These supported
       properties are as follows:<ul id="ul_hkl_5kb_zq">
-        <li id="li_obc_dgk_54b"><uicontrol>min-width</uicontrol> - The styles selected in this
+        <li id="li_obc_dgk_54b" irina="irina"><uicontrol>min-width</uicontrol> - The styles selected in this
           property are applied if the visible area in <uicontrol>Author</uicontrol> mode is equal to
           or greater than the specified value.</li>
-        <li id="li_pbc_dgk_54b"><uicontrol>max-width</uicontrol> - The styles selected in this
+        <li id="li_pbc_dgk_54b" irina="irina"><uicontrol>max-width</uicontrol> - The styles selected in this
           property are applied if the visible area in <uicontrol>Author</uicontrol> mode is less
           than or equal to the specified value.</li>
       </ul></p>

@@ -40,10 +40,10 @@
           <dt><uicontrol>Default column width (characters)</uicontrol></dt>
           <dd>Sets the default width (in characters) of a table column of the grid. A column may
             contain the following:<ul id="ul_bp4_bgk_54b">
-              <li id="li_cp4_bgk_54b">Element names</li>
-              <li id="li_dp4_bgk_54b">Element text content</li>
-              <li id="li_ep4_bgk_54b">Attribute names</li>
-              <li id="li_fp4_bgk_54b">Attribute values</li>
+              <li id="li_cp4_bgk_54b" irina="irina">Element names</li>
+              <li id="li_dp4_bgk_54b" irina="irina">Element text content</li>
+              <li id="li_ep4_bgk_54b" irina="irina">Attribute names</li>
+              <li id="li_fp4_bgk_54b" irina="irina">Attribute values</li>
             </ul>If the total width of the grid structure is too large you can resize any column by
             dragging the column margins with the mouse pointer, but the change is not persistent. To
             make it persistent, set the new column width with this option.</dd>

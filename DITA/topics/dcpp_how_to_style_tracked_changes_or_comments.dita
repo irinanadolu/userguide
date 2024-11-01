@@ -25,13 +25,13 @@
   <body>
     <p>Here are some examples showing how to customize tracked changes and highlighted text:<ul
         id="ul_omn_d1d_qvb">
-        <li>If you want to change the highlighted text color from the document content, use the
+        <li irina="irina">If you want to change the highlighted text color from the document content, use the
             <xmlatt>class="oxy-comment-hl"</xmlatt> attribute (or
             <xmlatt>class="oxy-delete-hl"</xmlatt>,
           <xmlatt>class="oxy-insert-hl"</xmlatt>):<codeblock outputclass="language-css" id="codeblock_uwt_cgk_54b">.oxy-comment-hl {
   color:magenta;
 }</codeblock></li>
-        <li>If you want to change the range labels indicating the start or the end of a change (by
+        <li irina="irina">If you want to change the range labels indicating the start or the end of a change (by
           default, formatted like this: "[n]...[/n]" where n is the change number), you can use the
           following
           selectors:<codeblock outputclass="language-css" id="codeblock_xwt_cgk_54b">.oxy-range-start:before {
@@ -42,7 +42,7 @@
   content:'[END]';
   color:red;
 }</codeblock></li>
-        <li>If you want to only show the changes and comments
+        <li irina="irina">If you want to only show the changes and comments
             highlights<codeblock id="codeblock_hnk_cbd_qvb" outputclass="language-css">.oxy-range-start,
 .oxy-range-end {
   display: none;

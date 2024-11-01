@@ -17,9 +17,9 @@
       <title>Method 1</title>
       <p id="p_o33_h3l_5sb">
         <ol id="ol_r5n_h3l_5sb">
-          <li id="li_s5n_h3l_5sb">In the Server Manager, go to the <uicontrol>Add Role and
+          <li id="li_s5n_h3l_5sb" irina="irina">In the Server Manager, go to the <uicontrol>Add Role and
               Features</uicontrol> wizard and select <uicontrol>Server Roles</uicontrol>.</li>
-          <li id="li_spt_k3l_5sb">In the <uicontrol>Roles</uicontrol> pane, under <menucascade>
+          <li id="li_spt_k3l_5sb" irina="irina">In the <uicontrol>Roles</uicontrol> pane, under <menucascade>
               <uicontrol>Web Server</uicontrol>
               <uicontrol>Application Development</uicontrol>
             </menucascade>, select <uicontrol>WebSocket Protocal</uicontrol>.</li>
@@ -30,39 +30,39 @@
       <title>Method 2</title>
       <p id="p_jpb_q3l_5sb">
         <ol id="ol_u4m_q3l_5sb">
-          <li id="li_v4m_q3l_5sb">Go to <menucascade>
+          <li id="li_v4m_q3l_5sb" irina="irina">Go to <menucascade>
               <uicontrol>Control Panel</uicontrol>
               <uicontrol>Programs</uicontrol>
             </menucascade> and open <uicontrol>Windows Features</uicontrol>.</li>
-          <li id="li_hmh_njl_5sb">Activate <uicontrol>WebSocket Protocol</uicontrol> in the path
+          <li id="li_hmh_njl_5sb" irina="irina">Activate <uicontrol>WebSocket Protocol</uicontrol> in the path
             shown in the following image:<p id="p_js5_pjl_5sb"><image href="../img/websocket1.png"
               /></p></li>
-          <li id="li_wxr_xjl_5sb">Enable the <term>WebSocket</term> feature inside the IIS
+          <li id="li_wxr_xjl_5sb" irina="irina">Enable the <term>WebSocket</term> feature inside the IIS
               server:<ol id="ol_mjs_zjl_5sb">
-              <li id="li_njs_zjl_5sb">In the <uicontrol>Connections</uicontrol> pane, select the
+              <li id="li_njs_zjl_5sb" irina="irina">In the <uicontrol>Connections</uicontrol> pane, select the
                 server name to configure <term>WebSocket</term> for the server, or expand
                   <uicontrol>Sites</uicontrol> and then select a site to configure
                   <term>WebSocket</term> for the site, or expand a site and then select an
                 application to configure <term>WebSocket</term> for the application.</li>
-              <li id="li_kbd_fkl_5sb">In the <uicontrol>Home</uicontrol> pane, double-click the
+              <li id="li_kbd_fkl_5sb" irina="irina">In the <uicontrol>Home</uicontrol> pane, double-click the
                   <uicontrol>Configuration Editor</uicontrol> feature.</li>
-              <li id="li_rkp_fkl_5sb">For either a site or an application, select either
+              <li id="li_rkp_fkl_5sb" irina="irina">For either a site or an application, select either
                   <uicontrol>web.config</uicontrol> or <uicontrol>applicationHost.config</uicontrol>
                 in the <uicontrol>From</uicontrol> text box.</li>
-              <li id="li_cbg_gkl_5sb">Select <uicontrol>system.webServer/webSocket</uicontrol> in
+              <li id="li_cbg_gkl_5sb" irina="irina">Select <uicontrol>system.webServer/webSocket</uicontrol> in
                 the <uicontrol>Section</uicontrol> text box.</li>
-              <li id="li_trp_gkl_5sb">Set <uicontrol>enabled</uicontrol> to
+              <li id="li_trp_gkl_5sb" irina="irina">Set <uicontrol>enabled</uicontrol> to
                   <uicontrol>True</uicontrol> to enable <term>WebSocket</term>
                   (<uicontrol>False</uicontrol> disables it).<p id="p_upp_mkl_5sb"><image
                     href="../img/websocket2.png"/></p></li>
-              <li id="li_wt1_rkl_5sb">The <uicontrol>HTTP_SEC_WEBSOCKET_EXTENSIONS</uicontrol>
+              <li id="li_wt1_rkl_5sb" irina="irina">The <uicontrol>HTTP_SEC_WEBSOCKET_EXTENSIONS</uicontrol>
                 server variable must be allowed in the server variable list. By default, the
                 distributed rewrite rules (e.g. the rules that are defined for specific sites or web
                 applications) cannot set or change any IIS server variable unless the server
                 variable is added to the <uicontrol>Allowed</uicontrol> list. For this procedure,
                 you need to add the following server variable to the <uicontrol>Allowed Server
                   Variables</uicontrol> list: <codeph>HTTP_SEC_WEBSOCKET_EXTENSIONS</codeph>.</li>
-              <li id="li_mdx_lll_5sb">A server variable must be added in Web Author's proxy
+              <li id="li_mdx_lll_5sb" irina="irina">A server variable must be added in Web Author's proxy
                   <uicontrol>Inbound</uicontrol> rule (see the following image):<p
                   id="p_q53_5ll_5sb"><image href="../img/websocket3.png"/></p></li>
             </ol></li>

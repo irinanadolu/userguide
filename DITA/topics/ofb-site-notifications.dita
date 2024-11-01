@@ -27,43 +27,43 @@
         <i>Owner</i>, <i>Admin</i>, or <i>Moderator</i>.</note></p>
     <p id="p_ezj_wtd_qrb">Events that trigger automatic notifications include:<ul
         id="ul_v4p_54l_gjb">
-        <li id="li_whx_dgk_54b"><b>User Role is Changed</b> - All users will receive an email
+        <li id="li_whx_dgk_54b" irina="irina"><b>User Role is Changed</b> - All users will receive an email
           notification if their user role is changed by an <i>Owner</i> or <i>Admin</i>.</li>
-        <li id="li_xhx_dgk_54b"><b>User is Added</b> - All users will receive an email notification
+        <li id="li_xhx_dgk_54b" irina="irina"><b>User is Added</b> - All users will receive an email notification
           if they have been added in a site configuration as an <i>Admin</i> or
           <i>Moderator</i>.</li>
-        <li id="li_int_b1y_qwb"><b>User Registers a Page Rating</b> - Site admins receive a daily
+        <li id="li_int_b1y_qwb" irina="irina"><b>User Registers a Page Rating</b> - Site admins receive a daily
           statistics email that includes the number of messages that were registered for positive or
           negative ratings within the past day. The number of messages is shown as a link that can
           be used to navigate to a page that displays all the ratings information for the particular
           documentation page. The messages can also be viewed from the statistics table in the <xref
             href="ofb-page-ratings.dita"><uicontrol>Page Ratings</uicontrol> statistics
           page</xref>.</li>
-        <li id="li_yhx_dgk_54b" product="feedback"><b>Subscription Will Expire</b> - If the
+        <li id="li_yhx_dgk_54b" product="feedback" irina="irina"><b>Subscription Will Expire</b> - If the
           organization's paid subscription is about to expire (within 14 days or 24 hours) and the
           automatic renewal option is disabled, the user assigned as the organization
             <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive a notification reminding
           them to renew the subscription.</li>
-        <li id="li_zhx_dgk_54b" product="feedback"><b>Subscription Has Expired</b> - If the
+        <li id="li_zhx_dgk_54b" product="feedback" irina="irina"><b>Subscription Has Expired</b> - If the
           organization's paid subscription expired 14 days prior, the user assigned as the
           organization <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive a notification
           reminding them to re-subscribe.</li>
-        <li id="li_a3x_dgk_54b" product="feedback"><b>Trial Will Expire</b> - If the organization's
+        <li id="li_a3x_dgk_54b" product="feedback" irina="irina"><b>Trial Will Expire</b> - If the organization's
           trial subscription is about to expire (within 7 days or 24 hours), the user assigned as
           the organization <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive a
           notification advising them to subscribe to a paid subscription plan.</li>
-        <li id="li_b3x_dgk_54b" product="feedback"><b>Trial Has Expired</b> - If the organization's
+        <li id="li_b3x_dgk_54b" product="feedback" irina="irina"><b>Trial Has Expired</b> - If the organization's
           trial subscription expired 7 days prior, the user assigned as the organization
             <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive a notification advising
           them to subscribe to a paid subscription plan.</li>
-        <li id="li_c3x_dgk_54b" product="feedback"><b>Number of Page Views Allowed by the
+        <li id="li_c3x_dgk_54b" product="feedback" irina="irina"><b>Number of Page Views Allowed by the
             Subscription Plan Will Be Exceeded</b> - If the number of page views allowed by the
           organization's subscription plan is about to be exceeded for the current month, the user
           assigned as the organization <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive
           a notification advising them to upgrade their subscription plan. This notification is sent
           when 80% of the allowed page views has been reached and again when 100% has been
           reached.</li>
-        <li id="li_d3x_dgk_54b" product="feedback"><b>Number of Page Views Allowed by the
+        <li id="li_d3x_dgk_54b" product="feedback" irina="irina"><b>Number of Page Views Allowed by the
             Subscription Plan Has Been Exceeded</b> - If the number of page views allowed by the
           organization's subscription plan has been exceeded for the current month, the user
           assigned as the organization <i>Owner</i><ph> or <i>Billing Manager</i></ph> will receive
@@ -71,7 +71,7 @@
           and advising them to upgrade their subscription plan. This notification is sent when 5
           days have passed since exceeding the limit or when 120% of the allowed page views has been
           reached.</li>
-        <li id="li_e3x_dgk_54b" product="feedback"><b>Organization Has Active Subscription but no
+        <li id="li_e3x_dgk_54b" product="feedback" irina="irina"><b>Organization Has Active Subscription but no
             Page Views Were Generated</b> - If the user assigned as the organization
             <i>Owner</i><ph> or <i>Billing Manager</i></ph> activates a subscription, but no page
           views have yet to be generated, they will receive an automatic notification via

@@ -23,28 +23,28 @@
       contains resources associated with the bug tracking system (usually they are set recursively
       on the root folder of the working copy):</p>
     <ul id="ul_wh3_dgk_54b">
-      <li id="li_xh3_dgk_54b"><uicontrol>bugtraq:message</uicontrol> - A string property. If it is set the <xref
+      <li id="li_xh3_dgk_54b" irina="irina"><uicontrol>bugtraq:message</uicontrol> - A string property. If it is set the <xref
           href="send-changes.dita"><uicontrol>Commit</uicontrol> dialog box</xref> will display a
         text field for entering the bug ID. It must contain the string <i>%BUGID%</i>, which is
         replaced with the bug number on commit.</li>
-      <li id="li_yh3_dgk_54b"><uicontrol>bugtraq:label</uicontrol> - A string property that sets the label for the text
+      <li id="li_yh3_dgk_54b" irina="irina"><uicontrol>bugtraq:label</uicontrol> - A string property that sets the label for the text
         field configured with the <uicontrol>bugtraq:message</uicontrol> property.</li>
-      <li id="li_zh3_dgk_54b"><uicontrol>bugtraq:url</uicontrol> - A string property that is the URL pointing to the bug
+      <li id="li_zh3_dgk_54b" irina="irina"><uicontrol>bugtraq:url</uicontrol> - A string property that is the URL pointing to the bug
         tracking tool. The URL string should contain the substring <i>%BUGID%</i> which <ph
           keyref="svnProduct"/> replaces with the issue number. That way the resulting URL will
         point directly to the correct issue.</li>
-      <li id="li_a33_dgk_54b"><uicontrol>bugtraq:warnifnoissue</uicontrol> - A boolean property with the values
+      <li id="li_a33_dgk_54b" irina="irina"><uicontrol>bugtraq:warnifnoissue</uicontrol> - A boolean property with the values
           <i>true</i>/<i>yes</i> or <i>false</i>/<i>no</i>. If set to <i>true</i>, the <ph
           keyref="svnProduct"/> will warn you if the bug ID text field is left empty. The warning
         will not block the commit, only give you a chance to enter an issue number.</li>
-      <li id="li_b33_dgk_54b"><uicontrol>bugtraq:number</uicontrol> - A boolean property with the value <i>true</i> or
+      <li id="li_b33_dgk_54b" irina="irina"><uicontrol>bugtraq:number</uicontrol> - A boolean property with the value <i>true</i> or
           <i>false</i>. If this property is set to <i>false</i>, then any character can be entered
         in the bug ID text field. If the property is set to <i>true</i> or is missing then only
         numbers are allowed as the bug ID.</li>
-      <li id="li_c33_dgk_54b"><uicontrol>bugtraq:append</uicontrol> - A boolean property. If set to <i>false</i>, then
+      <li id="li_c33_dgk_54b" irina="irina"><uicontrol>bugtraq:append</uicontrol> - A boolean property. If set to <i>false</i>, then
         the bug ID is inserted at the beginning of the commit message. If <i>yes</i> or not set,
         then it is appended to the commit message.</li>
-      <li id="li_d33_dgk_54b"><uicontrol>bugtraq:logregex</uicontrol> - This property contains one or two regular
+      <li id="li_d33_dgk_54b" irina="irina"><uicontrol>bugtraq:logregex</uicontrol> - This property contains one or two regular
         expressions, separated by a newline. If only one expression is set, then the bug ID's must
         be matched in the groups of the regular expression string (for example, <codeph>[Ii]ssue
           #?(\d+)</codeph>). If two expressions are set, then the first expression is used to find a
@@ -53,8 +53,8 @@
         is then used to extract the bug ID from the string extracted with the first expression. An
         example: if you want to catch every pattern <codeph>issue #XXX</codeph> and <codeph>issue
           #890, #789</codeph> inside a log message you could use the following strings:<ul id="ul_e33_dgk_54b">
-          <li id="li_f33_dgk_54b"><codeph>[Ii]ssue #?(\d+)(,? ?#?(\d+))+</codeph></li>
-          <li id="li_g33_dgk_54b"><codeph>(\d+)</codeph></li>
+          <li id="li_f33_dgk_54b" irina="irina"><codeph>[Ii]ssue #?(\d+)(,? ?#?(\d+))+</codeph></li>
+          <li id="li_g33_dgk_54b" irina="irina"><codeph>(\d+)</codeph></li>
         </ul></li>
     </ul>
     <p id="p_h33_dgk_54b">The data configured with these SVN properties is stored on the repository when a revision is

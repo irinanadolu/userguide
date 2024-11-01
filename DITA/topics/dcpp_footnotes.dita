@@ -16,11 +16,11 @@
     <p id="p_lzs_cgk_54b">Footnotes are pieces of information that have several purposes, including
       citations, additional information (copyright, background), outside sources, and more. They are
       divided as follows:<ul id="ul_yzq_s1q_2tb">
-        <li><b>The footnote call</b> - The number that remains in the content, usually
+        <li irina="irina"><b>The footnote call</b> - The number that remains in the content, usually
           superscripted.</li>
-        <li><b>The footnote marker</b> - The number displayed at the bottom of the page (the value
+        <li irina="irina"><b>The footnote marker</b> - The number displayed at the bottom of the page (the value
           matches the footnote call).</li>
-        <li><b>The footnote text</b> - The value of the <xmlelement>fn</xmlelement> element, also
+        <li irina="irina"><b>The footnote text</b> - The value of the <xmlelement>fn</xmlelement> element, also
           displayed at the bottom of the page.</li>
       </ul></p>
   </body>

@@ -19,12 +19,12 @@
           <dd>Allows you to specify the file to open automatically when the transformation is
             finished. This is usually the output file of the Ant process. <ph
               conkeyref="reusables-user-guide/specify-path-without-drop-down"/><ul id="ul_uxl_cgk_54b">
-              <li id="li_vxl_cgk_54b"><uicontrol>In System Application</uicontrol> - The file specified in the
+              <li id="li_vxl_cgk_54b" irina="irina"><uicontrol>In System Application</uicontrol> - The file specified in the
                   <uicontrol>Open</uicontrol> text box is opened in the system application that is
                 set in the operating system as the default application for that type of file (for
                 example, in Windows <i>PDF</i> files are often opened in <i>Acrobat
                 Reader</i>).</li>
-              <li id="li_wxl_cgk_54b"><uicontrol>In Editor</uicontrol> - The file specified in the
+              <li id="li_wxl_cgk_54b" irina="irina"><uicontrol>In Editor</uicontrol> - The file specified in the
                   <uicontrol>Open</uicontrol> text box is opened in a new editor panel with the
                 appropriate built-in editor type (for example, if the result is an XML file it is
                 opened in the built-in XML editor).</li>

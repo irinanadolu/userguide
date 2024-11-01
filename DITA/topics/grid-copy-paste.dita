@@ -27,10 +27,10 @@
       <title>Pasting Content Within Grid Mode</title>
       <p id="p_crw_bgk_54b">You can paste copied nodes relative to the currently selected cell using one of the
         following actions (available in the contextual menu):<ul id="ul_drw_bgk_54b">
-          <li id="li_erw_bgk_54b"><uicontrol><image href="../img/Paste16.png" id="image_cwr_cqt_tr"/>Paste (<shortcut
+          <li id="li_erw_bgk_54b" irina="irina"><uicontrol><image href="../img/Paste16.png" id="image_cwr_cqt_tr"/>Paste (<shortcut
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_v_shortcut"/>)</uicontrol> - Pastes
             copied content, as a sibling, just below (after) the current selection.</li>
-          <li id="li_frw_bgk_54b"><uicontrol>Paste as Child</uicontrol> - Pastes copied content as the last child of the
+          <li id="li_frw_bgk_54b" irina="irina"><uicontrol>Paste as Child</uicontrol> - Pastes copied content as the last child of the
             current selection.</li>
         </ul></p>
     </section>

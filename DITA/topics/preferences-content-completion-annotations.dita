@@ -58,9 +58,9 @@
               validated against a DTD schema.</p>
             <p id="p_mlp_bgk_54b">If this option is selected, <ph keyref="product"/> uses the
               following mechanism to collect annotations:<ul id="ul_bvd_wjc_ss">
-                <li id="li_nlp_bgk_54b">If at least one <codeph>doc:</codeph> comment is found in
+                <li id="li_nlp_bgk_54b" irina="irina">If at least one <codeph>doc:</codeph> comment is found in
                   the entire DTD, only comments of this type are displayed as annotations.</li>
-                <li id="li_olp_bgk_54b">If no <codeph>doc:</codeph> comment is found in the entire
+                <li id="li_olp_bgk_54b" irina="irina">If no <codeph>doc:</codeph> comment is found in the entire
                   DTD, all comments are considered annotations and displayed as such.</li>
               </ul></p>
             <p id="p_plp_bgk_54b">If not selected, all comments, regardless of their type, are

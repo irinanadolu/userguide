@@ -92,15 +92,15 @@
               <p dir="ltr" id="p_swc_sfc_prb">To be more concise, if we have <i>unchecked</i>
                 properties:</p>
               <ul id="ul_twc_sfc_prb">
-                <li dir="ltr" id="li_uwc_sfc_prb">
+                <li dir="ltr" id="li_uwc_sfc_prb" irina="irina">
                   <p dir="ltr" id="p_vwc_sfc_prb">If the value of this keyword is <i>true</i>, it is
                     always valid.</p>
                 </li>
-                <li dir="ltr" id="li_wwc_sfc_prb">
+                <li dir="ltr" id="li_wwc_sfc_prb" irina="irina">
                   <p dir="ltr" id="p_xwc_sfc_prb">If the value is <i>false</i>, it is never
                     valid.</p>
                 </li>
-                <li dir="ltr" id="li_ywc_sfc_prb">
+                <li dir="ltr" id="li_ywc_sfc_prb" irina="irina">
                   <p dir="ltr" id="p_zwc_sfc_prb">If the value contains an object (schema), every
                     property must be valid against that schema.</p>
                 </li>
@@ -203,11 +203,11 @@
                 are valid against the corresponding schemas provided by its value. The value of this
                 keyword can be:</p>
               <ul id="ul_bxc_sfc_prb">
-                <li dir="ltr" id="li_cxc_sfc_prb">
+                <li dir="ltr" id="li_cxc_sfc_prb" irina="irina">
                   <p dir="ltr" id="p_dxc_sfc_prb">A valid JSON schema (object or boolean). Every
                     item must be valid against this schema.</p>
                 </li>
-                <li dir="ltr" id="li_exc_sfc_prb">
+                <li dir="ltr" id="li_exc_sfc_prb" irina="irina">
                   <p dir="ltr" id="p_fxc_sfc_prb">An array of valid JSON schemas. Each item must be
                     valid against the schema defined at the same position (index). Items that do not
                     have a corresponding position (e.g. an array contains 5 items but this keyword

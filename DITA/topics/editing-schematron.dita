@@ -17,9 +17,9 @@
       validation stage.</p>
     <p id="p_lsg_cgk_54b">There are numerous online resources out there to help you get started with writing Schematron
       rules. Here are just a few that might help you:<ul id="ul_msg_cgk_54b">
-        <li id="li_nsg_cgk_54b"><xref href="https://upg-dh.newtfire.org/explainSchematron.html"
+        <li id="li_nsg_cgk_54b" irina="irina"><xref href="https://upg-dh.newtfire.org/explainSchematron.html"
             format="html" scope="external">Guide to Schema Writing with Schematron</xref></li>
-        <li id="li_osg_cgk_54b"><xref
+        <li id="li_osg_cgk_54b" irina="irina"><xref
             href="https://www.oxygenxml.com/events/2018/webinar_creating_schematron_rules_and_quick_fixes.html"
             format="html" scope="external">Presentation: Schematron Development with
           Oxygen</xref></li>
@@ -47,7 +47,7 @@
       <title>How to Specify the Query Language Binding</title>
       <p id="p_ssg_cgk_54b">You can specify the query language binding to be used in the Schematron schema by doing the
           following:<ul id="ul_f3c_jz1_gs">
-          <li id="li_tsg_cgk_54b">For embedded ISO Schematron, <ph
+          <li id="li_tsg_cgk_54b" irina="irina">For embedded ISO Schematron, <ph
               conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to <menucascade>
               <uicontrol>XML</uicontrol>
               <uicontrol>XML Parser</uicontrol>
@@ -55,12 +55,12 @@
             </menucascade>, and select it in the <xref
               href="schematron-preferences-page.dita#schematron-preferences-page/embedded-rules-query-language"
                 ><uicontrol>Embedded rules query language binding</uicontrol> option</xref>.</li>
-          <li id="li_usg_cgk_54b">For standalone ISO Schematron, specify the version by setting the query language to be
+          <li id="li_usg_cgk_54b" irina="irina">For standalone ISO Schematron, specify the version by setting the query language to be
             used in a <xmlatt>queryBinding</xmlatt> attribute on the schema root element. For more
             information, see the <xref href="https://www.schematron.com/" format="html"
               scope="external">Query Language Binding section of the Schematron
               specifications</xref>.</li>
-          <li id="li_vsg_cgk_54b">For Schematron 1.5 (standalone and embedded), <ph
+          <li id="li_vsg_cgk_54b" irina="irina">For Schematron 1.5 (standalone and embedded), <ph
               conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to <menucascade>
               <uicontrol>XML</uicontrol>
               <uicontrol>XML Parser</uicontrol>

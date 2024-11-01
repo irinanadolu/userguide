@@ -69,27 +69,27 @@
               </p>
               <p id="p_d5q_bgk_54b">The following options are available in the <uicontrol>Data Source
                   Drivers</uicontrol> dialog box:<ul id="ul_sky_nnk_hs">
-                  <li id="li_e5q_bgk_54b"><uicontrol>Name</uicontrol> - The name of the new data source driver that will
+                  <li id="li_e5q_bgk_54b" irina="irina"><uicontrol>Name</uicontrol> - The name of the new data source driver that will
                     be used for creating connections to the database.</li>
-                  <li id="li_f5q_bgk_54b"><uicontrol>Type</uicontrol> - Selects the data source type from the supported
+                  <li id="li_f5q_bgk_54b" irina="irina"><uicontrol>Type</uicontrol> - Selects the data source type from the supported
                     driver types.</li>
-                  <li id="li_g5q_bgk_54b"><uicontrol><image href="../img/HelpToc16.png" id="image_edw_n4k_hs"/>Help
+                  <li id="li_g5q_bgk_54b" irina="irina"><uicontrol><image href="../img/HelpToc16.png" id="image_edw_n4k_hs"/>Help
                       button</uicontrol> - Opens the User Manual at <xref
                       href="download-database-drivers.dita">the list of the sections</xref> where
                     the configuration of supported data sources is explained and the URLs for
                     downloading the database drivers are specified.</li>
-                  <li id="li_h5q_bgk_54b"><uicontrol>Driver files (JAR, ZIP)</uicontrol> - Lists <xref
+                  <li id="li_h5q_bgk_54b" irina="irina"><uicontrol>Driver files (JAR, ZIP)</uicontrol> - Lists <xref
                       href="../topics/download-database-drivers.dita">download links for database
                       drivers</xref> that are necessary for accessing databases in <ph
                       keyref="product"/>.</li>
-                  <li id="li_i5q_bgk_54b"><uicontrol>Add Files</uicontrol> - Adds the driver class library.</li>
-                  <li id="li_j5q_bgk_54b"><uicontrol>Add Recursively</uicontrol> - Adds driver files recursively.</li>
-                  <li id="li_k5q_bgk_54b"><uicontrol>Remove</uicontrol> - Removes the selected driver class library from
+                  <li id="li_i5q_bgk_54b" irina="irina"><uicontrol>Add Files</uicontrol> - Adds the driver class library.</li>
+                  <li id="li_j5q_bgk_54b" irina="irina"><uicontrol>Add Recursively</uicontrol> - Adds driver files recursively.</li>
+                  <li id="li_k5q_bgk_54b" irina="irina"><uicontrol>Remove</uicontrol> - Removes the selected driver class library from
                     the list.</li>
-                  <li id="li_l5q_bgk_54b"><uicontrol>Detect</uicontrol> - Detects driver file candidates.</li>
-                  <li id="li_m5q_bgk_54b"><uicontrol>Stop</uicontrol> - Stops the detection of the driver
+                  <li id="li_l5q_bgk_54b" irina="irina"><uicontrol>Detect</uicontrol> - Detects driver file candidates.</li>
+                  <li id="li_m5q_bgk_54b" irina="irina"><uicontrol>Stop</uicontrol> - Stops the detection of the driver
                     candidates.</li>
-                  <li id="li_n5q_bgk_54b"><uicontrol>Driver class</uicontrol> - Specifies the driver class for the data
+                  <li id="li_n5q_bgk_54b" irina="irina"><uicontrol>Driver class</uicontrol> - Specifies the driver class for the data
                     source driver.</li>
                 </ul></p>
             </dd>
@@ -152,28 +152,28 @@
               </p>
               <p id="p_cvq_bgk_54b">The following options are available in the <uicontrol>Connection</uicontrol> dialog
                 box: <ul id="ul_f2b_hrk_hs">
-                  <li id="li_dvq_bgk_54b"><uicontrol>Name</uicontrol> - The name of the new connection that will be used
+                  <li id="li_dvq_bgk_54b" irina="irina"><uicontrol>Name</uicontrol> - The name of the new connection that will be used
                     in transformation scenarios and validation scenarios.</li>
-                  <li id="li_evq_bgk_54b"><uicontrol>Data Source</uicontrol> - Allows selecting a data source defined in
+                  <li id="li_evq_bgk_54b" irina="irina"><uicontrol>Data Source</uicontrol> - Allows selecting a data source defined in
                     the <uicontrol>Data Source Drivers</uicontrol> dialog box.</li>
                 </ul></p>
               <p id="p_fvq_bgk_54b">Depending upon the selected data source, you can set some of the following
                 parameters in the <uicontrol>Connection details</uicontrol> area:<ul
                   id="ul_g2b_hrk_hs">
-                  <li id="li_gvq_bgk_54b"><uicontrol>URL</uicontrol> - The URL for connecting to the database
+                  <li id="li_gvq_bgk_54b" irina="irina"><uicontrol>URL</uicontrol> - The URL for connecting to the database
                     server.</li>
-                  <li id="li_hvq_bgk_54b"><uicontrol>User</uicontrol> - The user name for connecting to the database
+                  <li id="li_hvq_bgk_54b" irina="irina"><uicontrol>User</uicontrol> - The user name for connecting to the database
                     server.</li>
-                  <li id="li_ivq_bgk_54b"><uicontrol>Password</uicontrol> - The password of the specified user
+                  <li id="li_ivq_bgk_54b" irina="irina"><uicontrol>Password</uicontrol> - The password of the specified user
                     name.</li>
-                  <li id="li_jvq_bgk_54b"><uicontrol>Host</uicontrol> - The host address of the server.</li>
-                  <li id="li_kvq_bgk_54b"><uicontrol>Port</uicontrol> - The port where the server accepts the
+                  <li id="li_jvq_bgk_54b" irina="irina"><uicontrol>Host</uicontrol> - The host address of the server.</li>
+                  <li id="li_kvq_bgk_54b" irina="irina"><uicontrol>Port</uicontrol> - The port where the server accepts the
                     connection.</li>
-                  <li id="li_lvq_bgk_54b"><uicontrol>XML DB URI</uicontrol> - The database URI.</li>
-                  <li id="li_mvq_bgk_54b"><uicontrol>Database</uicontrol> - The initial database name.</li>
-                  <li id="li_nvq_bgk_54b"><uicontrol>Collection</uicontrol> - One of the available collections for the
+                  <li id="li_lvq_bgk_54b" irina="irina"><uicontrol>XML DB URI</uicontrol> - The database URI.</li>
+                  <li id="li_mvq_bgk_54b" irina="irina"><uicontrol>Database</uicontrol> - The initial database name.</li>
+                  <li id="li_nvq_bgk_54b" irina="irina"><uicontrol>Collection</uicontrol> - One of the available collections for the
                     specified data source.</li>
-                  <li id="li_qvq_bgk_54b"><uicontrol>Use a secure HTTPS connection (SSL)</uicontrol> - Allows you to
+                  <li id="li_qvq_bgk_54b" irina="irina"><uicontrol>Use a secure HTTPS connection (SSL)</uicontrol> - Allows you to
                     establish a secure connection to an eXist database through the SSL protocol.
                   </li>
                 </ul></p>

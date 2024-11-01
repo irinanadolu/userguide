@@ -20,7 +20,7 @@
       <p>A common use-case is when you want to create a custom cover page and this cover should
         display metadata information (i.e. the author, dates, and copyright information):<ol
           id="ol_etc_w2n_4yb">
-          <li>In the source <xmlelement>bookmap</xmlelement>, the various metadata elements are
+          <li irina="irina">In the source <xmlelement>bookmap</xmlelement>, the various metadata elements are
             inserted inside the <xmlelement>bookmeta</xmlelement>
             element:<codeblock id="codeblock_evc_kjw_ryb" outputclass="language-xml">&lt;bookmap id="taskbook">
     &lt;booktitle>
@@ -49,7 +49,7 @@
         &lt;/bookrights>
     &lt;/bookmeta>
     ...</codeblock></li>
-          <li>The corresponding <codeph>merged.html</codeph> file will have the following
+          <li irina="irina">The corresponding <codeph>merged.html</codeph> file will have the following
             content:<codeblock id="codeblock_jrr_zjw_ryb" outputclass="language-xml">...
 &lt;div class="- front-page/front-page front-page">
   &lt;div class="- map/topicmeta bookmap/bookmeta topicmeta bookmeta">
@@ -84,7 +84,7 @@
   &lt;/div>
 &lt;/div>
 ...</codeblock></li>
-          <li>The cover image (for example, named <filepath>cover.template.svg</filepath>) should
+          <li irina="irina">The cover image (for example, named <filepath>cover.template.svg</filepath>) should
             display <xmlelement>bookmeta</xmlelement> node information (author, creation date, and
             copyright information) and the <xmlelement>mainbooktitle</xmlelement> will be displayed
               rotated.<codeblock id="codeblock_o4b_nvr_lyb" outputclass="language-xml">&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -134,19 +134,19 @@
 &lt;/text>
 &lt;/svg></codeblock><note id="note_nkn_dxr_lyb" type="other" othertype="Notes">
               <ul id="ul_ixf_3xr_lyb">
-                <li>XPath expressions are not expanded if the SVG template is open in
+                <li irina="irina">XPath expressions are not expanded if the SVG template is open in
                     <uicontrol>Author</uicontrol> mode.</li>
-                <li>XPath expressions can be tested (without <codeph>${}</codeph>) using the
+                <li irina="irina">XPath expressions can be tested (without <codeph>${}</codeph>) using the
                   XPath/XQuery Builder view.</li>
-                <li>XPath <i>Conditional Expressions</i>, <i>For Expressions</i>, and <i>Let
+                <li irina="irina">XPath <i>Conditional Expressions</i>, <i>For Expressions</i>, and <i>Let
                     Expressions</i> are supported.</li>
               </ul>
             </note><note id="note_c5b_dg2_4yb" type="important">
               <ul id="ul_i13_psl_4yb">
-                <li>If you received the SVG image from someone else (e.g. a graphics designer), make
+                <li irina="irina">If you received the SVG image from someone else (e.g. a graphics designer), make
                   sure that the text from the image was not converted to glyph shapes and that it is
                   rendered using the <xmlelement>text</xmlelement> element.</li>
-                <li>The SVG <xmlelement>text</xmlelement> element does not wrap the text if it
+                <li irina="irina">The SVG <xmlelement>text</xmlelement> element does not wrap the text if it
                   overflows the image. If you have longer text that needs to be rendered, you might
                   consider using multiple <xmlelement>text</xmlelement> elements and more evolved
                   XPath expressions (for example, using the <codeph>substring()</codeph> function)
@@ -160,7 +160,7 @@
               <codeblock id="codeblock_qcl_vg2_4yb" outputclass="language-xml">&lt;text transform="matrix(1 0 0 1 419.998 615.9277)" class="st2 st5 st6">
   Here comes the author
 &lt;/text></codeblock></note></li>
-          <li>The CSS stylesheet should declare the template file as a <xref
+          <li irina="irina">The CSS stylesheet should declare the template file as a <xref
               href="dcpp_how_to_change_the_cover_image.dita">background-image for the cover</xref>.
             Also the following example hides the <xmlelement>mainbooktitle</xmlelement> and its
             bookmark (it is displayed in the
@@ -178,7 +178,7 @@
 > *[class ~= "bookmap/mainbooktitle"] {
   bookmark-level: 0;
 }</codeblock></li>
-          <li>After the transformation, the final document cover will look like this:<p><image
+          <li irina="irina">After the transformation, the final document cover will look like this:<p><image
                 href="../img/dcpp_svg_xpath.png" id="image_hvk_jyr_lyb"/></p></li>
         </ol></p>
     </section>

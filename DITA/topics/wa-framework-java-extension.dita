@@ -9,8 +9,8 @@
     <p id="p_qts_dgk_54b">To create such a Java extension, follow these steps:</p>
     <p id="p_rts_dgk_54b">
       <ol id="ul_ifj_cqs_dlb">
-        <li id="li_sts_dgk_54b">Create a Maven project.</li>
-        <li id="li_tts_dgk_54b">Declare <i>Oxygen's Maven</i> repository in the <filepath>pom.xml</filepath>
+        <li id="li_sts_dgk_54b" irina="irina">Create a Maven project.</li>
+        <li id="li_tts_dgk_54b" irina="irina">Declare <i>Oxygen's Maven</i> repository in the <filepath>pom.xml</filepath>
           file:<codeblock outputclass="language-xml" id="codeblock_uts_dgk_54b">&lt;repositories>
   &lt;repository>
     &lt;id>oxygenxml&lt;/id>
@@ -18,7 +18,7 @@
     &lt;url>https://oxygenxml.com/maven/&lt;/url>
   &lt;/repository>
 &lt;/repositories></codeblock></li>
-        <li id="li_vts_dgk_54b">Add a dependency on the <codeph>oxygen-sdk</codeph> in the <filepath>pom.xml</filepath>
+        <li id="li_vts_dgk_54b" irina="irina">Add a dependency on the <codeph>oxygen-sdk</codeph> in the <filepath>pom.xml</filepath>
           file:<codeblock outputclass="language-xml" id="codeblock_wts_dgk_54b">&lt;dependency>
   &lt;groupId>com.oxygenxml&lt;/groupId>
   &lt;artifactId>oxygen-sdk&lt;/artifactId>
@@ -26,7 +26,7 @@
 &lt;/dependency></codeblock>
           where you replace <codeph>OXYGEN_VERSION</codeph> with the SDK version that corresponds to
           the version of <ph keyref="product"/> you are using.</li>
-        <li id="li_xts_dgk_54b">Implement a Java class that extends <xref
+        <li id="li_xts_dgk_54b" irina="irina">Implement a Java class that extends <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/ExtensionsBundle.html"
             format="html" scope="external"
               ><codeph>ro.sync.ecss.extensions.api.ExtensionsBundle</codeph></xref>. <note
@@ -46,11 +46,11 @@
 &lt;/dependency></codeblock>
               where you replace <codeph>PATH_TO_FRAMEWORKS_FOLDER</codeph> with the path to your
                 <filepath>frameworks/</filepath> folder.</p></note></li>
-        <li id="li_b5s_dgk_54b">Build your Maven project
+        <li id="li_b5s_dgk_54b" irina="irina">Build your Maven project
           using:<codeblock outputclass="language-bourne" id="codeblock_c5s_dgk_54b">mvn package</codeblock></li>
-        <li id="li_d5s_dgk_54b">Copy the resulting JAR found in the <filepath>target/</filepath> folder to a location in
+        <li id="li_d5s_dgk_54b" irina="irina">Copy the resulting JAR found in the <filepath>target/</filepath> folder to a location in
           your framework folder.</li>
-        <li id="li_e5s_dgk_54b">Add a reference to that JAR file in the <uicontrol>Classpath</uicontrol> tab of the
+        <li id="li_e5s_dgk_54b" irina="irina">Add a reference to that JAR file in the <uicontrol>Classpath</uicontrol> tab of the
             <xref
             href="https://www.oxygenxml.com/doc/ug-editor/topics/the-document-type-dialog.html"
             format="html" scope="external">Document Type Configuration dialog box</xref> for your

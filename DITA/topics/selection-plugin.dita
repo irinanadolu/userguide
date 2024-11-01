@@ -36,13 +36,13 @@
         <dlentry id="dlentry_ft2_dgk_54b">
           <dt><b><term>SelectionPluginContext</term> object</b></dt>
           <dd>Represents the context and provides four methods: <ul id="ul_gt2_dgk_54b">
-              <li id="li_ht2_dgk_54b"><codeph>getSelection()</codeph> - Returns a
+              <li id="li_ht2_dgk_54b" irina="irina"><codeph>getSelection()</codeph> - Returns a
                   <codeph>String</codeph> that is the current selection of text.</li>
-              <li id="li_it2_dgk_54b"><codeph>getFrame()</codeph> - Returns a <codeph>Frame</codeph>
+              <li id="li_it2_dgk_54b" irina="irina"><codeph>getFrame()</codeph> - Returns a <codeph>Frame</codeph>
                 that is the editing frame.</li>
-              <li id="li_jt2_dgk_54b"><codeph>getPluginWorkspace()</codeph> - Returns access to the
+              <li id="li_jt2_dgk_54b" irina="irina"><codeph>getPluginWorkspace()</codeph> - Returns access to the
                 workspace of <ph keyref="product"/>.</li>
-              <li id="li_kt2_dgk_54b"><codeph>getDocumentURL()</codeph> - Returns the URL of the
+              <li id="li_kt2_dgk_54b" irina="irina"><codeph>getDocumentURL()</codeph> - Returns the URL of the
                 currently edited document.</li>
             </ul></dd>
         </dlentry>

@@ -65,14 +65,14 @@
                 Visualization Modes</uicontrol> Drop-down Menu</dt>
             <dd>This drop-down menu includes specialized actions that allow you to switch between
               the following visualization modes for the <term>Track Changes</term> feature:<ul id="ul_xr4_dgk_54b">
-                <li id="li_yr4_dgk_54b"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
+                <li id="li_yr4_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinalWithChanges16.gif"
                       id="image_why_x4v_5r"/>View All Changes/Comments</uicontrol> - This mode is
                   active by default. When you use this mode, all tracked changes are
                   represented.</li>
-                <li id="li_zr4_dgk_54b"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
+                <li id="li_zr4_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesFinal16.gif" id="image_zvl_y4v_5r"
                     />View Final</uicontrol> - This mode offers a preview of the document as if all
                   tracked changes (both inserted and deleted) were accepted.</li>
-                <li id="li_as4_dgk_54b"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
+                <li id="li_as4_dgk_54b" irina="irina"><uicontrol><image href="../img/TrackChangesOriginal16.gif" id="image_kqc_z4v_5r"
                     />View Original</uicontrol> - This mode offers a preview of the document as if
                   all tracked changes (both inserted and deleted) were rejected. If you attempt to
                   edit the document in this mode, the view mode will switch to <uicontrol>View All
@@ -220,9 +220,9 @@
             <dd>
               <p id="p_i15_vss_4qb"><term>Oxygen</term> generates unique IDs for the current element
                 (or elements), depending on how the action is invoked:<ul id="ul_j15_vss_4qb">
-                  <li id="li_k15_vss_4qb">When invoked on a single selection, an ID is generated for
+                  <li id="li_k15_vss_4qb" irina="irina">When invoked on a single selection, an ID is generated for
                     the selected element at the cursor position.</li>
-                  <li id="li_l15_vss_4qb">When invoked on a block of selected content, IDs are
+                  <li id="li_l15_vss_4qb" irina="irina">When invoked on a block of selected content, IDs are
                     generated for all top-level elements and elements from the list in the
                       <uicontrol>ID Options</uicontrol> dialog box found in the current
                     selection.</li>

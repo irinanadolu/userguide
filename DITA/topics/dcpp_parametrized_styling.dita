@@ -28,10 +28,10 @@
       attribute will be in no namespace.</p>
     <note type="other" othertype="Notes" id="note_hgv_cgk_54b">
       <ul id="ul_igv_cgk_54b">
-        <li id="li_jgv_cgk_54b">Make sure the name of your custom parameter does not conflict with an attribute name
+        <li id="li_jgv_cgk_54b" irina="irina">Make sure the name of your custom parameter does not conflict with an attribute name
           that may already exist on the root element. </li>
-        <li id="li_kgv_cgk_54b">Use only Latin alphanumeric characters for parameter names.</li>
-        <li id="li_lgv_cgk_54b">You can set multiple styling parameters at the same time.</li>
+        <li id="li_kgv_cgk_54b" irina="irina">Use only Latin alphanumeric characters for parameter names.</li>
+        <li id="li_lgv_cgk_54b" irina="irina">You can set multiple styling parameters at the same time.</li>
       </ul>
     </note>
     

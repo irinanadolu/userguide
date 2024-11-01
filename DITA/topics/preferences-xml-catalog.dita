@@ -26,9 +26,9 @@
             that has both a public identifier and a system identifier specified, and the
             catalog only contains a mapping for the public identifier (for example, a matching
             public catalog entry). You can choose between the following:<ul id="ul_a5p_bgk_54b">
-              <li id="li_b5p_bgk_54b"><uicontrol>system</uicontrol> - If selected, the system identifier in the document
+              <li id="li_b5p_bgk_54b" irina="irina"><uicontrol>system</uicontrol> - If selected, the system identifier in the document
                 is used.</li>
-              <li id="li_c5p_bgk_54b"><uicontrol>public</uicontrol> - If selected, the URI supplied in the matching
+              <li id="li_c5p_bgk_54b" irina="irina"><uicontrol>public</uicontrol> - If selected, the URI supplied in the matching
                 public catalog entry is used. Generally, the purpose of catalogs is to override the
                 system identifiers in XML documents, so <uicontrol>public</uicontrol> should usually
                 be used for your catalogs.</li>
@@ -43,12 +43,12 @@
             the detail level of such logging messages of the <term>XML catalog</term> resolver that
             will be displayed in the <uicontrol>Catalogs</uicontrol> table at the bottom of the
             window. You can choose between the following:<ul id="ul_f5p_bgk_54b">
-              <li id="li_g5p_bgk_54b"><uicontrol>None</uicontrol> - No message is displayed by the catalog resolver when
+              <li id="li_g5p_bgk_54b" irina="irina"><uicontrol>None</uicontrol> - No message is displayed by the catalog resolver when
                 it tries to resolve a URI reference, a SYSTEM one or a PUBLIC one with the <term>XML
                   catalogs</term> specified in this panel.</li>
-              <li id="li_h5p_bgk_54b"><uicontrol>Unresolved entities</uicontrol> - Only the logging messages that track
+              <li id="li_h5p_bgk_54b" irina="irina"><uicontrol>Unresolved entities</uicontrol> - Only the logging messages that track
                 the failed attempts to resolve references are displayed.</li>
-              <li id="li_i5p_bgk_54b"><uicontrol>All messages</uicontrol> - The messages of both failed attempts and
+              <li id="li_i5p_bgk_54b" irina="irina"><uicontrol>All messages</uicontrol> - The messages of both failed attempts and
                 successful ones are displayed.</li>
             </ul></dd>
         </dlentry>

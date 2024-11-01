@@ -10,19 +10,19 @@
         Status</uicontrol> button to the right of the status to query the OTSS server for the
       current status on demand.</p>
     <p>The status of an indexing operation can be: <ul id="ul_yy2_nxn_zyb">
-        <li>
+        <li irina="irina">
           <p><i>Not indexed</i> - No index is currently available.</p>
         </li>
-        <li>
+        <li irina="irina">
           <p><i>Scheduled</i> - The indexing operation is waiting for an available executor.</p>
         </li>
-        <li>
+        <li irina="irina">
           <p><i>In progress</i> - The content is being indexed.</p>
         </li>
-        <li>
+        <li irina="irina">
           <p><i>Ready</i> - The indexing operation was successfully performed.</p>
         </li>
-        <li>
+        <li irina="irina">
           <p><i>Failed</i> - The indexing process has failed.</p>
         </li>
       </ul></p>

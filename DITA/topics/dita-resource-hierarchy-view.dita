@@ -94,12 +94,12 @@
           <dt><uicontrol>Move resource</uicontrol></dt>
           <dd>Opens the <uicontrol>Move resource</uicontrol> dialog box where the following fields
             are available:<ul id="ul_qpz_2p4_thb">
-              <li id="li_fxn_dgk_54b"><uicontrol>Destination</uicontrol> - Presents the path to the
+              <li id="li_fxn_dgk_54b" irina="irina"><uicontrol>Destination</uicontrol> - Presents the path to the
                 current location of the resource you want to move and gives you the option to
                 introduce a new location.</li>
-              <li id="li_gxn_dgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of
+              <li id="li_gxn_dgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of
                 the moved resource and gives you the option to change it.</li>
-              <li id="li_hxn_dgk_54b"><uicontrol>Update references of the moved
+              <li id="li_hxn_dgk_54b" irina="irina"><uicontrol>Update references of the moved
                   resource(s)</uicontrol> - As long as <xref href="dita-main-files.dita"
                     ><uicontrol>Main Files</uicontrol> support is enabled</xref>, you can select
                 this option to update the references to the resource you are moving, in accordance
@@ -112,9 +112,9 @@
           <dt><uicontrol>Rename resource</uicontrol></dt>
           <dd>Opens the <uicontrol>Rename resource</uicontrol> dialog box where the following fields
             are available:<ul id="ul_dgx_w44_thb">
-              <li id="li_jxn_dgk_54b"><uicontrol>New name</uicontrol> - Presents the current name of
+              <li id="li_jxn_dgk_54b" irina="irina"><uicontrol>New name</uicontrol> - Presents the current name of
                 the edited resource and allows you to modify it.</li>
-              <li id="li_kxn_dgk_54b"><uicontrol>Update references of the renamed
+              <li id="li_kxn_dgk_54b" irina="irina"><uicontrol>Update references of the renamed
                   resource(s)</uicontrol> - As long as <xref href="dita-main-files.dita"
                     ><uicontrol>Main Files</uicontrol> support is enabled</xref>, you can select
                 this option to update the references to the resource you are renaming. A

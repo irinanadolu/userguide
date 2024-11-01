@@ -24,46 +24,46 @@
         keyref="product"/> was designed to be as flexible as possible so that it can be used and
       integrated in any documentation workflow. Therefore, you can use whatever type of workflow you
       want, but the most common and basic use-case is something like this:<ol id="ol_fht_dgk_54b">
-        <li id="li_ght_dgk_54b">The <b>Content Author</b> has written some content that needs to be
+        <li id="li_ght_dgk_54b" irina="irina">The <b>Content Author</b> has written some content that needs to be
           reviewed by others.</li>
-        <li id="li_hht_dgk_54b">The <b>Content Author</b> creates a task, attaches the files, and
+        <li id="li_hht_dgk_54b" irina="irina">The <b>Content Author</b> creates a task, attaches the files, and
           uploaded a snapshot of them to the <ph keyref="product"/> server.</li>
-        <li id="li_iht_dgk_54b">The <b>Content Author</b> shares a link to the task with a
+        <li id="li_iht_dgk_54b" irina="irina">The <b>Content Author</b> shares a link to the task with a
             <b>Reviewer</b>.</li>
-        <li id="li_jht_dgk_54b">The <b>Reviewer</b> follows the link to open the <ph
+        <li id="li_jht_dgk_54b" irina="irina">The <b>Reviewer</b> follows the link to open the <ph
             keyref="product"/> interface in a browser where they can access the task.</li>
-        <li id="li_kht_dgk_54b">The <b>Reviewer</b> clicks on the files to open them in an online
+        <li id="li_kht_dgk_54b" irina="irina">The <b>Reviewer</b> clicks on the files to open them in an online
           visual editor where they can proofread, add comments, and make changes.</li>
-        <li id="li_lht_dgk_54b">Once they are finished, the <b>Reviewer</b> simply clicks the
+        <li id="li_lht_dgk_54b" irina="irina">Once they are finished, the <b>Reviewer</b> simply clicks the
             <uicontrol>Finalize Review</uicontrol> button or adds a message in the <ph
             keyref="product"/> interface to let the <b>Content Author</b> know they are
           finished.</li>
-        <li id="li_mht_dgk_54b">The <b>Content Author</b> can compare changes made by the
+        <li id="li_mht_dgk_54b" irina="irina">The <b>Content Author</b> can compare changes made by the
             <b>Reviewer</b> by using a <i>diff</i> link that is available in the left-side activity
           stream for every file change.</li>
-        <li id="li_nht_dgk_54b">The <b>Content Author</b> pulls the changes and automatically merges
+        <li id="li_nht_dgk_54b" irina="irina">The <b>Content Author</b> pulls the changes and automatically merges
           the snapshot back into the original documentation.</li>
-        <li id="li_oht_dgk_54b">The <b>Content Author</b> accepts or rejects the suggested changes
+        <li id="li_oht_dgk_54b" irina="irina">The <b>Content Author</b> accepts or rejects the suggested changes
           and commits to their repository.</li>
       </ol></p>
     <section id="resources">
       <title>Resources</title>
       <p>For in-depth visual looks at <ph keyref="product"/>, see the following resources:<ul
           id="ul_bzc_455_ypb">
-          <li>Video: <xref href="https://www.oxygenxml.com/demo/cf6_take_tour.html" format="html"
+          <li irina="irina">Video: <xref href="https://www.oxygenxml.com/demo/cf6_take_tour.html" format="html"
               scope="external"><b>Taking a Tour of the Oxygen Content Fusion Collaboration
                 Platform</b></xref>:<div><object width="450" height="250"
                 data="https://www.youtube.com/embed/9p28aOt-Pb4?si=pewd4vRKAYKAHE52"
                 outputclass="iframe"/></div></li>
-          <li id="li_if5_gv5_ypb">Webinar: <xref
+          <li id="li_if5_gv5_ypb" irina="irina">Webinar: <xref
             href="https://www.oxygenxml.com/events/2023/webinar_introducing_oxygen_content_fusion_6_0.html"
               format="html" scope="external"><b>Introducing Oxygen Content Fusion 6.0 (Beta
                 version)</b></xref></li>
-          <li id="li_if5_gv5_ypb2">Webinar: <xref
+          <li id="li_if5_gv5_ypb2" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2021/webinar_engage_everyone_in_the_technical_documentationprocess.html"
               format="html" scope="external"><b>Oxygen Content Fusion: Engage everyone in the
                 technical documentation process</b></xref></li>
-          <li id="li_if5_gv5_ypb3">Video: <xref
+          <li id="li_if5_gv5_ypb3" irina="irina">Video: <xref
               href="https://www.oxygenxml.com/content_fusion/6_beta.html" format="html"
               scope="external"><b>Exploring the New Features Added in Content Fusion 6.0 (Beta
                 version)</b></xref></li>

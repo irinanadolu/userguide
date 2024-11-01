@@ -29,11 +29,11 @@
       </fig>
     </p>
     <p id="p_db2_dgk_54b">There are two ways to open the CSS Inspector view:<ol id="ol_uqy_rl1_lq">
-        <li id="li_eb2_dgk_54b">Select <uicontrol>CSS Inspector</uicontrol> from the <menucascade>
+        <li id="li_eb2_dgk_54b" irina="irina">Select <uicontrol>CSS Inspector</uicontrol> from the <menucascade>
             <uicontrol>Window</uicontrol>
             <uicontrol>Show View</uicontrol>
           </menucascade> menu.</li>
-        <li id="li_fb2_dgk_54b">Select the <uicontrol>Inspect Styles</uicontrol> action from the contextual menu in
+        <li id="li_fb2_dgk_54b" irina="irina">Select the <uicontrol>Inspect Styles</uicontrol> action from the contextual menu in
             <uicontrol>Author</uicontrol> mode.</li>
       </ol></p>
   </body>

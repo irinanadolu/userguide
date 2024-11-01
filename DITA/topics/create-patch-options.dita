@@ -109,12 +109,12 @@
             <dt><uicontrol>Ignore whitespaces</uicontrol></dt>
             <dd>If selected, it allows you to specify how the whitespace changes should be handled.
               When selected, you can then choose between two options:<ul id="ul_pch_xmr_4r">
-                <li id="li_rx3_dgk_54b"><uicontrol>Ignore whitespace changes</uicontrol>
+                <li id="li_rx3_dgk_54b" irina="irina"><uicontrol>Ignore whitespace changes</uicontrol>
                     (<codeph>--ignore-space-change</codeph>) - Ignores changes in the amount of
                   whitespaces or changes to their type (for example, when changing the indentation
                   or changing tabs to spaces).<note id="note_sx3_dgk_54b">Whitespaces that are added or removed are still
                     considered to be changes.</note></li>
-                <li id="li_tx3_dgk_54b"><uicontrol>Ignore all whitespaces</uicontrol>
+                <li id="li_tx3_dgk_54b" irina="irina"><uicontrol>Ignore all whitespaces</uicontrol>
                     (<codeph>--ignore-all-space</codeph>) - Ignores all types of whitespace
                   changes.</li>
               </ul></dd>

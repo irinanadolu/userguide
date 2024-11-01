@@ -14,7 +14,7 @@
     <body>
         <p>To make your documents archive-able (PDF/A compliant), do the following:<ol
         id="ol_nhd_nl4_vcb">
-        <li id="li_dnt_cgk_54b">The archiving standard requires that all the fonts be embedded in
+        <li id="li_dnt_cgk_54b" irina="irina">The archiving standard requires that all the fonts be embedded in
           the PDF. To force font embedding, you have to specify fonts for all elements and for all
           page margin boxes in your <xref href="dcpp_the_customization_css.dita">customization
             CSS</xref>. For instance, you can
@@ -33,11 +33,11 @@
     @bottom-left-corner {font-family: Arial }
     @bottom-right-corner {font-family: Arial }
 }</codeblock></li>
-        <li id="li_fnt_cgk_54b">Create a new transformation scenario, based on the <b>DITA Map PDF -
+        <li id="li_fnt_cgk_54b" irina="irina">Create a new transformation scenario, based on the <b>DITA Map PDF -
             based on HTML5 &amp; CSS</b> built-in scenario.</li>
-        <li id="li_gnt_cgk_54b">In the <uicontrol>Parameters</uicontrol> tab, select a value for the
+        <li id="li_gnt_cgk_54b" irina="irina">In the <uicontrol>Parameters</uicontrol> tab, select a value for the
             <codeph>pdf.archiving.mode</codeph> parameter from the list.</li>
-        <li>Run the transformation.</li>
+        <li irina="irina">Run the transformation.</li>
       </ol></p>
     </body>
 </topic>

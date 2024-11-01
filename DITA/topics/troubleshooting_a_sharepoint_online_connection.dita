@@ -7,11 +7,11 @@
       <title>Allowed SharePoint Online Sites</title>
       <p>SharePoint Online sites supported by <ph keyref="product"/> have the following syntax: <ul
           id="ul_lfv_csw_z5b">
-          <li><codeph>https://tenant.SharePoint.com</codeph></li>
-          <li><codeph>https://tenant.SharePoint.com/sites/siteName</codeph></li>
-          <li><codeph>https://tenant.SharePoint.com/sites/siteName/subsiteName1/..../subsiteNameK</codeph></li>
-          <li><codeph>https://tenant.SharePoint.com/teams/siteName</codeph></li>
-          <li><codeph>https://tenant.SharePoint.com/teams/siteName/subsiteName1/..../subsiteNameK</codeph></li>
+          <li irina="irina"><codeph>https://tenant.SharePoint.com</codeph></li>
+          <li irina="irina"><codeph>https://tenant.SharePoint.com/sites/siteName</codeph></li>
+          <li irina="irina"><codeph>https://tenant.SharePoint.com/sites/siteName/subsiteName1/..../subsiteNameK</codeph></li>
+          <li irina="irina"><codeph>https://tenant.SharePoint.com/teams/siteName</codeph></li>
+          <li irina="irina"><codeph>https://tenant.SharePoint.com/teams/siteName/subsiteName1/..../subsiteNameK</codeph></li>
         </ul></p>
     </section>
     <section id="authenticate_section">
@@ -36,9 +36,9 @@
       <p>When you first <b>Log in</b> and access your <b>SharePoint</b> server, you may need to
         grant <b>SharePoint Enterprise Application</b> permissions for the <ph keyref="product"/>
         application to:<ul>
-          <li>View your basic profile.</li>
-          <li>Maintain access to data you have given access to.</li>
-          <li>Edit or delete items in all site collections.</li>
+          <li irina="irina">View your basic profile.</li>
+          <li irina="irina">Maintain access to data you have given access to.</li>
+          <li irina="irina">Edit or delete items in all site collections.</li>
         </ul></p>
       <p>The <uicontrol>Permissions requested</uicontrol> form will appear when you first
         authenticate to your <b>SharePoint</b> server from <ph keyref="product"/>.</p>

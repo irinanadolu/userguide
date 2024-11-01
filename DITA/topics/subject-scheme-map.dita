@@ -31,18 +31,18 @@
     <section id="advantages_of_using_a_subject_scheme_map">
       <title>Advantages of Using a Subject Scheme Map</title>
       <p id="p_tjn_dgk_54b">The advantages of using a subject scheme to control profiling attribute values include:<ul id="ul_ujn_dgk_54b">
-          <li id="li_vjn_dgk_54b">You can create a hierarchy of profiling attribute values and use a DITAVAL file to
+          <li id="li_vjn_dgk_54b" irina="irina">You can create a hierarchy of profiling attribute values and use a DITAVAL file to
             filter or flag the tree of values.</li>
-          <li id="li_wjn_dgk_54b">You can share the subject scheme files with others without having to share preferences
+          <li id="li_wjn_dgk_54b" irina="irina">You can share the subject scheme files with others without having to share preferences
             or the entire project.</li>
-          <li id="li_xjn_dgk_54b">The subject scheme offers validation support so you are notified if an undefined value
+          <li id="li_xjn_dgk_54b" irina="irina">The subject scheme offers validation support so you are notified if an undefined value
             is used.</li>
         </ul></p>
     </section>
     <section id="creating_a_subject_scheme_map">
       <title>Creating a Subject Scheme Map</title>
       <p id="p_yjn_dgk_54b">To create and configure a <term>subject scheme map</term>, follow this procedure:<ol id="ol_zjn_dgk_54b">
-          <li id="li_akn_dgk_54b">Use the <xref href="new-dialog-sa.dita#new-dialog-sa" product="author editor"
+          <li id="li_akn_dgk_54b" irina="irina">Use the <xref href="new-dialog-sa.dita#new-dialog-sa" product="author editor"
                 ><uicontrol>New Document</uicontrol> wizard</xref><xref
               href="new-dialog-eclipse.dita#new-dialog-eclipse"
               product="authorEclipse editorEclipse"><uicontrol>New Document</uicontrol>
@@ -59,7 +59,7 @@
               <uicontrol>map</uicontrol>
               <uicontrol><image href="../img/DitamapIcon16.png"/>Subject Scheme</uicontrol>
             </menucascade>).</li>
-          <li id="li_bkn_dgk_54b">Use the controls in <uicontrol>Author</uicontrol> mode to define the hierarchical tree
+          <li id="li_bkn_dgk_54b" irina="irina">Use the controls in <uicontrol>Author</uicontrol> mode to define the hierarchical tree
             of values for your <term>subject scheme</term> (<xref
               href="#subject-scheme-map/author-mode-example" format="dita">see the Author mode
               example below</xref>) or switch to <uicontrol>Text</uicontrol> mode and define it
@@ -73,7 +73,7 @@
               An example of when this might be helpful is if you want to use abbreviations for the
               name of a value, but you want to see its full name in <ph keyref="product"
             />.</note></li>
-          <li id="li_dkn_dgk_54b">Bind the particular attribute to the key you define for the tree of values using the
+          <li id="li_dkn_dgk_54b" irina="irina">Bind the particular attribute to the key you define for the tree of values using the
               <xmlelement>attributedef</xmlelement> and <xmlelement>subjectdef</xmlelement> elements
             inside the <xmlelement>enumerationdef</xmlelement> element. Notice that in the <xref
               href="#subject-scheme-map/example_subject_scheme_map_that_defines_custom_va"
@@ -94,7 +94,7 @@
     &lt;attributedef name="outputclass"/>
     &lt;subjectdef keyref="imgOutputClassValuesKey"/>
   &lt;/enumerationdef></codeblock></note></li>
-          <li id="li_hkn_dgk_54b">If you want to filter out (reject) values for certain attributes, bind the attributes
+          <li id="li_hkn_dgk_54b" irina="irina">If you want to filter out (reject) values for certain attributes, bind the attributes
             to a blank value (as you see for the <codeph>props</codeph> and
               <codeph>otherprops</codeph> attributes in the <xref
               href="#subject-scheme-map/example_subject_scheme_map_that_defines_custom_va"
@@ -103,21 +103,21 @@
               href="#subject-scheme-map/where_the_profiling_attributes_are_available_in"
               format="dita">profiling attributes are presented in <ph keyref="product"
             /></xref>.</li>
-          <li id="li_ikn_dgk_54b">Save your <term>subject scheme</term> file.</li>
-          <li id="li_jkn_dgk_54b">Reference your <term>subject scheme</term> in the highest level of map (<xref
+          <li id="li_ikn_dgk_54b" irina="irina">Save your <term>subject scheme</term> file.</li>
+          <li id="li_jkn_dgk_54b" irina="irina">Reference your <term>subject scheme</term> in the highest level of map (<xref
               keyref="glossentry_root-map"><term>main DITA map</term></xref>) that will use the set
             of profiling values and set its type to <codeph>subjectScheme</codeph>. The easiest way
             to do this is:<ol id="ol_kkn_dgk_54b">
-              <li id="li_lkn_dgk_54b">With your <term>subject scheme</term> file opened in the editor, go to the
+              <li id="li_lkn_dgk_54b" irina="irina">With your <term>subject scheme</term> file opened in the editor, go to the
                   <uicontrol>DITA Maps Manager</uicontrol> view, right-click the <term>main DITA
                   map</term>, and select <menucascade>
                   <uicontrol>Append Child</uicontrol>
                   <uicontrol>Reference to the currently edited file</uicontrol>
                 </menucascade>.</li>
-              <li id="li_mkn_dgk_54b">In the <uicontrol>Insert Topic Reference</uicontrol> dialog box, go to the
+              <li id="li_mkn_dgk_54b" irina="irina">In the <uicontrol>Insert Topic Reference</uicontrol> dialog box, go to the
                   <uicontrol>Attributes</uicontrol> tab and in the <uicontrol>Type</uicontrol>
                 field, enter or select <b>subjectScheme</b>.</li>
-              <li id="li_nkn_dgk_54b">Click the <uicontrol>Insert and Close</uicontrol> button and save your main DITA
+              <li id="li_nkn_dgk_54b" irina="irina">Click the <uicontrol>Insert and Close</uicontrol> button and save your main DITA
                 map.</li>
             </ol></li>
         </ol></p>
@@ -204,16 +204,16 @@
         places in <ph keyref="product"/> (regardless of their mapping in the <xref
           href="preferences-profiling-conditions.dita#preferences-profiling-conditions"
             ><uicontrol>Profiling/Conditional Text</uicontrol> preferences page</xref>):<ul id="ul_wkn_dgk_54b">
-          <li id="li_xkn_dgk_54b">The <xref href="dita-edit-properties.dita#dita-edit-properties/profiling_tab"
+          <li id="li_xkn_dgk_54b" irina="irina">The <xref href="dita-edit-properties.dita#dita-edit-properties/profiling_tab"
                 ><uicontrol>Profiling</uicontrol> tab of the <uicontrol>Edit Properties</uicontrol>
               dialog box</xref>.</li>
-          <li id="li_ykn_dgk_54b">The <xref
+          <li id="li_ykn_dgk_54b" irina="irina">The <xref
               href="dita-apply-profiling-attributes.dita#dita-apply-profiling-attributes/edit-profiling-image"
                 ><uicontrol>Edit Profiling Attribute</uicontrol> dialog box</xref>.</li>
-          <li id="li_zkn_dgk_54b">The <xref
+          <li id="li_zkn_dgk_54b" irina="irina">The <xref
               href="profiling-conditional-text-markers.dita#profiling-conditional-text-markers/anchor1"
               >inline profiling controls in <uicontrol>Author</uicontrol> mode</xref>.</li>
-          <li id="li_aln_dgk_54b">The proposals for the attribute values in the <xref
+          <li id="li_aln_dgk_54b" irina="irina">The proposals for the attribute values in the <xref
               keyref="glossentry_content-completion-assistant"><term>Content Completion
                 Assistant</term></xref>.</li>
         </ul></p>

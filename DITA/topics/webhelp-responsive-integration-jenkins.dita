@@ -16,9 +16,9 @@
         >integrated, configured, and registered the <ph keyref="product"/> with the DITA Open
         Toolkit</xref>.</p>
     <p id="p_xyv_dgk_54b">To integrate WebHelp output with the Jenkins continuous integration tool, follow these steps:<ol id="ol_yyv_dgk_54b">
-        <li id="li_zyv_dgk_54b">Create a Maven project to incorporate the DITA-OT that already integrates <ph
+        <li id="li_zyv_dgk_54b" irina="irina">Create a Maven project to incorporate the DITA-OT that already integrates <ph
             keyref="product"/>.</li>
-        <li id="li_azv_dgk_54b">Go to the root of your Maven project and edit the <filepath>pom.xml</filepath> file to
+        <li id="li_azv_dgk_54b" irina="irina">Go to the root of your Maven project and edit the <filepath>pom.xml</filepath> file to
           include the following
           fragment:<codeblock outputclass="language-xml" id="codeblock_bzv_dgk_54b">&lt;properties>
     &lt;dita-ot-dir>${basedir}/tools/dita-ot&lt;/dita-ot-dir>
@@ -61,7 +61,7 @@
         &lt;/execution>
    &lt;/executions>
 &lt;/plugin></codeblock></li>
-        <li id="li_czv_dgk_54b">Go to the Jenkins top page and create a new Jenkins job. Configure
+        <li id="li_czv_dgk_54b" irina="irina">Go to the Jenkins top page and create a new Jenkins job. Configure
           this job to suit your particular requirements, such as the build frequency and location of
           the Maven project.</li>
       </ol></p>

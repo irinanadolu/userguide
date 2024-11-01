@@ -91,7 +91,7 @@
                   <dd>If this checkbox is selected, the shortcut that you specify in this field is
                     platform-independent and the following modifiers are used:<ul
                       conkeyref="reusables-configuring-oxygen/shortcut_modifiers" id="ul_bb4_bgk_54b">
-                      <li id="li_cb4_bgk_54b"/>
+                      <li id="li_cb4_bgk_54b" irina="irina"/>
                     </ul></dd>
                 </dlentry>
               </dl>
@@ -138,11 +138,11 @@
                   <dd>Increases or decreases the priority of an operation. The operations are
                     invoked in the order of their priority. If multiple XPath expressions are
                     true, the operation with the highest priority is invoked.<ul id="ul_lb4_bgk_54b">
-                      <li id="li_mb4_bgk_54b"><uicontrol><image href="../img/Add16.png" placement="inline"
+                      <li id="li_mb4_bgk_54b" irina="irina"><uicontrol><image href="../img/Add16.png" placement="inline"
                           />Add</uicontrol> - Adds an operation.</li>
-                      <li id="li_nb4_bgk_54b"><uicontrol><image href="../img/RemoveSelected16.gif" placement="inline"
+                      <li id="li_nb4_bgk_54b" irina="irina"><uicontrol><image href="../img/RemoveSelected16.gif" placement="inline"
                           />Remove</uicontrol> - Removes an operation.</li>
-                      <li id="li_ob4_bgk_54b"><uicontrol><image href="../img/Copy16.png" id="image_jwc_lst_tr"
+                      <li id="li_ob4_bgk_54b" irina="irina"><uicontrol><image href="../img/Copy16.png" id="image_jwc_lst_tr"
                           />Duplicate</uicontrol> - Duplicates an operation.</li>
                     </ul></dd>
                 </dlentry>

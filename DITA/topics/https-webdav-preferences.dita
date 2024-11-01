@@ -96,9 +96,9 @@
           <dt><uicontrol>Encryption protocols</uicontrol></dt>
           <dd>Sets a specific encryption protocol used when a repository is accessed through HTTPS
             protocol. You can choose one of the following values:<ul id="ul_z3r_bgk_54b">
-              <li id="li_ajr_bgk_54b"><uicontrol>SSLv3, TLSv1</uicontrol> (default value)</li>
-              <li id="li_bjr_bgk_54b"><uicontrol>SSLv3 only</uicontrol></li>
-              <li id="li_cjr_bgk_54b"><uicontrol>TLSv1 only</uicontrol></li>
+              <li id="li_ajr_bgk_54b" irina="irina"><uicontrol>SSLv3, TLSv1</uicontrol> (default value)</li>
+              <li id="li_bjr_bgk_54b" irina="irina"><uicontrol>SSLv3 only</uicontrol></li>
+              <li id="li_cjr_bgk_54b" irina="irina"><uicontrol>TLSv1 only</uicontrol></li>
             </ul></dd>
         </dlentry>
         <dlentry product="author developer editor authorEclipse developerEclipse editorEclipse json"

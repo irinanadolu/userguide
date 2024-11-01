@@ -23,9 +23,9 @@
       </fig>
     </p>
     <ul id="ul_gbr_bgk_54b">
-      <li id="li_hbr_bgk_54b"><uicontrol>Added/Deleted</uicontrol> - Color used for marking added or deleted files and
+      <li id="li_hbr_bgk_54b" irina="irina"><uicontrol>Added/Deleted</uicontrol> - Color used for marking added or deleted files and
         folders.</li>
-      <li id="li_ibr_bgk_54b"><uicontrol>Modified</uicontrol> - Color used for marking modified files.</li>
+      <li id="li_ibr_bgk_54b" irina="irina"><uicontrol>Modified</uicontrol> - Color used for marking modified files.</li>
     </ul>
   </body>
 </topic>

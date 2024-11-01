@@ -54,9 +54,9 @@
           <dt><uicontrol>Percentage calculation</uicontrol></dt>
           <dd>The percentage base that determines what time span percentages are calculated against.
             You can choose between the following:<ul id="ul_m3q_bgk_54b">
-              <li id="li_n3q_bgk_54b"><uicontrol>Absolute</uicontrol> - Percentage values show the contribution to the
+              <li id="li_n3q_bgk_54b" irina="irina"><uicontrol>Absolute</uicontrol> - Percentage values show the contribution to the
                 total time.</li>
-              <li id="li_o3q_bgk_54b"><uicontrol>Relative</uicontrol> - Percentage values show the contribution to the
+              <li id="li_o3q_bgk_54b" irina="irina"><uicontrol>Relative</uicontrol> - Percentage values show the contribution to the
                 calling call.</li>
             </ul></dd>
         </dlentry>

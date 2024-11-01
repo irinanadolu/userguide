@@ -22,8 +22,8 @@
       <title>Customizing the Icons for a Document Template</title>
       <p id="p_ebt_bgk_54b">If you want to customize the icons to be used for document templates, use a properties file
         to specify the icons using the following procedure:<ol id="ol_fbt_bgk_54b">
-          <li id="li_gbt_bgk_54b">Create a new properties file or edit an existing one following these guidelines:<ol id="ol_hbt_bgk_54b">
-              <li id="li_ibt_bgk_54b">If you want to create a new properties file, you can use the <b>Properties</b>
+          <li id="li_gbt_bgk_54b" irina="irina">Create a new properties file or edit an existing one following these guidelines:<ol id="ol_hbt_bgk_54b">
+              <li id="li_ibt_bgk_54b" irina="irina">If you want to create a new properties file, you can use the <b>Properties</b>
                 template found in the <uicontrol>New Document</uicontrol> folder in the <xref
                   href="new-dialog-sa.dita#new-dialog-sa" product="author developer editor"
                     ><uicontrol>New</uicontrol> document wizard</xref><xref
@@ -33,10 +33,10 @@
                 you can find them within the subfolders in the <filepath>templates</filepath> folder
                 for each framework (for example, the DITA topic properties file is located in:
                   <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/templates/topic/topic.properties</filepath>).</li>
-              <li id="li_jbt_bgk_54b">Use the same name as your custom template file except with a
+              <li id="li_jbt_bgk_54b" irina="irina">Use the same name as your custom template file except with a
                   <filepath>.properties</filepath> extension (for example,
                   <filepath>MyTemplate.properties</filepath>).</li>
-              <li id="li_kbt_bgk_54b">In this properties file, specify the paths to the icons that
+              <li id="li_kbt_bgk_54b" irina="irina">In this properties file, specify the paths to the icons that
                 will be used in the new file wizard. The properties file should look like
                   this:<codeblock outputclass="language-ini" id="codeblock_lbt_bgk_54b">type=general
 smallIcon=../icons/Article_16.png
@@ -54,8 +54,8 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
                     the new template procedure</xref>), make sure that the path to the icons is
                   relative to that directory.</note></li>
             </ol></li>
-          <li id="li_obt_bgk_54b">Save the properties file in the same directory as your custom template.</li>
-          <li id="li_pbt_bgk_54b">Open the new file wizard (<menucascade product="author developer editor">
+          <li id="li_obt_bgk_54b" irina="irina">Save the properties file in the same directory as your custom template.</li>
+          <li id="li_pbt_bgk_54b" irina="irina">Open the new file wizard (<menucascade product="author developer editor">
               <uicontrol>File</uicontrol>
               <uicontrol>New</uicontrol>
             </menucascade><menucascade product="authorEclipse developerEclipse editorEclipse">
@@ -72,14 +72,14 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
         file name that is proposed in certain dialog boxes when you create a new file from that
         template. This applies to the following new document dialog boxes: <ul
           id="new-doc-dialog-boxes-ul">
-          <li product="author developer editor" id="li_rbt_bgk_54b">The new document dialog box that appears when you
+          <li product="author developer editor" id="li_rbt_bgk_54b" irina="irina">The new document dialog box that appears when you
             click the <uicontrol><image href="../img/New16.png" id="image_hy1_zdp_sr"
               />New</uicontrol> button on the toolbar (or <menucascade>
               <uicontrol>File</uicontrol>
               <uicontrol>New</uicontrol>
             </menucascade>). The prefix or suffix is added to the name of the file in the
               <uicontrol>Save as</uicontrol> field.</li>
-          <li product="authorEclipse developerEclipse editorEclipse" id="li_sbt_bgk_54b">The new document dialog box
+          <li product="authorEclipse developerEclipse editorEclipse" id="li_sbt_bgk_54b" irina="irina">The new document dialog box
             that appears when you click the <uicontrol><image href="../img/EclipseNew.png"
                 id="image_nbd_fkf_wr"/>New</uicontrol> button on the toolbar (or <menucascade>
               <uicontrol>File</uicontrol>
@@ -88,7 +88,7 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
               <uicontrol keyref="product"/>
             </menucascade>). The prefix or suffix is added to the name of the file in the
               <uicontrol>File</uicontrol> field.</li>
-          <li product="author developer editor" id="li_tbt_bgk_54b">The new document dialog box that appears when you
+          <li product="author developer editor" id="li_tbt_bgk_54b" irina="irina">The new document dialog box that appears when you
             select <menucascade>
               <uicontrol>New</uicontrol>
               <uicontrol>File</uicontrol>
@@ -96,7 +96,7 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
               href="using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project</uicontrol> view</xref>. The prefix or suffix is added to the
             name of the file in the <uicontrol>File name</uicontrol> field.</li>
-          <li product="authorEclipse developerEclipse editorEclipse" id="li_ubt_bgk_54b">The new document dialog box
+          <li product="authorEclipse developerEclipse editorEclipse" id="li_ubt_bgk_54b" irina="irina">The new document dialog box
             that appears when you select <menucascade>
               <uicontrol>New</uicontrol>
               <uicontrol>New from Templates</uicontrol>
@@ -106,7 +106,7 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
               href="using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project Explorer</uicontrol> view</xref>. The prefix or suffix is added to the
             name of the file in the <uicontrol>File</uicontrol> field.</li>
-          <li product="author editor authorEclipse editorEclipse" id="li_vbt_bgk_54b">For DITA files, it also applies to
+          <li product="author editor authorEclipse editorEclipse" id="li_vbt_bgk_54b" irina="irina">For DITA files, it also applies to
             the new document dialog box that appears when you select <menucascade>
               <uicontrol>Append Child</uicontrol>
               <uicontrol>New</uicontrol>
@@ -119,15 +119,15 @@ bigIcon=../icons/Article_48.png</codeblock><note type="tip" id="note_mbt_bgk_54b
             </menucascade> from the <xref href="dita-maps-manager.dita#dita-maps-manager"
                 ><uicontrol>DITA Maps Manager</uicontrol></xref>. The prefix or suffix is added to
             the name of the file in the <uicontrol>Save as</uicontrol> field.</li>
-          <li product="author editor authorEclipse editorEclipse" id="li_wbt_bgk_54b">For DITA files, it also applies to
+          <li product="author editor authorEclipse editorEclipse" id="li_wbt_bgk_54b" irina="irina">For DITA files, it also applies to
             the <xref href="fast-create-topics.dita#fast-create-topics"><uicontrol>Fast Create
                 Topics</uicontrol> dialog box</xref> that you can use to create multiple skeleton
             topics at once. </li>
         </ul></p>
       <p id="p_xbt_bgk_54b">To add a prefix or suffix to the file names for a document template, follow these steps:<ol id="ol_ybt_bgk_54b">
-          <li id="li_zbt_bgk_54b">
+          <li id="li_zbt_bgk_54b" irina="irina">
             <p id="p_act_bgk_54b">Create a new properties file or edit an existing one.<ul id="ul_b3c_hm1_x3b">
-                <li id="li_bct_bgk_54b">
+                <li id="li_bct_bgk_54b" irina="irina">
                   <p id="p_cct_bgk_54b">If you create a new properties file, use the same name as
                     the template file except with a <filepath>.properties</filepath> extension (for
                     example, <filepath>MyTemplate.properties</filepath>). This properties file
@@ -144,13 +144,13 @@ filenameSuffix=_test</codeblock></p>
                       types of files, set it to <b>general</b>.</note>
                   </p>
                 </li>
-                <li id="li_gct_bgk_54b">If you edit an existing template, simply define the prefix/suffix as specified
+                <li id="li_gct_bgk_54b" irina="irina">If you edit an existing template, simply define the prefix/suffix as specified
                     <xref href="#customizing-templates/define-pre-suf" format="dita"
                   >above</xref>.</li>
               </ul></p>
           </li>
-          <li id="li_hct_bgk_54b">Save the properties file in the same directory as the document template.</li>
-          <li id="li_ict_bgk_54b">Open the new document wizard (<xref
+          <li id="li_hct_bgk_54b" irina="irina">Save the properties file in the same directory as the document template.</li>
+          <li id="li_ict_bgk_54b" irina="irina">Open the new document wizard (<xref
               href="#customizing-templates/new-doc-dialog-boxes-ul" format="dita">using the methods
               described above</xref>) and when you select the appropriate template, you should see
             your prefix or suffix in the file name that is proposed in that dialog box.</li>
@@ -164,11 +164,11 @@ filenameSuffix=_test</codeblock></p>
     <section id="configure_the_displayed_names_for_document_templa">
       <title>Configure the Displayed Names for Document Templates</title>
       <p id="p_jct_bgk_54b">To change the name that is displayed for a document template, use the following procedure:<ol id="ol_kct_bgk_54b">
-          <li id="li_lct_bgk_54b">Create a new properties file or edit an existing one. If you create a new properties
+          <li id="li_lct_bgk_54b" irina="irina">Create a new properties file or edit an existing one. If you create a new properties
             file, use the same name as the template file except with a
               <filepath>.properties</filepath> extension (for example,
               <filepath>MyTemplate.properties</filepath>).</li>
-          <li id="li_mct_bgk_54b">
+          <li id="li_mct_bgk_54b" irina="irina">
             <p id="p_nct_bgk_54b">Add a <codeph>displayName</codeph> property in the properties
               file:<codeblock outputclass="language-ini" id="codeblock_oct_bgk_54b">displayName=My Template Name</codeblock></p>
             <p id="p_pct_bgk_54b">
@@ -186,8 +186,8 @@ filenameSuffix=_test</codeblock></p>
                   DITA).</p></note>
             </p>
           </li>
-          <li id="li_tct_bgk_54b">Save the properties file in the same directory as the document template.</li>
-          <li id="li_uct_bgk_54b">Open the new file wizard (<menucascade product="author developer editor">
+          <li id="li_tct_bgk_54b" irina="irina">Save the properties file in the same directory as the document template.</li>
+          <li id="li_uct_bgk_54b" irina="irina">Open the new file wizard (<menucascade product="author developer editor">
               <uicontrol>File</uicontrol>
               <uicontrol>New</uicontrol>
             </menucascade><menucascade product="authorEclipse developerEclipse editorEclipse">
@@ -206,8 +206,8 @@ filenameSuffix=_test</codeblock></p>
         specified using a processing instruction and the placeholders are removed when the Author
         inserts content in the corresponding element.</p>
       <p id="p_wct_bgk_54b">To define placeholders in a document template to provide authors with hints, follow this procedure:<ol id="ol_xct_bgk_54b">
-          <li id="li_yct_bgk_54b">Edit the document template.</li>
-          <li id="li_zct_bgk_54b">Add placeholders in the form of processing instructions within the
+          <li id="li_yct_bgk_54b" irina="irina">Edit the document template.</li>
+          <li id="li_zct_bgk_54b" irina="irina">Add placeholders in the form of processing instructions within the
             elements where you want hints to be displayed when an Author creates a document from the
             template. For
               example:<codeblock outputclass="language-xml" id="codeblock_adt_bgk_54b">&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -225,8 +225,8 @@ filenameSuffix=_test</codeblock></p>
               contain the placeholder processing instructions cannot contain other content/text, not
               even whitespace used for indentation. Otherwise, the placeholder will not be rendered
               properly.</note></li>
-          <li id="li_bdt_bgk_54b">Save the template file.</li>
-          <li id="li_cdt_bgk_54b">Use the <xref href="new-dialog-sa.dita#new-dialog-sa"
+          <li id="li_bdt_bgk_54b" irina="irina">Save the template file.</li>
+          <li id="li_cdt_bgk_54b" irina="irina">Use the <xref href="new-dialog-sa.dita#new-dialog-sa"
               product="author developer editor"><uicontrol>New</uicontrol> document
               wizard</xref><xref href="creating-from-templates.dita#creating-from-templates"
               product="authorEclipse developerEclipse editorEclipse"><uicontrol>New from

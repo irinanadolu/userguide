@@ -35,9 +35,9 @@
                   href="dcpp_table_of_contents_for_chapters.dita"/>.</p>
               <p id="p_nwp_cgk_54b">Allowed values:</p>
               <ul id="ul_gjm_zk2_3hb">
-                <li id="li_owp_cgk_54b"><b>BASIC</b> - No chapter TOC is created.</li>
-                <li id="li_pwp_cgk_54b"><b>MINITOC</b> - A chapter-level TOC is generated.</li>
-                <li id="li_qwp_cgk_54b"><b>MINITOC-BOTTOM-LINKS</b> - A chapter-level TOC is
+                <li id="li_owp_cgk_54b" irina="irina"><b>BASIC</b> - No chapter TOC is created.</li>
+                <li id="li_pwp_cgk_54b" irina="irina"><b>MINITOC</b> - A chapter-level TOC is generated.</li>
+                <li id="li_qwp_cgk_54b" irina="irina"><b>MINITOC-BOTTOM-LINKS</b> - A chapter-level TOC is
                   generated, with the links under the chapter description.</li>
               </ul>
             </entry>
@@ -58,10 +58,10 @@
             <entry>args.css.param.clone-referenced-footnotes</entry>
             <entry>You can use this parameter to control the footnotes behavior:<ul
                 id="ul_ytt_zrk_nwb">
-                <li>When set to yes, footnotes that are referenced multiple times throughout a
+                <li irina="irina">When set to yes, footnotes that are referenced multiple times throughout a
                   publication are cloned and placed at the bottom of the page for each
                   occurrence.</li>
-                <li>When set to no (default value), only the first footnote reference is placed at
+                <li irina="irina">When set to no (default value), only the first footnote reference is placed at
                   the bottom of the page and subsequent references point back to the original
                   footnote.</li>
               </ul></entry>
@@ -70,18 +70,18 @@
             <entry>args.css.param.numbering</entry>
             <entry>You can use this parameter to change the numbering of the first-level topics
               (chapters) and nested topics. Allowed values:<ul id="ul_h3f_y5r_rgb">
-                <li id="li_rwp_cgk_54b"><b>shallow</b> - Only the topics from the first level are
+                <li id="li_rwp_cgk_54b" irina="irina"><b>shallow</b> - Only the topics from the first level are
                   numbered (chapters). This is the default.</li>
-                <li id="li_swp_cgk_54b"><b>deep</b> - All the topics from the map are numbered
+                <li id="li_swp_cgk_54b" irina="irina"><b>deep</b> - All the topics from the map are numbered
                   (nested topics up to level 3).</li>
-                <li id="li_twp_cgk_54b"><b>deep-chapter-scope</b> - Similar to deep, but in addition, the page numbers,
+                <li id="li_twp_cgk_54b" irina="irina"><b>deep-chapter-scope</b> - Similar to deep, but in addition, the page numbers,
                   figures, and table numbers are reset at the start of each first-level topic
                   (chapter). The table and figure titles (and the links to them) are prefixed with
                   the chapter numbers. The generic cross reference links contain both the
                   first-level topic (chapter) numbers and the page numbers to avoid ambiguity. This
                   parameter value is only available for the <b>DITA Map PDF - based on HTML5 &amp;
                     CSS</b> transformation scenario.</li>
-                <li id="li_uwp_cgk_54b"><b>deep-chapter-scope-no-page-reset</b> - Similar to
+                <li id="li_uwp_cgk_54b" irina="irina"><b>deep-chapter-scope-no-page-reset</b> - Similar to
                     <codeph>deep-chapter-scope</codeph>, but the page numbers do not reset at the
                   start of each first-level topic (chapter). The generic cross reference links
                   contain only the page number. This parameter value is only available for the
@@ -107,8 +107,8 @@
             <entry>
               <p>Controls whether or not the profiling attributes are displayed in the output.</p>
               <p>Allowed values:<ul id="ul_vlp_4pq_5sb">
-                  <li><b>yes</b></li>
-                  <li><b>no</b> (default)</li>
+                  <li irina="irina"><b>yes</b></li>
+                  <li irina="irina"><b>no</b> (default)</li>
                 </ul></p>
             </entry>
           </row>
@@ -120,9 +120,9 @@
               flow (in-line flow) and a table layout where the number is placed in one cell and the
               text in the other (to avoid wrapping text under the chapter number).<ul
                 id="ul_bvp_spl_dkb">
-                <li id="li_wwp_cgk_54b"><b>normal</b>
+                <li id="li_wwp_cgk_54b" irina="irina"><b>normal</b>
                 </li>
-                <li id="li_xwp_cgk_54b"><b>table</b> (avoid wrapping text under counter)</li>
+                <li id="li_xwp_cgk_54b" irina="irina"><b>table</b> (avoid wrapping text under counter)</li>
               </ul></entry>
           </row>
           <row>
@@ -131,8 +131,8 @@
               <p id="p_ywp_cgk_54b">Specifies whether or not the content of <xmlelement>draft-comment</xmlelement> and
                   <xmlelement>required-cleanup</xmlelement> elements is included in the output.</p>
               <p id="p_zwp_cgk_54b">Allowed values:<ul id="ul_mdt_zsy_3hb">
-                  <li id="li_axp_cgk_54b"><b>no</b> (default) - No draft information is shown in the output.</li>
-                  <li id="li_bxp_cgk_54b"><b>yes</b> - The draft information is shown in the output.</li>
+                  <li id="li_axp_cgk_54b" irina="irina"><b>no</b> (default) - No draft information is shown in the output.</li>
+                  <li id="li_bxp_cgk_54b" irina="irina"><b>yes</b> - The draft information is shown in the output.</li>
                 </ul></p>
             </entry>
           </row>
@@ -141,11 +141,11 @@
             <entry>
               <p id="p_cxp_cgk_54b">Specifies how cross references to figures are styled in output. Allowed values:<ul
                   id="ul_yll_wsy_3hb">
-                  <li id="li_dxp_cgk_54b"><b>NUMBER</b> - Only the number of the figures are shown
+                  <li id="li_dxp_cgk_54b" irina="irina"><b>NUMBER</b> - Only the number of the figures are shown
                     in links.</li>
-                  <li id="li_exp_cgk_54b"><b>TITLE</b> - Only the title of the figures are shown in
+                  <li id="li_exp_cgk_54b" irina="irina"><b>TITLE</b> - Only the title of the figures are shown in
                     links.</li>
-                  <li id="li_fxp_cgk_54b"><b>NUMTITLE</b> (default) - Both the title and number of
+                  <li id="li_fxp_cgk_54b" irina="irina"><b>NUMTITLE</b> (default) - Both the title and number of
                     the figures are shown in links.</li>
                 </ul></p>
             </entry>
@@ -199,11 +199,11 @@
             <entry>args.tablelink.style</entry>
             <entry>
               <p id="p_hxp_cgk_54b">Specifies how cross references to tables are styled in output. Allowed values:<ul id="ul_ixp_cgk_54b">
-                  <li id="li_jxp_cgk_54b"><b>NUMBER</b> - Only the number of the tables are shown in
+                  <li id="li_jxp_cgk_54b" irina="irina"><b>NUMBER</b> - Only the number of the tables are shown in
                     links.</li>
-                  <li id="li_kxp_cgk_54b"><b>TITLE</b> - Only the title of the tables are shown in
+                  <li id="li_kxp_cgk_54b" irina="irina"><b>TITLE</b> - Only the title of the tables are shown in
                     links.</li>
-                  <li id="li_lxp_cgk_54b"><b>NUMTITLE</b> (default) - Both the title and number of
+                  <li id="li_lxp_cgk_54b" irina="irina"><b>NUMTITLE</b> (default) - Both the title and number of
                     the tables are shown in links.</li>
                 </ul></p>
             </entry>
@@ -330,9 +330,9 @@
               to a compound glyph, resulting in the glyph not being rendered in the PDF output.<note
                 type="other" othertype="Warnings" id="note_mxp_cgk_54b">
                 <ul id="ul_y22_1d5_znb">
-                  <li id="li_nxp_cgk_54b">Disabling substitutions also disables Latin
+                  <li id="li_nxp_cgk_54b" irina="irina">Disabling substitutions also disables Latin
                     ligatures.</li>
-                  <li id="li_oxp_cgk_54b">Disabling substitutions is not recommended unless
+                  <li id="li_oxp_cgk_54b" irina="irina">Disabling substitutions is not recommended unless
                     absolutely necessary. It is better practice to use another font if you can find
                     one that does not have the rendering issues.</li>
                 </ul>
@@ -389,14 +389,14 @@
               <p>Specifies the archiving mode. The PDF output will be generated in compliance with
                 the PDF/A standard.</p>
               <p>Allowed values (not set by default):<ul id="ul_ofv_h1r_z5b">
-                  <li><b>PDF/A-1a</b></li>
-                  <li><b>PDF/A-1b</b></li>
-                  <li><b>PDF/A-2a</b></li>
-                  <li><b>PDF/A-2b</b></li>
-                  <li><b>PDF/A-2u</b></li>
-                  <li><b>PDF/A-3a</b></li>
-                  <li><b>PDF/A-3b</b></li>
-                  <li><b>PDF/A-3u</b></li>
+                  <li irina="irina"><b>PDF/A-1a</b></li>
+                  <li irina="irina"><b>PDF/A-1b</b></li>
+                  <li irina="irina"><b>PDF/A-2a</b></li>
+                  <li irina="irina"><b>PDF/A-2b</b></li>
+                  <li irina="irina"><b>PDF/A-2u</b></li>
+                  <li irina="irina"><b>PDF/A-3a</b></li>
+                  <li irina="irina"><b>PDF/A-3b</b></li>
+                  <li irina="irina"><b>PDF/A-3u</b></li>
                 </ul></p>
             </entry>
           </row>
@@ -594,8 +594,8 @@
               <entry>Specifies whether or not to load external entities that are not solved through
                 catalogs. For security reasons, the default is <b>no</b>.<p id="p_sxp_cgk_54b">Allowed values:</p><p id="p_txp_cgk_54b">
                   <ul id="ul_kyj_qgx_tkb">
-                    <li id="li_uxp_cgk_54b"><b>yes</b></li>
-                    <li id="li_vxp_cgk_54b"><b>no</b> (default)</li>
+                    <li id="li_uxp_cgk_54b" irina="irina"><b>yes</b></li>
+                    <li id="li_vxp_cgk_54b" irina="irina"><b>no</b> (default)</li>
                   </ul>
                 </p></entry>
             </row>
@@ -622,9 +622,9 @@
                   parameter.</p>
                 <p id="p_xxp_cgk_54b">Allowed values:</p>
                 <ul id="ul_fhm_gxv_sjb">
-                  <li id="li_yxp_cgk_54b"><b>auto</b> (default)</li>
-                  <li id="li_zxp_cgk_54b"><b>yes</b></li>
-                  <li id="li_ayp_cgk_54b"><b>no</b></li>
+                  <li id="li_yxp_cgk_54b" irina="irina"><b>auto</b> (default)</li>
+                  <li id="li_zxp_cgk_54b" irina="irina"><b>yes</b></li>
+                  <li id="li_ayp_cgk_54b" irina="irina"><b>no</b></li>
                 </ul>
               </entry>
             </row>

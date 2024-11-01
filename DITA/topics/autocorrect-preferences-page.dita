@@ -110,10 +110,10 @@
           <dd>You can also choose to automatically convert double and single quotes to a quotation
             character of your choice by using the following options in the <uicontrol>Smart
               quotes</uicontrol> section:<ul id="ul_g41_hpy_qr">
-              <li id="li_ny4_bgk_54b"><uicontrol>Replace "Single quotes"</uicontrol> - Replaces single quotes with the
+              <li id="li_ny4_bgk_54b" irina="irina"><uicontrol>Replace "Single quotes"</uicontrol> - Replaces single quotes with the
                 quotation symbols you select with the <uicontrol>Start quote</uicontrol> and
                   <uicontrol>End quote</uicontrol> buttons.</li>
-              <li id="li_oy4_bgk_54b"><uicontrol>Replace "Double quotes"</uicontrol> - Replaces double quotes with the
+              <li id="li_oy4_bgk_54b" irina="irina"><uicontrol>Replace "Double quotes"</uicontrol> - Replaces double quotes with the
                 quotation symbols you select with the <uicontrol>Start quote</uicontrol> and
                   <uicontrol>End quote</uicontrol> buttons.</li>
             </ul><note id="note_py4_bgk_54b">These <uicontrol>Smart quotes</uicontrol> options are ignored for content

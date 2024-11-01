@@ -26,15 +26,15 @@
     <section id="id_2">
       <title>Use-cases</title>
       <ul id="ul_d54_zgc_drb">
-        <li id="li_e54_zgc_drb">A CMS often keeps track of multiple versions of a file. For example,
+        <li id="li_e54_zgc_drb" irina="irina">A CMS often keeps track of multiple versions of a file. For example,
           if a new legal requirement has to be addressed in the documentation, all the versions of
           the file have to be updated. One option is to make the change to the oldest version and
           merge those changes in the other versions.</li>
-        <li id="li_m4h_1hc_drb">If a CMS supports a review workflow, the copy of the file that is
+        <li id="li_m4h_1hc_drb" irina="irina">If a CMS supports a review workflow, the copy of the file that is
           sent for review can be changed in the CMS for other reasons. On the other hand, the review
           workflow also results in some updates to the file. At the end, these updates need to be
           merged in the version on the CMS.</li>
-        <li id="li_lmr_1hc_drb">In other systems (such as Git), different users can edit the same
+        <li id="li_lmr_1hc_drb" irina="irina">In other systems (such as Git), different users can edit the same
           file in parallel. When they finish editing, they have to merge the changes.</li>
       </ul>
     </section>

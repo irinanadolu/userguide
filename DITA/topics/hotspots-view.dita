@@ -38,14 +38,14 @@
       call are calculated and shown.</p>
     <p id="p_erz_cgk_54b">Every hotspot is described by the values from the following columns: </p>
     <ul id="ul_frz_cgk_54b">
-      <li id="li_grz_cgk_54b"><uicontrol>Instruction</uicontrol> - The name of the instruction.</li>
-      <li product="developerEclipse editorEclipse" id="li_hrz_cgk_54b"><uicontrol>Percentage</uicontrol> - The
+      <li id="li_grz_cgk_54b" irina="irina"><uicontrol>Instruction</uicontrol> - The name of the instruction.</li>
+      <li product="developerEclipse editorEclipse" id="li_hrz_cgk_54b" irina="irina"><uicontrol>Percentage</uicontrol> - The
         percentage number for this hotspot entry with respect to the total time.</li>
-      <li id="li_irz_cgk_54b"><uicontrol>Time</uicontrol> - The inherent time in milliseconds or microseconds of how
+      <li id="li_irz_cgk_54b" irina="irina"><uicontrol>Time</uicontrol> - The inherent time in milliseconds or microseconds of how
         much time has been spent in the hotspot<ph product="developer editor">, along with a bar
           whose length is proportional to this value</ph>. All calls into this instruction are
         summed up regardless of the particular call sequence.</li>
-      <li id="li_jrz_cgk_54b"><uicontrol product="developer editor">Hits</uicontrol><uicontrol
+      <li id="li_jrz_cgk_54b" irina="irina"><uicontrol product="developer editor">Hits</uicontrol><uicontrol
           product="developerEclipse editorEclipse">Calls</uicontrol> - The invocation count of the
         hotspot entry.</li>
     </ul>
@@ -56,13 +56,13 @@
         <xref href="preferences-profiler.dita"><uicontrol>XSLT/XQuery profiler
         settings</uicontrol></xref>: </p>
     <ul id="ul_mrz_cgk_54b">
-      <li id="li_nrz_cgk_54b">A percentage number that is calculated with respect to either the total time or the called
+      <li id="li_nrz_cgk_54b" irina="irina">A percentage number that is calculated with respect to either the total time or the called
         instruction.</li>
-      <li id="li_orz_cgk_54b">A time measured in milliseconds or microseconds of how much time has been contributed to
+      <li id="li_orz_cgk_54b" irina="irina">A time measured in milliseconds or microseconds of how much time has been contributed to
         the parent hotspot on this call-path.</li>
-      <li id="li_prz_cgk_54b">An invocation count that shows how often the hotspot has been invoked on this
+      <li id="li_prz_cgk_54b" irina="irina">An invocation count that shows how often the hotspot has been invoked on this
           call-path.<note id="note_qrz_cgk_54b">This is not the number of invocations of this instruction.</note></li>
-      <li id="li_rrz_cgk_54b">An instruction name that also contains its attributes.</li>
+      <li id="li_rrz_cgk_54b" irina="irina">An instruction name that also contains its attributes.</li>
     </ul>
     <p id="p_srz_cgk_54b">The <uicontrol>Hotspots</uicontrol> view also includes the following contextual menu
         actions:<dl conkeyref="reusables-xslt-xquery/contextual-menu-actions" id="dl_trz_cgk_54b">

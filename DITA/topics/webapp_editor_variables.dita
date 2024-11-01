@@ -12,22 +12,22 @@
   <body>
     <p id="p_u4s_dgk_54b">The <ph keyref="webappProduct"/> processes most <term>Oxygen XML Editor/Author</term> editor
       variables. The supported editor variables include:<ul id="ul_yzr_ynz_kjb">
-        <li id="edVar-ask"><b>${ask('message', type, ('real_value1':'rendered_value1';
+        <li id="edVar-ask" irina="irina"><b>${ask('message', type, ('real_value1':'rendered_value1';
             'real_value2':'rendered_value2'; ...), 'default_value')}</b> - To prompt for values at
           runtime, use the <i>ask('message', type, ('real_value1':'rendered_value1';
             'real_value2':'rendered_value2'; ...), 'default-value'')</i> editor variable. You can
           set the following parameters:<ul id="ul_fsx_cpp_mjb">
-            <li id="li_v4s_dgk_54b"><b>'message'</b> - The displayed message. Note the quotes that enclose the
+            <li id="li_v4s_dgk_54b" irina="irina"><b>'message'</b> - The displayed message. Note the quotes that enclose the
               message.</li>
-            <li id="li_w4s_dgk_54b"><b>'default-value'</b> - Optional parameter. Provides a default value.</li>
-            <li id="li_x4s_dgk_54b"><b>type</b> - Optional parameter, with one of the following values:<note id="note_y4s_dgk_54b">The title
+            <li id="li_w4s_dgk_54b" irina="irina"><b>'default-value'</b> - Optional parameter. Provides a default value.</li>
+            <li id="li_x4s_dgk_54b" irina="irina"><b>type</b> - Optional parameter, with one of the following values:<note id="note_y4s_dgk_54b">The title
                 of the dialog box will be determined by the type of parameter and as follows:<ul
                   id="ul_gsx_cpp_mjb">
-                  <li id="li_z4s_dgk_54b">For <i>url</i> and <i>relative_url</i> parameters, the title will be the name
+                  <li id="li_z4s_dgk_54b" irina="irina">For <i>url</i> and <i>relative_url</i> parameters, the title will be the name
                     of the parameter and the value of the <i>'message'</i>.</li>
-                  <li id="li_aps_dgk_54b">For the other parameters listed below, the title will be the name of that
+                  <li id="li_aps_dgk_54b" irina="irina">For the other parameters listed below, the title will be the name of that
                     respective parameter.</li>
-                  <li id="li_bps_dgk_54b">If no parameter is used, the title will be "Input".</li>
+                  <li id="li_bps_dgk_54b" irina="irina">If no parameter is used, the title will be "Input".</li>
                 </ul></note><table frame="all" rowsep="1" colsep="1" id="table_hsx_cpp_mjb">
                 <tgroup cols="2">
                   <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -50,9 +50,9 @@
                     </row>
                     <row>
                       <entry><b>Example:</b><ul id="ul_isx_cpp_mjb">
-                          <li id="li_cps_dgk_54b"><i>${ask('Input URL', url)}</i> - The displayed dialog box has the
+                          <li id="li_cps_dgk_54b" irina="irina"><i>${ask('Input URL', url)}</i> - The displayed dialog box has the
                             name <i>Input URL</i>. The expected input type is URL.</li>
-                          <li id="li_dps_dgk_54b"><i>${ask('Input URL', url, 'http://www.example.com')}</i> - The
+                          <li id="li_dps_dgk_54b" irina="irina"><i>${ask('Input URL', url, 'http://www.example.com')}</i> - The
                             displayed dialog box has the name <i>Input URL</i>. The expected input
                             type is URL. The input field displays the default value
                               <i>http://www.example.com</i>.</li>
@@ -68,10 +68,10 @@
                     <row>
                       <entry><b>Example:</b>
                         <ul id="ul_jsx_cpp_mjb">
-                          <li id="li_eps_dgk_54b"><i>${ask('Input password', password)}</i> - The displayed dialog box
+                          <li id="li_eps_dgk_54b" irina="irina"><i>${ask('Input password', password)}</i> - The displayed dialog box
                             has the name <i>'Input password'</i> and the input is hidden with bullet
                             symbols.</li>
-                          <li id="li_fps_dgk_54b"><i>${ask('Input password', password, 'abcd')}</i> - The displayed
+                          <li id="li_fps_dgk_54b" irina="irina"><i>${ask('Input password', password, 'abcd')}</i> - The displayed
                             dialog box has the name <i>'Input password'</i> and the input hidden
                             with bullet symbols. The input field already contains the default
                               <b>abcd</b> value. </li>
@@ -87,9 +87,9 @@
                     </row>
                     <row>
                       <entry><b>Example:</b><ul id="ul_ksx_cpp_mjb">
-                          <li id="li_gps_dgk_54b"><i>${ask('Hello world!')}</i> - The dialog box has a <i>Hello
+                          <li id="li_gps_dgk_54b" irina="irina"><i>${ask('Hello world!')}</i> - The dialog box has a <i>Hello
                               world!</i> message displayed.</li>
-                          <li id="li_hps_dgk_54b"><i>${ask('Hello world!', generic, 'Hello again!')}</i> - The dialog
+                          <li id="li_hps_dgk_54b" irina="irina"><i>${ask('Hello world!', generic, 'Hello again!')}</i> - The dialog
                             box has a <i>Hello world!</i> message displayed and the value displayed
                             in the input box is <i>'Hello again!'</i>.</li>
                         </ul></entry>
@@ -133,7 +133,7 @@
                     <row>
                       <entry><b>Example:</b><p id="p_mps_dgk_54b">
                           <ul id="ul_lsx_cpp_mjb">
-                            <li id="li_nps_dgk_54b"><i>${ask('Operating System', combobox, ('win':'Microsoft
+                            <li id="li_nps_dgk_54b" irina="irina"><i>${ask('Operating System', combobox, ('win':'Microsoft
                                 Windows';'macos':'macOS';'lnx':'Linux/UNIX'), 'macos')}</i> - The
                               dialog box has the name <i>'Operating System'</i>. The drop-down menu
                               displays the three given operating systems. The associated value will
@@ -143,7 +143,7 @@
                                   OS</i>, as in the following example: <i>${ask('Operating System',
                                   combobox, ('win':'Microsoft Windows';'macos':'Mac
                                   OS';'lnx':'Linux/UNIX'), 'macOS')}</i></note></li>
-                            <li id="li_pps_dgk_54b"><i>${ask('Mobile OS', combobox, ('win':'Windows
+                            <li id="li_pps_dgk_54b" irina="irina"><i>${ask('Mobile OS', combobox, ('win':'Windows
                                 Mobile';'ios':'iOS';'and':'Android'), 'Android')}</i></li>
                           </ul>
                         </p></entry>
@@ -198,45 +198,45 @@
                 </tgroup>
               </table></li>
           </ul></li>
-        <li conkeyref="reusables-editor-variables/edVar-caret" id="edvar-caret"/>
-        <li id="edvar-cf" conkeyref="reusables-editor-variables/edvar-cf"/>
-        <li id="edVar-cfd" conkeyref="reusables-editor-variables/edVar-cfd"/>
-        <li id="edVar-cfdu" conkeyref="reusables-editor-variables/edVar-cfdu"/>
-        <li id="edVar-cfn" conkeyref="reusables-editor-variables/edVar-cfn"/>
-        <li id="edVar-cfne" conkeyref="reusables-editor-variables/edVar-cfne"/>
-        <li conkeyref="reusables-editor-variables/edVar-comma" id="edVar-comma"/>
-        <li id="li_vps_dgk_54b"><b>${configured.ditaot.dir}</b> - The default directory of the DITA Open Toolkit
+        <li conkeyref="reusables-editor-variables/edVar-caret" id="edvar-caret" irina="irina"/>
+        <li id="edvar-cf" conkeyref="reusables-editor-variables/edvar-cf" irina="irina"/>
+        <li id="edVar-cfd" conkeyref="reusables-editor-variables/edVar-cfd" irina="irina"/>
+        <li id="edVar-cfdu" conkeyref="reusables-editor-variables/edVar-cfdu" irina="irina"/>
+        <li id="edVar-cfn" conkeyref="reusables-editor-variables/edVar-cfn" irina="irina"/>
+        <li id="edVar-cfne" conkeyref="reusables-editor-variables/edVar-cfne" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-comma" id="edVar-comma" irina="irina"/>
+        <li id="li_vps_dgk_54b" irina="irina"><b>${configured.ditaot.dir}</b> - The default directory of the DITA Open Toolkit
           distribution.</li>
-        <li id="edVar-currentFileURL" conkeyref="reusables-editor-variables/edVar-currentFileURL"/>
-        <li id="edVar-date" conkeyref="reusables-editor-variables/edVar-date"/>
-        <li conkeyref="reusables-editor-variables/dita_dir" id="li_wps_dgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-ds" id="li_xps_dgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_yps_dgk_54b"/>
-        <li id="edvar-env" conkeyref="reusables-editor-variables/edvar-env"/>
-        <li conkeyref="reusables-editor-variables/edVar-framework-fr-name" id="li_zps_dgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-framework" id="edvar-framework"/>
-        <li id="li_aqs_dgk_54b"><b>${frameworkDir(fr_name)}</b> - The path (as file path) of the <i>fr_name</i>
+        <li id="edVar-currentFileURL" conkeyref="reusables-editor-variables/edVar-currentFileURL" irina="irina"/>
+        <li id="edVar-date" conkeyref="reusables-editor-variables/edVar-date" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/dita_dir" id="li_wps_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-ds" id="li_xps_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_yps_dgk_54b" irina="irina"/>
+        <li id="edvar-env" conkeyref="reusables-editor-variables/edvar-env" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-framework-fr-name" id="li_zps_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-framework" id="edvar-framework" irina="irina"/>
+        <li id="li_aqs_dgk_54b" irina="irina"><b>${frameworkDir(fr_name)}</b> - The path (as file path) of the <i>fr_name</i>
           <term>framework</term>.</li>
-        <li id="edVar-frameworkDir" conkeyref="reusables-editor-variables/edVar-frameworkDir"/>
-        <li id="edVar-frameworks" conkeyref="reusables-editor-variables/edVar-frameworks"/>
-        <li id="edVar-frameworksDir" conkeyref="reusables-editor-variables/edVar-frameworksDir"/>
-        <li id="edVar-home" conkeyref="reusables-editor-variables/edVar-home"/>
-        <li id="edVar-homeDir" conkeyref="reusables-editor-variables/edVar-homeDir"/>
-        <li id="localization"><b>${i18n(key)}</b> - Editor variable used only at
+        <li id="edVar-frameworkDir" conkeyref="reusables-editor-variables/edVar-frameworkDir" irina="irina"/>
+        <li id="edVar-frameworks" conkeyref="reusables-editor-variables/edVar-frameworks" irina="irina"/>
+        <li id="edVar-frameworksDir" conkeyref="reusables-editor-variables/edVar-frameworksDir" irina="irina"/>
+        <li id="edVar-home" conkeyref="reusables-editor-variables/edVar-home" irina="irina"/>
+        <li id="edVar-homeDir" conkeyref="reusables-editor-variables/edVar-homeDir" irina="irina"/>
+        <li id="localization" irina="irina"><b>${i18n(key)}</b> - Editor variable used only at
             <term>framework</term>-level to allow translating names and descriptions of
             <uicontrol>Author</uicontrol> mode actions in multiple actions.</li>
-        <li id="edVar-id" conkeyref="reusables-editor-variables/edVar-id"/>
-        <li conkeyref="reusables-editor-variables/make-relative" id="li_bqs_dgk_54b"/>
-        <li conkeyref="reusables-editor-variables/edVar-pluginDir" id="edVar-pluginDir"/>
-        <li conkeyref="reusables-editor-variables/edVar-pluginDirURL" id="edVar-pluginDirURL"/>
-        <li id="edVar-ps" conkeyref="reusables-editor-variables/edVar-ps"/>
-        <li conkeyref="reusables-editor-variables/edvar-selection" id="li_cqs_dgk_54b"/>
-        <li id="edVar-system" conkeyref="reusables-editor-variables/edVar-system"/>
-        <li id="edVar-timestamp" conkeyref="reusables-editor-variables/edvar-timestamp"/>
-        <li id="edvar-uuid" conkeyref="reusables-editor-variables/edvar-uuid"/>
-        <li conkeyref="reusables-editor-variables/edVar-xmlCatalogList" id="li_dqs_dgk_54b"/>
-        <li id="edVar-xpath" conkeyref="reusables-editor-variables/edVar-xpath"/>
-        <li><b>${user.name}</b> - Evaluates to the name of the current user. Can be used only as an
+        <li id="edVar-id" conkeyref="reusables-editor-variables/edVar-id" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/make-relative" id="li_bqs_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-pluginDir" id="edVar-pluginDir" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-pluginDirURL" id="edVar-pluginDirURL" irina="irina"/>
+        <li id="edVar-ps" conkeyref="reusables-editor-variables/edVar-ps" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edvar-selection" id="li_cqs_dgk_54b" irina="irina"/>
+        <li id="edVar-system" conkeyref="reusables-editor-variables/edVar-system" irina="irina"/>
+        <li id="edVar-timestamp" conkeyref="reusables-editor-variables/edvar-timestamp" irina="irina"/>
+        <li id="edvar-uuid" conkeyref="reusables-editor-variables/edvar-uuid" irina="irina"/>
+        <li conkeyref="reusables-editor-variables/edVar-xmlCatalogList" id="li_dqs_dgk_54b" irina="irina"/>
+        <li id="edVar-xpath" conkeyref="reusables-editor-variables/edVar-xpath" irina="irina"/>
+        <li irina="irina"><b>${user.name}</b> - Evaluates to the name of the current user. Can be used only as an
           argument to <codeph>com.oxygenxml.username.InsertFragmentOperation</codeph>, which is
           contributed by this plugin: <xref
             href="https://github.com/oxygenxml/web-author-sample-plugins/tree/master/user-name-insert-operation-plugin"

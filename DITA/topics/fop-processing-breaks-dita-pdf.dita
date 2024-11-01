@@ -59,12 +59,12 @@ D:\projects\samples\dita\flowers\out\pdf\flowers.pdf</codeblock></p>
       <title>Solution: Table Contains More Cells Than Defined in Colspec</title>
       <p id="p_dkk_dgk_54b">To resolve this issue, correct the <xmlatt>colspec</xmlatt> attribute on the table that
         caused the issue. To locate the table that caused the issue:<ol id="ul_lwn_ql5_rp">
-          <li id="li_ekk_dgk_54b">Edit the transformation scenario and set the parameter <codeph>clean.temp</codeph> to
+          <li id="li_ekk_dgk_54b" irina="irina">Edit the transformation scenario and set the parameter <codeph>clean.temp</codeph> to
               <codeph>no</codeph>.</li>
-          <li id="li_fkk_dgk_54b">Run the transformation, open the <filepath>topic.fo</filepath> file in <ph
+          <li id="li_fkk_dgk_54b" irina="irina">Run the transformation, open the <filepath>topic.fo</filepath> file in <ph
               keyref="product"/>, and look in it at the line specified in the error message
               <codeph>(See position 179:-1)</codeph>.</li>
-          <li product="author editor authorEclipse editorEclipse" id="li_gkk_dgk_54b">Look around that line in the
+          <li product="author editor authorEclipse editorEclipse" id="li_gkk_dgk_54b" irina="irina">Look around that line in the
               <filepath>XSL-FO</filepath> file to find relevant text content that you can use (for
             example, with the <b>Find/Replace in Files</b> action in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
@@ -82,20 +82,20 @@ Page 6: Unresolved ID reference "unique_4_Connect_42_wrongID" found.</codeblock>
     <section id="solution_broken_link" product="author editor authorEclipse editorEclipse">
       <title>Solution: Broken Link</title>
       <p id="p_jkk_dgk_54b">To resolve this issue:<ol id="ul_pny_gm5_rp">
-          <li id="li_kkk_dgk_54b">Use the <uicontrol><image href="../img/ValidateAndCheck16.png" id="image_a2l_fvv_sr"
+          <li id="li_kkk_dgk_54b" irina="irina">Use the <uicontrol><image href="../img/ValidateAndCheck16.png" id="image_a2l_fvv_sr"
               />Validate and Check for Completeness</uicontrol> action available in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref> to find such problems.</li>
-          <li id="li_lkk_dgk_54b">If you publish to PDF using a <i>DITAVAL</i> filter, select the same DITAVAL file in
+          <li id="li_lkk_dgk_54b" irina="irina">If you publish to PDF using a <i>DITAVAL</i> filter, select the same DITAVAL file in
             the <uicontrol>DITA Map Completeness Check</uicontrol> dialog box.</li>
-          <li id="li_mkk_dgk_54b">If the <uicontrol><image href="../img/ValidateAndCheck16.png" id="image_kgp_fvv_sr"
+          <li id="li_mkk_dgk_54b" irina="irina">If the <uicontrol><image href="../img/ValidateAndCheck16.png" id="image_kgp_fvv_sr"
               />Validate and Check for Completeness</uicontrol> action does not discover any issues,
             edit the transformation scenario and set the <codeph>clean.temp</codeph> parameter to
               <codeph>no</codeph>.</li>
-          <li id="li_nkk_dgk_54b">Run the transformation, open the <filepath>topic.fo</filepath> file in <ph
+          <li id="li_nkk_dgk_54b" irina="irina">Run the transformation, open the <filepath>topic.fo</filepath> file in <ph
               keyref="product"/>, and search for the <i>unresolved ID references</i> (for example:
               <codeph>unique_4_Connect_42_wrongID</codeph>).</li>
-          <li id="li_okk_dgk_54b">Look in the <filepath>XSL-FO</filepath> file to find relevant text content that you
+          <li id="li_okk_dgk_54b" irina="irina">Look in the <filepath>XSL-FO</filepath> file to find relevant text content that you
             can use (for example, with the <b>Find/Replace in Files</b> action in the <xref
               href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                 Manager</uicontrol> view</xref>) to find the original DITA topic where the table was

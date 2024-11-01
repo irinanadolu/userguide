@@ -10,10 +10,10 @@
         format="html" scope="external"><xmlelement>glossgroup</xmlelement></xref> element.</note>
     <p>To add this functionality, use an <i>Oxygen Publishing Template</i> and follow these
         steps:<ol id="ol_o1m_xrs_qsb">
-        <li conkeyref="reusables-dcpp/pt-li1"/>
-        <li conkeyref="reusables-dcpp/pt-li2"/>
-        <li conkeyref="reusables-dcpp/pt-li3"/>
-        <li>In the newly created folder, create an XSL file (for example, named
+        <li conkeyref="reusables-dcpp/pt-li1" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li2" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li3" irina="irina"/>
+        <li irina="irina">In the newly created folder, create an XSL file (for example, named
             <filepath>merged2html5Extension.xsl</filepath>) with the following
           content:<codeblock outputclass="language-xml" id="codeblock_p1m_xrs_qsb">&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -145,7 +145,7 @@
   &lt;/xsl:template>
 
 &lt;/xsl:stylesheet></codeblock></li>
-        <li>Open the <xref href="pdf_publishing_template_contents.dita#template_descritpor_file_pdf"
+        <li irina="irina">Open the <xref href="pdf_publishing_template_contents.dita#template_descritpor_file_pdf"
               ><i>template descriptor file</i></xref> associated with your <i>publishing
             template</i> (the <i>.opt</i> file) and set the XSLT stylesheet created in the previous
           step with the <codeph>com.oxygenxml.pdf.css.xsl.merged2html5</codeph> XSLT extension
@@ -158,7 +158,7 @@
         id="com.oxygenxml.pdf.css.xsl.merged2html5"
         file="xslt/merged2html5Extension.xsl"/>
     &lt;/xslt&gt;</codeblock></li>
-        <li id="li_gbq_cgk_54b">Create a <filepath>css</filepath> folder in the publishing template
+        <li id="li_gbq_cgk_54b" irina="irina">Create a <filepath>css</filepath> folder in the publishing template
           directory. In this directory, save a custom CSS file with rules that style the
             <i>glossary</i> structure. For
             example:<codeblock outputclass="language-css" id="codeblock_hbq_cgk_54b">*[class ~= "glossgroup/table"] {
@@ -191,7 +191,7 @@ th:nth-of-type(3),
 }</codeblock><note id="note_hly_wg2_4tb">The <xmlelement>glossSurfaceForm</xmlelement>
             removal part is optional. It is present as an example of how to fully remove a
             column.</note></li>
-        <li id="li_ibq_cgk_54b">Open the <xref
+        <li id="li_ibq_cgk_54b" irina="irina">Open the <xref
             href="pdf_publishing_template_contents.dita#template_descritpor_file_pdf"><i>template
               descriptor file</i></xref> associated with your <i>publishing template</i> (the
             <filepath>.opt</filepath> file) and reference your custom CSS file in the
@@ -203,9 +203,9 @@ th:nth-of-type(3),
     &lt;resources&gt;            
       &lt;css file="css/custom.css"/&gt;
     &lt;/resources&gt; </codeblock></li>
-        <li conkeyref="reusables-dcpp/pt-li6"/>
-        <li conkeyref="reusables-dcpp/pt-li7"/>
-        <li conkeyref="reusables-dcpp/pt-li8"/>
+        <li conkeyref="reusables-dcpp/pt-li6" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li7" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li8" irina="irina"/>
       </ol></p>
   </body>
 </topic>

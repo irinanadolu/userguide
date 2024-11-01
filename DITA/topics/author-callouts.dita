@@ -102,7 +102,7 @@
           href="callouts-preferences-page.dita#callouts-preferences-page"
             ><uicontrol>Callouts</uicontrol> preferences page</xref>. You can choose to enable the
         following types of review callouts:<ul id="ul_dpx_bgk_54b">
-          <li id="li_epx_bgk_54b">
+          <li id="li_epx_bgk_54b" irina="irina">
             <p id="p_fpx_bgk_54b"><b>Comment Callouts</b> - As long as the <xref
                 href="callouts-preferences-page.dita#callouts-preferences-page/comments"
                   ><uicontrol>Comments</uicontrol> option</xref> is selected in the <xref
@@ -121,17 +121,17 @@
             </p>
             <p id="p_ipx_bgk_54b">There are several types of comments that can be added in
                 <uicontrol>Author</uicontrol> mode:<ul id="ul_jpx_bgk_54b">
-                <li id="li_kpx_bgk_54b"><i>Author Review Comments</i> - Comments that you associate
+                <li id="li_kpx_bgk_54b" irina="irina"><i>Author Review Comments</i> - Comments that you associate
                   with specific content. To insert this type of comment, select the content and use
                   the <uicontrol><image href="../img/AddComment16.png"/>Add Comment</uicontrol>
                   action that is available on the toolbar (or in the <uicontrol>Review</uicontrol>
                   submenu of the contextual menu).</li>
-                <li id="li_lpx_bgk_54b"><i>Comments Added to Tracked Changes</i> - Comments that you
+                <li id="li_lpx_bgk_54b" irina="irina"><i>Comments Added to Tracked Changes</i> - Comments that you
                   add to an already existing <term>tracked change</term> insertion or deletion. To
                   insert this type of comment, right-click the change in the main editor or its
                   callout and select <uicontrol><image href="../img/CommentChange16.png"
                       placement="inline"/>Comment Change</uicontrol>.</li>
-                <li id="li_mpx_bgk_54b">
+                <li id="li_mpx_bgk_54b" irina="irina">
                   <p id="p_npx_bgk_54b"><i>Replies to Comments</i> - You can use this type of
                     comment to create discussion threads. To insert this type of comment,
                     right-click the change in its callout and select <uicontrol>Reply</uicontrol>. A
@@ -151,7 +151,7 @@
                 </li>
               </ul></p>
           </li>
-          <li id="li_spx_bgk_54b">
+          <li id="li_spx_bgk_54b" irina="irina">
             <p id="p_tpx_bgk_54b"><b>Tracked Change Deletion Callouts</b> - As long as the <xref
                 href="callouts-preferences-page.dita#callouts-preferences-page/track-changes-deletions"
                   ><uicontrol>Track Changes Deletions</uicontrol> option</xref> is selected in the
@@ -173,7 +173,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_wpx_bgk_54b">
+          <li id="li_wpx_bgk_54b" irina="irina">
             <p id="p_xpx_bgk_54b"><b>Tracked Change Insertion Callouts</b> - As long as the <xref
                 href="callouts-preferences-page.dita#callouts-preferences-page/track-changes-insertions"
                   ><uicontrol>Track Changes Insertions</uicontrol> option</xref> is selected in the

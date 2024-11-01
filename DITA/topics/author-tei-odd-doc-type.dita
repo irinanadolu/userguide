@@ -21,8 +21,8 @@
       <title>File Definition</title>
       <p id="p_ffk_cgk_54b">A file is considered to be a TEI ODD document when the following conditions are true:</p>
       <ul id="ul_gfk_cgk_54b">
-        <li id="li_hfk_cgk_54b">The file extension is <filepath>.odd</filepath>.</li>
-        <li id="li_ifk_cgk_54b">The document namespace is <i>http://www.tei-c.org/ns/1.0</i>.</li>
+        <li id="li_hfk_cgk_54b" irina="irina">The file extension is <filepath>.odd</filepath>.</li>
+        <li id="li_ifk_cgk_54b" irina="irina">The document namespace is <i>http://www.tei-c.org/ns/1.0</i>.</li>
       </ul>
     </section>
     <section id="document_templates">
@@ -61,9 +61,9 @@
       <p id="p_ofk_cgk_54b">The default <xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> for the
         TEI ODD document type are as follows:</p>
       <ul id="ul_pfk_cgk_54b">
-        <li id="li_qfk_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+        <li id="li_qfk_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
             />/frameworks/tei/xml/tei/custom/schema/catalog.xml</filepath></li>
-        <li id="li_rfk_cgk_54b"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+        <li id="li_rfk_cgk_54b" irina="irina"><filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
             />/frameworks/tei/xml/tei/schema/catalog.xml</filepath></li>
       </ul>
     </section>
@@ -79,10 +79,10 @@
       <title>Resources</title>
       <p id="p_tfk_cgk_54b">
         <ul id="ul_ufk_cgk_54b">
-          <li id="li_vfk_cgk_54b"><xref href="https://www.oxygenxml.com/xml_editor/tei_editor.html" format="html"
+          <li id="li_vfk_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/xml_editor/tei_editor.html" format="html"
               scope="external" product="author editor authorEclipse editorEclipse">Oxygen Video
               Tutorial: Editing TEI Documents in Author Mode</xref></li>
-          <li id="li_wfk_cgk_54b"><xref href="https://www.tei-c.org/Guidelines/Customization/odds.xml" format="html"
+          <li id="li_wfk_cgk_54b" irina="irina"><xref href="https://www.tei-c.org/Guidelines/Customization/odds.xml" format="html"
               scope="external">TEI: Getting Started with ODD</xref></li>
         </ul>
       </p>

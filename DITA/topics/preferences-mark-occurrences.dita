@@ -27,34 +27,34 @@
           <dt><uicontrol>Highlight component occurrences in the current file for</uicontrol>:</dt>
           <dd>
             <ul id="ul_f66964dd-aca0-4939-8563-32fc4d17017f">
-              <li id="li_znp_bgk_54b"><uicontrol>XML files</uicontrol> - Activates the <xref
+              <li id="li_znp_bgk_54b" irina="irina"><uicontrol>XML files</uicontrol> - Activates the <xref
                   href="highlight-xml-id-idrefs.dita#highlight-xml-id-idrefs" format="dita"
                   product="developer editor developerEclipse editorEclipse">Highlight IDs
                   Occurrences</xref><ph product="json">Highlight IDs Occurrences</ph> feature in XML
                 files.</li>
-              <li id="li_a4p_bgk_54b"><uicontrol>XSLT files</uicontrol> - Activates the <xref
+              <li id="li_a4p_bgk_54b" irina="irina"><uicontrol>XSLT files</uicontrol> - Activates the <xref
                   href="schematron-highlight-component-occurrences.dita#schematron-highlight-component-occurrences"
                   format="dita" product="developer editor developerEclipse editorEclipse">Highlight
                   Component Occurrences</xref><ph product="json">Highlight IDs Occurrences</ph>
                 feature in XSLT files.</li>
-              <li id="li_b4p_bgk_54b"><uicontrol>XML Schema files</uicontrol> - Activates the <xref
+              <li id="li_b4p_bgk_54b" irina="irina"><uicontrol>XML Schema files</uicontrol> - Activates the <xref
                   href="schematron-highlight-component-occurrences.dita#schematron-highlight-component-occurrences"
                   format="dita" product="developer editor developerEclipse editorEclipse">Highlight
                   Component Occurrences</xref><ph product="json">Highlight IDs Occurrences</ph>
                 feature in XSD files.</li>
-              <li id="li_c4p_bgk_54b"><uicontrol>WSDL files</uicontrol> - Activates the <xref
+              <li id="li_c4p_bgk_54b" irina="irina"><uicontrol>WSDL files</uicontrol> - Activates the <xref
                   href="schematron-highlight-component-occurrences.dita#schematron-highlight-component-occurrences"
                   format="dita" product="developer editor developerEclipse editorEclipse">Highlight
                   Component Occurrences</xref><ph product="json">Highlight IDs Occurrences</ph>
                 feature in WSDL files.</li>
-              <li id="li_d4p_bgk_54b"><uicontrol>RNG files</uicontrol> - Activates the highlight component occurrences
+              <li id="li_d4p_bgk_54b" irina="irina"><uicontrol>RNG files</uicontrol> - Activates the highlight component occurrences
                 feature in RNG files.</li>
-              <li id="li_e4p_bgk_54b"><uicontrol>Schematron files</uicontrol> - Activates the <xref
+              <li id="li_e4p_bgk_54b" irina="irina"><uicontrol>Schematron files</uicontrol> - Activates the <xref
                   href="schematron-highlight-component-occurrences.dita#schematron-highlight-component-occurrences"
                   format="dita" product="developer editor developerEclipse editorEclipse">Highlight
                   Component Occurrences</xref><ph product="json">Highlight IDs Occurrences</ph>
                 feature in Schematron files.</li>
-              <li id="li_f4p_bgk_54b" product="developer editor json"><uicontrol>Ant
+              <li id="li_f4p_bgk_54b" product="developer editor json" irina="irina"><uicontrol>Ant
                   files</uicontrol> - Activates the <xref
                   href="highlight-component-occurencies-ant.dita#highlight-component-occurencies-ant"
                   format="dita" product="developer editor">Highlight Component Occurrences</xref><ph

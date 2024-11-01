@@ -38,14 +38,14 @@
           <xref href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
             Manager</uicontrol></xref> or in the XML Editor. Use any of the following methods to
         open a map:<ul id="ul_qdl_dgk_54b">
-          <li id="li_rdl_dgk_54b">To open a submap in its own tab in the <uicontrol>DITA Maps Manager</uicontrol>,
+          <li id="li_rdl_dgk_54b" irina="irina">To open a submap in its own tab in the <uicontrol>DITA Maps Manager</uicontrol>,
             simply double-click it (or right-click it and select <uicontrol>Open</uicontrol>).</li>
-          <li id="open-map-editor-li">To open a map in the XML editor from the <uicontrol>DITA Maps
+          <li id="open-map-editor-li" irina="irina">To open a map in the XML editor from the <uicontrol>DITA Maps
               Manager</uicontrol>, right-click it and select <uicontrol>Open Map in
               Editor</uicontrol>.</li>
-          <li id="li_sdl_dgk_54b">Drag a <term>DITA map</term> file from your system browser and drop it in the XML
+          <li id="li_sdl_dgk_54b" irina="irina">Drag a <term>DITA map</term> file from your system browser and drop it in the XML
             editor. This will open the map in the editor.</li>
-          <li product="author editor" id="li_tdl_dgk_54b">If you open a file with the <filepath>.ditamap</filepath> or
+          <li product="author editor" id="li_tdl_dgk_54b" irina="irina">If you open a file with the <filepath>.ditamap</filepath> or
               <filepath>.bookmap</filepath> extension (from the <xref
               href="../topics/using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project</uicontrol> view</xref> or a system browser), a dialog box is
@@ -57,19 +57,19 @@
                 href="preferences-dita-maps.dita#preferences-dita-maps/when-opening-dlentry"><uicontrol>When
                   opening a map</uicontrol> option in the <uicontrol>DITA</uicontrol> preferences
                 page</xref>.</note></li>
-          <li product="author editor" id="li_vdl_dgk_54b">To open a map in the <uicontrol>DITA Maps Manager</uicontrol>,
+          <li product="author editor" id="li_vdl_dgk_54b" irina="irina">To open a map in the <uicontrol>DITA Maps Manager</uicontrol>,
             you can right-click a map file in the <xref
               href="../topics/using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project</uicontrol> view</xref> and select <menucascade>
               <uicontrol>Open with</uicontrol>
               <uicontrol>DITA Maps Manager</uicontrol>
             </menucascade>.</li>
-          <li product="authorEclipse editorEclipse" id="li_wdl_dgk_54b">To open a map in the <uicontrol>DITA Maps
+          <li product="authorEclipse editorEclipse" id="li_wdl_dgk_54b" irina="irina">To open a map in the <uicontrol>DITA Maps
               Manager</uicontrol>, you can right-click a map file in the <xref
               href="using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project Explorer</uicontrol> view</xref> and select <uicontrol>Open in DITA
               Maps Manager</uicontrol>.</li>
-          <li product="author editor" id="li_xdl_dgk_54b">If you have a <term>DITA map</term> file open in the XML
+          <li product="author editor" id="li_xdl_dgk_54b" irina="irina">If you have a <term>DITA map</term> file open in the XML
             editor, you can open it in the <uicontrol>DITA Maps Manager</uicontrol> by
             right-clicking the title tab and selecting <uicontrol>Open in DITA Maps Manager
               View</uicontrol>.</li>

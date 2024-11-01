@@ -38,29 +38,29 @@
     <p id="p_g3w_bgk_54b">The <uicontrol>Scope</uicontrol> section allows you to choose from the
       following scopes:</p>
     <ul id="ul_mbw_tvg_wr">
-      <li id="li_h3w_bgk_54b"><uicontrol>All opened files</uicontrol> - The <xref keyref="glossentry_pretty-print"
+      <li id="li_h3w_bgk_54b" irina="irina"><uicontrol>All opened files</uicontrol> - The <xref keyref="glossentry_pretty-print"
             ><term>pretty-print</term></xref> is performed in all opened files.</li>
-      <li id="li_i3w_bgk_54b"><uicontrol>Directory of the current file</uicontrol> - All the files in the folder of the
+      <li id="li_i3w_bgk_54b" irina="irina"><uicontrol>Directory of the current file</uicontrol> - All the files in the folder of the
         currently edited file.</li>
-      <li id="li_j3w_bgk_54b"><uicontrol>Project files</uicontrol> - All files from the current project.</li>
-      <li id="li_k3w_bgk_54b"><uicontrol>Selected project files</uicontrol> - The selected files from the current
+      <li id="li_j3w_bgk_54b" irina="irina"><uicontrol>Project files</uicontrol> - All files from the current project.</li>
+      <li id="li_k3w_bgk_54b" irina="irina"><uicontrol>Selected project files</uicontrol> - The selected files from the current
         project.</li>
-      <li id="li_l3w_bgk_54b"><uicontrol>Specified path</uicontrol> - the <xref keyref="glossentry_pretty-print"
+      <li id="li_l3w_bgk_54b" irina="irina"><uicontrol>Specified path</uicontrol> - the <xref keyref="glossentry_pretty-print"
             ><term>pretty-print</term></xref> is performed in the files located at a specified
         path.</li>
     </ul>
     <p id="p_m3w_bgk_54b">The <uicontrol>Options</uicontrol> section includes the following options:</p>
     <ul id="ul_n3w_bgk_54b">
-      <li id="li_o3w_bgk_54b"><uicontrol>File filter</uicontrol> - Allow you to filter the files from the selected
+      <li id="li_o3w_bgk_54b" irina="irina"><uicontrol>File filter</uicontrol> - Allow you to filter the files from the selected
         scope.</li>
-      <li id="li_p3w_bgk_54b"><uicontrol>Recurse subdirectories</uicontrol> - When selected, the <xref
+      <li id="li_p3w_bgk_54b" irina="irina"><uicontrol>Recurse subdirectories</uicontrol> - When selected, the <xref
           keyref="glossentry_pretty-print"><term>pretty-print</term></xref> is performed recursively
         for the specified scope. The one exception is that this option is ignored if the scope is
         set to <uicontrol>All opened files</uicontrol>.</li>
-      <li id="li_q3w_bgk_54b"><uicontrol>Include hidden files</uicontrol> - When selected, the <xref
+      <li id="li_q3w_bgk_54b" irina="irina"><uicontrol>Include hidden files</uicontrol> - When selected, the <xref
           keyref="glossentry_pretty-print"><term>pretty-print</term></xref> is also performed in the
         hidden files.</li>
-      <li id="li_r3w_bgk_54b"><uicontrol>Make backup files with extension</uicontrol> - When selected, <ph
+      <li id="li_r3w_bgk_54b" irina="irina"><uicontrol>Make backup files with extension</uicontrol> - When selected, <ph
           keyref="product"/> makes backup files of the modified files. The default extension is
           <filepath>.bak</filepath>, but you can change the extension as you prefer.</li>
     </ul>

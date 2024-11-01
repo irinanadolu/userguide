@@ -23,9 +23,9 @@
     </p>
     <p id="p_i3x_dgk_54b">
       <ol id="ol_hrh_hfz_djb">
-        <li id="li_j3x_dgk_54b">Enter your email address.</li>
-        <li id="li_k3x_dgk_54b">Complete the reCAPTCHA test.</li>
-        <li id="li_l3x_dgk_54b">
+        <li id="li_j3x_dgk_54b" irina="irina">Enter your email address.</li>
+        <li id="li_k3x_dgk_54b" irina="irina">Complete the reCAPTCHA test.</li>
+        <li id="li_l3x_dgk_54b" irina="irina">
           <p id="p_m3x_dgk_54b">Click <uicontrol>Submit</uicontrol>.</p>
           <p id="p_n3x_dgk_54b"><b>Step Result:</b> If a matching account exists, you will receive
             an email with a list of all IDs of organizations that have an account registered for

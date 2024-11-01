@@ -67,12 +67,12 @@
             <dd>
               <p>Use this section to replace an existing element with the configured action:</p>
               <ul id="ul_bvy_kl5_y4b">
-                <li><uicontrol>Element name</uicontrol> and <uicontrol>Namespace</uicontrol> - The
+                <li irina="irina"><uicontrol>Element name</uicontrol> and <uicontrol>Namespace</uicontrol> - The
                   name (and namespace, if needed) of the replaced element. The original element no
                   longer needs to be excluded using the <xref href="#./filter-section"
                       ><uicontrol>Filter - Remove content completion items</uicontrol>
                   table</xref>.</li>
-                <li><uicontrol>Display item only when element is allowed at cursor</uicontrol> - The
+                <li irina="irina"><uicontrol>Display item only when element is allowed at cursor</uicontrol> - The
                   configured action is contributed in the UI components selected in the
                     <uicontrol>Contribute to</uicontrol> section only if the associated schema
                   allows the original element at the current location in the document. This is
@@ -88,12 +88,12 @@
             <dt><uicontrol>Contribute to</uicontrol></dt>
             <dd>Use this section to specify where to display the configured item in the
                 interface:<ul id="ul_wb4_wf5_rkb">
-                <li id="li_rh4_bgk_54b"><uicontrol>Content Completion Window</uicontrol> - The configured item will
+                <li id="li_rh4_bgk_54b" irina="irina"><uicontrol>Content Completion Window</uicontrol> - The configured item will
                   appear in the <xref keyref="glossentry_content-completion-assistant"><term>Content
                       Completion Assistant</term></xref>.</li>
-                <li id="li_sh4_bgk_54b"><uicontrol>Elements View</uicontrol> - The configured item
+                <li id="li_sh4_bgk_54b" irina="irina"><uicontrol>Elements View</uicontrol> - The configured item
                   will appear in the <uicontrol>Elements</uicontrol> view.</li>
-                <li id="li_th4_bgk_54b"><uicontrol>Element Insert Menus</uicontrol> - The configured
+                <li id="li_th4_bgk_54b" irina="irina"><uicontrol>Element Insert Menus</uicontrol> - The configured
                   item will appear in the <uicontrol>Append Child</uicontrol>, <uicontrol>Insert
                     Before</uicontrol>, or <uicontrol>Insert After</uicontrol> menus that are
                   available in certain contextual menus (for example, the contextual menu of the
@@ -130,11 +130,11 @@
             </dd>
             <dd>
               <ul id="ul_ymx_5mg_plb">
-                <li id="li_b34_bgk_54b"><uicontrol>&lt;SPLIT> [elementName]</uicontrol> - Filters split entries for
+                <li id="li_b34_bgk_54b" irina="irina"><uicontrol>&lt;SPLIT> [elementName]</uicontrol> - Filters split entries for
                   elements that have the form <uicontrol>Split elementName</uicontrol> or
                     <uicontrol>New elementName</uicontrol>.</li>
-                <li id="li_c34_bgk_54b"><uicontrol>&lt;SPLIT></uicontrol> - Filters split entries for all elements.</li>
-                <li id="li_d34_bgk_54b">
+                <li id="li_c34_bgk_54b" irina="irina"><uicontrol>&lt;SPLIT></uicontrol> - Filters split entries for all elements.</li>
+                <li id="li_d34_bgk_54b" irina="irina">
                   <uicontrol>&lt;ENTER></uicontrol> - Filters <uicontrol>Insert New Line</uicontrol>
                   entries that appear in elements where whitespace is significant.</li>
               </ul>
@@ -157,18 +157,18 @@
           <dlentry id="dlentry_g34_bgk_54b">
             <dt><uicontrol>Remove item from</uicontrol></dt>
             <dd>You can choose to filter the element from any of the following:<ul id="ul_h34_bgk_54b">
-                <li id="li_i34_bgk_54b"><uicontrol>Content Completion Window</uicontrol> - The element will not appear
+                <li id="li_i34_bgk_54b" irina="irina"><uicontrol>Content Completion Window</uicontrol> - The element will not appear
                   in the <xref keyref="glossentry_content-completion-assistant"><term>Content
                       Completion Assistant</term></xref>.</li>
-                <li id="li_j34_bgk_54b"><uicontrol>Elements View</uicontrol> - The element will not
+                <li id="li_j34_bgk_54b" irina="irina"><uicontrol>Elements View</uicontrol> - The element will not
                   appear in the <uicontrol>Elements</uicontrol> view.</li>
-                <li id="li_k34_bgk_54b"><uicontrol>Element Insert Menus</uicontrol> - The element
+                <li id="li_k34_bgk_54b" irina="irina"><uicontrol>Element Insert Menus</uicontrol> - The element
                   will not appear in the <uicontrol>Append Child</uicontrol>, <uicontrol>Insert
                     Before</uicontrol>, or <uicontrol>Insert After</uicontrol> menus that are
                   available in certain contextual menus (for example, the contextual menu of the
                     <uicontrol>Outline</uicontrol> view).</li>
                 <li id="li_l34_bgk_54b"
-                  product="author developer editor authorEclipse developerEclipse editorEclipse"
+                  product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina"
                     ><uicontrol>Entities View</uicontrol> - The element will not appear in the <xref
                     href="entities-view.dita#entities-view"><uicontrol>Entities</uicontrol>
                     view</xref>.</li>

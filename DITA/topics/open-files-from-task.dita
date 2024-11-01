@@ -14,11 +14,11 @@
     <p id="p_tnt_dgk_54b">To quickly open the version of a file that is opened in the Content Fusion
       browser interface in either <uicontrol>Oxygen XML Editor</uicontrol> or <uicontrol>Oxygen XML
         Author</uicontrol>:<ol id="ol_ect_jbp_qtb">
-        <li id="li_fct_jbp_qtb">Copy the URL of opened file in the browser.</li>
-        <li id="li_qr5_mbp_qtb">In <uicontrol>Oxygen XML Editor/Author</uicontrol>, use the
+        <li id="li_fct_jbp_qtb" irina="irina">Copy the URL of opened file in the browser.</li>
+        <li id="li_qr5_mbp_qtb" irina="irina">In <uicontrol>Oxygen XML Editor/Author</uicontrol>, use the
             <uicontrol>Open URL</uicontrol> action from the toolbar or the
             <uicontrol>File</uicontrol> menu.</li>
-        <li id="li_mph_xbp_qtb">In the resulting dialog box, paste the copied URL in the
+        <li id="li_mph_xbp_qtb" irina="irina">In the resulting dialog box, paste the copied URL in the
             <uicontrol>URL</uicontrol> field and click <uicontrol>OK</uicontrol>.</li>
       </ol></p>
     <p id="p_zsb_1dp_qtb"><b>Result:</b> The corresponding file is opened in the editor and

@@ -95,7 +95,7 @@
         few. In either case, you need to make sure that your document follows the particular
         structure for the document type you are creating. This means:</p>
       <ul id="ul_q4x_zr4_y4">
-        <li id="li_jpl_bgk_54b">At any given location in the document, there are only certain XML elements allowed. <ph
+        <li id="li_jpl_bgk_54b" irina="irina">At any given location in the document, there are only certain XML elements allowed. <ph
             product="author editor authorEclipse editorEclipse"><ph keyref="product"/> helps you
             determine which elements are allowed. In <uicontrol>Author</uicontrol> mode, when you
             press <uicontrol><shortcut>Enter</shortcut></uicontrol>, <ph keyref="product"/> assumes
@@ -109,7 +109,7 @@
             <uicontrol>Show View</uicontrol>
             <uicontrol>Model</uicontrol>
           </menucascade>).</li>
-        <li id="li_kpl_bgk_54b">When you create certain elements, you may find that your text gets a jagged red
+        <li id="li_kpl_bgk_54b" irina="irina">When you create certain elements, you may find that your text gets a jagged red
           underline and you get a warning that your content is invalid. This is usually because the
           element you have just created requires certain other elements inside of it. Your document
           will be invalid until you create those elements. <ph keyref="product"/> helps you with

@@ -65,7 +65,7 @@
     <section id="directory_comparisons">
       <title>Directory Comparisons</title>
       <p id="p_vgv_bgk_54b">To perform a directory comparison, follow these steps:<ol id="ol_wgv_bgk_54b">
-          <li id="li_xgv_bgk_54b">
+          <li id="li_xgv_bgk_54b" irina="irina">
             <p id="p_ygv_bgk_54b">Select a folder in the left panel and the folder you want to compare it to in the
               right panel. You can specify the path by using the text field, the history drop-down,
               or the <uicontrol>Browse for local directory</uicontrol> action in the
@@ -74,27 +74,27 @@
             <p id="p_zgv_bgk_54b"><b>Step Result:</b> The selected directory structures are opened in the two
               side-by-side panels.</p>
           </li>
-          <li id="li_ahv_bgk_54b">To highlight the differences between the two folders, click the <uicontrol><image
+          <li id="li_ahv_bgk_54b" irina="irina">To highlight the differences between the two folders, click the <uicontrol><image
                 href="../img/DiffPerform16.png"/>Perform Directories Differencing</uicontrol> button
             from the toolbar.</li>
-          <li product="author developer editor json" id="li_bhv_bgk_54b">You can also use the
+          <li product="author developer editor json" id="li_bhv_bgk_54b" irina="irina">You can also use the
                 <uicontrol><image href="../img/OptionsShortcut16.png"/>Diff Options</uicontrol>
             button to access the <xref href="preferences-diff-dirs.dita#preferences-diff-dirs"
                 ><uicontrol>Directories Comparison</uicontrol> preferences page</xref> where you can
             configure various options.</li>
         </ol></p>
       <p id="p_chv_bgk_54b">To compare the content of two archives, follow these steps:<ol id="ol_dhv_bgk_54b">
-          <li id="li_ehv_bgk_54b">Use the <uicontrol>Browse for archive file</uicontrol> action in the <uicontrol><image
+          <li id="li_ehv_bgk_54b" irina="irina">Use the <uicontrol>Browse for archive file</uicontrol> action in the <uicontrol><image
                 href="../img/BrowseDrop.png"/>Browse</uicontrol> drop-down menu to select the
             archives in the left and right panels.</li>
-          <li product="author developer editor json" id="li_fhv_bgk_54b">By default, the supported
+          <li product="author developer editor json" id="li_fhv_bgk_54b" irina="irina">By default, the supported
             archives are not treated as directories and the comparison is not performed on the files
             inside them. To make <ph keyref="product"/> treat supported archives as directories,
             select the <xref
               href="preferences-diff-dirs.dita#preferences-diff-dirs/look-in-archives"
                 ><uicontrol>Look in archives</uicontrol> option</xref> in the <uicontrol>Directories
               Comparison</uicontrol> preferences page.</li>
-          <li id="li_ghv_bgk_54b">To highlight the differences, click the <uicontrol><image
+          <li id="li_ghv_bgk_54b" irina="irina">To highlight the differences, click the <uicontrol><image
                 href="../img/DiffPerform16.png"/>Perform Directories Differencing</uicontrol> button
             from the toolbar.</li>
         </ol></p>
@@ -102,9 +102,9 @@
         structures showing the files and folders, including their name, size, and modification date.
         A column that contains graphic symbols separates the two tree-like structures. The graphic
         symbols can be one of the following:<ul id="ul_ihv_bgk_54b">
-          <li id="li_jhv_bgk_54b">An <b>X</b> symbol, when a file or a folder exists in only one of
+          <li id="li_jhv_bgk_54b" irina="irina">An <b>X</b> symbol, when a file or a folder exists in only one of
             the compared directories.</li>
-          <li id="li_khv_bgk_54b">A <b>≠</b>symbol, when a file exists in both directories but the
+          <li id="li_khv_bgk_54b" irina="irina">A <b>≠</b>symbol, when a file exists in both directories but the
             content differs. The same sign appears when a collapsed folder contains differing files.
           </li>
         </ul><ph product="author developer editor json">The color used for the symbol and the

@@ -18,7 +18,7 @@
       element.</p>
     <p id="p_qvw_bgk_54b">Here are some of the common situations that can be encountered: </p>
     <ul id="ul_rvw_bgk_54b">
-      <li id="li_svw_bgk_54b">
+      <li id="li_svw_bgk_54b" irina="irina">
         <p id="p_tvw_bgk_54b"><b>Before first <term>block</term></b> - The cursor is positioned before the first <xref
             keyref="glossentry_block-element"><term>block</term></xref> child of the current
           node.</p>
@@ -26,14 +26,14 @@
             href="../img/ec_position_tooltip_1.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_vvw_bgk_54b">
+      <li id="li_vvw_bgk_54b" irina="irina">
         <p id="p_wvw_bgk_54b"><b>Between two <term>block elements</term></b> - The cursor is positioned between two
             <xref keyref="glossentry_block-element"><term>block elements</term></xref>.</p>
         <p id="p_xvw_bgk_54b"><image href="../img/sa_position_tooltip_2.png" product="author editor"/><image
             href="../img/ec_position_tooltip_2.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_yvw_bgk_54b">
+      <li id="li_yvw_bgk_54b" irina="irina">
         <p id="p_zvw_bgk_54b"><b>After last <term>block</term></b> - The cursor is positioned after the last <xref
             keyref="glossentry_block-element"><term>block element</term></xref> child of the current
           node.</p>
@@ -41,13 +41,13 @@
             href="../img/ec_position_tooltip_3.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_bww_bgk_54b">
+      <li id="li_bww_bgk_54b" irina="irina">
         <p id="p_cww_bgk_54b"><b>Inside a node</b> - The cursor is positioned inside a node.</p>
         <p id="p_dww_bgk_54b"><image href="../img/sa_position_tooltip_4.png" product="author editor"/><image
             href="../img/ec_position_tooltip_4.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_eww_bgk_54b">
+      <li id="li_eww_bgk_54b" irina="irina">
         <p id="p_fww_bgk_54b"><b>Before an <term>inline element</term></b> - The cursor is positioned inside an
           element, before a child <xref keyref="glossentry_inline-element"><term>inline
               element</term></xref>.</p>
@@ -55,14 +55,14 @@
             href="../img/ec_position_tooltip_5.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_hww_bgk_54b">
+      <li id="li_hww_bgk_54b" irina="irina">
         <p id="p_iww_bgk_54b"><b>Between two inline elements</b> - The cursor is positioned between two <xref
             keyref="glossentry_inline-element"><term>inline elements</term></xref>.</p>
         <p id="p_jww_bgk_54b"><image href="../img/sa_position_tooltip_6.png" product="author editor"/><image
             href="../img/ec_position_tooltip_6.png" product="authorEclipse editorEclipse"/>
         </p>
       </li>
-      <li id="li_kww_bgk_54b">
+      <li id="li_kww_bgk_54b" irina="irina">
         <p id="p_lww_bgk_54b"><b>After an inline element</b> - The cursor is positioned inside an element, after a
           child <xref keyref="glossentry_inline-element"><term>inline element</term></xref>.</p>
         <p id="p_mww_bgk_54b"><image href="../img/sa_position_tooltip_7.png" product="author editor"/><image
@@ -99,11 +99,11 @@
       </p>
       <p id="p_tww_bgk_54b"><ph keyref="product"/> displays a <uicontrol>Location Tooltip</uicontrol> when the
         following conditions are met:<ul id="ul_uww_bgk_54b">
-          <li id="li_vww_bgk_54b">You are editing the document in one of the following <xref
+          <li id="li_vww_bgk_54b" irina="irina">You are editing the document in one of the following <xref
               href="author-display-markup.dita#author-display-markup">tags display modes</xref>:
               <uicontrol>Inline Tags</uicontrol>, <uicontrol>Partial Tags</uicontrol>, <uicontrol>No
               Tags</uicontrol>.</li>
-          <li id="li_www_bgk_54b">The mouse pointer is moved between <xref keyref="glossentry_block-element"><term>block
+          <li id="li_www_bgk_54b" irina="irina">The mouse pointer is moved between <xref keyref="glossentry_block-element"><term>block
                 elements</term></xref>.</li>
         </ul></p>
       <p id="p_xww_bgk_54b">To activate or deactivate this feature, use the <xref

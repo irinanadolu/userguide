@@ -70,8 +70,8 @@
             <entry><uicontrol><shortcut>Enter</shortcut></uicontrol></entry>
             <entry>
               <ul id="ul_bxl_bgk_54b">
-                <li id="li_cxl_bgk_54b"><uicontrol>Author</uicontrol> mode - Opens the content completion window</li>
-                <li id="li_dxl_bgk_54b"><uicontrol>Text</uicontrol> mode - Moves cursor to the next line</li>
+                <li id="li_cxl_bgk_54b" irina="irina"><uicontrol>Author</uicontrol> mode - Opens the content completion window</li>
+                <li id="li_dxl_bgk_54b" irina="irina"><uicontrol>Text</uicontrol> mode - Moves cursor to the next line</li>
               </ul>
             </entry>
           </row>
@@ -179,9 +179,9 @@
             <entry><uicontrol><shortcut>Command + Shift + P</shortcut></uicontrol></entry>
             <entry>
               <ul id="ul_exl_bgk_54b">
-                <li id="li_fxl_bgk_54b"><uicontrol>Author</uicontrol> mode - Inserts a paragraph at the cursor
+                <li id="li_fxl_bgk_54b" irina="irina"><uicontrol>Author</uicontrol> mode - Inserts a paragraph at the cursor
                   position</li>
-                <li id="li_gxl_bgk_54b"><uicontrol>Text</uicontrol> mode - Formats and indents current document</li>
+                <li id="li_gxl_bgk_54b" irina="irina"><uicontrol>Text</uicontrol> mode - Formats and indents current document</li>
               </ul>
             </entry>
           </row>
@@ -333,9 +333,9 @@
             <entry><uicontrol><shortcut>Shift + Tab</shortcut></uicontrol></entry>
             <entry>
               <ul id="ul_hxl_bgk_54b">
-                <li id="li_ixl_bgk_54b"><uicontrol>Author</uicontrol> mode - Moves the cursor to the previous XML
+                <li id="li_ixl_bgk_54b" irina="irina"><uicontrol>Author</uicontrol> mode - Moves the cursor to the previous XML
                   node</li>
-                <li id="li_jxl_bgk_54b"><uicontrol>Text</uicontrol> mode - Shifts content to the left</li>
+                <li id="li_jxl_bgk_54b" irina="irina"><uicontrol>Text</uicontrol> mode - Shifts content to the left</li>
               </ul>
             </entry>
           </row>
@@ -345,8 +345,8 @@
             <entry><uicontrol><shortcut>Tab</shortcut></uicontrol></entry>
             <entry>
               <ul id="ul_kxl_bgk_54b">
-                <li id="li_lxl_bgk_54b"><uicontrol>Author</uicontrol> mode - Moves cursor to the next XML node</li>
-                <li id="li_mxl_bgk_54b"><uicontrol>Text</uicontrol> mode - Shifts content to the right</li>
+                <li id="li_lxl_bgk_54b" irina="irina"><uicontrol>Author</uicontrol> mode - Moves cursor to the next XML node</li>
+                <li id="li_mxl_bgk_54b" irina="irina"><uicontrol>Text</uicontrol> mode - Shifts content to the right</li>
               </ul>
             </entry>
           </row>
@@ -382,8 +382,8 @@
             <entry><uicontrol><shortcut>Command + U</shortcut></uicontrol></entry>
             <entry>
               <ul id="ul_nxl_bgk_54b">
-                <li id="li_oxl_bgk_54b">Underlines selected content (in the main editor)</li>
-                <li id="li_pxl_bgk_54b">Opens the URL (when focus is outside the main editor)</li>
+                <li id="li_oxl_bgk_54b" irina="irina">Underlines selected content (in the main editor)</li>
+                <li id="li_pxl_bgk_54b" irina="irina">Opens the URL (when focus is outside the main editor)</li>
               </ul>
             </entry>
           </row>

@@ -15,7 +15,7 @@
       <p id="p_hmb_cgk_54b"><ph conkeyref="reusables-user-guide/reopen-view"/></p>
       <p id="p_imb_cgk_54b">To see the dependencies of an Ant component:<ol
         conkeyref="reusables-editing-documents/component-dependencies-ol" id="ol_jmb_cgk_54b">
-        <li id="li_kmb_cgk_54b"/>
+        <li id="li_kmb_cgk_54b" irina="irina"/>
       </ol></p>
     <p id="p_lmb_cgk_54b">The action is available for the following components: <i>properties</i>, <i>targets</i>,
         <i>extension-points</i>, and <i>references</i> (those that have an ID set).</p>

@@ -33,7 +33,7 @@
       <p id="p_uss_dgk_54b">Actions in <ph keyref="webappProduct"/> can be specified in two ways:</p>
       <p id="p_vss_dgk_54b">
         <ul id="ul_znv_ymm_nkb">
-          <li id="li_wss_dgk_54b">
+          <li id="li_wss_dgk_54b" irina="irina">
             <p id="p_xss_dgk_54b">In the <xref
                 href="https://www.oxygenxml.com/doc/ug-editor/topics/the-document-type-dialog.html"
                 format="html" scope="external">Document Type Configuration dialog box</xref> as a
@@ -46,7 +46,7 @@
               cases (for example, when the <codeph>AuthorOperation</codeph> is used to show a custom
               Java Swing dialog box), it has to be re-implemented in JavaScript.</p>
           </li>
-          <li id="li_zss_dgk_54b">
+          <li id="li_zss_dgk_54b" irina="irina">
             <p id="p_ats_dgk_54b"><xref href="customizing_js.dita">Implemented in the framework's JavaScript
                 code</xref>. </p>
             <p id="p_bts_dgk_54b">The actions registered from JavaScript code can overwrite an action with the same ID
@@ -63,17 +63,17 @@
           href="customizing_frameworks.dita#customizing_frameworks/author-mode-operation-li">marked
           as compatible with Web Author</xref>. </p>
       <p id="p_dts_dgk_54b">This is how the toolbar structure is built:<ul id="ul_oyt_v5x_jjb">
-          <li id="li_ets_dgk_54b">The default structure of the toolbar is defined in the
+          <li id="li_ets_dgk_54b" irina="irina">The default structure of the toolbar is defined in the
               <filepath>*.framework</filepath> file and is common with the one in the desktop
             editor. You can visualize it using the <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/the-document-type-dialog.html"
               format="html" scope="external">Document Type Configuration dialog box</xref>.</li>
-          <li id="li_fts_dgk_54b">The client-side component of Web Author retrieves this configuration using an HTTP
+          <li id="li_fts_dgk_54b" irina="irina">The client-side component of Web Author retrieves this configuration using an HTTP
             request to something like
               <codeph>./rest/VERSION/actions/actionsConfig/docNNN.NNN</codeph>. Actions that are not
             compatible are removed from this configuration. You can check it in the browser's Dev
             Tools <uicontrol>Network</uicontrol> tab.</li>
-          <li id="li_gts_dgk_54b">The framework's JavaScript code <xref
+          <li id="li_gts_dgk_54b" irina="irina">The framework's JavaScript code <xref
               href="https://www.oxygenxml.com/maven/com/oxygenxml/oxygen-webapp/21.1.0.0/jsdoc/tutorial-removeaction.html"
               format="html" scope="external">overrides the configuration of the toolbar</xref>. If
             you are extending a framework, the JavaScript code of the base framework can also modify
@@ -81,21 +81,21 @@
               framework, make sure that the name of the framework extension contains the
                 <codeph>ditamap</codeph> word. Otherwise, actions such as <uicontrol>Insert New
                 Topic Reference</uicontrol> will not appear.</note></li>
-          <li id="li_its_dgk_54b">When the contextual menu is shown, actions that are not enabled at a specific position
+          <li id="li_its_dgk_54b" irina="irina">When the contextual menu is shown, actions that are not enabled at a specific position
             are not shown.</li>
         </ul></p>
       <note id="note_jts_dgk_54b" type="other" othertype="Notes">
         <ul id="ul_ogz_2sl_4qb">
-          <li id="li_pgz_2sl_4qb">If the configured activation XPath evaluates to
+          <li id="li_pgz_2sl_4qb" irina="irina">If the configured activation XPath evaluates to
               <codeph>false</codeph> at the current cursor position, it does not disable the actions
             on the Web Author toolbar, but when the user tries to invoke an action, the operation
             will not be executed (if the XPath evaluates to <codeph>false</codeph>) and the user
             will be notified that the action is not available at that location.</li>
-          <li id="li_oty_fsl_4qb">If you configure an action that inserts an element by using
+          <li id="li_oty_fsl_4qb" irina="irina">If you configure an action that inserts an element by using
               <codeph>InsertFragmentOperation</codeph>, it is better to use <codeph>true</codeph>
             for the XPath. The editor will try to find a valid position near the current cursor
             position to insert the element.</li>
-          <li id="li_cz3_gsl_4qb">If the action modifies a specific type of element at the cursor
+          <li id="li_cz3_gsl_4qb" irina="irina">If the action modifies a specific type of element at the cursor
             position (e.g. an image), you can control the disabled state of the action by replacing
             it with one implemented in JavaScript with the <ph keyref="jscript_api_AbstractAction"
                 ><codeph>isEnabled</codeph> method</ph> overridden.</li>
@@ -109,11 +109,11 @@
         dialog box where you can choose the type of DITA document to create and inserts a reference
         to it at the current position within the map. The templates that are listed include:<ul
           id="ul_phh_bp2_4kb">
-          <li id="li_lts_dgk_54b">Templates that have <codeph>type=dita</codeph> specified in its
+          <li id="li_lts_dgk_54b" irina="irina">Templates that have <codeph>type=dita</codeph> specified in its
               <filepath>.properties</filepath> file.</li>
-          <li id="li_mts_dgk_54b">Templates that do not have a <codeph>type</codeph> specified in its
+          <li id="li_mts_dgk_54b" irina="irina">Templates that do not have a <codeph>type</codeph> specified in its
               <filepath>.properties</filepath> file.</li>
-          <li id="li_nts_dgk_54b">Templates that do not have a <filepath>.properties</filepath> file.</li>
+          <li id="li_nts_dgk_54b" irina="irina">Templates that do not have a <filepath>.properties</filepath> file.</li>
         </ul></p>
       <p id="p_ots_dgk_54b">If you want to hide a particular template from appearing in the dialog box, you should
         modify the <filepath>.properties</filepath> file for the particular template and make sure

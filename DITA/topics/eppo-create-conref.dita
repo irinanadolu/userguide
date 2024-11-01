@@ -45,28 +45,28 @@
       <title>Creating a Content Reference</title>
       <p id="p_tlm_dgk_54b">To create a content reference (<codeph>conref</codeph>), follow these steps:</p>
       <ol id="ol_ocz_fcb_bq">
-        <li id="li_ulm_dgk_54b">Make sure the element you want to reference has an <xref
+        <li id="li_ulm_dgk_54b" irina="irina">Make sure the element you want to reference has an <xref
             href="#eppo-create-conref/assign-id-section" format="dita"><i>ID</i> assigned to
             it</xref>.</li>
-        <li id="li_vlm_dgk_54b">In <xref href="author-editor.dita#author-editor"><uicontrol>Author</uicontrol>
+        <li id="li_vlm_dgk_54b" irina="irina">In <xref href="author-editor.dita#author-editor"><uicontrol>Author</uicontrol>
             mode</xref>, place the cursor at the location where you want the reused content to be
           inserted.</li>
-        <li id="li_wlm_dgk_54b">Select the <uicontrol><image href="../img/Conref20.png" id="image_gmv_hrx_xr"/>Reuse
+        <li id="li_wlm_dgk_54b" irina="irina">Select the <uicontrol><image href="../img/Conref20.png" id="image_gmv_hrx_xr"/>Reuse
             Content</uicontrol> action on the main toolbar (or from the <uicontrol>DITA</uicontrol>
           menu or <uicontrol>Reuse</uicontrol> submenu of the contextual menu). The <xref
             href="insert-dita-content-reference.dita#insert-dita-content-reference"><uicontrol>Reuse
               Content</uicontrol> dialog box</xref> is displayed.</li>
-        <li id="li_xlm_dgk_54b">In the <uicontrol>Location</uicontrol> field of the <uicontrol>Reuse Content</uicontrol>
+        <li id="li_xlm_dgk_54b" irina="irina">In the <uicontrol>Location</uicontrol> field of the <uicontrol>Reuse Content</uicontrol>
           dialog box, select the topic that contains the element you want to reference. The elements
           that you can reference are presented in a table.</li>
-        <li id="li_ylm_dgk_54b">Select the <uicontrol>Target ID</uicontrol> of the element (or elements) to have their content inserted, and verify the content in the <uicontrol>Preview</uicontrol>
+        <li id="li_ylm_dgk_54b" irina="irina">Select the <uicontrol>Target ID</uicontrol> of the element (or elements) to have their content inserted, and verify the content in the <uicontrol>Preview</uicontrol>
           pane. The <codeph>id</codeph> value of the element that you select is automatically added
           to the <uicontrol>Reference to (conref)</uicontrol> field. </li>
-        <li id="li_zlm_dgk_54b">Make any other selections you need in the <xref keyref="dita_insert-conref-dialog"
+        <li id="li_zlm_dgk_54b" irina="irina">Make any other selections you need in the <xref keyref="dita_insert-conref-dialog"
               ><uicontrol>Reuse Content</uicontrol> dialog box</xref>. If you select multiple
           elements, the <uicontrol>Expand to (conrefend)</uicontrol> field is automatically filled
           with the <codeph>id</codeph> value of the last element in your selection.</li>
-        <li id="li_amm_dgk_54b">Click <uicontrol>Insert</uicontrol> or <uicontrol>Insert and close</uicontrol> to create
+        <li id="li_amm_dgk_54b" irina="irina">Click <uicontrol>Insert</uicontrol> or <uicontrol>Insert and close</uicontrol> to create
           the content reference. </li>
       </ol>
     </section>
@@ -83,9 +83,9 @@
         prompt you with one or more choices for where to place it.</p>
       <p id="p_cmm_dgk_54b">To create a content reference (<codeph>conref</codeph>) using copy/paste actions, follow
         these steps:<ol id="ol_dmm_dgk_54b">
-          <li id="li_emm_dgk_54b">Copy an entire DITA element that has an ID attribute assigned to it.</li>
-          <li id="li_fmm_dgk_54b">Place the cursor at a location where the copied element will be valid.</li>
-          <li id="li_gmm_dgk_54b">Select the <uicontrol>Paste as Content Reference</uicontrol> action from the
+          <li id="li_emm_dgk_54b" irina="irina">Copy an entire DITA element that has an ID attribute assigned to it.</li>
+          <li id="li_fmm_dgk_54b" irina="irina">Place the cursor at a location where the copied element will be valid.</li>
+          <li id="li_gmm_dgk_54b" irina="irina">Select the <uicontrol>Paste as Content Reference</uicontrol> action from the
                 <uicontrol><image href="../img/PasteSpecialDITA16.png"/>Paste Special</uicontrol>
             submenu from the contextual menu.</li>
         </ol></p>
@@ -94,11 +94,11 @@
       <title>Other Ways to Reuse Content</title>
       <p id="p_hmm_dgk_54b">
         <ul id="ul_imm_dgk_54b">
-          <li id="li_jmm_dgk_54b">You can use the <xref
+          <li id="li_jmm_dgk_54b" irina="irina">You can use the <xref
               href="dita-reusable-components-view.dita#dita-reusable-components-view/components_tab"
                 ><uicontrol>Components</uicontrol> tab in the <uicontrol>DITA Reusable
                 Components</uicontrol> view</xref> to easily insert content references.</li>
-          <li id="li_kmm_dgk_54b">An alternate way to reuse content is to use the <ph keyref="product"/>
+          <li id="li_kmm_dgk_54b" irina="irina">An alternate way to reuse content is to use the <ph keyref="product"/>
             <xref keyref="dita_create-reusable-component"><uicontrol>Create Reusable
                 Component</uicontrol></xref> and <xref keyref="dita_insert-reusable-content"
                 ><uicontrol>Insert Reusable Component</uicontrol></xref> actions (available in the
@@ -106,10 +106,10 @@
             contextual menu). They handle the details of creating an <i>ID</i> and <i>conref</i> and
             create reusable component files, separate from your normal content files. This can help
             you manage your reusable content more effectively.</li>
-          <li id="li_lmm_dgk_54b">You can also <xref keyref="dita_insert-content-key-reference">insert reusable content
+          <li id="li_lmm_dgk_54b" irina="irina">You can also <xref keyref="dita_insert-content-key-reference">insert reusable content
               using content key references</xref>. This may also make reusable content easier to
             manage, depending on your particular situation and needs.</li>
-          <li id="li_mmm_dgk_54b">Other topics in this section include information about more specialized or advanced
+          <li id="li_mmm_dgk_54b" irina="irina">Other topics in this section include information about more specialized or advanced
             ways or reusing content, such as <xref href="coderef.dita#coderef"><i>code
                 references</i></xref>, the <xref
               href="conref-push-mechanism.dita#conref-push-mechanism"><i>conref push

@@ -25,32 +25,32 @@
     <section id="configure_a_builtin_webdav_server_integration">
       <title>Configuring the Built-in WebDAV Server</title>
       <p id="p_hmr_dgk_54b">To configure the built-in WebDAV server, follow this procedure: <ol id="ol_imr_dgk_54b">
-          <li id="li_jmr_dgk_54b">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
+          <li id="li_jmr_dgk_54b" irina="irina">Go to your <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
               Page</xref>.</li>
-          <li id="li_kmr_dgk_54b">Select <uicontrol>Plugins</uicontrol>.</li>
-          <li id="li_lmr_dgk_54b">
+          <li id="li_kmr_dgk_54b" irina="irina">Select <uicontrol>Plugins</uicontrol>.</li>
+          <li id="li_lmr_dgk_54b" irina="irina">
             <p id="p_mmr_dgk_54b">Click the <uicontrol><image href="../img/ConfigureSearchScope16.png"
                   id="image_rkx_w5t_53b"/>Configure</uicontrol> icon next to <uicontrol>WebDAV
                 Server</uicontrol>.</p>
             <p id="p_nmr_dgk_54b">
               <b>Step Result:</b> A <uicontrol>Plugin configuration</uicontrol> dialog box is
               displayed with the following options:<ul id="ul_omr_dgk_54b">
-                <li id="li_pmr_dgk_54b"><uicontrol>Display samples</uicontrol> - Specifies whether or not the sample
+                <li id="li_pmr_dgk_54b" irina="irina"><uicontrol>Display samples</uicontrol> - Specifies whether or not the sample
                   files that are included with <ph keyref="webappProduct"/> are displayed in the
                     <uicontrol>Samples</uicontrol> tab on your <uicontrol>Dashboard</uicontrol>
                   page. If you do not want the samples to be available, deselect this option. This
                   will remove the <uicontrol>Samples</uicontrol> tab from your
                     <uicontrol>Dashboard</uicontrol>.</li>
-                <li id="li_qmr_dgk_54b"><uicontrol>Read-only mode</uicontrol> - If this option is selected, the server
+                <li id="li_qmr_dgk_54b" irina="irina"><uicontrol>Read-only mode</uicontrol> - If this option is selected, the server
                   will be in <i>read-only mode</i> and users can browse the repository and open
                   documents, but they cannot save them to the server. They do have the option to
                   download documents to save them locally.</li>
-                <li id="li_rmr_dgk_54b"><uicontrol>Enforce server</uicontrol> - When this option is selected, the WebDAV
+                <li id="li_rmr_dgk_54b" irina="irina"><uicontrol>Enforce server</uicontrol> - When this option is selected, the WebDAV
                   plugin will only be allowed to browse through the files provided by the WebDAV
                   Server plugin.</li>
               </ul></p>
           </li>
-          <li id="li_smr_dgk_54b">Click <uicontrol>Apply</uicontrol> to save your changes.</li>
+          <li id="li_smr_dgk_54b" irina="irina">Click <uicontrol>Apply</uicontrol> to save your changes.</li>
         </ol></p>
     </section>
   </body>

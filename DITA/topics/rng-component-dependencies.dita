@@ -14,7 +14,7 @@
     <p id="p_uw2_cgk_54b"><ph conkeyref="reusables-user-guide/reopen-view"/></p>
     <p id="p_vw2_cgk_54b">To see the dependencies of a Relax NG component:<ol
         conkeyref="reusables-editing-documents/component-dependencies-ol" id="ol_ww2_cgk_54b">
-        <li id="li_xw2_cgk_54b"/>
+        <li id="li_xw2_cgk_54b" irina="irina"/>
       </ol></p>
     <p id="p_yw2_cgk_54b">The action is available for all named defines.</p>
     <p

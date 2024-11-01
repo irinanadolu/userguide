@@ -79,8 +79,8 @@
         message:<codeblock outputclass="" id="codeblock_bjx_dgk_54b">The email address cannot be retrieved from the LDAP server
 Contact the server administrator to check the LDAP properties configuration</codeblock></p>
       <p id="p_cjx_dgk_54b">The possible causes for this are:<ul id="ul_pmf_5rt_zmb">
-          <li id="li_djx_dgk_54b">The LDAP user entity does not contain such information.</li>
-          <li id="li_ejx_dgk_54b">The value configured for the <codeph>feedback.ldap.emailAttribute</codeph> property
+          <li id="li_djx_dgk_54b" irina="irina">The LDAP user entity does not contain such information.</li>
+          <li id="li_ejx_dgk_54b" irina="irina">The value configured for the <codeph>feedback.ldap.emailAttribute</codeph> property
             from the <filepath>$OXYGEN_FEEDBACK_HOME_DIR/config/feedback-ldap.properties</filepath>
             file does not match the LDAP attribute that describes the user's email address on the
             LDAP server.</li>

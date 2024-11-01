@@ -20,11 +20,11 @@
           <dt><uicontrol>Archive backup options</uicontrol></dt>
           <dd>Controls if the application makes backup copies of the modified archives. The
             following options are available:<ul id="ul_wbr_bgk_54b">
-              <li id="li_xbr_bgk_54b"><uicontrol>Always create backup copies of modified archives</uicontrol> - When you
+              <li id="li_xbr_bgk_54b" irina="irina"><uicontrol>Always create backup copies of modified archives</uicontrol> - When you
                 modify an archive, its content is backed up.</li>
-              <li id="li_ybr_bgk_54b"><uicontrol>Never create backup copies of modified archives</uicontrol> - No backup
+              <li id="li_ybr_bgk_54b" irina="irina"><uicontrol>Never create backup copies of modified archives</uicontrol> - No backup
                 copy is created.</li>
-              <li id="li_zbr_bgk_54b"><uicontrol>Ask for each archive once per session</uicontrol> - Once per
+              <li id="li_zbr_bgk_54b" irina="irina"><uicontrol>Ask for each archive once per session</uicontrol> - Once per
                 application session for each modified archive, user confirmation is required to
                 create the backup. This is the default setting.<note id="note_acr_bgk_54b">Backup files have the name
                     <filepath>originalArchiveFileName.bak</filepath> and are located in the same

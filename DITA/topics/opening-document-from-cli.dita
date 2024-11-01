@@ -21,14 +21,14 @@
       <ph product="svnClient"
           ><filepath>syncroSVNClient.bat</filepath>/<filepath>syncroSVNClient.sh</filepath></ph>).
       The following methods are available, depending on how you identify the position that is needed:<ol id="ol_j2t_bgk_54b">
-        <li id="li_k2t_bgk_54b">
+        <li id="li_k2t_bgk_54b" irina="irina">
           <p id="p_l2t_bgk_54b"><u><b>Specific position values (line and column number, or character
             offset)</b></u></p>
           <p id="p_m2t_bgk_54b"><ph keyref="product"/> supports the following position parameters:<ul id="ul_n2t_bgk_54b">
-              <li id="li_o2t_bgk_54b"><b>line</b> - The line number.</li>
-              <li id="li_p2t_bgk_54b"><b>column</b> - The column number (has meaning if the <codeph>line</codeph>
+              <li id="li_o2t_bgk_54b" irina="irina"><b>line</b> - The line number.</li>
+              <li id="li_p2t_bgk_54b" irina="irina"><b>column</b> - The column number (has meaning if the <codeph>line</codeph>
                 parameter is also defined).</li>
-              <li id="li_q2t_bgk_54b"><b>char</b> - The character offset.</li>
+              <li id="li_q2t_bgk_54b" irina="irina"><b>char</b> - The character offset.</li>
             </ul></p>
           <p id="p_r2t_bgk_54b"><b>Examples for Windows:</b></p>
           <p id="p_s2t_bgk_54b">The following examples show how you can open an XML document in <ph keyref="product"/>
@@ -44,7 +44,7 @@ developer.bat  file:samples/personal.xml#line=4column=5
 developer.bat  file:samples/personal.xml#line=4;column=5
 developer.bat  file:samples/personal.xml#char=334</codeblock></p>
         </li>
-        <li id="li_w2t_bgk_54b">
+        <li id="li_w2t_bgk_54b" irina="irina">
           <p id="p_x2t_bgk_54b"><u><b>Simplified XPath index path</b></u></p>
           <p id="p_y2t_bgk_54b"><ph keyref="product"/> will open an XML file and select one of its elements identified
             by a simplified XPath index path. For example, an index path of the form 1/5/7
@@ -57,7 +57,7 @@ developer.bat  file:samples/personal.xml#char=334</codeblock></p>
             and select the third child of the root element using a Windows command-line
             interface:<codeblock outputclass="language-ini" product="editor" id="codeblock_cft_bgk_54b">oxygen.bat  file:samples/personal.xml#element(1/3)</codeblock><codeblock outputclass="language-ini" product="author" id="codeblock_dft_bgk_54b">author.bat  file:samples/personal.xml#element(1/3)</codeblock><codeblock outputclass="language-ini" product="developer" id="codeblock_eft_bgk_54b">developer.bat  file:samples/personal.xml#element(1/3)</codeblock></p>
         </li>
-        <li id="li_fft_bgk_54b">
+        <li id="li_fft_bgk_54b" irina="irina">
           <p id="p_gft_bgk_54b"><u><b>Anchors identified by ID attribute values</b></u></p>
           <p id="p_hft_bgk_54b"><ph keyref="product"/> will open an XML file and select the element whose
               <xmlatt>id</xmlatt> attribute value is an exact match of the <xref

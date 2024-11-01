@@ -23,17 +23,17 @@
       <title>Outline View Features</title>
       <p id="p_zvf_cgk_54b">Some of the features provided by the <uicontrol>Outline</uicontrol> view
           include:<ul id="ul_awf_cgk_54b">
-          <li id="li_bwf_cgk_54b">You can quickly navigate through the document by selecting nodes
+          <li id="li_bwf_cgk_54b" irina="irina">You can quickly navigate through the document by selecting nodes
             in the <uicontrol>Outline</uicontrol> tree.</li>
-          <li id="li_cwf_cgk_54b">You can move elements by dragging them to a new position in the
+          <li id="li_cwf_cgk_54b" irina="irina">You can move elements by dragging them to a new position in the
             tree structure.</li>
-          <li id="li_dwf_cgk_54b">It is synchronized with the editor area, so when you make a
+          <li id="li_dwf_cgk_54b" irina="irina">It is synchronized with the editor area, so when you make a
             selection in the editor area, the corresponding nodes are highlighted in the
               <uicontrol>Outline</uicontrol> view, and vice versa.</li>
-          <li id="li_ewf_cgk_54b">Document errors are highlighted in the
+          <li id="li_ewf_cgk_54b" irina="irina">Document errors are highlighted in the
               <uicontrol>Outline</uicontrol> view. A tooltip also provides more information about
             the nature of the error when you hover over the faulted element.</li>
-          <li id="li_krc_w3b_rzb">Arrays and array elements have the number of their children
+          <li id="li_krc_w3b_rzb" irina="irina">Arrays and array elements have the number of their children
             elements displayed in their label and each child is prefixed with the index in the
             array.</li>
         </ul></p>
@@ -79,16 +79,16 @@
         using only the mouse in the <uicontrol>Outline</uicontrol> view with drag-and-drop
         operations. Several drag and drop actions are possible:</p>
       <ul id="ul_nwf_cgk_54b">
-        <li id="li_owf_cgk_54b">If you drag a JSON node within the <uicontrol>Outline</uicontrol>
+        <li id="li_owf_cgk_54b" irina="irina">If you drag a JSON node within the <uicontrol>Outline</uicontrol>
           view and drop it on another node, then the dragged node will be moved after the drop
           target.</li>
-        <li id="li_pwf_cgk_54b">If you hold the mouse pointer over the drop target for a short time before the drop then
+        <li id="li_pwf_cgk_54b" irina="irina">If you hold the mouse pointer over the drop target for a short time before the drop then
           the drop target node will be expanded first and the dragged node will be moved inside the
           drop target.</li>
-        <li id="li_qwf_cgk_54b">You can also drop a node before or after another node if you hold the mouse pointer
+        <li id="li_qwf_cgk_54b" irina="irina">You can also drop a node before or after another node if you hold the mouse pointer
           towards the upper or lower part of the target. A marker will indicate whether the drop
           will be performed before or after the target node.</li>
-        <li id="li_rwf_cgk_54b">If you hold down the <uicontrol><shortcut>Ctrl (Command on macOS)</shortcut></uicontrol>
+        <li id="li_rwf_cgk_54b" irina="irina">If you hold down the <uicontrol><shortcut>Ctrl (Command on macOS)</shortcut></uicontrol>
           key after dragging, a copy operation will be performed instead of a move.</li>
       </ul>
     </section>

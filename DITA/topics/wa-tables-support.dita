@@ -21,20 +21,20 @@
         action on the toolbar or from the contextual menu to insert a table at the current cursor
         location. This opens a dialog box that provides some insertion options depending on the
         particular document type (<term>framework</term>).<ul id="ul_nt4_dgk_54b">
-          <li id="li_ot4_dgk_54b"><b>DITA</b> - For DITA documents, you can choose between a <uicontrol>CALS</uicontrol>
+          <li id="li_ot4_dgk_54b" irina="irina"><b>DITA</b> - For DITA documents, you can choose between a <uicontrol>CALS</uicontrol>
             and <uicontrol>Simple</uicontrol> table and optionally enter a value for the
               <xmlelement>title</xmlelement> element (a title displayed at the top of the table).
             The CALS table model provides more advanced functionality while the Simple model is most
             commonly used for basic tables.</li>
-          <li id="li_pt4_dgk_54b"><b>DocBook</b> - For DocBook documents, you can choose between a
+          <li id="li_pt4_dgk_54b" irina="irina"><b>DocBook</b> - For DocBook documents, you can choose between a
               <uicontrol>CALS</uicontrol> and <uicontrol>HTML</uicontrol> table and optionally enter
             a value for the <xmlelement>title</xmlelement> element (a title displayed at the top of
             the table). The CALS table mode provides more advanced functionality while the HTML
             model is used to insert a formal (captioned) table.</li>
-          <li id="li_qt4_dgk_54b"><b>TEI</b> - For TEI documents, it inserts a basic table and you can optionally enter
+          <li id="li_qt4_dgk_54b" irina="irina"><b>TEI</b> - For TEI documents, it inserts a basic table and you can optionally enter
             a value for the <xmlelement>head</xmlelement> element (a title or heading displayed at
             the top of the table).</li>
-          <li id="li_rt4_dgk_54b"><b>XHTML</b> - For XHTML documents, it inserts a basic HTML table and you can
+          <li id="li_rt4_dgk_54b" irina="irina"><b>XHTML</b> - For XHTML documents, it inserts a basic HTML table and you can
             optionally enter a value for the <xmlelement>caption</xmlelement> element (a title or
             caption displayed at the top of the table).</li>
         </ul></p>

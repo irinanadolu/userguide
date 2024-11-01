@@ -34,22 +34,22 @@
     </p>
     <p id="p_l4v_bgk_54b">The main window is split in three sections:</p>
     <ul id="ul_m4v_bgk_54b">
-      <li id="li_n4v_bgk_54b"><uicontrol>Preview area</uicontrol> - Displays the formatted document page as it will
+      <li id="li_n4v_bgk_54b" irina="irina"><uicontrol>Preview area</uicontrol> - Displays the formatted document page as it will
         appear on printed paper.</li>
-      <li id="li_o4v_bgk_54b"><uicontrol>Left stripe</uicontrol> - The left-side stripe that displays a list of
+      <li id="li_o4v_bgk_54b" irina="irina"><uicontrol>Left stripe</uicontrol> - The left-side stripe that displays a list of
         thumbnail pages. Clicking any of them displays the page content in the main preview
         area.</li>
-      <li id="li_p4v_bgk_54b"><uicontrol>Toolbar</uicontrol> - The toolbar area at the top that contains controls for
+      <li id="li_p4v_bgk_54b" irina="irina"><uicontrol>Toolbar</uicontrol> - The toolbar area at the top that contains controls for
         printing, page settings, page navigation, print scaling, and zoom.</li>
     </ul>
     <section id="other_printing_features">
       <title>Other Printing Features</title>
       <ul id="ul_q4v_bgk_54b">
-        <li product="author editor" id="li_r4v_bgk_54b">If you are printing a document that is
+        <li product="author editor" id="li_r4v_bgk_54b" irina="irina">If you are printing a document that is
           opened in the <uicontrol>Author</uicontrol> visual editing mode, you can use the <xref
             href="dg-media-at-rule.dita#dg-media-at-rule">CSS print media type</xref> to change the
           styling in the printed output.</li>
-        <li product="author editor" id="li_s4v_bgk_54b">If you are printing a document that is
+        <li product="author editor" id="li_s4v_bgk_54b" irina="irina">If you are printing a document that is
           opened in <uicontrol>Author</uicontrol> mode and it contains <xref
             keyref="author_change-tracking" format="dita"><term>Tracked Changes</term></xref>, you
           can print (or print preview) a copy of the document as if all changes have been accepted
@@ -57,18 +57,18 @@
             href="author-managing-changes.dita#author-managing-changes/track_changes_view_modes"
             format="dita"><uicontrol>Track Changes Visualization Mode</uicontrol></xref> to
             <uicontrol>View Final</uicontrol>.</li>
-        <li id="li_t4v_bgk_54b">If you are printing a document that is opened in <uicontrol>Text</uicontrol> mode and
+        <li id="li_t4v_bgk_54b" irina="irina">If you are printing a document that is opened in <uicontrol>Text</uicontrol> mode and
           line numbers are displayed (the <xref
             href="preferences-editor-text.dita#preferences-editor-text/show-line-numbers"
               ><uicontrol>Show line numbers</uicontrol> option</xref> is selected), the printed
           output will include the line numbers.</li>
-        <li id="li_u4v_bgk_54b">If you are printing an XML document that is opened in
+        <li id="li_u4v_bgk_54b" irina="irina">If you are printing an XML document that is opened in
             <uicontrol>Text</uicontrol> mode and the <term>folding</term> support is activated (the
             <xref href="preferences-editor-text.dita#preferences-editor-text/enable-folding"
               ><uicontrol>Enable folding</uicontrol> option</xref> is selected), the printed output
           will include the current <term>folded</term> state. Note that this applies to printing an
           entire document and not selections within the document.</li>
-        <li id="li_v4v_bgk_54b">If you are printing an XML document that is opened in <uicontrol>Text</uicontrol> mode
+        <li id="li_v4v_bgk_54b" irina="irina">If you are printing an XML document that is opened in <uicontrol>Text</uicontrol> mode
           and a block of content is selected, you have the ability to print only the selection of
           text rather than the entire document. When you invoke the print action with a block of
           content selected in <uicontrol>Text</uicontrol> mode, a dialog box will be presented that

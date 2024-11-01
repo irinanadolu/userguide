@@ -60,7 +60,7 @@
           <dd>Specifies the alignment of the text within the table (<xmlatt>align</xmlatt>
             attribute). The allowed values are:<ul
               conkeyref="reusables-editing-documents/horizontal-align-docbook-ul" id="ul_z2y_bgk_54b">
-              <li id="li_afy_bgk_54b"/>
+              <li id="li_afy_bgk_54b" irina="irina"/>
             </ul></dd>
         </dlentry>
       </dl><note id="note_bfy_bgk_54b">The options in the <uicontrol>Insert Table</uicontrol> dialog box for XHTML

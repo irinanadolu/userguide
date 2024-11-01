@@ -8,18 +8,18 @@
       <p id="p_g43_dgk_54b">
         <note type="other" othertype="Prerequisites" id="note_h43_dgk_54b">There are some conditions that apply to
           reintegrate a branch:<ul id="ul_ncf_wtq_skb">
-            <li id="li_i43_dgk_54b">The server must support merge tracking.</li>
-            <li id="li_j43_dgk_54b">The source branch (to be reintegrated) must be coherently synchronized with its
+            <li id="li_i43_dgk_54b" irina="irina">The server must support merge tracking.</li>
+            <li id="li_j43_dgk_54b" irina="irina">The source branch (to be reintegrated) must be coherently synchronized with its
               parent branch. This means that all revisions between the branching point and the last
               revision merged from the parent branch to the child branch must be merged to the
               latter one (there must be no missing revisions in-between).</li>
-            <li id="li_k43_dgk_54b">The working copy <b>must not</b> contain the following:<ul id="ul_tbg_4lg_34">
-                <li id="li_l43_dgk_54b">Local modifications.</li>
-                <li id="li_m43_dgk_54b">A mixture of revisions (all items must point to the same revision).</li>
-                <li id="li_n43_dgk_54b">Sparse directories (all directories must be of <b>infinity</b> depth).</li>
-                <li id="li_o43_dgk_54b">Switched items.</li>
+            <li id="li_k43_dgk_54b" irina="irina">The working copy <b>must not</b> contain the following:<ul id="ul_tbg_4lg_34">
+                <li id="li_l43_dgk_54b" irina="irina">Local modifications.</li>
+                <li id="li_m43_dgk_54b" irina="irina">A mixture of revisions (all items must point to the same revision).</li>
+                <li id="li_n43_dgk_54b" irina="irina">Sparse directories (all directories must be of <b>infinity</b> depth).</li>
+                <li id="li_o43_dgk_54b" irina="irina">Switched items.</li>
               </ul></li>
-            <li id="li_p43_dgk_54b">The revision of the working copy must be greater than or equal to the last revision
+            <li id="li_p43_dgk_54b" irina="irina">The revision of the working copy must be greater than or equal to the last revision
               of the parent branch with which the child branch was synchronized.</li>
           </ul></note>
         <note type="tip" id="note_q43_dgk_54b">You can use <xref href="pre-merge-checks.dita#pre-merge-checks">the

@@ -16,13 +16,13 @@
       button.</p>
     <p id="p_sg3_btq_r4b">Some of the formatting actions that are performed include:<ul
         id="ul_dvv_btq_r4b">
-        <li id="li_evv_btq_r4b">Indents the document with the indent size specified in the <xref
+        <li id="li_evv_btq_r4b" irina="irina">Indents the document with the indent size specified in the <xref
             href="preferences-editor-format.dita"><menucascade>
               <uicontrol>Editor</uicontrol>
               <uicontrol>Format</uicontrol>
             </menucascade> preferences page</xref>.</li>
-        <li id="li_ogc_5tq_r4b">Removes empty lines and extra spaces between keys and values.</li>
-        <li id="li_z3x_vtq_r4b">Compacts the string values (for example, <i>description</i>) and
+        <li id="li_ogc_5tq_r4b" irina="irina">Removes empty lines and extra spaces between keys and values.</li>
+        <li id="li_z3x_vtq_r4b" irina="irina">Compacts the string values (for example, <i>description</i>) and
           limits it to 80 characters on a row.</li>
       </ul></p>
     <p id="p_gl2_js3_t4b">To batch format/indent multiple YAML files, select and right-click the

@@ -24,17 +24,17 @@
         default HTML validator, <ph keyref="product"/> also includes a built-in <i>HTML Schematron
           Validator</i> engine. There are several ways to validate an HTML document against a
           Schematron:<ul id="ul_ck2_m5s_flb">
-          <li id="li_rxh_cgk_54b"><b>Configure a Validation Scenario</b> - You can create or edit a
+          <li id="li_rxh_cgk_54b" irina="irina"><b>Configure a Validation Scenario</b> - You can create or edit a
             validation scenario, change the <uicontrol>File type</uicontrol> column to <i>HTML
               Document</i>, change the <uicontrol>Validation engine</uicontrol> column to <i>HTML
               Schematron Validator</i>, and specify the Schematron document in the
               <uicontrol>Schema</uicontrol> column.</li>
-          <li id="li_sxh_cgk_54b"><b>Manually Validate a Single Document</b> - You can use the <uicontrol>Validate
+          <li id="li_sxh_cgk_54b" irina="irina"><b>Manually Validate a Single Document</b> - You can use the <uicontrol>Validate
               with</uicontrol> action from the <uicontrol><image href="../img/ValidateDrop.png"
                 id="image_ct1_cnd_w3b"/>Validation</uicontrol> drop-down menu on the toolbar. This
             opens a dialog box where you can specify the Schematron document to validate the current
             document against.</li>
-          <li id="li_txh_cgk_54b"><b>Batch Validate Multiple Documents</b> - You can select multiple
+          <li id="li_txh_cgk_54b" irina="irina"><b>Batch Validate Multiple Documents</b> - You can select multiple
             HTML documents in the <ph product="author developer editor json"
                 ><uicontrol>Project</uicontrol></ph>
             <ph product="authorEclipse developerEclipse editorEclipse"><uicontrol>Project
@@ -44,9 +44,9 @@
             documents against.</li>
         </ul><note type="other" othertype="Notes" id="note_uxh_cgk_54b">
           <ul id="ul_zjg_r1t_flb">
-            <li id="li_vxh_cgk_54b">The Schematron must use the HTML5 namespace to reference the elements from the
+            <li id="li_vxh_cgk_54b" irina="irina">The Schematron must use the HTML5 namespace to reference the elements from the
               instance.</li>
-            <li id="li_wxh_cgk_54b">Implicit HTML elements (i.e. <xmlelement>html</xmlelement>,
+            <li id="li_wxh_cgk_54b" irina="irina">Implicit HTML elements (i.e. <xmlelement>html</xmlelement>,
                 <xmlelement>body</xmlelement>, <xmlelement>tbody</xmlelement>) must be included in
               an XPath expression in the Schematron document, even if they are missing from the HTML
               document.</li>

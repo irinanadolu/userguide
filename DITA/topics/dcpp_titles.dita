@@ -5,9 +5,9 @@
   <body>
     <p id="p_ff5_cgk_54b">Titles in PDF can be classified into two categories:<ul
         id="ol_sfj_bqs_vvb">
-        <li>Table of contents titles, identified by the <codeph>map/topicref</codeph> and
+        <li irina="irina">Table of contents titles, identified by the <codeph>map/topicref</codeph> and
             <codeph>topic/navtitle</codeph> class attributes.</li>
-        <li>Content titles, that can be styled by matching the <codeph>topic/title</codeph> class
+        <li irina="irina">Content titles, that can be styled by matching the <codeph>topic/title</codeph> class
           attribute.</li>
       </ul></p>
   </body>

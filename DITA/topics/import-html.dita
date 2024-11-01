@@ -25,7 +25,7 @@
       <title>Import Wizard Method</title>
       <p id="p_xzy_cgk_54b">To use the <uicontrol>Import</uicontrol> wizard to import from HTML files, follow these
           steps:<ol id="procedure-import-from-HTML">
-          <li id="li_yzy_cgk_54b">Go to <menucascade product="author developer editor">
+          <li id="li_yzy_cgk_54b" irina="irina">Go to <menucascade product="author developer editor">
               <uicontrol>File</uicontrol>
               <uicontrol>Import/Convert</uicontrol>
               <uicontrol>HTML File to XHTML</uicontrol>
@@ -36,15 +36,15 @@
               <uicontrol>HTML File to XHTML</uicontrol>
             </menucascade>. The <uicontrol>Import HTML to XHTML</uicontrol> wizard is
             displayed.</li>
-          <li product="authorEclipse developerEclipse editorEclipse" id="li_zzy_cgk_54b">Select a parent folder and file
+          <li product="authorEclipse developerEclipse editorEclipse" id="li_zzy_cgk_54b" irina="irina">Select a parent folder and file
             name for the resulting XHTML document. </li>
-          <li id="li_a1z_cgk_54b">Enter the URL of the HTML document. </li>
-          <li id="li_b1z_cgk_54b">Select the type of the resulting XHTML document: <ul id="ul_c1z_cgk_54b">
-              <li id="li_d1z_cgk_54b">XHTML5</li>
-              <li id="li_e1z_cgk_54b">XHTML 1.0 Transitional</li>
-              <li id="li_f1z_cgk_54b">XHTML 1.0 Strict</li>
+          <li id="li_a1z_cgk_54b" irina="irina">Enter the URL of the HTML document. </li>
+          <li id="li_b1z_cgk_54b" irina="irina">Select the type of the resulting XHTML document: <ul id="ul_c1z_cgk_54b">
+              <li id="li_d1z_cgk_54b" irina="irina">XHTML5</li>
+              <li id="li_e1z_cgk_54b" irina="irina">XHTML 1.0 Transitional</li>
+              <li id="li_f1z_cgk_54b" irina="irina">XHTML 1.0 Strict</li>
             </ul></li>
-          <li id="li_g1z_cgk_54b">Click the <uicontrol product="author developer editor">OK</uicontrol><uicontrol
+          <li id="li_g1z_cgk_54b" irina="irina">Click the <uicontrol product="author developer editor">OK</uicontrol><uicontrol
               product="authorEclipse developerEclipse editorEclipse">Finish</uicontrol> button.
           </li>
         </ol></p>

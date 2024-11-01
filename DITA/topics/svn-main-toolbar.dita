@@ -50,18 +50,18 @@
           <dt><uicontrol><image href="../img/SVNToolbarCompare32.png" id="image_hqf_x13_5r"
               />Compare</uicontrol></dt>
           <dd>The selected resource is compared with: <ul id="ul_yrh_dgk_54b">
-              <li id="li_zrh_dgk_54b">The <i>BASE</i> revision, when the selected resource is:<ul id="ul_ash_dgk_54b">
-                  <li id="li_bsh_dgk_54b">Locally modified and the <uicontrol>All Files</uicontrol> view mode is
+              <li id="li_zrh_dgk_54b" irina="irina">The <i>BASE</i> revision, when the selected resource is:<ul id="ul_ash_dgk_54b">
+                  <li id="li_bsh_dgk_54b" irina="irina">Locally modified and the <uicontrol>All Files</uicontrol> view mode is
                     currently selected (no matter if there are incoming changes).</li>
-                  <li id="li_csh_dgk_54b">Locally modified and there are no incoming changes when any other view mode is
+                  <li id="li_csh_dgk_54b" irina="irina">Locally modified and there are no incoming changes when any other view mode is
                     selected.</li>
                 </ul></li>
-              <li id="li_dsh_dgk_54b">The remote version of the same resource, when remote information is available
+              <li id="li_dsh_dgk_54b" irina="irina">The remote version of the same resource, when remote information is available
                 after a <uicontrol>Synchronize</uicontrol> operation (only when one of
                   <uicontrol>Modified</uicontrol>, <uicontrol>Incoming</uicontrol>,
                   <uicontrol>Outgoing</uicontrol> and <uicontrol>Conflicts</uicontrol> view modes is
                 selected).</li>
-              <li id="li_esh_dgk_54b">The working copy revision, when the selected resource is from the
+              <li id="li_esh_dgk_54b" irina="irina">The working copy revision, when the selected resource is from the
                   <uicontrol>History</uicontrol> view.</li>
             </ul></dd>
         </dlentry>

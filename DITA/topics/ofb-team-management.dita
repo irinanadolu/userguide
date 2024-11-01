@@ -21,12 +21,12 @@
       link in the left menu bar in the interface for a particular site configuration. The current
       team is listed with their avatar, name, and email address. The possible roles are:<ul
         id="ul_x2s_rng_gjb">
-        <li id="li_a1x_dgk_54b"><b>Moderator</b> - This type of user has rights to moderate comment posts (edit,
+        <li id="li_a1x_dgk_54b" irina="irina"><b>Moderator</b> - This type of user has rights to moderate comment posts (edit,
           approve, reject, or delete).</li>
-        <li id="admin"><b>Admin</b> - This type of user has rights to moderate comment posts and to
+        <li id="admin" irina="irina"><b>Admin</b> - This type of user has rights to moderate comment posts and to
           configure site settings, versions, team members, and user roles. The site <i>Owner</i>
           also has all of these rights.</li>
-        <li id="owner"><b>Owner</b> (This role is automatically assigned when the site configuration
+        <li id="owner" irina="irina"><b>Owner</b> (This role is automatically assigned when the site configuration
           is created) - This type of user has rights to moderate comment posts (edit, approve,
           reject, or delete), configure site settings, versions, team members, and user roles, as
           well as rights to <xref href="ofb-editing-site.dita#ofb-editing-site/delete-site"

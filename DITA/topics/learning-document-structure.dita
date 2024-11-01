@@ -31,8 +31,8 @@
       <title>Creating a DTD from Learned Document Structure</title>
       <p id="p_gsz_bgk_54b">To create a DTD from the learned structure of an XML document, follow
         these steps:<ol id="ol_g4y_wzt_jyb">
-          <li id="li_h4y_wzt_jyb">Open the XML document that will be used to create the DTD. </li>
-          <li id="li_i4y_wzt_jyb">Go to <menucascade product="author developer editor">
+          <li id="li_h4y_wzt_jyb" irina="irina">Open the XML document that will be used to create the DTD. </li>
+          <li id="li_i4y_wzt_jyb" irina="irina">Go to <menucascade product="author developer editor">
               <uicontrol>Document</uicontrol>
               <uicontrol>XML Document</uicontrol>
               <uicontrol>Learn Structure</uicontrol>
@@ -44,7 +44,7 @@
               the mark-up structure of the current document. A <uicontrol>Learn
                 completed</uicontrol> message is displayed in the application status bar when the
               action is finished.</itemgroup></li>
-          <li id="li_j4y_wzt_jyb">Go to <menucascade product="author developer editor">
+          <li id="li_j4y_wzt_jyb" irina="irina">Go to <menucascade product="author developer editor">
               <uicontrol>Document</uicontrol>
               <uicontrol>XML Document</uicontrol>
               <uicontrol>Save Structure</uicontrol>
@@ -53,7 +53,7 @@
               <uicontrol>Save Structure</uicontrol>
             </menucascade> (<uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_s"/>)
             and enter the file path for the DTD. </li>
-          <li id="li_k4y_wzt_jyb"> Click the <uicontrol>Save</uicontrol> button. </li>
+          <li id="li_k4y_wzt_jyb" irina="irina"> Click the <uicontrol>Save</uicontrol> button. </li>
         </ol></p>
     </section>
     </body>

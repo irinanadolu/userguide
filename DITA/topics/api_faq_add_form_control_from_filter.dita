@@ -72,11 +72,11 @@
   }
 });</codeblock></p>
       <p id="p_sjg_dgk_54b">The lazy evaluation approach can be used for the following form controls properties:<ul id="ul_tjg_dgk_54b">
-          <li id="li_ujg_dgk_54b"
+          <li id="li_ujg_dgk_54b" irina="irina"
             ><uicontrol>InplaceEditorArgumentKeys.PROPERTY_VALUES</uicontrol></li>
-          <li id="li_vjg_dgk_54b"
+          <li id="li_vjg_dgk_54b" irina="irina"
             ><uicontrol>InplaceEditorArgumentKeys.PROPERTY_LABELS</uicontrol></li>
-          <li id="li_wjg_dgk_54b"
+          <li id="li_wjg_dgk_54b" irina="irina"
             ><uicontrol>InplaceEditorArgumentKeys.PROPERTY_TOOLTIPS</uicontrol></li>
         </ul></p>
       <p id="p_xjg_dgk_54b">The full source code for this example is available inside the <xref

@@ -12,17 +12,17 @@
       JPEG/JPG, PNG, BMP.</p>
     <p id="p_rt5_bgk_54b">There are several ways to open an image in the <uicontrol>Image Preview</uicontrol> pane:<ul
         id="ul_k32_c4r_1kb">
-        <li id="li_st5_bgk_54b">In the <xref href="using-the-project-view.dita#using-the-project-view"
+        <li id="li_st5_bgk_54b" irina="irina">In the <xref href="using-the-project-view.dita#using-the-project-view"
               ><uicontrol>Project</uicontrol> view</xref>, double-click the image name.</li>
-        <li id="li_tt5_bgk_54b">In the <xref href="using-the-project-view.dita#using-the-project-view"
+        <li id="li_tt5_bgk_54b" irina="irina">In the <xref href="using-the-project-view.dita#using-the-project-view"
               ><uicontrol>Project</uicontrol> view</xref>, right-click an image and select
             <uicontrol>Preview</uicontrol>.</li>
-        <li product="author editor" id="li_ut5_bgk_54b">In the <xref href="dita-maps-manager.dita"><uicontrol>DITA Maps
+        <li product="author editor" id="li_ut5_bgk_54b" irina="irina">In the <xref href="dita-maps-manager.dita"><uicontrol>DITA Maps
               Manager</uicontrol> view</xref>, double-click the key definition of the image.</li>
-        <li product="author editor" id="li_vt5_bgk_54b">In the <xref href="dita-maps-manager.dita"><uicontrol>DITA Maps
+        <li product="author editor" id="li_vt5_bgk_54b" irina="irina">In the <xref href="dita-maps-manager.dita"><uicontrol>DITA Maps
               Manager</uicontrol> view</xref>, right-click the key definition of the image and
           select <uicontrol>Open</uicontrol>.</li>
-        <li id="li_wt5_bgk_54b">In <uicontrol>Text</uicontrol> mode, <uicontrol><shortcut>Ctrl + Mouse
+        <li id="li_wt5_bgk_54b" irina="irina">In <uicontrol>Text</uicontrol> mode, <uicontrol><shortcut>Ctrl + Mouse
             Click</shortcut></uicontrol> or <uicontrol><shortcut>Ctrl + Enter</shortcut></uicontrol>
           with the cursor located within the image file path.</li>
       </ul>Once the image is displayed in the <uicontrol>Image Preview</uicontrol> pane, you have

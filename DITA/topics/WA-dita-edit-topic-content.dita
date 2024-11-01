@@ -25,11 +25,11 @@
       is also displayed in the <xref href="wa-outline-pane.dita"/>.<note type="other"
         othertype="Notes" id="note_ul4_dgk_54b">
         <ul id="ul_hrx_xr3_qnb">
-          <li id="li_vl4_dgk_54b">This editing mode may not be available if the file server connector does not support
+          <li id="li_vl4_dgk_54b" irina="irina">This editing mode may not be available if the file server connector does not support
             it. For example, with the built-in connectors, this action is available for all types of
             Git repositories, except for <term>BitBucket Server</term>.</li>
-          <li id="li_wl4_dgk_54b">For performance reasons, only modified topics are validated.</li>
-          <li id="li_xl4_dgk_54b">Only top-level topics in a DITA file can be edited.</li>
+          <li id="li_wl4_dgk_54b" irina="irina">For performance reasons, only modified topics are validated.</li>
+          <li id="li_xl4_dgk_54b" irina="irina">Only top-level topics in a DITA file can be edited.</li>
         </ul>
       </note></p>
   </body>

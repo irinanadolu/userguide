@@ -24,17 +24,17 @@
       has an option to add an additional message to provide more details, if desired.<note
         type="other" othertype="Notes" id="note_kzt_dgk_54b">
         <ul id="ul_fmz_4vz_2mb">
-          <li id="li_lzt_dgk_54b">Using the <uicontrol>Finalize My Review</uicontrol> button does
+          <li id="li_lzt_dgk_54b" irina="irina">Using the <uicontrol>Finalize My Review</uicontrol> button does
             not delete or lock the task. It is simply meant to be a way to notify others that your
             review process is finished.</li>
-          <li id="li_mzt_dgk_54b">You can see all your finalized review tasks by going to the <xref
+          <li id="li_mzt_dgk_54b" irina="irina">You can see all your finalized review tasks by going to the <xref
               href="content_fusion_task_details.dita"><uicontrol>My Review Tasks</uicontrol>
               page</xref> (click the <uicontrol>Review Tasks</uicontrol> button in the top header
             stripe or select <uicontrol>My Review Tasks</uicontrol> from the user name drop-down
             menu in the top-right corner). Then go to the <uicontrol>Assigned To Me</uicontrol> tab
             and if the finalized tasks category is not shown, click the <uicontrol>Show finalized
               review tasks</uicontrol> link at the bottom of the page.</li>
-          <li id="li_bzv_1dl_b1c">When you finalize a review task, it remains in the
+          <li id="li_bzv_1dl_b1c" irina="irina">When you finalize a review task, it remains in the
               <uicontrol>Finalized</uicontrol> state if other collaborators make changes to
             documents within the task. The <uicontrol>Finalized</uicontrol> state does reset for a
             particular user if they make changes within the task, or if a task owner either <xref

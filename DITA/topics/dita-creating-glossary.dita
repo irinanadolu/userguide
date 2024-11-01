@@ -25,9 +25,9 @@
       <title>How to Create a Glossary of Terms in <ph keyref="product"/></title>
       <p id="p_c3m_dgk_54b">Even though there are several ways to create a glossary and reference the glossary terms,
         the following is the recommended approach:<ol id="ol_xtr_d3g_1q">
-          <li id="li_d3m_dgk_54b"><xref href="eppo-submaps.dita#eppo-submaps/adding_a_submap_to_a_map">Create a new
+          <li id="li_d3m_dgk_54b" irina="irina"><xref href="eppo-submaps.dita#eppo-submaps/adding_a_submap_to_a_map">Create a new
               submap</xref> for your glossary and embed it in your main map.</li>
-          <li id="li_e3m_dgk_54b">
+          <li id="li_e3m_dgk_54b" irina="irina">
             <p id="p_f3m_dgk_54b">Create a glossary entry topic (<xref
                 href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossentry.html"
                 format="html" scope="external"><xmlelement>glossentry</xmlelement></xref>) for each
@@ -44,22 +44,22 @@
     &lt;glossdef>A language used for defining database schemas.&lt;/glossdef>
 &lt;/glossentry></codeblock></p>
             <p id="p_i3m_dgk_54b">The easiest way to create a glossentry topic in <ph keyref="product"/>:<ol id="ol_j3m_dgk_54b">
-                <li id="li_k3m_dgk_54b">Click the <uicontrol><image href="../img/New16.png"/> New</uicontrol> file
+                <li id="li_k3m_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/New16.png"/> New</uicontrol> file
                   wizard button on the toolbar.</li>
-                <li id="li_l3m_dgk_54b">Type <term>glossentry</term> in the search field at the top
+                <li id="li_l3m_dgk_54b" irina="irina">Type <term>glossentry</term> in the search field at the top
                   of the dialog box.</li>
-                <li id="li_m3m_dgk_54b">Select the <uicontrol>Glossentry</uicontrol> DITA topic type, configure the name
+                <li id="li_m3m_dgk_54b" irina="irina">Select the <uicontrol>Glossentry</uicontrol> DITA topic type, configure the name
                   and optionally the title, and click <uicontrol>Create</uicontrol>.</li>
               </ol></p>
           </li>
-          <li id="li_n3m_dgk_54b">
+          <li id="li_n3m_dgk_54b" irina="irina">
             <p id="p_o3m_dgk_54b">Reference each glossary entry topic in your glossary submap using the
                 <xmlelement>glossref</xmlelement> element. This element requires a
                 <xmlatt>keys</xmlatt> attribute. Please make sure the <xmlatt>print</xmlatt>
               attribute is set to <codeph>yes</codeph> to show the glossary also in the PDF
               output.<codeblock outputclass="language-xml" id="codeblock_p3m_dgk_54b">&lt;glossref keys="gloss_ddl" href="ddl.dita" print="yes"/></codeblock></p>
             <p id="p_q3m_dgk_54b">The easiest way to reference a glossentry in <ph keyref="product"/>:<ol id="ol_r3m_dgk_54b">
-                <li id="li_s3m_dgk_54b">
+                <li id="li_s3m_dgk_54b" irina="irina">
                   <p id="p_t3m_dgk_54b">With the glossary entry topic opened in the main editor, open the glossary
                     submap in the <uicontrol>DITA Maps Manager</uicontrol>, right-click the map node
                     and select <menucascade>
@@ -74,12 +74,12 @@
                       href="dita-insert-topic-ref.dita#dita-insert-topic-ref"><uicontrol>Insert
                         Reference</uicontrol> dialog box</xref>.</p>
                 </li>
-                <li id="li_v3m_dgk_54b">Go to the <uicontrol>Keys</uicontrol> tab and enter a name in the
+                <li id="li_v3m_dgk_54b" irina="irina">Go to the <uicontrol>Keys</uicontrol> tab and enter a name in the
                     <uicontrol>Define keys</uicontrol> field.</li>
-                <li id="li_w3m_dgk_54b">Go to the <uicontrol>Attributes</uicontrol> tab and select <uicontrol>Glossary
+                <li id="li_w3m_dgk_54b" irina="irina">Go to the <uicontrol>Attributes</uicontrol> tab and select <uicontrol>Glossary
                     Reference</uicontrol> from the <uicontrol>Reference type</uicontrol> drop-down
                   list at the top of the dialog box.</li>
-                <li id="li_x3m_dgk_54b">Click <uicontrol>Insert and Close</uicontrol>.</li>
+                <li id="li_x3m_dgk_54b" irina="irina">Click <uicontrol>Insert and Close</uicontrol>.</li>
               </ol></p>
           </li>
         </ol></p>
@@ -105,13 +105,13 @@
         definition.</p>
       <p id="p_cjm_dgk_54b">The easiest way to add a <xmlelement>term</xmlelement> element and reference the glossary
         term in <ph keyref="product"/>:<ol id="ol_djm_dgk_54b">
-          <li id="li_ejm_dgk_54b">Place the cursor at the location where you want to insert a link to the glossary
+          <li id="li_ejm_dgk_54b" irina="irina">Place the cursor at the location where you want to insert a link to the glossary
             term.</li>
-          <li id="li_fjm_dgk_54b">In the <xref href="dita-reusable-components-view.dita#dita-reusable-components-view"
+          <li id="li_fjm_dgk_54b" irina="irina">In the <xref href="dita-reusable-components-view.dita#dita-reusable-components-view"
                 ><uicontrol>DITA Reusable Componts</uicontrol> view</xref>, go to the
               <uicontrol>Keys</uicontrol> tab and use the search filter field at the top of the view
             to find the key for the particular glossary term.</li>
-          <li id="li_gjm_dgk_54b">Right-click the key and select <menucascade>
+          <li id="li_gjm_dgk_54b" irina="irina">Right-click the key and select <menucascade>
               <uicontrol>Insert as Keyref</uicontrol>
               <uicontrol>More</uicontrol>
               <uicontrol>Term</uicontrol>

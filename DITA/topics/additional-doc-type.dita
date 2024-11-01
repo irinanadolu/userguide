@@ -17,18 +17,18 @@
     <p id="p_isk_cgk_54b">Similar to the built-in <xref keyref="glossentry_framework"><term>frameworks</term></xref>,
       the additional frameworks may define:</p>
     <ul id="ul_f1v_ryn_5jb">
-      <li id="li_jsk_cgk_54b">A default grammar used for validation and content completion in <ph
+      <li id="li_jsk_cgk_54b" irina="irina">A default grammar used for validation and content completion in <ph
           product="author editor authorEclipse editorEclipse">both <uicontrol>Author</uicontrol>
           mode and </ph><uicontrol>Text</uicontrol> mode.</li>
-      <li product="author editor authorEclipse editorEclipse" id="li_ksk_cgk_54b">CSS stylesheets for rendering XML
+      <li product="author editor authorEclipse editorEclipse" id="li_ksk_cgk_54b" irina="irina">CSS stylesheets for rendering XML
         documents in <uicontrol>Author</uicontrol> mode.</li>
-      <li product="author editor authorEclipse editorEclipse" id="li_lsk_cgk_54b">User actions invoked from toolbars or
+      <li product="author editor authorEclipse editorEclipse" id="li_lsk_cgk_54b" irina="irina">User actions invoked from toolbars or
         menus in <uicontrol>Author</uicontrol> mode.</li>
-      <li id="li_msk_cgk_54b">Built-in transformation scenarios used for publishing XML documents.</li>
-      <li id="li_nsk_cgk_54b"><xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> used for mapping
+      <li id="li_msk_cgk_54b" irina="irina">Built-in transformation scenarios used for publishing XML documents.</li>
+      <li id="li_nsk_cgk_54b" irina="irina"><xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref> used for mapping
         resources.</li>
-      <li id="li_osk_cgk_54b">New document templates to make it easy to create XML documents.</li>
-      <li product="author editor authorEclipse editorEclipse" id="li_psk_cgk_54b">User-defined extensions for
+      <li id="li_osk_cgk_54b" irina="irina">New document templates to make it easy to create XML documents.</li>
+      <li product="author editor authorEclipse editorEclipse" id="li_psk_cgk_54b" irina="irina">User-defined extensions for
         customizing the interaction with the content author in <uicontrol>Author</uicontrol>
         mode.</li>
     </ul>

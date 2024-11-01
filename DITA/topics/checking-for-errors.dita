@@ -14,8 +14,8 @@
   <body>
     <p id="p_bbp_dgk_54b"><ph keyref="webappProduct"/> automatically checks the document for errors. The errors and
       warnings reported by the validation engine include problems found in the following:<ul id="ul_cbp_dgk_54b">
-        <li id="li_dbp_dgk_54b">The structural integrity and well-formedness of the document.</li>
-        <li id="li_ebp_dgk_54b">A set of best practice rules (such as a maximum number of words in a paragraph).</li>
+        <li id="li_dbp_dgk_54b" irina="irina">The structural integrity and well-formedness of the document.</li>
+        <li id="li_ebp_dgk_54b" irina="irina">A set of best practice rules (such as a maximum number of words in a paragraph).</li>
       </ul></p>
     <section id="presenting_validation_problems_in_the_editing_pan">
       <title>Presenting Validation Problems in the Editing Panel</title>
@@ -33,9 +33,9 @@
       <p id="p_hbp_dgk_54b">A red marker shows the number of errors found in the document. Each detected problem is
         listed in its own box in this side panel and each box has a colored left border that
         indicates the type of problem.<ul id="ul_ibp_dgk_54b">
-          <li id="li_jbp_dgk_54b"><b>Red</b> – Indicates a validation error.</li>
-          <li id="li_kbp_dgk_54b"><b>Yellow</b> - Indicates a validation warning.</li>
-          <li id="li_lbp_dgk_54b"><b>Blue</b> - Indicates an informational message.</li>
+          <li id="li_jbp_dgk_54b" irina="irina"><b>Red</b> – Indicates a validation error.</li>
+          <li id="li_kbp_dgk_54b" irina="irina"><b>Yellow</b> - Indicates a validation warning.</li>
+          <li id="li_lbp_dgk_54b" irina="irina"><b>Blue</b> - Indicates an informational message.</li>
         </ul>If you click (or tap) a validation item in this side panel, that particular problem is
         highlighted in the editor. Similarly, if the cursor is located at a location in the document
         where there is a problem, that particular validation item is highlighted in the

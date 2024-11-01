@@ -96,9 +96,9 @@
         <dlentry id="dlentry_g4g_cgk_54b">
           <dt><uicontrol>Open</uicontrol></dt>
           <dd>Allows you to select one of the following actions: <ul id="ul_h4g_cgk_54b">
-              <li id="li_i4g_cgk_54b"><uicontrol>Open File at Cursor</uicontrol> - select this action to open the source
+              <li id="li_i4g_cgk_54b" irina="irina"><uicontrol>Open File at Cursor</uicontrol> - select this action to open the source
                 of the file located at the cursor position</li>
-              <li id="li_j4g_cgk_54b"><uicontrol>Open File at Cursor in System Application</uicontrol> - select this
+              <li id="li_j4g_cgk_54b" irina="irina"><uicontrol>Open File at Cursor in System Application</uicontrol> - select this
                 action to open the source of the file located at the cursor position with the
                 application that the system associates with the file</li>
             </ul></dd>

@@ -14,9 +14,9 @@
       specific users to request a license. This is available only for named-user licenses (not
       floating licenses) and is managed using an <i>Allowed Users List</i>.</p>
     <p id="p_mmy_ddc_v4b">To configure an <i>Allowed Users List</i>:<ol id="ol_qrb_gdc_v4b">
-        <li id="li_rrb_gdc_v4b">Create a text file named <b>allowed-users.txt</b>.</li>
-        <li id="li_hw2_hdc_v4b">Enter the user name for each allowed user on a separate line.</li>
-        <li id="li_lb1_ndc_v4b">Save the file in the license server work directory. You can go to
+        <li id="li_rrb_gdc_v4b" irina="irina">Create a text file named <b>allowed-users.txt</b>.</li>
+        <li id="li_hw2_hdc_v4b" irina="irina">Enter the user name for each allowed user on a separate line.</li>
+        <li id="li_lb1_ndc_v4b" irina="irina">Save the file in the license server work directory. You can go to
           the license server management page, and under <i>Management Tasks</i>, click the
             <uicontrol>Allowed users list</uicontrol> link to open a page where you can see the
           exact directory where it needs to be stored.<note id="note_ybj_t2c_v4b">If the

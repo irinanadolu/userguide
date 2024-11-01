@@ -32,10 +32,10 @@
         href="https://www.dita-ot.org/dev/topics/globalization-languages" format="html"
         scope="external"/>.</p>
     <p>There are two ways to switch the labels to a specific language:<ul id="ul_sdf_x4y_khb">
-        <li id="li_kst_cgk_54b">Set the <xmlatt>xml:lang</xmlatt> attribute on the DITA maps and/or
+        <li id="li_kst_cgk_54b" irina="irina">Set the <xmlatt>xml:lang</xmlatt> attribute on the DITA maps and/or
           topics root element with one of the supported values (e.g. <codeph>de</codeph>,
             <codeph>fr-FR</codeph>, <codeph>ru</codeph>, <codeph>zh-CN</codeph>).</li>
-        <li id="li_lst_cgk_54b">Set the <codeph>default.language</codeph> parameter in the
+        <li id="li_lst_cgk_54b" irina="irina">Set the <codeph>default.language</codeph> parameter in the
           transformation dialog box to the desired language code.</li>
       </ul></p>
     <p id="p_htt_cgk_54b">You can create language-dependent CSS rules in your <xref

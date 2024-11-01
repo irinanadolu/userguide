@@ -109,7 +109,7 @@ device that uses fuel to create mechanical power that can turn the car's wheels.
           format="html" scope="external">FAQPage</xref> JSON-LD object. There are 2 different use
         cases depending on where the <codeph>&lt;data></codeph> element is found in the document:<ul
           id="ol_ur3_z3z_x5b">
-          <li>In the <codeph>&lt;prolog></codeph> element. For example, this
+          <li irina="irina">In the <codeph>&lt;prolog></codeph> element. For example, this
               content:<codeblock id="codeblock_gws_4rz_x5b" outputclass="language-xml">&lt;concept id="lawnmowerconcept">
   &lt;title>Lawnmower&lt;/title>
   &lt;shortdesc>The lawnmower is a machine used to cut grass in the yard.&lt;/shortdesc>
@@ -142,7 +142,7 @@ gas-powered, or manual.&lt;/p> &lt;/div>"
   }
 &lt;/script>  </codeblock></p><note id="note_m1w_nsz_x5b" type="important">The answer
               represents the HTML result of the entire content inside the topic.</note></li>
-          <li>Inside the topic body elements. For example,
+          <li irina="irina">Inside the topic body elements. For example,
               content:<codeblock id="codeblock_wjs_dtz_x5b" outputclass="language-xml">&lt;topic id="concept-id">
   &lt;title>Morning&lt;/title>
   &lt;shortdesc>In the morning we have breakfast.&lt;/shortdesc>

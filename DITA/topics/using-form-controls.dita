@@ -26,8 +26,8 @@
         custom form controls</xref> for more specific needs.  The types of built-in form controls
       that are available include: <ul
         conkeyref="reusables-author-mode-customization/built-in-form-controls-ul" id="ul_dxy_bgk_54b">
-        <li id="li_exy_bgk_54b"/>
-        <li id="li_fxy_bgk_54b"/>
+        <li id="li_exy_bgk_54b" irina="irina"/>
+        <li id="li_fxy_bgk_54b" irina="irina"/>
       </ul></p>
     <p id="p_gxy_bgk_54b">The following image is an example of several form controls rendered in
         <uicontrol>Author</uicontrol> mode. The first (<i>Direct manager</i>) is a combo box with

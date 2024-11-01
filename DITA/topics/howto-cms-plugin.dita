@@ -14,25 +14,25 @@
     <p id="p_p52_dgk_54b">To have a complete integration between <ph keyref="product"/> and a CMS, you usually have to
       write a <xref keyref="glossentry_plugin"><term>plugin</term></xref> that combines the
       following two available <term>plugin</term> extensions:<ul id="ol_gnu_jbt_z">
-        <li id="li_q52_dgk_54b"><xref href="workspace-access-plugin.dita#workspace-access-plugin" format="dita"
+        <li id="li_q52_dgk_54b" irina="irina"><xref href="workspace-access-plugin.dita#workspace-access-plugin" format="dita"
             >Workspace Access</xref></li>
-        <li id="li_r52_dgk_54b"><xref href="howto-custom-protocol-plugin.dita#howto-custom-protocol-plugin"
+        <li id="li_r52_dgk_54b" irina="irina"><xref href="howto-custom-protocol-plugin.dita#howto-custom-protocol-plugin"
             format="dita">Custom protocol</xref></li>
       </ul>The usual set of requirements for an integration between <ph keyref="product"/> and the
       CMS are as follows:</p>
     <ol id="procedure-custom-protocol">
-      <li id="li_s52_dgk_54b">Contribute to the <ph keyref="product"/> toolbars and main menu with your custom <b>Check
+      <li id="li_s52_dgk_54b" irina="irina">Contribute to the <ph keyref="product"/> toolbars and main menu with your custom <b>Check
           Out</b> and <b>Check In</b> actions:<ul id="ul_t52_dgk_54b">
-          <li id="li_u52_dgk_54b"><b>Check Out</b> triggers your custom dialog boxes that allow you to browse the remote
+          <li id="li_u52_dgk_54b" irina="irina"><b>Check Out</b> triggers your custom dialog boxes that allow you to browse the remote
             CMS and choose the resources you want to open.</li>
-          <li id="li_v52_dgk_54b">
+          <li id="li_v52_dgk_54b" irina="irina">
             <p id="p_w52_dgk_54b"><b>Check In</b> allows you to send the modified content back to the server.</p>
             <p id="p_x52_dgk_54b">You can use the <b>Workspace Access</b>
               <term>plugin extension</term> (and provided sample Java code) for all these
               operations.</p>
           </li>
         </ul></li>
-      <li id="li_y52_dgk_54b">
+      <li id="li_y52_dgk_54b" irina="irina">
         <p id="p_z52_dgk_54b">When <b>Check Out</b> is called, use the <ph keyref="product"/> API to open your custom
           URLs (URLs created using your custom protocol). It is important to implement and use a
             <b>Custom Protocol</b> extension to be notified when the files are opened and saved and
@@ -69,17 +69,17 @@ throws MalformedURLException {
           </fig>
         </p>
         <p id="p_dv2_dgk_54b">The phases are:<ul id="ol_svs_qxm_hb">
-            <li id="li_ev2_dgk_54b">1 - Browse CMS repository</li>
-            <li id="li_fv2_dgk_54b">2 - User chooses a resource</li>
-            <li id="li_gv2_dgk_54b">3 - Use API to open custom URL: <filepath>mycms://path/to/file.xml</filepath></li>
-            <li id="li_hv2_dgk_54b">4 - Get content of URL: <filepath>mycms://path/to/file.xml</filepath></li>
-            <li id="li_iv2_dgk_54b">5 - Get content of resource</li>
-            <li id="li_jv2_dgk_54b">6 - Store on disk for faster access</li>
-            <li id="li_kv2_dgk_54b">7 - Retrieve content from disk if already checked out</li>
-            <li id="li_lv2_dgk_54b">8 - Retrieved content</li>
+            <li id="li_ev2_dgk_54b" irina="irina">1 - Browse CMS repository</li>
+            <li id="li_fv2_dgk_54b" irina="irina">2 - User chooses a resource</li>
+            <li id="li_gv2_dgk_54b" irina="irina">3 - Use API to open custom URL: <filepath>mycms://path/to/file.xml</filepath></li>
+            <li id="li_hv2_dgk_54b" irina="irina">4 - Get content of URL: <filepath>mycms://path/to/file.xml</filepath></li>
+            <li id="li_iv2_dgk_54b" irina="irina">5 - Get content of resource</li>
+            <li id="li_jv2_dgk_54b" irina="irina">6 - Store on disk for faster access</li>
+            <li id="li_kv2_dgk_54b" irina="irina">7 - Retrieve content from disk if already checked out</li>
+            <li id="li_lv2_dgk_54b" irina="irina">8 - Retrieved content</li>
           </ul></p>
       </li>
-      <li id="li_mv2_dgk_54b">
+      <li id="li_mv2_dgk_54b" irina="irina">
         <p id="p_nv2_dgk_54b">Contribute a special <b>Browse CMS</b> action to every dialog box in <ph keyref="product"
           /> where a URL can be chosen to perform a special action (such as the <b>Reuse Content</b>
           or <b>Insert Image</b> action). Sample
@@ -133,7 +133,7 @@ throws MalformedURLException {
       });
 ...</codeblock></p>
       </li>
-      <li id="li_rv2_dgk_54b">Write the <filepath>plugin.xml</filepath> descriptor file. Your <term>plugin</term>
+      <li id="li_rv2_dgk_54b" irina="irina">Write the <filepath>plugin.xml</filepath> descriptor file. Your <term>plugin</term>
         combines the two extensions using a single set of libraries. The descriptor would look like
         this:<codeblock outputclass="language-xml" id="codeblock_sv2_dgk_54b">&lt;!DOCTYPE plugin SYSTEM "../plugin.dtd">
 &lt;plugin
@@ -154,10 +154,10 @@ throws MalformedURLException {
  &lt;extension type="URLHandler" 
   class="custom.cms.CustomProtocolURLHandlerExtension"/>
 &lt;/plugin></codeblock></li>
-      <li id="li_tv2_dgk_54b">Create a <filepath>cmsaccess.jar</filepath>
+      <li id="li_tv2_dgk_54b" irina="irina">Create a <filepath>cmsaccess.jar</filepath>
         <xref keyref="glossentry_jar"><term>JAR</term></xref> archive containing your implementation
         classes.</li>
-      <li id="li_uv2_dgk_54b">Copy your new <term>plugin</term> directory in the <filepath>plugins</filepath> subfolder of the <ph keyref="product"/> install folder (for example, <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"/>/plugins/myPlugin</filepath>) and start <ph keyref="product"/>.</li>
+      <li id="li_uv2_dgk_54b" irina="irina">Copy your new <term>plugin</term> directory in the <filepath>plugins</filepath> subfolder of the <ph keyref="product"/> install folder (for example, <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"/>/plugins/myPlugin</filepath>) and start <ph keyref="product"/>.</li>
     </ol>
   </body>
   <related-links>

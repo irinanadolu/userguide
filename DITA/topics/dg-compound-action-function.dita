@@ -26,15 +26,15 @@
       If you do not specify these three properties, those same properties defined in the first
         <term>oxy_action</term> function will be used for the labels.</p>
     <p id="oxy-action-properties1"><ul id="ul_nwc_dgk_54b">
-        <li id="li_owc_dgk_54b"><uicontrol>name</uicontrol> - The name of the action. It will be
+        <li id="li_owc_dgk_54b" irina="irina"><uicontrol>name</uicontrol> - The name of the action. It will be
           displayed as the label for the action. If you want to reuse the name of an action already
           defined in your framework, you can use the <term>oxy_getActionName</term> function.</li>
-        <li id="li_pwc_dgk_54b"><uicontrol>description</uicontrol> - A short description with
+        <li id="li_pwc_dgk_54b" irina="irina"><uicontrol>description</uicontrol> - A short description with
           details about the result of the action. It will be displayed in a tooltip when hovering
           over the button linked to this action. If you want to reuse the description of an action
           already defined in your framework, you can use the <term>oxy_getActionDescription</term>
           function.</li>
-        <li id="icon-li"><uicontrol>icon</uicontrol> - A path relative to the CSS pointing to an
+        <li id="icon-li" irina="irina"><uicontrol>icon</uicontrol> - A path relative to the CSS pointing to an
           image (the icon for the action). The path can point to resources that are packed in <ph
             keyref="product"/> (<filepath>oxygen.jar</filepath>) by starting its value with
             <codeph>/</codeph> (for example, <filepath>/images/Remove16.png</filepath>). It can also
@@ -44,10 +44,10 @@
       </ul>The <term>oxy_getActionName</term>, <term>oxy_getActionDescription</term>, and
         <term>oxy_getActionIcon</term> functions accept the following 2 parameters:<ul
         id="ul_qwc_dgk_54b">
-        <li id="li_rwc_dgk_54b"><uicontrol>framework.defined.action.id</uicontrol> (required) - The
+        <li id="li_rwc_dgk_54b" irina="irina"><uicontrol>framework.defined.action.id</uicontrol> (required) - The
           ID of an action defined in the current framework that gets the name, description, or icon
           for that action.</li>
-        <li id="li_swc_dgk_54b"><uicontrol>fallback</uicontrol> (optional) - A fallback value in
+        <li id="li_swc_dgk_54b" irina="irina"><uicontrol>fallback</uicontrol> (optional) - A fallback value in
           case the ID value provided in the <codeph>framework.defined.action.id</codeph> parameter
           is not found.</li>
       </ul></p>

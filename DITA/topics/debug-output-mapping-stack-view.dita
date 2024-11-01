@@ -72,13 +72,13 @@
       </tgroup>
     </table>
     <note type="important" id="note_z3z_cgk_54b">Remarks:<ul id="ul_ajz_cgk_54b">
-        <li id="li_bjz_cgk_54b">Clicking a record highlights that XSLT template definition/XQuery element inside the
+        <li id="li_bjz_cgk_54b" irina="irina">Clicking a record highlights that XSLT template definition/XQuery element inside the
           resource (XSLT stylesheet file/XQuery file).</li>
-        <li id="li_cjz_cgk_54b">Saxon only shows the applied XSLT templates having at least one hit from the processor.
+        <li id="li_cjz_cgk_54b" irina="irina">Saxon only shows the applied XSLT templates having at least one hit from the processor.
           Xalan shows all defined XSLT templates, with or without hits.</li>
-        <li id="li_djz_cgk_54b">The table can be sorted by clicking the corresponding column header. When clicking a
+        <li id="li_djz_cgk_54b" irina="irina">The table can be sorted by clicking the corresponding column header. When clicking a
           column header the sorting order switches between: ascending, descending, no sort.</li>
-        <li id="li_ejz_cgk_54b">Xalan shows also the built-in XSLT rules.</li>
+        <li id="li_ejz_cgk_54b" irina="irina">Xalan shows also the built-in XSLT rules.</li>
       </ul></note>
   </body>
   <related-links>

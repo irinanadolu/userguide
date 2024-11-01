@@ -5,13 +5,13 @@
     <body>
         <p>It is possible to use <ph keyref="product"/> within <b>Oxygen XML Editor/Author</b> by
       simply following these steps:<ol id="ol_n1n_qml_tsb">
-        <li>Go to <menucascade>
+        <li irina="irina">Go to <menucascade>
             <uicontrol>Options</uicontrol>
             <uicontrol>Preferences...</uicontrol>
             <uicontrol>DITA</uicontrol>
             <uicontrol>DITA Open Toolkit</uicontrol>
           </menucascade> change the radio button to <uicontrol>Custom</uicontrol>.</li>
-        <li>Set the custom path to the unzipped folder. Make sure the path ends with
+        <li irina="irina">Set the custom path to the unzipped folder. Make sure the path ends with
             <b>oxygen-publishing-engine</b>.</li>
       </ol></p>
     </body>

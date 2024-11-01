@@ -19,38 +19,38 @@
         />Edit</uicontrol> button, your custom attribute value editor will be presented.</p>
     <p id="p_hlb_dgk_54b">The <uicontrol><image href="../img/EditComment16.png"/>Edit</uicontrol> button can be
       accessed in the following attribute editors:<ul id="ul_ilb_dgk_54b">
-        <li id="li_jlb_dgk_54b">The <xref href="author-attributes-view.dita#author-attributes-view"
+        <li id="li_jlb_dgk_54b" irina="irina">The <xref href="author-attributes-view.dita#author-attributes-view"
               ><uicontrol>Attributes</uicontrol> view in <uicontrol>Author</uicontrol> mode</xref>
           (when the <uicontrol><image href="../img/Collapsed16.png"/>Expand</uicontrol> button is
           used to reveal an expanded panel).</li>
-        <li id="li_klb_dgk_54b">The <xref href="attributes-panel.dita#attributes-panel"
+        <li id="li_klb_dgk_54b" irina="irina">The <xref href="attributes-panel.dita#attributes-panel"
               ><uicontrol>Attributes</uicontrol> view in <uicontrol>Text</uicontrol> mode</xref>
           (when the <uicontrol><image href="../img/Collapsed16.png"/>Expand</uicontrol> button is
           used to reveal an expanded panel).</li>
-        <li id="li_llb_dgk_54b">The <xref href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
+        <li id="li_llb_dgk_54b" irina="irina">The <xref href="author-attributes-view.dita#author-attributes-view/in-place-attr-editor"
               ><b>In-place Attributes Editor</b></xref> when invoked in
             <uicontrol>Author</uicontrol> mode.</li>
-        <li id="li_mlb_dgk_54b">The <b>In-place Attributes Editor</b> invoked in the <xref href="outliner-view.dita"
+        <li id="li_mlb_dgk_54b" irina="irina">The <b>In-place Attributes Editor</b> invoked in the <xref href="outliner-view.dita"
               ><uicontrol>Outline</uicontrol> view</xref>.</li>
       </ul></p>
     <section id="implement_an_editpropertieshandler">
       <title>How to Implement a <term>CustomAttributeValueEditor</term></title>
       <p id="p_nlb_dgk_54b">To implement your own <term>CustomAttributeValueEditor</term>, follow
         this procedure:<ol id="ol_olb_dgk_54b">
-          <li id="li_plb_dgk_54b">Extend the <xref
+          <li id="li_plb_dgk_54b" irina="irina">Extend the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/CustomAttributeValueEditor.html"
               format="html" scope="external"
                 ><term>ro.sync.ecss.extensions.api.CustomAttributeValueEditor</term></xref> abstract
             class.</li>
-          <li id="li_qlb_dgk_54b">To instruct <ph keyref="product"/> to use this newly created
+          <li id="li_qlb_dgk_54b" irina="irina">To instruct <ph keyref="product"/> to use this newly created
             implementation, use either of the following methods:<ol id="ol_rlb_dgk_54b">
-              <li id="li_slb_dgk_54b">If you have <xref
+              <li id="li_slb_dgk_54b" irina="irina">If you have <xref
                   href="dg-extensions-bundle.dita#dg-extensions-bundle">configured an extensions
                   bundle</xref>, you can return the <term>CustomAttributeValueEditor</term>
                 implementation using the
                   <term>ro.sync.ecss.extensions.api.ExtensionsBundle.createCustomAttributeValueEditor()</term>
                 method.</li>
-              <li id="li_tlb_dgk_54b">Specify the <term>CustomAttributeValueEditor</term> in the
+              <li id="li_tlb_dgk_54b" irina="irina">Specify the <term>CustomAttributeValueEditor</term> in the
                   <uicontrol>Author custom attribute value editor</uicontrol> individual extension
                 in the <xref href="document-type-extensions-tab.dita#document-type-extensions-tab"
                     ><uicontrol>Extensions</uicontrol> tab</xref> of the <xref

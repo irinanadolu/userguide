@@ -46,7 +46,7 @@
         <cmd><ph conkeyref="reusables-webhelp-chapter/step_run_integrator"/></cmd>
         <info>
           <ul conkeyref="reusables-webhelp-chapter/script-ul" id="ul_rxv_dgk_54b">
-            <li id="li_sxv_dgk_54b"/>
+            <li id="li_sxv_dgk_54b" irina="irina"/>
           </ul>
         </info>
       </step>

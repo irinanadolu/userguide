@@ -47,13 +47,13 @@
           <dt>Comments moderation</dt>
           <dd>
             <ul id="ul_pvl_qv2_gjb">
-              <li id="li_cvw_dgk_54b"><b>All</b> - Select this option if you want all comments to require approval by an
+              <li id="li_cvw_dgk_54b" irina="irina"><b>All</b> - Select this option if you want all comments to require approval by an
                   <xref href="ofb-team-management.dita"><i>Owner</i>, <i>Admin</i>, or
                     <i>Moderator</i></xref> before they are posted for all users to see. Also, each
                   <i>Owner</i>, <i>Admin</i>, and <i>Moderator</i> for the site configuration will
                 receive an email when a user adds a comment notifying them that there is a comment
                 waiting for approval.</li>
-              <li id="li_dvw_dgk_54b"><b>None</b> - Select this option if you want all comments to be automatically
+              <li id="li_dvw_dgk_54b" irina="irina"><b>None</b> - Select this option if you want all comments to be automatically
                 approved and posted for all users to see.</li>
             </ul>
             <note type="tip" id="note_evw_dgk_54b">For more information, see <xref href="ofb-moderating-comments.dita"
@@ -84,12 +84,12 @@
             <p id="p_gv2_f2n_btb">Controls whether or not a page ratings component is displayed in
               the output. You can also configure the question and the two possible options that will
               be displayed in the output:<ul id="ul_lcn_ydn_btb">
-                <li id="li_mcn_ydn_btb"><b>Question</b> - The page ratings question that is
+                <li id="li_mcn_ydn_btb" irina="irina"><b>Question</b> - The page ratings question that is
                   displayed in the output. The default value is <term>Was this page
                   helpful?</term></li>
-                <li id="li_d3h_zdn_btb"><b>Option 1 (positive)</b> - The positive response to the
+                <li id="li_d3h_zdn_btb" irina="irina"><b>Option 1 (positive)</b> - The positive response to the
                   question. The default value is <term>Yes</term>.</li>
-                <li id="li_djm_b2n_btb"><b>Option 2 (negative)</b> - The negative response to the
+                <li id="li_djm_b2n_btb" irina="irina"><b>Option 2 (negative)</b> - The negative response to the
                   question. The default value is <term>No</term>.</li>
               </ul></p>
           </dd>

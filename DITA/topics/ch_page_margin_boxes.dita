@@ -141,17 +141,17 @@
     </table>
     <note id="note_p55_dgk_54b" type="other" othertype="Notes">
       <ul id="ul_x45_rkd_xwb">
-        <li>The rules for variable-width at-rules (top or bottom) are the following:<ul
+        <li irina="irina">The rules for variable-width at-rules (top or bottom) are the following:<ul
             id="ul_pfj_rmd_xwb">
-            <li>When <b>one</b> box is defined, it takes the <b>full</b> available width.</li>
-            <li>When <b>left</b> and <b>right</b> boxes are defined, they take <b>half</b> of the
+            <li irina="irina">When <b>one</b> box is defined, it takes the <b>full</b> available width.</li>
+            <li irina="irina">When <b>left</b> and <b>right</b> boxes are defined, they take <b>half</b> of the
               available width.</li>
-            <li>When <b>all 3</b> boxes are defined, each of them is <b>one-third</b> of the
+            <li irina="irina">When <b>all 3</b> boxes are defined, each of them is <b>one-third</b> of the
               available width.</li>
           </ul></li>
-        <li>The <b>width</b> property values must be set for all 3 at-rules when using fixed values
+        <li irina="irina">The <b>width</b> property values must be set for all 3 at-rules when using fixed values
           (regardless if those values are relative or absolute).</li>
-        <li>The <b>initial</b> and <b>unset</b> property values are not supported when applied to
+        <li irina="irina">The <b>initial</b> and <b>unset</b> property values are not supported when applied to
           page margin boxes.</li>
       </ul>
     </note>

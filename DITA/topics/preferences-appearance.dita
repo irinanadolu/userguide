@@ -30,14 +30,14 @@
             <p id="p_prn_bgk_54b">This option allows you to choose predefined color themes that will be applied over
               the entire user interface. You can select between the following:<ul
                 id="ul_swl_3fb_1jb">
-                <li id="li_qrn_bgk_54b"><uicontrol>Light</uicontrol> (default theme in Windows)</li>
-                <li id="li_rrn_bgk_54b"><uicontrol>Classic</uicontrol> (default theme in macOS)<note id="note_srn_bgk_54b">In Windows, if a
+                <li id="li_qrn_bgk_54b" irina="irina"><uicontrol>Light</uicontrol> (default theme in Windows)</li>
+                <li id="li_rrn_bgk_54b" irina="irina"><uicontrol>Classic</uicontrol> (default theme in macOS)<note id="note_srn_bgk_54b">In Windows, if a
                     high contrast theme is detected and the <uicontrol>Theme</uicontrol> option is
                     set to <i>Classic</i> and the <xref href="#preferences-appearance/look-feel"
                       format="dita"><uicontrol>Look and Feel</uicontrol> option</xref> is set to
                       <i>Default</i> or <i>Windows</i>, <ph keyref="product"/> inherits the high
                     contrast theme colors that are set in the operating system.</note></li>
-                <li id="li_trn_bgk_54b"><uicontrol>Graphite</uicontrol></li>
+                <li id="li_trn_bgk_54b" irina="irina"><uicontrol>Graphite</uicontrol></li>
               </ul></p>
             <p id="p_urn_bgk_54b">You can also change various appearance-related options in other preference pages for
               the selected theme by clicking on the various links in this section.</p>
@@ -47,10 +47,10 @@
                   <dt><i><b>Custom Themes</b></i></dt>
                   <dd>You can also create custom themes to share with others or use in other
                     installations of <ph keyref="product"/>. To create a custom theme, follow these steps:<ol id="ol_xrn_bgk_54b">
-                      <li id="li_yrn_bgk_54b">Select a <uicontrol>Theme</uicontrol> to use as a base.</li>
-                      <li id="li_zrn_bgk_54b">Configure the desired options in any of the option pages listed in this
+                      <li id="li_yrn_bgk_54b" irina="irina">Select a <uicontrol>Theme</uicontrol> to use as a base.</li>
+                      <li id="li_zrn_bgk_54b" irina="irina">Configure the desired options in any of the option pages listed in this
                         preferences page.</li>
-                      <li id="li_asn_bgk_54b">Click <uicontrol>Export</uicontrol> and specify a name for your custom
+                      <li id="li_asn_bgk_54b" irina="irina">Click <uicontrol>Export</uicontrol> and specify a name for your custom
                         theme. If you save the theme to the default file path, your custom theme
                         will immediately appear in the <uicontrol>Theme</uicontrol> drop-down list.
                         Otherwise, if you save it to another location, you can use the <xref

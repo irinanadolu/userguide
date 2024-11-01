@@ -16,10 +16,10 @@
       are default associations between frequently used file types and the internal editors in <xref keyref="file-types-preferences">the File Types preferences panel</xref>.</p>
     <p product="svnClient" id="p_v4j_dgk_54b"> You can open a file for editing in the following:</p>
     <ul product="svnClient" id="ul_w4j_dgk_54b">
-      <li id="li_x4j_dgk_54b">An internal built-in editor.</li>
-      <li id="li_y4j_dgk_54b">The default external application associated in the operating system with the file
+      <li id="li_x4j_dgk_54b" irina="irina">An internal built-in editor.</li>
+      <li id="li_y4j_dgk_54b" irina="irina">The default external application associated in the operating system with the file
         type.</li>
-      <li id="li_z4j_dgk_54b">An external application installed in the operating system and specified by the path to its
+      <li id="li_z4j_dgk_54b" irina="irina">An external application installed in the operating system and specified by the path to its
         executable launcher.</li>
     </ul>
     <p product="svnClient" id="p_apj_dgk_54b">There are default associations between frequently used file types and the

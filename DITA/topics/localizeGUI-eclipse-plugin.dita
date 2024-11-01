@@ -12,7 +12,7 @@
   </prolog>
   <body>
     <p id="p_zjs_bgk_54b">To localize the <ph keyref="product"/>, you can use one of the following methods:<ul id="ul_aks_bgk_54b">
-        <li id="li_bks_bgk_54b">
+        <li id="li_bks_bgk_54b" irina="irina">
           <p id="p_cks_bgk_54b"><b><u>Localization through the update site:</u></b></p>
           <p id="p_dks_bgk_54b">Start Eclipse, go to <menucascade>
               <uicontrol>Help</uicontrol>
@@ -31,7 +31,7 @@
             </ph> in the location field of the <uicontrol>Add Site</uicontrol> dialog box. Click OK.
             Select the language pack checkbox.</p>
         </li>
-        <li id="li_eks_bgk_54b">
+        <li id="li_eks_bgk_54b" irina="irina">
           <p id="p_fks_bgk_54b"><b><u>Localization through the zip archive:</u></b></p>
           <p id="p_gks_bgk_54b">Go to <xref href="https://www.oxygenxml.com/download.html" format="html"
               scope="external"/> and download the zip archive with the plugin language pack. Unzip

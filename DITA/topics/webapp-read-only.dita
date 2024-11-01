@@ -15,7 +15,7 @@
       edit the content and then receive an error when trying to check it in or save it.</p>
     <p id="p_w5r_dgk_54b">You can instruct the <ph keyref="webappProduct"/> to open a file as read-only by using one
       of the following methods:<ul id="ul_x5r_dgk_54b">
-        <li id="li_y5r_dgk_54b">
+        <li id="li_y5r_dgk_54b" irina="irina">
           <p id="p_z5r_dgk_54b">If you are implementing a <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/plugin/urlstreamhandler/URLStreamHandlerPluginExtension.html"
               format="html" scope="external"><i>URLStreamHandler</i></xref>
@@ -40,8 +40,8 @@
             </dl>
           </p>
         </li>
-        <li id="li_evr_dgk_54b">Use the JavaScript API <codeph>editor.setReadOnlyState()</codeph>.</li>
-        <li id="li_fvr_dgk_54b">Use the Java API <xref
+        <li id="li_evr_dgk_54b" irina="irina">Use the JavaScript API <codeph>editor.setReadOnlyState()</codeph>.</li>
+        <li id="li_fvr_dgk_54b" irina="irina">Use the Java API <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/editor/page/WSEditorPage.html#setReadOnly-java.lang.String-"
             format="html" scope="external"
               ><i>ro.sync.ecss.extensions.api.access.AuthorEditorAccess#setReadOnly()</i></xref>.</li>

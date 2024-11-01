@@ -104,13 +104,13 @@
         </table></p>
       <p id="p_kpw_bgk_54b">The following key combinations can be used to scroll the grid:</p>
       <ul id="ul_lpw_bgk_54b">
-        <li id="li_mpw_bgk_54b"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_up_arrow"/> - scrolls the grid
+        <li id="li_mpw_bgk_54b" irina="irina"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_up_arrow"/> - scrolls the grid
           upwards.</li>
-        <li id="li_npw_bgk_54b"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_down_arrow"/> - scrolls the
+        <li id="li_npw_bgk_54b" irina="irina"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_down_arrow"/> - scrolls the
           grid downwards.</li>
-        <li id="li_opw_bgk_54b"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_left_arrow"/> scrolls the grid
+        <li id="li_opw_bgk_54b" irina="irina"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_left_arrow"/> scrolls the grid
           to the left.</li>
-        <li id="li_ppw_bgk_54b"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_right_arrow"/> scrolls the
+        <li id="li_ppw_bgk_54b" irina="irina"><uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_right_arrow"/> scrolls the
           grid to the right.</li>
       </ul>
     </section>

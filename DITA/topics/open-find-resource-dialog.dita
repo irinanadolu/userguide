@@ -41,16 +41,16 @@
       <title>Options Available in the Dialog Box</title>
       <p id="p_czt_bgk_54b">The <uicontrol>Open/Find Resource</uicontrol> dialog box includes the following options:<ul
           id="ul_xnp_kdn_1p">
-          <li id="li_dzt_bgk_54b"><ph conkeyref="reusables-editing-documents/in-file-paths"
+          <li id="li_dzt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/in-file-paths"
               product="author developer editor json"/></li>
-          <li id="li_ezt_bgk_54b"><ph conkeyref="reusables-editing-documents/in-content"
+          <li id="li_ezt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/in-content"
               product="author developer editor json"/></li>
-          <li id="li_fzt_bgk_54b"><ph conkeyref="reusables-editing-documents/in-reviews"
+          <li id="li_fzt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/in-reviews"
               product="author developer editor json"/></li>
-          <li id="li_gzt_bgk_54b"><ph conkeyref="reusables-editing-documents/options"
+          <li id="li_gzt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/options"
               product="author developer editor json"/></li>
-          <li id="li_hzt_bgk_54b"><ph id="clear-index"><uicontrol>Clear Index</uicontrol> - Clears the index.</ph></li>
-          <li id="li_izt_bgk_54b"><ph conkeyref="reusables-editing-documents/reindex"/></li>
+          <li id="li_hzt_bgk_54b" irina="irina"><ph id="clear-index"><uicontrol>Clear Index</uicontrol> - Clears the index.</ph></li>
+          <li id="li_izt_bgk_54b" irina="irina"><ph conkeyref="reusables-editing-documents/reindex"/></li>
         </ul></p>
     </section>
     <section id="contextual_menu_actions">

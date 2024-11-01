@@ -7,13 +7,13 @@
     <section id="section_hhp_ckk_gyb">
       <title>How can I prevent consecutive spaces from being inserted in documents?</title>
       <ol id="ol_t2t_mkk_gyb">
-        <li>Create a plugin that implements the <xref
+        <li irina="irina">Create a plugin that implements the <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorDocumentFilter.html"
             format="html" scope="external"><codeph>AuthorDocumentFilter</codeph></xref> class. It
           filters consecutive spaces from being inserted in the document. The filter should override
           all methods from <codeph>AuthorDocumentFilter</codeph> that intercept content
           changes.</li>
-        <li>Install the custom filter on all documents by implementing a <xref
+        <li irina="irina">Install the custom filter on all documents by implementing a <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/webapp/access/WebappEditingSessionLifecycleListener.html"
             format="html" scope="external"
             ><codeph>WebappEditingSessionLifecycleListener</codeph></xref> that can be installed via

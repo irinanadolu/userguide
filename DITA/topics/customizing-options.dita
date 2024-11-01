@@ -27,10 +27,10 @@
         if an <filepath>options.xml</filepath> file is not already present there.</p>
       <p id="p_hrq_dgk_54b">There are multiple ways to configure these options:</p>
       <ul id="ul_irq_dgk_54b">
-        <li id="li_jrq_dgk_54b">Some of the options can be changed using the <xref
+        <li id="li_jrq_dgk_54b" irina="irina">Some of the options can be changed using the <xref
             href="webapp-admin-page.dita#webapp-admin-page">Administration Page</xref> in your web
           browser.</li>
-        <li id="li_krq_dgk_54b">Use an options file exported from an <term>Oxygen</term> standalone application. To
+        <li id="li_krq_dgk_54b" irina="irina">Use an options file exported from an <term>Oxygen</term> standalone application. To
           export the file, use the <xref
             href="https://www.oxygenxml.com/doc/ug-editor/topics/import-export-preferences.html"
             format="html" scope="external"><menucascade>
@@ -39,7 +39,7 @@
             </menucascade> menu action</xref>.<note id="note_lrq_dgk_54b">Archived options are unpackaged to the
               <filepath>options</filepath> folder only if an <filepath>options.xml</filepath> file
             is not already present.</note></li>
-        <li id="li_mrq_dgk_54b">Manually edit the options file. To learn more about the supported options and the file
+        <li id="li_mrq_dgk_54b" irina="irina">Manually edit the options file. To learn more about the supported options and the file
           format, continue reading the section below.</li>
       </ul>
     </section>

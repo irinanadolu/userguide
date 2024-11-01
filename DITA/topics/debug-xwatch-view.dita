@@ -62,25 +62,25 @@
       </tgroup>
     </table>
     <note type="important" id="note_mgz_cgk_54b"> Notes about working with the <uicontrol>XWatch</uicontrol> view:<ul id="ul_ngz_cgk_54b">
-        <li id="li_ogz_cgk_54b">Expressions that reference variable names are not evaluated.</li>
-        <li id="li_pgz_cgk_54b">The expression list is not deleted at the end of the transformation (it is preserved
+        <li id="li_ogz_cgk_54b" irina="irina">Expressions that reference variable names are not evaluated.</li>
+        <li id="li_pgz_cgk_54b" irina="irina">The expression list is not deleted at the end of the transformation (it is preserved
           between debugging sessions).</li>
-        <li id="li_qgz_cgk_54b">To insert a new expression, click the first empty line of the
+        <li id="li_qgz_cgk_54b" irina="irina">To insert a new expression, click the first empty line of the
             <uicontrol>Expression</uicontrol> column and start typing. <ph
             product="developer editor">As an alternative, right-click and select the
               <uicontrol>Add</uicontrol> action. Press
               <uicontrol><shortcut>Enter</shortcut></uicontrol> on the cell to add and
             evaluate.</ph></li>
-        <li id="li_rgz_cgk_54b">To delete an expression, click its <uicontrol>Expression</uicontrol> column and delete
+        <li id="li_rgz_cgk_54b" irina="irina">To delete an expression, click its <uicontrol>Expression</uicontrol> column and delete
           its content. <ph product="developer editor">As an alternative, right-click and select the
               <uicontrol>Remove</uicontrol> action. Press
               <uicontrol><shortcut>Enter</shortcut></uicontrol> on the cell to commit
           changes.</ph></li>
-        <li id="li_sgz_cgk_54b">If the expression result type is a <i>Node Set</i>, click it
+        <li id="li_sgz_cgk_54b" irina="irina">If the expression result type is a <i>Node Set</i>, click it
             (<uicontrol>Value</uicontrol> column) and its value is displayed in the <xref
             href="debug-node-set-view.dita"><uicontrol>Nodes/Values Set</uicontrol>
           view</xref>.</li>
-        <li id="li_tgz_cgk_54b"><ph product="developer editor">The <uicontrol>Copy</uicontrol>,
+        <li id="li_tgz_cgk_54b" irina="irina"><ph product="developer editor">The <uicontrol>Copy</uicontrol>,
               <uicontrol>Add</uicontrol>, <uicontrol>Remove</uicontrol> and <uicontrol>Remove
               All</uicontrol> actions are available in every row's contextual menu.</ph></li>
       </ul></note>

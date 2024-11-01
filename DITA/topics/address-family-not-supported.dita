@@ -22,12 +22,12 @@
           <p id="p_ulk_dgk_54b">A quick solution for this problem is to set the
               <codeph>java.net.preferIPv4Stack</codeph> Java property to <codeph>true</codeph>
               (<codeph>java.net.preferIPv4Stack=true</codeph>), by following this procedure:<ol id="ol_vlk_dgk_54b">
-              <li id="li_wlk_dgk_54b">Create a file named <filepath>custom_commons.vmoptions</filepath> and on a single
+              <li id="li_wlk_dgk_54b" irina="irina">Create a file named <filepath>custom_commons.vmoptions</filepath> and on a single
                 line, add <codeph>-Djava.net.preferIPv4Stack=true</codeph>. Then save the file and
                 copy it to the <ph keyref="product"/> installation folder (may need admin
                 access).</li>
-              <li id="li_xlk_dgk_54b">Restart <ph keyref="product"/>.</li>
-              <li id="li_ylk_dgk_54b">Make sure the procedure was successful by going to <menucascade>
+              <li id="li_xlk_dgk_54b" irina="irina">Restart <ph keyref="product"/>.</li>
+              <li id="li_ylk_dgk_54b" irina="irina">Make sure the procedure was successful by going to <menucascade>
                   <uicontrol>Help</uicontrol>
                   <uicontrol>About</uicontrol>
                   <uicontrol>System properties</uicontrol>

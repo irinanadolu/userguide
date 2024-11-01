@@ -36,13 +36,13 @@
               <codeph>data-ofbid</codeph> attributes are generated and how to add IDs for block
             elements from the DITA source files can be found in the following topics:<ul
               id="ul_cbc_1kf_w5b">
-              <li id="li_dbc_1kf_w5b"><xref
+              <li id="li_dbc_1kf_w5b" irina="irina"><xref
                   href="ofb-block-level-comments.dita#ofb-block-level-comments/section_a4p_lw5_q4b"
                 /></li>
-              <li id="li_wsp_3kf_w5b"><xref
+              <li id="li_wsp_3kf_w5b" irina="irina"><xref
                   href="ofb-block-level-comments.dita#ofb-block-level-comments/section_d32_z2v_q4b"
                 /></li>
-              <li id="li_b4h_lkf_w5b"><xref
+              <li id="li_b4h_lkf_w5b" irina="irina"><xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/generate-ids.html"
                   format="html" scope="external">Generating IDs for Elements in Author
                 Mode</xref></li>

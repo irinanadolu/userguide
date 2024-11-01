@@ -24,19 +24,19 @@
       displayed, showing information about the selected resource. The information displayed depends
       on the location of the item (local or remote) and may include the following:</p>
     <ul id="ul_v33_dgk_54b">
-      <li id="li_w33_dgk_54b">Local path and repository location</li>
-      <li id="li_x33_dgk_54b">Revision number</li>
-      <li id="li_y33_dgk_54b">Last change author, revision and date</li>
-      <li id="li_z33_dgk_54b">Information about locks</li>
-      <li id="li_aj3_dgk_54b">Local file status</li>
-      <li id="li_bj3_dgk_54b">Local properties status</li>
-      <li id="li_cj3_dgk_54b">Local directory depth</li>
-      <li id="li_dj3_dgk_54b">Repository location and revision number for copied files or directories</li>
-      <li id="li_ej3_dgk_54b">Path information about locally moved items</li>
-      <li id="li_fj3_dgk_54b">Path information about conflict generated files</li>
-      <li id="li_gj3_dgk_54b">Remote file status</li>
-      <li id="li_hj3_dgk_54b">Remote properties status</li>
-      <li id="li_ij3_dgk_54b">File size and other information</li>
+      <li id="li_w33_dgk_54b" irina="irina">Local path and repository location</li>
+      <li id="li_x33_dgk_54b" irina="irina">Revision number</li>
+      <li id="li_y33_dgk_54b" irina="irina">Last change author, revision and date</li>
+      <li id="li_z33_dgk_54b" irina="irina">Information about locks</li>
+      <li id="li_aj3_dgk_54b" irina="irina">Local file status</li>
+      <li id="li_bj3_dgk_54b" irina="irina">Local properties status</li>
+      <li id="li_cj3_dgk_54b" irina="irina">Local directory depth</li>
+      <li id="li_dj3_dgk_54b" irina="irina">Repository location and revision number for copied files or directories</li>
+      <li id="li_ej3_dgk_54b" irina="irina">Path information about locally moved items</li>
+      <li id="li_fj3_dgk_54b" irina="irina">Path information about conflict generated files</li>
+      <li id="li_gj3_dgk_54b" irina="irina">Remote file status</li>
+      <li id="li_hj3_dgk_54b" irina="irina">Remote properties status</li>
+      <li id="li_ij3_dgk_54b" irina="irina">File size and other information</li>
     </ul>
     <p id="p_jj3_dgk_54b">The value of a property of the resource displayed in the dialog box can be copied by
       right-clicking the property and selecting the <uicontrol>Copy</uicontrol> action.</p>

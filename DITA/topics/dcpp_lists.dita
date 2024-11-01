@@ -11,11 +11,11 @@
     <p id="p_d35_cgk_54b">The lists are treated differently than ordinary block elements in the
       sense that their margins are not collapsed with the margins of the neighboring blocks or
       lists. This is also visible for nested lists. To summarize:<ul id="ul_dfb_k5v_prb">
-        <li>Setting the <codeph>padding-left</codeph> or <codeph>margin-left</codeph> properties on
+        <li irina="irina">Setting the <codeph>padding-left</codeph> or <codeph>margin-left</codeph> properties on
           lists will move the whole list.</li>
-        <li>Setting the <codeph>margin-left</codeph> property on list items will move the whole
+        <li irina="irina">Setting the <codeph>margin-left</codeph> property on list items will move the whole
           list.</li>
-        <li>Setting the <codeph>padding-left</codeph> property on list items will only move the list
+        <li irina="irina">Setting the <codeph>padding-left</codeph> property on list items will only move the list
           item content (not the marker).</li>
       </ul><note id="note_ij1_4vv_prb">If the <codeph>padding-left</codeph> property is set on lists
         and the <codeph>margin-left</codeph> property is set on list items, the result will move the

@@ -15,9 +15,9 @@
       page, or a specific element from your document. </p>
     <p id="p_qlv_dgk_54b">Supported properties:</p>
     <ul id="ul_vxc_wkc_zz">
-      <li id="li_rlv_dgk_54b"><b>background-image</b></li>
-      <li id="li_slv_dgk_54b"><b>background-repeat</b></li>
-      <li id="li_tlv_dgk_54b"><b>background-position</b></li>
+      <li id="li_rlv_dgk_54b" irina="irina"><b>background-image</b></li>
+      <li id="li_slv_dgk_54b" irina="irina"><b>background-repeat</b></li>
+      <li id="li_tlv_dgk_54b" irina="irina"><b>background-position</b></li>
     </ul>
     <section id="page_background_images">
       <title>Page Background Images</title>

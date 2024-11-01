@@ -88,10 +88,10 @@
           href="wa-migrate-frameworks.dita">some fine-tuning might be necessary</xref> to maximize
         the editing experience for your content authors. The advantages of using a common
           <term>framework</term> include:<ul id="ul_rlf_yvy_1r">
-          <li id="li_yds_dgk_54b">Uniform experience across multiple <term>Oxygen XML Editor/Author</term>
+          <li id="li_yds_dgk_54b" irina="irina">Uniform experience across multiple <term>Oxygen XML Editor/Author</term>
             distributions.</li>
-          <li id="li_zds_dgk_54b">Ability to reuse previously developed <term>frameworks</term>.</li>
-          <li id="li_a2s_dgk_54b">Many of the customized items that are added to your <term>framework</term> in the
+          <li id="li_zds_dgk_54b" irina="irina">Ability to reuse previously developed <term>frameworks</term>.</li>
+          <li id="li_a2s_dgk_54b" irina="irina">Many of the customized items that are added to your <term>framework</term> in the
               <term>Oxygen XML Editor/Author</term> standalone distribution also carry over to <ph
               keyref="webappProduct"/>. For example, items that are added to the list of proposals
             for the <xref keyref="glossentry_content-completion-assistant"><term>Content Completion
@@ -101,10 +101,10 @@
     <section id="section_zzf_pns_vz">
       <title>How to Create a Custom Framework (Document Type)</title>
       <p id="p_b2s_dgk_54b">You can create a custom <term>framework</term> by extending an existing one: <ol id="ol_c2s_dgk_54b">
-          <li id="li_d2s_dgk_54b">In a location where you have full write access, create a folder structure similar to
+          <li id="li_d2s_dgk_54b" irina="irina">In a location where you have full write access, create a folder structure similar to
             this: <filepath>custom_frameworks/dita-extension</filepath>. </li>
-          <li id="li_e2s_dgk_54b">Open a standalone version of <term>Oxygen XML Editor/Author</term>.</li>
-          <li id="li_f2s_dgk_54b">Open the <uicontrol>Preferences</uicontrol> dialog box <menucascade>
+          <li id="li_e2s_dgk_54b" irina="irina">Open a standalone version of <term>Oxygen XML Editor/Author</term>.</li>
+          <li id="li_f2s_dgk_54b" irina="irina">Open the <uicontrol>Preferences</uicontrol> dialog box <menucascade>
               <uicontrol>(Options</uicontrol>
               <uicontrol>Preferences)</uicontrol>
             </menucascade> and go to <menucascade>
@@ -113,41 +113,41 @@
             </menucascade>. In this preferences page, add the path to your
               <filepath>custom_frameworks</filepath> folder in the <uicontrol>Additional frameworks
               directories</uicontrol> list.</li>
-          <li id="li_g2s_dgk_54b">Go to the <uicontrol>Document Type Association</uicontrol> preferences page and select
+          <li id="li_g2s_dgk_54b" irina="irina">Go to the <uicontrol>Document Type Association</uicontrol> preferences page and select
             an existing <term>framework</term> configuration and use the
               <uicontrol>Extend</uicontrol> button to create an extension for it.</li>
-          <li id="li_h2s_dgk_54b">Give the extension an appropriate name (for example, <b><i>DITA - Custom</i></b>),
+          <li id="li_h2s_dgk_54b" irina="irina">Give the extension an appropriate name (for example, <b><i>DITA - Custom</i></b>),
             select <uicontrol>External</uicontrol> for the <uicontrol>Storage</uicontrol> option,
             and specify an appropriate path (for example,
               <filepath>path/to/.../custom_frameworks/dita-extension/dita-custom.framework</filepath>).</li>
-          <li id="make-changes-li">Make your changes to the extension. There is a large variety of
+          <li id="make-changes-li" irina="irina">Make your changes to the extension. There is a large variety of
             ways to customize your extended <term>framework</term>. These are just some of the ways:<ul id="ul_i2s_dgk_54b">
-              <li id="li_j2s_dgk_54b">The <xref
+              <li id="li_j2s_dgk_54b" irina="irina">The <xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/the-document-type-dialog.html"
                   format="html" scope="external"><uicontrol>Document Type</uicontrol> configuration
                   dialog box</xref> contains various tabs and subtabs that allow you to configure
                 the extended <term>framework</term>.</li>
-              <li id="new-templates-li">You can <xref href="wa-file-templates.dita">create your own
+              <li id="new-templates-li" irina="irina">You can <xref href="wa-file-templates.dita">create your own
                   custom document templates</xref> and once the framework is uploaded to <term>Web
                   Author</term>, users will have access to the templates when creating a new
                 document.</li>
-              <li id="li_k2s_dgk_54b">See the <xref
+              <li id="li_k2s_dgk_54b" irina="irina">See the <xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/authoring_customization.html"
                   format="html" scope="external">Oxygen Advanced Framework Customization
                   section</xref> for numerous procedures and examples of how to configure various
                 aspects of the extended <term>framework</term>.</li>
-              <li id="li_l2s_dgk_54b">For information about using CSS files to configure the extended
+              <li id="li_l2s_dgk_54b" irina="irina">For information about using CSS files to configure the extended
                   <term>framework</term>, see <xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/selecting-combining-multiple-css-styles.html"
                   format="html" scope="external">Configuring and Managing Multiple CSS Styles for a
                   Framework</xref>.</li>
-              <li id="li_m2s_dgk_54b">For information about configuring the Content Completion proposals for the
+              <li id="li_m2s_dgk_54b" irina="irina">For information about configuring the Content Completion proposals for the
                 extended <term>framework</term>, see <xref
                   href="wa-cc-configuration.dita#wa-cc-configuration"/>.</li>
             </ul></li>
-          <li id="li_n2s_dgk_54b">Click <uicontrol>OK</uicontrol> to close the dialog box and then
+          <li id="li_n2s_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to close the dialog box and then
               <uicontrol>OK</uicontrol> or <uicontrol>Apply</uicontrol> to save the changes.</li>
-          <li id="li_o2s_dgk_54b">Create an archive that contains your custom framework folder that you created in the
+          <li id="li_o2s_dgk_54b" irina="irina">Create an archive that contains your custom framework folder that you created in the
             first step of this procedure. The archive should contain exactly one folder on the first
             level. You will need this archive structure to <xref
               href="#customizing_frameworks/deploying_a_framework" format="dita">upload the
@@ -161,29 +161,29 @@
         rather a way to speed up the development process.</p>
       <p id="p_q2s_dgk_54b">
         <ol id="ol_g2c_pnz_1r">
-          <li id="li_r2s_dgk_54b">Use the standalone installation of <term>Oxygen XML Editor/Author</term> to <xref
+          <li id="li_r2s_dgk_54b" irina="irina">Use the standalone installation of <term>Oxygen XML Editor/Author</term> to <xref
               href="#customizing_frameworks/section_zzf_pns_vz" format="dita">customize a specific
                 <term>framework</term></xref>.</li>
-          <li id="li_s2s_dgk_54b">
+          <li id="li_s2s_dgk_54b" irina="irina">
             <p id="p_t2s_dgk_54b">Install the <uicontrol>Oxygen Web Author Test Server</uicontrol> add-on.<ol
                 id="ol_wkt_gf5_53b">
-                <li id="li_u2s_dgk_54b">Go to <menucascade>
+                <li id="li_u2s_dgk_54b" irina="irina">Go to <menucascade>
                     <uicontrol>Help</uicontrol>
                     <uicontrol>Install new add-ons</uicontrol>
                   </menucascade> to open an add-on selection dialog box.</li>
-                <li id="li_v2s_dgk_54b">In the <uicontrol>Show add-ons from</uicontrol> text box, enter the following
+                <li id="li_v2s_dgk_54b" irina="irina">In the <uicontrol>Show add-ons from</uicontrol> text box, enter the following
                   URL:
                   <b>https://www.oxygenxml.com/InstData/Addons/optional/updateSite.xml</b>.</li>
-                <li id="li_w2s_dgk_54b">Select the <b>Oxygen Web Author Test Server</b> add-on and click
+                <li id="li_w2s_dgk_54b" irina="irina">Select the <b>Oxygen Web Author Test Server</b> add-on and click
                     <uicontrol>Next</uicontrol>.</li>
-                <li id="li_x2s_dgk_54b">Select the <b>I accept all terms of the end user license agreement</b> option
+                <li id="li_x2s_dgk_54b" irina="irina">Select the <b>I accept all terms of the end user license agreement</b> option
                   and click <uicontrol>Finish</uicontrol>.</li>
-                <li id="li_y2s_dgk_54b">Restart <term>Oxygen XML Editor/Author</term>.</li>
+                <li id="li_y2s_dgk_54b" irina="irina">Restart <term>Oxygen XML Editor/Author</term>.</li>
               </ol></p>
             <p id="p_z2s_dgk_54b"><b>Result:</b> You should now have a <uicontrol>Start Web Author Server</uicontrol>
               button on the toolbar.</p>
           </li>
-          <li id="li_afs_dgk_54b">Open an XML file in <term>Oxygen XML Editor/Author</term>.<note type="note" id="note_bfs_dgk_54b">The <b>Web
+          <li id="li_afs_dgk_54b" irina="irina">Open an XML file in <term>Oxygen XML Editor/Author</term>.<note type="note" id="note_bfs_dgk_54b">The <b>Web
                 Author Test Server</b> does not load <term>frameworks</term> that have the
                 <uicontrol>Storage</uicontrol> option set to <uicontrol>Internal</uicontrol> in the
                 <xref
@@ -191,7 +191,7 @@
                 format="html" scope="external"><uicontrol>Document Type</uicontrol> configuration
                 dialog box</xref>. Therefore, the XML file needs to be from a <term>framework</term>
               that has that option set to <uicontrol>External</uicontrol>.</note></li>
-          <li id="li_cfs_dgk_54b">
+          <li id="li_cfs_dgk_54b" irina="irina">
             <p id="p_dfs_dgk_54b">Click the <uicontrol>Start Web Author Server</uicontrol> button found on the toolbar.
               This starts a Tomcat server and opens a file chooser dialog box:</p>
             <p id="p_efs_dgk_54b">
@@ -204,15 +204,15 @@
               on your desktop PC. The Tomcat server accesses the <term>frameworks</term> and options
               currently in use by <term>Oxygen XML Editor/Author</term>.</p>
           </li>
-          <li id="li_hfs_dgk_54b">Open the XML document with one of the following methods:<ul id="ul_ifs_dgk_54b">
-              <li id="li_jfs_dgk_54b"><b>Mobile Device</b> - To open the current document in your mobile device, click
+          <li id="li_hfs_dgk_54b" irina="irina">Open the XML document with one of the following methods:<ul id="ul_ifs_dgk_54b">
+              <li id="li_jfs_dgk_54b" irina="irina"><b>Mobile Device</b> - To open the current document in your mobile device, click
                 the <uicontrol>QR Code</uicontrol> button next to one of the network interface
                 listings and use a QR code reader on your mobile device.</li>
-              <li id="li_kfs_dgk_54b"><b>Desktop Browser</b> - To open the current document in your desktop browser,
+              <li id="li_kfs_dgk_54b" irina="irina"><b>Desktop Browser</b> - To open the current document in your desktop browser,
                 click the <uicontrol>Open in Browser</uicontrol> button next to one of the network
                 interface listings.</li>
             </ul></li>
-          <li id="li_lfs_dgk_54b"><xref href="#customizing_frameworks/make-changes-li" format="dita">Make whatever
+          <li id="li_lfs_dgk_54b" irina="irina"><xref href="#customizing_frameworks/make-changes-li" format="dita">Make whatever
               changes you want to your <term>framework</term></xref>. Note that these changes will
             not automatically be reflected in the <ph keyref="webappProduct"/> if it was already
             running. To see the results of changes, close the server using the <b>Close and stop
@@ -229,36 +229,36 @@
       <title>Uploading a Custom Framework to Web Author</title>
       <p id="p_ofs_dgk_54b">To upload a custom <term>framework</term> to your <term>Web Author</term> deployment,
         follow this procedure:<ol conkeyref="reusables-sdk-webauthor/upload-framework-ol" id="ol_pfs_dgk_54b">
-          <li id="li_qfs_dgk_54b"/>
+          <li id="li_qfs_dgk_54b" irina="irina"/>
         </ol></p>
     </section>
     <section id="adding_javascript_code_to_a_framework">
       <title>Adding JavaScript Code to a Framework</title>
       <p id="p_rfs_dgk_54b">Frameworks can be configured to load custom JavaScript code in the web
         browser. The JavaScript files are loaded according to the following rules:<ul>
-          <li>If your framework is defined as a <filepath>.framework</filepath> file (for example,
+          <li irina="irina">If your framework is defined as a <filepath>.framework</filepath> file (for example,
             the framework was created using the <uicontrol>Document Type Configuration</uicontrol>
             dialog box):<ul id="ul_wd5_rnt_ktb">
-              <li>All the files in the <filepath>web/</filepath> folder of the framework will be
+              <li irina="irina">All the files in the <filepath>web/</filepath> folder of the framework will be
                 loaded in the browser in lexicographical order. </li>
-              <li>JavaScript files located in subfolders of the <filepath>web</filepath> folder will
+              <li irina="irina">JavaScript files located in subfolders of the <filepath>web</filepath> folder will
                 not be loaded.</li>
-              <li>If your framework is a framework extension, both the JavaScript files from the
+              <li irina="irina">If your framework is a framework extension, both the JavaScript files from the
                 base framework and those from the extension will be loaded. To make it possible to
                 override JavaScript files inherited from a base framework, if a file in the
                   <i>web</i> folder of the extension framework has the same name as a file in the
                   <i>web</i> folder of the base framework, only the file in the extension framework
                 will be loaded.</li>
             </ul></li>
-          <li>If a framework is generated using a <xref
+          <li irina="irina">If a framework is generated using a <xref
               href="wa-framework-customization-script.dita"><i>Framework Extension
             Script</i></xref>, multiple <codeph>webResources</codeph> can be specified:<ul
               id="ul_b3b_lnt_ktb">
-              <li>The <codeph>webResources</codeph> will be loaded in the order they are specified
+              <li irina="irina">The <codeph>webResources</codeph> will be loaded in the order they are specified
                 in the <filepath>.exf</filepath> file.</li>
-              <li>If a folder is specified, all the JavaScript files in that folder will be loaded
+              <li irina="irina">If a folder is specified, all the JavaScript files in that folder will be loaded
                 in lexicographical order.</li>
-              <li>If a file is specified (directly or indirectly) multiple times, it will be loaded
+              <li irina="irina">If a file is specified (directly or indirectly) multiple times, it will be loaded
                 only once (the last instance that was specified).</li>
             </ul></li>
         </ul></p>
@@ -276,13 +276,13 @@ sync.ext.Registry.extension = new MyExtension();</codeblock></p>
       <p id="p_zfs_dgk_54b">These files can contain code that calls the <xref keyref="jscript_api">Web Author
           JavaScript API</xref> to implement custom editing actions. Some possible use cases
           include:<ul id="ul_x5q_s4y_hnb">
-          <li id="li_ags_dgk_54b">Create custom actions and add them to the toolbar or contextual menu. For more
+          <li id="li_ags_dgk_54b" irina="irina">Create custom actions and add them to the toolbar or contextual menu. For more
             details, see the <xref keyref="jscript_api_customaction">JS Tutorial: Implementing a
               Custom Action</xref>.</li>
-          <li id="li_bgs_dgk_54b">Create custom form controls. For more details, see the <xref
+          <li id="li_bgs_dgk_54b" irina="irina">Create custom form controls. For more details, see the <xref
               keyref="jscript_api_formcontrol">JS Tutorial: Implementing a Custom Form
               Control</xref>.</li>
-          <li id="li_cgs_dgk_54b">Add more views. For more details, see the <xref keyref="jscript_api_customview">JS
+          <li id="li_cgs_dgk_54b" irina="irina">Add more views. For more details, see the <xref keyref="jscript_api_customview">JS
               Tutorial: Customizing the Side Views</xref>.</li>
         </ul></p>
       <p id="p_dgs_dgk_54b">
@@ -299,7 +299,7 @@ sync.ext.Registry.extension = new MyExtension();</codeblock></p>
         text, follow these steps:</p>
       <p>
         <ol id="ol_twc_c32_crb">
-          <li>Create an EXF file (for example <filepath>my-framework.exf</filepath>) with the
+          <li irina="irina">Create an EXF file (for example <filepath>my-framework.exf</filepath>) with the
             following
             content:<codeblock id="codeblock_dpf_232_crb" outputclass="language-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;script 
@@ -317,7 +317,7 @@ sync.ext.Registry.extension = new MyExtension();</codeblock></p>
     &lt;addEntry path="${frameworkDir}/my-framework.js"/>
   &lt;/webResources>
 &lt;/script></codeblock></li>
-          <li>Create the <filepath>my-framework.js</filepath> file in the same folder with the
+          <li irina="irina">Create the <filepath>my-framework.js</filepath> file in the same folder with the
             following
             content:<codeblock id="codeblock_plz_g32_crb" outputclass="language-javascript">// Use the `sync.ext.WrapperExtension` class to wrap the original extension.
 class MyFrameworkExtension extends sync.ext.WrapperExtension {
@@ -334,7 +334,7 @@ class MyFrameworkExtension extends sync.ext.WrapperExtension {
 
 var originalExtension = sync.ext.Registry.extension;
 sync.ext.Registry.extension = new MyFrameworkExtension(originalExtension);</codeblock></li>
-          <li>Create a zip archive with the folder that contains the two files created above to
+          <li irina="irina">Create a zip archive with the folder that contains the two files created above to
             obtain the framework.</li>
         </ol>
       </p>
@@ -359,12 +359,12 @@ sync.ext.Registry.extension = new MyFrameworkExtension(originalExtension);</code
       <title>Other Customization Tips</title>
       <p id="p_igs_dgk_54b">
         <ul id="ol_css_3h1_br">
-          <li id="li_jgs_dgk_54b">If you want to use CSS rules that only apply when the <term>framework</term> is used
+          <li id="li_jgs_dgk_54b" irina="irina">If you want to use CSS rules that only apply when the <term>framework</term> is used
             in the <ph keyref="webappProduct"/>, use the following <codeph>media</codeph>
             query:<codeblock outputclass="language-css" id="codeblock_kgs_dgk_54b">@media oxygen AND (platform:webapp) {
  ... 
 }</codeblock></li>
-          <li id="author-mode-operation-li">
+          <li id="author-mode-operation-li" irina="irina">
             <p id="p_lgs_dgk_54b">If the <term>framework</term> contains custom <uicontrol>Author</uicontrol> mode
               operations (Java implementations of the
                 <codeph>ro.sync.ecss.extensions.api.AuthorOperation</codeph> interface), they can be
@@ -386,7 +386,7 @@ sync.ext.Registry.extension = new MyFrameworkExtension(originalExtension);</code
                   keyref="webappProduct"/> and they should not be annotated.</note>
             </p>
           </li>
-          <li id="li_qgs_dgk_54b">The <ph keyref="webappProduct"/> continuously validates the XML documents using the
+          <li id="li_qgs_dgk_54b" irina="irina">The <ph keyref="webappProduct"/> continuously validates the XML documents using the
             default validation scenarios defined at <term>framework</term> level. Only the
             validation units that have the <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/edit-validation-scenario.html#edit-validation-scenario__validation-config-dialog"

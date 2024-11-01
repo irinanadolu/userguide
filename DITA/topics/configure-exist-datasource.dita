@@ -23,30 +23,30 @@
       <p id="p_ekx_cgk_54b"><ph keyref="product"/> supports <term>eXist</term> database server
         versions up to and including version 5.0. To configure a data source for an
           <term>eXist</term> database, follow these steps:<ol id="ol_fkx_cgk_54b">
-          <li id="li_gkx_cgk_54b"><ph conkeyref="reusables-working-with-databases/open-ds"/>
+          <li id="li_gkx_cgk_54b" irina="irina"><ph conkeyref="reusables-working-with-databases/open-ds"/>
           </li>
-          <li id="li_hkx_cgk_54b"><ph conkeyref="reusables-working-with-databases/click-new"/>
+          <li id="li_hkx_cgk_54b" irina="irina"><ph conkeyref="reusables-working-with-databases/click-new"/>
           </li>
-          <li id="li_ikx_cgk_54b"><ph conkeyref="reusables-working-with-databases/unique-name"/>
+          <li id="li_ikx_cgk_54b" irina="irina"><ph conkeyref="reusables-working-with-databases/unique-name"/>
           </li>
-          <li id="li_jkx_cgk_54b">Select <i>eXist</i> from the driver <uicontrol>Type</uicontrol>
+          <li id="li_jkx_cgk_54b" irina="irina">Select <i>eXist</i> from the driver <uicontrol>Type</uicontrol>
             drop-down menu. </li>
-          <li id="li_kkx_cgk_54b">Click the <uicontrol>Add Files</uicontrol> button to add the
+          <li id="li_kkx_cgk_54b" irina="irina">Click the <uicontrol>Add Files</uicontrol> button to add the
               <term>eXist</term> driver files. <itemgroup>The following driver files should be added
               and they are found in the installation directory of the <term>eXist</term> database
               server. Make sure you copy the files from the installation of the <term>eXist</term>
               server where you want to connect from <ph keyref="product"/>.<p id="p_lkx_cgk_54b">
                 <ul id="ul_mkx_cgk_54b">
-                  <li id="li_nkx_cgk_54b">The <filepath>exist.jar</filepath> file located in the
+                  <li id="li_nkx_cgk_54b" irina="irina">The <filepath>exist.jar</filepath> file located in the
                     base directory (if present, depending on the server version).</li>
-                  <li id="li_okx_cgk_54b">All JAR files in the <filepath>lib/core/</filepath>
+                  <li id="li_okx_cgk_54b" irina="irina">All JAR files in the <filepath>lib/core/</filepath>
                     directory (if present) or all JAR files located in the <filepath>lib</filepath>
                     directory except for the JAR libraries with the pattern
                       <filepath>log4j-*.jar</filepath>, which may interfere with the logging in <ph
                       keyref="product"/>.</li>
                 </ul>
               </p></itemgroup></li>
-          <li id="li_qkx_cgk_54b"><ph conkeyref="reusables-working-with-databases/step6"/>
+          <li id="li_qkx_cgk_54b" irina="irina"><ph conkeyref="reusables-working-with-databases/step6"/>
           </li>
         </ol></p>
     </section>
@@ -54,21 +54,21 @@
       <title>Step 2: Configure an eXist Connection</title>
       <p id="p_rkx_cgk_54b">To configure a connection to an <term>eXist</term> database, follow
         these steps:<ol id="ol_skx_cgk_54b">
-          <li id="li_tkx_cgk_54b"><ph conkeyref="reusables-working-with-databases/open-ds"/></li>
-          <li id="li_ukx_cgk_54b"><ph
+          <li id="li_tkx_cgk_54b" irina="irina"><ph conkeyref="reusables-working-with-databases/open-ds"/></li>
+          <li id="li_ukx_cgk_54b" irina="irina"><ph
               conkeyref="reusables-working-with-databases/click-new-connection"/></li>
-          <li id="li_vkx_cgk_54b"><ph
+          <li id="li_vkx_cgk_54b" irina="irina"><ph
               conkeyref="reusables-working-with-databases/unique-name-connection"/></li>
-          <li id="li_wkx_cgk_54b">Select a previously configured <term>eXist</term> data source from
+          <li id="li_wkx_cgk_54b" irina="irina">Select a previously configured <term>eXist</term> data source from
             the <uicontrol>Data Source</uicontrol> drop-down menu.</li>
-          <li id="li_xkx_cgk_54b">Enter the connection details:<ol id="ol_ykx_cgk_54b">
-              <li id="li_zkx_cgk_54b">Set the URI to the installed <term>eXist</term> engine in the
+          <li id="li_xkx_cgk_54b" irina="irina">Enter the connection details:<ol id="ol_ykx_cgk_54b">
+              <li id="li_zkx_cgk_54b" irina="irina">Set the URI to the installed <term>eXist</term> engine in the
                   <uicontrol>XML DB URI</uicontrol> field.</li>
-              <li id="li_alx_cgk_54b">Set the user name in the <uicontrol>User</uicontrol>
+              <li id="li_alx_cgk_54b" irina="irina">Set the user name in the <uicontrol>User</uicontrol>
                 field.</li>
-              <li id="li_blx_cgk_54b">Set the password in the <uicontrol>Password</uicontrol>
+              <li id="li_blx_cgk_54b" irina="irina">Set the password in the <uicontrol>Password</uicontrol>
                 field.</li>
-              <li id="li_clx_cgk_54b">
+              <li id="li_clx_cgk_54b" irina="irina">
                 <p id="p_dlx_cgk_54b">Enter the start collection in the
                     <uicontrol>Collection</uicontrol> field.</p>
                 <p id="p_elx_cgk_54b"><term>eXist</term> organizes all documents in hierarchical
@@ -77,9 +77,9 @@
                   name.</p>
               </li>
             </ol></li>
-          <li id="li_flx_cgk_54b"><ph
+          <li id="li_flx_cgk_54b" irina="irina"><ph
               conkeyref="reusables-working-with-databases/click-ok-connection"/></li>
-          <li id="li_glx_cgk_54b">To view your connection, go to the <xref
+          <li id="li_glx_cgk_54b" irina="irina">To view your connection, go to the <xref
               href="relational-database-explorer.dita#relational-database-explorer"><uicontrol>Data
                 Source Explorer</uicontrol> view</xref>
             <ph conkeyref="reusables-user-guide/reopen-view-parenthesis"/> or switch to the

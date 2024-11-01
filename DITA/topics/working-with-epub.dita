@@ -14,11 +14,11 @@
   <body>
     <p id="p_dfw_cgk_54b"><ph keyref="product"/> includes support for working with various types of archives, including
       the following:<ul id="ul_efw_cgk_54b">
-        <li id="li_ffw_cgk_54b"><b>EPUB</b> - An e-book file format that can be used on many types of devices, such as
+        <li id="li_ffw_cgk_54b" irina="irina"><b>EPUB</b> - An e-book file format that can be used on many types of devices, such as
           smart phones, tablets, e-readers, or computers.</li>
-        <li id="li_gfw_cgk_54b"><b>OOXML</b> - An XML-based file format for representing spreadsheets, charts,
+        <li id="li_gfw_cgk_54b" irina="irina"><b>OOXML</b> - An XML-based file format for representing spreadsheets, charts,
           presentations, and word processing documents.</li>
-        <li id="li_hfw_cgk_54b"><b>ODF</b> - An free and open-source XML-based file format for electronic office
+        <li id="li_hfw_cgk_54b" irina="irina"><b>ODF</b> - An free and open-source XML-based file format for electronic office
           documents, such as spreadsheets, charts, presentations, and word processing
           documents.</li>
       </ul></p>
@@ -29,9 +29,9 @@
         product="authorEclipse developerEclipse editorEclipse"><uicontrol>Project
           Explorer</uicontrol> view or the main editing pane</ph>, their internal components are
       expanded: <ul id="ul_jfw_cgk_54b">
-        <li id="li_kfw_cgk_54b">Document content (XHTML and image files).</li>
-        <li id="li_lfw_cgk_54b">Packaging files.</li>
-        <li id="li_mfw_cgk_54b">Container files.</li>
+        <li id="li_kfw_cgk_54b" irina="irina">Document content (XHTML and image files).</li>
+        <li id="li_lfw_cgk_54b" irina="irina">Packaging files.</li>
+        <li id="li_mfw_cgk_54b" irina="irina">Container files.</li>
       </ul></p>
     <p id="p_nfw_cgk_54b">
       <fig product="author developer editor json" id="fig_ofw_cgk_54b">

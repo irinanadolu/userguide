@@ -48,18 +48,18 @@
     </section>
     <p id="p_jgx_bgk_54b">The <uicontrol>CSS Inspector</uicontrol> view has six possible tabs (depending on the current
         context):<ul id="ul_pwr_2j1_lq">
-        <li id="li_kgx_bgk_54b"><uicontrol>Element</uicontrol> - Displays the CSS rules matching the currently selected
+        <li id="li_kgx_bgk_54b" irina="irina"><uicontrol>Element</uicontrol> - Displays the CSS rules matching the currently selected
           element in the <uicontrol>Author</uicontrol> page (ordered from most-specific to
           least-specific).</li>
-        <li id="li_lgx_bgk_54b"><uicontrol>:marker</uicontrol> - Displays the rules matching the
+        <li id="li_lgx_bgk_54b" irina="irina"><uicontrol>:marker</uicontrol> - Displays the rules matching the
             <codeph>:marker</codeph> pseudo-element.</li>
-        <li id="li_mgx_bgk_54b"><uicontrol>:before</uicontrol> - Displays the rules matching the
+        <li id="li_mgx_bgk_54b" irina="irina"><uicontrol>:before</uicontrol> - Displays the rules matching the
             <codeph>:before</codeph> pseudo-element.</li>
-        <li id="li_ngx_bgk_54b"><uicontrol>:after</uicontrol> - Displays the rules matching the <codeph>:after</codeph>
+        <li id="li_ngx_bgk_54b" irina="irina"><uicontrol>:after</uicontrol> - Displays the rules matching the <codeph>:after</codeph>
           pseudo-element.</li>
-        <li id="li_ogx_bgk_54b"><uicontrol>Computed</uicontrol> - Displays all the styling properties that apply to the
+        <li id="li_ogx_bgk_54b" irina="irina"><uicontrol>Computed</uicontrol> - Displays all the styling properties that apply to the
           current element, as a result of all the CSS rules matching the element.</li>
-        <li id="li_pgx_bgk_54b"><uicontrol>Path</uicontrol> - Displays the path for the current element, and its
+        <li id="li_pgx_bgk_54b" irina="irina"><uicontrol>Path</uicontrol> - Displays the path for the current element, and its
           attributes, allowing you to quickly see the attributes on all parent elements, and allows
           you to copy fragments from this view and paste it into the associated CSS to easily create
           new rules.</li>
@@ -70,11 +70,11 @@
       match the current element.</p>
     <p id="p_rgx_bgk_54b">Each of the tabbed panes include a contextual menu with the following actions:<ul
         id="ul_jqj_vn1_lq">
-        <li product="author editor authorEclipse editorEclipse" id="li_sgx_bgk_54b"><uicontrol>Copy</uicontrol> - copies
+        <li product="author editor authorEclipse editorEclipse" id="li_sgx_bgk_54b" irina="irina"><uicontrol>Copy</uicontrol> - copies
           the current selection</li>
-        <li product="author editor authorEclipse editorEclipse" id="li_tgx_bgk_54b"><uicontrol>Select all</uicontrol> -
+        <li product="author editor authorEclipse editorEclipse" id="li_tgx_bgk_54b" irina="irina"><uicontrol>Select all</uicontrol> -
           selects all information listed in the pane</li>
-        <li product="author editor" id="li_ugx_bgk_54b"><uicontrol>Show empty rules</uicontrol> - forces the view to
+        <li product="author editor" id="li_ugx_bgk_54b" irina="irina"><uicontrol>Show empty rules</uicontrol> - forces the view to
           show all the matching rules, even if they do not declare any CSS properties (by default,
           the empty rules are not displayed)</li>
       </ul></p>

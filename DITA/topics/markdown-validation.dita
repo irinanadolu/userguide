@@ -23,17 +23,17 @@
       <p id="p_j33_cgk_54b">It is possible to validate Markdown documents with Schematron rules.
         There are two ways to create an association between Markdown documents and Schematron
           files:<ul id="ul_edl_vqk_nkb">
-          <li id="li_k33_cgk_54b">You can configure an association using the <xref
+          <li id="li_k33_cgk_54b" irina="irina">You can configure an association using the <xref
               href="preferences-markdown.dita"><uicontrol>Markdown</uicontrol> preferences
               page</xref>. You can specify a Schematron file to validate converted HTML content, as
             well as one to validate converted DITA content.</li>
-          <li id="li_l33_cgk_54b">You can create a Schematron association for Markdown documents by
+          <li id="li_l33_cgk_54b" irina="irina">You can create a Schematron association for Markdown documents by
             adding a <xref href="using-XML-Catalogs.dita">catalog mapping</xref> for one of the
             following URIs:<ul id="ul_xh5_tnk_nkb">
-              <li id="li_m33_cgk_54b"
+              <li id="li_m33_cgk_54b" irina="irina"
                   ><b>http://www.oxygenxml.com/schematron/validation/markdown-as-html</b> - The
                 obtained Schematron will be applied over HTML conversions.</li>
-              <li id="li_n33_cgk_54b"
+              <li id="li_n33_cgk_54b" irina="irina"
                   ><b>http://www.oxygenxml.com/schematron/validation/markdown-as-dita</b> - The
                 obtained Schematron will be applied over DITA conversions.</li>
             </ul><p id="p_o33_cgk_54b">The catalog mapping is a fallback in case the Schematron

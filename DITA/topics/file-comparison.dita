@@ -39,23 +39,23 @@
       <p id="p_tw5_bgk_54b">The <uicontrol>Compare Files</uicontrol> tool can be used to compare the differences
         between two files or XML fragments.</p>
       <sectiondiv><b>Compare Files</b><p id="p_uw5_bgk_54b">To perform a two-way comparison, follow these steps:<ol id="ol_vw5_bgk_54b">
-            <li id="li_ww5_bgk_54b">
+            <li id="li_ww5_bgk_54b" irina="irina">
               <p id="p_xw5_bgk_54b">Open a file in the left panel and the file you want to compare it to in the right
                 panel. <ph conkeyref="reusables-user-guide/specify-path"/></p>
               <p id="p_yw5_bgk_54b"><b>Step Result:</b> The selected files are opened in the two side-by-side editors.
                 A text editing mode is used to offer a better view of the differences.</p>
             </li>
-            <li id="li_zw5_bgk_54b">To highlight the differences between the two files, click the <uicontrol><image
+            <li id="li_zw5_bgk_54b" irina="irina">To highlight the differences between the two files, click the <uicontrol><image
                   href="../img/DiffPerform16.png"/>Perform File Differencing</uicontrol> button from
               the toolbar.</li>
-            <li id="li_ax5_bgk_54b">You can use the drop-down menu on the left side of the toolbar to change the <xref
+            <li id="li_ax5_bgk_54b" irina="irina">You can use the drop-down menu on the left side of the toolbar to change the <xref
                 href="#file-comparison/two-way-diff-algorithms" format="dita">algorithm</xref> for
               the operation.</li>
-            <li id="li_bx5_bgk_54b">You can also use the <uicontrol><image href="../img/OptionsShortcut16.png"/>Diff
+            <li id="li_bx5_bgk_54b" irina="irina">You can also use the <uicontrol><image href="../img/OptionsShortcut16.png"/>Diff
                 Options</uicontrol> button to access the <uicontrol>Files Comparison</uicontrol>
               preferences page where you can choose to ignore certain types of markup and configure
               various options.</li>
-            <li id="li_cx5_bgk_54b">If you are comparing XML documents using the <uicontrol>XML Fast</uicontrol> or
+            <li id="li_cx5_bgk_54b" irina="irina">If you are comparing XML documents using the <uicontrol>XML Fast</uicontrol> or
                 <uicontrol>XML Accurate</uicontrol> algorithms, you can enter an XPath 2.0
               expression in the <uicontrol>Ignore nodes by XPath</uicontrol> text field to ignore
               certain nodes from the comparison.</li>
@@ -76,14 +76,14 @@
             href="preferences-diff-appearance.dita#preferences-diff-appearance"><uicontrol>Files
               Comparison / Appearance</uicontrol> preferences page</xref>, but the default colors
           and their shades mean the following:<ul id="ul_gx5_bgk_54b">
-            <li id="li_hx5_bgk_54b"><b>Pink</b> - Identifies modifications on either side.</li>
-            <li id="li_ix5_bgk_54b"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
+            <li id="li_hx5_bgk_54b" irina="irina"><b>Pink</b> - Identifies modifications on either side.</li>
+            <li id="li_ix5_bgk_54b" irina="irina"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
               changes).</li>
-            <li id="li_jx5_bgk_54b"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
+            <li id="li_jx5_bgk_54b" irina="irina"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
               changes).</li>
-            <li id="li_kx5_bgk_54b"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in their
+            <li id="li_kx5_bgk_54b" irina="irina"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in their
               entirety.</li>
-            <li id="li_lx5_bgk_54b"><b>Darker Shade</b> - Identifies specific changes within the blocks that can be
+            <li id="li_lx5_bgk_54b" irina="irina"><b>Darker Shade</b> - Identifies specific changes within the blocks that can be
               merged more precisely.</li>
           </ul></p></sectiondiv>
       <sectiondiv><b>Comparing Fragments (Copy/Paste)</b><p id="p_mx5_bgk_54b">To compare XML file fragments, you need
@@ -92,22 +92,22 @@
               href="../img/CloseQuickFind16.png" id="image_j1h_vbh_5r"/>Close (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_w_shortcut"/>)</uicontrol> button,
           before pasting the fragments. Other notes for pasting fragments:<ul id="ul_nx5_bgk_54b">
-            <li id="li_ox5_bgk_54b">As long as the fragment is more than 10 characters, the application will attempt to
+            <li id="li_ox5_bgk_54b" irina="irina">As long as the fragment is more than 10 characters, the application will attempt to
               automatically detect the content type. It can detect the following types: XML, DTD,
               CSS, JSON, and Markdown (if it starts with #). If one of those content types is
               detected, the fragments will be displayed with syntax highlights.</li>
-            <li id="li_px5_bgk_54b">If you save modified fragments, a dialog box opens that allows you to save the
+            <li id="li_px5_bgk_54b" irina="irina">If you save modified fragments, a dialog box opens that allows you to save the
               changes as a new document.</li>
           </ul></p></sectiondiv>
       <sectiondiv conkeyref="reusables-tools/navigate-differences"/>
       <sectiondiv conkeyref="reusables-tools/editing-actions"/>
       <sectiondiv id="two-way-diff-algorithms"><b>Two-Way Diff Algorithms</b><p id="p_qx5_bgk_54b"><ph keyref="product"
           /> offers the following two-way diff algorithms to compare files or fragments:<ul id="ul_rx5_bgk_54b">
-            <li conkeyref="reusables-tools/auto" id="li_sx5_bgk_54b"/>
-            <li conkeyref="reusables-tools/characters" id="li_tx5_bgk_54b"/>
-            <li conkeyref="reusables-tools/words" id="li_ux5_bgk_54b"/>
-            <li conkeyref="reusables-tools/lines" id="li_vx5_bgk_54b"/>
-            <li id="syntax-aware-alg">
+            <li conkeyref="reusables-tools/auto" id="li_sx5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/characters" id="li_tx5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/words" id="li_ux5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/lines" id="li_vx5_bgk_54b" irina="irina"/>
+            <li id="syntax-aware-alg" irina="irina">
               <p id="p_wx5_bgk_54b"><uicontrol>Syntax Aware</uicontrol> - Computes differences for known file types or
                 fragments. This algorithm splits the files or fragments into sequences of
                   <i>tokens</i> and computes the differences between them. The meaning of a
@@ -120,25 +120,25 @@
                 extensions), TEXT file type (<filepath>.txt</filepath> extension), or PHP file type
                   (<filepath>.php</filepath> extension).</p>
               <p id="p_yx5_bgk_54b">For example:<ul id="ul_zx5_bgk_54b">
-                  <li id="li_ay5_bgk_54b">When comparing XML files or fragments, a token can be one of the following:<ul id="ul_by5_bgk_54b">
-                      <li id="li_cy5_bgk_54b">The name of an XML tag</li>
-                      <li id="li_dy5_bgk_54b">The <b>&lt;</b> character</li>
-                      <li id="li_ey5_bgk_54b">The <b>/></b> sequence of characters</li>
-                      <li id="li_fy5_bgk_54b">The name of an attribute inside an XML tag</li>
-                      <li id="li_gy5_bgk_54b">The <b>=</b> sign</li>
-                      <li id="li_hy5_bgk_54b">The <b>"</b> character</li>
-                      <li id="li_iy5_bgk_54b">An attribute value</li>
-                      <li id="li_jy5_bgk_54b">The text string between the start tag and the end tag (a text node that is
+                  <li id="li_ay5_bgk_54b" irina="irina">When comparing XML files or fragments, a token can be one of the following:<ul id="ul_by5_bgk_54b">
+                      <li id="li_cy5_bgk_54b" irina="irina">The name of an XML tag</li>
+                      <li id="li_dy5_bgk_54b" irina="irina">The <b>&lt;</b> character</li>
+                      <li id="li_ey5_bgk_54b" irina="irina">The <b>/></b> sequence of characters</li>
+                      <li id="li_fy5_bgk_54b" irina="irina">The name of an attribute inside an XML tag</li>
+                      <li id="li_gy5_bgk_54b" irina="irina">The <b>=</b> sign</li>
+                      <li id="li_hy5_bgk_54b" irina="irina">The <b>"</b> character</li>
+                      <li id="li_iy5_bgk_54b" irina="irina">An attribute value</li>
+                      <li id="li_jy5_bgk_54b" irina="irina">The text string between the start tag and the end tag (a text node that is
                         a child of the XML element corresponding to the XML tag that encloses the
                         text string)</li>
                     </ul></li>
-                  <li id="li_ky5_bgk_54b">When comparing plain text, a token can be any continuous sequence of
+                  <li id="li_ky5_bgk_54b" irina="irina">When comparing plain text, a token can be any continuous sequence of
                     characters or any continuous sequence of whitespaces, including a new line
                     character.</li>
                 </ul></p>
             </li>
-            <li conkeyref="reusables-tools/xml-fast" id="li_ly5_bgk_54b"/>
-            <li conkeyref="reusables-tools/xml-accurate" id="li_my5_bgk_54b"/>
+            <li conkeyref="reusables-tools/xml-fast" id="li_ly5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/xml-accurate" id="li_my5_bgk_54b" irina="irina"/>
           </ul></p></sectiondiv>
     </section>
     <section id="threeway_comparisons">
@@ -148,10 +148,10 @@
         teams who have multiple authors editing and committing the same documents. It provides a
         comparison between a local change, another change, and the original base revision. Some
         additional advantages include:<ul id="ul_oy5_bgk_54b">
-          <li id="li_py5_bgk_54b">Visualize and merge content that was modified by you and another member of your
+          <li id="li_py5_bgk_54b" irina="irina">Visualize and merge content that was modified by you and another member of your
             team.</li>
-          <li id="li_qy5_bgk_54b">Marks differences correctly even when the document structure is rearranged.</li>
-          <li id="li_ry5_bgk_54b">Allows you to merge XML-relevant modifications.</li>
+          <li id="li_qy5_bgk_54b" irina="irina">Marks differences correctly even when the document structure is rearranged.</li>
+          <li id="li_ry5_bgk_54b" irina="irina">Allows you to merge XML-relevant modifications.</li>
         </ul></p>
       <p id="p_sy5_bgk_54b">
         <fig id="fig_ty5_bgk_54b">
@@ -160,23 +160,23 @@
         </fig>
       </p>
       <sectiondiv><b>Compare Files</b><p id="p_uy5_bgk_54b">To perform a three-way comparison, follow these steps:<ol id="ol_vy5_bgk_54b">
-            <li id="li_wy5_bgk_54b">
+            <li id="li_wy5_bgk_54b" irina="irina">
               <p id="p_xy5_bgk_54b">Open a file in the left panel and the file you want to compare it to in the right
                 panel. <ph conkeyref="reusables-user-guide/specify-path"/></p>
               <p id="p_yy5_bgk_54b"><b>Step Result:</b> The selected files are opened in the two side-by-side editors.
                 A text editing mode is used to offer a better view of the differences.</p>
             </li>
-            <li id="li_zy5_bgk_54b">Click the <uicontrol><image href="../img/ThreeWayComparison16.png"/> Three-Way
+            <li id="li_zy5_bgk_54b" irina="irina">Click the <uicontrol><image href="../img/ThreeWayComparison16.png"/> Three-Way
                 Comparison</uicontrol> button on the toolbar and select the base (original) file in
               the <uicontrol>Base</uicontrol> field. <ph
                 conkeyref="reusables-user-guide/specify-path"/></li>
-            <li id="li_az5_bgk_54b">To highlight the differences, click the <uicontrol><image
+            <li id="li_az5_bgk_54b" irina="irina">To highlight the differences, click the <uicontrol><image
                   href="../img/DiffPerform16.png"/>Perform File Differencing</uicontrol> button on
               the toolbar.</li>
-            <li id="li_bz5_bgk_54b">You can use the drop-down menu on the left side of the toolbar to change the <xref
+            <li id="li_bz5_bgk_54b" irina="irina">You can use the drop-down menu on the left side of the toolbar to change the <xref
                 href="#file-comparison/two-way-diff-algorithms" format="dita">algorithm</xref> for
               the operation.</li>
-            <li id="li_cz5_bgk_54b">You can also use the <uicontrol><image href="../img/OptionsShortcut16.png"/>Diff
+            <li id="li_cz5_bgk_54b" irina="irina">You can also use the <uicontrol><image href="../img/OptionsShortcut16.png"/>Diff
                 Options</uicontrol> button to access the <uicontrol>Files Comparison</uicontrol>
               preferences page where you can choose to ignore certain types of markup and configure
               various options.</li>
@@ -194,10 +194,10 @@
       <sectiondiv conkeyref="reusables-tools/editing-actions"/>
       <sectiondiv><b>Three-Way Diff Algorithms</b><p id="p_fz5_bgk_54b"><ph keyref="product"/> offers the following
           three-way diff algorithms to compare files:<ul id="ul_gz5_bgk_54b">
-            <li conkeyref="reusables-tools/auto" id="li_hz5_bgk_54b"/>
-            <li conkeyref="reusables-tools/lines" id="li_iz5_bgk_54b"/>
-            <li conkeyref="reusables-tools/xml-fast" id="li_jz5_bgk_54b"/>
-            <li conkeyref="reusables-tools/xml-accurate" id="li_kz5_bgk_54b"/>
+            <li conkeyref="reusables-tools/auto" id="li_hz5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/lines" id="li_iz5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/xml-fast" id="li_jz5_bgk_54b" irina="irina"/>
+            <li conkeyref="reusables-tools/xml-accurate" id="li_kz5_bgk_54b" irina="irina"/>
           </ul></p></sectiondiv>
     </section>
     <section id="second_level_comparisons">
@@ -274,9 +274,9 @@
       <title>Author Mode Algorithms</title>
       <p id="p_a1v_bgk_54b">The visual <uicontrol>Author</uicontrol> comparison mode offers the
         following diff algorithms to compare files:<ul id="ul_dcn_yjp_fbb">
-          <li conkeyref="reusables-tools/auto" id="li_b1v_bgk_54b"/>
-          <li conkeyref="reusables-tools/xml-fast" id="li_c1v_bgk_54b"/>
-          <li conkeyref="reusables-tools/xml-accurate" id="li_d1v_bgk_54b"/>
+          <li conkeyref="reusables-tools/auto" id="li_b1v_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-tools/xml-fast" id="li_c1v_bgk_54b" irina="irina"/>
+          <li conkeyref="reusables-tools/xml-accurate" id="li_d1v_bgk_54b" irina="irina"/>
         </ul></p>
     </section>
     <section id="second_level_comparisons_author" product="author editor">

@@ -63,7 +63,7 @@ webdav-https://my-server:8081/repo/*</codeblock></p>
         useful for monitoring and for determining which domains should be marked as trusted.</p>
       <note type="other" othertype="Notes" id="note_q1r_dgk_54b">
         <ul id="ul_jky_rhj_4kb">
-          <li id="li_r1r_dgk_54b">
+          <li id="li_r1r_dgk_54b" irina="irina">
             <p id="p_s1r_dgk_54b">Plugins can specify whether a connection is allowed or denied,
               regardless of whether or not they are listed in the <uicontrol>Security</uicontrol>
               tab of the <xref href="webapp-admin-page.dita"/>. For example, the Perforce plugin
@@ -75,7 +75,7 @@ webdav-https://my-server:8081/repo/*</codeblock></p>
             <p id="p_v1r_dgk_54b">Lines that correspond to such events contain the token <codeph>[PLUGIN FIREWALL
                 DECISION]</codeph>.</p>
           </li>
-          <li id="li_w1r_dgk_54b">Connections that have no security risks (such as connections to
+          <li id="li_w1r_dgk_54b" irina="irina">Connections that have no security risks (such as connections to
             the License Server) are also allowed regardless of the settings in the
               <uicontrol>Security</uicontrol> tab of the <xref href="webapp-admin-page.dita"/>.</li>
         </ul>

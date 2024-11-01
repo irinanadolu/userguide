@@ -18,8 +18,8 @@
     <p id="p_zvt_dgk_54b">To add an additional owner to a review task:</p>
     <p id="p_awt_dgk_54b">
       <ol id="ol_bwt_dgk_54b">
-        <li id="li_cwt_dgk_54b">Open the task in the Content Fusion browser interface.</li>
-        <li id="li_dwt_dgk_54b">
+        <li id="li_cwt_dgk_54b" irina="irina">Open the task in the Content Fusion browser interface.</li>
+        <li id="li_dwt_dgk_54b" irina="irina">
           <p id="p_ewt_dgk_54b">Click the <uicontrol>Share</uicontrol> button located in the top
             stripe.</p>
           <p id="p_fwt_dgk_54b"><b>Step Result:</b> This opens the <uicontrol>Sharing settings</uicontrol> dialog box
@@ -31,9 +31,9 @@
             </fig>
           </p>
         </li>
-        <li id="li_iwt_dgk_54b">If the person who you want assigned as an owner is listed, change their role from
+        <li id="li_iwt_dgk_54b" irina="irina">If the person who you want assigned as an owner is listed, change their role from
             <uicontrol>Reviewer</uicontrol> to <uicontrol>Owner</uicontrol>.</li>
-        <li id="li_jwt_dgk_54b">If they are not already listed, start typing the name or email in
+        <li id="li_jwt_dgk_54b" irina="irina">If they are not already listed, start typing the name or email in
           the <uicontrol>Add collaborator</uicontrol> field and the system will search for
           assignable users that can be selected from a drop-down menu. Click the
             <uicontrol>Add</uicontrol> button to add them to the list. If the name/email is not in
@@ -46,7 +46,7 @@
             to a particular department within your organization (for example), it is recommended to
             have a separate <ph keyref="cfEnterprise"/> installation for each
           department.</note></li>
-        <li id="li_lwt_dgk_54b">Click the <uicontrol>Done</uicontrol> button to save your
+        <li id="li_lwt_dgk_54b" irina="irina">Click the <uicontrol>Done</uicontrol> button to save your
           changes.</li>
       </ol>
     </p>

@@ -42,13 +42,13 @@
     <p id="p_a2r_bgk_54b">The table includes the following columns<ph
         product="author developer editor json"> or options</ph>:</p>
     <ul id="ul_b2r_bgk_54b">
-      <li id="li_c2r_bgk_54b"><uicontrol>Description</uicontrol> - A short description of the action.</li>
-      <li id="li_d2r_bgk_54b"><uicontrol>Category</uicontrol> - A classification of the actions in categories for easier
+      <li id="li_c2r_bgk_54b" irina="irina"><uicontrol>Description</uicontrol> - A short description of the action.</li>
+      <li id="li_d2r_bgk_54b" irina="irina"><uicontrol>Category</uicontrol> - A classification of the actions in categories for easier
         management and more flexibility in assigning multiple keys for the same action.</li>
-      <li id="li_e2r_bgk_54b"><uicontrol>Shortcut key</uicontrol> - The combination of keyboard keys that can be used to
+      <li id="li_e2r_bgk_54b" irina="irina"><uicontrol>Shortcut key</uicontrol> - The combination of keyboard keys that can be used to
         launch the action. To add or change a shortcut key, you can either double-click a row or
         select the row and click the <uicontrol>Edit</uicontrol> button.</li>
-      <li product="author developer editor json" id="li_f2r_bgk_54b"><uicontrol>'Home' and 'End'
+      <li product="author developer editor json" id="li_f2r_bgk_54b" irina="irina"><uicontrol>'Home' and 'End'
           keys are applied at line level</uicontrol> (available on macOS only) - Controls the way
         the HOME and END keys are interpreted. If selected, the default behavior of these keys is
         overridden and the cursor only moves on the current line.</li>
@@ -57,8 +57,8 @@
       <title>How to Assign a Shortcut Key or Edit an Existing Shortcut</title>
       <p id="p_g2r_bgk_54b">To assign a shortcut key to an action or edit an existing shortcut configuration, follow
         these steps:<ol id="ol_h2r_bgk_54b">
-          <li id="li_i2r_bgk_54b">Select the action in the table.</li>
-          <li id="li_j2r_bgk_54b">
+          <li id="li_i2r_bgk_54b" irina="irina">Select the action in the table.</li>
+          <li id="li_j2r_bgk_54b" irina="irina">
             <p id="p_k2r_bgk_54b">Click the <uicontrol>Edit</uicontrol> button.</p>
             <p id="p_l2r_bgk_54b"><b>Step Result:</b> The <uicontrol>Shortcut key</uicontrol> configuration dialog box
               is displayed.</p>
@@ -69,14 +69,14 @@
               </fig>
             </p>
           </li>
-          <li id="li_o2r_bgk_54b">Press the desired shortcut keys on your keyboard.</li>
-          <li product="author developer editor json" id="li_p2r_bgk_54b">If you need the shortcut to
+          <li id="li_o2r_bgk_54b" irina="irina">Press the desired shortcut keys on your keyboard.</li>
+          <li product="author developer editor json" id="li_p2r_bgk_54b" irina="irina">If you need the shortcut to
             work on multiple platforms, select the <uicontrol>Enable platform-independent shortcut
               keys</uicontrol> option. In this case, the following modifiers are used:<ul
               conkeyref="reusables-configuring-oxygen/shortcut_modifiers" id="ul_q2r_bgk_54b">
-              <li id="li_r2r_bgk_54b"/>
+              <li id="li_r2r_bgk_54b" irina="irina"/>
             </ul></li>
-          <li id="li_s2r_bgk_54b">Click <uicontrol>OK</uicontrol> to save your configuration.</li>
+          <li id="li_s2r_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save your configuration.</li>
         </ol></p>
     </section>
     <note type="trouble" product="author developer editor json" id="note_t2r_bgk_54b">If you

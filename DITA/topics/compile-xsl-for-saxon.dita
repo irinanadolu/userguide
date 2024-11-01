@@ -22,7 +22,7 @@
     <section id="usecases_for_a_stylesheet_export_file_sef">
       <title>Use-Cases for a Stylesheet Export File (SEF)</title>
       <ul id="ul_jhb_cgk_54b">
-        <li id="li_khb_cgk_54b"><b>Use Saxon-JS to run transformations in a browser</b> - A <term>stylesheet export
+        <li id="li_khb_cgk_54b" irina="irina"><b>Use Saxon-JS to run transformations in a browser</b> - A <term>stylesheet export
             file</term> (SEF) is needed if you want to use the <xref
             href="http://www.saxonica.com/saxon-js/documentation/index.html" format="html"
             scope="external">Saxon-JS product</xref> to run transformations in a browser, as in the
@@ -36,7 +36,7 @@
          });
     }     
 &lt;/script></codeblock></li>
-        <li id="li_mhb_cgk_54b"><b>Use SEF to run transformations in <ph keyref="product"/></b> - You can also use a
+        <li id="li_mhb_cgk_54b" irina="irina"><b>Use SEF to run transformations in <ph keyref="product"/></b> - You can also use a
             <term>stylesheet export file</term> (SEF) in <ph keyref="product"/> to apply an XSLT
           transformation over an XML file. This requires <uicontrol>Saxon-EE</uicontrol> or
             <uicontrol>Saxon-PE</uicontrol> versions of the Saxon product and you must select one of
@@ -118,16 +118,16 @@
                 of unprefixed element names that appear as name tests in path expressions and match
                 patterns in the stylesheet:</p>
               <ul id="ul_qgj_jgs_vrb">
-                <li id="li_rgj_jgs_vrb">The <uicontrol>##any</uicontrol> value declares that
+                <li id="li_rgj_jgs_vrb" irina="irina">The <uicontrol>##any</uicontrol> value declares that
                   unprefixed names are treated as a test on the local name of the element only. They
                   will match regardless of namespace.</li>
-                <li id="li_sgj_jgs_vrb">The <uicontrol>##html5</uicontrol> value declares that an
+                <li id="li_sgj_jgs_vrb" irina="irina">The <uicontrol>##html5</uicontrol> value declares that an
                   unprefixed element name will match either a name in the XHTML namespace or a name
                   in no namespace. This option is primarily intended for use when generating
                   stylesheets to run under Saxon-JS in the browser since the resulting behavior is
                   close to that defined by the special rules in the HTML5 specification for XSLT and
                   XPath running against an HTML5 DOM.</li>
-                <li id="li_tgj_jgs_vrb">You can also specify a valid URI by editing the value in the
+                <li id="li_tgj_jgs_vrb" irina="irina">You can also specify a valid URI by editing the value in the
                   combo box. Specifying a URI sets the default namespace for elements and types
                   (effectively a default value for <codeph>xpath-default-namespace</codeph>). Note
                   that an explicit value for this attribute takes precedence.</li>

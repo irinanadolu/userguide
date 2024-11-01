@@ -57,10 +57,10 @@ three {
   color: var(--color);
 }</codeblock>
       <p id="p_g3c_dgk_54b"><b>Result:</b><ul id="ul_evf_1py_q4b">
-          <li id="li_h3c_dgk_54b"><xmlelement>one</xmlelement> has the color green. </li>
-          <li id="li_i3c_dgk_54b"><xmlelement>two</xmlelement> has the color green.</li>
-          <li id="li_j3c_dgk_54b"><xmlelement>three</xmlelement> has the color red.</li>
-          <li id="li_k3c_dgk_54b"><xmlelement>four</xmlelement> has the color green.</li>
+          <li id="li_h3c_dgk_54b" irina="irina"><xmlelement>one</xmlelement> has the color green. </li>
+          <li id="li_i3c_dgk_54b" irina="irina"><xmlelement>two</xmlelement> has the color green.</li>
+          <li id="li_j3c_dgk_54b" irina="irina"><xmlelement>three</xmlelement> has the color red.</li>
+          <li id="li_k3c_dgk_54b" irina="irina"><xmlelement>four</xmlelement> has the color green.</li>
         </ul></p>
     </example>
     <section id="section_ojh_gpy_q4b">

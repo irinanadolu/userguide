@@ -32,18 +32,18 @@
     <section id="creating_a_subject_scheme_map">
       <title>Creating a Conditional Profiling Attribute Group</title>
       <p id="p_u3n_dgk_54b">To create a group in <ph keyref="product"/>:<ol id="ol_v3n_dgk_54b">
-          <li id="li_w3n_dgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to <menucascade>
+          <li id="li_w3n_dgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to <menucascade>
               <uicontrol>Editor</uicontrol>
               <uicontrol>Edit modes</uicontrol>
               <uicontrol>Author</uicontrol>
               <uicontrol>Profiling / Conditional Text</uicontrol>
               <uicontrol>Attributes and Condition sets</uicontrol>
             </menucascade>.</li>
-          <li id="li_x3n_dgk_54b">
+          <li id="li_x3n_dgk_54b" irina="irina">
             <p id="p_y3n_dgk_54b"><ph conkeyref="reusables-author-for-dita/ph-for-DITA-1"/></p>
             <p conkeyref="reusables-author-for-dita/p-for-DITA-1" id="p_z3n_dgk_54b"/>
           </li>
-          <li id="li_ajn_dgk_54b">
+          <li id="li_ajn_dgk_54b" irina="irina">
             <p id="p_bjn_dgk_54b">Specify the appropriate values for the <uicontrol>Document type</uicontrol>,
                 <uicontrol>Attribute name</uicontrol>, and <uicontrol>Display name</uicontrol>.</p>
             <p id="p_cjn_dgk_54b">For information about the <uicontrol>Profiling Attribute</uicontrol> configuration
@@ -51,15 +51,15 @@
                 href="dita-profile-content.dita#dita-profile-content/define-profiling-attributes"
               />.</p>
           </li>
-          <li id="li_djn_dgk_54b">Click the <uicontrol product="authorEclipse editorEclipse"><image
+          <li id="li_djn_dgk_54b" irina="irina">Click the <uicontrol product="authorEclipse editorEclipse"><image
                 href="../img/Add16.png" placement="inline"/>New</uicontrol><uicontrol
               product="author editor">New</uicontrol> button at the bottom of the attribute values
             table.</li>
-          <li id="li_ejn_dgk_54b">In the <uicontrol>Value</uicontrol> field of the resulting dialog box, define groups
+          <li id="li_ejn_dgk_54b" irina="irina">In the <uicontrol>Value</uicontrol> field of the resulting dialog box, define groups
             using the following format: <codeph>ParentAttrValue(SubAttrValue1
               SubAttrValue2)</codeph>. For
             example:<codeblock outputclass="language-ini" id="codeblock_fjn_dgk_54b">support(L1 L2 L3)</codeblock></li>
-          <li id="li_gjn_dgk_54b">Click <uicontrol>OK</uicontrol> and <uicontrol>Apply</uicontrol> to save and apply the
+          <li id="li_gjn_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> and <uicontrol>Apply</uicontrol> to save and apply the
             changes.</li>
         </ol></p>
     </section>

@@ -21,7 +21,7 @@
       <title>Configure a Validation Scenario and Specify the Schema</title>
       <p id="p_pnz_bgk_54b">To associate a schema to a validation scenario to be used whenever the scenario is invoked,
         follow these steps:<ol id="ol_qnz_bgk_54b">
-          <li id="li_rnz_bgk_54b">Select the <uicontrol><image href="../img/ValidationConfig16.png"
+          <li id="li_rnz_bgk_54b" irina="irina">Select the <uicontrol><image href="../img/ValidationConfig16.png"
                 id="image_k3g_x5v_sr"/>Configure Validation Scenario(s)</uicontrol> from the <ph
               product="author developer editor"><uicontrol><image href="../img/ValidateDrop.png"
                   id="image_dyn_x5v_sr"/>Validation</uicontrol> toolbar drop-down menu</ph><ph
@@ -36,9 +36,9 @@
                 product="developer editor"><uicontrol>Project</uicontrol> view</ph><ph
                 product="developerEclipse editorEclipse"><uicontrol>Project Explorer</uicontrol>
                 view</ph></xref>).</li>
-          <li id="li_snz_bgk_54b">Click the <uicontrol>New</uicontrol> button to create a new validation scenario or the
+          <li id="li_snz_bgk_54b" irina="irina">Click the <uicontrol>New</uicontrol> button to create a new validation scenario or the
               <uicontrol>Edit</uicontrol> button to modify an existing one.</li>
-          <li id="li_tnz_bgk_54b">
+          <li id="li_tnz_bgk_54b" irina="irina">
             <p id="p_unz_bgk_54b"><xref
                 href="edit-validation-scenario.dita#edit-validation-scenario/validation-unit-stepresult"
                 >Add or configure validation units</xref> according to your needs and click the
@@ -66,15 +66,15 @@
                   <dt><uicontrol>Use custom schema</uicontrol></dt>
                   <dd>Allows you to specify the schema using the following options:<ul
                       conkeyref="reusables-editing-documents/specify-schema-ul" id="ul_d4z_bgk_54b">
-                      <li id="li_e4z_bgk_54b"/>
+                      <li id="li_e4z_bgk_54b" irina="irina"/>
                     </ul></dd>
                 </dlentry>
               </dl>
             </p>
           </li>
-          <li id="li_f4z_bgk_54b">Select the schema to be associated with the validation unit and configure the rest of
+          <li id="li_f4z_bgk_54b" irina="irina">Select the schema to be associated with the validation unit and configure the rest of
             the options according to your preferences.</li>
-          <li id="li_g4z_bgk_54b">Click <uicontrol>OK</uicontrol> on both dialog boxes.</li>
+          <li id="li_g4z_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> on both dialog boxes.</li>
         </ol></p>
       <p id="p_h4z_bgk_54b"><b>Result:</b> The schema is now associated with that validation scenario whenever it is
         invoked.</p>
@@ -83,7 +83,7 @@
       <title>Use the <uicontrol>Validate with</uicontrol> Action to Specify a Schema for Validating
         the Current Document</title>
       <p id="p_i4z_bgk_54b">To validate the current document using a specified schema, follow these steps:<ol id="ol_j4z_bgk_54b">
-          <li id="li_k4z_bgk_54b">
+          <li id="li_k4z_bgk_54b" irina="irina">
             <p id="p_l4z_bgk_54b">Select the <uicontrol>Validation with</uicontrol> action from the <uicontrol><image
                   href="../img/ValidateDrop.png" id="image_mpb_fk3_t3b"/>Validation</uicontrol>
               drop-down menu on the toolbar (or <menucascade product="author developer editor">
@@ -101,12 +101,12 @@
             </p>
             <p id="p_p4z_bgk_54b">This dialog box contains the following options:<ul
                 conkeyref="reusables-editing-documents/specify-schema-ul" id="ul_q4z_bgk_54b">
-                <li id="li_r4z_bgk_54b"/>
+                <li id="li_r4z_bgk_54b" irina="irina"/>
               </ul></p>
           </li>
-          <li id="li_s4z_bgk_54b">Select the schema to be associated with the manual validation and configure the rest
+          <li id="li_s4z_bgk_54b" irina="irina">Select the schema to be associated with the manual validation and configure the rest
             of the options according to your preferences.</li>
-          <li id="li_t4z_bgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_t4z_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol></p>
       <p id="p_u4z_bgk_54b"><b>Result:</b> The current document is validated using the schema you specified.</p>
       <p id="p_v4z_bgk_54b">
@@ -117,11 +117,11 @@
       <title>Use the <uicontrol>Validate with Schema</uicontrol> Action to Specify a Schema for
         Validating all Selected Documents</title>
       <p id="p_x4z_bgk_54b">To validate multiple documents using a specified schema, follow these steps:<ol id="ol_y4z_bgk_54b">
-          <li id="li_z4z_bgk_54b">Select all the documents you want to validate in the <ph
+          <li id="li_z4z_bgk_54b" irina="irina">Select all the documents you want to validate in the <ph
               product="editor author developer"><uicontrol>Project</uicontrol> view</ph>
             <ph product="editorEclipse authorEclipse developerEclipse"><uicontrol>Project
                 Explorer</uicontrol> view</ph>.</li>
-          <li id="li_apz_bgk_54b">
+          <li id="li_apz_bgk_54b" irina="irina">
             <p id="p_bpz_bgk_54b">Invoke the contextual menu (right-click) and select the <uicontrol>Validate with
                 Schema</uicontrol> action from the <uicontrol>Validate</uicontrol> submenu.</p>
             <p id="p_cpz_bgk_54b"><b>Step Result:</b> The <uicontrol>Validate with</uicontrol> dialog box is
@@ -134,12 +134,12 @@
             </p>
             <p id="p_fpz_bgk_54b">This dialog box contains the following options:<ul
                 conkeyref="reusables-editing-documents/specify-schema-ul" id="ul_gpz_bgk_54b">
-                <li id="li_hpz_bgk_54b"/>
+                <li id="li_hpz_bgk_54b" irina="irina"/>
               </ul></p>
           </li>
-          <li id="li_ipz_bgk_54b">Select the schema that you want to use to validate all selected documents and
+          <li id="li_ipz_bgk_54b" irina="irina">Select the schema that you want to use to validate all selected documents and
             configure the rest of the options according to your preferences.</li>
-          <li id="li_jpz_bgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+          <li id="li_jpz_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
         </ol></p>
       <p id="p_kpz_bgk_54b"><b>Result:</b> The selected documents are validated using the schema you specified.</p>
     </section>

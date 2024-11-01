@@ -20,18 +20,18 @@
         <i>operative revision</i> (the revision regarding the used command).</p>
     <p id="p_uvj_dgk_54b"><b><u>Example:</u></b></p>
     <p id="p_vvj_dgk_54b">To illustrate an example, consider the following:<ul id="ul_yd4_yys_34">
-        <li id="li_wvj_dgk_54b">A new repository file <codeph>config</codeph> was created, identified by the URL
+        <li id="li_wvj_dgk_54b" irina="irina">A new repository file <codeph>config</codeph> was created, identified by the URL
             <codeph>http://host.com/myRepository/dir/config</codeph>.</li>
-        <li id="li_xvj_dgk_54b">The file has been created at revision <codeph>10</codeph>.</li>
-        <li id="li_yvj_dgk_54b">Over time, the file was modified by committing revisions <codeph>12, 15,
+        <li id="li_xvj_dgk_54b" irina="irina">The file has been created at revision <codeph>10</codeph>.</li>
+        <li id="li_yvj_dgk_54b" irina="irina">Over time, the file was modified by committing revisions <codeph>12, 15,
           17</codeph>.</li>
       </ul></p>
     <p id="p_zvj_dgk_54b">To access a specific version of the file identified by the
         <codeph>http://host.com/myRepository/dir/config</codeph> URL, you need to use a
       corresponding revision (the operative revision):<ul id="ul_a1t_b1t_34">
-        <li id="li_awj_dgk_54b">If a revision number is used that is lower than <codeph>10</codeph>, an error is
+        <li id="li_awj_dgk_54b" irina="irina">If a revision number is used that is lower than <codeph>10</codeph>, an error is
           triggered, because the file has not been created yet.</li>
-        <li id="li_bwj_dgk_54b">If a revision number is used that is between <codeph>10</codeph> and
+        <li id="li_bwj_dgk_54b" irina="irina">If a revision number is used that is between <codeph>10</codeph> and
           <codeph>19</codeph>, the specific version you are interested in would be
             obtained.<note id="note_cwj_dgk_54b">Although the file was modified in revisions <codeph>12, 15, 17</codeph>,
             it existed in all revisions between <codeph>10</codeph> and <codeph>19</codeph>.

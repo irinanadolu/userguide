@@ -10,13 +10,13 @@
         <ph keyref="product"/> also supports stylesheets coded with the LESS dynamic stylesheet
         language.</ph></p>
     <p id="p_hc3_cgk_54b">To associate a CSS with an HTML document:<ol id="ol_tgj_y2d_nkb">
-        <li id="li_ic3_cgk_54b">Use the <uicontrol><image href="../img/AssociateXsltStylesheet16.png"
+        <li id="li_ic3_cgk_54b" irina="irina">Use the <uicontrol><image href="../img/AssociateXsltStylesheet16.png"
               id="image_hwc_2c1_x3b"/>Associate XSLT/CSS Stylesheet</uicontrol> action that is
           available on the toolbar or in the <menucascade product="author editor">
             <uicontrol>Document</uicontrol>
             <uicontrol>XML Document</uicontrol>
           </menucascade><uicontrol product="authorEclipse editorEclipse">XML</uicontrol> menu.</li>
-        <li id="li_jc3_cgk_54b">In the resulting dialog box, specify the URL for the CSS file and optionally a title,
+        <li id="li_jc3_cgk_54b" irina="irina">In the resulting dialog box, specify the URL for the CSS file and optionally a title,
           and click <uicontrol>OK</uicontrol>.</li>
       </ol></p>
     <p id="p_kc3_cgk_54b"><b>Result:</b> A CSS association is added in the HTML document in a

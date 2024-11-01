@@ -63,11 +63,11 @@
       <title>Resources</title>
       <p id="p_nfj_cgk_54b">
         <ul id="ul_ofj_cgk_54b">
-          <li id="li_pfj_cgk_54b"><xref href="http://tdg.docbook.org/tdg/5.2/topic.html"
+          <li id="li_pfj_cgk_54b" irina="irina"><xref href="http://tdg.docbook.org/tdg/5.2/topic.html"
               format="html" scope="external">The Definitive Guide - DocBook Topic</xref></li>
-          <li id="li_qfj_cgk_54b"><xref href="http://docbook.org/specs/" format="html"
+          <li id="li_qfj_cgk_54b" irina="irina"><xref href="http://docbook.org/specs/" format="html"
               scope="external">DocBook Specifications</xref></li>
-          <li id="li_rfj_cgk_54b">Sample files: <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
+          <li id="li_rfj_cgk_54b" irina="irina">Sample files: <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/samples/docbook/v5/assembly/</filepath></li>
         </ul>
       </p>

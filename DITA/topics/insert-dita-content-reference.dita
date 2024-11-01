@@ -46,14 +46,14 @@
         (<xmlatt>conref</xmlatt>, <xmlatt>conkeyref</xmlatt>, or <xmlatt>keyref</xmlatt>) can easily
       be inserted at the cursor position by using the <uicontrol>Reuse Content</uicontrol> dialog
       box. It can be opened with any of the following methods:<ul id="ul_n4m_dgk_54b">
-        <li id="li_o4m_dgk_54b">Click the <uicontrol><image href="../img/Conref20.png" id="image_jgl_grx_xr"/>Reuse
+        <li id="li_o4m_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/Conref20.png" id="image_jgl_grx_xr"/>Reuse
             Content</uicontrol> action on the main toolbar.</li>
-        <li id="li_p4m_dgk_54b">In the contextual menu of the editing area, go to <menucascade>
+        <li id="li_p4m_dgk_54b" irina="irina">In the contextual menu of the editing area, go to <menucascade>
             <uicontrol>Reuse</uicontrol>
             <uicontrol><image href="../img/Conref16.png" id="image_yd4_zvx_sr"/>Reuse
               Content</uicontrol>
           </menucascade>.</li>
-        <li id="li_q4m_dgk_54b">Go to <menucascade>
+        <li id="li_q4m_dgk_54b" irina="irina">Go to <menucascade>
             <uicontrol>DITA</uicontrol>
             <uicontrol><image href="../img/Conref16.png" id="image_mdc_zvx_sr"/>Reuse
               Content</uicontrol>

@@ -13,16 +13,16 @@
   <body>
     <p id="p_xdw_bgk_54b">The <xref href="results-view.dita#results-view"><uicontrol>Results</uicontrol> view</xref>
       displays the results from the following operations: <ul id="ul_ydw_bgk_54b">
-        <li id="li_zdw_bgk_54b"><xref href="validating-XML-documents-against-schema.dita">Document
+        <li id="li_zdw_bgk_54b" irina="irina"><xref href="validating-XML-documents-against-schema.dita">Document
             validation</xref></li>
-        <li id="li_a2w_bgk_54b"><xref href="checking-xml-well-formedness.dita">Checking the form of
+        <li id="li_a2w_bgk_54b" irina="irina"><xref href="checking-xml-well-formedness.dita">Checking the form of
           documents</xref></li>
-        <li id="li_b2w_bgk_54b"><xref href="transforming-documents.dita">XSLT or FO transformations</xref></li>
-        <li id="li_c2w_bgk_54b"><xref href="find-replace-dialog.dita">Finding all occurrences of a string in a
+        <li id="li_b2w_bgk_54b" irina="irina"><xref href="transforming-documents.dita">XSLT or FO transformations</xref></li>
+        <li id="li_c2w_bgk_54b" irina="irina"><xref href="find-replace-dialog.dita">Finding all occurrences of a string in a
             file</xref></li>
-        <li product="editor author developer" id="li_d2w_bgk_54b"><xref href="find-and-replace-text-in-files.dita"
+        <li product="editor author developer" id="li_d2w_bgk_54b" irina="irina"><xref href="find-and-replace-text-in-files.dita"
             >Finding all occurrences of a string in multiple files</xref></li>
-        <li id="li_e2w_bgk_54b"><xref href="xpath-builder-view.dita">Applying an XPath expression to the current
+        <li id="li_e2w_bgk_54b" irina="irina"><xref href="xpath-builder-view.dita">Applying an XPath expression to the current
             document</xref></li>
       </ul>To make a persistent copy of the <xref href="results-view.dita#results-view"
           ><uicontrol>Results</uicontrol> view</xref>, use one of these actions:<dl id="dl_f2w_bgk_54b">

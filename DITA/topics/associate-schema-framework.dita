@@ -20,9 +20,9 @@
       <xref href="associating-schema-directly.dita#associating-schema-directly">detected in
         the current XML file</xref>.</p>
     <p id="p_trz_bgk_54b">To associate a schema in a particular <term>framework</term> (document type), follow these steps:<ol id="ol_urz_bgk_54b">
-        <li id="li_vrz_bgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
+        <li id="li_vrz_bgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
             <uicontrol>Document Type Association</uicontrol>.</li>
-        <li id="li_wrz_bgk_54b">
+        <li id="li_wrz_bgk_54b" irina="irina">
           <p id="p_xrz_bgk_54b">Select your particular document type and click the <xref
               href="preferences-document-type-association.dita#preferences-document-type-association/edit"
                 ><uicontrol>Edit</uicontrol></xref>, <xref
@@ -36,10 +36,10 @@
               href="the-document-type-dialog.dita#the-document-type-dialog"><uicontrol>Document
                 type</uicontrol> configuration dialog box</xref>.</p>
         </li>
-        <li id="li_zrz_bgk_54b">Go to the <xref href="document-type-schema-tab.dita#document-type-schema-tab"
+        <li id="li_zrz_bgk_54b" irina="irina">Go to the <xref href="document-type-schema-tab.dita#document-type-schema-tab"
               ><uicontrol>Schema</uicontrol> tab</xref>.</li>
-        <li id="li_asz_bgk_54b">Select the schema type and its URI.</li>
-        <li id="li_bsz_bgk_54b">Click <uicontrol>OK</uicontrol>.</li>
+        <li id="li_asz_bgk_54b" irina="irina">Select the schema type and its URI.</li>
+        <li id="li_bsz_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol>.</li>
       </ol></p>
     <p id="p_csz_bgk_54b"><b>Result:</b> The schema is now associated with the particular document type and will be
       used by the <term>Content Completion Assistant</term> and validation engine if a schema is not

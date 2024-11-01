@@ -61,12 +61,12 @@
       <title>Output Tab</title>
       <p id="p_t2b_cgk_54b">The following options are available in the <uicontrol>Output</uicontrol> tab:<ul
           id="ul_gwz_4lb_gs">
-          <li id="li_u2b_cgk_54b"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
+          <li id="li_u2b_cgk_54b" irina="irina"><uicontrol>Format</uicontrol> - Allows you to choose between the following formats:<ul
               id="ul_pnl_ztg_gs">
-              <li id="li_v2b_cgk_54b"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
+              <li id="li_v2b_cgk_54b" irina="irina"><uicontrol>HTML</uicontrol> - The documentation is generated in <xref
                   href="HTML-documentation-XSLT-Stylesheet.dita#HTML-documentation-XSLT-Stylesheet"
                   >HTML output format</xref>.</li>
-              <li id="li_w2b_cgk_54b"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
+              <li id="li_w2b_cgk_54b" irina="irina"><uicontrol>Custom</uicontrol> - The documentation is generated in a <xref
                   href="custom-documentation-XSLT-Stylesheet.dita#custom-documentation-XSLT-Stylesheet"
                   >custom output format</xref>, allowing you to control the output. Click the
                   <uicontrol>Options</uicontrol> button to open a <xref
@@ -79,17 +79,17 @@
                 documentation process by deselecting the <uicontrol>Delete intermediate XML
                   file</uicontrol> option.</li>
             </ul></li>
-          <li id="li_x2b_cgk_54b"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
+          <li id="li_x2b_cgk_54b" irina="irina"><uicontrol>Output file</uicontrol> - You can specify the path of the output file by
             entering it in the text field, or by using the <uicontrol><image
                 href="../img/InsertEditorVariables16.png" id="image_pdh_bwg_gs"/>Insert Editor
               Variables</uicontrol> button or the options in the <uicontrol><image
                 href="../img/BrowseDrop.png" id="image_qdh_bwg_gs"/>Browse</uicontrol> drop-down
             menu.</li>
-          <li id="li_y2b_cgk_54b"><uicontrol>Split output into multiple files</uicontrol> - Instructs the application to
+          <li id="li_y2b_cgk_54b" irina="irina"><uicontrol>Split output into multiple files</uicontrol> - Instructs the application to
             split the output into multiple files. For large XSLT stylesheets, choosing another split
             criterion may generate smaller output files, providing faster documentation browsing.
             You can choose to split them by namespace, location, or component name.</li>
-          <li id="li_z2b_cgk_54b"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
+          <li id="li_z2b_cgk_54b" irina="irina"><uicontrol>Open in Browser/System Application</uicontrol> - Opens the result in the
             system application associated with the output file type.<note id="note_afb_cgk_54b">To set the browser or
               system application that will be used, <ph product="developer editor"><ph
                   conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to
@@ -130,23 +130,23 @@
           formats</uicontrol>, <uicontrol>Referenced stylesheets</uicontrol>.</p>
       <p id="p_ffb_cgk_54b">You can choose whether or not to include the following other details:</p>
       <ul id="ul_l5t_dd3_gs">
-        <li id="li_gfb_cgk_54b"><uicontrol>Documentation</uicontrol> - Shows the documentation for each XSLT element.
+        <li id="li_gfb_cgk_54b" irina="irina"><uicontrol>Documentation</uicontrol> - Shows the documentation for each XSLT element.
           For HTML format, the user-defined data elements that are recognized and transformed in
           documentation blocks of the XSLT elements they precede, are the ones from the following
             schemas:<ul id="ul_m5t_dd3_gs">
-            <li id="li_hfb_cgk_54b"><ph keyref="product"/> built-in XSLT documentation schema.</li>
-            <li id="li_ifb_cgk_54b">A subset of DocBook 5 elements. The recognized elements are: <i>section</i>,
+            <li id="li_hfb_cgk_54b" irina="irina"><ph keyref="product"/> built-in XSLT documentation schema.</li>
+            <li id="li_ifb_cgk_54b" irina="irina">A subset of DocBook 5 elements. The recognized elements are: <i>section</i>,
                 <i>sect1</i> to <i>sect5</i>, <i>emphasis</i>, <i>title</i>, <i>ulink</i>,
                 <i>programlisting</i>, <i>para</i>, <i>orderedlist</i>, <i>itemizedlist</i>.</li>
-            <li id="li_jfb_cgk_54b">A subset of DITA elements. The recognized elements are: <i>concept</i>,
+            <li id="li_jfb_cgk_54b" irina="irina">A subset of DITA elements. The recognized elements are: <i>concept</i>,
               <i>topic</i>, <i>task</i>, <i>codeblock</i>, <i>p</i>, <i>b</i>, <i>i</i>, <i>ul</i>,
                 <i>ol</i>, <i>pre</i>, <i>sl</i>, <i>sli</i>, <i>step</i>, <i>steps</i>, <i>li</i>,
                 <i>title</i>, <i>xref</i>.</li>
-            <li id="li_kfb_cgk_54b">Full XHTML 1.0 support.</li>
-            <li id="li_lfb_cgk_54b">XSLStyle documentation environment. XSLStyle uses DocBook or DITA languages inside
+            <li id="li_kfb_cgk_54b" irina="irina">Full XHTML 1.0 support.</li>
+            <li id="li_lfb_cgk_54b" irina="irina">XSLStyle documentation environment. XSLStyle uses DocBook or DITA languages inside
               its own user-defined data elements. The supported DocBook and DITA elements are the
               ones mentioned above.</li>
-            <li id="li_mfb_cgk_54b">
+            <li id="li_mfb_cgk_54b" irina="irina">
               <p id="p_nfb_cgk_54b">DOXSL documentation <xref keyref="glossentry_framework"
                   ><term>framework</term></xref>. Supported elements are: <i>codefrag</i>,
                   <i>description</i>, <i>para</i>, <i>docContent</i>, <i>documentation</i>,
@@ -160,30 +160,30 @@
                 and providing your own XSLT stylesheets.</p>
             </li>
           </ul></li>
-        <li id="li_pfb_cgk_54b"><uicontrol>Use comments</uicontrol> - Controls whether or not the comments that precede
+        <li id="li_pfb_cgk_54b" irina="irina"><uicontrol>Use comments</uicontrol> - Controls whether or not the comments that precede
           an XSLT element is treated as documentation for the element they precede. Comments that
           precede or succeed the <i>xsl:stylesheet</i> element, are treated as documentation for the
           whole stylesheet. Note that comments that precede an import or include directive are not
           collected as documentation for the imported/included module. Also, comments from within
           the body of the XSLT elements are not collected at all.</li>
-        <li id="li_qfb_cgk_54b"><uicontrol>Namespace</uicontrol> - Shows the namespace for named XSLT elements.</li>
-        <li id="li_rfb_cgk_54b"><uicontrol>Location</uicontrol> - Shows the stylesheet location for each XSLT
+        <li id="li_qfb_cgk_54b" irina="irina"><uicontrol>Namespace</uicontrol> - Shows the namespace for named XSLT elements.</li>
+        <li id="li_rfb_cgk_54b" irina="irina"><uicontrol>Location</uicontrol> - Shows the stylesheet location for each XSLT
           element.</li>
-        <li id="li_sfb_cgk_54b"><uicontrol>Parameters</uicontrol> - Shows parameters of templates and functions.</li>
-        <li id="li_tfb_cgk_54b"><uicontrol>References</uicontrol> - Shows the named XSLT elements that are referenced
+        <li id="li_sfb_cgk_54b" irina="irina"><uicontrol>Parameters</uicontrol> - Shows parameters of templates and functions.</li>
+        <li id="li_tfb_cgk_54b" irina="irina"><uicontrol>References</uicontrol> - Shows the named XSLT elements that are referenced
           from within an element.</li>
-        <li id="li_ufb_cgk_54b"><uicontrol>Used by</uicontrol> - Shows the list of all the XSLT elements that reference
+        <li id="li_ufb_cgk_54b" irina="irina"><uicontrol>Used by</uicontrol> - Shows the list of all the XSLT elements that reference
           the current named element.</li>
-        <li id="li_vfb_cgk_54b"><uicontrol>Supersedes</uicontrol> - Shows the list of all the XSLT elements that are
+        <li id="li_vfb_cgk_54b" irina="irina"><uicontrol>Supersedes</uicontrol> - Shows the list of all the XSLT elements that are
           superseded the current element.</li>
-        <li id="li_wfb_cgk_54b"><uicontrol>Overriding</uicontrol> - Shows the list of all the XSLT elements that
+        <li id="li_wfb_cgk_54b" irina="irina"><uicontrol>Overriding</uicontrol> - Shows the list of all the XSLT elements that
           override the current element.</li>
-        <li id="li_xfb_cgk_54b"><uicontrol>Return type</uicontrol> - Shows the return type of the function.</li>
-        <li id="li_yfb_cgk_54b"><uicontrol>Source</uicontrol> - Shows the text stylesheet source for each XSLT
+        <li id="li_xfb_cgk_54b" irina="irina"><uicontrol>Return type</uicontrol> - Shows the return type of the function.</li>
+        <li id="li_yfb_cgk_54b" irina="irina"><uicontrol>Source</uicontrol> - Shows the text stylesheet source for each XSLT
           element.</li>
-        <li id="li_zfb_cgk_54b"><uicontrol>Import precedence</uicontrol> - Shows the computed import precedence as
+        <li id="li_zfb_cgk_54b" irina="irina"><uicontrol>Import precedence</uicontrol> - Shows the computed import precedence as
           declared in the XSL transformation specifications.</li>
-        <li id="li_agb_cgk_54b"><uicontrol>Generate index</uicontrol> - Creates an index with all the XSLT elements
+        <li id="li_agb_cgk_54b" irina="irina"><uicontrol>Generate index</uicontrol> - Creates an index with all the XSLT elements
           included in the documentation.</li>
       </ul>
     </section>

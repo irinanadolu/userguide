@@ -17,18 +17,18 @@
     <section id="implement_an_editpropertieshandler">
       <title>How to Implement an <i>AuthorImageDecorator</i></title>
       <p id="p_rgb_dgk_54b">To implement your own <i>AuthorImageDecorator</i>, follow this procedure:<ol id="ol_sgb_dgk_54b">
-          <li id="li_tgb_dgk_54b">Implement the <xref
+          <li id="li_tgb_dgk_54b" irina="irina">Implement the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorImageDecorator.html"
               format="html" scope="external"
               ><i>ro.sync.ecss.extensions.api.AuthorImageDecorator</i></xref> interface.</li>
-          <li id="li_ugb_dgk_54b">To instruct <ph keyref="product"/> to use this newly created implementation, use
+          <li id="li_ugb_dgk_54b" irina="irina">To instruct <ph keyref="product"/> to use this newly created implementation, use
             either of the following methods:<ol id="ol_vgb_dgk_54b">
-              <li id="li_wgb_dgk_54b">If you have <xref href="dg-extensions-bundle.dita#dg-extensions-bundle">configured
+              <li id="li_wgb_dgk_54b" irina="irina">If you have <xref href="dg-extensions-bundle.dita#dg-extensions-bundle">configured
                   an extensions bundle</xref>, you can return the <i>AuthorImageDecorator</i>
                 implementation using the
                   <i>ro.sync.ecss.extensions.api.ExtensionsBundle.getAuthorImageDecorator()</i>
                 method.</li>
-              <li id="li_xgb_dgk_54b">Specify the <i>AuthorImageDecorator</i> in the <uicontrol>Author image
+              <li id="li_xgb_dgk_54b" irina="irina">Specify the <i>AuthorImageDecorator</i> in the <uicontrol>Author image
                   decorator</uicontrol> individual extension in the <xref
                   href="document-type-extensions-tab.dita#document-type-extensions-tab"
                     ><uicontrol>Extensions</uicontrol> tab</xref> of the <xref

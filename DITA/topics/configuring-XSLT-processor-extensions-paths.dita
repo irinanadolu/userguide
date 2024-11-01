@@ -16,14 +16,14 @@
       complex task.</p>
     <p id="p_sml_cgk_54b">For more information about how to use extensions, see the following links:</p>
     <ul id="ul_tml_cgk_54b">
-      <li id="li_uml_cgk_54b"><b>Xalan (Deprecated)</b> - <xref
+      <li id="li_uml_cgk_54b" irina="irina"><b>Xalan (Deprecated)</b> - <xref
           href="http://xml.apache.org/xalan-j/extensions.html" scope="external" format="html"/></li>
-      <li id="li_vml_cgk_54b"><b>Saxon <ph keyref="saxon6FullVersion"/></b> - <xref
+      <li id="li_vml_cgk_54b" irina="irina"><b>Saxon <ph keyref="saxon6FullVersion"/></b> - <xref
           href="http://saxon.sourceforge.net/saxon6.5.5/extensions.html" scope="external"
           format="html">http://saxon.sourceforge.net/saxon<ph keyref="saxon6FullVersion"
           />/extensions.html</xref>
       </li>
-      <li id="li_wml_cgk_54b"><b>Saxon <ph keyref="saxon9FullVersion"/></b> - <xref
+      <li id="li_wml_cgk_54b" irina="irina"><b>Saxon <ph keyref="saxon9FullVersion"/></b> - <xref
           href="http://www.saxonica.com/documentation9.5/index.html#!extensibility" scope="external"
           format="html"/></li>
     </ul>

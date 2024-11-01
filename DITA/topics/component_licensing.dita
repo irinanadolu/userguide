@@ -19,14 +19,14 @@
       using the <ph keyref="authorComponent"/> is also subject to the terms of the SDK agreement. </p>
     <p id="p_rcf_dgk_54b">There are two main categories of <ph keyref="authorComponent"/> integrations:<ul
         id="ol_k22_sbr_y3">
-        <li id="li_scf_dgk_54b">
+        <li id="li_scf_dgk_54b" irina="irina">
           <p id="p_tcf_dgk_54b"><b><u>Integration for internal use</u>:</b></p>
           <p id="p_ucf_dgk_54b">You develop an application that embeds the <i>Author Component</i> to be used
             internally (in your company or by you). You can buy and use previously purchased <ph
               keyref="product"/> floating licenses to enable the runtime usage of the <ph
               keyref="authorComponent"/> as it was integrated into the application.</p>
         </li>
-        <li id="li_vcf_dgk_54b">
+        <li id="li_vcf_dgk_54b" irina="irina">
           <p id="p_wcf_dgk_54b"><b><u>Integration for external use</u>:</b></p>
           <p id="p_xcf_dgk_54b">Using the <ph keyref="authorComponent"/>, you create an application that you distribute
             to other users outside your company (with a CMS for example). In this case, you should
@@ -39,7 +39,7 @@
       to:</p>
     <p id="p_zcf_dgk_54b">
       <ul id="ul_rkh_r4r_y3">
-        <li id="li_adf_dgk_54b">
+        <li id="li_adf_dgk_54b" irina="irina">
           <p id="p_bdf_dgk_54b"><b><u>Inject floating license server details in the Java code</u>:</b></p>
           <p id="p_cdf_dgk_54b">The following link provides details about how to configure an HTTP floating license
             server: <xref

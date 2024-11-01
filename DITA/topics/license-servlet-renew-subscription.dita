@@ -13,8 +13,8 @@
         <i>https://oxygenxml.com/subscription_management/check_renewal.php</i> and passes the
       following as parameters:</p>
     <ul id="ul_l5r_hm5_t5b">
-      <li>The SGN field of the existing license key.</li>
-      <li>The server signature that uniquely identifies the License Server installation.</li>
+      <li irina="irina">The SGN field of the existing license key.</li>
+      <li irina="irina">The server signature that uniquely identifies the License Server installation.</li>
     </ul>
     <p>This request is made by the License Server automatically (or manually by pressing the
         <uicontrol>Check now</uicontrol> link). </p>

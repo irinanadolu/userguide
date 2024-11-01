@@ -21,12 +21,12 @@
   <body>
     <p id="p_lmd_dgk_54b">The <codeph>oxy_browser</codeph> form control supports the following properties:</p>
     <ul id="ul_mmd_dgk_54b">
-      <li id="li_nmd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/href-property"/> This property is
+      <li id="li_nmd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/href-property"/> This property is
         mandatory. Relative values are resolved relative to the CSS. If you have media resources
         relative to the XML document, you can specify their paths like
         this:<codeblock outputclass="language-css" id="codeblock_omd_dgk_54b">oxy_browser(href, oxy_url(oxy_base-uri(), 'ex.svg')), width, 50%, height, 50%)</codeblock></li>
-      <li id="li_pmd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/width-property-simple"/></li>
-      <li id="li_qmd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/height-property"/></li>
+      <li id="li_pmd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/width-property-simple"/></li>
+      <li id="li_qmd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/height-property"/></li>
     </ul>
     <p id="p_rmd_dgk_54b"><b><u>Example: <term>oxy_browser</term> Form
       Control</u></b><codeblock outputclass="language-css" id="codeblock_smd_dgk_54b">object {
@@ -58,23 +58,23 @@
             />/frameworks/</filepath> or <filepath><term
               conkeyref="reusables-user-guide/oxy-install-dir"/>/plugins/</filepath>.</note></p>
       <p id="p_xmd_dgk_54b">The following global variables can be used:<ul id="ul_ymd_dgk_54b">
-          <li id="li_zmd_dgk_54b"><uicontrol>authorAccess</uicontrol> - This object is an instance
+          <li id="li_zmd_dgk_54b" irina="irina"><uicontrol>authorAccess</uicontrol> - This object is an instance
             of <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorAccess.html"
               format="html" scope="external"
               ><term>ro.sync.ecss.extensions.api.AuthorAccess</term></xref>.</li>
-          <li id="li_and_dgk_54b"><uicontrol>contextElement</uicontrol> - An instance of <xref
+          <li id="li_and_dgk_54b" irina="irina"><uicontrol>contextElement</uicontrol> - An instance of <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/node/AuthorNode.html"
               format="html" scope="external">ro.sync.ecss.extensions.api.node.AuthorNode</xref>. The
             form control is added over this node.</li>
-          <li id="li_bnd_dgk_54b"><uicontrol>pluginWorkspace</uicontrol> - An instance of <xref
+          <li id="li_bnd_dgk_54b" irina="irina"><uicontrol>pluginWorkspace</uicontrol> - An instance of <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/standalone/StandalonePluginWorkspace.html"
               format="html" scope="external"
               >ro.sync.exml.workspace.api.standalone.StandalonePluginWorkspace</xref>.</li>
-          <li id="li_cnd_dgk_54b"><uicontrol>fcArguments</uicontrol> - A
+          <li id="li_cnd_dgk_54b" irina="irina"><uicontrol>fcArguments</uicontrol> - A
               <codeph>java.util.Map</codeph> implementation with the properties (name and value
             pairs) passed on the form control function.</li>
-          <li id="li_dnd_dgk_54b">
+          <li id="li_dnd_dgk_54b" irina="irina">
             <p id="p_end_dgk_54b"><uicontrol>apiHelper</uicontrol> - A helper object for creating
               Java objects. It allows you to create Java objects from within the JavaScript code.
               These objects can then be passed to the Java methods as in the following
@@ -120,7 +120,7 @@ try {
       <p id="p_mnd_dgk_54b">If the form control presents some information from the document (for example, the value of
         an attribute), then it needs to be notified on changes in the document so that it can update
         that information. To do this, follow these steps:<ol id="ol_nnd_dgk_54b">
-          <li id="li_ond_dgk_54b">In the JavaScript, the <codeph>bridgeReady()</codeph> method is
+          <li id="li_ond_dgk_54b" irina="irina">In the JavaScript, the <codeph>bridgeReady()</codeph> method is
             invoked as soon as the form control is loaded and the API bridge is installed. This is
             where you can add a
             listener:<codeblock outputclass="language-javascript" id="codeblock_pnd_dgk_54b">function bridgeReady () {
@@ -151,7 +151,7 @@ try {
   // Add the proxy listener.
   ctrl.addAuthorListener(authorDocumentListener);
 }</codeblock></li>
-          <li id="li_qnd_dgk_54b">Since a listener was added on the document, it is important to
+          <li id="li_qnd_dgk_54b" irina="irina">Since a listener was added on the document, it is important to
             remove it once the form control is not used anymore. When a form control is discarded,
             the <codeph>dispose()</codeph> JavaScript function is invoked, so if you have any
             cleanup to do, make sure you define a function with this name and remove any previously
@@ -171,10 +171,10 @@ function dispose() {
       <p id="p_snd_dgk_54b">If you encounter unexpected results when using the <xref
           href="#oxy-browser-form-control/interacting_with_the_workspace" format="dita">method
           described above</xref>, you can debug the script by using the following guidelines:<ul id="ul_tnd_dgk_54b">
-          <li id="li_und_dgk_54b">Calls to <codeph>alert("message.to.present")</codeph> or
+          <li id="li_und_dgk_54b" irina="irina">Calls to <codeph>alert("message.to.present")</codeph> or
               <codeph>console.log("message.to.present")</codeph> will be presented in the <xref
               href="results-view.dita#results-view">Results panel</xref>.</li>
-          <li id="li_vnd_dgk_54b">You can install the <xref href="http://getfirebug.com/"
+          <li id="li_vnd_dgk_54b" irina="irina">You can install the <xref href="http://getfirebug.com/"
               format="html" scope="external"><uicontrol>Firebug</uicontrol> extension</xref> by
             executing the following
             script:<codeblock outputclass="language-javascript" id="codeblock_wnd_dgk_54b">{code:javascript}

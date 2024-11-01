@@ -42,8 +42,8 @@
                   />:</p>
                 <p id="p_c4p_dgk_54b">
                   <ul id="ul_hwl_jlb_hhb">
-                    <li id="li_d4p_dgk_54b">Desktop browsers: Chrome, Firefox, Safari, Edge.</li>
-                    <li id="li_e4p_dgk_54b">Assistive technologies: NVDA, VoiceOver, JAWS, Microsoft
+                    <li id="li_d4p_dgk_54b" irina="irina">Desktop browsers: Chrome, Firefox, Safari, Edge.</li>
+                    <li id="li_e4p_dgk_54b" irina="irina">Assistive technologies: NVDA, VoiceOver, JAWS, Microsoft
                       Narrator.</li>
                   </ul>
                 </p>
@@ -120,14 +120,14 @@
       <title>Terms</title>
       <p id="p_o4p_dgk_54b"> The terms used in the Conformance Level information are defined as follows:</p>
       <ul id="ul_ujk_bhd_fhb">
-        <li id="li_p4p_dgk_54b"><b>Supports</b>: The functionality of the product has at least one method that meets the
+        <li id="li_p4p_dgk_54b" irina="irina"><b>Supports</b>: The functionality of the product has at least one method that meets the
           criterion without known defects or meets with equivalent facilitation.</li>
-        <li id="li_q4p_dgk_54b"><b>Partially Supports</b>: Some functionality of the product does not meet the
+        <li id="li_q4p_dgk_54b" irina="irina"><b>Partially Supports</b>: Some functionality of the product does not meet the
           criterion.</li>
-        <li id="li_r4p_dgk_54b"><b>Does Not Support</b>: The majority of product functionality does not meet the
+        <li id="li_r4p_dgk_54b" irina="irina"><b>Does Not Support</b>: The majority of product functionality does not meet the
           criterion.</li>
-        <li id="li_s4p_dgk_54b"><b>Not Applicable</b>: The criterion is not relevant to the product.</li>
-        <li id="li_t4p_dgk_54b"><b>Not Evaluated</b>: The product has not been evaluated against the criterion. This can
+        <li id="li_s4p_dgk_54b" irina="irina"><b>Not Applicable</b>: The criterion is not relevant to the product.</li>
+        <li id="li_t4p_dgk_54b" irina="irina"><b>Not Evaluated</b>: The product has not been evaluated against the criterion. This can
           be used only in WCAG 2.0 Level AAA.</li>
       </ul>
     </section>
@@ -135,8 +135,8 @@
       <title>WCAG 2.x Report</title>
       <p id="p_u4p_dgk_54b">Tables 1 and 2 also document conformance with Revised Section 508:<ul
           id="ul_v4p_dgk_54b">
-          <li>Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing</li>
-          <li>Chapter 6 – 602.3 Electronic Support Documentation</li>
+          <li irina="irina">Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing</li>
+          <li irina="irina">Chapter 6 – 602.3 Electronic Support Documentation</li>
         </ul></p>
       <!--<p>EN 301 549: Chapter 9 - Web, Chapter 10 - Non-Web documents, Section 11.2.1- Non-Web Software (excluding closed functionality), and Section 11.2.2 - Non-Web Software (closed functionality).</p>-->
       <p id="p_w4p_dgk_54b">
@@ -173,17 +173,17 @@
                   <!--<ul id="ul_bh3_53d_fhb" audience="eu-rules"><li><p> 9.1.1.1 (Web)</p></li><li><p> 10.1.1.1 (Non-web document)</p></li><li><p> 11.1.1.1.1 (Open Functionality Software)</p></li><li><p> 11.1.1.1.2 (Closed Functionality Software)</p></li><li><p> 11.8.2 (Authoring Tool)</p></li><li><p> 12.1.2 (Product Docs)</p></li><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_bpp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_n4r_kxv_vhb">
-                    <li id="li_cpp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_dpp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_epp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_cpp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_dpp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_epp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
                 <entry><ph keyref="product"/> provides text alternatives for non-text items with
                   some exceptions:<ul id="ul_kqh_gnd_fhb">
-                    <li id="li_fpp_dgk_54b">Some images do not have a text
+                    <li id="li_fpp_dgk_54b" irina="irina">Some images do not have a text
                       alternative<?oxy_comment_start author="andrei_popa" timestamp="20190401T145516+0300" comment="Either included in the paragraph about author responsibility or I don&apos;t know the exact cases."?>.<?oxy_comment_end?></li>
-                    <li id="li_gpp_dgk_54b">Some
+                    <li id="li_gpp_dgk_54b" irina="irina">Some
                       <?oxy_comment_start author="andrei_popa" timestamp="20190325T173646+0200" comment="The small image for link and such, where do they count here?" id="wpr_3r2_cvb"?><?oxy_comment_start author="Andrei Popa" timestamp="20221006T124556+0000" parentID="wpr_3r2_cvb" comment="Small images of files next to topics in DITA map have no alt attribute." mid="4"?>decorative
                       images<?oxy_comment_end mid="4"?><?oxy_comment_end?> are not hidden from
                       assistive technologies.</li>
@@ -204,9 +204,9 @@
                   <!--<ul id="ul_sd1_5td_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_kpp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_mqn_jxv_vhb">
-                    <li id="li_lpp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_mpp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_npp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_lpp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_mpp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_npp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -225,9 +225,9 @@
                   <!--<ul id="ul_kjg_tq3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qpp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_ljg_tq3_fhb">
-                    <li id="li_rpp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_spp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_tpp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rpp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_spp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_tpp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -250,9 +250,9 @@ and transcripts"?>.<?oxy_comment_end?></entry>
                   <!--<ul id="ul_hsk_4r3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_wpp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_isk_4r3_fhb">
-                    <li id="li_xpp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_ypp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_zpp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_xpp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_ypp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_zpp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -274,9 +274,9 @@ and transcripts"?>.<?oxy_comment_end?></entry>
                   <!--<ul id="ul_wzq_rr3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_cqp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_xzq_rr3_fhb">
-                    <li id="li_dqp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_eqp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_fqp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_dqp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_eqp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_fqp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -285,11 +285,11 @@ most semantics, with some
 exceptions"?>Most<?oxy_comment_end?>
                   user interface elements provide programmatic information about structure and
                   relationships, except:<ul id="ul_ajn_v53_fhb">
-                    <li id="li_gqp_dgk_54b">Some
+                    <li id="li_gqp_dgk_54b" irina="irina">Some
                       v<?oxy_comment_start author="andrei_popa" timestamp="20190405T161506+0300" comment="bold/italic maybe passes, terms/links"?>ariations<?oxy_comment_end?>
                       in presentation in text, such as change tracking information is not conveyed
                       to screen readers.</li>
-                    <li id="li_hqp_dgk_54b"><?oxy_comment_start author="andrei_popa" timestamp="20190326T110455+0200" comment="most of them in travel guide"?>Some
+                    <li id="li_hqp_dgk_54b" irina="irina"><?oxy_comment_start author="andrei_popa" timestamp="20190326T110455+0200" comment="most of them in travel guide"?>Some
                       generated form control inputs are not labeled
                       correctly<?oxy_comment_end?></li>
                   </ul></entry>
@@ -308,9 +308,9 @@ exceptions"?>Most<?oxy_comment_end?>
                   <!--<ul id="ul_lxy_gw3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_kqp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_mxy_gw3_fhb">
-                    <li id="li_lqp_dgk_54b"> 501 (Web)(Software)</li>
-                    <li id="li_mqp_dgk_54b"> 504.2 (Authoring Tool)</li>
-                    <li id="li_nqp_dgk_54b"> 602.3 (Support Docs)</li>
+                    <li id="li_lqp_dgk_54b" irina="irina"> 501 (Web)(Software)</li>
+                    <li id="li_mqp_dgk_54b" irina="irina"> 504.2 (Authoring Tool)</li>
+                    <li id="li_nqp_dgk_54b" irina="irina"> 602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -331,9 +331,9 @@ exceptions"?>Most<?oxy_comment_end?>
                   <!--<ul id="ul_rdd_4x3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qqp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_sdd_4x3_fhb">
-                    <li id="li_rqp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_sqp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_tqp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rqp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_sqp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_tqp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -355,9 +355,9 @@ exceptions"?>Most<?oxy_comment_end?>
                   <!--<ul id="ul_odr_yy3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_wqp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_pdr_yy3_fhb">
-                    <li id="li_xqp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_yqp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_zqp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_xqp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_yqp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_zqp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -377,9 +377,9 @@ exceptions"?>Most<?oxy_comment_end?>
                   <!--<ul id="ul_uql_nz3_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_crp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_qvw_nyv_vhb">
-                    <li id="li_drp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_erp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_frp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_drp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_erp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_frp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -402,9 +402,9 @@ doesn&apos;t play any audio #alt"?>.<?oxy_comment_end?></entry>
                   <!--<ul id="ul_abv_31j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_irp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_pkk_5yv_vhb">
-                    <li id="li_jrp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_krp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_lrp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_jrp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_krp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_lrp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -426,9 +426,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_szs_3sj_fhb" audience="eu-rules"><li>9.2.16 (Web)</li><li>10.2.16 (non-web document)</li><li>11.2.1.16 (Software)</li><li>11.2.2.16 (Closed Software) – Does not apply</li><li>11.6.2 (Authoring Tool)</li><li>12.1.2 (Product Docs)</li><li>12.2.4 (Support Docs)</li></ul>-->
                   <p id="p_prp_dgk_54b">Revised Section 508</p>
                   <ul id="ul_tzs_3sj_fhb">
-                    <li id="li_qrp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_rrp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_srp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_qrp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_rrp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_srp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -473,9 +473,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_sf3_d5j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_zrp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_ols_5yv_vhb">
-                    <li id="li_asp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_bsp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_csp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_asp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_bsp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_csp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -492,9 +492,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_npq_k5j_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_fsp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_jjy_5yv_vhb">
-                    <li id="li_gsp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_hsp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_isp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_gsp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_hsp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_isp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -515,9 +515,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_npx_zvj_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_lsp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_spl_vyv_vhb">
-                    <li id="li_msp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_nsp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_osp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_msp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_nsp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_osp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -536,9 +536,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_h5g_qwj_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_rsp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_i5g_qwj_fhb">
-                    <li id="li_ssp_dgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_tsp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_usp_dgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_ssp_dgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_tsp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_usp_dgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -558,9 +558,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_tmn_plk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_xsp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_prm_xyv_vhb">
-                    <li id="li_ysp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_zsp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_atp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ysp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_zsp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_atp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -582,9 +582,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_y33_fnk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_etp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_xcy_xyv_vhb">
-                    <li id="li_ftp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_gtp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_htp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ftp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_gtp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_htp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -605,9 +605,9 @@ quote: If keyboard focus appears to be trapped in any of the content, check that
                   <!--<ul id="ul_mgp_ynk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_ktp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_knn_yyv_vhb">
-                    <li id="li_ltp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_mtp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_ntp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ltp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_mtp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_ntp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -708,9 +708,9 @@ The intent of this success criterion is to ensure that functions that are trigge
                   <!--<ul id="ul_smk_kwk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_c5p_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_nzz_yyv_vhb">
-                    <li id="li_d5p_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_e5p_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_f5p_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_d5p_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_e5p_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_f5p_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -735,9 +735,9 @@ Any component that is able to trigger an event when it receives focus must not c
                   <!--<ul id="ul_evm_wwk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_i5p_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_alf_zyv_vhb">
-                    <li id="li_j5p_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_k5p_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_l5p_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_j5p_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_k5p_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_l5p_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -762,9 +762,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_o31_3yk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_o5p_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_h5m_zyv_vhb">
-                    <li id="li_p5p_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_q5p_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_r5p_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_p5p_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_q5p_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_r5p_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -797,19 +797,19 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_asn_dzk_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_u5p_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_f1t_zyv_vhb">
-                    <li id="li_v5p_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_w5p_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_x5p_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_v5p_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_w5p_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_x5p_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
                 <entry>Most errors and warnings are described to the user in text. Exceptions
                     include:<ul id="ul_u1y_yyy_mhb">
-                    <li id="li_y5p_dgk_54b">Spell checking errors are not announced to the user immediately after
+                    <li id="li_y5p_dgk_54b" irina="irina">Spell checking errors are not announced to the user immediately after
                       writing. They are however announced when navigating through text.</li>
-                    <li id="li_z5p_dgk_54b">Validation errors are not announced as they are detected, however they are
+                    <li id="li_z5p_dgk_54b" irina="irina">Validation errors are not announced as they are detected, however they are
                       accessible through the Validation panel.</li>
-                    <li id="li_avp_dgk_54b">The login dialog for some connectors does not include an error message in
+                    <li id="li_avp_dgk_54b" irina="irina">The login dialog for some connectors does not include an error message in
                       case of failed login.</li>
                   </ul></entry>
               </row>
@@ -826,9 +826,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_jjn_31l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_dvp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_jw5_bzv_vhb">
-                    <li id="li_evp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_fvp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_gvp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_evp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_fvp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_gvp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -863,9 +863,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_xbt_wcl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_kvp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_sl1_czv_vhb">
-                    <li id="li_lvp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_mvp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_nvp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_lvp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_mvp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_nvp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -886,9 +886,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_qz4_jdl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qvp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_enj_czv_vhb">
-                    <li id="li_rvp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_svp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_tvp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rvp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_svp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_tvp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -928,9 +928,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_urq_l2l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_xvp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_yv3_dzv_vhb">
-                    <li id="li_yvp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_zvp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_awp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_yvp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_zvp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_awp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -948,9 +948,9 @@ With this technique, all changes of context would be triggered only by a specifi
                   <!--<ul id="ul_bks_p2l_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_dwp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_r34_dzv_vhb">
-                    <li id="li_ewp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_fwp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_gwp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_ewp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_fwp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_gwp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Not Applicable</entry>
@@ -1007,9 +1007,9 @@ The content is implemented using technologies with support for identifying the e
                   <!--<ul id="ul_uc4_zfl_fhb" audience="eu-rules"><li><p> 11.8.2 (Authoring Tool)</p></li><li><p> 12.1.2 (Product Docs)</p></li><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_qwp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_y1p_2zv_vhb">
-                    <li id="li_rwp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_swp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_twp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_rwp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_swp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_twp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -1017,11 +1017,11 @@ The content is implemented using technologies with support for identifying the e
                   background colors, with few
                   <?oxy_comment_start author="andrei_popa" timestamp="20190405T184430+0300" comment="https://jira.sync.ro/browse/WA-2868"?>exceptions<?oxy_comment_end?>,
                   including: <ul id="ul_xxt_cgl_fhb">
-                    <li id="li_uwp_dgk_54b">Change tracking content in the document for some of the author colors.</li>
-                    <li id="li_vwp_dgk_54b">Change tracking content in some review panel items, when the item is
+                    <li id="li_uwp_dgk_54b" irina="irina">Change tracking content in the document for some of the author colors.</li>
+                    <li id="li_vwp_dgk_54b" irina="irina">Change tracking content in some review panel items, when the item is
                       selected.</li>
-                    <li id="li_wwp_dgk_54b">Placeholders shown in empty elements.</li>
-                    <li id="li_xwp_dgk_54b">Comments marked as done.</li>
+                    <li id="li_wwp_dgk_54b" irina="irina">Placeholders shown in empty elements.</li>
+                    <li id="li_xwp_dgk_54b" irina="irina">Comments marked as done.</li>
                   </ul></entry>
               </row>
               <row>
@@ -1036,9 +1036,9 @@ The content is implemented using technologies with support for identifying the e
                   <!--<ul id="ul_xsk_chl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_axp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_gw5_2zv_vhb">
-                    <li id="li_bxp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_cxp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_dxp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_bxp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_cxp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_dxp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1065,9 +1065,9 @@ A particular presentation of text is essential to the information being conveyed
                   <!--<ul id="ul_xyy_nhl_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_gxp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_ukc_fzv_vhb">
-                    <li id="li_hxp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_ixp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_jxp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_hxp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_ixp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_jxp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1182,9 +1182,9 @@ Word spacing to at least 0.16 times the font size."?>Level
                   <!--<ul id="ul_ij1_mmq_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_byp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_jj1_mmq_fhb">
-                    <li id="li_cyp_dgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_dyp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_eyp_dgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_cyp_dgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_dyp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_eyp_dgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1204,9 +1204,9 @@ Word spacing to at least 0.16 times the font size."?>Level
                   <!--<ul id="ul_xrh_3nq_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_hyp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_c11_hzv_vhb">
-                    <li id="li_iyp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_jyp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_kyp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_iyp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_jyp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_kyp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1227,9 +1227,9 @@ Word spacing to at least 0.16 times the font size."?>Level
                   <!--<ul id="ul_u3p_c4q_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_nyp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_wns_hzv_vhb">
-                    <li id="li_oyp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_pyp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_qyp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_oyp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_pyp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_qyp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Partially Supports</entry>
@@ -1289,9 +1289,9 @@ https://jira.sync.ro/browse/WA-2874"?>has
                   <!--<ul id="ul_x4w_p4q_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_uyp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_apz_hzv_vhb">
-                    <li id="li_vyp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_wyp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_xyp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_vyp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_wyp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_xyp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry><?oxy_comment_start author="andrei_popa" timestamp="20190401T172329+0300" comment="TODO: some day... WA-2865 (duplicated by WA-2876)"?>Does
@@ -1313,9 +1313,9 @@ https://jira.sync.ro/browse/WA-2874"?>has
                   <!--<ul id="ul_gpl_cbr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_azp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_hpl_cbr_fhb">
-                    <li id="li_bzp_dgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_czp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_dzp_dgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_bzp_dgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_czp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_dzp_dgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1337,9 +1337,9 @@ https://jira.sync.ro/browse/WA-2874"?>has
                   <!--<ul id="ul_vtx_jcr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_gzp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_wtx_jcr_fhb">
-                    <li id="li_hzp_dgk_54b"> 501 (Web)(Software) – Does not apply to non-web software</li>
-                    <li id="li_izp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_jzp_dgk_54b">602.3 (Support Docs) – Does not apply to non-web docs</li>
+                    <li id="li_hzp_dgk_54b" irina="irina"> 501 (Web)(Software) – Does not apply to non-web software</li>
+                    <li id="li_izp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_jzp_dgk_54b" irina="irina">602.3 (Support Docs) – Does not apply to non-web docs</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1361,9 +1361,9 @@ Success Criterion 3.3.1 provides for notification of errors. However, persons wi
                   <!--<ul id="ul_vd2_b2r_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_mzp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_cls_kzv_vhb">
-                    <li id="li_nzp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_ozp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_pzp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_nzp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_ozp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_pzp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>
@@ -1394,9 +1394,9 @@ A mechanism is available for reviewing, confirming, and correcting information b
                   <!--<ul id="ul_tpb_thr_fhb" audience="eu-rules"><li><p> 12.2.4 (Support Docs)</p></li></ul>-->
                   <p id="p_szp_dgk_54b"> Revised Section 508</p>
                   <ul id="ul_axy_kzv_vhb">
-                    <li id="li_tzp_dgk_54b">501 (Web)(Software)</li>
-                    <li id="li_uzp_dgk_54b">504.2 (Authoring Tool)</li>
-                    <li id="li_vzp_dgk_54b">602.3 (Support Docs)</li>
+                    <li id="li_tzp_dgk_54b" irina="irina">501 (Web)(Software)</li>
+                    <li id="li_uzp_dgk_54b" irina="irina">504.2 (Authoring Tool)</li>
+                    <li id="li_vzp_dgk_54b" irina="irina">602.3 (Support Docs)</li>
                   </ul>
                 </entry>
                 <entry>Supports</entry>

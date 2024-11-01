@@ -22,16 +22,16 @@
       Excel the same as you would when working with any table or spreadsheet.</p>
     <p id="p_bsw_bgk_54b">To export XML content from <uicontrol>Grid</uicontrol> mode to Excel or other spreadsheet
       applications, follow this procedure:<ol id="ol_csw_bgk_54b">
-        <li id="li_dsw_bgk_54b">Open the XML document in <ph keyref="product"/> and switch to
+        <li id="li_dsw_bgk_54b" irina="irina">Open the XML document in <ph keyref="product"/> and switch to
             <uicontrol>Grid</uicontrol> mode.</li>
-        <li id="li_esw_bgk_54b"><xref href="grid-actions.dita#grid-actions/expandingcollapsing_nodes">Expand the
+        <li id="li_esw_bgk_54b" irina="irina"><xref href="grid-actions.dita#grid-actions/expandingcollapsing_nodes">Expand the
             nodes</xref> to gain access to the particular nested table that contains the content you
           want to export.</li>
-        <li id="li_fsw_bgk_54b">Copy the cells that contain the content you want to export (<uicontrol><image
+        <li id="li_fsw_bgk_54b" irina="irina">Copy the cells that contain the content you want to export (<uicontrol><image
               href="../img/Copy16.png" id="image_sf4_lst_tr"/>Copy</uicontrol> from the contextual
           menu or <uicontrol><shortcut>Ctrl+C</shortcut></uicontrol>).</li>
-        <li id="li_gsw_bgk_54b">Switch to your spreadsheet application and paste the copied cells.</li>
-        <li id="li_hsw_bgk_54b">You may need to make some manual adjustments depending on the complexity of the
+        <li id="li_gsw_bgk_54b" irina="irina">Switch to your spreadsheet application and paste the copied cells.</li>
+        <li id="li_hsw_bgk_54b" irina="irina">You may need to make some manual adjustments depending on the complexity of the
           structure in the original XML document. </li>
       </ol></p>
     <p id="p_isw_bgk_54b">Note that <ph keyref="product"/> also supports the reverse scenario (copying cells from a

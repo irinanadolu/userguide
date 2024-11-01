@@ -16,10 +16,10 @@
     <p id="p_ypx_cgk_54b"><ph keyref="product"/> includes support for debugging XQuery transformations that are
       executed against a MarkLogic database.</p>
     <p id="p_zpx_cgk_54b">To use a debugging session against the MarkLogic engine, follow these steps:<ol id="ol_aqx_cgk_54b">
-        <li id="li_bqx_cgk_54b">Configure a <xref href="configure-marklogic-datasource.dita">MarkLogic data
+        <li id="li_bqx_cgk_54b" irina="irina">Configure a <xref href="configure-marklogic-datasource.dita">MarkLogic data
             source</xref> and a <xref href="configure-marklogic-connection.dita">MarkLogic
             connection</xref>.</li>
-        <li id="li_cqx_cgk_54b">Make sure that the debugging support is enabled in the MarkLogic server that <ph
+        <li id="li_cqx_cgk_54b" irina="irina">Make sure that the debugging support is enabled in the MarkLogic server that <ph
             keyref="product"/> accesses. On the server side, debugging must be activated in the XDBC
           server and in the <i>Task Server</i> section of the server control console (the switch
             <i>debug allow</i>). If the debugging is not activated, the MarkLogic server reports a
@@ -32,19 +32,19 @@
             menu in the <xref
               href="../topics/relational-database-explorer.dita#relational-database-explorer"
                 ><uicontrol>Data Source Explorer</uicontrol> view</xref>.</note></li>
-        <li id="li_eqx_cgk_54b">Open the XQuery file and start the debugging process.<ul id="ul_fqx_cgk_54b">
-            <li id="li_gqx_cgk_54b">If you want to debug an XQuery file stored on the MarkLogic server, it is
+        <li id="li_eqx_cgk_54b" irina="irina">Open the XQuery file and start the debugging process.<ul id="ul_fqx_cgk_54b">
+            <li id="li_gqx_cgk_54b" irina="irina">If you want to debug an XQuery file stored on the MarkLogic server, it is
               recommended to use the <xref
                 href="relational-database-explorer.dita#relational-database-explorer"
                   ><uicontrol>Data Source Explorer</uicontrol> view</xref> and open the file from
               the application server that is involved in the debugging process. This improves the
               resolving of any imported modules.</li>
-            <li id="li_hqx_cgk_54b">The MarkLogic XQuery debugger integrates seamlessly into the <xref
+            <li id="li_hqx_cgk_54b" irina="irina">The MarkLogic XQuery debugger integrates seamlessly into the <xref
                 href="xquery-debugger-perspective.dita">XQuery Debugger
                 <term>perspective</term></xref>. If you have a MarkLogic validation scenario
               configured for the XQuery file, you can choose to <xref
                 href="steps-in-typical-debug-process.dita">debug the scenario</xref> directly.</li>
-            <li id="li_iqx_cgk_54b">
+            <li id="li_iqx_cgk_54b" irina="irina">
               <p id="p_jqx_cgk_54b">Otherwise, switch to the <uicontrol>XQuery Debugger</uicontrol>
                 <xref keyref="glossentry_perspective"><term>perspective</term></xref>, open the
                 XQuery file in the editor, and select the MarkLogic connection in the XQuery engine

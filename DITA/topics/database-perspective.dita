@@ -29,28 +29,28 @@
       </menucascade> menu.</p>
     <p id="p_bps_bgk_54b">The <uicontrol>Database</uicontrol>
       <term>perspective</term> offers various helpful features, including:<ul id="ul_cps_bgk_54b">
-        <li id="li_dps_bgk_54b">Support for browsing multiple connections at the same time.</li>
-        <li id="li_eps_bgk_54b">Support for both <i>Relational</i> and <i>Native XML</i> databases.</li>
-        <li id="li_fps_bgk_54b">Browsing the structure of databases.</li>
-        <li id="li_gps_bgk_54b">Viewing tables from databases.</li>
-        <li id="li_hps_bgk_54b">Inspecting or modifying data.</li>
-        <li id="li_ips_bgk_54b">Specifying XML Schemas for XML fields.</li>
-        <li id="li_jps_bgk_54b">SQL execution.</li>
-        <li id="li_kps_bgk_54b">XQuery execution.</li>
-        <li id="li_lps_bgk_54b">Data export to XML.</li>
+        <li id="li_dps_bgk_54b" irina="irina">Support for browsing multiple connections at the same time.</li>
+        <li id="li_eps_bgk_54b" irina="irina">Support for both <i>Relational</i> and <i>Native XML</i> databases.</li>
+        <li id="li_fps_bgk_54b" irina="irina">Browsing the structure of databases.</li>
+        <li id="li_gps_bgk_54b" irina="irina">Viewing tables from databases.</li>
+        <li id="li_hps_bgk_54b" irina="irina">Inspecting or modifying data.</li>
+        <li id="li_ips_bgk_54b" irina="irina">Specifying XML Schemas for XML fields.</li>
+        <li id="li_jps_bgk_54b" irina="irina">SQL execution.</li>
+        <li id="li_kps_bgk_54b" irina="irina">XQuery execution.</li>
+        <li id="li_lps_bgk_54b" irina="irina">Data export to XML.</li>
       </ul></p>
     <section id="supported_databases">
       <title>Supported Databases</title>
       <p id="p_mps_bgk_54b"><ph keyref="product"/> supports numerous types of databases, including: <ul id="ul_nps_bgk_54b">
-          <li id="li_pps_bgk_54b">eXist XML Database</li>
-          <li id="li_qps_bgk_54b">IBM DB2 (Enterprise edition only)</li>
-          <li id="li_rps_bgk_54b">JDBC-ODBC Bridge</li>
-          <li id="li_sps_bgk_54b">MarkLogic (Enterprise edition only)</li>
-          <li id="li_ups_bgk_54b">MySQL</li>
-          <li id="li_vps_bgk_54b">Oracle 11g (Enterprise edition only)</li>
-          <li id="li_wps_bgk_54b">PostgreSQL (Enterprise edition only)</li>
-          <li id="li_xps_bgk_54b">SharePoint (CMS)</li>
-          <li id="li_tps_bgk_54b">Microsoft SQL Server 2005 and Microsoft SQL Server 2008
+          <li id="li_pps_bgk_54b" irina="irina">eXist XML Database</li>
+          <li id="li_qps_bgk_54b" irina="irina">IBM DB2 (Enterprise edition only)</li>
+          <li id="li_rps_bgk_54b" irina="irina">JDBC-ODBC Bridge</li>
+          <li id="li_sps_bgk_54b" irina="irina">MarkLogic (Enterprise edition only)</li>
+          <li id="li_ups_bgk_54b" irina="irina">MySQL</li>
+          <li id="li_vps_bgk_54b" irina="irina">Oracle 11g (Enterprise edition only)</li>
+          <li id="li_wps_bgk_54b" irina="irina">PostgreSQL (Enterprise edition only)</li>
+          <li id="li_xps_bgk_54b" irina="irina">SharePoint (CMS)</li>
+          <li id="li_tps_bgk_54b" irina="irina">Microsoft SQL Server 2005 and Microsoft SQL Server 2008
             (Enterprise edition only) <b>(Deprecated)</b></li>
         </ul><note id="note_yps_bgk_54b">For the databases marked with "Enterprise edition only", the XML capabilities are
           only available in the Enterprise edition of <ph keyref="product"/>. For a detailed feature
@@ -62,11 +62,11 @@
     <section id="supported_capabilities">
       <title>Supported Capabilities</title>
       <p id="p_zps_bgk_54b">The supported non-XML capabilities are as follows:<ul id="ul_aqs_bgk_54b">
-          <li id="li_bqs_bgk_54b">Browsing the structure of the database instance.</li>
-          <li id="li_cqs_bgk_54b">Opening a database table in the <xref
+          <li id="li_bqs_bgk_54b" irina="irina">Browsing the structure of the database instance.</li>
+          <li id="li_cqs_bgk_54b" irina="irina">Opening a database table in the <xref
               href="relational-table-explorer.dita#relational-table-explorer"><uicontrol>Table
                 Explorer</uicontrol> view</xref>.</li>
-          <li id="li_dqs_bgk_54b">Handling the values from <uicontrol>XML Type</uicontrol> columns as String
+          <li id="li_dqs_bgk_54b" irina="irina">Handling the values from <uicontrol>XML Type</uicontrol> columns as String
             values.</li>
         </ul><note id="note_eqs_bgk_54b">The non-XML capabilities are available in the Enterprise, Academic, and
           Professional editions of <ph keyref="product"/> by registering the database driver as a
@@ -74,12 +74,12 @@
           database. For more information, see <xref href="database-support.dita#database-support"
           />.</note></p>
       <p id="p_fqs_bgk_54b">The supported XML capabilities are as follows:<ul id="ul_gqs_bgk_54b">
-          <li id="li_hqs_bgk_54b">Displaying an XML Schema node in the tree of the database structure (for databases
+          <li id="li_hqs_bgk_54b" irina="irina">Displaying an XML Schema node in the tree of the database structure (for databases
             with an XML-specific structure) with actions for opening, editing, and validating the
             schemas in an <ph keyref="product"/> editor panel.</li>
-          <li id="li_iqs_bgk_54b">Handling the values from <uicontrol>XML Type</uicontrol> columns as XML instance
+          <li id="li_iqs_bgk_54b" irina="irina">Handling the values from <uicontrol>XML Type</uicontrol> columns as XML instance
             documents that can be opened and edited in an <ph keyref="product"/> editor panel.</li>
-          <li id="li_jqs_bgk_54b">Validating an XML instance document added to an XML Type (column of a table,
+          <li id="li_jqs_bgk_54b" irina="irina">Validating an XML instance document added to an XML Type (column of a table,
             etc.)</li>
         </ul><note type="tip" id="note_kqs_bgk_54b">Connections configured on relational data sources can be used to
           import data to XML or to generate XML schemas. </note></p>

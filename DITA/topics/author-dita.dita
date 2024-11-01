@@ -17,26 +17,26 @@
       structure for content that promotes the consistent creation, sharing, and re-use of
       content.</p>
     <p id="p_jcl_dgk_54b">Some of the benefits of using DITA include the following:<ul id="ul_kcl_dgk_54b">
-        <li id="li_lcl_dgk_54b"><b>Flexibility</b> - DITA is a topic-based architecture and it offers flexibility in
+        <li id="li_lcl_dgk_54b" irina="irina"><b>Flexibility</b> - DITA is a topic-based architecture and it offers flexibility in
           content organization.</li>
-        <li id="li_mcl_dgk_54b"><b>Modularity</b> - DITA allows for content reuse that saves time and reduces the number
+        <li id="li_mcl_dgk_54b" irina="irina"><b>Modularity</b> - DITA allows for content reuse that saves time and reduces the number
           of modifications.</li>
-        <li id="li_ncl_dgk_54b"><b>Structured Authoring</b> - DITA offers a standardized, methodological approach that
+        <li id="li_ncl_dgk_54b" irina="irina"><b>Structured Authoring</b> - DITA offers a standardized, methodological approach that
           helps to reduce authoring time and improve consistency.</li>
-        <li id="li_ocl_dgk_54b"><b>Single-Source Publishing</b> - DITA provides the ability to change content in one
+        <li id="li_ocl_dgk_54b" irina="irina"><b>Single-Source Publishing</b> - DITA provides the ability to change content in one
           place and have the change propagate everywhere.</li>
-        <li id="li_pcl_dgk_54b"><b>Multiple Output Formats</b> - DITA supports multiple types of output.</li>
-        <li id="li_qcl_dgk_54b"><b>Inheritance</b> - The DITA inheritance model makes it easy to specialize topics or
+        <li id="li_pcl_dgk_54b" irina="irina"><b>Multiple Output Formats</b> - DITA supports multiple types of output.</li>
+        <li id="li_qcl_dgk_54b" irina="irina"><b>Inheritance</b> - The DITA inheritance model makes it easy to specialize topics or
           elements within topics and you only have to define how the element is different from its
           immediate ancestor.</li>
-        <li id="li_rcl_dgk_54b"><b>Process Automation</b> - DITA offers various ways to automate processes, such as with
+        <li id="li_rcl_dgk_54b" irina="irina"><b>Process Automation</b> - DITA offers various ways to automate processes, such as with
           index or glossary production, output delivery, validation, and more.</li>
-        <li id="li_scl_dgk_54b"><uicontrol>Specialization</uicontrol> - DITA allows you to define your own information
+        <li id="li_scl_dgk_54b" irina="irina"><uicontrol>Specialization</uicontrol> - DITA allows you to define your own information
           types and semantic elements/attributes to suit the needs of your particular content
           model.</li>
-        <li id="li_tcl_dgk_54b"><uicontrol>Multi-Lingual</uicontrol> - DITA is a translation-friendly structure that
+        <li id="li_tcl_dgk_54b" irina="irina"><uicontrol>Multi-Lingual</uicontrol> - DITA is a translation-friendly structure that
           supports numerous languages and text encodings.</li>
-        <li id="li_ucl_dgk_54b"><b>Conditional Profiling</b> - DITA supports conditional text processing and profiling
+        <li id="li_ucl_dgk_54b" irina="irina"><b>Conditional Profiling</b> - DITA supports conditional text processing and profiling
           to filter content in the publishing stage.</li>
       </ul></p>
     <p id="p_vcl_dgk_54b">This chapter is designed to be a guide to help content authors who use DITA. It also presents
@@ -46,19 +46,19 @@
       <title>DITA Resources</title>
       <p id="p_wcl_dgk_54b">For more information and technical details about working with DITA,
         refer to the following resources:<ul id="ul_xcl_dgk_54b">
-          <li id="li_ycl_dgk_54b"><xref href="https://www.oxygenxml.com/dita/1.3/specs/"
+          <li id="li_ycl_dgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/1.3/specs/"
               format="html" scope="external">The DITA Specifications</xref>.</li>
-          <li id="li_zcl_dgk_54b"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
+          <li id="li_zcl_dgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/dita/styleguide/index.html"
               format="html" scope="external">The DITA Style Guide Best Practices for
             Authors</xref>.</li>
-          <li id="li_adl_dgk_54b">Various sample DITA topics and maps can be found in the
+          <li id="li_adl_dgk_54b" irina="irina">Various sample DITA topics and maps can be found in the
                 <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/samples/dita</filepath> folder.</li>
-          <li id="li_r11_2w5_ypb">Webinar: <xref
+          <li id="li_r11_2w5_ypb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2020/webinar_getting_started_with_dita_using_oxygen_xml_editor.html"
               format="html" scope="external"><b>Getting Started with DITA Using
             Oxygen</b></xref></li>
-          <li id="li_kfp_yj2_bxb">Webinar: <xref
+          <li id="li_kfp_yj2_bxb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2023/webinar_dita_project_management_validation_and_translation_in_a_docs_as_code_environment.html"
               format="html" scope="external"><b>DITA Project Management, Validation, and Translation
                 in a Docs as Code Environment</b></xref></li>

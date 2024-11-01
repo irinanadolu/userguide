@@ -19,13 +19,13 @@
             is available) or to the <i>HEAD</i> revision of the repository.</p>
         <p id="p_zf3_dgk_54b">There are three different kinds of incoming changes:</p>
         <ul id="ul_ag3_dgk_54b">
-            <li id="li_bg3_dgk_54b"><i>Non-conflicting</i> - A non-conflicting change occurs when a file has been
+            <li id="li_bg3_dgk_54b" irina="irina"><i>Non-conflicting</i> - A non-conflicting change occurs when a file has been
                 changed remotely but has not been modified locally.</li>
-            <li id="li_cg3_dgk_54b"><i>Conflicting, but auto-mergeable</i> - An auto-mergeable conflicting change occurs
+            <li id="li_cg3_dgk_54b" irina="irina"><i>Conflicting, but auto-mergeable</i> - An auto-mergeable conflicting change occurs
         when a text file has been changed both remotely and locally (for example, has non-committed
         local changes) but the changes are on different lines of text. Not applicable to binary
         resources (for example, multimedia files, PDFs, executable program files)</li>
-            <li id="li_dg3_dgk_54b"><i>Conflicting</i> - A conflicting change occurs when one or more of the same lines
+            <li id="li_dg3_dgk_54b" irina="irina"><i>Conflicting</i> - A conflicting change occurs when one or more of the same lines
                 of a text file have been changed both remotely and locally.</li>
         </ul>
         <p id="p_eg3_dgk_54b">If the resource contains only incoming changes or the outgoing changes do not intersect

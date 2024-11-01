@@ -17,12 +17,12 @@
       </fig>
     </p>
     <p id="p_umj_dgk_54b">Options for the set of revisions presented in the History view are: <ul id="ul_vmj_dgk_54b">
-        <li id="li_wmj_dgk_54b">All revisions of the selected resource.</li>
-        <li id="li_xmj_dgk_54b">Only revisions between a start revision number and an end revision number.</li>
-        <li id="li_ymj_dgk_54b">Only revisions added in a period of time (such as today, last week, last month,
+        <li id="li_wmj_dgk_54b" irina="irina">All revisions of the selected resource.</li>
+        <li id="li_xmj_dgk_54b" irina="irina">Only revisions between a start revision number and an end revision number.</li>
+        <li id="li_ymj_dgk_54b" irina="irina">Only revisions added in a period of time (such as today, last week, last month,
           etc.)</li>
-        <li id="li_zmj_dgk_54b">Only revisions between a start and an end date.</li>
-        <li id="li_anj_dgk_54b">Only revisions committed by a specified SVN user.</li>
+        <li id="li_zmj_dgk_54b" irina="irina">Only revisions between a start and an end date.</li>
+        <li id="li_anj_dgk_54b" irina="irina">Only revisions committed by a specified SVN user.</li>
       </ul></p>
     <p id="p_bnj_dgk_54b">The toolbar of the <uicontrol>History view</uicontrol> has two buttons for extending the set
       of revisions presented in the view: <uicontrol>Get next 50</uicontrol> and <uicontrol>Get

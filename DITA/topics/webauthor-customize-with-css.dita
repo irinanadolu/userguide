@@ -34,7 +34,7 @@
         insert lists, notes, or tables).</p>
       <p id="p_n23_qwy_pqb">There are two ways to enable this widget (<image
           href="../img/InlineInsertion16.png"/>):<ul id="ul_isw_swy_pqb">
-          <li id="li_jsw_swy_pqb">Each user can enable the widget manually. The <uicontrol><image
+          <li id="li_jsw_swy_pqb" irina="irina">Each user can enable the widget manually. The <uicontrol><image
                 href="../img/WebappMore18.png"/>More drop-down menu</uicontrol> in the top toolbar
             includes a <uicontrol>Choose styles</uicontrol> action that opens a dialog box where you
             can select one <term>main CSS style</term> and multiple <term>additional styles</term>
@@ -44,7 +44,7 @@
               href="https://www.oxygenxml.com/doc/ug-webauthor/topics/WA-styles-menu.html"
               format="html" scope="external">Changing the Look of Documents Using the Styles
               Menu</xref>.</li>
-          <li id="li_enm_4xy_pqb">The widget can be enabled globally for all users in a <xref
+          <li id="li_enm_4xy_pqb" irina="irina">The widget can be enabled globally for all users in a <xref
               href="customizing_frameworks.dita">custom framework configuration</xref>.  In the
               <xref href="https://www.oxygenxml.com/doc/ug-editor/topics/the-css-sub-tab.html"
               format="html" scope="external">CSS tab in the Document Type configuration dialog
@@ -64,17 +64,17 @@
           <xmlelement>note</xmlelement> elements with a yellow background while rendering those with
         the <xmlatt>type</xmlatt> attribute set to <codeph>danger</codeph> with s light red
         background. You could do this by following these steps:<ol id="ol_tzy_2rx_hz">
-          <li id="li_vks_dgk_54b">In <term>Oxygen XML Editor/Author</term>, create a new DITA topic and insert two
+          <li id="li_vks_dgk_54b" irina="irina">In <term>Oxygen XML Editor/Author</term>, create a new DITA topic and insert two
               <xmlelement>note</xmlelement> elements (one without setting the <xmlatt>type</xmlatt>
             attribute and the other setting the <codeph>type</codeph> attribute to
             <b>danger</b>.</li>
-          <li id="li_wks_dgk_54b">Right-click on the first <xmlelement>note</xmlelement> element and choose
+          <li id="li_wks_dgk_54b" irina="irina">Right-click on the first <xmlelement>note</xmlelement> element and choose
               <uicontrol>Inspect Styles</uicontrol>.</li>
-          <li id="li_xks_dgk_54b">In the <uicontrol>CSS Inspector</uicontrol> view, you can see all the <xref
+          <li id="li_xks_dgk_54b" irina="irina">In the <uicontrol>CSS Inspector</uicontrol> view, you can see all the <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/author-css-inspector-view.html#author-css-inspector-view__displaying_rules"
               format="html" scope="external">rules currently applied</xref> for notes. Click the
             link associated with one of them to take you to the source CSS file.</li>
-          <li id="li_yks_dgk_54b">Add the following code in the CSS
+          <li id="li_yks_dgk_54b" irina="irina">Add the following code in the CSS
             file:<codeblock outputclass="language-css" id="codeblock_zks_dgk_54b">[class*="topic/note"] {
   padding: 15px;
   margin-bottom: 20px;
@@ -90,12 +90,12 @@
   background-color: #f2dede;
   border-color: #ebccd1;
 }</codeblock></li>
-          <li id="li_als_dgk_54b">Switch to the XML document and see that the colors have changed.</li>
-          <li id="li_bls_dgk_54b">Once you are happy with the changes, you need to <xref
+          <li id="li_als_dgk_54b" irina="irina">Switch to the XML document and see that the colors have changed.</li>
+          <li id="li_bls_dgk_54b" irina="irina">Once you are happy with the changes, you need to <xref
               href="https://www.oxygenxml.com/doc/ug-editor/topics/the-css-sub-tab.html"
               format="html" scope="external">use the CSS tab in the Document Type configuration
               dialog box to associate the CSS with your framework</xref>.</li>
-          <li id="li_cls_dgk_54b">You can check to see how <i>notes</i> look in Web Author by using the <xref
+          <li id="li_cls_dgk_54b" irina="irina">You can check to see how <i>notes</i> look in Web Author by using the <xref
               href="customizing_frameworks.dita#customizing_frameworks/developing_and_testing_a_framework_using_the_weba"
               >Web Author Test Server add-on</xref>.</li>
         </ol></p>

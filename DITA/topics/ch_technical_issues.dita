@@ -18,8 +18,8 @@
     <section id="an_error_icon_appears_in_the_topleft_corner_of_t">
       <title>Out of Memory Error</title>
       <p id="p_uwv_dgk_54b">If you receive an error message indicating an <i>Out of Memory Error</i>, you can try the following:<ul id="ul_vwv_dgk_54b">
-          <li id="li_wwv_dgk_54b">Make sure you are using Java <ph keyref="currentJavaVersion"/>.</li>
-          <li id="li_xwv_dgk_54b">Use the <xref
+          <li id="li_wwv_dgk_54b" irina="irina">Make sure you are using Java <ph keyref="currentJavaVersion"/>.</li>
+          <li id="li_xwv_dgk_54b" irina="irina">Use the <xref
               href="ch_command_line_interface.dita#ch_command_line_interface/dt_gry_yhz_2bb"
                 ><b>-Xmx&lt;NNN>m</b> command-line parameter</xref> to specify a bigger value for
             the maximum allocated memory. If you are running Java on 64-bit, you can specify a

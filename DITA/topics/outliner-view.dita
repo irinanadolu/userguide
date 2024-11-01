@@ -21,14 +21,14 @@
     <section id="outline_view_features">
       <title>Outline View Features</title>
       <p id="p_dyv_bgk_54b">The <uicontrol>Outline</uicontrol> view allows you to:<ul id="ul_eyv_bgk_54b">
-          <li id="li_fyv_bgk_54b">Quickly navigate through the document by selecting nodes in the
+          <li id="li_fyv_bgk_54b" irina="irina">Quickly navigate through the document by selecting nodes in the
               <uicontrol>Outline</uicontrol> tree.</li>
-          <li id="li_gyv_bgk_54b">Insert or delete nodes using contextual menu actions.</li>
-          <li id="li_hyv_bgk_54b">Move elements by dragging them to a new position in the tree structure.</li>
-          <li id="li_iyv_bgk_54b">Highlight elements in the editor area. It is synchronized with the editor area, so
+          <li id="li_gyv_bgk_54b" irina="irina">Insert or delete nodes using contextual menu actions.</li>
+          <li id="li_hyv_bgk_54b" irina="irina">Move elements by dragging them to a new position in the tree structure.</li>
+          <li id="li_iyv_bgk_54b" irina="irina">Highlight elements in the editor area. It is synchronized with the editor area, so
             when you make a selection in the editor area, the corresponding nodes are highlighted in
             the <uicontrol>Outline</uicontrol> view, and vice versa.</li>
-          <li id="li_jyv_bgk_54b">View document errors, as they are highlighted in the <uicontrol>Outline</uicontrol>
+          <li id="li_jyv_bgk_54b" irina="irina">View document errors, as they are highlighted in the <uicontrol>Outline</uicontrol>
             view. A tooltip also provides more information about the nature of the error when you
             hover over the faulted element.</li>
         </ul></p>
@@ -50,15 +50,15 @@
         the <uicontrol>Outline</uicontrol> view with drag-and-drop operations. Several drag and drop
         actions are possible:</p>
       <ul id="ul_oyv_bgk_54b">
-        <li id="li_pyv_bgk_54b">If you drag an XML element in the <uicontrol>Outline</uicontrol> view and drop it on
+        <li id="li_pyv_bgk_54b" irina="irina">If you drag an XML element in the <uicontrol>Outline</uicontrol> view and drop it on
           another node, then the dragged element will be moved after the drop target element.</li>
-        <li id="li_qyv_bgk_54b">If you hold the mouse pointer over the drop target for a short time before the drop then
+        <li id="li_qyv_bgk_54b" irina="irina">If you hold the mouse pointer over the drop target for a short time before the drop then
           the drop target element will be expanded first and the dragged element will be moved
           inside the drop target element after its opening tag.</li>
-        <li id="li_ryv_bgk_54b">You can also drop an element before or after another element if you hold the mouse
+        <li id="li_ryv_bgk_54b" irina="irina">You can also drop an element before or after another element if you hold the mouse
           pointer towards the upper or lower part of the targeted element. A marker will indicate
           whether the drop will be performed before or after the target element.</li>
-        <li id="li_syv_bgk_54b">If you hold down the <uicontrol><shortcut>Ctrl (Command on macOS)</shortcut></uicontrol>
+        <li id="li_syv_bgk_54b" irina="irina">If you hold down the <uicontrol><shortcut>Ctrl (Command on macOS)</shortcut></uicontrol>
           key after dragging, a copy operation will be performed instead of a move.</li>
       </ul>
     </section>

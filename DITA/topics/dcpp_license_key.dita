@@ -14,12 +14,12 @@
         command line. </p>
 			<p id="p_eyp_cgk_54b">To install your <b>Chemistry</b> license key:</p>
 			<ul id="ol_v3k_cyh_j3b">
-        <li id="li_fyp_cgk_54b">If you are using the version of <b>Chemistry</b> that comes bundled in <b>Oxygen XML
+        <li id="li_fyp_cgk_54b" irina="irina">If you are using the version of <b>Chemistry</b> that comes bundled in <b>Oxygen XML
             Editor/Author</b>, save the license key text in a file with the name
             <filepath>licensekey.txt</filepath> and place it in the <filepath><term
               keyref="glossentry_dita_ot_dir"
             />/plugins/com.oxygenxml.pdf.css/lib/oxygen-pdf-chemistry</filepath> folder.</li>
-        <li id="li_gyp_cgk_54b">If you are using another <b>Chemistry</b> installation, make sure you place the
+        <li id="li_gyp_cgk_54b" irina="irina">If you are using another <b>Chemistry</b> installation, make sure you place the
             <filepath>licensekey.txt</filepath> file in that folder.</li>
       </ul>
 		</section>

@@ -28,12 +28,12 @@
         <title>Solution</title>
         <steps-informal>
           <p id="p_gsr_dgk_54b">If you encounter this issue, an administrator can do the following:<ol id="ol_hsr_dgk_54b">
-              <li id="li_isr_dgk_54b">Go to the <xref href="webapp-admin-page.dita#webapp-admin-page"
+              <li id="li_isr_dgk_54b" irina="irina">Go to the <xref href="webapp-admin-page.dita#webapp-admin-page"
                     ><uicontrol>Administration Page</uicontrol></xref> and click on
                   <uicontrol>Connection</uicontrol>.</li>
-              <li id="li_jsr_dgk_54b">Select the <uicontrol>Automatically accept a security certificate, even if
+              <li id="li_jsr_dgk_54b" irina="irina">Select the <uicontrol>Automatically accept a security certificate, even if
                   invalid</uicontrol> option.</li>
-              <li id="li_ksr_dgk_54b">Click <uicontrol>Apply</uicontrol>.</li>
+              <li id="li_ksr_dgk_54b" irina="irina">Click <uicontrol>Apply</uicontrol>.</li>
             </ol></p>
         </steps-informal>
       </remedy>

@@ -18,10 +18,10 @@
       <title>Solution</title>
         <steps-informal>
           <p id="p_jwk_dgk_54b">To solve this, try one of the following solutions:<ul id="ul_kwk_dgk_54b">
-              <li id="li_lwk_dgk_54b">Create another <term>DITA map</term> that is located in a folder path above all
+              <li id="li_lwk_dgk_54b" irina="irina">Create another <term>DITA map</term> that is located in a folder path above all
                 referenced folders and reference the original <term>DITA map</term> from this new
                 map. Then transform this <term>DITA map</term> instead.</li>
-              <li id="li_mwk_dgk_54b">Edit the transformation scenario and in the <b>Parameters</b> tab, change the
+              <li id="li_mwk_dgk_54b" irina="irina">Edit the transformation scenario and in the <b>Parameters</b> tab, change the
                 value of the <uicontrol>fix.external.refs.com.oxygenxml</uicontrol> parameter to
                   <codeph>true</codeph>. This parameter is used to specify whether or not the
                 application tries to fix such references in a temporary files folder before the DITA
@@ -30,7 +30,7 @@
                     <uicontrol>fix.external.refs.com.oxygenxml</uicontrol> parameter is only
                   supported when the DITA-OT transformation process is started from <ph
                     keyref="product"/> or using the <codeph>transform</codeph> script.</note></li>
-              <li id="li_owk_dgk_54b">For PDF output, you can edit the transformation scenario and in the
+              <li id="li_owk_dgk_54b" irina="irina">For PDF output, you can edit the transformation scenario and in the
                   <b>Parameters</b> tab set the value of the
                   <uicontrol>generate.copy.outer</uicontrol> parameter to <codeph>3</codeph>. This
                 parameter specifies whether to generate output files for content that is not located

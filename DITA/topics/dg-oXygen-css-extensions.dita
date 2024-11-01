@@ -14,12 +14,12 @@
       documents, <ph keyref="product"/> CSS extensions are useful. </p>
     <p id="p_o3c_dgk_54b">Examples of how they can be used:</p>
     <ul id="ul_p3c_dgk_54b">
-      <li id="li_q3c_dgk_54b">Property for marking <xref keyref="glossentry_foldable-elements"><term>foldable
+      <li id="li_q3c_dgk_54b" irina="irina">Property for marking <xref keyref="glossentry_foldable-elements"><term>foldable
             elements</term></xref> in large files.</li>
-      <li id="li_r3c_dgk_54b">Enforcing a display mode for the XML tags, regardless of the current mode selected by the
+      <li id="li_r3c_dgk_54b" irina="irina">Enforcing a display mode for the XML tags, regardless of the current mode selected by the
         user.</li>
-      <li id="li_s3c_dgk_54b">Constructing a URL from a relative path location.</li>
-      <li id="li_t3c_dgk_54b">String processing functions.</li>
+      <li id="li_s3c_dgk_54b" irina="irina">Constructing a URL from a relative path location.</li>
+      <li id="li_t3c_dgk_54b" irina="irina">String processing functions.</li>
     </ul>
   </body>
 </topic>

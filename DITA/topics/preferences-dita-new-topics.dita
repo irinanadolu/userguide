@@ -98,11 +98,11 @@
                 be automatically populated with a detected value (based on the specifications), even
                 if it is the same as the default value. You can choose to always populate the values
                 for the following attributes:<ul id="ul_sqm_h2r_y3b">
-                  <li id="li_krq_bgk_54b"><uicontrol>Format</uicontrol> - If selected, the <xmlatt>format</xmlatt>
+                  <li id="li_krq_bgk_54b" irina="irina"><uicontrol>Format</uicontrol> - If selected, the <xmlatt>format</xmlatt>
                     attribute will always be automatically populated with a detected value.</li>
-                  <li id="li_lrq_bgk_54b"><uicontrol>Scope</uicontrol> - If selected, the <xmlatt>scope</xmlatt>
+                  <li id="li_lrq_bgk_54b" irina="irina"><uicontrol>Scope</uicontrol> - If selected, the <xmlatt>scope</xmlatt>
                     attribute will always be automatically populated with a detected value.</li>
-                  <li id="li_mrq_bgk_54b"><uicontrol>Type</uicontrol> - If selected, the <xmlatt>type</xmlatt> attribute
+                  <li id="li_mrq_bgk_54b" irina="irina"><uicontrol>Type</uicontrol> - If selected, the <xmlatt>type</xmlatt> attribute
                     will always be automatically populated with a detected value.</li>
                 </ul></p>
             </dd>

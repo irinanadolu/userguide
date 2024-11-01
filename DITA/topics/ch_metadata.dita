@@ -17,18 +17,18 @@
       properties. The property values may be either <i>static</i> (specified directly from the CSS)
       or <i>dynamic</i> (collected from the document) using the following functions:<ul
         id="ul_cy3_b2j_wz">
-        <li id="li_gcv_dgk_54b"><b>content(text)</b></li>
-        <li id="li_hcv_dgk_54b"><b>attr()</b></li>
-        <li id="li_icv_dgk_54b"><b>oxy_xpath()</b></li>
+        <li id="li_gcv_dgk_54b" irina="irina"><b>content(text)</b></li>
+        <li id="li_hcv_dgk_54b" irina="irina"><b>attr()</b></li>
+        <li id="li_icv_dgk_54b" irina="irina"><b>oxy_xpath()</b></li>
       </ul></p>
     <section id="section_aqz_j2j_wz">
       <title>Predefined Meta Fields</title>
       <p id="p_jcv_dgk_54b">Examples of common metadata:<ul id="ul_plc_sz3_wz">
-          <li id="li_kcv_dgk_54b">Publication title</li>
-          <li id="li_lcv_dgk_54b">Author</li>
-          <li id="li_mcv_dgk_54b">Keywords</li>
-          <li id="li_ncv_dgk_54b">Short description</li>
-          <li>Copyright information</li>
+          <li id="li_kcv_dgk_54b" irina="irina">Publication title</li>
+          <li id="li_lcv_dgk_54b" irina="irina">Author</li>
+          <li id="li_mcv_dgk_54b" irina="irina">Keywords</li>
+          <li id="li_ncv_dgk_54b" irina="irina">Short description</li>
+          <li irina="irina">Copyright information</li>
         </ul><ph keyref="product"/> automatically extracts this information from HTML documents.</p>
       <p id="p_ocv_dgk_54b">Suppose that you have the following arbitrary XML document:</p>
       <codeblock outputclass="language-xml" id="codeblock_pcv_dgk_54b">&lt;doc>

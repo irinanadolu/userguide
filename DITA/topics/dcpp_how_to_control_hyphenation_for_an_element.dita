@@ -15,10 +15,10 @@
   </prolog>
     <body>
     <ol>
-      <li id="li_ujt_cgk_54b">Make sure you set an <xmlatt>xml:lang</xmlatt> attribute on the root
+      <li id="li_ujt_cgk_54b" irina="irina">Make sure you set an <xmlatt>xml:lang</xmlatt> attribute on the root
         of your map, or set the <codeph>default.language</codeph> parameter in the
         transformation.</li>
-      <li>You have two options to control hyphenation inside an XML element:<p>
+      <li irina="irina">You have two options to control hyphenation inside an XML element:<p>
           <dl id="dl_wwd_3y4_3rb">
             <dlentry>
               <dt>CSS Approach</dt>

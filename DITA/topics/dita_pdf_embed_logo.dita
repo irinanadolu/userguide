@@ -7,27 +7,27 @@
       front matter of the book for the <xref keyref="dita-pdf-transformation"><b><ph
             keyref="pdf-fo-transformation"/></b> transformation scenario</xref>.<ol
         id="ol_l4v_cgk_54b">
-        <li id="li_m4v_cgk_54b"><xref href="dita_pdf_output_customization.dita">Create a
+        <li id="li_m4v_cgk_54b" irina="irina"><xref href="dita_pdf_output_customization.dita">Create a
             customization directory</xref> (if you have not already done so).</li>
-        <li id="li_n4v_cgk_54b">Create a <filepath>cfg\common\artwork</filepath> directory structure
+        <li id="li_n4v_cgk_54b" irina="irina">Create a <filepath>cfg\common\artwork</filepath> directory structure
           in your customization directory and copy your logo to that directory (for example,
             <filepath>[C:\Customization\common\artwork\logo.png</filepath>).<note type="important"
             id="note_o4v_cgk_54b">Make sure that your logo image is named:
               <uicontrol>logo.png</uicontrol>.</note></li>
-        <li id="li_p4v_cgk_54b">Rename <filepath>Customization\catalog.xml.orig</filepath> to:
+        <li id="li_p4v_cgk_54b" irina="irina">Rename <filepath>Customization\catalog.xml.orig</filepath> to:
             <filepath>Customization\catalog.xml</filepath>.</li>
-        <li id="li_q4v_cgk_54b">
+        <li id="li_q4v_cgk_54b" irina="irina">
           <p id="p_r4v_cgk_54b">Open the <filepath>catalog.xml</filepath> in <ph keyref="product"/>
             and <i>uncomment</i> this line:
             <codeblock outputclass="language-xml" id="codeblock_s4v_cgk_54b">  &lt;!--uri name="cfg:fo/xsl/custom.xsl" uri="fo/xsl/custom.xsl"/--&gt;   </codeblock></p>
           <p id="p_t4v_cgk_54b">It now looks like
             this:<codeblock outputclass="language-xml" id="codeblock_u4v_cgk_54b">&lt;uri name="cfg:fo/xsl/custom.xsl" uri="fo/xsl/custom.xsl"/></codeblock></p>
         </li>
-        <li id="li_v4v_cgk_54b">Rename the file
+        <li id="li_v4v_cgk_54b" irina="irina">Rename the file
             <filepath>Customization\fo\xsl\custom.xsl.orig</filepath> to:
             <filepath>C:\Customization\fo\xsl\custom.xsl</filepath>
         </li>
-        <li id="li_w4v_cgk_54b">
+        <li id="li_w4v_cgk_54b" irina="irina">
           <p id="p_x4v_cgk_54b">Open the <filepath>custom.xsl</filepath> file in <ph
               keyref="product"/> and create the template called
               <codeph>createFrontCoverContents</codeph> for DITA-OT <ph keyref="DITAOTVersion"
@@ -84,7 +84,7 @@
 
 &lt;/xsl:stylesheet></codeblock></p>
         </li>
-        <li id="li_cpv_cgk_54b">Edit the <xref keyref="dita-pdf-transformation"><b><ph
+        <li id="li_cpv_cgk_54b" irina="irina">Edit the <xref keyref="dita-pdf-transformation"><b><ph
                 keyref="pdf-fo-transformation"/></b> transformation scenario</xref>, go to the
             <uicontrol>Parameters</uicontrol> tab, and set the <codeph>customization.dir</codeph>
           parameter to point to the location of your customization directory.</li>

@@ -23,17 +23,17 @@
       <p id="p_wh4_cgk_54b">To add a <tm tmtype="tm" trademark="tm">Facebook</tm>
         <i>Like</i> widget to your WebHelp output using an <xref keyref="wh-publishing-template"
             ><term>Oxygen Publishing Template</term></xref>, follow this procedure:<ol id="ol_xh4_cgk_54b">
-          <li id="li_yh4_cgk_54b">Go to the <xref href="https://developers.facebook.com/docs/plugins/like-button"
+          <li id="li_yh4_cgk_54b" irina="irina">Go to the <xref href="https://developers.facebook.com/docs/plugins/like-button"
               format="html" scope="external">Facebook Developers</xref> website.</li>
-          <li id="li_zh4_cgk_54b">Fill in the displayed form, then click the <uicontrol>Get Code</uicontrol>
+          <li id="li_zh4_cgk_54b" irina="irina">Fill in the displayed form, then click the <uicontrol>Get Code</uicontrol>
             button.</li>
-              <li id="li_a34_cgk_54b">Copy the two code snippets and paste them into a <xmlelement>div</xmlelement> element
+              <li id="li_a34_cgk_54b" irina="irina">Copy the two code snippets and paste them into a <xmlelement>div</xmlelement> element
             inside an XML file called <filepath>facebook-widget.xml</filepath>. Make sure you follow
             these rules:<ul id="ul_b34_cgk_54b">
-              <li id="li_c34_cgk_54b">The file must be well-formed.</li>
-              <li id="li_d34_cgk_54b">The code for each <xmlelement>script</xmlelement> element must be included in an XML
+              <li id="li_c34_cgk_54b" irina="irina">The file must be well-formed.</li>
+              <li id="li_d34_cgk_54b" irina="irina">The code for each <xmlelement>script</xmlelement> element must be included in an XML
                 comment.</li>
-              <li id="li_e34_cgk_54b">The start and end tags for the XML comment must be on a separate line. The content
+              <li id="li_e34_cgk_54b" irina="irina">The start and end tags for the XML comment must be on a separate line. The content
                 of the XML file should look like
                 this:<codeblock outputclass="language-javascript" id="codeblock_f34_cgk_54b">&lt;div id="facebook">
     &lt;div id="fb-root"/>
@@ -52,9 +52,9 @@
         data-show-faces="true" data-share="true"/>
 &lt;/div></codeblock></li>
             </ul></li>
-          <li id="li_g34_cgk_54b">Open the <xref href="whr_publishing_template_contents.dita#template_descritpor_file"
+          <li id="li_g34_cgk_54b" irina="irina">Open the <xref href="whr_publishing_template_contents.dita#template_descritpor_file"
               >template descriptor file</xref> associated with your publishing template.</li>
-          <li id="li_h34_cgk_54b">Use <xref href="whr_publishing_template_contents.dita#html_fragment_extension_points"
+          <li id="li_h34_cgk_54b" irina="irina">Use <xref href="whr_publishing_template_contents.dita#html_fragment_extension_points"
               >one of the parameters that begin with <i>webhelp.fragment</i></xref> in the
               <i>html-fragments</i> section of the descriptor file. Set the value of that parameter
             to reference the <filepath>facebook-widget.xml</filepath> file that you created
@@ -68,12 +68,12 @@
           placeholder="webhelp.fragment.after.toc_or_tiles"/>
       &lt;/html-fragments>
     &lt;/webhelp></codeblock></li>
-          <li id="li_j34_cgk_54b">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
-          <li id="li_k34_cgk_54b">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
+          <li id="li_j34_cgk_54b" irina="irina">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
+          <li id="li_k34_cgk_54b" irina="irina">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
             your template.</li>
-          <li id="li_l34_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
+          <li id="li_l34_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
             scenario.</li>
-          <li id="li_m34_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_m34_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol></p>
     </section>
     <section id="using_oxygen_xml_editorauthor">
@@ -81,17 +81,17 @@
       <p id="p_n34_cgk_54b">To add a <tm tmtype="tm" trademark="tm">Facebook</tm>
         <i>Like</i> widget to your WebHelp output using a transformation scenario from within
           <b>Oxygen XML Editor/Author</b>, follow this procedure:<ol id="ol_o34_cgk_54b">
-          <li id="li_p34_cgk_54b">Go to the <xref href="https://developers.facebook.com/docs/plugins/like-button"
+          <li id="li_p34_cgk_54b" irina="irina">Go to the <xref href="https://developers.facebook.com/docs/plugins/like-button"
               format="html" scope="external">Facebook Developers</xref> website.</li>
-          <li id="li_q34_cgk_54b">Fill in the displayed form, then click the <uicontrol>Get Code</uicontrol>
+          <li id="li_q34_cgk_54b" irina="irina">Fill in the displayed form, then click the <uicontrol>Get Code</uicontrol>
             button.</li>
-            <li id="li_r34_cgk_54b">Copy the two code snippets and paste them into a <xmlelement>div</xmlelement> element
+            <li id="li_r34_cgk_54b" irina="irina">Copy the two code snippets and paste them into a <xmlelement>div</xmlelement> element
             inside an XML file called <filepath>facebook-widget.xml</filepath>. Make sure you follow
             these rules:<ul id="ul_s34_cgk_54b">
-              <li id="li_t34_cgk_54b">The file must be well-formed.</li>
-              <li id="li_u34_cgk_54b">The code for each <xmlelement>script</xmlelement> element must be included in an XML
+              <li id="li_t34_cgk_54b" irina="irina">The file must be well-formed.</li>
+              <li id="li_u34_cgk_54b" irina="irina">The code for each <xmlelement>script</xmlelement> element must be included in an XML
                 comment.</li>
-              <li id="li_v34_cgk_54b">The start and end tags for the XML comment must be on a separate line. The content
+              <li id="li_v34_cgk_54b" irina="irina">The start and end tags for the XML comment must be on a separate line. The content
                 of the XML file should look like
                 this:<codeblock outputclass="language-javascript" id="codeblock_w34_cgk_54b">&lt;div id="facebook">
     &lt;div id="fb-root"/>
@@ -110,15 +110,15 @@
         data-show-faces="true" data-share="true"/>
 &lt;/div></codeblock></li>
             </ul></li>
-          <li id="li_x34_cgk_54b">Edit the <term>DITA Map WebHelp Responsive</term> transformation scenario and choose a
+          <li id="li_x34_cgk_54b" irina="irina">Edit the <term>DITA Map WebHelp Responsive</term> transformation scenario and choose a
               <i>template</i>.</li>
-          <li id="li_y34_cgk_54b">Switch to the <uicontrol>Parameters</uicontrol> tab. Depending on where you want to
+          <li id="li_y34_cgk_54b" irina="irina">Switch to the <uicontrol>Parameters</uicontrol> tab. Depending on where you want to
             display the button, edit <xref
               href="whr_publishing_template_contents.dita#html_fragment_extension_points">one of the
               parameters that begin with <i>webhelp.fragment</i></xref>. Set that parameter to
             reference the <filepath>facebook-widget.xml</filepath> file that you created
             earlier.</li>
-          <li id="li_z34_cgk_54b">Click <uicontrol>Ok</uicontrol> and run the transformation scenario.</li>
+          <li id="li_z34_cgk_54b" irina="irina">Click <uicontrol>Ok</uicontrol> and run the transformation scenario.</li>
         </ol></p>
     </section>
   </body>

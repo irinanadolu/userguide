@@ -27,25 +27,25 @@
           href="preferences-menu-shortcut-keys.dita#preferences-menu-shortcut-keys">assign a
           keyboard shortcut</xref> to this action.</note></p>
     <p id="p_kbw_bgk_54b">The actions that contribute messages to this view include:<ul id="ul_lbw_bgk_54b">
-        <li id="li_mbw_bgk_54b"><xref
+        <li id="li_mbw_bgk_54b" irina="irina"><xref
             href="validation-actions-in-user-interface.dita#validation-actions-in-user-interface"
             format="dita"><uicontrol>Validation</uicontrol> actions</xref></li>
-        <li id="li_nbw_bgk_54b"><xref href="transforming-documents.dita#transforming-documents" format="dita"
+        <li id="li_nbw_bgk_54b" irina="irina"><xref href="transforming-documents.dita#transforming-documents" format="dita"
               ><uicontrol>Transformation</uicontrol> actions</xref></li>
-        <li id="li_obw_bgk_54b"><xref href="spell-check-in-files.dita#spell-check-in-files" format="dita"
+        <li id="li_obw_bgk_54b" irina="irina"><xref href="spell-check-in-files.dita#spell-check-in-files" format="dita"
               ><uicontrol>Check Spelling in Files</uicontrol> action</xref></li>
-        <li id="li_pbw_bgk_54b"><ph product="editor author developer"><uicontrol>Find All</uicontrol> action from the
+        <li id="li_pbw_bgk_54b" irina="irina"><ph product="editor author developer"><uicontrol>Find All</uicontrol> action from the
               <xref href="find-replace-dialog.dita#find-replace-dialog" format="dita"
                 ><uicontrol>Find/Replace</uicontrol> dialog box</xref></ph></li>
-        <li id="li_qbw_bgk_54b"><ph product="editor author developer"><xref
+        <li id="li_qbw_bgk_54b" irina="irina"><ph product="editor author developer"><xref
               href="find-and-replace-text-in-files.dita#find-and-replace-text-in-files"
               format="dita"><uicontrol>Find/Replace in Files</uicontrol> dialog box</xref></ph></li>
-        <li product="editor editorEclipse developer developerEclipse" id="li_rbw_bgk_54b"><xref
+        <li product="editor editorEclipse developer developerEclipse" id="li_rbw_bgk_54b" irina="irina"><xref
             href="find-xslt-references-and-declarations.dita#find-xslt-references-and-declarations"
             format="dita"><uicontrol>Search References</uicontrol> action</xref></li>
-        <li product="editor author developer" id="li_sbw_bgk_54b"><xref href="xpath-toolbar.dita#xpath-toolbar"
+        <li product="editor author developer" id="li_sbw_bgk_54b" irina="irina"><xref href="xpath-toolbar.dita#xpath-toolbar"
             format="dita">XPath expression results</xref></li>
-        <li id="li_tbw_bgk_54b"><xref href="executing-sql-statements.dita#executing-sql-statements" format="dita">SQL
+        <li id="li_tbw_bgk_54b" irina="irina"><xref href="executing-sql-statements.dita#executing-sql-statements" format="dita">SQL
             results</xref></li>
       </ul></p>
     <p id="p_ubw_bgk_54b">
@@ -127,9 +127,9 @@
                   <uicontrol>Editor</uicontrol>
                   <uicontrol>Highlights category</uicontrol>
                 </menucascade>. You can do the following customizations:<ul id="ul_mcw_bgk_54b">
-                  <li id="li_ncw_bgk_54b">Set a specific color of the highlights depending on the
+                  <li id="li_ncw_bgk_54b" irina="irina">Set a specific color of the highlights depending on the
                     type of action you make. </li>
-                  <li id="li_ocw_bgk_54b">Set a maximum number of highlights that the application
+                  <li id="li_ocw_bgk_54b" irina="irina">Set a maximum number of highlights that the application
                     displays at any given time. </li>
                 </ul></note></dd>
           </dlentry>
@@ -205,18 +205,18 @@
             <dt><uicontrol><image href="../img/Copy16.png" id="image_fhv_5w4_5r"
               />Copy</uicontrol></dt>
             <dd>Copies information associated with the selected messages. For example: <ul id="ul_ddw_bgk_54b">
-                <li id="li_edw_bgk_54b">The file path of the document that triggered the output message.</li>
-                <li product="editor author developer" id="li_fdw_bgk_54b">The path of the <xref
+                <li id="li_edw_bgk_54b" irina="irina">The file path of the document that triggered the output message.</li>
+                <li product="editor author developer" id="li_fdw_bgk_54b" irina="irina">The path of the <xref
                     keyref="glossentry_main-file"><term>main file</term></xref> (in the case of
                   a <xref href="validation-scenario.dita#validation-scenario" format="dita"
                     >validation scenario</xref>, it is the path of the file where the
                   validation starts and can be different from the validated file).</li>
-                <li id="li_gdw_bgk_54b">Error severity (error, warning, info message, etc.)</li>
-                <li id="li_hdw_bgk_54b">Name of validating processor. </li>
-                <li product="editor author developer" id="li_idw_bgk_54b">Name of <xref
+                <li id="li_gdw_bgk_54b" irina="irina">Error severity (error, warning, info message, etc.)</li>
+                <li id="li_hdw_bgk_54b" irina="irina">Name of validating processor. </li>
+                <li product="editor author developer" id="li_idw_bgk_54b" irina="irina">Name of <xref
                     href="validation-scenario.dita#validation-scenario" format="dita">validation
                     scenario</xref>. </li>
-                <li id="li_jdw_bgk_54b">The line and column in the file that triggered the message.</li>
+                <li id="li_jdw_bgk_54b" irina="irina">The line and column in the file that triggered the message.</li>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_kdw_bgk_54b">

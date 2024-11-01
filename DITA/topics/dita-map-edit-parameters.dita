@@ -22,9 +22,9 @@
       text box to filter or search for a specific term in the entire parameters collection. Note
       that edited parameters are displayed with their name in bold.</p>
     <p id="p_ytl_cgk_54b">Depending on the type of a parameter, its value can be one of the following:<ul id="ul_ztl_cgk_54b">
-        <li id="li_a5l_cgk_54b">A simple text field for simple parameter values.</li>
-        <li id="li_b5l_cgk_54b">A combo box with some predefined values.</li>
-        <li id="li_c5l_cgk_54b">A file chooser and an <xref href="editor-variables.dita#editor-variables" format="dita"
+        <li id="li_a5l_cgk_54b" irina="irina">A simple text field for simple parameter values.</li>
+        <li id="li_b5l_cgk_54b" irina="irina">A combo box with some predefined values.</li>
+        <li id="li_c5l_cgk_54b" irina="irina">A file chooser and an <xref href="editor-variables.dita#editor-variables" format="dita"
             >editor variable</xref> selector to simplify setting a file path as the value of a
           parameter.</li>
       </ul></p>

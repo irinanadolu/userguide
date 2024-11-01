@@ -34,23 +34,23 @@
           <xmlelement>inline</xmlelement> XProc element, the list of content completion proposals is
         populated as follows:</p>
       <ul id="ul_org_cgk_54b">
-        <li id="li_prg_cgk_54b">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>stylesheet</codeph> and
+        <li id="li_prg_cgk_54b" irina="irina">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>stylesheet</codeph> and
           the <xmlelement>xslt</xmlelement> element is the parent of the
             <xmlelement>input</xmlelement> elements, the <term>Content Completion Assistant</term>
           offers XSLT elements.</li>
-        <li id="li_qrg_cgk_54b">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
+        <li id="li_qrg_cgk_54b" irina="irina">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
             <xmlelement>validate-with-relax-ng</xmlelement> element is the parent of the
             <xmlelement>input</xmlelement> element, the <term>Content Completion Assistant</term>
           offers RELAX NG schema elements.</li>
-        <li id="li_rrg_cgk_54b">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
+        <li id="li_rrg_cgk_54b" irina="irina">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
             <xmlelement>validate-with-xml-schema</xmlelement> element is the parent of the
             <xmlelement>input</xmlelement> element, the <term>Content Completion Assistant</term>
           offers XML Schema schema elements.</li>
-        <li id="li_srg_cgk_54b">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
+        <li id="li_srg_cgk_54b" irina="irina">If the value of the <xmlatt>port</xmlatt> attribute is <codeph>schema</codeph> and the
             <xmlelement>validate-with-schematron</xmlelement> element is the parent of the
             <xmlelement>input</xmlelement> element , the <term>Content Completion Assistant</term>
           offers either ISO Schematron elements or Schematron 1.5 schema elements.</li>
-        <li id="li_trg_cgk_54b">If the above cases do not apply, then the <term>Content Completion Assistant</term>
+        <li id="li_trg_cgk_54b" irina="irina">If the above cases do not apply, then the <term>Content Completion Assistant</term>
           offers elements from all the schemas from the above cases.</li>
       </ul>
       <p id="p_urg_cgk_54b">
@@ -73,15 +73,15 @@
         schemes for syntax highlighting.</p>
       <p id="p_xrg_cgk_54b">To customize the colors or styles used for the syntax highlighting colors for XProc, follow
         these steps:<ol id="ol_yrg_cgk_54b">
-          <li id="li_zrg_cgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/>.</li>
-          <li id="li_asg_cgk_54b">Go to <xref href="preferences-colors-sh.dita#preferences-colors-sh"><menucascade>
+          <li id="li_zrg_cgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/>.</li>
+          <li id="li_asg_cgk_54b" irina="irina">Go to <xref href="preferences-colors-sh.dita#preferences-colors-sh"><menucascade>
                 <uicontrol>Editor</uicontrol>
                 <uicontrol>Syntax Highlight</uicontrol>
               </menucascade></xref>.</li>
-          <li id="li_bsg_cgk_54b">Select and expand the <uicontrol>XML</uicontrol> section in the top pane.</li>
-          <li id="li_csg_cgk_54b">Select the component you want to change and customize the colors or styles using the
+          <li id="li_bsg_cgk_54b" irina="irina">Select and expand the <uicontrol>XML</uicontrol> section in the top pane.</li>
+          <li id="li_csg_cgk_54b" irina="irina">Select the component you want to change and customize the colors or styles using the
             selectors to the right of the pane.</li>
-          <li id="li_dsg_cgk_54b">Select the <uicontrol>XML</uicontrol> tab in the <uicontrol>Preview</uicontrol> pane
+          <li id="li_dsg_cgk_54b" irina="irina">Select the <uicontrol>XML</uicontrol> tab in the <uicontrol>Preview</uicontrol> pane
             to see the effects of your changes.</li>
         </ol></p>
     </section>
@@ -92,9 +92,9 @@
           href="http://xmlcalabash.com/docs/reference/cfg.extension.html" format="html"
           scope="external"/>).</p>
       <p id="p_fsg_cgk_54b">To configure an extension:<ol id="ol_gsg_cgk_54b">
-          <li id="li_hsg_cgk_54b">Edit the following file:
+          <li id="li_hsg_cgk_54b" irina="irina">Edit the following file:
               <filepath>OXYGEN_INSTALL_DIR/lib/xproc/calabash/engine.xml</filepath>.</li>
-          <li id="li_isg_cgk_54b">Add the extension and its value as a <codeph>system-property</codeph>, as in the
+          <li id="li_isg_cgk_54b" irina="irina">Add the extension and its value as a <codeph>system-property</codeph>, as in the
             following
             example:<codeblock outputclass="language-xml" id="codeblock_jsg_cgk_54b">&lt;system-property name="com.xmlcalabash.allow-text-results" value="true"/></codeblock></li>
         </ol></p>

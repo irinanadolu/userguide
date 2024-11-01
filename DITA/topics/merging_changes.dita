@@ -80,12 +80,12 @@
               <p id="p_qtt_dgk_54b">This panel shows the list of files in the compared file sets based upon the filter
                 button that is selected. This panel includes the following sortable columns:<ul
                   id="ul_cny_4lk_y3b">
-                  <li id="li_rtt_dgk_54b"><b>Name</b> - The file names.</li>
-                  <li id="li_stt_dgk_54b"><b>Status</b> - An icon that represents the file status. Red icons indicate
+                  <li id="li_rtt_dgk_54b" irina="irina"><b>Name</b> - The file names.</li>
+                  <li id="li_stt_dgk_54b" irina="irina"><b>Status</b> - An icon that represents the file status. Red icons indicate
                     some sort of conflict. Gray icons indicate modifications made by you. Blue icons
                     indicate modifications made by others.</li>
-                  <li id="li_ttt_dgk_54b"><b>Description</b> - A description of the file status.</li>
-                  <li id="merge-action"><b>Merge Action</b> - This column provides a drop-down menu
+                  <li id="li_ttt_dgk_54b" irina="irina"><b>Description</b> - A description of the file status.</li>
+                  <li id="merge-action" irina="irina"><b>Merge Action</b> - This column provides a drop-down menu
                     for each file that allows you to choose some merge actions depending upon its
                     status. A default action is always set to automatically merge the changes made
                     by others with your changes. If there is a conflict, the default is
@@ -134,17 +134,17 @@
                     <dt><uicontrol>Algorithm Drop-Down Menu</uicontrol></dt>
                     <dd>This drop-down menu allows you to select one of the following diff
                       algorithms to be used for file comparisons:<ul id="ul_d5t_dgk_54b">
-                        <li id="auto"><uicontrol>Auto</uicontrol> - Selects the most appropriate
+                        <li id="auto" irina="irina"><uicontrol>Auto</uicontrol> - Selects the most appropriate
                           algorithm, based on the compared content and its size (selected by
                           default).</li>
-                        <li id="lines"><uicontrol>Lines</uicontrol> - Computes the differences at
+                        <li id="lines" irina="irina"><uicontrol>Lines</uicontrol> - Computes the differences at
                           line level, meaning that it compares two files or fragments looking for
                           identical lines of text. This algorithm is not available when the merge
                           tool is in <uicontrol>Author</uicontrol> mode.</li>
-                        <li id="xml-fast"><uicontrol>XML Fast</uicontrol> - Comparison that works
+                        <li id="xml-fast" irina="irina"><uicontrol>XML Fast</uicontrol> - Comparison that works
                           well on large files or fragments, but it is less precise than
                             <uicontrol>XML Accurate</uicontrol>.</li>
-                        <li id="xml-accurate"><uicontrol>XML Accurate</uicontrol> - Comparison that
+                        <li id="xml-accurate" irina="irina"><uicontrol>XML Accurate</uicontrol> - Comparison that
                           is more precise than <uicontrol>XML Fast</uicontrol>, at the expense of
                           speed. It compares two XML files or fragments looking for identical XML
                           nodes. </li>
@@ -290,14 +290,14 @@
                 in the comparison panes, depending on the type of change, and dynamic lines connect
                 the compared fragments in the middle section between the two panes. The default
                 colors and their shades mean the following:<ul id="ul_r5t_dgk_54b">
-                  <li id="li_s5t_dgk_54b"><b>Pink</b> - Identifies modifications on either side.</li>
-                  <li id="li_t5t_dgk_54b"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
+                  <li id="li_s5t_dgk_54b" irina="irina"><b>Pink</b> - Identifies modifications on either side.</li>
+                  <li id="li_t5t_dgk_54b" irina="irina"><b>Gray</b> - Identifies an addition of a node in the left side (your outgoing
                     changes).</li>
-                  <li id="li_u5t_dgk_54b"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
+                  <li id="li_u5t_dgk_54b" irina="irina"><b>Blue</b> - Identifies an addition of a node in the right side (incoming
                     changes).</li>
-                  <li id="li_v5t_dgk_54b"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in
+                  <li id="li_v5t_dgk_54b" irina="irina"><b>Lighter Shade</b> - Identifies blocks of changes that can be merged in
                     their entirety.</li>
-                  <li id="li_w5t_dgk_54b"><b>Darker Shade</b> - Identifies specific changes within the blocks that can
+                  <li id="li_w5t_dgk_54b" irina="irina"><b>Darker Shade</b> - Identifies specific changes within the blocks that can
                     be merged more precisely.</li>
                 </ul></p>
               <p id="p_x5t_dgk_54b">
@@ -393,13 +393,13 @@
                 the <xref href="#merging_changes/merge-action" format="dita"><uicontrol>Merge
                     Action</uicontrol> drop-down menu</xref>), a dialog box will be displayed that
                 allows you to choose how to solve the conflicts. You can choose between the following:<ul id="ul_ovt_dgk_54b">
-                  <li id="li_pvt_dgk_54b"><uicontrol>Keep your changes</uicontrol> - If you select this option and then
+                  <li id="li_pvt_dgk_54b" irina="irina"><uicontrol>Keep your changes</uicontrol> - If you select this option and then
                     click <uicontrol>Apply</uicontrol>, your local changes will be preserved for the
                     unresolved conflicts.</li>
-                  <li id="li_qvt_dgk_54b"><uicontrol>Overwrite your changes</uicontrol> - If you select this option and
+                  <li id="li_qvt_dgk_54b" irina="irina"><uicontrol>Overwrite your changes</uicontrol> - If you select this option and
                     then click <uicontrol>Apply</uicontrol>, your local changes will be overwritten
                     with the changes made by others, for the unresolved conflicts.</li>
-                  <li id="li_rvt_dgk_54b"><uicontrol>Cancel</uicontrol> - You can click the
+                  <li id="li_rvt_dgk_54b" irina="irina"><uicontrol>Cancel</uicontrol> - You can click the
                       <uicontrol>Cancel</uicontrol> button to go back to the merge tool to resolve
                     the conflicts individually.</li>
                 </ul></p>

@@ -24,7 +24,7 @@
         <dlentry id="dlentry_r1r_bgk_54b">
           <dt><uicontrol>Compare files by</uicontrol></dt>
           <dd>Controls the method used for comparing two files:<ul id="ul_s1r_bgk_54b">
-              <li id="li_t1r_bgk_54b">
+              <li id="li_t1r_bgk_54b" irina="irina">
                 <p id="p_u1r_bgk_54b"><uicontrol>Content</uicontrol> - The file content is compared using the current
                     <xref href="preferences-diff-files.dita#preferences-diff-files/diff-algorithm"
                     format="dita">diff algorithm</xref>. This option is applied for a pair of files
@@ -38,8 +38,8 @@
                     XPath</uicontrol> option is ignored when using the <uicontrol>Compare
                     Directories</uicontrol> tool.</p>
               </li>
-              <li id="li_w1r_bgk_54b"><uicontrol>Binary Compare</uicontrol> - The files are compared at byte level.</li>
-              <li id="li_x1r_bgk_54b"><uicontrol>Timestamp (last modified date / time)</uicontrol> - The files are
+              <li id="li_w1r_bgk_54b" irina="irina"><uicontrol>Binary Compare</uicontrol> - The files are compared at byte level.</li>
+              <li id="li_x1r_bgk_54b" irina="irina"><uicontrol>Timestamp (last modified date / time)</uicontrol> - The files are
                 compared only by their last modified timestamp.</li>
             </ul></dd>
         </dlentry>
@@ -54,12 +54,12 @@
           <dd>This options control the behavior of the differences traversal actions (<uicontrol>Go
               to previous modification</uicontrol>, <uicontrol>Go to next modification</uicontrol>)
             when the first or last difference in a file is reached:<ul id="ul_z1r_bgk_54b">
-              <li id="li_abr_bgk_54b"><uicontrol>Ask what to do next</uicontrol> - A dialog box is displayed asking you
+              <li id="li_abr_bgk_54b" irina="irina"><uicontrol>Ask what to do next</uicontrol> - A dialog box is displayed asking you
                 to confirm that you want the application to display modifications from the previous
                 or next file.</li>
-              <li id="li_bbr_bgk_54b"><uicontrol>Go to the next/previous file</uicontrol> - The application opens the
+              <li id="li_bbr_bgk_54b" irina="irina"><uicontrol>Go to the next/previous file</uicontrol> - The application opens the
                 next or previous file without waiting for your confirmation.</li>
-              <li id="li_cbr_bgk_54b"><uicontrol>Do nothing</uicontrol> - No further action is taken.</li>
+              <li id="li_cbr_bgk_54b" irina="irina"><uicontrol>Do nothing</uicontrol> - No further action is taken.</li>
             </ul></dd>
         </dlentry>
       </dl></p>

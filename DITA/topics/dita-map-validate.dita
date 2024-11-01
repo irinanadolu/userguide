@@ -21,12 +21,12 @@
     <section id="validating_a_dita_map">
       <title>Validating a DITA Map</title>
       <p id="p_awl_dgk_54b">To validate a DITA, follow these steps:<ol id="ol_bwl_dgk_54b">
-          <li id="li_cwl_dgk_54b">In the <xref href="../topics/dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA
+          <li id="li_cwl_dgk_54b" irina="irina">In the <xref href="../topics/dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA
                 Maps Manager</uicontrol> view</xref>, make sure that the tab that holds your <xref
               keyref="glossentry_root-map"><term>root map</term></xref> is selected and that the
               <uicontrol>Context</uicontrol> selection is set either to the name of your <term>root
               map</term> or to <codeph>&lt;current map></codeph>.</li>
-          <li id="li_dwl_dgk_54b">It is a good practice to refresh your <term>DITA map</term> before running the
+          <li id="li_dwl_dgk_54b" irina="irina">It is a good practice to refresh your <term>DITA map</term> before running the
             validation process. To do so, select the <term>DITA map</term> in the <uicontrol>DITA
               Maps Manager</uicontrol> view and click <uicontrol product="author editor"><image
                 href="../img/Reload16.png" id="image_xgc_wcq_js"/>Reload
@@ -35,7 +35,7 @@
               <uicontrol>File</uicontrol>
               <uicontrol>Refresh (<shortcut>F5</shortcut>)</uicontrol>
             </menucascade>.</li>
-          <li id="li_ewl_dgk_54b">Click the <uicontrol><image href="../img/ValidateAndCheck16.png"
+          <li id="li_ewl_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/ValidateAndCheck16.png"
                 id="image_q3v_2vv_sr"/>Validate and Check for Completeness</uicontrol> button<ph
               product="author editor"> from the <uicontrol><image href="../img/ValidateDrop.png"
                   id="image_g4m_2xq_y3b"/>Validation</uicontrol> drop-down menu </ph>on the
@@ -43,10 +43,10 @@
               keyref="dita_validate-and-check-for-completeness/dita-map-completeness-dialog"
               format="dita"><uicontrol>DITA Map Completeness Check</uicontrol> dialog
             box</xref>.</li>
-          <li id="li_fwl_dgk_54b">If you are using profiling, check the <uicontrol>Use DITAVAL filters</uicontrol> box
+          <li id="li_fwl_dgk_54b" irina="irina">If you are using profiling, check the <uicontrol>Use DITAVAL filters</uicontrol> box
             and select the appropriate option.</li>
-          <li id="li_gwl_dgk_54b">Select any other options you want to check.</li>
-          <li id="li_hwl_dgk_54b">Click <uicontrol>Check</uicontrol> to run the validation process.</li>
+          <li id="li_gwl_dgk_54b" irina="irina">Select any other options you want to check.</li>
+          <li id="li_hwl_dgk_54b" irina="irina">Click <uicontrol>Check</uicontrol> to run the validation process.</li>
         </ol></p>
       <p product="author editor" id="p_iwl_dgk_54b"><b>Result:</b> A dialog box is displayed showing the progress of
         the operation. You can click the <uicontrol>Run in Background</uicontrol> button to close
@@ -61,14 +61,14 @@
       <title>Validation Process</title>
       <p id="p_kwl_dgk_54b">The validation process of a <term>DITA map</term> includes the following:<ul
           id="ul_qbl_3dx_js">
-          <li id="li_lwl_dgk_54b">Verifies that the file paths of the topic references are valid. For example, if an
+          <li id="li_lwl_dgk_54b" irina="irina">Verifies that the file paths of the topic references are valid. For example, if an
               <xmlatt>href</xmlatt> attribute points to an invalid file path, it is reported as an
             error in the message panel at the bottom of the editor.</li>
-          <li id="li_mwl_dgk_54b">Validates each referenced topic and map. Each topic file is opened and validated
+          <li id="li_mwl_dgk_54b" irina="irina">Validates each referenced topic and map. Each topic file is opened and validated
             against the appropriate DITA DTD. If another <term>DITA map</term> is referenced in the
             main one, the referenced <term>DITA map</term> is verified recursively, applying the
             same algorithm as for the main map.</li>
-          <li id="li_nwl_dgk_54b">If errors or warnings are found, they are displayed in a separate message pane at the
+          <li id="li_nwl_dgk_54b" irina="irina">If errors or warnings are found, they are displayed in a separate message pane at the
             bottom of the editor and clicking them takes you to the location of the error or warning
             in the file where it was found.</li>
         </ul></p>
@@ -111,21 +111,21 @@
                   they appear before the referenced topics.</note></p>
               <p id="p_b5z_p52_dwb">You can choose between the following options:<ul
                   id="ul_lpv_q52_dwb">
-                  <li id="li_mpv_q52_dwb"><uicontrol>From the current condition set</uicontrol> -
+                  <li id="li_mpv_q52_dwb" irina="irina"><uicontrol>From the current condition set</uicontrol> -
                     The map is filtered using the condition set currently applied in the <xref
                       href="dita-maps-manager.dita#dita-maps-manager"><uicontrol>DITA Maps
                         Manager</uicontrol> view</xref>. Clicking the <uicontrol><image
                         href="../img/HelpToc16.png" placement="inline"/>Details</uicontrol> icon
                     opens a topic in the <ph keyref="product"/> User Guide that explains how to
                     create a profiling condition set.</li>
-                  <li id="li_npv_q52_dwb"><uicontrol>From all available condition sets</uicontrol> -
+                  <li id="li_npv_q52_dwb" irina="irina"><uicontrol>From all available condition sets</uicontrol> -
                     For each available condition set, the map content is filtered using that set
                     before validation.</li>
-                  <li id="li_opv_q52_dwb"><uicontrol>From the associated transformation
+                  <li id="li_opv_q52_dwb" irina="irina"><uicontrol>From the associated transformation
                       scenario</uicontrol> - The filtering condition set is specified explicitly as
                     a DITAVAL file in the current transformation scenario associated with the
                       <term>DITA map</term>.</li>
-                  <li id="li_ppv_q52_dwb"><uicontrol>Other DITAVAL files</uicontrol> - For each
+                  <li id="li_ppv_q52_dwb" irina="irina"><uicontrol>Other DITAVAL files</uicontrol> - For each
                     DITAVAL file from this list, the map content is filtered using the DITAVAL file
                     before validation. Use the <uicontrol>Add</uicontrol> or
                       <uicontrol>Remove</uicontrol> buttons to configure the list. The

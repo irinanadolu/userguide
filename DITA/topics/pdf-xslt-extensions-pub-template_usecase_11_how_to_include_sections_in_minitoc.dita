@@ -6,10 +6,10 @@
     <p>By default, the <i>Mini TOC</i> only displays the child topics of a given chapter topic. To
       add the possibility of also displaying the child sections, use an <i>Oxygen Publishing
         Template</i> and follow these steps:<ol id="ol_o1m_xrs_qsb">
-        <li conkeyref="reusables-dcpp/pt-li1"/>
-        <li conkeyref="reusables-dcpp/pt-li2"/>
-        <li conkeyref="reusables-dcpp/pt-li3"/>
-        <li>In the newly created folder, create an XSL file (for example, named
+        <li conkeyref="reusables-dcpp/pt-li1" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li2" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li3" irina="irina"/>
+        <li irina="irina">In the newly created folder, create an XSL file (for example, named
             <filepath>merged2mergedExtension.xsl</filepath>) with the following
           content:<codeblock outputclass="language-xml" id="codeblock_p1m_xrs_qsb">&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
@@ -104,7 +104,7 @@
     &lt;/link>
   &lt;/xsl:template>
 &lt;/xsl:stylesheet></codeblock></li>
-        <li>Open the <xref href="pdf_publishing_template_contents.dita#template_descritpor_file_pdf"
+        <li irina="irina">Open the <xref href="pdf_publishing_template_contents.dita#template_descritpor_file_pdf"
               ><i>template descriptor file</i></xref> associated with your <i>publishing
             template</i> (the <i>.opt</i> file) and set the XSLT stylesheet created in the previous
           step with the <codeph>com.oxygenxml.pdf.css.xsl.merged2merged</codeph> XSLT extension
@@ -122,9 +122,9 @@
     &lt;/parameters></codeblock><note id="note_phf_zbz_qtb">This solution works also
             with <codeph>args.chapter.layout</codeph> set to
             <codeph>MINITOC-BOTTOM-LINKS</codeph>.</note></li>
-        <li conkeyref="reusables-dcpp/pt-li6"/>
-        <li conkeyref="reusables-dcpp/pt-li7"/>
-        <li conkeyref="reusables-dcpp/pt-li8"/>
+        <li conkeyref="reusables-dcpp/pt-li6" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li7" irina="irina"/>
+        <li conkeyref="reusables-dcpp/pt-li8" irina="irina"/>
       </ol></p>
   </body>
 </topic>

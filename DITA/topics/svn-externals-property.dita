@@ -12,13 +12,13 @@
       will be added into the working copy as a versioned item. There are a few differences between
       directory and external file: </p>
     <ul id="ul_csj_dgk_54b">
-      <li id="li_dsj_dgk_54b">The path to the external file must be in a working copy that is already checked out. While
+      <li id="li_dsj_dgk_54b" irina="irina">The path to the external file must be in a working copy that is already checked out. While
         external directories can place the external directory at any depth and it will create any
         intermediate directories, external files must be placed into a working copy that is already
         checked out.</li>
-      <li id="li_esj_dgk_54b">The external file URL must be in the same repository as the URL that the external file
+      <li id="li_esj_dgk_54b" irina="irina">The external file URL must be in the same repository as the URL that the external file
         will be inserted into (inter-repository external files are not supported).</li>
-      <li id="li_fsj_dgk_54b">While commits do not descend into an external directory, a commit in a directory
+      <li id="li_fsj_dgk_54b" irina="irina">While commits do not descend into an external directory, a commit in a directory
         containing an external file will commit any modifications to the external file.</li>
     </ul>
     <p id="p_gsj_dgk_54b">The difference between a normal versioned file and an external file is that external files

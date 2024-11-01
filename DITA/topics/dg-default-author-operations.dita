@@ -396,12 +396,12 @@
             <dd>The position relative to the node obtained from the XPath expression where the
               cursor will be moved. When also choosing to perform a selection, you can use the
               following possible values:<ul id="ul_wg1_dgk_54b">
-                <li id="li_xg1_dgk_54b"><b>Before</b> - Places the cursor at the beginning of the
+                <li id="li_xg1_dgk_54b" irina="irina"><b>Before</b> - Places the cursor at the beginning of the
                   selection.</li>
-                <li id="li_yg1_dgk_54b"><b>Inside, at the beginning</b> - Places the cursor at the beginning
+                <li id="li_yg1_dgk_54b" irina="irina"><b>Inside, at the beginning</b> - Places the cursor at the beginning
                   of the selection.</li>
-                <li id="li_zg1_dgk_54b"><b>After</b> - Places the cursor at the end of the selection.</li>
-                <li id="li_ah1_dgk_54b"><b>Inside, at the end</b> - Places the cursor at the end of the
+                <li id="li_zg1_dgk_54b" irina="irina"><b>After</b> - Places the cursor at the end of the selection.</li>
+                <li id="li_ah1_dgk_54b" irina="irina"><b>Inside, at the end</b> - Places the cursor at the end of the
                   selection.</li>
               </ul></dd>
           </dlentry>
@@ -878,11 +878,11 @@ return if (not(empty($toProcess))) then
 &lt;/xsl:stylesheet></codeblock></p>
               <p id="p_cl1_dgk_54b">You can also use a path for an included or imported reference. When using a path,
                 the following apply:<ul id="ul_dl1_dgk_54b">
-                  <li id="li_el1_dgk_54b">A relative path is resolved to the <term>framework</term> directory.</li>
-                  <li id="li_fl1_dgk_54b">The <xref href="editor-variables.dita#editor-variables/edvar-framework"
+                  <li id="li_el1_dgk_54b" irina="irina">A relative path is resolved to the <term>framework</term> directory.</li>
+                  <li id="li_fl1_dgk_54b" irina="irina">The <xref href="editor-variables.dita#editor-variables/edvar-framework"
                         ><i>${framework}</i> editor variable</xref> can also be used to reference
                     resources from the <term>framework</term> directory.</li>
-                  <li id="li_gl1_dgk_54b">The path is passed through the catalog mappings. It helps to use an absolute
+                  <li id="li_gl1_dgk_54b" irina="irina">The path is passed through the catalog mappings. It helps to use an absolute
                     URL (for instance, <filepath>http://www.oxygenxml.com/fr/testy.xsl</filepath>)
                     and map it in the <filepath>catalog.xml</filepath> file from the
                       <term>framework</term> directory to a resource from the
@@ -952,9 +952,9 @@ declare variable $param2 external;</codeblock></p>
 &lt;/article></codeblock></p>
       <p id="p_tl1_dgk_54b">The <b>XSLTOperation</b> needs to be configured as follows:</p>
       <ul id="ul_ul1_dgk_54b">
-        <li id="li_vl1_dgk_54b"><b>sourceLocation</b> is set to /* so that the script has access to the root element and
+        <li id="li_vl1_dgk_54b" irina="irina"><b>sourceLocation</b> is set to /* so that the script has access to the root element and
           its children.</li>
-        <li id="li_wl1_dgk_54b"><b>targetLocation</b> is left untouched (assuming that the action is active only when
+        <li id="li_wl1_dgk_54b" irina="irina"><b>targetLocation</b> is left untouched (assuming that the action is active only when
           the cursor is inside the list).</li>
       </ul>
       <p id="p_xl1_dgk_54b">The XSLT script would look like
@@ -1001,8 +1001,8 @@ declare variable $param2 external;</codeblock></p>
       <sectiondiv><b>Using Entities and Xincludes with the XSLTOperation</b></sectiondiv>
       <p id="p_zl1_dgk_54b">
         <ul id="ul_am1_dgk_54b">
-          <li id="li_bm1_dgk_54b"><b>Entities</b> are treated as plain text and not expanded.</li>
-          <li id="li_cm1_dgk_54b"><b>Xincludes</b> are resolved in the result, and you can alter the
+          <li id="li_bm1_dgk_54b" irina="irina"><b>Entities</b> are treated as plain text and not expanded.</li>
+          <li id="li_cm1_dgk_54b" irina="irina"><b>Xincludes</b> are resolved in the result, and you can alter the
             XML obtained afterward using the XSLT/XQuery script of the operation, but you cannot
             alter the included document itself.</li>
         </ul>
@@ -1013,24 +1013,24 @@ declare variable $param2 external;</codeblock></p>
       <p id="editor-variables"><uicontrol>Author</uicontrol> mode operations can include parameters
         that contain the following <xref href="editor-variables.dita#editor-variables">editor
           variables</xref>:<ul id="ul_dm1_dgk_54b">
-          <li conkeyref="reusables-editor-variables/edVar-caret" id="li_em1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edvar-selection" id="li_fm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-ask" id="li_gm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edvar-timestamp" id="li_hm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edvar-uuid" id="li_im1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-id" id="li_jm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-cfn" id="li_km1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_lm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edvar-cf" id="li_mm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-cfd" id="li_nm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-frameworksDir" id="li_om1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-pd" id="li_pm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-oxygenInstallDir" id="li_qm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-homeDir" id="li_rm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-pn" id="li_sm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edvar-env" id="li_tm1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-system" id="li_um1_dgk_54b"/>
-          <li conkeyref="reusables-editor-variables/edVar-date" id="li_vm1_dgk_54b"/>
+          <li conkeyref="reusables-editor-variables/edVar-caret" id="li_em1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edvar-selection" id="li_fm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-ask" id="li_gm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edvar-timestamp" id="li_hm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edvar-uuid" id="li_im1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-id" id="li_jm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-cfn" id="li_km1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-cfne" id="li_lm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edvar-cf" id="li_mm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-cfd" id="li_nm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-frameworksDir" id="li_om1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-pd" id="li_pm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-oxygenInstallDir" id="li_qm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-homeDir" id="li_rm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-pn" id="li_sm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edvar-env" id="li_tm1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-system" id="li_um1_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-editor-variables/edVar-date" id="li_vm1_dgk_54b" irina="irina"/>
         </ul></p>
     </section>
   </body>
@@ -1039,14 +1039,14 @@ declare variable $param2 external;</codeblock></p>
     <body>
       <p id="p_wm1_dgk_54b">If you need to find more information about the arguments of an operation, there are several
         places where this information is available:<ul id="ul_xm1_dgk_54b">
-          <li id="li_ym1_dgk_54b">In the <xref
+          <li id="li_ym1_dgk_54b" irina="irina">In the <xref
               href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorOperation.html"
               format="html" scope="external">API documentation</xref> for the particular
             operation.</li>
-          <li id="li_zm1_dgk_54b">By invoking the <codeph>getArguments()</codeph> method on the operation.</li>
-          <li id="li_an1_dgk_54b">In the source code of the operation.</li>
-          <li id="li_bn1_dgk_54b">In <ph keyref="product"/>:<ol id="ol_cn1_dgk_54b">
-              <li id="li_dn1_dgk_54b">Go to <menucascade>
+          <li id="li_zm1_dgk_54b" irina="irina">By invoking the <codeph>getArguments()</codeph> method on the operation.</li>
+          <li id="li_an1_dgk_54b" irina="irina">In the source code of the operation.</li>
+          <li id="li_bn1_dgk_54b" irina="irina">In <ph keyref="product"/>:<ol id="ol_cn1_dgk_54b">
+              <li id="li_dn1_dgk_54b" irina="irina">Go to <menucascade>
                   <uicontrol>Options</uicontrol>
                   <uicontrol>Preferences</uicontrol>
                   <uicontrol>Document Type Association</uicontrol>
@@ -1055,15 +1055,15 @@ declare variable $param2 external;</codeblock></p>
                     ><uicontrol>New</uicontrol>, <uicontrol>Edit</uicontrol>,
                     <uicontrol>Duplicate</uicontrol>, or <uicontrol>Extend</uicontrol>
                 button</xref>.</li>
-              <li id="li_en1_dgk_54b">Go to the <uicontrol>Author</uicontrol> tab and then the
+              <li id="li_en1_dgk_54b" irina="irina">Go to the <uicontrol>Author</uicontrol> tab and then the
                   <uicontrol>Actions</uicontrol> subtab. At the bottom of this subtab, click
                     <uicontrol><image href="../img/Add16.png"/>New</uicontrol> to open the <xref
                   href="the-action-dialog.dita"><uicontrol>Action</uicontrol> dialog
                 box</xref>.</li>
-              <li id="li_fn1_dgk_54b">Locate the <uicontrol>Operation</uicontrol> field and click the
+              <li id="li_fn1_dgk_54b" irina="irina">Locate the <uicontrol>Operation</uicontrol> field and click the
                   <uicontrol>Choose</uicontrol> button on the right side. This will open a dialog
                 box that displays the default operations.</li>
-              <li id="li_gn1_dgk_54b">
+              <li id="li_gn1_dgk_54b" irina="irina">
                 <p id="p_hn1_dgk_54b">Double-click the operation (or select it and click
                   <uicontrol>OK</uicontrol>).</p>
                 <p id="p_in1_dgk_54b">The arguments for the operation will now be displayed in the <xref

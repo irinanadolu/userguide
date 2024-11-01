@@ -46,7 +46,7 @@
     <section id="examples_of_how_the_content_completion_assistant_">
       <title>Examples of How the Content Completion Assistant Works</title>
       <p id="p_e1p_dgk_54b">To illustrate how the feature works, consider the following examples for certain contexts:<ul id="ul_f1p_dgk_54b">
-          <li id="li_g1p_dgk_54b">
+          <li id="li_g1p_dgk_54b" irina="irina">
             <p id="p_h1p_dgk_54b"><b>New Element</b> - If the cursor is positioned at the beginning
               or at the end of an element, the first item offered is a <uicontrol>New
                 &lt;Element&gt;</uicontrol> item. Selecting this item will insert an empty
@@ -58,7 +58,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_k1p_dgk_54b">
+          <li id="li_k1p_dgk_54b" irina="irina">
             <p id="p_l1p_dgk_54b"><b>Split Element</b> - If the cursor is positioned somewhere
               inside the element, the first entry is a <uicontrol>Split &lt;Element></uicontrol>
               item. In most cases, you can only split the closest <xref
@@ -72,7 +72,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_o1p_dgk_54b">
+          <li id="li_o1p_dgk_54b" irina="irina">
             <p id="p_p1p_dgk_54b"><b>New Line</b> - If the cursor is positioned inside a <xref
                 keyref="glossentry_space-preserved-element"><term>space-preserved
                 element</term></xref> (for example, a <xmlelement>codeblock</xmlelement>), the first
@@ -85,7 +85,7 @@
               </fig>
             </p>
           </li>
-          <li id="li_mqd_ksv_nxb">
+          <li id="li_mqd_ksv_nxb" irina="irina">
             <p id="p_q5h_2vv_nxb"><b>Multi-element Insertions</b> - Some element proposals require
               additional items to be inserted to make the structure valid. In some cases, the
               additional items are inserted automatically. In some cases, the element proposal will

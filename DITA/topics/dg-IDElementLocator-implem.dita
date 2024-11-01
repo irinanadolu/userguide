@@ -14,8 +14,8 @@
       matches the link, it considers the element found if one of the following conditions is
       satisfied:</p>
     <ul id="ul_tmb_dgk_54b">
-      <li id="li_umb_dgk_54b">The qualified name of the attribute is <codeph>xml:id</codeph>.</li>
-      <li id="li_vmb_dgk_54b">The attribute type is ID.</li>
+      <li id="li_umb_dgk_54b" irina="irina">The qualified name of the attribute is <codeph>xml:id</codeph>.</li>
+      <li id="li_vmb_dgk_54b" irina="irina">The attribute type is ID.</li>
     </ul>
     <p id="p_wmb_dgk_54b">The attribute type is checked with the help of the method
       <i>IDTypeVerifier.hasIDType</i>.</p>

@@ -32,7 +32,7 @@
           href="https://json-schema.org/understanding-json-schema/structuring.html" format="html"
           scope="external">Understanding JSON Schema: Structuring a complex schema</xref>.</p>
       <ul id="ol_nss_vmq_pyb">
-        <li><b>Defining Reusable Schemas</b> - You can define reusable schema components using the
+        <li irina="irina"><b>Defining Reusable Schemas</b> - You can define reusable schema components using the
             <codeph>definitions</codeph> (or <codeph>$defs</codeph> for latest drafts) keyword.
           These definitions act as named schemas that you can reference using <codeph>$ref</codeph>
           (or <codeph>$dynamicRef</codeph>).
@@ -48,7 +48,7 @@
   }
 }
 (my_schema.json)</codeblock></li>
-        <li><b>Referencing a Schema</b> - To reference a schema defined in a definitions block, use
+        <li irina="irina"><b>Referencing a Schema</b> - To reference a schema defined in a definitions block, use
           the <codeph>$ref</codeph> keyword followed by the JSON Pointer of the
             definition.<codeblock id="pre_yss_vmq_pyb" outputclass="language-json">{
   ...
@@ -60,7 +60,7 @@
 }</codeblock><p>In this example, both <codeph>"person1"</codeph> and
               <codeph>"person2"</codeph> properties refer to the <codeph>"person"</codeph> schema
             defined in <codeph>$defs</codeph>.</p></li>
-        <li><b>External References</b> - You can also reference schemas from external files using
+        <li irina="irina"><b>External References</b> - You can also reference schemas from external files using
           their URI. This can be useful when you have multiple schema
             files.<codeblock id="pre_ets_vmq_pyb" outputclass="language-json">{
   "$ref": "my_schema.json#/$defs/person"
@@ -87,7 +87,7 @@
             <note id="note_h3g_h45_pyb"><ph keyref="product"/> allows <codeph>$id</codeph> only as
               an URI fragment, not as a relative pointer.</note>
           </p></li>
-        <li><b>Combining References with Other Keywords</b> - You can use <codeph>$ref</codeph> in
+        <li irina="irina"><b>Combining References with Other Keywords</b> - You can use <codeph>$ref</codeph> in
           combination with other keywords. For instance, you might reference a schema within the
             <codeph>items</codeph> keyword to define an array of a specific
             type:<codeblock id="pre_ogx_p1r_pyb" outputclass="language-json">{

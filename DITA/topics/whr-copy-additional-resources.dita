@@ -21,10 +21,10 @@
         Template</title>
       <p id="p_z44_cgk_54b">
         <ol id="ol_ap4_cgk_54b">
-          <li id="li_bp4_cgk_54b">If you have not already created a Publishing Template, see <xref
+          <li id="li_bp4_cgk_54b" irina="irina">If you have not already created a Publishing Template, see <xref
               href="whr-create-publishing-template.dita">How to Create a Publishing
             Template</xref>.</li>
-          <li id="li_cp4_cgk_54b">Add a new <xmlelement>fileset</xmlelement> element in the <xref
+          <li id="li_cp4_cgk_54b" irina="irina">Add a new <xmlelement>fileset</xmlelement> element in the <xref
               href="whr_publishing_template_contents.dita#template_resources">resources section of
               the template descriptor
               file</xref>.<codeblock outputclass="language-xml" id="codeblock_dp4_cgk_54b">&lt;publishing-template>
@@ -37,12 +37,12 @@
                 &lt;exclude name="**/*.git"/>
             &lt;/fileset></codeblock><note id="note_ep4_cgk_54b">Relative paths in the descriptor file are
               relative to the template root folder.</note></li>
-          <li id="li_fp4_cgk_54b">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
-          <li id="li_gp4_cgk_54b">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
+          <li id="li_fp4_cgk_54b" irina="irina">Open the <term>DITA Map WebHelp Responsive</term> transformation scenario.</li>
+          <li id="li_gp4_cgk_54b" irina="irina">Click the <uicontrol>Choose Custom Publishing Template</uicontrol> link and select
             your template.</li>
-          <li id="li_hp4_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
+          <li id="li_hp4_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
             scenario.</li>
-          <li id="li_ip4_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_ip4_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol>
       </p>
       <p id="p_jp4_cgk_54b"><b>Results:</b> All files from the custom resources directory will be copied to the
@@ -54,14 +54,14 @@
         Parameter</title>
       <p id="p_kp4_cgk_54b">
         <ol id="ol_lp4_cgk_54b">
-          <li id="li_mp4_cgk_54b">Place all your resources in the same directory.</li>
-          <li id="li_np4_cgk_54b">Edit the <term>DITA Map WebHelp Responsive</term> transformation scenario and open the
+          <li id="li_mp4_cgk_54b" irina="irina">Place all your resources in the same directory.</li>
+          <li id="li_np4_cgk_54b" irina="irina">Edit the <term>DITA Map WebHelp Responsive</term> transformation scenario and open the
               <uicontrol>Parameters</uicontrol> tab.</li>
-          <li id="li_op4_cgk_54b">Edit the value of the <codeph>webhelp.custom.resources</codeph> parameter and set it
+          <li id="li_op4_cgk_54b" irina="irina">Edit the value of the <codeph>webhelp.custom.resources</codeph> parameter and set it
             to the absolute path of the directory in step 1.</li>
-          <li id="li_pp4_cgk_54b">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
+          <li id="li_pp4_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save the changes to the transformation
             scenario.</li>
-          <li id="li_qp4_cgk_54b">Run the transformation scenario.</li>
+          <li id="li_qp4_cgk_54b" irina="irina">Run the transformation scenario.</li>
         </ol>
       </p>
       <p id="p_rp4_cgk_54b"><b>Results:</b> All files from the new directory will be copied to the root of the WebHelp

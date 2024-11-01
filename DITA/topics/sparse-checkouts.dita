@@ -16,13 +16,13 @@
         action from the <uicontrol>Working Copy</uicontrol> view</xref>). Each directory then has a
       depth set to it, with four possible values:</p>
     <ul id="ul_m1j_dgk_54b">
-      <li id="li_n1j_dgk_54b"><uicontrol>Recursive (infinity)</uicontrol> - Updates all descendant directories and files
+      <li id="li_n1j_dgk_54b" irina="irina"><uicontrol>Recursive (infinity)</uicontrol> - Updates all descendant directories and files
         recursively.</li>
-      <li id="li_o1j_dgk_54b"><uicontrol>Immediate children (immediates)</uicontrol> - Updates the directory, including
+      <li id="li_o1j_dgk_54b" irina="irina"><uicontrol>Immediate children (immediates)</uicontrol> - Updates the directory, including
         direct child directories and files, but does not populate the child directories.</li>
-      <li id="li_p1j_dgk_54b"><uicontrol>File children only (files)</uicontrol> - Updates the directory, including only
+      <li id="li_p1j_dgk_54b" irina="irina"><uicontrol>File children only (files)</uicontrol> - Updates the directory, including only
         child files without the child directories.</li>
-      <li id="li_q1j_dgk_54b"><uicontrol>This folder only (empty)</uicontrol> - Updates only the selected directory,
+      <li id="li_q1j_dgk_54b" irina="irina"><uicontrol>This folder only (empty)</uicontrol> - Updates only the selected directory,
         without updating any children.</li>
     </ul>
     <p id="p_r1j_dgk_54b">For some operations, you can use as depth the current depth registered on the directories
@@ -33,15 +33,15 @@
           Copy</uicontrol> view</xref> with a marker corresponding to each depth value, in the top
       left corner, as follows: </p>
     <ul id="ul_t1j_dgk_54b">
-      <li id="li_u1j_dgk_54b"><uicontrol><image href="../img/SVNDepthInfinity16.png" id="image_ikw_1np_5r"/>Recursive
+      <li id="li_u1j_dgk_54b" irina="irina"><uicontrol><image href="../img/SVNDepthInfinity16.png" id="image_ikw_1np_5r"/>Recursive
           (infinity)</uicontrol> - This is the default value and it is has no mark. The directory
         has no limiting depth.</li>
-      <li id="li_v1j_dgk_54b"><uicontrol><image href="../img/SVNDepthImmediates16.png" id="image_npp_cnp_5r"/>Immediate
+      <li id="li_v1j_dgk_54b" irina="irina"><uicontrol><image href="../img/SVNDepthImmediates16.png" id="image_npp_cnp_5r"/>Immediate
           children (immediates)</uicontrol> - The directory is limited to direct child directories
         (without contents) and files.</li>
-      <li id="li_w1j_dgk_54b"><uicontrol><image href="../img/SVNDepthFiles16.png" id="image_ckd_cnp_5r"/>File children
+      <li id="li_w1j_dgk_54b" irina="irina"><uicontrol><image href="../img/SVNDepthFiles16.png" id="image_ckd_cnp_5r"/>File children
           only (files)</uicontrol> - The directory is limited to direct child files only.</li>
-      <li id="li_x1j_dgk_54b"><uicontrol><image href="../img/SVNDepthEmpty16.png" id="image_emq_bnp_5r"/>This folder
+      <li id="li_x1j_dgk_54b" irina="irina"><uicontrol><image href="../img/SVNDepthEmpty16.png" id="image_emq_bnp_5r"/>This folder
           only (empty)</uicontrol> - The directory has <i>empty</i> depth set.</li>
     </ul>
     <p id="p_y1j_dgk_54b">A depth set on a directory means that some operations process only items within the specified

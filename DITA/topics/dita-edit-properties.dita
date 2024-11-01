@@ -208,7 +208,7 @@
       <p id="p_h5l_dgk_54b">The <uicontrol>Profiling</uicontrol> tab allows you to select or change profiling
         attributes for the selected target nodes. This tab displays profiling attributes and their
         values as determined by the following:<ul conkeyref="reusables-author-for-dita/profiling-ul" id="ul_i5l_dgk_54b">
-          <li id="li_j5l_dgk_54b"/>
+          <li id="li_j5l_dgk_54b" irina="irina"/>
         </ul></p>
       <p id="p_k5l_dgk_54b">If you have a large list of profiling attributes, you can use the text filter field to
         search for attributes or values, and you can expand or collapse attributes by using the
@@ -221,8 +221,8 @@
         for the same profiling attribute, a conflict panel will be displayed in the
           <uicontrol>Profiling</uicontrol> tab and you can choose between the following actions for
         resolving it:<ul id="ul_n5l_dgk_54b">
-          <li id="li_o5l_dgk_54b"><uicontrol>Keep</uicontrol> - Preserves the current attribute values.</li>
-          <li id="li_p5l_dgk_54b"><uicontrol>Change Now</uicontrol> - Allows you to edit the selection of values in this
+          <li id="li_o5l_dgk_54b" irina="irina"><uicontrol>Keep</uicontrol> - Preserves the current attribute values.</li>
+          <li id="li_p5l_dgk_54b" irina="irina"><uicontrol>Change Now</uicontrol> - Allows you to edit the selection of values in this
               <uicontrol>Profiling</uicontrol> tab and the changes will be applied to all the
             selected nodes.</li>
         </ul><p id="p_q5l_dgk_54b">

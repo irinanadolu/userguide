@@ -27,12 +27,12 @@
       module as the main schema.</p>
     <p id="p_qnc_cgk_54b">The advantages of editing in the context of a <xref keyref="glossentry_main-file"
           ><term>main file</term></xref> include:<ul id="ul_rnc_cgk_54b">
-        <li id="li_snc_cgk_54b">Correct validation of a module in the context of a larger schema structure.</li>
-        <li id="li_tnc_cgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_snc_cgk_54b" irina="irina">Correct validation of a module in the context of a larger schema structure.</li>
+        <li id="li_tnc_cgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all the referable components valid in the current
           context. This include components defined in modules other than the currently edited
           one.</li>
-        <li id="li_unc_cgk_54b">The <xref href="xml-schema-diagram-outline-view.dita#xml-schema-diagram-outline-view"
+        <li id="li_unc_cgk_54b" irina="irina">The <xref href="xml-schema-diagram-outline-view.dita#xml-schema-diagram-outline-view"
               ><uicontrol>Outline</uicontrol> view</xref> displays the components collected from the
           entire schema structure.</li>
       </ul></p>

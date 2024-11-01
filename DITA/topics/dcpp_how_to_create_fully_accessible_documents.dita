@@ -14,7 +14,7 @@
     <body>
         <p id="p_cnt_cgk_54b">To make your documents fully accessible (<b>PDF/UA1</b> compliant), do
       the following:<ol id="ol_nhd_nl4_vcb">
-        <li id="li_dnt_cgk_54b">The accessibility standard requires that all the fonts be embedded
+        <li id="li_dnt_cgk_54b" irina="irina">The accessibility standard requires that all the fonts be embedded
           in the PDF. To force font embedding, you have to specify fonts for all elements and for
           all page margin boxes in your <xref href="dcpp_the_customization_css.dita">customization
             CSS</xref>. For instance, you can
@@ -33,12 +33,12 @@
     @bottom-left-corner {font-family: Arial }
     @bottom-right-corner {font-family: Arial }
 }</codeblock></li>
-        <li id="li_fnt_cgk_54b">Create a new transformation scenario (based on the <uicontrol
+        <li id="li_fnt_cgk_54b" irina="irina">Create a new transformation scenario (based on the <uicontrol
             keyref="pdf-html5-transformation"/> or the <uicontrol
             keyref="single-topic-pdf-html5-transformation"/> built-in scenario).</li>
-        <li id="li_gnt_cgk_54b">In the <uicontrol>Parameters</uicontrol> tab, change the value of
+        <li id="li_gnt_cgk_54b" irina="irina">In the <uicontrol>Parameters</uicontrol> tab, change the value of
           the <codeph>pdf.accessibility</codeph> parameter to <b>yes</b>.</li>
-        <li>Run the transformation.</li>
+        <li irina="irina">Run the transformation.</li>
       </ol></p>
     </body>
 </topic>

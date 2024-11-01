@@ -18,8 +18,8 @@
       <p id="p_yr3_cgk_54b">A file is considered to be a <i>DocBook 4</i> document when one of the following conditions
         are true:</p>
       <ul id="ul_zr3_cgk_54b">
-        <li id="li_as3_cgk_54b">The root element name is <xmlelement>book</xmlelement> or <xmlelement>article</xmlelement>.</li>
-        <li id="li_bs3_cgk_54b">The PUBLIC ID of the document contains the string <codeph>-//OASIS//DTD DocBook
+        <li id="li_as3_cgk_54b" irina="irina">The root element name is <xmlelement>book</xmlelement> or <xmlelement>article</xmlelement>.</li>
+        <li id="li_bs3_cgk_54b" irina="irina">The PUBLIC ID of the document contains the string <codeph>-//OASIS//DTD DocBook
             XML</codeph>.</li>
       </ul>
     </section>
@@ -76,10 +76,10 @@
       <title>Resources</title>
       <p id="p_ks3_cgk_54b">
         <ul id="ul_ls3_cgk_54b">
-          <li id="li_ms3_cgk_54b"><xref href="https://www.oxygenxml.com/demo/DocBook_Editing_Support.html"
+          <li id="li_ms3_cgk_54b" irina="irina"><xref href="https://www.oxygenxml.com/demo/DocBook_Editing_Support.html"
               format="html" scope="external" product="author editor authorEclipse editorEclipse"
               >Oxygen Video Tutorial: Editing DocBook Documents in Author Mode</xref></li>
-          <li id="li_ns3_cgk_54b"><xref href="http://docbook.org/specs/" format="html" scope="external">DocBook
+          <li id="li_ns3_cgk_54b" irina="irina"><xref href="http://docbook.org/specs/" format="html" scope="external">DocBook
               Specifications</xref></li>
         </ul>
       </p>

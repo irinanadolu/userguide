@@ -31,20 +31,20 @@
         </info>
         <info>
           <ul id="ul_w4b_dgk_54b">
-            <li id="li_x4b_dgk_54b">The <i>doOperation</i> method is invoked when the action is performed either by
+            <li id="li_x4b_dgk_54b" irina="irina">The <i>doOperation</i> method is invoked when the action is performed either by
               pressing the toolbar button, by selecting the menu item or by pressing the shortcut
               key. The arguments taken by this method can be one of the following combinations:<ul
                 id="ul_862c9c72-a0e6-40fb-8d87-f7249f5e999a">
-                <li id="li_y4b_dgk_54b">An object of type <xref
+                <li id="li_y4b_dgk_54b" irina="irina">An object of type <xref
                     href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/ecss/extensions/api/AuthorAccess.html"
                     format="html" scope="external"
                     ><i>ro.sync.ecss.extensions.api.AuthorAccess</i></xref> and a map.</li>
-                <li id="li_z4b_dgk_54b">Argument names and values.</li>
+                <li id="li_z4b_dgk_54b" irina="irina">Argument names and values.</li>
               </ul></li>
-            <li id="li_apb_dgk_54b">The <i>getArguments</i> method is used by <ph keyref="product"/> when the action is
+            <li id="li_apb_dgk_54b" irina="irina">The <i>getArguments</i> method is used by <ph keyref="product"/> when the action is
               configured. It returns the list of arguments (name and type) that are accepted by the
               operation.</li>
-            <li id="li_bpb_dgk_54b">The <i>getDescription</i> method is used by <ph keyref="product"/> when the
+            <li id="li_bpb_dgk_54b" irina="irina">The <i>getDescription</i> method is used by <ph keyref="product"/> when the
               operation is configured. It returns a description of the operation.</li>
           </ul>
           <p id="p_cpb_dgk_54b"><b><u>Example:</u></b></p>
@@ -147,12 +147,12 @@ public String getDescription() {
         <cmd>Define the action's properties:</cmd>
         <info>
           <ul id="ul_kpb_dgk_54b">
-            <li id="li_lpb_dgk_54b">Set <b>ID</b> to <b>insert_image</b>.</li>
-            <li id="li_mpb_dgk_54b">Set <b>Name</b> to <b>Insert image</b>.</li>
-            <li id="li_npb_dgk_54b">Set <b>Menu access key</b> to letter <b>i</b>.</li>
-            <li id="li_opb_dgk_54b">Set <b>Toolbar action</b> to <b>${framework}/toolbarImage.png</b>.</li>
-            <li id="li_ppb_dgk_54b">Set <b>Menu icon</b> to <b>${framework}/menuImage.png</b>.</li>
-            <li id="li_qpb_dgk_54b">Set <b>Shortcut key</b> to <b>Ctrl (Meta on macOS)+Shift+i</b>.</li>
+            <li id="li_lpb_dgk_54b" irina="irina">Set <b>ID</b> to <b>insert_image</b>.</li>
+            <li id="li_mpb_dgk_54b" irina="irina">Set <b>Name</b> to <b>Insert image</b>.</li>
+            <li id="li_npb_dgk_54b" irina="irina">Set <b>Menu access key</b> to letter <b>i</b>.</li>
+            <li id="li_opb_dgk_54b" irina="irina">Set <b>Toolbar action</b> to <b>${framework}/toolbarImage.png</b>.</li>
+            <li id="li_ppb_dgk_54b" irina="irina">Set <b>Menu icon</b> to <b>${framework}/menuImage.png</b>.</li>
+            <li id="li_qpb_dgk_54b" irina="irina">Set <b>Shortcut key</b> to <b>Ctrl (Meta on macOS)+Shift+i</b>.</li>
           </ul>
         </info>
       </step>
@@ -161,10 +161,10 @@ public String getDescription() {
           <xmlelement>section</xmlelement>, <xmlelement>book</xmlelement> or <xmlelement>article</xmlelement>.</cmd>
         <info>
           <ul id="ul_rpb_dgk_54b">
-            <li id="li_spb_dgk_54b">Set the value of <b>XPath expression</b> to
+            <li id="li_spb_dgk_54b" irina="irina">Set the value of <b>XPath expression</b> to
               <codeblock outputclass="language-ini" id="codeblock_tpb_dgk_54b">local-name()='section' or local-name()='book' 
  or local-name()='article'</codeblock></li>
-            <li id="li_upb_dgk_54b">Set the <b>Invoke operation</b> field to
+            <li id="li_upb_dgk_54b" irina="irina">Set the <b>Invoke operation</b> field to
                 <i>simple.documentation.framework.InsertImageOperation</i>.</li>
           </ul>
         </info>

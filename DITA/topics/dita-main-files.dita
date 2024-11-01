@@ -39,16 +39,16 @@
       <title>How to Enable Main Files Support in DITA</title>
       <p product="authorEclipse editorEclipse" id="p_r5n_dgk_54b">To use the <term>Main Files</term> support in DITA,
         follow these steps:<ol id="ol_s5n_dgk_54b">
-          <li id="li_t5n_dgk_54b">Go to the <xref href="using-the-project-view.dita#using-the-project-view"
+          <li id="li_t5n_dgk_54b" irina="irina">Go to the <xref href="using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project Explorer</uicontrol> view</xref> and select <uicontrol>Enable
               Main Files Support</uicontrol> from the contextual menu of the project root
             folder.</li>
-          <li id="li_u5n_dgk_54b">Add the <xref keyref="glossentry_root-map">main DITA map (<term>root
+          <li id="li_u5n_dgk_54b" irina="irina">Add the <xref keyref="glossentry_root-map">main DITA map (<term>root
               map</term>)</xref> to the Main Files folder by doing one of the following:<ul id="ul_v5n_dgk_54b">
-              <li id="li_w5n_dgk_54b">Right-click the project root folder or the <i>Main Files</i> folder and select
+              <li id="li_w5n_dgk_54b" irina="irina">Right-click the project root folder or the <i>Main Files</i> folder and select
                     <uicontrol><image href="../img/DetectMasterFiles16.png"/>Detect Main Files from
                   Project</uicontrol>.</li>
-              <li id="li_x5n_dgk_54b">Manually add the <xref keyref="glossentry_root-map"><term>root map</term></xref>
+              <li id="li_x5n_dgk_54b" irina="irina">Manually add the <xref keyref="glossentry_root-map"><term>root map</term></xref>
                 to the <i>Main Files</i> folder by right-clicking a file from your project and
                 selecting <uicontrol><image href="../img/AddToMasterFiles16.png"/>Add to Main
                   Files</uicontrol> from the contextual menu (or simply drag and drop it into the
@@ -57,7 +57,7 @@
               of them will automatically be added to the list of root maps you can select from the
                 <xref href="dita-maps-manager.dita#dita-maps-manager/root-map">drop-down menu in the
                   <b>DITA Maps Manager</b> toolbar</xref>.</note></li>
-          <li id="li_z5n_dgk_54b">[Alternative] If you have a defined <xref
+          <li id="li_z5n_dgk_54b" irina="irina">[Alternative] If you have a defined <xref
               href="dita_open_toolkit_project.dita#dita_open_toolkit_project_main">DITA Open
               Toolkit project XML file</xref> you can add it to the <i>Main Files</i> folder. Once
             you do that the application will know the dependencies between all resources directly
@@ -66,16 +66,16 @@
         </ol>
       </p>
       <p product="author editor" id="p_avn_dgk_54b">To use the <term>Main Files</term> support in DITA, follow these steps:<ol id="ol_bvn_dgk_54b">
-          <li id="li_cvn_dgk_54b">Go to the <xref href="../topics/using-the-project-view.dita#using-the-project-view"
+          <li id="li_cvn_dgk_54b" irina="irina">Go to the <xref href="../topics/using-the-project-view.dita#using-the-project-view"
                 ><uicontrol>Project</uicontrol> view</xref> and enable <term>Main Files</term>
             support with one of the following methods:<ul id="ul_dvn_dgk_54b">
-              <li id="li_evn_dgk_54b">Select <uicontrol>Enable Main Files Support</uicontrol> from the <uicontrol><image
+              <li id="li_evn_dgk_54b" irina="irina">Select <uicontrol>Enable Main Files Support</uicontrol> from the <uicontrol><image
                     href="../img/Settings16.png"/>Settings</uicontrol> menu in the top-right
                 corner.</li>
-              <li id="li_fvn_dgk_54b">Select <uicontrol>Enable Main Files Support</uicontrol> from the contextual menu
+              <li id="li_fvn_dgk_54b" irina="irina">Select <uicontrol>Enable Main Files Support</uicontrol> from the contextual menu
                 of the project root folder. If a disabled <term>Main Files</term> folder exists, you
                 can also select that option from its contextual menu.</li>
-              <li id="enable-main-files-dialog">Click the <uicontrol>Enable</uicontrol> button in
+              <li id="enable-main-files-dialog" irina="irina">Click the <uicontrol>Enable</uicontrol> button in
                 the tooltip located at the bottom. This tooltip window is displayed when the
                   <term>Main Files</term> support is disabled. Clicking the <uicontrol>Read
                   more</uicontrol> link takes you to the user guide. Clicking the
@@ -88,24 +88,24 @@
                       keyref="product"/> to its default settings</xref>. However, doing so will
                   result in you losing your customized options.</note></li>
             </ul></li>
-          <li id="li_hvn_dgk_54b">Add the <xref keyref="glossentry_root-map">main DITA map (<term>root
+          <li id="li_hvn_dgk_54b" irina="irina">Add the <xref keyref="glossentry_root-map">main DITA map (<term>root
               map</term>)</xref> to the Main Files folder by doing one of the following:<ul id="ul_ivn_dgk_54b">
-              <li id="li_jvn_dgk_54b">Right-click the project root folder and select <uicontrol><image
+              <li id="li_jvn_dgk_54b" irina="irina">Right-click the project root folder and select <uicontrol><image
                     href="../img/DetectMasterFiles16.png"/>Detect Main Files</uicontrol>.</li>
-              <li id="li_kvn_dgk_54b">Right-click the <i>Main Files</i> folder and select <uicontrol><image
+              <li id="li_kvn_dgk_54b" irina="irina">Right-click the <i>Main Files</i> folder and select <uicontrol><image
                     href="../img/DetectMasterFiles16.png"/>Detect Main Files from
                   Project</uicontrol>.</li>
-              <li id="li_lvn_dgk_54b">If you enabled the <term>Main Files</term> support from the tooltip at the bottom
+              <li id="li_lvn_dgk_54b" irina="irina">If you enabled the <term>Main Files</term> support from the tooltip at the bottom
                 of the <uicontrol>Project</uicontrol> view, you can also use the <uicontrol>Detect
                   and Enable</uicontrol> button in the resulting dialog box to detect the <term>main
                   files</term> from the current project.</li>
-              <li id="li_mvn_dgk_54b">Manually add the <xref keyref="glossentry_root-map"><term>root map</term></xref>
+              <li id="li_mvn_dgk_54b" irina="irina">Manually add the <xref keyref="glossentry_root-map"><term>root map</term></xref>
                 to the <i>Main Files</i> folder by doing one of the following:<ul id="ul_nvn_dgk_54b">
-                  <li id="li_ovn_dgk_54b">Right-click a file from your project and select <uicontrol><image
+                  <li id="li_ovn_dgk_54b" irina="irina">Right-click a file from your project and select <uicontrol><image
                         href="../img/AddToMasterFiles16.png"/>Add to Main Files</uicontrol> from the
                     contextual menu (or simply drag and drop it into the <i>Main Files</i>
                     folder).</li>
-                  <li id="li_pvn_dgk_54b">Select <uicontrol><image href="../img/AddFiles16.png"/>Add Files</uicontrol>
+                  <li id="li_pvn_dgk_54b" irina="irina">Select <uicontrol><image href="../img/AddFiles16.png"/>Add Files</uicontrol>
                     or <uicontrol><image href="../img/AddSelectedFile16.png"/>Add Edited
                       File</uicontrol> from the contextual menu of the <i>Main Files</i>
                     folder.</li>
@@ -114,7 +114,7 @@
               of them will automatically be added to the list of root maps you can select from the
                 <xref href="dita-maps-manager.dita#dita-maps-manager/root-map">drop-down menu in the
                   <b>DITA Maps Manager</b> toolbar</xref>.</note></li>
-          <li id="li_rvn_dgk_54b">[Alternative] If you have a defined <xref
+          <li id="li_rvn_dgk_54b" irina="irina">[Alternative] If you have a defined <xref
               href="dita_open_toolkit_project.dita#dita_open_toolkit_project_main">DITA Open
               Toolkit project XML file</xref> you can add it to the <i>Main Files</i> folder. Once
             you do that the application will know the dependencies between all resources directly
@@ -135,12 +135,12 @@
           keyref="glossentry_root-map"><term>main DITA map (root map)</term></xref>).</p>
       <p id="p_tvn_dgk_54b">To move or rename non-DITA resources (or move multiple DITA resources) and update the
         references to them, follow these steps:<ol id="ol_uvn_dgk_54b">
-          <li id="li_vvn_dgk_54b">Enable <term>Main Files</term> support and add your <xref keyref="glossentry_root-map"
+          <li id="li_vvn_dgk_54b" irina="irina">Enable <term>Main Files</term> support and add your <xref keyref="glossentry_root-map"
                 ><term>root DITA map</term></xref> to the <term>Main Files</term> folder as
             described in the <xref
               href="#dita-main-files/how_to_enable_main_files_support_in_dita" format="dita"/>
             section above.</li>
-          <li id="li_wvn_dgk_54b">
+          <li id="li_wvn_dgk_54b" irina="irina">
             <p id="p_xvn_dgk_54b">Go to the <xref href="using-the-project-view.dita#using-the-project-view"><uicontrol
                   product="author editor">Project</uicontrol><uicontrol
                   product="authorEclipse editorEclipse">Project Explorer</uicontrol> view</xref>,
@@ -155,12 +155,12 @@
                           product="author editor">Project</uicontrol><uicontrol
                           product="authorEclipse editorEclipse">Project Explorer</uicontrol>
                         view</xref>, do one of the following:<ul id="ul_ed3_22y_w3b">
-                        <li id="li_cwn_dgk_54b">Simply drag and drop the resource to the new location in the tree
+                        <li id="li_cwn_dgk_54b" irina="irina">Simply drag and drop the resource to the new location in the tree
                             structure<ph product="author editor"> (the <uicontrol>Enable
                               drag-and-drop in Project view</uicontrol> option must be selected in
                             the <xref href="preferences-view.dita#preferences-view"
                                 ><uicontrol>View</uicontrol> preferences page</xref>)</ph>.</li>
-                        <li id="li_dwn_dgk_54b">Use the <ph product="author editor"><uicontrol><image
+                        <li id="li_dwn_dgk_54b" irina="irina">Use the <ph product="author editor"><uicontrol><image
                                 href="../img/Cut16.png" id="image_id3_22y_w3b"/>Cut</uicontrol>,
                                 <uicontrol><image href="../img/Copy16.png" id="image_jd3_22y_w3b"
                               />Copy</uicontrol>, and <uicontrol><image href="../img/Paste16.png"
@@ -170,7 +170,7 @@
                               />Copy</uicontrol> and <uicontrol><image href="../img/Paste16.png"
                                 id="image_md3_22y_w3b"/>Paste</uicontrol> actions)</ph> from the
                           contextual menu.</li>
-                        <li id="li_ewn_dgk_54b">Right-click the resource and select <menucascade>
+                        <li id="li_ewn_dgk_54b" irina="irina">Right-click the resource and select <menucascade>
                             <uicontrol>Refactoring</uicontrol>
                             <uicontrol>Move resource</uicontrol>
                           </menucascade> action from the contextual menu. Note that this method also
@@ -189,10 +189,10 @@
                           product="author editor">Project</uicontrol><uicontrol
                           product="authorEclipse editorEclipse">Project Explorer</uicontrol>
                         view</xref>, do one of the following:<ul id="ul_npz_22y_w3b">
-                        <li id="li_iwn_dgk_54b">Select the resource and press <uicontrol
+                        <li id="li_iwn_dgk_54b" irina="irina">Select the resource and press <uicontrol
                             conkeyref="reusable-oxygen-shortcuts-list/f2"/>, or simply left-click
                           again, until the in-place editor allows you to change the file name.</li>
-                        <li id="li_jwn_dgk_54b">Right-click the resource and select <uicontrol>Rename</uicontrol> or <menucascade>
+                        <li id="li_jwn_dgk_54b" irina="irina">Right-click the resource and select <uicontrol>Rename</uicontrol> or <menucascade>
                             <uicontrol>Refactoring</uicontrol>
                             <uicontrol>Rename resource </uicontrol>
                           </menucascade>.</li>
@@ -204,7 +204,7 @@
               </dl>
             </p>
           </li>
-          <li id="li_lwn_dgk_54b"> Make sure the <uicontrol>Update references of the moved resource(s)</uicontrol>
+          <li id="li_lwn_dgk_54b" irina="irina"> Make sure the <uicontrol>Update references of the moved resource(s)</uicontrol>
             option is selected in the resulting <uicontrol>Move</uicontrol> or
               <uicontrol>Rename</uicontrol> dialog box and keep the scope as <b>main files</b> to
             make sure all the references to the moved or renamed resource are updated.</li>

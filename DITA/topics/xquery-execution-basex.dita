@@ -35,10 +35,10 @@
       <p id="p_ndy_cgk_54b">For a default BaseX configuration, the following connection details apply (you can modify
         them when necessary): </p>
       <ul id="ul_hxs_mh5_z3">
-        <li id="li_ody_cgk_54b"><b>Port</b>: 1984 </li>
-        <li id="li_pdy_cgk_54b"><b>serverName</b>: localhost </li>
-        <li id="li_qdy_cgk_54b"><b>user</b>: admin </li>
-        <li id="li_rdy_cgk_54b"><b>password</b>: admin </li>
+        <li id="li_ody_cgk_54b" irina="irina"><b>Port</b>: 1984 </li>
+        <li id="li_pdy_cgk_54b" irina="irina"><b>serverName</b>: localhost </li>
+        <li id="li_qdy_cgk_54b" irina="irina"><b>user</b>: admin </li>
+        <li id="li_rdy_cgk_54b" irina="irina"><b>password</b>: admin </li>
       </ul>
     </section>
     <section id="xquery_execution">

@@ -21,33 +21,33 @@
       <title>Well-Formedness Rules</title>
       <p id="p_ucz_bgk_54b">The XML Syntax rules for <i>Well-formed XML</i> include:</p>
       <ul id="ul_vcz_bgk_54b">
-        <li id="li_wcz_bgk_54b">All XML elements must have a closing tag.</li>
-        <li id="li_xcz_bgk_54b">XML tags are case-sensitive.</li>
-        <li id="li_ycz_bgk_54b">All XML elements must be properly nested.</li>
-        <li id="li_zcz_bgk_54b">All XML documents must have a root element.</li>
-        <li id="li_adz_bgk_54b">Attribute values must always be quoted.</li>
-        <li id="li_bdz_bgk_54b">With XML, whitespace is preserved.</li>
+        <li id="li_wcz_bgk_54b" irina="irina">All XML elements must have a closing tag.</li>
+        <li id="li_xcz_bgk_54b" irina="irina">XML tags are case-sensitive.</li>
+        <li id="li_ycz_bgk_54b" irina="irina">All XML elements must be properly nested.</li>
+        <li id="li_zcz_bgk_54b" irina="irina">All XML documents must have a root element.</li>
+        <li id="li_adz_bgk_54b" irina="irina">Attribute values must always be quoted.</li>
+        <li id="li_bdz_bgk_54b" irina="irina">With XML, whitespace is preserved.</li>
       </ul>
       <p id="p_cdz_bgk_54b">The <i>Namespace-wellformed</i> rules include:</p>
       <ul id="ul_ddz_bgk_54b">
-        <li id="li_edz_bgk_54b">All element and attribute names contain either zero or one colon.</li>
-        <li id="li_fdz_bgk_54b">No entity names, processing instruction targets, or notation names contain any
+        <li id="li_edz_bgk_54b" irina="irina">All element and attribute names contain either zero or one colon.</li>
+        <li id="li_fdz_bgk_54b" irina="irina">No entity names, processing instruction targets, or notation names contain any
           colons.</li>
       </ul>
       <p id="p_gdz_bgk_54b">The <i>Namespace-valid</i> rules include:</p>
       <ul id="ul_hdz_bgk_54b">
-        <li id="li_idz_bgk_54b">The <i>xml</i> prefix is by definition bound to the namespace name:
+        <li id="li_idz_bgk_54b" irina="irina">The <i>xml</i> prefix is by definition bound to the namespace name:
             <i>http://www.w3.org/XML/1998/namespace</i>. It MAY be declared, but MUST NOT be
           undeclared or bound to any other namespace name. Other prefixes MUST NOT be bound to this
           namespace name.</li>
-        <li id="li_jdz_bgk_54b">The <i>xmlns</i> prefix is used only to declare namespace bindings and is by definition
+        <li id="li_jdz_bgk_54b" irina="irina">The <i>xmlns</i> prefix is used only to declare namespace bindings and is by definition
           bound to the namespace name: <i>http://www.w3.org/2000/xmlns/</i>. It MUST NOT be declared
           or undeclared. Other prefixes MUST NOT be bound to this namespace name.</li>
-        <li id="li_kdz_bgk_54b">All other prefixes beginning with the three-letter sequence <i>x</i>, <i>m</i>,
+        <li id="li_kdz_bgk_54b" irina="irina">All other prefixes beginning with the three-letter sequence <i>x</i>, <i>m</i>,
           <i>l</i>, in any case combination, are reserved. This means that users SHOULD NOT use them
           except as defined by later specifications and processors MUST NOT treat them as fatal
           errors.</li>
-        <li id="li_ldz_bgk_54b">The namespace prefix (unless it is <i>xml</i> or <i>xmlns</i>) MUST have been declared
+        <li id="li_ldz_bgk_54b" irina="irina">The namespace prefix (unless it is <i>xml</i> or <i>xmlns</i>) MUST have been declared
           in a namespace declaration attribute in either the start tag of the element where the
           prefix is used or in an ancestor element (for example, an element in whose content the
           prefixed markup occurs). Furthermore, the attribute value in the innermost such
@@ -57,7 +57,7 @@
     <section id="check_for_wellformedness">
       <title>Check for Well-Formedness</title>
       <p id="p_mdz_bgk_54b">To check if a document is <i>Namespace Well-Formed XML</i> and <i>Namespace-valid</i>:<ul id="ul_ndz_bgk_54b">
-          <li id="li_odz_bgk_54b">Select the <uicontrol><image href="../img/WellFormed16.png"/>Check
+          <li id="li_odz_bgk_54b" irina="irina">Select the <uicontrol><image href="../img/WellFormed16.png"/>Check
               Well-Formedness</uicontrol>
             <uicontrol>(<shortcut conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_w_shortcut"
                 product="author developer editor"/><shortcut
@@ -69,7 +69,7 @@
               <uicontrol>Validate</uicontrol>
             </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
               >XML</uicontrol> menu).</li>
-          <li id="li_pdz_bgk_54b">A selection of files can be checked for well-formedness by selecting the
+          <li id="li_pdz_bgk_54b" irina="irina">A selection of files can be checked for well-formedness by selecting the
                 <uicontrol><image href="../img/WellFormed16.png"/>Check Well-Formedness</uicontrol>
             action from the <uicontrol>Validate</uicontrol> submenu when invoking the contextual
             menu in the <xref href="using-the-project-view.dita" product="author developer editor"

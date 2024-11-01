@@ -73,13 +73,13 @@
               <term>Arialuni</term>) to the <codeph>bodyFont</codeph> and <codeph>sansFont</codeph>
             parameters.</p><p id="p_uyl_cgk_54b"><b><u>DITA Example:</u></b> For DITA to PDF transformations using
             DITA-OT modify the following two files:<ul id="ul_vyl_cgk_54b">
-              <li id="li_wyl_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"
+              <li id="li_wyl_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"
                   />/plugins/org.dita.pdf2/cfg/fo/font-mappings.xml</filepath> - The
                   <xmlelement>font-face</xmlelement> element included in each
                   <xmlelement>physical-font</xmlelement> element that has the
                   <codeph>char-set="default"</codeph> attribute must contain the name of the
                 font.</li>
-              <li id="li_xyl_cgk_54b"><filepath><term keyref="glossentry_dita_ot_dir"
+              <li id="li_xyl_cgk_54b" irina="irina"><filepath><term keyref="glossentry_dita_ot_dir"
                   />/plugins/org.dita.pdf2/fop/conf/fop.xconf</filepath> - A
                   <xmlelement>font</xmlelement> element must be inserted in the
                   <xmlelement>fonts</xmlelement> element, which is inside the

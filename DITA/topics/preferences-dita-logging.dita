@@ -29,13 +29,13 @@
             separate tabs in the message panel at the bottom of the editor if a DITA transformation
             results in errors or warnings. You can choose whether or not to display the following
             types of messages:<ul id="ul_esq_bgk_54b">
-              <li id="li_fsq_bgk_54b">DITA-OT errors</li>
-              <li id="li_gsq_bgk_54b">DITA-OT warnings</li>
-              <li id="li_hsq_bgk_54b">DITA-OT info</li>
-              <li id="li_isq_bgk_54b">FOP errors</li>
-              <li id="li_jsq_bgk_54b">FOP warnings</li>
-              <li id="li_ksq_bgk_54b">FOP info</li>
-              <li id="li_lsq_bgk_54b">XSLT problems</li>
+              <li id="li_fsq_bgk_54b" irina="irina">DITA-OT errors</li>
+              <li id="li_gsq_bgk_54b" irina="irina">DITA-OT warnings</li>
+              <li id="li_hsq_bgk_54b" irina="irina">DITA-OT info</li>
+              <li id="li_isq_bgk_54b" irina="irina">FOP errors</li>
+              <li id="li_jsq_bgk_54b" irina="irina">FOP warnings</li>
+              <li id="li_ksq_bgk_54b" irina="irina">FOP info</li>
+              <li id="li_lsq_bgk_54b" irina="irina">XSLT problems</li>
             </ul></dd>
         </dlentry>
       </dl>

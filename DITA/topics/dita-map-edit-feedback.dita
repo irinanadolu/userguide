@@ -33,10 +33,10 @@
         parameter</xref> (the <codeph>webhelp.fragment.feedback</codeph> parameter). If the fragment
       is specified in multiple places, the order of precedence (from highest to lowest) is:<ul
         id="ul_yn4_bpq_pkb">
-        <li id="li_o5l_cgk_54b">The fragment specified directly in the <uicontrol>Feedback</uicontrol> tab.</li>
-        <li id="li_p5l_cgk_54b">The fragment specified in a publishing template as an HTML fragment extension
+        <li id="li_o5l_cgk_54b" irina="irina">The fragment specified directly in the <uicontrol>Feedback</uicontrol> tab.</li>
+        <li id="li_p5l_cgk_54b" irina="irina">The fragment specified in a publishing template as an HTML fragment extension
           point.</li>
-        <li id="li_q5l_cgk_54b">The fragment specified in a publishing template as a transformation parameter.</li>
+        <li id="li_q5l_cgk_54b" irina="irina">The fragment specified in a publishing template as a transformation parameter.</li>
       </ul></p>
   </body>
 </topic>

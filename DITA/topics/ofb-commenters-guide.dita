@@ -51,36 +51,36 @@
         previous organization and log in to the current one.</note>
       <p id="p_j2x_dgk_54b">To add a comment in a page where the <b>Oxygen Feedback</b> comment system is installed:<ol
           id="ol_lht_ytn_2jb">
-          <li id="li_k2x_dgk_54b">Choose where you want your comment to appear:<ul
+          <li id="li_k2x_dgk_54b" irina="irina">Choose where you want your comment to appear:<ul
               id="ul_gvy_wwt_q4b">
-              <li id="li_l2x_dgk_54b">To post your comment contextually at a specific location
+              <li id="li_l2x_dgk_54b" irina="irina">To post your comment contextually at a specific location
                 within the page:<ol id="ol_xmv_1m5_q4b">
-                  <li id="li_m2x_dgk_54b">Hover over content within the block (content that would be
+                  <li id="li_m2x_dgk_54b" irina="irina">Hover over content within the block (content that would be
                       <xref href="ofb-block-level-comments.dita">inside a block element in the
                       source document</xref>) until you see the comment widget (<image
                       href="../img/ofb-widget1.png" id="image_dwm_ql5_q4b"/>) on the right
                     side.</li>
-                  <li id="li_n2x_dgk_54b">Click the widget and log in (if you are not already logged
+                  <li id="li_n2x_dgk_54b" irina="irina">Click the widget and log in (if you are not already logged
                     in).</li>
-                  <li id="li_o2x_dgk_54b">Click anywhere in the text box where you see
+                  <li id="li_o2x_dgk_54b" irina="irina">Click anywhere in the text box where you see
                       <uicontrol>Add a comment</uicontrol> to expand the box for editing.</li>
                 </ol></li>
-              <li id="li_p2x_dgk_54b">To post your comment in the commenting component at the bottom
+              <li id="li_p2x_dgk_54b" irina="irina">To post your comment in the commenting component at the bottom
                 of the page:<ol id="ol_gg2_nm5_q4b">
-                  <li id="li_q2x_dgk_54b">Log in (if you are not already logged in).</li>
-                  <li id="li_r2x_dgk_54b">Click anywhere in the text box where you see
+                  <li id="li_q2x_dgk_54b" irina="irina">Log in (if you are not already logged in).</li>
+                  <li id="li_r2x_dgk_54b" irina="irina">Click anywhere in the text box where you see
                       <uicontrol>Add a comment</uicontrol> to expand the box for editing.</li>
                 </ol></li>
             </ul><note id="note_cpm_pqf_btb" type="tip">You can select content within the current
               document before adding the comment, and then the selected content is inserted as a
               quote when you add the new comment.</note></li>
-          <li id="li_s2x_dgk_54b">Enter your text in the comment box. You can use the <xref
+          <li id="li_s2x_dgk_54b" irina="irina">Enter your text in the comment box. You can use the <xref
               href="#ofb-commenters-guide/section_zkk_ycn_2jb" format="dita">various toolbar
               actions</xref> to style your text. You can also type <xref
               href="#ofb-commenters-guide/Markdown-note" format="dita">Markdown syntax</xref> in the
             comment box to style your text. You can see the results of the styling in the
               <uicontrol>Preview</uicontrol> section at the bottom of the box.</li>
-          <li id="li_t2x_dgk_54b">Click <uicontrol>Add</uicontrol> (or
+          <li id="li_t2x_dgk_54b" irina="irina">Click <uicontrol>Add</uicontrol> (or
               <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol>) to post the comment.</li>
         </ol></p>
       <p id="p_u2x_dgk_54b"><b>Result:</b> You can see your newly added comment but if the site configuration has the
@@ -97,29 +97,29 @@
       <title>Editing a Comment</title>
       <p id="p_v2x_dgk_54b">A Commenter can edit their own comments, but only Administrators/Moderators can edit
         comments posted by other users. To edit your own comment:<ol id="ol_zr4_r5n_2jb">
-          <li id="li_w2x_dgk_54b">Open the comment box for editing by using one of these methods, depending on its
+          <li id="li_w2x_dgk_54b" irina="irina">Open the comment box for editing by using one of these methods, depending on its
               location:<ul id="ul_bv5_5p5_q4b">
-              <li id="li_x2x_dgk_54b">For comments at a specific location within the page:<ol id="ol_nxg_wp5_q4b">
-                  <li id="li_y2x_dgk_54b">Click the particular comment widget ( <image href="../img/ofb-widget2.png"
+              <li id="li_x2x_dgk_54b" irina="irina">For comments at a specific location within the page:<ol id="ol_nxg_wp5_q4b">
+                  <li id="li_y2x_dgk_54b" irina="irina">Click the particular comment widget ( <image href="../img/ofb-widget2.png"
                       id="image_axh_yp5_q4b"/>) and log in (if you are not already logged in).</li>
-                  <li id="li_z2x_dgk_54b">Click the <uicontrol><image href="../img/ofb-ellipse.png"
+                  <li id="li_z2x_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/ofb-ellipse.png"
                         id="image_kbj_bq5_q4b"/>Ellipse</uicontrol> at the bottom-right side of the
                     comment box and select <uicontrol>Edit</uicontrol>.</li>
                 </ol></li>
-              <li id="li_afx_dgk_54b">For comments at the bottom of the page:<ol id="ol_nvz_fq5_q4b">
-                  <li id="li_bfx_dgk_54b">Log in (if you are not already logged in).</li>
-                  <li id="li_cfx_dgk_54b">Click the <uicontrol><image href="../img/Edit16.png" id="image_zck_3q5_q4b"
+              <li id="li_afx_dgk_54b" irina="irina">For comments at the bottom of the page:<ol id="ol_nvz_fq5_q4b">
+                  <li id="li_bfx_dgk_54b" irina="irina">Log in (if you are not already logged in).</li>
+                  <li id="li_cfx_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/Edit16.png" id="image_zck_3q5_q4b"
                       />Edit</uicontrol> at the bottom-right side of the comment box and select
                       <uicontrol>Edit</uicontrol>.</li>
                 </ol></li>
             </ul></li>
-          <li id="li_dfx_dgk_54b">Edit your text in the comment box. You can use the <xref
+          <li id="li_dfx_dgk_54b" irina="irina">Edit your text in the comment box. You can use the <xref
               href="#ofb-commenters-guide/section_zkk_ycn_2jb" format="dita">various toolbar
               actions</xref> to style your text. You can also type <xref
               href="#ofb-commenters-guide/Markdown-note" format="dita">Markdown syntax</xref> in the
             comment box to style your text. You can see the results of the styling in the
               <uicontrol>Preview</uicontrol> section at the bottom of the box. </li>
-          <li id="li_efx_dgk_54b">Click <uicontrol>Submit</uicontrol> (or
+          <li id="li_efx_dgk_54b" irina="irina">Click <uicontrol>Submit</uicontrol> (or
               <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol>) to post the modifications to
             your comment.</li>
         </ol></p>
@@ -127,35 +127,35 @@
     <section id="section_pxp_n1n_2jb">
       <title>Replying to a Comment</title>
       <p id="p_ffx_dgk_54b">To reply to an existing comment:<ol id="ol_mxb_gg4_2jb">
-          <li id="li_gfx_dgk_54b">Initiate a reply by using one of these methods, depending on the
+          <li id="li_gfx_dgk_54b" irina="irina">Initiate a reply by using one of these methods, depending on the
               situation:<ul id="ul_z25_lq5_q4b">
-              <li id="li_hfx_dgk_54b">For comments at a specific location within the page:<ol
+              <li id="li_hfx_dgk_54b" irina="irina">For comments at a specific location within the page:<ol
                   id="ol_af5_lq5_q4b">
-                  <li id="li_ifx_dgk_54b">Click the particular comment widget ( <image
+                  <li id="li_ifx_dgk_54b" irina="irina">Click the particular comment widget ( <image
                       href="../img/ofb-widget2.png" id="image_bf5_lq5_q4b"/>) and log in (if you are
                     not already logged in).</li>
-                  <li id="li_jfx_dgk_54b">Click the <uicontrol><image href="../img/ReplyBlue16.png"
+                  <li id="li_jfx_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/ReplyBlue16.png"
                         placement="inline" id="image_btq_pq5_q4b"/>Reply</uicontrol> link/button at
                     the bottom-right side of the comment box.</li>
                 </ol></li>
-              <li id="li_kfx_dgk_54b">For comments at the bottom of the page:<ol id="ol_df5_lq5_q4b">
-                  <li id="li_lfx_dgk_54b">Log in (if you are not already logged in).</li>
-                  <li id="li_mfx_dgk_54b">Click the <uicontrol><image href="../img/ReplyBlue16.png"
+              <li id="li_kfx_dgk_54b" irina="irina">For comments at the bottom of the page:<ol id="ol_df5_lq5_q4b">
+                  <li id="li_lfx_dgk_54b" irina="irina">Log in (if you are not already logged in).</li>
+                  <li id="li_mfx_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/ReplyBlue16.png"
                         placement="inline" id="image_ew2_qq5_q4b"/>Reply</uicontrol> link/button at
                     the bottom-right side of the comment box.</li>
                 </ol></li>
-              <li id="li_dz4_2rc_hxb">For comments that already have at least one reply, you can use
+              <li id="li_dz4_2rc_hxb" irina="irina">For comments that already have at least one reply, you can use
                 the <uicontrol>Reply to this thread</uicontrol> link/button that appears after the
                 last reply. This makes it easier to reply to threads that have multiple replies.
               </li>
             </ul></li>
-          <li id="li_nfx_dgk_54b">Enter your text in the comment box. You can use the <xref
+          <li id="li_nfx_dgk_54b" irina="irina">Enter your text in the comment box. You can use the <xref
               href="#ofb-commenters-guide/section_zkk_ycn_2jb" format="dita">various toolbar
               actions</xref> to style your text. You can also type <xref
               href="#ofb-commenters-guide/Markdown-note" format="dita">Markdown syntax</xref> in the
             comment box to style your text. You can see the results of the styling in the
               <uicontrol>Preview</uicontrol> section at the bottom of the box. </li>
-          <li id="li_ofx_dgk_54b">Click <uicontrol>Add</uicontrol> (or
+          <li id="li_ofx_dgk_54b" irina="irina">Click <uicontrol>Add</uicontrol> (or
               <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol>) to post the comment.</li>
         </ol></p>
       <p id="p_pfx_dgk_54b"><b>Result:</b> The replies are sorted in a chronological (newest to oldest) and
@@ -167,25 +167,25 @@
       <title>Deleting a Comment</title>
       <p id="p_qfx_dgk_54b">A Commenter can delete their own comments, but only Administrators/Moderators can delete
         comments posted by other users. To delete your own comment:<ol id="ol_h3v_sg4_2jb">
-          <li id="li_rfx_dgk_54b">Initiate the deletion by using one of these methods, depending on its location:<ul
+          <li id="li_rfx_dgk_54b" irina="irina">Initiate the deletion by using one of these methods, depending on its location:<ul
               id="ul_szj_5q5_q4b">
-              <li id="li_sfx_dgk_54b">For comments at a specific location within the page:<ol id="ol_tzj_5q5_q4b">
-                  <li id="li_tfx_dgk_54b">Click the particular comment widget ( <image
+              <li id="li_sfx_dgk_54b" irina="irina">For comments at a specific location within the page:<ol id="ol_tzj_5q5_q4b">
+                  <li id="li_tfx_dgk_54b" irina="irina">Click the particular comment widget ( <image
                       href="../img/ofb-widget2.png" id="image_uzj_5q5_q4b"/>) and log in (if you are
                     not already logged in).</li>
-                  <li id="li_ufx_dgk_54b">Click the <uicontrol><image href="../img/ofb-ellipse.png"
+                  <li id="li_ufx_dgk_54b" irina="irina">Click the <uicontrol><image href="../img/ofb-ellipse.png"
                         id="image_vzj_5q5_q4b"/>Ellipse</uicontrol> at the bottom-right side of the
                     comment box and select <uicontrol>Delete</uicontrol>.</li>
                 </ol></li>
-              <li id="li_vfx_dgk_54b">For comments at the bottom of the page:<ol id="ol_wzj_5q5_q4b">
-                  <li id="li_wfx_dgk_54b">Log in (if you are not already logged in).</li>
-                  <li id="li_xfx_dgk_54b">Click the <uicontrol><image
+              <li id="li_vfx_dgk_54b" irina="irina">For comments at the bottom of the page:<ol id="ol_wzj_5q5_q4b">
+                  <li id="li_wfx_dgk_54b" irina="irina">Log in (if you are not already logged in).</li>
+                  <li id="li_xfx_dgk_54b" irina="irina">Click the <uicontrol><image
                         href="../img/OFBTrashIcon16.png" placement="inline" id="image_ukh_xq5_q4b"
                       />Delete</uicontrol> link/button at the bottom-right side of the comment
                     box.</li>
                 </ol></li>
             </ul></li>
-          <li id="li_yfx_dgk_54b">Click <uicontrol>OK</uicontrol> to confirm the deletion.</li>
+          <li id="li_yfx_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to confirm the deletion.</li>
         </ol></p>
       <p id="p_zfx_dgk_54b"><b>Result:</b> The content of the comment will only be visible to the original commenter
         and moderators, and a placeholder will be displayed noting that the comment was deleted.</p>
@@ -208,12 +208,12 @@
         current status.</p>
       <p id="p_t5v_tqt_5rb">Other badges that might appear on the right side of the comment box:<ul
           id="ul_l5g_xqt_5rb">
-          <li id="li_m5g_xqt_5rb"><image href="../img/ofb-version-badge.png"/> - The version of the
+          <li id="li_m5g_xqt_5rb" irina="irina"><image href="../img/ofb-version-badge.png"/> - The version of the
             current site configuration.</li>
-          <li id="li_gtv_frt_5rb"><image href="../img/ofb-block-level.png"/> - Displayed on <xref
+          <li id="li_gtv_frt_5rb" irina="irina"><image href="../img/ofb-block-level.png"/> - Displayed on <xref
               href="ofb-block-level-comments.dita">block-level comments</xref> with an associated
             element that is found in the page.</li>
-          <li id="li_s4s_lrt_5rb"><image href="../img/ofb-broken-content.png"/> - Displayed when the
+          <li id="li_s4s_lrt_5rb" irina="irina"><image href="../img/ofb-broken-content.png"/> - Displayed when the
             mapping between a <xref href="ofb-block-level-comments.dita">block-level comment</xref>
             and its corresponding element is lost (for example, if the element is removed in the
             source content).</li>
@@ -225,12 +225,12 @@
         the output page. You can access the filtering options by clicking the filter drop-down menu
           (<image href="../img/ofb-FilterDrop.png"/>) that is located in the header of the
         commenting component. The following filtering options are available:<ul id="ul_arz_v2s_s4b">
-          <li id="li_brz_v2s_s4b"><b>Not resolved</b> (default) - Displays all comments that are in
+          <li id="li_brz_v2s_s4b" irina="irina"><b>Not resolved</b> (default) - Displays all comments that are in
             a state of <i>Open</i> or <i>Waiting for approval</i>.</li>
-          <li id="li_czz_z2s_s4b"><b>Waiting for approval</b> - Displays only comments that are in a
+          <li id="li_czz_z2s_s4b" irina="irina"><b>Waiting for approval</b> - Displays only comments that are in a
             state of <i>Waiting for approval</i> (they have not yet been approved by a
             moderator).</li>
-          <li id="li_nbm_pfs_s4b"><b>All</b> - Displays all the comments that are available based
+          <li id="li_nbm_pfs_s4b" irina="irina"><b>All</b> - Displays all the comments that are available based
             upon your user rights.</li>
         </ul></p>
       <p id="p_mxd_5fs_s4b">The selection in the filter drop-down is persistent between sessions. If

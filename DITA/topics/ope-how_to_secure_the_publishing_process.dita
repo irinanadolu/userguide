@@ -7,8 +7,8 @@
         href="https://www.oxygenxml.com/publishing_engine.html" format="html" scope="external"
           ><b>Oxygen Publishing Engine</b></xref>, there are several questions you should take into
         account:<ul id="ul_pph_5mb_lpb">
-        <li>Is the set of input documents coming from a trusted source?</li>
-        <li>Is the publishing template customization under your organization control or is it
+        <li irina="irina">Is the set of input documents coming from a trusted source?</li>
+        <li irina="irina">Is the publishing template customization under your organization control or is it
           uploaded by another party?</li>
       </ul>If the data or customization is not fully controlled, you must take some steps to make
       the publishing process as secure as possible.</p>

@@ -43,14 +43,14 @@
       engines are presented in the content completion list only if the Saxon namespace
         (<i>http://saxon.sf.net</i> for XSLT version 2.0 / 3.0 or <i>http://icl.com/saxon</i> for
       XSLT version 1.0) is declared and one of the following conditions is true:<ul id="ul_yr1_cgk_54b">
-        <li id="li_zr1_cgk_54b">The edited file has a transformation scenario that uses as transformation engine Saxon
+        <li id="li_zr1_cgk_54b" irina="irina">The edited file has a transformation scenario that uses as transformation engine Saxon
             <ph keyref="saxon6FullVersion"/> (for XSLT version 1.0), Saxon <ph
             keyref="saxon9FullVersion"/> PE or Saxon <ph keyref="saxon9FullVersion"/> EE (for XSLT
           version 2.0 / 3.0).</li>
-        <li id="li_as1_cgk_54b">The edited file has a validation scenario that uses as validation engine Saxon <ph
+        <li id="li_as1_cgk_54b" irina="irina">The edited file has a validation scenario that uses as validation engine Saxon <ph
             keyref="saxon6FullVersion"/> (for version 1.0), Saxon <ph keyref="saxon9FullVersion"/>
           PE or Saxon <ph keyref="saxon9FullVersion"/> EE (for version 2.0 / 3.0).</li>
-        <li id="li_bs1_cgk_54b">The validation engine specified in <xref href="preferences-xslt.dita">Options</xref>
+        <li id="li_bs1_cgk_54b" irina="irina">The validation engine specified in <xref href="preferences-xslt.dita">Options</xref>
           page is Saxon <ph keyref="saxon6FullVersion"/> (for version 1.0), Saxon <ph
             keyref="saxon9FullVersion"/> PE or Saxon <ph keyref="saxon9FullVersion"/> EE (for
           version 2.0 / 3.0).</li>

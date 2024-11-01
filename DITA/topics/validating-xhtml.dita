@@ -17,15 +17,15 @@
       the <xref href="https://validator.w3.org/nu/about.html" format="html" scope="external"><i>W3C
           Nu HTML Checker</i></xref> that can be used to validate HTML or XHTML documents.</p>
     <p id="p_r5j_cgk_54b">To use the <uicontrol>W3C XHTML Validator</uicontrol> engine:<ol id="ol_dj2_j4f_knb">
-        <li id="li_s5j_cgk_54b">Create or edit a validation scenario (e.g. select the
+        <li id="li_s5j_cgk_54b" irina="irina">Create or edit a validation scenario (e.g. select the
               <uicontrol><image href="../img/ValidationConfig16.png" id="image_k3g_x5v_sr"
             />Configure Validation Scenario(s)</uicontrol> from the <ph
             product="author developer editor json"><uicontrol><image href="../img/ValidateDrop.png"
                 id="image_dyn_x5v_sr"/>Validation</uicontrol> toolbar drop-down menu</ph><ph
             product="authorEclipse developerEclipse editorEclipse">toolbar</ph>).</li>
-        <li id="li_t5j_cgk_54b">Change the <uicontrol>File type</uicontrol> column to <i>XML Document</i> and select
+        <li id="li_t5j_cgk_54b" irina="irina">Change the <uicontrol>File type</uicontrol> column to <i>XML Document</i> and select
             <i>W3C XHTML Validator</i> in the <uicontrol>Validation engine</uicontrol> column.</li>
-        <li id="li_u5j_cgk_54b">Click <uicontrol>OK</uicontrol> and <uicontrol>Apply Associated</uicontrol> to run the
+        <li id="li_u5j_cgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> and <uicontrol>Apply Associated</uicontrol> to run the
           validation.</li>
       </ol></p>
   </body>

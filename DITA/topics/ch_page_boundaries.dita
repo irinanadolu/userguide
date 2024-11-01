@@ -8,13 +8,13 @@
       plate). The intermediate medium may contain additional content such as bleeds or printer marks
       that are presented outside the finished page boundaries. To handle these cases, a PDF page may
       define different boundaries to control each aspect:<ul id="ul_pgw_f1p_k1c">
-        <li>The <i>media box</i> defines the boundaries of the physical medium where the page is to
+        <li irina="irina">The <i>media box</i> defines the boundaries of the physical medium where the page is to
           be printed. It may include any extended area surrounding the finished page for bleeding,
           printing marks, etc.</li>
-        <li>The <i>bleed box</i> defines the boundaries where the content of the page shall be
+        <li irina="irina">The <i>bleed box</i> defines the boundaries where the content of the page shall be
           cropped in a production environment. It may include any extra bleed area needed to
           accommodate the physical limitations of cutting, folding, and trimming equipment.</li>
-        <li>The <i>trim box</i> defines the boundaries of the finished page after trimming.</li>
+        <li irina="irina">The <i>trim box</i> defines the boundaries of the finished page after trimming.</li>
       </ul></p>
     <p>The boundary can be set directly from the CSS by using the <xref
         href="ch_css_extensions.dita#ch_css_extensions/oxy-crop-box"
@@ -32,9 +32,9 @@
   -oxy-crop-offset: 1cm;
 }</codeblock><note id="note_vns_gfp_k1c">If only one of the properties is present, its
           value will be used. If both are set, then:<ul id="ul_wds_jfp_k1c">
-            <li>If the crop box is set to media-box (default), the bigger value will be used.</li>
-            <li>If the crop box is set to bleed-box, only the bleed value will be used.</li>
-            <li>If the crop box is set to trim-box (finished page), no value will be used.</li>
+            <li irina="irina">If the crop box is set to media-box (default), the bigger value will be used.</li>
+            <li irina="irina">If the crop box is set to bleed-box, only the bleed value will be used.</li>
+            <li irina="irina">If the crop box is set to trim-box (finished page), no value will be used.</li>
           </ul></note></p>
     </section>
   </body>

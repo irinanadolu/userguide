@@ -16,7 +16,7 @@
         and it can do what you want in a couple of ways:</p>
       <p id="p_pmg_dgk_54b">
         <ol id="ol_zxx_l1n_nm">
-          <li id="li_qmg_dgk_54b">Add a listener that notifies you when the user opens an XML document. Then if the XML
+          <li id="li_qmg_dgk_54b" irina="irina">Add a listener that notifies you when the user opens an XML document. Then if the XML
             document is opened in the <uicontrol>Author</uicontrol> visual editing mode you can use
             the <i>Author API</i> to change
             attributes:<codeblock outputclass="language-java" id="codeblock_rmg_dgk_54b">   pluginWorkspaceAccess.addEditorChangeListener(new  WSEditorChangeListener() {
@@ -70,7 +70,7 @@ authPage.getDocumentController();
       }
     },
   StandalonePluginWorkspace.MAIN_EDITING_AREA);</codeblock></li>
-          <li id="li_smg_dgk_54b">An API to open XML documents in the
+          <li id="li_smg_dgk_54b" irina="irina">An API to open XML documents in the
             application:<codeblock outputclass="language-javascript" id="codeblock_tmg_dgk_54b">ro.sync.exml.workspace.api.Workspace.open(URL)</codeblock>So
             you can create a plugin that automatically opens XML documents one at a time from a
             certain folder in the application, makes modifications to them, and saves the content by

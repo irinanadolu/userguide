@@ -28,10 +28,10 @@
       <title>Resources</title>
       <p id="p_w54_rr5_ypb">For more information about the HTML support in <ph keyref="product"/>,
         see the following resources:<ul id="ul_bzc_455_ypb">
-          <li id="li_czc_455_ypb">Webinar: <xref
+          <li id="li_czc_455_ypb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2020/webinar_html5_support_in_oxygen_xml_editor.html"
               format="html" scope="external"><b>HTML5 Support in Oxygen</b></xref>.</li>
-          <li id="li_ljr_r55_ypb">Video: <xref href="https://www.youtube.com/watch?v=-GObGytf8eY"
+          <li id="li_ljr_r55_ypb" irina="irina">Video: <xref href="https://www.youtube.com/watch?v=-GObGytf8eY"
               format="html" scope="external"><b>HTML Support in Oxygen</b></xref>.</li>
         </ul></p>
     </section>

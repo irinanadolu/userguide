@@ -45,43 +45,43 @@ li.outside {
       <p id="p_n3v_dgk_54b">
         <ph keyref="product"/> supports the following values for the
           <codeph>list-style-type</codeph> property: <ul id="ul_jbx_lp5_cbb">
-          <li id="li_o3v_dgk_54b">
+          <li id="li_o3v_dgk_54b" irina="irina">
             <b>box</b>
           </li>
-          <li id="li_p3v_dgk_54b">
+          <li id="li_p3v_dgk_54b" irina="irina">
             <b>check</b>
           </li>
-          <li id="li_q3v_dgk_54b">
+          <li id="li_q3v_dgk_54b" irina="irina">
             <b>circle</b>
           </li>
-          <li id="li_r3v_dgk_54b">
+          <li id="li_r3v_dgk_54b" irina="irina">
             <b>diamond</b>
           </li>
-          <li id="li_s3v_dgk_54b">
+          <li id="li_s3v_dgk_54b" irina="irina">
             <b>disc</b>
           </li>
-          <li id="li_t3v_dgk_54b">
+          <li id="li_t3v_dgk_54b" irina="irina">
             <b>hyphen</b>
           </li>
-          <li id="li_u3v_dgk_54b">
+          <li id="li_u3v_dgk_54b" irina="irina">
             <b>square</b>
           </li>
-          <li id="li_v3v_dgk_54b">
+          <li id="li_v3v_dgk_54b" irina="irina">
             <b>none</b>
           </li>
-          <li id="li_w3v_dgk_54b">
+          <li id="li_w3v_dgk_54b" irina="irina">
             <b>decimal</b>
           </li>
-          <li id="li_x3v_dgk_54b">
+          <li id="li_x3v_dgk_54b" irina="irina">
             <b>lower-roman</b>/<b>lower-latin</b>
           </li>
-          <li id="li_y3v_dgk_54b">
+          <li id="li_y3v_dgk_54b" irina="irina">
             <b>upper-roman</b>/<b>upper-latin</b>
           </li>
-          <li id="li_z3v_dgk_54b">
+          <li id="li_z3v_dgk_54b" irina="irina">
             <b>decimal-leading-zero</b>
           </li>
-          <li><b>&lt;string></b>
+          <li irina="irina"><b>&lt;string></b>
           </li>
         </ul>To use an image as a marker instead of a standard bullet or number, you can use the
           <codeph>list-style-image</codeph> property. You have to use the <codeph>url</codeph>

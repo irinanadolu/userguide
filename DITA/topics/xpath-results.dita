@@ -16,17 +16,17 @@
         product="authorEclipse developerEclipse editorEclipse"><uicontrol>XPath Results</uicontrol>
         view</ph>.</p>
     <p id="p_izv_cgk_54b">This view contains the following columns:<ul id="ul_tdc_ql3_1g">
-        <li id="li_jzv_cgk_54b">
+        <li id="li_jzv_cgk_54b" irina="irina">
           <uicontrol>Description</uicontrol> - The result that<ph keyref="product"/> displays when
           you run an XPath expression. </li>
-        <li id="li_kzv_cgk_54b">
+        <li id="li_kzv_cgk_54b" irina="irina">
           <uicontrol>XPath location</uicontrol> - The path to the matched node. </li>
-        <li id="li_lzv_cgk_54b">
+        <li id="li_lzv_cgk_54b" irina="irina">
           <uicontrol>Resource</uicontrol> - The name of the document that you run the XPath
           expression on. </li>
-        <li id="li_mzv_cgk_54b">
+        <li id="li_mzv_cgk_54b" irina="irina">
           <uicontrol>System ID</uicontrol> - The path to the document itself. </li>
-        <li id="li_nzv_cgk_54b">
+        <li id="li_nzv_cgk_54b" irina="irina">
           <uicontrol>Location</uicontrol> - The location of the result in the document. </li>
       </ul>To arrange the results depending on a column, click its header. <ph
         product="author developer editor json">To group the results by their resource, or by their

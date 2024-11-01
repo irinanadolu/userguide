@@ -23,30 +23,30 @@
         href="preferences-custom-editor-variables.dita#preferences-custom-editor-variables"
           ><uicontrol>Custom Editor Variables</uicontrol> preferences page</xref>.</p>
     <p id="p_fds_bgk_54b">Editor variables are evaluated and automatically expanded in many places in the application, when:<ul id="ul_bkm_by2_kmb">
-      <li id="li_gds_bgk_54b"><xref href="create-your-own-templates.dita">Creating new documents from file templates</xref>.</li>
-      <li id="li_hds_bgk_54b"><xref href="create-your-own-templates.dita">Inserting code
+      <li id="li_gds_bgk_54b" irina="irina"><xref href="create-your-own-templates.dita">Creating new documents from file templates</xref>.</li>
+      <li id="li_hds_bgk_54b" irina="irina"><xref href="create-your-own-templates.dita">Inserting code
             templates</xref> in the <uicontrol>Text</uicontrol><ph
             product="developer developerEclipse"> mode</ph><ph
             product="author editor authorEclipse editorEclipse json"> or
               <uicontrol>Author</uicontrol> editor modes</ph>.</li>
-      <li product="author developer editor" id="li_ids_bgk_54b">Running custom configured <xref
+      <li product="author developer editor" id="li_ids_bgk_54b" irina="irina">Running custom configured <xref
             href="integrating-external-tools.dita"/>.</li>
-      <li product="author editor authorEclipse editorEclipse" id="li_jds_bgk_54b">Executing predefined <xref
+      <li product="author editor authorEclipse editorEclipse" id="li_jds_bgk_54b" irina="irina">Executing predefined <xref
             href="dg-default-author-operations.dita"/> that have editor variables given as parameter
           values.</li>
       <li id="li_kds_bgk_54b"
-          product="author developer editor authorEclipse developerEclipse editorEclipse">Running
+          product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina">Running
             <xref href="edit-validation-scenario.dita">validation scenarios</xref> that use editor
           variables inside to reference various resources.</li>
       <li id="li_lds_bgk_54b"
-          product="author developer editor authorEclipse developerEclipse editorEclipse">Executing
+          product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina">Executing
           transformation scenarios (of type ANT, <xref href="dita-map-edit-parameters.dita"
             >DITA-OT</xref>, <xref href="xslt-tab.dita">XSLT</xref>, etc.) that have editor
           variables set as parameter values or as values for references to various resources.</li>
-      <li product="author editor authorEclipse editorEclipse" id="li_mds_bgk_54b"><xref
+      <li product="author editor authorEclipse editorEclipse" id="li_mds_bgk_54b" irina="irina"><xref
             href="handling-css-imports.dita">Expanding CSS imports</xref> for editing in the
             <uicontrol>Author</uicontrol> visual editing mode.</li>
-      <li id="li_nds_bgk_54b">Using specific Java API <xref
+      <li id="li_nds_bgk_54b" irina="irina">Using specific Java API <xref
             href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/ro/sync/exml/workspace/api/util/UtilAccess.html"
             format="html" scope="external"><codeph>UtilAccess.expandEditorVariables(String,
               URL)</codeph></xref> from plugins and framework extensions.</li>
@@ -60,67 +60,67 @@
     <ul id="ul_pds_bgk_54b"
       product="author developer editor authorEclipse developerEclipse editorEclipse json">
       <li conkeyref="reusables-editor-variables/edVar-activeConditionSet" id="li_qds_bgk_54b"
-        product="author developer editor authorEclipse developerEclipse editorEclipse"/>
-      <li id="edVar-af" conkeyref="reusables-editor-variables/edVar-af"/>
-      <li id="edVar-afd" conkeyref="reusables-editor-variables/edVar-afd"/>
-      <li id="edVar-afdu" conkeyref="reusables-editor-variables/edVar-afdu"/>
-      <li id="edVar-afn" conkeyref="reusables-editor-variables/edVar-afn"/>
-      <li id="edVar-afne" conkeyref="reusables-editor-variables/edVar-afne"/>
-      <li id="edVar-afu" conkeyref="reusables-editor-variables/edVar-afu"/>
-      <li id="edVar-answer" conkeyref="reusables-editor-variables/edVar-answer"/>
-      <li id="edVar-ask" conkeyref="reusables-editor-variables/edVar-ask"/>
+        product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina"/>
+      <li id="edVar-af" conkeyref="reusables-editor-variables/edVar-af" irina="irina"/>
+      <li id="edVar-afd" conkeyref="reusables-editor-variables/edVar-afd" irina="irina"/>
+      <li id="edVar-afdu" conkeyref="reusables-editor-variables/edVar-afdu" irina="irina"/>
+      <li id="edVar-afn" conkeyref="reusables-editor-variables/edVar-afn" irina="irina"/>
+      <li id="edVar-afne" conkeyref="reusables-editor-variables/edVar-afne" irina="irina"/>
+      <li id="edVar-afu" conkeyref="reusables-editor-variables/edVar-afu" irina="irina"/>
+      <li id="edVar-answer" conkeyref="reusables-editor-variables/edVar-answer" irina="irina"/>
+      <li id="edVar-ask" conkeyref="reusables-editor-variables/edVar-ask" irina="irina"/>
       <li conkeyref="reusables-editor-variables/edVar-author_name"
-        product="author editor authorEclipse editorEclipse" id="li_rds_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-caret" id="edvar-caret"/>
-      <li id="edvar-cf" conkeyref="reusables-editor-variables/edvar-cf"/>
-      <li id="edVar-cfd" conkeyref="reusables-editor-variables/edVar-cfd"/>
-      <li id="edVar-cfdu" conkeyref="reusables-editor-variables/edVar-cfdu"/>
-      <li id="edVar-cfn" conkeyref="reusables-editor-variables/edVar-cfn"/>
-      <li id="edVar-cfne" conkeyref="reusables-editor-variables/edVar-cfne"/>
-      <li conkeyref="reusables-editor-variables/edVar-comma" id="edVar-comma"/>
+        product="author editor authorEclipse editorEclipse" id="li_rds_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-caret" id="edvar-caret" irina="irina"/>
+      <li id="edvar-cf" conkeyref="reusables-editor-variables/edvar-cf" irina="irina"/>
+      <li id="edVar-cfd" conkeyref="reusables-editor-variables/edVar-cfd" irina="irina"/>
+      <li id="edVar-cfdu" conkeyref="reusables-editor-variables/edVar-cfdu" irina="irina"/>
+      <li id="edVar-cfn" conkeyref="reusables-editor-variables/edVar-cfn" irina="irina"/>
+      <li id="edVar-cfne" conkeyref="reusables-editor-variables/edVar-cfne" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-comma" id="edVar-comma" irina="irina"/>
       <li conkeyref="reusables-editor-variables/edVar-configured_ditaot_dir" id="li_sds_bgk_54b"
-        product="author developer editor authorEclipse developerEclipse editorEclipse"/>
-      <li conkeyref="reusables-editor-variables/edVar_cp" id="li_tds_bgk_54b"/>
-      <li id="edVar-currentFileURL" conkeyref="reusables-editor-variables/edVar-currentFileURL"/>
-      <li id="edVar-date" conkeyref="reusables-editor-variables/edVar-date"/>
-      <li id="edVar-dbgXML" conkeyref="reusables-editor-variables/edVar-dbgXML"/>
-      <li id="edVar-dbgXSL" conkeyref="reusables-editor-variables/edVar-dbgXSL"/>
-      <li conkeyref="reusables-editor-variables/dita_dir" id="li_uds_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-ds" id="li_vds_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_wds_bgk_54b"/>
-      <li id="edvar-env" conkeyref="reusables-editor-variables/edvar-env"/>
-      <li conkeyref="reusables-editor-variables/edVar-framework-fr-name" id="li_xds_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edVar-framework" id="edvar-framework"/>
+        product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar_cp" id="li_tds_bgk_54b" irina="irina"/>
+      <li id="edVar-currentFileURL" conkeyref="reusables-editor-variables/edVar-currentFileURL" irina="irina"/>
+      <li id="edVar-date" conkeyref="reusables-editor-variables/edVar-date" irina="irina"/>
+      <li id="edVar-dbgXML" conkeyref="reusables-editor-variables/edVar-dbgXML" irina="irina"/>
+      <li id="edVar-dbgXSL" conkeyref="reusables-editor-variables/edVar-dbgXSL" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/dita_dir" id="li_uds_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-ds" id="li_vds_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-dsu" id="li_wds_bgk_54b" irina="irina"/>
+      <li id="edvar-env" conkeyref="reusables-editor-variables/edvar-env" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-framework-fr-name" id="li_xds_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-framework" id="edvar-framework" irina="irina"/>
       <li conkeyref="reusables-editor-variables/edVar-frameworkDir-fr-name" id="li_yds_bgk_54b"
-        product="author developer editor authorEclipse developerEclipse editorEclipse"/>
-      <li id="edVar-frameworkDir" conkeyref="reusables-editor-variables/edVar-frameworkDir"/>
-      <li id="edVar-frameworks" conkeyref="reusables-editor-variables/edVar-frameworks"/>
-      <li id="edVar-frameworksDir" conkeyref="reusables-editor-variables/edVar-frameworksDir"/>
-      <li id="edVar-home" conkeyref="reusables-editor-variables/edVar-home"/>
-      <li id="edVar-homeDir" conkeyref="reusables-editor-variables/edVar-homeDir"/>
-      <li conkeyref="reusables-editor-variables/edVar-i18n" id="localization"/>
-      <li id="edVar-id" conkeyref="reusables-editor-variables/edVar-id"/>
-      <li conkeyref="reusables-editor-variables/make-relative" id="li_zds_bgk_54b"/>
-      <li id="edVar-oxygenHome" conkeyref="reusables-editor-variables/edVar-oxygenHome"/>
-      <li id="edVar-oxygenInstallDir" conkeyref="reusables-editor-variables/edVar-oxygenInstallDir"/>
-      <li id="edVar-pd" conkeyref="reusables-editor-variables/edVar-pd"/>
-      <li id="edVar-pdu" conkeyref="reusables-editor-variables/edVar-pdu"/>
-      <li conkeyref="reusables-editor-variables/edVar-pluginDir" id="edVar-pluginDir"/>
-      <li conkeyref="reusables-editor-variables/edVar-pluginDirURL" id="edVar-pluginDirURL"/>
-      <li conkeyref="reusables-editor-variables/edVar-pn" id="li_a2s_bgk_54b"/>
-      <li id="edVar-ps" conkeyref="reusables-editor-variables/edVar-ps"/>
-      <li conkeyref="reusables-editor-variables/root-map-dir" id="li_b2s_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/root-map-dir-url" id="li_c2s_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/root-map-file" id="li_d2s_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/root-map-url" id="li_e2s_bgk_54b"/>
-      <li conkeyref="reusables-editor-variables/edvar-selection" id="li_f2s_bgk_54b"/>
-      <li id="edVar-system" conkeyref="reusables-editor-variables/edVar-system"/>
-      <li id="edVar-timestamp" conkeyref="reusables-editor-variables/edvar-timestamp"/>
-      <li conkeyref="reusables-editor-variables/edVar_tp" id="li_g2s_bgk_54b"/>
-      <li id="edVar-tsf" conkeyref="reusables-editor-variables/edVar-tsf"/>
-      <li id="edvar-uuid" conkeyref="reusables-editor-variables/edvar-uuid"/>
-      <li conkeyref="reusables-editor-variables/edVar-xmlCatalogList" id="li_h2s_bgk_54b"/>
-      <li id="edVar-xpath" conkeyref="reusables-editor-variables/edVar-xpath"/>
+        product="author developer editor authorEclipse developerEclipse editorEclipse" irina="irina"/>
+      <li id="edVar-frameworkDir" conkeyref="reusables-editor-variables/edVar-frameworkDir" irina="irina"/>
+      <li id="edVar-frameworks" conkeyref="reusables-editor-variables/edVar-frameworks" irina="irina"/>
+      <li id="edVar-frameworksDir" conkeyref="reusables-editor-variables/edVar-frameworksDir" irina="irina"/>
+      <li id="edVar-home" conkeyref="reusables-editor-variables/edVar-home" irina="irina"/>
+      <li id="edVar-homeDir" conkeyref="reusables-editor-variables/edVar-homeDir" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-i18n" id="localization" irina="irina"/>
+      <li id="edVar-id" conkeyref="reusables-editor-variables/edVar-id" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/make-relative" id="li_zds_bgk_54b" irina="irina"/>
+      <li id="edVar-oxygenHome" conkeyref="reusables-editor-variables/edVar-oxygenHome" irina="irina"/>
+      <li id="edVar-oxygenInstallDir" conkeyref="reusables-editor-variables/edVar-oxygenInstallDir" irina="irina"/>
+      <li id="edVar-pd" conkeyref="reusables-editor-variables/edVar-pd" irina="irina"/>
+      <li id="edVar-pdu" conkeyref="reusables-editor-variables/edVar-pdu" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-pluginDir" id="edVar-pluginDir" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-pluginDirURL" id="edVar-pluginDirURL" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-pn" id="li_a2s_bgk_54b" irina="irina"/>
+      <li id="edVar-ps" conkeyref="reusables-editor-variables/edVar-ps" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/root-map-dir" id="li_b2s_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/root-map-dir-url" id="li_c2s_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/root-map-file" id="li_d2s_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/root-map-url" id="li_e2s_bgk_54b" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edvar-selection" id="li_f2s_bgk_54b" irina="irina"/>
+      <li id="edVar-system" conkeyref="reusables-editor-variables/edVar-system" irina="irina"/>
+      <li id="edVar-timestamp" conkeyref="reusables-editor-variables/edvar-timestamp" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar_tp" id="li_g2s_bgk_54b" irina="irina"/>
+      <li id="edVar-tsf" conkeyref="reusables-editor-variables/edVar-tsf" irina="irina"/>
+      <li id="edvar-uuid" conkeyref="reusables-editor-variables/edvar-uuid" irina="irina"/>
+      <li conkeyref="reusables-editor-variables/edVar-xmlCatalogList" id="li_h2s_bgk_54b" irina="irina"/>
+      <li id="edVar-xpath" conkeyref="reusables-editor-variables/edVar-xpath" irina="irina"/>
     </ul>
   </body>
   <related-links product="author  editor">

@@ -27,14 +27,14 @@
       current module as the main XML document.</p>
     <p id="p_ztz_bgk_54b">The advantages of working with modular XML files in the context of a <xref
         keyref="glossentry_main-file"><term>main file</term></xref> include: <ul id="ul_a5z_bgk_54b">
-        <li id="li_b5z_bgk_54b">Correct validation of a module in the context of a larger XML structure.</li>
-        <li id="li_c5z_bgk_54b"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+        <li id="li_b5z_bgk_54b" irina="irina">Correct validation of a module in the context of a larger XML structure.</li>
+        <li id="li_c5z_bgk_54b" irina="irina"><xref keyref="glossentry_content-completion-assistant"><term>Content Completion
               Assistant</term></xref> displays all collected entities and IDs starting from the
             <term>main files</term>.</li>
-        <li id="li_d5z_bgk_54b"><ph keyref="product"/> uses the schema defined in the <term>main file</term> when you
+        <li id="li_d5z_bgk_54b" irina="irina"><ph keyref="product"/> uses the schema defined in the <term>main file</term> when you
           edit a module that is included in the hierarchy through the <i>External Entity</i>
           mechanism.</li>
-        <li id="li_e5z_bgk_54b">The <term>main files</term> defined for the current module determines the <xref
+        <li id="li_e5z_bgk_54b" irina="irina">The <term>main files</term> defined for the current module determines the <xref
             href="search-refactor-scope.dita">scope of the search and refactoring actions</xref> for
           ID/IDREFS values and for updating references when renaming/moving a resource. <ph
             keyref="product"/> performs the search and refactoring actions in the context that the

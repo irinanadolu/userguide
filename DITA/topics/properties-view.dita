@@ -20,15 +20,15 @@
       </fig>
     </p>
     <p id="p_prj_dgk_54b">The table includes four columns:<ul id="ul_qrj_dgk_54b">
-        <li id="li_rrj_dgk_54b"><uicontrol>State</uicontrol> - Can be one of the following:<ul id="ul_srj_dgk_54b">
-            <li id="li_trj_dgk_54b"><i>(empty)</i> - Normal unmodified property (same current and base values)</li>
-            <li id="li_urj_dgk_54b"><i>* (asterisk)</i> - Modified property (current and base values are different)</li>
-            <li id="li_vrj_dgk_54b"><i>+ (plus sign)</i> - New property</li>
-            <li id="li_wrj_dgk_54b"><i>- (minus sign)</i> - Removed property</li>
+        <li id="li_rrj_dgk_54b" irina="irina"><uicontrol>State</uicontrol> - Can be one of the following:<ul id="ul_srj_dgk_54b">
+            <li id="li_trj_dgk_54b" irina="irina"><i>(empty)</i> - Normal unmodified property (same current and base values)</li>
+            <li id="li_urj_dgk_54b" irina="irina"><i>* (asterisk)</i> - Modified property (current and base values are different)</li>
+            <li id="li_vrj_dgk_54b" irina="irina"><i>+ (plus sign)</i> - New property</li>
+            <li id="li_wrj_dgk_54b" irina="irina"><i>- (minus sign)</i> - Removed property</li>
           </ul></li>
-        <li id="li_xrj_dgk_54b"><uicontrol>Name</uicontrol> - The property name.</li>
-        <li id="li_yrj_dgk_54b"><uicontrol>Current value</uicontrol> - The current value of the property.</li>
-        <li id="li_zrj_dgk_54b"><uicontrol>Base value</uicontrol> - The base (original) value of the property.</li>
+        <li id="li_xrj_dgk_54b" irina="irina"><uicontrol>Name</uicontrol> - The property name.</li>
+        <li id="li_yrj_dgk_54b" irina="irina"><uicontrol>Current value</uicontrol> - The current value of the property.</li>
+        <li id="li_zrj_dgk_54b" irina="irina"><uicontrol>Base value</uicontrol> - The base (original) value of the property.</li>
       </ul></p>
   </body>
 </topic>

@@ -21,10 +21,10 @@
     <section id="inserting_breakpoints">
       <title>Inserting Breakpoints</title>
       <p id="p_w4z_cgk_54b">To insert a <term>breakpoint</term>, follow these steps:<ol id="ol_x4z_cgk_54b">
-          <li id="li_y4z_cgk_54b">Click the line where you want to insert the <term>breakpoint</term> in the XML source
+          <li id="li_y4z_cgk_54b" irina="irina">Click the line where you want to insert the <term>breakpoint</term> in the XML source
             document or the XSLT/XQuery document. <term>Breakpoints</term> are automatically created
             on the ending line of a start tag, even if you click a different line.</li>
-          <li id="li_z4z_cgk_54b"><ph product="developer editor">Click the vertical stripe on the left side of the
+          <li id="li_z4z_cgk_54b" irina="irina"><ph product="developer editor">Click the vertical stripe on the left side of the
               editor panel or use <uicontrol><shortcut>Shift+F7</shortcut></uicontrol></ph><ph
               product="developerEclipse editorEclipse">Right-click the vertical stripe on the left
               side of the editor panel and select <uicontrol>Add breakpoint</uicontrol></ph>.</li>

@@ -19,17 +19,17 @@
         <filepath>oxygen-options</filepath> folder. Such an XML file can be obtained by exporting
       the options to an XML format from an installation of <ph keyref="product"/>.</p>
     <p id="p_y2f_dgk_54b">To create an <i>options file</i> in the <ph keyref="product"/>:<ul id="ul_mgf_s1h_12">
-        <li product="author editor" id="li_z2f_dgk_54b">Make sure the options that you want to set are not <xref
+        <li product="author editor" id="li_z2f_dgk_54b" irina="irina">Make sure the options that you want to set are not <xref
             href="preferences-storing.dita#preferences-storing" format="dita">stored at project
             level</xref>.</li>
-        <li product="author editor authorEclipse editorEclipse" id="li_aff_dgk_54b">Set the values you want to impose as
+        <li product="author editor authorEclipse editorEclipse" id="li_aff_dgk_54b" irina="irina">Set the values you want to impose as
           defaults in the <xref href="preferences.dita#preferences" format="dita">Preferences
             pages</xref>.</li>
-        <li product="author editor" id="li_bff_dgk_54b">Select <menucascade>
+        <li product="author editor" id="li_bff_dgk_54b" irina="irina">Select <menucascade>
             <uicontrol>Options</uicontrol>
             <uicontrol>Export Global Options</uicontrol>
           </menucascade>.</li>
-        <li product="authorEclipse editorEclipse" id="li_cff_dgk_54b"><ph
+        <li product="authorEclipse editorEclipse" id="li_cff_dgk_54b" irina="irina"><ph
             conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and click
             <uicontrol>Export Global Options</uicontrol>.</li>
       </ul></p>

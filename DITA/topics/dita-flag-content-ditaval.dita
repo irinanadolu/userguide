@@ -21,19 +21,19 @@
       <title>How to Define a Flag for a Condition Set in a DITAVAL Filter File</title>
       <p id="p_hmn_dgk_54b">To define the colors and styles to be used for rendering profiled condition sets by using a
         flag filter in a DITAVAL filter file, follow these steps:<ol id="ol_imn_dgk_54b">
-          <li id="li_jmn_dgk_54b"><xref
+          <li id="li_jmn_dgk_54b" irina="irina"><xref
               href="dita-ditaval-file.dita#dita-ditaval-file/how_to_create_a_ditaval_filter_file"
               >Create or edit your DITAVAL file</xref> to define your <xref
               href="dita-condition-sets-management.dita#dita-condition-sets-management">profiling
               condition set</xref>.</li>
-          <li id="li_kmn_dgk_54b">In <uicontrol>Author</uicontrol> mode, <xref
+          <li id="li_kmn_dgk_54b" irina="irina">In <uicontrol>Author</uicontrol> mode, <xref
               href="dita-ditaval-file.dita#dita-ditaval-file/ditaval_filter_file_editor_in_author_mode"
               >define the filters for your condition set</xref>.</li>
-          <li id="li_lmn_dgk_54b">Select <uicontrol>Flag</uicontrol> from the drop-down menu on in a particular
+          <li id="li_lmn_dgk_54b" irina="irina">Select <uicontrol>Flag</uicontrol> from the drop-down menu on in a particular
               <uicontrol>Filter</uicontrol> or <uicontrol>Flag Revision</uicontrol> to present
             additional drop-down menus that allow you to configure the colors and styles for the
             particular condition set.</li>
-          <li id="li_mmn_dgk_54b">Save the DITAVAL file.</li>
+          <li id="li_mmn_dgk_54b" irina="irina">Save the DITAVAL file.</li>
         </ol></p>
       <p id="p_nmn_dgk_54b"><b>Result:</b> Test your changes by opening profiled content in
           <uicontrol>Author</uicontrol> mode or the <xref

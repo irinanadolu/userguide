@@ -25,15 +25,15 @@
         <codeph>oxy_action()</codeph> function:</p>
     <p id="oxy-action-properties1">
       <ul id="ul_otc_dgk_54b">
-        <li id="li_ptc_dgk_54b"><uicontrol>name</uicontrol> - The name of the action. The name of
+        <li id="li_ptc_dgk_54b" irina="irina"><uicontrol>name</uicontrol> - The name of the action. The name of
           the first defined action will be displayed as the label for the button or menu item.</li>
-        <li id="li_qtc_dgk_54b"><uicontrol>description</uicontrol> (optional) - A short description
+        <li id="li_qtc_dgk_54b" irina="irina"><uicontrol>description</uicontrol> (optional) - A short description
           with details about the result of the action. The description of the first defined action
           will be displayed in a tooltip. </li>
-        <li conkeyref="reusables-author-mode-customization/icon-li" id="li_rtc_dgk_54b"/>
-        <li conkeyref="reusables-author-mode-customization/operation-li" id="li_stc_dgk_54b"/>
-        <li conkeyref="reusables-author-mode-customization/arg-li" id="li_ttc_dgk_54b"/>
-        <li conkeyref="reusables-author-mode-customization/id-li" id="li_utc_dgk_54b"/>
+        <li conkeyref="reusables-author-mode-customization/icon-li" id="li_rtc_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-author-mode-customization/operation-li" id="li_stc_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-author-mode-customization/arg-li" id="li_ttc_dgk_54b" irina="irina"/>
+        <li conkeyref="reusables-author-mode-customization/id-li" id="li_utc_dgk_54b" irina="irina"/>
       </ul>
     </p>
     <p id="p_vtc_dgk_54b"><u><b>Example: <term>oxy_action_list</term>

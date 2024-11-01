@@ -36,13 +36,13 @@
       add that directory to the list of template directories that <ph keyref="product"/> makes
       available in the <uicontrol>New Document</uicontrol> wizard.</p>
     <p id="p_mk4_bgk_54b">To add a template directory, follow these steps:<ol id="ol_nk4_bgk_54b">
-        <li id="li_ok4_bgk_54b"><ph conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to
+        <li id="li_ok4_bgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to
             <uicontrol>Document Templates</uicontrol>.</li>
-        <li id="li_pk4_bgk_54b">Use the <uicontrol
+        <li id="li_pk4_bgk_54b" irina="irina">Use the <uicontrol
             product="authorEclipse developerEclipse editorEclipse"><image href="../img/Add16.png"
             />New</uicontrol><uicontrol product="author developer editor json">New</uicontrol>
           button to select a location of the new document template folder.</li>
-        <li id="li_qk4_bgk_54b">You can also use the <uicontrol>Edit</uicontrol> or <uicontrol>Delete</uicontrol>
+        <li id="li_qk4_bgk_54b" irina="irina">You can also use the <uicontrol>Edit</uicontrol> or <uicontrol>Delete</uicontrol>
           buttons to manage folders in the list, and you can alter the order that <ph
             keyref="product"/> looks in these directories by using the <uicontrol>Up</uicontrol> and
             <uicontrol>Down</uicontrol> buttons.</li>

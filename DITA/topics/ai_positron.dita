@@ -46,18 +46,18 @@
     <section id="section_tdq_wvx_qsb">
       <title>Quick Installation</title>
       <p conkeyref="reusables-addons/p_install_button" id="p_hzl_4xg_rsb"/>
-      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed"><![CDATA[
-               <a
+      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed">
+               &lt;a
           title = "Drag and drop into the Oxygen editing area to install."
           href="https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml?oxygenAddonId=oxygen.ai.positron.addon"
           style="padding: 8px; border: 1px solid #cbcbcb; border-radius: 4px; cursor: grab;color:black;
-          text-decoration:none;"><img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/><span>Install</span></a>]]></foreign></p>
+          text-decoration:none;">&lt;img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/>&lt;span>Install&lt;/span>&lt;/a></foreign></p>
     </section>
     <section id="section_kgh_fzg_rsb">
       <title>Manual Installation</title>
       <p id="p_jzg_dgk_54b">To manually install this add-on, follow this procedure:<ol
         id="ol_kzg_dgk_54b">
-        <li id="li_lzg_dgk_54b">Go to <menucascade>
+        <li id="li_lzg_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Install new add-ons</uicontrol>
             </menucascade> to open an add-on selection dialog box. Enter or paste
@@ -69,17 +69,17 @@
                 >download the add-on package</xref>, unzip it, then use the <uicontrol>Browse for
                 local files</uicontrol> action in the <uicontrol>Install new add-ons</uicontrol>
               dialog box to locate the downloaded <filepath>addon.xml</filepath> file.</note></li>
-        <li id="li_nzg_dgk_54b">Select the <b>Oxygen AI Positron Assistant</b> add-on and click
+        <li id="li_nzg_dgk_54b" irina="irina">Select the <b>Oxygen AI Positron Assistant</b> add-on and click
               <uicontrol>Next</uicontrol>.<note type="important">There are two different iterations
               of the add-on and you can only have one or the other installed at once:<ul>
-                <li><b>Oxygen AI Positron Assistant</b> - The regular version of the add-on.</li>
-                <li><b>Oxygen AI Positron Assistant (Enterprise)</b> - This Enterprise version is
+                <li irina="irina"><b>Oxygen AI Positron Assistant</b> - The regular version of the add-on.</li>
+                <li irina="irina"><b>Oxygen AI Positron Assistant (Enterprise)</b> - This Enterprise version is
                   for those who want to connect to their own OpenAI or MS Azure OpenAI account.</li>
               </ul></note></li>
-        <li id="li_ozg_dgk_54b">Read the end-user license agreement. Then select the <uicontrol>I
+        <li id="li_ozg_dgk_54b" irina="irina">Read the end-user license agreement. Then select the <uicontrol>I
           accept all terms of the end-user license agreement</uicontrol> option and click
           <uicontrol>Finish</uicontrol>.</li>
-        <li id="li_pzg_dgk_54b">Restart the application.</li>
+        <li id="li_pzg_dgk_54b" irina="irina">Restart the application.</li>
       </ol></p>
       <p id="p_qzg_dgk_54b"><b>Result:</b> The <uicontrol>AI Positron Assistant</uicontrol> side
         view is now available.</p>
@@ -120,23 +120,23 @@
             <dt>Content Generation</dt>
             <dd>
               <ul id="ul_qbx_wwz_1xb">
-                <li id="li_nrq_gz3_qxb"><uicontrol>New DITA Topic</uicontrol> - Generates a DITA XML
+                <li id="li_nrq_gz3_qxb" irina="irina"><uicontrol>New DITA Topic</uicontrol> - Generates a DITA XML
                   topic based on a text description entered in a popup dialog box.</li>
-                <li><uicontrol>Continue Writing</uicontrol> - Generates additional text based on the
+                <li irina="irina"><uicontrol>Continue Writing</uicontrol> - Generates additional text based on the
                   content preceding the cursor position.</li>
-                <li id="li_tzv_hz3_qxb">
+                <li id="li_tzv_hz3_qxb" irina="irina">
                   <p id="p_uzv_hz3_qxb"><uicontrol>Short Description</uicontrol> - Generates a short
                     description ( inside a <xmlelement>shortdesc</xmlelement> element) based on a
                     summary of the selected text (or the entire document if there is no selection).
                     You can configure the style and the approximate number of sentences to be
                     generated.</p>
                 </li>
-                <li id="li_g5n_jz3_qxb">
+                <li id="li_g5n_jz3_qxb" irina="irina">
                   <p id="p_h5n_jz3_qxb"><uicontrol>Index Terms</uicontrol> - Generates a
                       <xmlelement>keywords</xmlelement> element that contains index terms obtained
                     from the selected text (or the entire document if there is no selection).</p>
                 </li>
-                <li><uicontrol>Follow Instructions (available when editing schemas, XSLT
+                <li irina="irina"><uicontrol>Follow Instructions (available when editing schemas, XSLT
                     stylesheets, and Schematron files)</uicontrol> - Replaces the selected
                   instructions with content generated based on them.</li>
               </ul>
@@ -146,9 +146,9 @@
             <dt>Rewrite</dt>
             <dd>
               <ul id="ul_p21_xdn_kxb">
-                <li id="li_zr3_zg5_4xb"><b>Correct Grammar</b> - Generates a suggestion for
+                <li id="li_zr3_zg5_4xb" irina="irina"><b>Correct Grammar</b> - Generates a suggestion for
                   correcting the grammar and spelling within the selected content.</li>
-                <li id="li_tt5_mz3_qxb"><uicontrol>Improve Readability</uicontrol> - Modifies the
+                <li id="li_tt5_mz3_qxb" irina="irina"><uicontrol>Improve Readability</uicontrol> - Modifies the
                   selected content to improve readability and fix grammar/spelling errors. If you
                   hover the mouse prompt over this button, a <uicontrol><image
                       href="../img/Settings16.png"/>Settings</uicontrol> button becomes available in
@@ -157,12 +157,12 @@
                   writing level of the content to be generated. You can choose between:
                     <uicontrol>5th grade (Very Easy)</uicontrol>, <uicontrol>8th grade (Plain
                     English)</uicontrol>, and <uicontrol>College (Advanced)</uicontrol>.</li>
-                <li id="li_t34_lz3_qxb"><uicontrol>Use Active Voice</uicontrol> - Generates a
+                <li id="li_t34_lz3_qxb" irina="irina"><uicontrol>Use Active Voice</uicontrol> - Generates a
                   suggestion for replacing the selected content with content that has been converted
                   from passive to active voice.</li>
-                <li id="li_r34_lz3_qxb"><uicontrol>Itemize</uicontrol> - Generates a suggestion for
+                <li id="li_r34_lz3_qxb" irina="irina"><uicontrol>Itemize</uicontrol> - Generates a suggestion for
                   converting the selected content into a list of items.</li>
-                <li id="li_s34_lz3_qxb"><uicontrol>Join Items</uicontrol> - Generates a suggestion
+                <li id="li_s34_lz3_qxb" irina="irina"><uicontrol>Join Items</uicontrol> - Generates a suggestion
                   for converting the selected list of items into a paragraph.</li>
               </ul>
             </dd>
@@ -172,15 +172,15 @@
             <dd>
               <p id="p_ohd_4z3_qxb">
                 <ul id="ul_bwl_3xz_1xb">
-                  <li id="li_shd_4z3_qxb"><uicontrol>Answer Questions</uicontrol> - Generates
+                  <li id="li_shd_4z3_qxb" irina="irina"><uicontrol>Answer Questions</uicontrol> - Generates
                     answers to questions that the AI finds within the selected content (or the
                     entire document if there is no selection).</li>
-                  <li id="li_rhd_4z3_qxb"><uicontrol>Generate Questions</uicontrol> - Generates a
+                  <li id="li_rhd_4z3_qxb" irina="irina"><uicontrol>Generate Questions</uicontrol> - Generates a
                     list of five questions that are answered within the selected content (or the
                     entire document if there is no selection).</li>
-                  <li id="li_qhd_4z3_qxb"><uicontrol>Summarize</uicontrol> - Generates a summary of
+                  <li id="li_qhd_4z3_qxb" irina="irina"><uicontrol>Summarize</uicontrol> - Generates a summary of
                     the selected content (or the entire document if there is no selection).</li>
-                  <li id="li_phd_4z3_qxb"><uicontrol>Readability</uicontrol> - Generates suggestions
+                  <li id="li_phd_4z3_qxb" irina="irina"><uicontrol>Readability</uicontrol> - Generates suggestions
                     for changing the selected content (or the entire document if there is no
                     selection) to improve its general readability.</li>
                 </ul>
@@ -192,11 +192,11 @@
             <dd>
               <p>
                 <ul>
-                  <li><uicontrol>English</uicontrol>, <uicontrol>German</uicontrol>,
+                  <li irina="irina"><uicontrol>English</uicontrol>, <uicontrol>German</uicontrol>,
                       <uicontrol>French</uicontrol>, <uicontrol>Japanese</uicontrol> - These actions
                     translate the selected text to the target language, while preserving the
                     original XML markup.</li>
-                  <li><uicontrol>Other...</uicontrol> - This action behaves like the previous ones,
+                  <li irina="irina"><uicontrol>Other...</uicontrol> - This action behaves like the previous ones,
                     but it allows you to provide the target language. You can either choose from the
                     predefined values or type another one.</li>
                 </ul>
@@ -208,17 +208,17 @@
             <dd>
               <p id="p_dwj_gxn_2yb">
                 <ul id="ul_ewj_gxn_2yb">
-                  <li id="li_op3_djt_fyb"><uicontrol>Release Notes</uicontrol> - Creates release
+                  <li id="li_op3_djt_fyb" irina="irina"><uicontrol>Release Notes</uicontrol> - Creates release
                     notes based on a set of features or issue ticket numbers with optional
                     descriptions.</li>
-                  <li id="li_qnx_fjt_fyb"><uicontrol>Marketing Post</uicontrol> - Creates a
+                  <li id="li_qnx_fjt_fyb" irina="irina"><uicontrol>Marketing Post</uicontrol> - Creates a
                     marketing post based on a list of ideas or release notes.</li>
-                  <li><uicontrol>Improve SEO</uicontrol> - Rewrites the content to enhance search
+                  <li irina="irina"><uicontrol>Improve SEO</uicontrol> - Rewrites the content to enhance search
                     engine optimization.</li>
-                  <li id="li_fwj_gxn_2yb"><uicontrol>Pain-Agitate-Solution</uicontrol> - Rewrites
+                  <li id="li_fwj_gxn_2yb" irina="irina"><uicontrol>Pain-Agitate-Solution</uicontrol> - Rewrites
                     the content using a marketing style based on the
                       <term>Pain-Agitate-Solution</term> framework.</li>
-                  <li id="li_mky_wxn_2yb"><uicontrol>Features-Advantages-Benefits</uicontrol> -
+                  <li id="li_mky_wxn_2yb" irina="irina"><uicontrol>Features-Advantages-Benefits</uicontrol> -
                     Rewrites the content using a marketing style based on the
                       <term>Features-Advantages-Benefits</term> framework.</li>
                 </ul>
@@ -257,11 +257,11 @@
       <p id="p_dtr_2hz_txb">There is also a user drop-down menu at the top-right corner of the
           <uicontrol>AI Positron Assistant</uicontrol> view that contains the following:<ul
           id="ul_jgn_vhz_txb">
-          <li id="li_kgn_vhz_txb"><uicontrol>My account</uicontrol> - Opens a webpage where you can
+          <li id="li_kgn_vhz_txb" irina="irina"><uicontrol>My account</uicontrol> - Opens a webpage where you can
             see your current subscription package and credit status.</li>
-          <li id="li_ylx_yhz_txb"><uicontrol>Disconnect</uicontrol> - Disconnects <b>Oxygen</b> from
+          <li id="li_ylx_yhz_txb" irina="irina"><uicontrol>Disconnect</uicontrol> - Disconnects <b>Oxygen</b> from
             the <codeph>Oxygen Positron Service</codeph>.</li>
-          <li id="li_t2x_c3z_txb"><uicontrol>Preferences</uicontrol> - Opens the <xref
+          <li id="li_t2x_c3z_txb" irina="irina"><uicontrol>Preferences</uicontrol> - Opens the <xref
               href="#ai_positron/section_b5p_y14_wxb"><uicontrol>Oxygen AI Positron
                 Assistant</uicontrol> preferences page</xref> where you can configure the
               <uicontrol>AI Positron service address</uicontrol> and provide a
@@ -276,11 +276,11 @@
         response as it is being generated rather than waiting to send the entire response after it
         is generated). Once the entire response is received from the server, the following actions
         are available under the response:<ul>
-          <li><b>Insert/Replace</b> - Inserts the response at the cursor location within the
+          <li irina="irina"><b>Insert/Replace</b> - Inserts the response at the cursor location within the
             document (or replaces the selected content).</li>
-          <li><b>Preview</b> - Allows you to preview the content that would be inserted at the
+          <li irina="irina"><b>Preview</b> - Allows you to preview the content that would be inserted at the
             cursor location within the document. </li>
-          <li><b>Copy</b> - Copies the response to the system clipboard.</li>
+          <li irina="irina"><b>Copy</b> - Copies the response to the system clipboard.</li>
         </ul></p>
       <p>The Chat <uicontrol><image href="../img/ai-history-drop.png"/>History</uicontrol> drop-down
         toolbar button makes it easy to go back to previous conversations and continue them.</p>
@@ -291,9 +291,9 @@
           />Favorites</uicontrol> drop-down button to store a favorite prompt. You can use the
             <uicontrol><image href="../img/ai-var-drop18.png"/>Insert Variables</uicontrol>
         drop-down button to select one of the supported variables:<ul id="ul_ytt_dxx_pxb">
-          <li id="li_ztt_dxx_pxb"><b>${selection}</b> - Expands to the currently selected
+          <li id="li_ztt_dxx_pxb" irina="irina"><b>${selection}</b> - Expands to the currently selected
             content.</li>
-          <li id="li_a5t_dxx_pxb"><b>${document}</b> - Expands to the content of the entire
+          <li id="li_a5t_dxx_pxb" irina="irina"><b>${document}</b> - Expands to the content of the entire
             document.</li>
         </ul></p>
       <p>
@@ -464,20 +464,20 @@
         either a Positron action or as a favorite chat prompt.</p>
       <p>For example, if you want to add DITA markup to menu cascades, you can follow these
           steps:<ol id="ol_egj_cz3_zyb">
-          <li>Click the <uicontrol><image href="../img/ai-record18.png" id="image_fgj_cz3_zyb"
+          <li irina="irina">Click the <uicontrol><image href="../img/ai-record18.png" id="image_fgj_cz3_zyb"
               />Record</uicontrol> button.</li>
-          <li>In the <uicontrol>Record examples for instructions</uicontrol> dialog box, enter some
+          <li irina="irina">In the <uicontrol>Record examples for instructions</uicontrol> dialog box, enter some
             instructions like: <i>You are a technical writer. Add DITA markup to menu
             cascades.</i></li>
-          <li>Click <uicontrol>Start recording</uicontrol>.</li>
-          <li>Open a DITA topic that has a menu cascade without markup (for example: <codeph>File >
+          <li irina="irina">Click <uicontrol>Start recording</uicontrol>.</li>
+          <li irina="irina">Open a DITA topic that has a menu cascade without markup (for example: <codeph>File >
               Export</codeph>).</li>
-          <li>Edit the topic and add markup, transforming it to:
+          <li irina="irina">Edit the topic and add markup, transforming it to:
             <codeblock outputclass="language-xml" id="codeblock_ggj_cz3_zyb">&lt;menucascade>
   &lt;uicontrol>File&lt;/uicontrol>
   &lt;uicontrol>Export&lt;/uicontrol>
 &lt;/menucascade></codeblock></li>
-          <li>Click the <uicontrol><image href="../img/ai-stop-record18.png" id="image_hgj_cz3_zyb"
+          <li irina="irina">Click the <uicontrol><image href="../img/ai-stop-record18.png" id="image_hgj_cz3_zyb"
               />Record</uicontrol> button again to stop the recording. The system generates the
             following instructions with
             examples:<codeblock outputclass="language-xml" id="codeblock_igj_cz3_zyb">You are a technical writer. Add DITA markup to a menu cascades.
@@ -492,7 +492,7 @@ Output:
 Input: ${selection}
 Output:
 </codeblock></li>
-          <li>In the resulting dialog box, save the final result as either a Positron action or as a
+          <li irina="irina">In the resulting dialog box, save the final result as either a Positron action or as a
             favorite chat prompt.</li>
         </ol></p>
     </section>
@@ -510,9 +510,9 @@ Output:
                   <i>http://www.oxygenxml.com/ai/function</i> to automatically transform content
                 using AI.</p>
               <p id="p_erd_vl3_qxb">The function has two string parameters:<ul id="ul_pjk_wl3_qxb">
-                  <li id="li_qjk_wl3_qxb"><codeph>instruction</codeph> - The OpenAI instruction to
+                  <li id="li_qjk_wl3_qxb" irina="irina"><codeph>instruction</codeph> - The OpenAI instruction to
                     be performed on the content.</li>
-                  <li id="li_xwh_yl3_qxb"><codeph>content</codeph> - The content to be
+                  <li id="li_xwh_yl3_qxb" irina="irina"><codeph>content</codeph> - The content to be
                     transformed.</li>
                 </ul></p>
               <p id="p_cps_zl3_qxb">It returns a string that represents the transformed content.</p>
@@ -545,9 +545,9 @@ Output:
                   <i>http://www.oxygenxml.com/ai/function</i> to automatically validate content
                 using AI.</p>
               <p id="p_v1b_mm3_qxb">The function has two string parameters:<ul id="ul_w1b_mm3_qxb">
-                  <li id="li_x1b_mm3_qxb"><codeph>instruction</codeph> - The OpenAI instruction to
+                  <li id="li_x1b_mm3_qxb" irina="irina"><codeph>instruction</codeph> - The OpenAI instruction to
                     be performed on the content.</li>
-                  <li id="li_y1b_mm3_qxb"><codeph>content</codeph> - The content to be
+                  <li id="li_y1b_mm3_qxb" irina="irina"><codeph>content</codeph> - The content to be
                     validated.</li>
                 </ul></p>
               <p id="p_mmt_nm3_qxb">It returns a boolean value that represents the result of the

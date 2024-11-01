@@ -46,13 +46,13 @@
                           <xmlelement>prolog</xmlelement> within a DITA topic. The
                           <xmlelement>resourceid</xmlelement> element accepts the following
                           attributes:<ul id="ul_kxl_kfd_y3b">
-                          <li id="appname"><uicontrol>appname</uicontrol> - A name for the external
+                          <li id="appname" irina="irina"><uicontrol>appname</uicontrol> - A name for the external
                             application that references the topic. If this attribute is not
                             specified, its value is considered to be empty
                             (<codeph>""</codeph>).</li>
-                          <li id="li_imm_cgk_54b"><uicontrol>appid</uicontrol> - An ID used by an
+                          <li id="li_imm_cgk_54b" irina="irina"><uicontrol>appid</uicontrol> - An ID used by an
                             application to identify the topic.</li>
-                          <li id="li_jmm_cgk_54b"><uicontrol>id</uicontrol> - Specifies a value that
+                          <li id="li_jmm_cgk_54b" irina="irina"><uicontrol>id</uicontrol> - Specifies a value that
                             is used by a specific application to identify the topic, but this
                             attribute is ignored if an <uicontrol><xmlatt>appid</xmlatt></uicontrol>
                             attribute is used.</li>
@@ -123,9 +123,9 @@
       </p>
       <p id="p_vmm_cgk_54b">There are two ways of implementing context-sensitive help in your system:<ul
           id="ul_erx_glz_cr">
-          <li id="li_wmm_cgk_54b">The XML mapping file can be loaded by a PHP script on the server side. The script
+          <li id="li_wmm_cgk_54b" irina="irina">The XML mapping file can be loaded by a PHP script on the server side. The script
             receives the <codeph>contextId</codeph> value and will look it up in the XML file.</li>
-          <li id="li_xmm_cgk_54b">Invoke the <filepath>cshelp.html</filepath> WebHelp system file
+          <li id="li_xmm_cgk_54b" irina="irina">Invoke the <filepath>cshelp.html</filepath> WebHelp system file
             and pass the <codeph>contextId</codeph> parameter with a specific value. The WebHelp
             system will automatically open the help page associated with the value of the
               <codeph>contextId</codeph>

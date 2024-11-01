@@ -9,10 +9,10 @@
     <p id="p_lr1_dgk_54b">This procedure describes how to add defined actions to a toolbar for a custom <xref
         keyref="glossentry_framework"><term>framework</term></xref>.  You can also create additional
       custom toolbars with existing or custom actions.<ol id="ol_mr1_dgk_54b">
-        <li id="li_nr1_dgk_54b">Open the <xref href="the-document-type-dialog.dita#the-document-type-dialog"
+        <li id="li_nr1_dgk_54b" irina="irina">Open the <xref href="the-document-type-dialog.dita#the-document-type-dialog"
               ><uicontrol>Document Type</uicontrol> configuration dialog box</xref> for your custom
             <term>framework</term> and select the <uicontrol>Author</uicontrol> tab.</li>
-        <li id="li_or1_dgk_54b">
+        <li id="li_or1_dgk_54b" irina="irina">
           <p id="p_pr1_dgk_54b">Go to the <uicontrol>Toolbar</uicontrol> subtab.</p>
           <p id="p_qr1_dgk_54b">
             <fig product="editor author " id="fig_rr1_dgk_54b">
@@ -31,7 +31,7 @@
             toolbar. The special entry called <i>Separator</i> allows you to visually separate the
             actions in the toolbar.</p>
         </li>
-        <li id="li_vr1_dgk_54b">To add an action, select it in the left panel and select the particular toolbar label
+        <li id="li_vr1_dgk_54b" irina="irina">To add an action, select it in the left panel and select the particular toolbar label
           where you want it added in the right panel section, then click the <uicontrol><image
               href="../img/AddAsChild16.png"/>Add as child</uicontrol> or <uicontrol><image
               href="../img/AddAsSibling16.png"/>Add as sibling</uicontrol> button.</li>

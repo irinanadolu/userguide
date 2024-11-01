@@ -18,11 +18,11 @@
     <p id="p_ngp_bgk_54b">The following options control the behavior of the <uicontrol>Format and Indent</uicontrol>
       action:</p>
     <ul id="ul_ogp_bgk_54b">
-      <li id="li_pgp_bgk_54b"><uicontrol>Start curly brace on new line</uicontrol> - Opening curly braces start on a new
+      <li id="li_pgp_bgk_54b" irina="irina"><uicontrol>Start curly brace on new line</uicontrol> - Opening curly braces start on a new
         line.</li>
-      <li id="li_qgp_bgk_54b"><uicontrol>Preserve empty lines</uicontrol> - Empty lines in the JavaScript code are
+      <li id="li_qgp_bgk_54b" irina="irina"><uicontrol>Preserve empty lines</uicontrol> - Empty lines in the JavaScript code are
         preserved. This option is selected by default.</li>
-      <li id="li_rgp_bgk_54b"><uicontrol>Allow formatting embedded JavaScript</uicontrol> - Applied
+      <li id="li_rgp_bgk_54b" irina="irina"><uicontrol>Allow formatting embedded JavaScript</uicontrol> - Applied
         only to XHTML documents, this option allows <ph keyref="product"/> to format embedded
         JavaScript code<ph
           product="author developer editor authorEclipse developerEclipse editorEclipse">, taking

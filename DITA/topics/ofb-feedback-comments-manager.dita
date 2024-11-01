@@ -30,22 +30,22 @@
     <section id="section_tdq_wvx_qsb">
       <title>Quick Installation</title>
       <p conkeyref="reusables-addons/p_install_button" id="p_hzl_4xg_rsb"/>
-      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed"><![CDATA[
-               <a
+      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed">
+               &lt;a
           title = "Drag and drop into the Oxygen editing area to install (Oxygen 24.1 and newer)."
           href="https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml?oxygenAddonId=oxygen.feedback.plugin"
           style="padding: 8px; border: 1px solid #cbcbcb; border-radius: 4px; cursor: grab;color:black;
-          text-decoration:none;"><img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/><span>Install</span></a>]]></foreign></p>
+          text-decoration:none;">&lt;img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/>&lt;span>Install&lt;/span>&lt;/a></foreign></p>
     </section>
     <section id="section_t4n_5jx_pkb">
       <title>Manual Installation</title>
       <p id="p_j1x_dgk_54b">To manually install this add-on in <term>Oxygen XML
         Editor/Author</term>, follow this procedure:<ol id="ol_brf_ngx_pkb">
-          <li id="li_k1x_dgk_54b">Go to <menucascade>
+          <li id="li_k1x_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Install new add-ons</uicontrol>
             </menucascade> to open an add-on selection dialog box. </li>
-          <li id="li_l1x_dgk_54b">Enter or paste
+          <li id="li_l1x_dgk_54b" irina="irina">Enter or paste
               <b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b> in the
               <uicontrol>Show add-ons from</uicontrol> field or select it from the drop-down
               menu.<note id="note_manual_installation">If you have issues connecting to the default
@@ -54,11 +54,11 @@
                 >download the add-on package</xref>, unzip it, then use the <uicontrol>Browse for
                 local files</uicontrol> action in the <uicontrol>Install new add-ons</uicontrol>
               dialog box to locate the downloaded <filepath>addon.xml</filepath> file.</note></li>
-          <li id="li_m1x_dgk_54b">Select <b>Oxygen Feedback Connector</b> add-on and click
+          <li id="li_m1x_dgk_54b" irina="irina">Select <b>Oxygen Feedback Connector</b> add-on and click
               <uicontrol>Next</uicontrol>.</li>
-          <li id="li_n1x_dgk_54b">Select the <b>I accept all terms of the end user license
+          <li id="li_n1x_dgk_54b" irina="irina">Select the <b>I accept all terms of the end user license
               agreement</b> option and click <uicontrol>Finish</uicontrol>.</li>
-          <li id="li_o1x_dgk_54b">Restart the application.</li>
+          <li id="li_o1x_dgk_54b" irina="irina">Restart the application.</li>
         </ol></p>
       <p id="p_p1x_dgk_54b"><b>Result:</b> The <uicontrol>Feedback Comments Manager</uicontrol> view is now available.
         By default, it is displayed to the right of the main editing panel. If the view is not
@@ -76,15 +76,15 @@
         configured a mapping, you just need to connect the <uicontrol>Feedback Comments
           Manager</uicontrol> to your Feedback account.</p>
       <p id="p_r1x_dgk_54b">To connect, follow this procedure:<ol id="ol_nmp_4kx_pkb">
-          <li id="li_s1x_dgk_54b">Select <uicontrol>Connect</uicontrol> from the user drop-down menu at the top-right
+          <li id="li_s1x_dgk_54b" irina="irina">Select <uicontrol>Connect</uicontrol> from the user drop-down menu at the top-right
             corner of the <uicontrol>Feedback Comments Manager</uicontrol>.<p id="p_t1x_dgk_54b"><b>Step Result:</b>
               You are directed to the <i>administration login page</i> in your default
             browser.</p></li>
-          <li id="li_u1x_dgk_54b">Log in with your credentials, click <uicontrol>Authorize</uicontrol> in the resulting
+          <li id="li_u1x_dgk_54b" irina="irina">Log in with your credentials, click <uicontrol>Authorize</uicontrol> in the resulting
             page, and go back to <term>Oxygen XML Editor/Author</term>.</li>
-          <li id="li_v1x_dgk_54b">If this is your first time using the <uicontrol>Feedback Comments Manager</uicontrol>,
+          <li id="li_v1x_dgk_54b" irina="irina">If this is your first time using the <uicontrol>Feedback Comments Manager</uicontrol>,
             you need to configure a mapping:<ol id="ol_pcf_lnx_pkb">
-              <li id="li_w1x_dgk_54b">Select <uicontrol>Preferences</uicontrol> from the user drop-down menu at the
+              <li id="li_w1x_dgk_54b" irina="irina">Select <uicontrol>Preferences</uicontrol> from the user drop-down menu at the
                 top-right corner of the <uicontrol>Feedback Comments Manager</uicontrol>.<p id="p_x1x_dgk_54b"><b>Step
                     Result:</b> You are directed to the <uicontrol>Oxygen Feedback
                     Connector</uicontrol> preferences page (you can also reach this page by going to <menucascade>
@@ -93,18 +93,18 @@
                     <uicontrol>Plugins</uicontrol>
                     <uicontrol>Oxygen Feedback Connector</uicontrol>
                   </menucascade>).</p></li>
-              <li id="li_y1x_dgk_54b">Click the <uicontrol>New</uicontrol> button at the bottom of the mappings
+              <li id="li_y1x_dgk_54b" irina="irina">Click the <uicontrol>New</uicontrol> button at the bottom of the mappings
                     table.<p id="p_z1x_dgk_54b"><b>Step Result:</b> This opens the <uicontrol>New Oxygen Feedback
                     Mapping</uicontrol> dialog box where you can configure the mapping.</p></li>
-              <li id="li_abx_dgk_54b">In the <uicontrol>Context DITA map location</uicontrol> field, click the <image
+              <li id="li_abx_dgk_54b" irina="irina">In the <uicontrol>Context DITA map location</uicontrol> field, click the <image
                   href="../img/OpenURL16.png" id="image_efh_j4x_pkb"/> browsing button and specify
                 the URL of your context DITA map. This is the path to the root DITA map used to
                 publish your output.</li>
-              <li id="li_bbx_dgk_54b">For the <uicontrol>Published site base URL</uicontrol> field, <term>Oxygen XML
+              <li id="li_bbx_dgk_54b" irina="irina">For the <uicontrol>Published site base URL</uicontrol> field, <term>Oxygen XML
                   Editor/Author</term> automatically detects all the base URLs for the site
                 configurations that you have the role of <i>Moderator</i>, <i>Admin</i>, or
                   <i>Owner</i>. You can type the base URL or select it from the drop-down menu.</li>
-              <li id="li_cbx_dgk_54b">Click <uicontrol>OK</uicontrol> in both dialog boxes.</li>
+              <li id="li_cbx_dgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> in both dialog boxes.</li>
             </ol></li>
         </ol></p>
       <p id="p_dbx_dgk_54b"><b>Result:</b> The comments that exist in the published WebHelp output
@@ -171,10 +171,10 @@
             <dt>Feedback for</dt>
             <dd>You can choose which display mode to use for retrieving comments. The options
                 are:<ul id="ul_l1f_ktt_clb">
-                <li id="li_tbx_dgk_54b"><uicontrol>Context DITA map</uicontrol> - If there are base URLs mapped to the
+                <li id="li_tbx_dgk_54b" irina="irina"><uicontrol>Context DITA map</uicontrol> - If there are base URLs mapped to the
                   current context map, comments from all versions defined by the given base URLs
                   will be loaded.</li>
-                <li id="li_ubx_dgk_54b"><uicontrol>Current editor</uicontrol> - Only comments added in the output for
+                <li id="li_ubx_dgk_54b" irina="irina"><uicontrol>Current editor</uicontrol> - Only comments added in the output for
                   the current topic will be loaded. This mode will retrieve comments from web pages
                   generated from any DITA source file (<filepath>.dita</filepath> file extension) as
                   well as any source file with a file extension of <filepath>xml</filepath>,
@@ -206,18 +206,18 @@
                   <dlentry id="dlentry_acx_dgk_54b">
                     <dt>Status</dt>
                     <dd>You can choose between:<ul id="ul_czr_lsj_r4b">
-                        <li id="li_bcx_dgk_54b"><uicontrol>Not resolved (Pending, Open,
+                        <li id="li_bcx_dgk_54b" irina="irina"><uicontrol>Not resolved (Pending, Open,
                             Reopened)</uicontrol> - Displays comments that are in a state of
                             <i>Pending</i>, <i>Open</i>, or <i>Reopened</i>.</li>
-                        <li id="li_ccx_dgk_54b"><uicontrol>Pending</uicontrol> - Only displays comments that are in a
+                        <li id="li_ccx_dgk_54b" irina="irina"><uicontrol>Pending</uicontrol> - Only displays comments that are in a
                             <i>Pending</i> state.</li>
-                        <li id="li_dcx_dgk_54b"><uicontrol>Open</uicontrol> - Only displays comments that are in an
+                        <li id="li_dcx_dgk_54b" irina="irina"><uicontrol>Open</uicontrol> - Only displays comments that are in an
                             <i>Open</i> state.</li>
-                        <li id="li_dy2_nlf_btb"><uicontrol>Reopened</uicontrol> - Only displays
+                        <li id="li_dy2_nlf_btb" irina="irina"><uicontrol>Reopened</uicontrol> - Only displays
                           comments that are in an <i>Reopened</i> state.</li>
-                        <li id="li_ecx_dgk_54b"><b>Resolved</b> - Only displays comments that are in a <i>Resolved</i>
+                        <li id="li_ecx_dgk_54b" irina="irina"><b>Resolved</b> - Only displays comments that are in a <i>Resolved</i>
                           state.</li>
-                        <li id="li_fcx_dgk_54b"><uicontrol>All</uicontrol> - Displays all comments.</li>
+                        <li id="li_fcx_dgk_54b" irina="irina"><uicontrol>All</uicontrol> - Displays all comments.</li>
                       </ul></dd>
                   </dlentry>
                 </dl>

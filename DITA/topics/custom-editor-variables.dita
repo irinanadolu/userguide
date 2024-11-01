@@ -20,15 +20,15 @@
         href="preferences-custom-editor-variables.dita#preferences-custom-editor-variables"
           ><uicontrol>Custom Editor Variables</uicontrol> preferences page</xref>. To create a
       custom editor variable, follow these steps:<ol id="ol_k2s_bgk_54b">
-        <li id="li_l2s_bgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
+        <li id="li_l2s_bgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
             <uicontrol>Custom Editor Variables</uicontrol>.</li>
-        <li id="li_m2s_bgk_54b">Click the <uicontrol><image href="../img/Add16.png" placement="inline"
+        <li id="li_m2s_bgk_54b" irina="irina">Click the <uicontrol><image href="../img/Add16.png" placement="inline"
               product="authorEclipse developerEclipse editorEclipse"/>New</uicontrol> button at the
           bottom of the table.</li>
-        <li id="li_n2s_bgk_54b">Use the subsequent dialog box to specify the <uicontrol>Name</uicontrol>,
+        <li id="li_n2s_bgk_54b" irina="irina">Use the subsequent dialog box to specify the <uicontrol>Name</uicontrol>,
             <uicontrol>Value</uicontrol>, and <uicontrol>Description</uicontrol> for the new editor
           variable.</li>
-        <li id="li_o2s_bgk_54b">Click <uicontrol>OK</uicontrol> to save your configuration.</li>
+        <li id="li_o2s_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> to save your configuration.</li>
       </ol></p>
   </body>
   <related-links><link href="editor-variables.dita#editor-variables"/>

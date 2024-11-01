@@ -76,10 +76,10 @@
     <p id="p_gvy_bgk_54b">The following XML document types make use of the <b>dir</b> attribute with the above
       values:</p>
     <ul id="ul_hvy_bgk_54b">
-      <li id="li_ivy_bgk_54b">DITA</li>
-      <li id="li_jvy_bgk_54b">DocBook</li>
-      <li id="li_kvy_bgk_54b">TEI</li>
-      <li id="li_lvy_bgk_54b">XHTML</li>
+      <li id="li_ivy_bgk_54b" irina="irina">DITA</li>
+      <li id="li_jvy_bgk_54b" irina="irina">DocBook</li>
+      <li id="li_kvy_bgk_54b" irina="irina">TEI</li>
+      <li id="li_lvy_bgk_54b" irina="irina">XHTML</li>
     </ul>
     <note id="note_mvy_bgk_54b">When the <xref keyref="glossentry_inline-element"><term>inline element</term></xref> tags
       are visible, the text in the line is arranged according to the BIDI algorithm after replacing

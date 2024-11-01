@@ -28,22 +28,22 @@
     <section id="section_tdq_wvx_qsb">
       <title>Quick Installation</title>
       <p conkeyref="reusables-addons/p_install_button" id="p_hzl_4xg_rsb"/>
-      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed"><![CDATA[
-               <a
+      <p id="p_x42_bwx_qsb"><foreign outputclass="html-embed">
+               &lt;a
           title = "Drag and drop into the Oxygen editing area to install (Oxygen 24.1 and newer)."
           href="https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml?oxygenAddonId=oxygenxml.jsonschema.converter"
           style="padding: 8px; border: 1px solid #cbcbcb; border-radius: 4px; cursor: grab;color:black;
-          text-decoration:none;"><img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/><span>Install</span></a>]]></foreign></p>
+          text-decoration:none;">&lt;img style="vertical-align:middle;" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YTRmNjlkOTctZTVhYS1jNTQ0LThmNmQtNDkzOWY4ZmEyY2ZkIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5QkI4NEIwOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5QkI4NEFGOTMxMTExRUNCNkQ5QUZENkYwQTY1QkNFIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjY5ZDk3LWU1YWEtYzU0NC04ZjZkLTQ5MzlmOGZhMmNmZCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDphNGY2OWQ5Ny1lNWFhLWM1NDQtOGY2ZC00OTM5ZjhmYTJjZmQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Vgc5NAAABCUlEQVR42mL8//8/Ay0BEwONAQuMoVtxlKoGX+6wRrXgHxASANjCkpFoH/z//4+2QURzC/4x/KWxBbQPIlr7gIHWcUAjHzAhpyIceB0Q/8chBxJfi02OFB/kALETEPNjkXsPlSfsg3+44TMgLschVwLEz7HJkJqKZgFxNBDbIontAeL51MoHoHIoFYgvAjE7EH8F4nQc5ROOfAD01suJMSiS4vlLkLk3gbgFiJuBuBaI7yFLouvF6QPRvEVgV72eFMeIxVedQKwAxJOwGYasF6sPkGl0NhT8BuIU3OH4j3BpCqOFc+eRVJcC1RPIaEg+oBQL5c7B5oP/DII5s4mqpUgBjEO+VQEQYADd+O+DWPr/NQAAAABJRU5ErkJggg=="/>&lt;span>Install&lt;/span>&lt;/a></foreign></p>
     </section>
     <section id="section_ww2_szg_rsb">
       <title>Manual Installation</title>
       <p id="p_vyg_dgk_54b">To manually install it the add-on, follow these instructions:<ol
           id="ol_wyg_dgk_54b">
-          <li id="li_xyg_dgk_54b">Go to <menucascade>
+          <li id="li_xyg_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Help</uicontrol>
               <uicontrol>Install new add-ons</uicontrol>
             </menucascade> to open an add-on selection dialog box.</li>
-          <li id="li_yyg_dgk_54b">Enter or paste
+          <li id="li_yyg_dgk_54b" irina="irina">Enter or paste
               <b>https://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</b> in the
               <uicontrol>Show add-ons from</uicontrol> field or select it from the drop-down
               menu.<note id="note_manual_installation">If you have issues connecting to the default
@@ -52,12 +52,12 @@
                 >download the add-on package</xref>, unzip it, then use the <uicontrol>Browse for
                 local files</uicontrol> action in the <uicontrol>Install new add-ons</uicontrol>
               dialog box to locate the downloaded <filepath>addon.xml</filepath> file.</note></li>
-          <li id="li_zyg_dgk_54b">Select the <b>XSD to JSON Schema</b> add-on and click
+          <li id="li_zyg_dgk_54b" irina="irina">Select the <b>XSD to JSON Schema</b> add-on and click
               <uicontrol>Next</uicontrol>.</li>
-          <li id="li_azg_dgk_54b">Read the end-user license agreement. Then select the <uicontrol>I
+          <li id="li_azg_dgk_54b" irina="irina">Read the end-user license agreement. Then select the <uicontrol>I
               accept all terms of the end-user license agreement</uicontrol> option and click
               <uicontrol>Finish</uicontrol>.</li>
-          <li id="li_bzg_dgk_54b">Restart the application.</li>
+          <li id="li_bzg_dgk_54b" irina="irina">Restart the application.</li>
         </ol></p>
       <p id="p_czg_dgk_54b"><b>Result:</b> The <uicontrol>XSD to JSON Schema</uicontrol> dialog box
         is now available and can be selected from the <menucascade>
@@ -69,7 +69,7 @@
       <title>Converting XSD to JSON Schema</title>
       <p id="p_cxf_cgk_54b">To convert an XML Schema (XSD) to a JSON Schema, follow these steps:</p>
       <ol id="procedure-import-from-HTML">
-        <li id="li_dxf_cgk_54b">
+        <li id="li_dxf_cgk_54b" irina="irina">
           <p id="p_exf_cgk_54b">Select the <uicontrol>XSD to JSON Schema</uicontrol> action from the <menucascade>
               <uicontrol>Tools</uicontrol>
               <uicontrol>JSON Tools</uicontrol>
@@ -83,45 +83,45 @@
             </fig>
           </p>
         </li>
-        <li id="li_hxf_cgk_54b">In the <uicontrol>XSD URL</uicontrol> field, choose or enter the URL
+        <li id="li_hxf_cgk_54b" irina="irina">In the <uicontrol>XSD URL</uicontrol> field, choose or enter the URL
           of the XML Schema document. The conversion supports XSD versions 1.0 and 1.1.</li>
-        <li id="li_ixf_cgk_54b">In the <uicontrol>Output file</uicontrol> field, choose the path for
+        <li id="li_ixf_cgk_54b" irina="irina">In the <uicontrol>Output file</uicontrol> field, choose the path for
           the resulting output file.</li>
-        <li id="li_mxf_cgk_54b">[Optional] You can select the <uicontrol>Open in Editor</uicontrol>
+        <li id="li_mxf_cgk_54b" irina="irina">[Optional] You can select the <uicontrol>Open in Editor</uicontrol>
           option to open the resulting JSON Schema document in the main editing pane.</li>
-        <li id="li_jxf_cgk_54b">For the <uicontrol>JSON Schema version</uicontrol> option, choose
+        <li id="li_jxf_cgk_54b" irina="irina">For the <uicontrol>JSON Schema version</uicontrol> option, choose
           the version of the resulting JSON schema. The possible choices are: <uicontrol>Draft
             4</uicontrol>, <uicontrol>Draft 6</uicontrol>, <uicontrol>Draft 7</uicontrol>,
             <uicontrol>2019-09</uicontrol>, and <uicontrol>2020-12</uicontrol>.</li>
-        <li id="li_kxf_cgk_54b">[Optional] If you select the <uicontrol>Restrict additional
+        <li id="li_kxf_cgk_54b" irina="irina">[Optional] If you select the <uicontrol>Restrict additional
             content</uicontrol> option, then <codeph>additionalProperties</codeph> (for objects) and
             <codeph>additionalItems</codeph> (for arrays) will be set to <codeph>false</codeph> in
           the resulting schema. By default, these keys are not in the schema, meaning that providing
           additional content (according to the schema) is allowed.</li>
-        <li id="li_lxf_cgk_54b">[Optional] You can select the <uicontrol>Preserve case of names from
+        <li id="li_lxf_cgk_54b" irina="irina">[Optional] You can select the <uicontrol>Preserve case of names from
             the XSD</uicontrol> option if you want the names from the XSD to remain unchanged in the
           resulting JSON Schema. Otherwise, the default JAXB naming algorithm will be applied (for
           example, "<codeph>some.nAMe</codeph>" is changed to "<codeph>SomeNAMe</codeph>", or
             "<codeph>Some_oth3r_name</codeph>" is changed to "<codeph>SomeOth3RName</codeph>").</li>
-        <li id="li_nxf_cgk_54b">Click the <uicontrol>Convert</uicontrol> button.</li>
+        <li id="li_nxf_cgk_54b" irina="irina">Click the <uicontrol>Convert</uicontrol> button.</li>
       </ol>
       <p id="p_oxf_cgk_54b"><b>Result:</b> The original XSD document is now converted to a JSON
         Schema document. The resulting JSON Schema will be the specified draft and will contain:<ul
           id="ul_bfg_ngq_ckb">
-          <li id="li_pxf_cgk_54b">The <codeph>$id</codeph> of the schema, generated from XSD
+          <li id="li_pxf_cgk_54b" irina="irina">The <codeph>$id</codeph> of the schema, generated from XSD
               <codeph>targetNamespace</codeph>.</li>
-          <li id="li_qxf_cgk_54b">The <codeph>$definitions</codeph> section, which declares
+          <li id="li_qxf_cgk_54b" irina="irina">The <codeph>$definitions</codeph> section, which declares
               <codeph>complex</codeph> and <codeph>enum</codeph> types.</li>
-          <li id="li_rxf_cgk_54b">The <codeph>anyOf</codeph> section, which lists possible top-level
+          <li id="li_rxf_cgk_54b" irina="irina">The <codeph>anyOf</codeph> section, which lists possible top-level
             elements as an array of objects.</li>
         </ul></p>
       <p id="p_sxf_cgk_54b"><b>Other Possible Results</b>:<ul id="ul_j4b_1hq_ckb">
-          <li id="li_txf_cgk_54b">If an XSD type extends another type, then its schema is combined
+          <li id="li_txf_cgk_54b" irina="irina">If an XSD type extends another type, then its schema is combined
             with the schema of the base type using the <codeph>allOf</codeph> keyword.</li>
-          <li id="li_uxf_cgk_54b">If an extension in XSD defines an element with the same name as an
+          <li id="li_uxf_cgk_54b" irina="irina">If an extension in XSD defines an element with the same name as an
             attribute in the base, a property named <codeph>rest</codeph> is generated to avoid name
             conflicts in JSON.</li>
-          <li id="li_vxf_cgk_54b">If a property of a complex type is a collection property, the
+          <li id="li_vxf_cgk_54b" irina="irina">If a property of a complex type is a collection property, the
             schema of the collection items will be wrapped in the JSON array schema.</li>
         </ul></p>
     </section>
@@ -307,17 +307,17 @@
       <title>Conversion Limitations</title>
       <p id="p_xxf_cgk_54b">In most cases, the conversion creates an equivalent schema, but there are some
           limitations:<ul id="ul_zb2_kch_cjb">
-          <li id="li_yxf_cgk_54b">Restrictions/facets are not taken into consideration when
+          <li id="li_yxf_cgk_54b" irina="irina">Restrictions/facets are not taken into consideration when
             converting (<codeph>fractionDigits, pattern, totalDigits, whiteSpace</codeph>,
               <codeph>minInclusive</codeph>, <codeph>maxInclusive</codeph>, and the restrictions for
             length, except <codeph>enumeration)</codeph>. However, extensions and indicators are
             properly converted (<codeph>minOccurs, maxOccurs, group, sequence,
             choice</codeph>).</li>
-          <li id="li_zxf_cgk_54b">The <xmlelement>documentation</xmlelement> element is not converted into
+          <li id="li_zxf_cgk_54b" irina="irina">The <xmlelement>documentation</xmlelement> element is not converted into
               <xmlelement>description</xmlelement>.</li>
-          <li id="li_ayf_cgk_54b">The <xmlatt>substitutionGroup</xmlatt> attribute for an element that has no declared
+          <li id="li_ayf_cgk_54b" irina="irina">The <xmlatt>substitutionGroup</xmlatt> attribute for an element that has no declared
             type becomes a reference to the element that can substitute it.</li>
-          <li id="li_byf_cgk_54b">The <xmlatt>block</xmlatt> attribute is not taken into consideration during the
+          <li id="li_byf_cgk_54b" irina="irina">The <xmlatt>block</xmlatt> attribute is not taken into consideration during the
             conversion.</li>
         </ul></p>
     </section>

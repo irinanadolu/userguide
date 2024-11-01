@@ -42,21 +42,21 @@
         particular usage.</p>
       <p id="p_fwr_dgk_54b">Some of the things that JavaScript code in a plugin can customize according to the profile
         of the current user include:<ul id="ul_o3w_bhq_1z">
-          <li id="li_gwr_dgk_54b">You can <xref keyref="jscript_api_removeaction">remove actions</xref> from the
+          <li id="li_gwr_dgk_54b" irina="irina">You can <xref keyref="jscript_api_removeaction">remove actions</xref> from the
             toolbars and contextual menus.</li>
-          <li id="li_hwr_dgk_54b">You can <xref keyref="jscript_api_customaction">add custom actions</xref> to the
+          <li id="li_hwr_dgk_54b" irina="irina">You can <xref keyref="jscript_api_customaction">add custom actions</xref> to the
             toolbars, contextual menus, or form controls.</li>
-          <li id="li_iwr_dgk_54b">You can <xref keyref="jscript_api_customview">add or remove side-views</xref> from the
+          <li id="li_iwr_dgk_54b" irina="irina">You can <xref keyref="jscript_api_customview">add or remove side-views</xref> from the
             interface.</li>
-          <li id="li_jwr_dgk_54b">You can control whether or not the <term>Change Tracking</term> feature is enabled by
+          <li id="li_jwr_dgk_54b" irina="irina">You can control whether or not the <term>Change Tracking</term> feature is enabled by
             setting the <b>trackChanges</b> property in a plugin (using the <xref
               keyref="jscript_api_workspace_LoadingOptions"><i>LoadingOptions</i> type definition
               from the <i>Workspace</i> API</xref>).</li>
-          <li id="li_kwr_dgk_54b">You can control the behavior of the <uicontrol><shortcut>Enter</shortcut></uicontrol>
+          <li id="li_kwr_dgk_54b" irina="irina">You can control the behavior of the <uicontrol><shortcut>Enter</shortcut></uicontrol>
             key for particular users by setting the <b>ccOnEnter</b> property in a plugin (using the
               <xref keyref="jscript_api_workspace_LoadingOptions"><i>LoadingOptions</i> type
               definition from the <i>Workspace</i> API</xref>).</li>
-          <li id="li_lwr_dgk_54b">You can hide the <i>breadcrumb</i> that shows the document's XML structure and
+          <li id="li_lwr_dgk_54b" irina="irina">You can hide the <i>breadcrumb</i> that shows the document's XML structure and
             normally appears at the bottom of the interface. You can do this by setting the
               <b>hideBreadcrumb</b> property in a plugin (using the <xref
               keyref="jscript_api_workspace_LoadingOptions"><i>LoadingOptions</i> type definition
@@ -70,15 +70,15 @@
         using the <xref href="customizing_frameworks.dita#customizing_frameworks/section_zzf_pns_vz"
           >framework extension</xref> mechanism.</p>
       <p id="p_nwr_dgk_54b">To configure a framework to be loaded for a particular user profile:<ol id="ol_z4m_r5c_fmb">
-          <li id="li_owr_dgk_54b">Set a <xref keyref="jscript_api_workspace_LoadingOptions">loading option</xref> that
+          <li id="li_owr_dgk_54b" irina="irina">Set a <xref keyref="jscript_api_workspace_LoadingOptions">loading option</xref> that
             specifies the role of the user using <xref href="customizing_js.dita">JavaScript
               code</xref>. The profile should be one of: <codeph>author</codeph>,
               <codeph>reviewer</codeph>, or <codeph>sme</codeph>.</li>
-          <li id="li_pwr_dgk_54b">Install this plugin: <xref
+          <li id="li_pwr_dgk_54b" irina="irina">Install this plugin: <xref
               href="https://github.com/oxygenxml/web-author-user-role-plugin/" format="html"
               scope="external"/>. It will contribute some framework matching rules that takes the
             profile of the user into account.</li>
-          <li id="li_qwr_dgk_54b">Configure each of the <uicontrol>Association rules</uicontrol> for your framework to
+          <li id="li_qwr_dgk_54b" irina="irina">Configure each of the <uicontrol>Association rules</uicontrol> for your framework to
             use the Java class that corresponds to the desired profile:
               <codeph>AuthorUserFrameworkMatcher</codeph>,
               <codeph>ReviewerUserFrameworkMatcher</codeph>, or

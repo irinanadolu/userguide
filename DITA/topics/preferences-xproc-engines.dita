@@ -44,18 +44,18 @@
     </p>
     <p id="p_rzp_bgk_54b">The following options can be configure in this custom engine configuration dialog box:<ul
         id="ul_u5h_xgg_ps">
-        <li id="li_szp_bgk_54b"><uicontrol>Name</uicontrol> - The value of this field will be displayed in the XProc
+        <li id="li_szp_bgk_54b" irina="irina"><uicontrol>Name</uicontrol> - The value of this field will be displayed in the XProc
           transformation scenario and in the command line that will start it.</li>
-        <li id="li_tzp_bgk_54b"><uicontrol>Description</uicontrol> - A textual description that will appear as a tooltip
+        <li id="li_tzp_bgk_54b" irina="irina"><uicontrol>Description</uicontrol> - A textual description that will appear as a tooltip
           where the XProc engine will be used.</li>
-        <li id="li_uzp_bgk_54b"><uicontrol>Working directory</uicontrol> - The working directory for resolving relative
+        <li id="li_uzp_bgk_54b" irina="irina"><uicontrol>Working directory</uicontrol> - The working directory for resolving relative
           paths. <ph conkeyref="reusables-user-guide/specify-path-without-drop-down"/></li>
-        <li id="li_vzp_bgk_54b"><uicontrol>Command line</uicontrol> - The command line that will run the XProc engine as
+        <li id="li_vzp_bgk_54b" irina="irina"><uicontrol>Command line</uicontrol> - The command line that will run the XProc engine as
           an external process. <ph conkeyref="reusables-user-guide/specify-path-without-drop-down"
           /></li>
-        <li id="li_wzp_bgk_54b"><uicontrol>Output encoding</uicontrol> - The encoding for the output stream of the XProc
+        <li id="li_wzp_bgk_54b" irina="irina"><uicontrol>Output encoding</uicontrol> - The encoding for the output stream of the XProc
           engine, used for reading and displaying the output messages.</li>
-        <li id="li_xzp_bgk_54b"><uicontrol>Error encoding</uicontrol> - The encoding for the error stream of the XProc
+        <li id="li_xzp_bgk_54b" irina="irina"><uicontrol>Error encoding</uicontrol> - The encoding for the error stream of the XProc
           engine, used for reading and displaying the messages from the error stream.</li>
       </ul></p>
     <p id="p_yzp_bgk_54b">

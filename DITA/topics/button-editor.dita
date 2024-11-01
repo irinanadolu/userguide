@@ -17,26 +17,26 @@
   <body>
     <p id="p_a4d_dgk_54b">The <codeph>oxy_button</codeph> form control supports the following properties:<ul
         id="ul_pln_sst_wq">
-        <li id="li_b4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
-        <li id="li_c4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
-        <li id="li_d4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
-        <li id="li_e4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/transparent-property"/></li>
-        <li id="li_f4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/show_text"
+        <li id="li_b4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/></li>
+        <li id="li_c4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/color-property"/></li>
+        <li id="li_d4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
+        <li id="li_e4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/transparent-property"/></li>
+        <li id="li_f4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/show_text"
           /><codeblock conkeyref="reusables-author-mode-customization/show_text_codeblock" outputclass="language-css" id="codeblock_g4d_dgk_54b"/></li>
-        <li id="li_h4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/show_icon"
+        <li id="li_h4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/show_icon"
           /><codeblock conkeyref="reusables-author-mode-customization/show_icon_codeblock" outputclass="language-css" id="codeblock_i4d_dgk_54b"/></li>
-        <li id="li_j4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/enable-read-only-context-property"
+        <li id="li_j4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/enable-read-only-context-property"
           /></li>
-        <li id="li_k4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+        <li id="li_k4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" xml:space="preserve" id="codeblock_l4d_dgk_54b">p:before {
   content: oxy_button(hoverPseudoclassName, 'showBorder')
 }
 p:showBorder {
   border: 1px solid red;
 }</codeblock></li>
-        <li id="li_m4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/actionContext-property"/></li>
-        <li conkeyref="reusables-author-mode-customization/actionID-property" id="li_n4d_dgk_54b"/>
-        <li id="li_o4d_dgk_54b"><ph conkeyref="reusables-author-mode-customization/action-property"/><note type="tip" id="note_p4d_dgk_54b"
+        <li id="li_m4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/actionContext-property"/></li>
+        <li conkeyref="reusables-author-mode-customization/actionID-property" id="li_n4d_dgk_54b" irina="irina"/>
+        <li id="li_o4d_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/action-property"/><note type="tip" id="note_p4d_dgk_54b"
             >You can also create a button form control <xref
               href="dg-action-function.dita#dg-action-function/button-form-control-directly"
               >directly from an <i>oxy_action</i>

@@ -33,16 +33,16 @@
       <title>Adding a Fallback Font in Windows (7 or Later)</title>
       <p id="p_vr5_bgk_54b">To add a fallback font to the <ph keyref="product"/> installation, use the following
           procedure:<ol id="ol_lqt_pr3_5s">
-          <li id="li_wr5_bgk_54b">Start Windows Explorer and browse to the <filepath><term
+          <li id="li_wr5_bgk_54b" irina="irina">Start Windows Explorer and browse to the <filepath><term
                 conkeyref="reusables-user-guide/oxy-install-dir"/>/jre/lib/fonts</filepath>
             directory.</li>
-          <li id="li_xr5_bgk_54b">Create a directory called <filepath>fallback</filepath> (if it is not already
+          <li id="li_xr5_bgk_54b" irina="irina">Create a directory called <filepath>fallback</filepath> (if it is not already
             there).</li>
-          <li id="li_yr5_bgk_54b">Copy a font file (True Type Font - TTF) that includes the special
+          <li id="li_yr5_bgk_54b" irina="irina">Copy a font file (True Type Font - TTF) that includes the special
             characters into this directory.<note type="tip" id="note_zr5_bgk_54b">You could, for
               example, copy the <term>Segoe UI Symbol Regular</term> font from
                 <filepath>C:\Windows\Fonts</filepath>.</note></li>
-          <li id="li_as5_bgk_54b">Restart <ph keyref="product"/> for the changes to take full effect.</li>
+          <li id="li_as5_bgk_54b" irina="irina">Restart <ph keyref="product"/> for the changes to take full effect.</li>
         </ol></p>
       <p id="p_bs5_bgk_54b"><b>Result:</b> Whenever <ph keyref="product"/> finds a character that cannot be rendered
         using its standard fonts, it will look for the glyph in the fonts stored in the
@@ -52,25 +52,25 @@
       <title>Adding a Fallback Font in Other Platforms</title>
       <p id="p_cs5_bgk_54b">For macOS or other platforms, you could use the following approach:<ol
           id="ol_wsz_v23_5s">
-          <li id="li_ds5_bgk_54b">Use a font editor (such as <xref
+          <li id="li_ds5_bgk_54b" irina="irina">Use a font editor (such as <xref
               href="http://fontforge.github.io/en-US/" format="html" scope="external"
               >FontForge</xref>) to combine multiple true type fonts into a single custom font.</li>
-          <li id="li_es5_bgk_54b">Install the font file into the dedicated font folder of your
+          <li id="li_es5_bgk_54b" irina="irina">Install the font file into the dedicated font folder of your
             operating system.</li>
-          <li id="li_fs5_bgk_54b">In <ph keyref="product"/>, <ph
+          <li id="li_fs5_bgk_54b" irina="irina">In <ph keyref="product"/>, <ph
               conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to
               <menucascade product="author developer editor json">
               <uicontrol>Appearance</uicontrol>
               <uicontrol>Fonts</uicontrol>
             </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
               >Fonts</uicontrol>.</li>
-          <li id="li_gs5_bgk_54b">Click the <uicontrol product="author developer editor json"
+          <li id="li_gs5_bgk_54b" irina="irina">Click the <uicontrol product="author developer editor json"
               >Choose</uicontrol><uicontrol product="authorEclipse developerEclipse editorEclipse"
               >Change</uicontrol> button for the particular editing mode <ph
               product="author developer editor json">(<uicontrol>Editor</uicontrol> for
                 <uicontrol>Text</uicontrol> mode) </ph> and select your custom font from the
             drop-down list in the subsequent dialog box.</li>
-          <li id="li_hs5_bgk_54b">Restart <ph keyref="product"/> for the font changes to take full
+          <li id="li_hs5_bgk_54b" irina="irina">Restart <ph keyref="product"/> for the font changes to take full
             effect.</li>
         </ol></p>
     </section>

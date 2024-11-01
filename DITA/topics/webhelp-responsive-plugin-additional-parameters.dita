@@ -656,7 +656,7 @@
             <dd><ph conkeyref="reusables-webhelp-output-parameters/def_webhelp_side_toc_links"/>
               <ul conkeyref="reusables-webhelp-output-parameters/ul_webhelp_side_toc_links"
                 id="ul_vwc_vjd_wcb">
-                <li id="li_ev4_cgk_54b"/>
+                <li id="li_ev4_cgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry id="webhelp_side_toc_tooltip_position">
@@ -668,7 +668,7 @@
               <ul
                 conkeyref="reusables-webhelp-output-parameters/ul_webhelp_side_toc_tooltip_position"
                 id="ul_wwc_vjd_wcb">
-                <li id="li_fv4_cgk_54b"/>
+                <li id="li_fv4_cgk_54b" irina="irina"/>
               </ul></dd>
           </dlentry>
           <dlentry id="webhelp_rellinks_group_mode">

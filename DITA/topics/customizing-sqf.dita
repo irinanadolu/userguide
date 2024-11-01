@@ -27,25 +27,25 @@
       <title>Defining a Schematron Quick Fix</title>
       <p id="p_ghh_cgk_54b">The basics of a Schematron <term>Quick Fix</term> is defined by an ID, name, description,
         and the operations to be executed.<ul id="ul_ydb_tlz_hr">
-          <li id="li_hhh_cgk_54b"><b>ID</b> - Defined by the <xmlatt>id</xmlatt> attribute from the
+          <li id="li_hhh_cgk_54b" irina="irina"><b>ID</b> - Defined by the <xmlatt>id</xmlatt> attribute from the
               <xmlelement>sqf:fix</xmlelement> element and must be unique in the current context. It
             is used to refer the <term>Quick Fix</term> from a <xmlelement>report</xmlelement> or
               <xmlelement>assert</xmlelement> element.</li>
-          <li id="li_ihh_cgk_54b"><b>Name</b> - The name of the <term>Quick Fix</term> is defined by the
+          <li id="li_ihh_cgk_54b" irina="irina"><b>Name</b> - The name of the <term>Quick Fix</term> is defined by the
               <xmlelement>sqf:title</xmlelement> element.</li>
-          <li id="li_jhh_cgk_54b"><b>Description</b> - Defined by the text in the paragraphs
+          <li id="li_jhh_cgk_54b" irina="irina"><b>Description</b> - Defined by the text in the paragraphs
               (<xmlelement>sqf:p</xmlelement>) of the <xmlelement>sqf:description</xmlelement>
             element.</li>
-          <li id="li_khh_cgk_54b"><b>Operations</b> - The following basic types of <xref
+          <li id="li_khh_cgk_54b" irina="irina"><b>Operations</b> - The following basic types of <xref
               href="sqf-operations.dita#sqf-operations">operations (elements)</xref> are
               supported:<ul id="ul_q2q_fc1_3r">
-              <li id="li_lhh_cgk_54b"><xmlelement>sqf:add</xmlelement> Element - To add a new node or fragment in the
+              <li id="li_lhh_cgk_54b" irina="irina"><xmlelement>sqf:add</xmlelement> Element - To add a new node or fragment in the
                 document.</li>
-              <li id="li_mhh_cgk_54b"><xmlelement>sqf:delete</xmlelement> Element - To remove a node from the
+              <li id="li_mhh_cgk_54b" irina="irina"><xmlelement>sqf:delete</xmlelement> Element - To remove a node from the
                 document.</li>
-              <li id="li_nhh_cgk_54b"><xmlelement>sqf:replace</xmlelement> Element - To replace a node with another node
+              <li id="li_nhh_cgk_54b" irina="irina"><xmlelement>sqf:replace</xmlelement> Element - To replace a node with another node
                 or fragment.</li>
-              <li id="li_ohh_cgk_54b"><xmlelement>sqf:stringReplace</xmlelement> Element - To replace text content with
+              <li id="li_ohh_cgk_54b" irina="irina"><xmlelement>sqf:stringReplace</xmlelement> Element - To replace text content with
                 other text or a fragment.</li>
             </ul></li>
         </ul></p>

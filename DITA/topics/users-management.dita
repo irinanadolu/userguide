@@ -5,8 +5,8 @@
   <body>
     <p>Content Fusion supports two user roles that determine the functionality users can access:<ol
         id="ol_xcp_gy4_fzb">
-        <li>Author</li>
-        <li>Subject Matter Expert (SME)</li>
+        <li irina="irina">Author</li>
+        <li irina="irina">Subject Matter Expert (SME)</li>
       </ol></p>
     <p>
       <table id="table_mt1_lv4_fzb" colsep="1">

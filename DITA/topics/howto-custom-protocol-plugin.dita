@@ -49,8 +49,8 @@
               format="html" scope="external"
               ><i>URLHandlerReadOnlyCheckerExtension</i></xref> allows you to:</p>
           <ul id="ul_gw2_dgk_54b">
-            <li id="li_hw2_dgk_54b">Mark a resource as read-only when it is opened.</li>
-            <li id="li_iw2_dgk_54b">Switch between marking the resource as read-only and read-write while it is
+            <li id="li_hw2_dgk_54b" irina="irina">Mark a resource as read-only when it is opened.</li>
+            <li id="li_iw2_dgk_54b" irina="irina">Switch between marking the resource as read-only and read-write while it is
               edited.</li>
           </ul>
           <p id="p_jw2_dgk_54b">It is useful when opening and editing CMS resources.</p>

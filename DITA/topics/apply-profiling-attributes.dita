@@ -15,7 +15,7 @@
   <body>
     <p conkeyref="reusables-author-for-dita/profiling-p-1" id="p_b5x_bgk_54b"/>
     <p id="p_c5x_bgk_54b">To apply a profiling attribute to content in <uicontrol>Author</uicontrol> mode, follow these steps:<ol id="ol_d5x_bgk_54b">
-        <li id="li_e5x_bgk_54b">
+        <li id="li_e5x_bgk_54b" irina="irina">
           <p id="p_f5x_bgk_54b">To apply a profiling attribute to content in <uicontrol>Author</uicontrol> mode,
             highlight the content and select <uicontrol>Edit Profiling Attributes</uicontrol> from
             the contextual menu. To profile an entire element, position the cursor inside the
@@ -34,27 +34,27 @@
             to the left of the profiling attribute name.</p>
           <p id="p_h5x_bgk_54b">The attributes and values that appear in the dialog box are determined as follows:<ul
               id="ul_bsp_5sd_bq">
-              <li product="author editor" id="li_i5x_bgk_54b">If you have <xref
+              <li product="author editor" id="li_i5x_bgk_54b" irina="irina">If you have <xref
                   href="profiling-attributes-management.dita#profiling-attributes-management"
                   >defined profiling attribute values</xref> for the DITA document type in the <xref
                   href="preferences-attributes-and-condition-sets.dita"><uicontrol>Attributes and
                     Condition Sets</uicontrol> preferences page</xref> and you store them at <xref
                   keyref="glossentry_project-options">project-level</xref>, those values are
                 displayed in the dialog box.</li>
-              <li product="author editor" id="li_j5x_bgk_54b">If you have <xref
+              <li product="author editor" id="li_j5x_bgk_54b" irina="irina">If you have <xref
                   href="profiling-attributes-management.dita#profiling-attributes-management"
                   >defined profiling attribute values</xref> for the DITA document type in the <xref
                   href="preferences-attributes-and-condition-sets.dita"><uicontrol>Attributes and
                     Condition Sets</uicontrol> preferences page</xref> and you store them at <xref
                   keyref="glossentry_global-options">global-level</xref>, those values are displayed
                 in the dialog box.</li>
-              <li product="authorEclipse editorEclipse" id="li_k5x_bgk_54b">If you have <xref
+              <li product="authorEclipse editorEclipse" id="li_k5x_bgk_54b" irina="irina">If you have <xref
                   href="profiling-attributes-management.dita#profiling-attributes-management"
                   >defined profiling attribute values</xref> for the DITA document type in the <xref
                   href="preferences-attributes-and-condition-sets.dita"><uicontrol>Attributes and
                     Condition Sets</uicontrol> preferences page</xref>, those values are displayed
                 in the dialog box.</li>
-              <li id="li_l5x_bgk_54b">Otherwise, a generic default set of profiling attributes and values are
+              <li id="li_l5x_bgk_54b" irina="irina">Otherwise, a generic default set of profiling attributes and values are
                 available.</li>
             </ul></p>
           <p id="p_m5x_bgk_54b">
@@ -64,10 +64,10 @@
             </fig>
           </p>
         </li>
-        <li id="li_n5x_bgk_54b">In the <uicontrol>Edit Profiling Attributes</uicontrol> dialog box, select the
+        <li id="li_n5x_bgk_54b" irina="irina">In the <uicontrol>Edit Profiling Attributes</uicontrol> dialog box, select the
           checkboxes that correspond to the attribute values you want to apply on the <xref
             keyref="glossentry_document-fragment"><term>document fragment</term></xref>.</li>
-        <li id="li_o5x_bgk_54b">
+        <li id="li_o5x_bgk_54b" irina="irina">
           <p id="p_p5x_bgk_54b">Click <uicontrol>OK</uicontrol> to finish the profiling configuration.</p>
           <p id="p_q5x_bgk_54b"><b>Result:</b>
             <ph conkeyref="reusables-author-for-dita/Profiling-ph-1"/></p>

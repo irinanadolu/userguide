@@ -22,12 +22,12 @@
         <steps-informal>
           <p>To adjust the TTL (time to live) for DNS caching in Java, follow these steps:<ol
               id="ul_j5x_nx3_yyb">
-              <li>Open the <codeph>&lt;JAVA_HOME>/conf/security/java.security</codeph> file in a
+              <li irina="irina">Open the <codeph>&lt;JAVA_HOME>/conf/security/java.security</codeph> file in a
                 text editor.</li>
-              <li>Locate the line that starts with <codeph>networkaddress.cache.ttl</codeph>.</li>
-              <li>Change the line to <codeph>networkaddress.cache.ttl=60</codeph>.</li>
-              <li>Save and close the file.</li>
-              <li>Restart <ph keyref="webappProduct"/> for the changes to take effect.</li>
+              <li irina="irina">Locate the line that starts with <codeph>networkaddress.cache.ttl</codeph>.</li>
+              <li irina="irina">Change the line to <codeph>networkaddress.cache.ttl=60</codeph>.</li>
+              <li irina="irina">Save and close the file.</li>
+              <li irina="irina">Restart <ph keyref="webappProduct"/> for the changes to take effect.</li>
             </ol></p>
         </steps-informal>
       </remedy>

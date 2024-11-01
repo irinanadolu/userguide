@@ -77,14 +77,14 @@
                       <codeph>&lt;a atr1="v1"&gt;&lt;/a&gt;</codeph>).<note type="other"
                       othertype="Notes" product="author editor authorEclipse editorEclipse" id="note_zdp_bgk_54b">
                       <ul id="ul_a2p_bgk_54b">
-                        <li id="li_b2p_bgk_54b">When using the <uicontrol>Format and Indent</uicontrol> operation in
+                        <li id="li_b2p_bgk_54b" irina="irina">When using the <uicontrol>Format and Indent</uicontrol> operation in
                             <uicontrol>Text</uicontrol> mode, if the <xref
                             href="#preferences-editor-format-xml/schema-aware-format-indent"
                             format="dita"><uicontrol>Schema-aware format and indent</uicontrol>
                             option</xref> is enabled, <ph keyref="product"/> will use information
                           from the associated schema and avoid expanding tags for elements that are
                           defined as <i>empty</i> in the schema.</li>
-                        <li id="li_c2p_bgk_54b">When saving a document in <uicontrol>Author</uicontrol> mode, if the
+                        <li id="li_c2p_bgk_54b" irina="irina">When saving a document in <uicontrol>Author</uicontrol> mode, if the
                             <xref
                             href="preferences-schema-aware.dita#preferences-schema-aware/schema-aware-normalization"
                               ><uicontrol>Schema-aware normalization, format, and indent</uicontrol>
@@ -137,13 +137,13 @@
               to override the priority.</p>
             <p id="p_i2p_bgk_54b">You can use one or more of the following attribute conditions (default attribute
               values are not taken into account):<ul id="ul_j2p_bgk_54b">
-                <li id="li_k2p_bgk_54b"><i>element[@attr]</i> - Matches all instances of the specified element that
+                <li id="li_k2p_bgk_54b" irina="irina"><i>element[@attr]</i> - Matches all instances of the specified element that
                   include the specified attribute.</li>
-                <li id="li_l2p_bgk_54b"><i>element[not(@attr)]</i> - Matches all instances of the specified element that
+                <li id="li_l2p_bgk_54b" irina="irina"><i>element[not(@attr)]</i> - Matches all instances of the specified element that
                   do not include the specified attribute.</li>
-                <li id="li_m2p_bgk_54b"><i>element[@attr = "value"]</i> - Matches all instances of the specified element
+                <li id="li_m2p_bgk_54b" irina="irina"><i>element[@attr = "value"]</i> - Matches all instances of the specified element
                   that include the specified attribute with the given value.</li>
-                <li id="li_n2p_bgk_54b"><i>element[@attr != "value"]</i> - Matches all instances of the specified
+                <li id="li_n2p_bgk_54b" irina="irina"><i>element[@attr != "value"]</i> - Matches all instances of the specified
                   element that include the specified attribute and its value is different than the
                   one given.</li>
               </ul></p>
@@ -152,13 +152,13 @@
               condition:<codeblock outputclass="language-ini" id="codeblock_p2p_bgk_54b">*[@a and @b or @c and @d]
 *[@a and (@b or @c) and @d]</codeblock></p>
             <p id="p_q2p_bgk_54b">The following are just examples of how simplified XPath expressions might look like:<ul id="ul_r2p_bgk_54b">
-                <li id="li_s2p_bgk_54b"><codeph>elementName</codeph></li>
-                <li id="li_t2p_bgk_54b"><codeph>//elementName</codeph></li>
-                <li id="li_u2p_bgk_54b"><codeph>/elementName1/elementName2/elementName3</codeph></li>
-                <li id="li_v2p_bgk_54b"><codeph>//xs:localName</codeph> Note: The namespace prefixes (such as
+                <li id="li_s2p_bgk_54b" irina="irina"><codeph>elementName</codeph></li>
+                <li id="li_t2p_bgk_54b" irina="irina"><codeph>//elementName</codeph></li>
+                <li id="li_u2p_bgk_54b" irina="irina"><codeph>/elementName1/elementName2/elementName3</codeph></li>
+                <li id="li_v2p_bgk_54b" irina="irina"><codeph>//xs:localName</codeph> Note: The namespace prefixes (such as
                     <codeph>xs</codeph>) are treated as part of the element name without taking its
                   binding to a namespace into account.</li>
-                <li id="li_w2p_bgk_54b"><codeph>//xs:documentation[@lang="en"]</codeph></li>
+                <li id="li_w2p_bgk_54b" irina="irina"><codeph>//xs:documentation[@lang="en"]</codeph></li>
               </ul></p>
             <p id="p_x2p_bgk_54b">The tabs are as follows:<dl id="dl_y2p_bgk_54b">
                 <dlentry id="dlentry_z2p_bgk_54b">

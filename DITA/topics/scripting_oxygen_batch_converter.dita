@@ -9,23 +9,23 @@
         (<codeph>batchConverter.sh</codeph>, found in the <filepath>scripts</filepath> subfolder
       inside <b>Oxygen's</b> installation directory) helps you to convert between the following
       formats: <ul id="ul_r4d_4kx_2nb">
-        <li id="li_bnx_dgk_54b">HTML to XHTML </li>
-        <li id="li_cnx_dgk_54b">HTML to DITA </li>
-        <li id="li_dnx_dgk_54b">HTML to DocBook4 / DocBook5</li>
-        <li id="li_enx_dgk_54b">Markdown to XHTML </li>
-        <li id="li_fnx_dgk_54b">Markdown to DITA</li>
-        <li id="li_gnx_dgk_54b">Markdown to DocBook4 / DocBook5</li>
-        <li id="li_hnx_dgk_54b">Word to XHTML</li>
-        <li id="li_inx_dgk_54b">Word to DITA</li>
-        <li id="li_jnx_dgk_54b">Word to DocBook4 / DocBook5</li>
-        <li id="li_knx_dgk_54b">Excel to DITA</li>
-        <li>Confluence to DITA</li>
-        <li>DocBook to DITA</li>
-        <li>OpenAPI to DITA</li>
-        <li id="li_lnx_dgk_54b">JSON to XML </li>
-        <li id="li_mnx_dgk_54b">JSON to YAML </li>
-        <li id="li_nnx_dgk_54b">XML to JSON</li>
-        <li id="li_onx_dgk_54b">YAML to JSON</li>
+        <li id="li_bnx_dgk_54b" irina="irina">HTML to XHTML </li>
+        <li id="li_cnx_dgk_54b" irina="irina">HTML to DITA </li>
+        <li id="li_dnx_dgk_54b" irina="irina">HTML to DocBook4 / DocBook5</li>
+        <li id="li_enx_dgk_54b" irina="irina">Markdown to XHTML </li>
+        <li id="li_fnx_dgk_54b" irina="irina">Markdown to DITA</li>
+        <li id="li_gnx_dgk_54b" irina="irina">Markdown to DocBook4 / DocBook5</li>
+        <li id="li_hnx_dgk_54b" irina="irina">Word to XHTML</li>
+        <li id="li_inx_dgk_54b" irina="irina">Word to DITA</li>
+        <li id="li_jnx_dgk_54b" irina="irina">Word to DocBook4 / DocBook5</li>
+        <li id="li_knx_dgk_54b" irina="irina">Excel to DITA</li>
+        <li irina="irina">Confluence to DITA</li>
+        <li irina="irina">DocBook to DITA</li>
+        <li irina="irina">OpenAPI to DITA</li>
+        <li id="li_lnx_dgk_54b" irina="irina">JSON to XML </li>
+        <li id="li_mnx_dgk_54b" irina="irina">JSON to YAML </li>
+        <li id="li_nnx_dgk_54b" irina="irina">XML to JSON</li>
+        <li id="li_onx_dgk_54b" irina="irina">YAML to JSON</li>
       </ul></p>
     <p id="p_pnx_dgk_54b">This script requires the <uicontrol>Oxygen Batch Documents
         Converter</uicontrol> add-on to be installed in the <xref
@@ -33,12 +33,12 @@
         format="html" scope="external">all platforms distribution</xref> of an <b>Enterprise</b>
       edition of <ph keyref="product"/>.</p>
     <p id="p_rfn_hkd_qqb">To install the add-on, follow these instructions:<ol id="ol_nn2_2vb_vmb">
-        <li id="li_qnx_dgk_54b">Go on the <uicontrol>Oxygen Batch Documents Converter</uicontrol>
+        <li id="li_qnx_dgk_54b" irina="irina">Go on the <uicontrol>Oxygen Batch Documents Converter</uicontrol>
           plugin <uicontrol>Releases</uicontrol> page and download the latest <xref
             href="https://github.com/oxygenxml/oxygen-resources-converter/releases/latest"
             format="html" scope="external">oxygen-batch-converter-{version}-plugin.jar</xref>
           package.</li>
-        <li id="li_rnx_dgk_54b">Unzip it inside
+        <li id="li_rnx_dgk_54b" irina="irina">Unzip it inside
             <filepath>{oxygenInstallDir}/plugins</filepath>.<note id="note_snx_dgk_54b">Do not
             create any intermediate folders. Afterwards, the file system should look like this:
               <filepath>{oxygenInstallDir}/plugins/oxygen-batch-converter-{version}/plugin.xml</filepath></note></li>

@@ -21,7 +21,7 @@
     <section id="new_document_wizard">
       <title>New Document Wizard</title>
       <p id="p_wxs_bgk_54b">To create a new document in <ph keyref="product"/>, follow these steps:<ol id="ol_xxs_bgk_54b">
-          <li id="li_yxs_bgk_54b">
+          <li id="li_yxs_bgk_54b" irina="irina">
             <p id="p_zxs_bgk_54b">Click the <uicontrol><image href="../img/EclipseNew.png" id="image_nbd_fkf_wr"
                 />New</uicontrol> button on the toolbar or select <menucascade>
                 <uicontrol>File</uicontrol>
@@ -32,11 +32,11 @@
             <p id="p_ays_bgk_54b"><b>Result:</b> The <uicontrol>New Document</uicontrol> wizard is displayed with all
               the supported document types.</p>
           </li>
-          <li id="li_bys_bgk_54b">Select the type of document that you want to create. <ph keyref="product"/> includes a
+          <li id="li_bys_bgk_54b" irina="irina">Select the type of document that you want to create. <ph keyref="product"/> includes a
             series of Eclipse wizards that help you create the new document based upon the type you
               choose.<note type="tip" id="note_cys_bgk_54b">You can use the text filter field at the top of the dialog box
               to search for a specific template.</note></li>
-          <li id="li_dys_bgk_54b">
+          <li id="li_dys_bgk_54b" irina="irina">
             <p id="p_eys_bgk_54b">Click <uicontrol>Next</uicontrol>.</p>
             <p id="p_fys_bgk_54b"><b>Result:</b> The next wizard page allows you to select a path where you want to
               store the new file and for some document types it includes some customization options.
@@ -49,7 +49,7 @@
                   information, see <xref href="create-topic-in-map.dita#create-topic-in-map"
                 />.</ph></note></p>
           </li>
-          <li id="li_hys_bgk_54b">After configuring the options for the particular type of document, click
+          <li id="li_hys_bgk_54b" irina="irina">After configuring the options for the particular type of document, click
               <uicontrol>Finish</uicontrol> to create the file. If the <uicontrol>Open file for
               editing when done</uicontrol> option is selected, the new file will be opened in the
             appropriate editor.</li>

@@ -34,11 +34,11 @@
         <uicontrol>Network Connection Settings</uicontrol>
         <uicontrol>Trusted Hosts</uicontrol>
       </menucascade>. The following options are available:<ul id="ul_slr_bgk_54b">
-        <li id="li_tlr_bgk_54b"><uicontrol>New</uicontrol> - Allows you to manually add a new entry to the list of
+        <li id="li_tlr_bgk_54b" irina="irina"><uicontrol>New</uicontrol> - Allows you to manually add a new entry to the list of
           trusted hosts.<note type="tip" id="note_ulr_bgk_54b">You can specify a specific port at the end of the URL (for
             instance, <filepath>www.example.com:8080</filepath>). Otherwise, if no port is
             specified, connections will be allowed on all ports for the particular host.</note></li>
-        <li id="li_vlr_bgk_54b"><uicontrol>Delete</uicontrol> - Allows you to remove an entry from the list of trusted
+        <li id="li_vlr_bgk_54b" irina="irina"><uicontrol>Delete</uicontrol> - Allows you to remove an entry from the list of trusted
           hosts.</li>
       </ul></p>
   </body>

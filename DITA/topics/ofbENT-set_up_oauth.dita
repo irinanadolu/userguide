@@ -11,15 +11,15 @@
       <title>Google</title>
       <p id="p_alw_dgk_54b">
         <ol id="ol_v3p_fbg_lmb">
-          <li id="li_blw_dgk_54b">Register <ph keyref="product"/> with Google:<ol id="ol_glp_gbg_lmb">
-              <li id="li_clw_dgk_54b">To use Google’s OAuth 2.0 authentication system for login, you must set up a
+          <li id="li_blw_dgk_54b" irina="irina">Register <ph keyref="product"/> with Google:<ol id="ol_glp_gbg_lmb">
+              <li id="li_clw_dgk_54b" irina="irina">To use Google’s OAuth 2.0 authentication system for login, you must set up a
                 project in the Google API Console to obtain OAuth 2.0 credentials.</li>
-              <li id="li_dlw_dgk_54b">Follow the instructions on the <xref
+              <li id="li_dlw_dgk_54b" irina="irina">Follow the instructions on the <xref
                   href="https://developers.google.com/identity/protocols/OpenIDConnect"
                   format="html" scope="external">OpenID Connect</xref> page, starting in the
                 section, "Setting up OAuth 2.0".<p id="p_elw_dgk_54b"><b>Step Result:</b> You should have a new OAuth
                   Client with credentials consisting of a Client ID and a Client Secret.</p></li>
-              <li id="li_flw_dgk_54b">Configure the <ph keyref="product"/> server to point to your newly registered
+              <li id="li_flw_dgk_54b" irina="irina">Configure the <ph keyref="product"/> server to point to your newly registered
                 application by adding the <codeph>oauth.google.client.clientId</codeph> and
                   <codeph>oauth.google.client.clientSecret</codeph> properties in the
                   <filepath>config/feedback-oauth.properties</filepath>
@@ -29,7 +29,7 @@ oauth.google.client.clientSecret=google-client-secret</codeblock><note id="note_
                   substitute your <i>client ID</i> and <i>client secret</i> for the placeholder text
                   shown in the example above.</note></li>
             </ol></li>
-          <li id="li_ilw_dgk_54b">Set the redirect URI. In the <uicontrol>Set a redirect URI</uicontrol> sub-section,
+          <li id="li_ilw_dgk_54b" irina="irina">Set the redirect URI. In the <uicontrol>Set a redirect URI</uicontrol> sub-section,
             ensure that the <uicontrol>Authorized redirect URIs</uicontrol> field is set to
               <codeph>https://&lt;your-app-base-url>/login/google</codeph>.<p id="p_jlw_dgk_54b">The OAuth redirect URI
               is the path in the application that the end-user is redirected back to after they have
@@ -42,11 +42,11 @@ oauth.google.client.clientSecret=google-client-secret</codeblock><note id="note_
       <title>Facebook</title>
       <p id="p_klw_dgk_54b">
         <ol id="ol_afn_3cg_lmb">
-          <li id="li_llw_dgk_54b">Register <ph keyref="product"/> with Facebook:<ol id="ol_bfn_3cg_lmb">
-              <li id="li_mlw_dgk_54b">Configure your application’s <i>client ID</i> and <i>client secret</i> (you can
+          <li id="li_llw_dgk_54b" irina="irina">Register <ph keyref="product"/> with Facebook:<ol id="ol_bfn_3cg_lmb">
+              <li id="li_mlw_dgk_54b" irina="irina">Configure your application’s <i>client ID</i> and <i>client secret</i> (you can
                 obtain them by registering your application with Facebook at <xref
                   href="https://developers.facebook.com/" format="html" scope="external"/>).</li>
-              <li id="li_nlw_dgk_54b">Add the <codeph>oauth.facebook.client.clientId</codeph> and
+              <li id="li_nlw_dgk_54b" irina="irina">Add the <codeph>oauth.facebook.client.clientId</codeph> and
                   <codeph>oauth.facebook.client.clientSecret</codeph> properties in the
                   <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/oxygen-feedback-home/config/feedback-oauth.properties</filepath>
                   file:<codeblock outputclass="language-bourne" id="codeblock_olw_dgk_54b">#### FACEBOOK ####
@@ -55,15 +55,15 @@ oauth.facebook.client.clientSecret=facebook-client-secret</codeblock><note
                   id="note_plw_dgk_54b">You need to substitute your <i>client ID</i> and <i>client
                     secret</i> for the placeholder text shown in the example above.</note></li>
             </ol></li>
-          <li id="li_qlw_dgk_54b">Set the redirect URI:<ol id="ol_dbj_wcg_lmb">
-              <li id="li_rlw_dgk_54b">In the <xref href="https://developers.facebook.com/apps" format="html"
+          <li id="li_qlw_dgk_54b" irina="irina">Set the redirect URI:<ol id="ol_dbj_wcg_lmb">
+              <li id="li_rlw_dgk_54b" irina="irina">In the <xref href="https://developers.facebook.com/apps" format="html"
                   scope="external">App Dashboard</xref>, choose your app and scroll to <b>Add a
                   Product</b>.</li>
-              <li id="li_slw_dgk_54b">Click <b>Set Up</b> in the <b>Facebook Login</b> card.</li>
-              <li id="li_tlw_dgk_54b">Select <b>Settings</b> in the left side navigation panel and under <b>Client OAuth
+              <li id="li_slw_dgk_54b" irina="irina">Click <b>Set Up</b> in the <b>Facebook Login</b> card.</li>
+              <li id="li_tlw_dgk_54b" irina="irina">Select <b>Settings</b> in the left side navigation panel and under <b>Client OAuth
                   Settings</b>, enter your redirect URL in the <b>Valid OAuth Redirect URIs</b>
                 field for successful authorization.</li>
-              <li id="li_ulw_dgk_54b">Set the <uicontrol>Valid OAuth Redirect URIs</uicontrol> field to
+              <li id="li_ulw_dgk_54b" irina="irina">Set the <uicontrol>Valid OAuth Redirect URIs</uicontrol> field to
                   <codeph>https://&lt;your-app-base-url>/login/facebook</codeph>.</li>
             </ol></li>
         </ol>
@@ -77,15 +77,15 @@ oauth.facebook.client.clientSecret=facebook-client-secret</codeblock><note
           <filepath>$OXYGEN_FEEDBACK_INSTALL_DIR/oxygen-feedback-home/config/feedback-oauth.properties</filepath>
         file as follows:</p>
       <ol id="ol_zc3_kzr_5pb">
-        <li id="li_kp3_3gk_xpb">Enable the custom OAuth provider by setting the
+        <li id="li_kp3_3gk_xpb" irina="irina">Enable the custom OAuth provider by setting the
             <codeph>oauth.generic.enabled</codeph> property to <uicontrol>true</uicontrol>.</li>
-        <li id="li_lp3_3gk_xpb">Set a display name for the custom OAuth provider's associated button
+        <li id="li_lp3_3gk_xpb" irina="irina">Set a display name for the custom OAuth provider's associated button
           from the <uicontrol>Log in</uicontrol> page using the <codeph>oauth.generic.name</codeph>
           property. For
           example:<codeblock id="codeblock_om3_d35_5pb" outputclass="language-bourne">oauth.generic.name=My Identity Provider</codeblock></li>
-        <li id="ofbENT-set_up_oauth__li_blw_dgk_54b">Register <ph keyref="product"/> as a client
+        <li id="ofbENT-set_up_oauth__li_blw_dgk_54b" irina="irina">Register <ph keyref="product"/> as a client
           application with your custom OAuth Provider: <ol id="ol_ad3_kzr_5pb">
-            <li id="ofbENT-set_up_oauth__li_clw_dgk_54b">Obtain the <term>OAuth2</term> credentials
+            <li id="ofbENT-set_up_oauth__li_clw_dgk_54b" irina="irina">Obtain the <term>OAuth2</term> credentials
               that consist of a <term>Client ID</term> and a <term>Client Secret</term> and set them
               as values for the <codeph>oauth.generic.client.clientId</codeph> and
                 <codeph>oauth.generic.client.clientSecret</codeph> properties
@@ -94,7 +94,7 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
                 id="note_gq3_4hk_xpb">You need to substitute your <term>Client ID</term> and
                   <term>Client Secret</term> for the placeholder text shown in the example
                 above.</note></li>
-            <li id="ofbENT-set_up_oauth__li_ilw_dgk_54b">Set the <term>Redirect URI</term>. In the
+            <li id="ofbENT-set_up_oauth__li_ilw_dgk_54b" irina="irina">Set the <term>Redirect URI</term>. In the
                 <uicontrol>Oxygen Feedback Client Configuration</uicontrol> section of your OAuth
               provider, ensure that <codeph>https://&lt;your-app-base-url>/login/oauth</codeph> is
               set as <uicontrol>Authorized Redirect URI</uicontrol>.<note id="note_olj_vhk_xpb">The
@@ -103,17 +103,17 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
                   Identity Provider</term> and have granted access to the application on the
                   <uicontrol>OAuth consent screen</uicontrol> page.</note></li>
           </ol></li>
-        <li id="li_mp3_3gk_xpb">Configure the user <term>Authorization Endpoint URI</term> by
+        <li id="li_mp3_3gk_xpb" irina="irina">Configure the user <term>Authorization Endpoint URI</term> by
           setting the <codeph>oauth.generic.client.userAuthorizationUri</codeph> property according
           to your <term>Identity Provider</term> (refer to their user manual).<note
             id="note_og1_k3k_xpb">The <term>Authorization URI</term> is the URI that the user is to
             be redirected to for <ph keyref="product"/> to be granted authorization.</note></li>
-        <li id="li_op3_3gk_xpb">Configure the <term>Access Token Endpoint URI</term> by setting the
+        <li id="li_op3_3gk_xpb" irina="irina">Configure the <term>Access Token Endpoint URI</term> by setting the
             <codeph>oauth.generic.client.accessTokenUri</codeph> property according to your
             <term>Identity Provider</term> (refer to their user manual).<note id="note_g5l_s3k_xpb"
             >This is the endpoint that <ph keyref="product"/> uses to request an access token from
             the custom <term>Identity Provider</term>.</note></li>
-        <li id="li_wns_gyg_prb">
+        <li id="li_wns_gyg_prb" irina="irina">
           <p id="p_o5p_szg_prb">If the custom OAuth Identity Provider supports Open ID Connect, you
             can extract information about the current user from the ID token provided by the
             identify provider's server by setting the
@@ -129,9 +129,9 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
           <p id="p_in2_5zg_prb">The ID Token is decoded (as it is a JSON Web Token according to the
             Open ID specification) and the following information about the user is extracted:</p>
           <ul id="ul_jn2_5zg_prb">
-            <li id="li_kn2_5zg_prb">user's identifier</li>
-            <li id="li_ln2_5zg_prb">user's display name</li>
-            <li id="li_mn2_5zg_prb">user's email address</li>
+            <li id="li_kn2_5zg_prb" irina="irina">user's identifier</li>
+            <li id="li_ln2_5zg_prb" irina="irina">user's display name</li>
+            <li id="li_mn2_5zg_prb" irina="irina">user's email address</li>
           </ul>
           <p id="p_nn2_5zg_prb">The names of the claims associated with that data can be specified
             using the properties listed in the next step
@@ -141,12 +141,12 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
           <p id="p_dtn_h1h_prb">
             <note id="note_u1s_h1h_prb" type="other" othertype="Notes">
               <ul id="ul_lqx_31h_prb">
-                <li id="li_mqx_31h_prb">For the ID Token to be included in the Access Token
+                <li id="li_mqx_31h_prb" irina="irina">For the ID Token to be included in the Access Token
                   Response, most Identity Providers require that the <term>openid</term> scope be
                   specified in the list of scopes for the Authorization Code Flow. This can be done
                   using the <codeph>oauth.generic.client.scope</codeph> configuration property. For
                   example:<codeblock outputclass="language-bourne">oauth.generic.client.scope=email openid</codeblock></li>
-                <li id="li_wzn_q1h_prb">If the <codeph>oauth.generic.userInfo.useIdToken</codeph>
+                <li id="li_wzn_q1h_prb" irina="irina">If the <codeph>oauth.generic.userInfo.useIdToken</codeph>
                   property is set to <b>true</b>, then the value of the
                     <codeph>oauth.generic.userInfo.uri</codeph> is ignored since a request to the
                   associated <term>/userinfo</term> endpoint will not be performed.</li>
@@ -154,7 +154,7 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
             </note>
           </p>
         </li>
-        <li id="li_qp3_3gk_xpb">Configure the <term>User Info Endpoint URI</term> by setting the
+        <li id="li_qp3_3gk_xpb" irina="irina">Configure the <term>User Info Endpoint URI</term> by setting the
             <codeph>oauth.generic.userInfo.uri</codeph> property according to your <term>Identity
             Provider</term> (refer to their user manual).<note id="note_hlp_w3k_xpb">
             <p id="p_rp3_3gk_xpb">This is the endpoint that <ph keyref="product"/> uses to request
@@ -162,17 +162,17 @@ oauth.generic.client.clientSecret=generic-client-secret</codeblock><note
               of claims in JSON format.</p>
             <p id="p_sp3_3gk_xpb"><ph keyref="product"/> extracts the following informations from
               the user info response:<ol id="ol_ohd_1gv_5pb">
-                <li id="li_tp3_3gk_xpb"><b>Email address</b> - The name of the claim that contains
+                <li id="li_tp3_3gk_xpb" irina="irina"><b>Email address</b> - The name of the claim that contains
                   the user's email address can be customized by setting the
                     <codeph>oauth.generic.userInfo.claims.email</codeph> property. If not set, this
                   property defaults to: <uicontrol>email</uicontrol>.<note id="note_yvq_lgv_5pb"
                     type="important">If <ph keyref="product"/> cannot retrieve an email address for
                     the authenticated user, the authentication process will fail.</note></li>
-                <li id="li_up3_3gk_xpb"><b>User ID</b> - The name of the claim that contains the
+                <li id="li_up3_3gk_xpb" irina="irina"><b>User ID</b> - The name of the claim that contains the
                   user's ID can be customized by setting the
                     <codeph>oauth.generic.userInfo.claims.id</codeph> property. If not set, this
                   property defaults to: <uicontrol>id</uicontrol>.</li>
-                <li id="li_vp3_3gk_xpb"><b>User name</b> - The name of the claim that contains the
+                <li id="li_vp3_3gk_xpb" irina="irina"><b>User name</b> - The name of the claim that contains the
                   user's name can be customized by setting the
                     <codeph>oauth.generic.userInfo.claims.name</codeph> property. If not set, this
                   property defaults to: <uicontrol>name</uicontrol>.</li>

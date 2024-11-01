@@ -8,15 +8,15 @@
         authentication</xref>, you can test to make sure the configuration is correct by following
       these steps:</p>
     <ol id="ol_eh3_vzj_mjb">
-      <li id="li_ph5_dgk_54b">Go to the <xref href="content_fusion_user_interface.dita">Content Fusion browser
+      <li id="li_ph5_dgk_54b" irina="irina">Go to the <xref href="content_fusion_user_interface.dita">Content Fusion browser
           interface</xref>. The login screen should now display a <uicontrol>Username</uicontrol>
         and <uicontrol>Password</uicontrol> field now that LDAP authentication is enabled.</li>
-      <li id="li_qh5_dgk_54b">Log in with your LDAP credentials. If the login succeeds, LDAP authentication is
+      <li id="li_qh5_dgk_54b" irina="irina">Log in with your LDAP credentials. If the login succeeds, LDAP authentication is
         configured properly. Otherwise, continue with the subsequent steps.</li>
-      <li id="li_rh5_dgk_54b">View the <xref href="cf-enterprise-configuration.dita#cf-enterprise-configuration/logs"
+      <li id="li_rh5_dgk_54b" irina="irina">View the <xref href="cf-enterprise-configuration.dita#cf-enterprise-configuration/logs"
           >server logs</xref> in a new browser tab and for the <uicontrol>Service name</uicontrol>,
         choose <i>Content Fusion</i>.</li>
-      <li id="li_sh5_dgk_54b">You should see multiple logs, but the last logs should be related to the failed login you
+      <li id="li_sh5_dgk_54b" irina="irina">You should see multiple logs, but the last logs should be related to the failed login you
         just attempted. Search through these logs for: <b>[LDAP] Authentication failed
           for</b>.<p id="p_th5_dgk_54b">The logged errors may be different depending on your LDAP server, but here are
           a few examples of what the logs might look like:<dl id="dl_uh5_dgk_54b">

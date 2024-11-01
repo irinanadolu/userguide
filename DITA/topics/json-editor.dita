@@ -19,11 +19,11 @@
       <p id="p_xjf_cgk_54b">When editing JSON documents in the <uicontrol>Text</uicontrol> editing
         mode, the usual text editing actions are available, along with other editor-specific
         actions, including:<ul id="ul_jrz_25t_qmb">
-          <li id="li_yjf_cgk_54b"><xref href="searching-documents.dita">Search and
+          <li id="li_yjf_cgk_54b" irina="irina"><xref href="searching-documents.dita">Search and
               Find/Replace</xref></li>
-          <li id="li_zjf_cgk_54b">Drag and Drop</li>
-          <li id="li_akf_cgk_54b"><xref href="validating-JSON.dita">Validation</xref></li>
-          <li id="li_bkf_cgk_54b">Format and Indent (Pretty Print)</li>
+          <li id="li_zjf_cgk_54b" irina="irina">Drag and Drop</li>
+          <li id="li_akf_cgk_54b" irina="irina"><xref href="validating-JSON.dita">Validation</xref></li>
+          <li id="li_bkf_cgk_54b" irina="irina">Format and Indent (Pretty Print)</li>
         </ul></p>
       <p id="p_bck_xtq_hvb">The JSON Text mode editor also offers unique features. For example, the
         property name is displayed after the ending bracket:</p>
@@ -102,10 +102,10 @@
           href="author-devel-guide-intro.dita">process for creating custom XML frameworks</xref>.
         For example, to create a document type association (framework) for JSON documents, you
           could:<ul id="ul_tjf_b5z_qmb">
-          <li id="li_qkf_cgk_54b">Add a rule to match the <codeph>"JSON"</codeph> as the root local name.</li>
-          <li id="li_rkf_cgk_54b">Add a rule to match the <codeph>topProperties</codeph> attribute that contains a value
+          <li id="li_qkf_cgk_54b" irina="irina">Add a rule to match the <codeph>"JSON"</codeph> as the root local name.</li>
+          <li id="li_rkf_cgk_54b" irina="irina">Add a rule to match the <codeph>topProperties</codeph> attribute that contains a value
             that is the name of the properties from the first level of the JSON document.</li>
-          <li id="li_skf_cgk_54b">Add a rule to match the <codeph>schema</codeph> attribute that contains a value that
+          <li id="li_skf_cgk_54b" irina="irina">Add a rule to match the <codeph>schema</codeph> attribute that contains a value that
             is the associated schema from the <codeph>$schema</codeph> property.</li>
         </ul><note id="note_tkf_cgk_54b">The default JSON framework has the <i>Lowest</i> priority in the <xref
             href="preferences-document-type-association.dita"><uicontrol>Document Type

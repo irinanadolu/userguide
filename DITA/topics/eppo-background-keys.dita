@@ -32,10 +32,10 @@
           keyref="glossentry_root-map"><term>main (root) map</term></xref>. This makes it easier to
         manage since they're all in one location. </p>
       <p id="p_mhm_dgk_54b">There are two types of key definitions that can be created in a map:<ul id="ul_nhm_dgk_54b">
-          <li id="li_ohm_dgk_54b">Key with a value inside a <xmlelement>keyword</xmlelement>. To define this type of
+          <li id="li_ohm_dgk_54b" irina="irina">Key with a value inside a <xmlelement>keyword</xmlelement>. To define this type of
             key, follow these instructions: <xref
               href="insert-define-keys.dita#insert-define-keys/key-def-section"/>.</li>
-          <li id="li_phm_dgk_54b">Key with a target (for example, to target a resource such as an image or external
+          <li id="li_phm_dgk_54b" irina="irina">Key with a target (for example, to target a resource such as an image or external
             link). To define this type of key, follow these instructions: <xref
               href="insert-define-keys.dita#insert-define-keys/keydef-target-section"/>.</li>
         </ul></p>
@@ -64,15 +64,15 @@
         the key in the <uicontrol>Define keys</uicontrol> field.</p>
       <p id="p_uhm_dgk_54b">Once a key is assigned to a topic, you can use it to reference that topic for various
           purposes:<ul id="ul_ubr_vwd_zp">
-          <li id="li_vhm_dgk_54b">You can <xref keyref="dita_linking_inline">create a link</xref> to it using
+          <li id="li_vhm_dgk_54b" irina="irina">You can <xref keyref="dita_linking_inline">create a link</xref> to it using
               <xmlelement>xref keyref="feature.quick-heat"</xmlelement>. This allows you to change
             the target of the link by changing the topic that is pointed to by the key (for example,
             by profiling). </li>
-          <li id="li_whm_dgk_54b">You can use it <xref keyref="dita_add-topic-to-map">in a map to create a reference to
+          <li id="li_whm_dgk_54b" irina="irina">You can use it <xref keyref="dita_add-topic-to-map">in a map to create a reference to
               a topic</xref> by key: <xmlelement>topicref keyref="feature.quick-heat"</xmlelement>.
             This allows you to change which topic is inserted in the map by the build, by changing
             the topic that is pointed to by the key.</li>
-          <li id="li_xhm_dgk_54b">You can use it to <xref keyref="dita_insert-content-key-reference">insert a content
+          <li id="li_xhm_dgk_54b" irina="irina">You can use it to <xref keyref="dita_insert-content-key-reference">insert a content
               reference</xref>. In this case, the content reference uses the key to locate the topic
             to pull content from. It uses a <xmlatt>conkeyref</xmlatt> attribute:
               <xmlelement>procedure conkeyref="feature.quick-heat/preheat-procedure"</xmlelement>.

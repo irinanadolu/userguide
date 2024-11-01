@@ -55,23 +55,23 @@
       <title>Conversion Notes</title>
       <p id="p_bpq_zxl_w5b">
         <ul id="ul_kqt_1yl_w5b">
-          <li id="li_lqt_1yl_w5b">The <codeph>$schema</codeph> declaration is changed according to
+          <li id="li_lqt_1yl_w5b" irina="irina">The <codeph>$schema</codeph> declaration is changed according to
             the selected JSON schema version.</li>
-          <li id="li_mqt_1yl_w5b">The <codeph>definitions</codeph> keyword is converted to
+          <li id="li_mqt_1yl_w5b" irina="irina">The <codeph>definitions</codeph> keyword is converted to
               <codeph>$defs</codeph> and all the references are updated.</li>
-          <li id="li_nqt_1yl_w5b">The <codeph>dependencies</codeph> keyword is split into
+          <li id="li_nqt_1yl_w5b" irina="irina">The <codeph>dependencies</codeph> keyword is split into
               <codeph>dependentRequired</codeph> and <codeph>dependentSchemas</codeph>.</li>
-          <li id="li_oqt_1yl_w5b">The <codeph>items</codeph> keyword (tuple array) is converted to
+          <li id="li_oqt_1yl_w5b" irina="irina">The <codeph>items</codeph> keyword (tuple array) is converted to
               <codeph>prefixItems</codeph> (2020-12).</li>
-          <li id="li_pqt_1yl_w5b">The <codeph>additionalItems</codeph> keyword is converted to
+          <li id="li_pqt_1yl_w5b" irina="irina">The <codeph>additionalItems</codeph> keyword is converted to
               <codeph>items</codeph> (2020-12, only if <codeph>prefixItems</codeph> is
             present).</li>
-          <li id="li_qqt_1yl_w5b">The <codeph>exclusiveMinimum</codeph> and
+          <li id="li_qqt_1yl_w5b" irina="irina">The <codeph>exclusiveMinimum</codeph> and
               <codeph>exclusiveMaximum</codeph> keywords with boolean values (Draft 4) are
             removed.</li>
-          <li id="li_rqt_1yl_w5b">The <codeph>id</codeph> keyword (Draft 4) is converted to
+          <li id="li_rqt_1yl_w5b" irina="irina">The <codeph>id</codeph> keyword (Draft 4) is converted to
               <codeph>$id</codeph>.</li>
-          <li id="li_sqt_1yl_w5b">The <codeph>$ref</codeph> keyword wrapped into 1-item
+          <li id="li_sqt_1yl_w5b" irina="irina">The <codeph>$ref</codeph> keyword wrapped into 1-item
               <codeph>allOf</codeph> is unwrapped because the latest versions allow processing
               <codeph>$ref</codeph> along with other keywords.</li>
         </ul>

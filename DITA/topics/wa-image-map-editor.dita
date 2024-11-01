@@ -19,7 +19,7 @@
     <section id="how_to_apply_an_image_map_on_an_existing_image">
       <title>How to Apply an Image Map on an Existing Image</title>
       <p id="p_ocp_dgk_54b">To apply an image map on an existing image:<ol id="ol_pcp_dgk_54b">
-          <li id="li_qcp_dgk_54b">
+          <li id="li_qcp_dgk_54b" irina="irina">
             <p id="p_rcp_dgk_54b">Select <uicontrol>Apply Image Map</uicontrol> from the contextual menu when invoked
               on an existing image.</p>
             <p id="p_scp_dgk_54b"><b>Step Result:</b> This opens the <xref
@@ -27,16 +27,16 @@
                   ><uicontrol>Image Map Editor</uicontrol></xref> where you can make changes to the
               image map in a visual editor.</p>
           </li>
-          <li id="li_tcp_dgk_54b">Add shapes to areas you want to map and make any other desired changes in the
+          <li id="li_tcp_dgk_54b" irina="irina">Add shapes to areas you want to map and make any other desired changes in the
               <uicontrol>Image Map Editor</uicontrol>. See the <xref
               href="#wa-image-map-editor/image_map_editor_interface_in_dita" format="dita"/> section
             for information.</li>
-          <li id="li_ucp_dgk_54b">
+          <li id="li_ucp_dgk_54b" irina="irina">
             <p id="p_vcp_dgk_54b">Click <uicontrol>OK</uicontrol>.</p>
             <p id="p_wcp_dgk_54b"><b>Step Result:</b> The <xref href="#wa-image-map-editor/shape-table" format="dita"
                 >Shape Table</xref> appears below the image.</p>
           </li>
-          <li id="li_xcp_dgk_54b">To select the target link for the mapped areas (shapes), click the <uicontrol><image
+          <li id="li_xcp_dgk_54b" irina="irina">To select the target link for the mapped areas (shapes), click the <uicontrol><image
                 href="../img/Edit16.png"/>Edit</uicontrol> button in the
               <uicontrol>Target</uicontrol> column of the <xref
               href="#wa-image-map-editor/shape-table" format="dita">Shape Table</xref> for each
@@ -205,26 +205,26 @@
                     <dt><u>Mouse Controls and Keyboard Shortcuts</u></dt>
                     <dd>
                       <ul id="ul_tdp_dgk_54b">
-                        <li id="li_udp_dgk_54b">Use the mouse to select and move shapes around in the image pane. It is
+                        <li id="li_udp_dgk_54b" irina="irina">Use the mouse to select and move shapes around in the image pane. It is
                           easy to see which shape is selected in this image pane because the border
                           of the selected shape changes from a solid line to a dotted one.</li>
-                        <li id="li_vdp_dgk_54b">You can also drag any of the points of a selected shape to adjust its
+                        <li id="li_vdp_dgk_54b" irina="irina">You can also drag any of the points of a selected shape to adjust its
                           size and shape.</li>
-                        <li id="li_wdp_dgk_54b">When working with rectangles, you can hold down
+                        <li id="li_wdp_dgk_54b" irina="irina">When working with rectangles, you can hold down
                               <uicontrol><shortcut>Shift</shortcut></uicontrol> while dragging a
                           corner point to make non-proportional adjustments.</li>
-                        <li id="li_xdp_dgk_54b">You can also move a selected shape by using the arrow keys on your
+                        <li id="li_xdp_dgk_54b" irina="irina">You can also move a selected shape by using the arrow keys on your
                           keyboard. In addition, you can hold down
                               <uicontrol><shortcut>Shift</shortcut></uicontrol> while using the
                           arrow keys to move the shape further or
                               <uicontrol><shortcut>Alt</shortcut></uicontrol> to move it 1 pixel at
                           a time.</li>
-                        <li id="li_ydp_dgk_54b">To zoom in or out, you can use the <uicontrol><shortcut>NumPad
+                        <li id="li_ydp_dgk_54b" irina="irina">To zoom in or out, you can use the <uicontrol><shortcut>NumPad
                               +</shortcut></uicontrol> or <uicontrol><shortcut>NumPad
                             -</shortcut></uicontrol> keys respectively. Use
                               <uicontrol><shortcut>Ctrl + NumPad 0</shortcut></uicontrol> to reset
                           the zoom level to its default value.</li>
-                        <li id="li_zdp_dgk_54b">You can use <uicontrol><shortcut>Ctrl + Z</shortcut></uicontrol> to undo
+                        <li id="li_zdp_dgk_54b" irina="irina">You can use <uicontrol><shortcut>Ctrl + Z</shortcut></uicontrol> to undo
                           an action or <uicontrol><shortcut>Ctrl + Y</shortcut></uicontrol> to redo
                           the last action that was undone.</li>
                       </ul>

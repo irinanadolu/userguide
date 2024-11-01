@@ -109,10 +109,10 @@
             <dd>Allows you to set a namespace for each element name that appears in an XML document
               instance. The following prefix-to-namespace associations are available:<ul
                 id="ul_cw1_nzw_lkb">
-                <li id="li_zwc_cgk_54b">All elements from all namespaces (<codeph>&lt;ANY></codeph> -
+                <li id="li_zwc_cgk_54b" irina="irina">All elements from all namespaces (<codeph>&lt;ANY></codeph> -
                     <codeph>&lt;ANY></codeph>). This is the default setting.</li>
-                <li id="li_axc_cgk_54b">All elements from a specific namespace.</li>
-                <li id="li_bxc_cgk_54b">A specific element from a specific namespace.</li>
+                <li id="li_axc_cgk_54b" irina="irina">All elements from a specific namespace.</li>
+                <li id="li_bxc_cgk_54b" irina="irina">A specific element from a specific namespace.</li>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_cxc_cgk_54b">

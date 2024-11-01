@@ -282,18 +282,18 @@
       structure. When you type de component name, match or mode in the text field, you can switch to
       the tree structure using:</p>
     <ul id="ul_bx1_cgk_54b">
-      <li id="li_cx1_cgk_54b">Keyboard arrow keys</li>
-      <li id="li_dx1_cgk_54b"><uicontrol><shortcut>Enter</shortcut></uicontrol> key</li>
-      <li id="li_ex1_cgk_54b"><uicontrol><shortcut>Tab</shortcut></uicontrol> key</li>
-      <li id="li_fx1_cgk_54b"><uicontrol><shortcut>Shift-Tab</shortcut></uicontrol> key combination</li>
+      <li id="li_cx1_cgk_54b" irina="irina">Keyboard arrow keys</li>
+      <li id="li_dx1_cgk_54b" irina="irina"><uicontrol><shortcut>Enter</shortcut></uicontrol> key</li>
+      <li id="li_ex1_cgk_54b" irina="irina"><uicontrol><shortcut>Tab</shortcut></uicontrol> key</li>
+      <li id="li_fx1_cgk_54b" irina="irina"><uicontrol><shortcut>Shift-Tab</shortcut></uicontrol> key combination</li>
     </ul>
     <p id="p_gx1_cgk_54b">To switch from tree structure to the filter text field, you can use
           <uicontrol><shortcut>Tab</shortcut></uicontrol> and
           <uicontrol><shortcut>Shift-Tab</shortcut></uicontrol>.</p>
     <note type="tip" id="note_hx1_cgk_54b">The search filter is case insensitive. The following wildcards are accepted:<ul id="ul_ix1_cgk_54b">
-        <li id="li_jx1_cgk_54b"><b>*</b> - any string</li>
-        <li id="li_kx1_cgk_54b"><b>?</b> - any character</li>
-        <li id="li_lx1_cgk_54b"><b>,</b> - patterns separator</li>
+        <li id="li_jx1_cgk_54b" irina="irina"><b>*</b> - any string</li>
+        <li id="li_kx1_cgk_54b" irina="irina"><b>?</b> - any character</li>
+        <li id="li_lx1_cgk_54b" irina="irina"><b>,</b> - patterns separator</li>
       </ul>If no wildcards are specified, the string to search is used as a partial match.</note>
     <p conkeyref="reusables-editing-documents/synchronized_views" id="p_mx1_cgk_54b"/>
     <p id="p_nx1_cgk_54b"><ph keyref="product"/> allows you to sort the components of the tree in the
@@ -301,9 +301,9 @@
           <uicontrol>Outline</uicontrol> view is not supported. </note>
       <ph keyref="product"/> has a predefined order of the groups in the
         <uicontrol>Outline</uicontrol> view:<ul id="ul_tg4_3fm_2g">
-        <li id="li_px1_cgk_54b">For location, the names of the files are sorted alphabetically. The file you are editing
+        <li id="li_px1_cgk_54b" irina="irina">For location, the names of the files are sorted alphabetically. The file you are editing
           is located at the top of the list.</li>
-        <li id="li_qx1_cgk_54b">For type, the order is: parameters, variables, templates, functions, set attributes,
+        <li id="li_qx1_cgk_54b" irina="irina">For type, the order is: parameters, variables, templates, functions, set attributes,
             character-map.<note id="note_rx1_cgk_54b">When no grouping is available and the table is not sorted, <ph
               keyref="product"/> sorts the components depending on their order in the document. <ph
               keyref="product"/> also takes into account the name of the file that the components

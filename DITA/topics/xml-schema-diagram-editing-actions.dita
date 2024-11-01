@@ -27,17 +27,17 @@
       or complex type is not already set, you can set it by dragging over it a simple or complex
       type.</p>
     <p id="p_mqb_cgk_54b">Depending on the drop area, various actions are available:<ul id="ul_nqb_cgk_54b">
-        <li id="li_oqb_cgk_54b"><b>Move</b> - Context dependent, the selected component is moved to the
+        <li id="li_oqb_cgk_54b" irina="irina"><b>Move</b> - Context dependent, the selected component is moved to the
           destination.</li>
-        <li id="li_pqb_cgk_54b"><b>Reference</b> - Context dependent, the selected component is referenced from the
+        <li id="li_pqb_cgk_54b" irina="irina"><b>Reference</b> - Context dependent, the selected component is referenced from the
           parent.</li>
-        <li id="li_qqb_cgk_54b"><b>Copy</b> - If the <uicontrol><shortcut>Ctrl (Meta on macOS)</shortcut></uicontrol>
+        <li id="li_qqb_cgk_54b" irina="irina"><b>Copy</b> - If the <uicontrol><shortcut>Ctrl (Meta on macOS)</shortcut></uicontrol>
           key is pressed, a copy of the selected component is inserted to the destination.</li>
       </ul></p>
     <p id="p_rqb_cgk_54b">Visual clues about the operation type are indicated by the mouse pointer shape:<ul id="ul_sqb_cgk_54b">
-        <li id="li_tqb_cgk_54b"><image href="../img/cursor_move.png"/> - When moving a component.</li>
-        <li id="li_uqb_cgk_54b"><image href="../img/cursor_refer.png"/> - When referencing a component.</li>
-        <li id="li_vqb_cgk_54b"><image href="../img/cursor_copy.png"/> - When copying a component.</li>
+        <li id="li_tqb_cgk_54b" irina="irina"><image href="../img/cursor_move.png"/> - When moving a component.</li>
+        <li id="li_uqb_cgk_54b" irina="irina"><image href="../img/cursor_refer.png"/> - When referencing a component.</li>
+        <li id="li_vqb_cgk_54b" irina="irina"><image href="../img/cursor_copy.png"/> - When copying a component.</li>
       </ul></p>
     <p id="p_wqb_cgk_54b">You can edit some schema components directly in the diagram. For these components, you can
       edit the name and the additional properties presented in the diagram by double-clicking the

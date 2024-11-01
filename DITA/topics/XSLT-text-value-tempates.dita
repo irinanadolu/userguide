@@ -17,11 +17,11 @@
       the variables, functions, and parameters from the current context and syntax highlighting.</p>
     <p id="p_l1b_cgk_54b">A text node in the stylesheet is treated as a <term>text value template</term> if the
       following things are true:<ul id="ul_m1b_cgk_54b">
-        <li id="li_n1b_cgk_54b">It is part of a <xref href="https://www.w3.org/TR/xslt-30/#dt-sequence-constructor"
+        <li id="li_n1b_cgk_54b" irina="irina">It is part of a <xref href="https://www.w3.org/TR/xslt-30/#dt-sequence-constructor"
             format="html" scope="external">sequence constructor</xref> or a child of an <xref
             href="https://www.w3.org/TR/xslt-30/#element-text" format="html" scope="external"
               ><xmlelement>xsl:text</xmlelement> instruction</xref>.</li>
-        <li id="li_o1b_cgk_54b">There is an ancestor element with an <xmlatt>[xsl:]expand-text</xmlatt> attribute and on
+        <li id="li_o1b_cgk_54b" irina="irina">There is an ancestor element with an <xmlatt>[xsl:]expand-text</xmlatt> attribute and on
           the innermost ancestor element that has such an attribute, the value of the attribute is
             <codeph>yes</codeph>.</li>
       </ul></p>

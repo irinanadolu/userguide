@@ -32,10 +32,10 @@
         is being updated to account for the new behavior.</p>
       <note type="other" othertype="Common Mistakes" id="note_oys_dgk_54b">
         <ul id="ul_o5l_tmc_y3b">
-          <li id="li_pys_dgk_54b">Plugins keep a singleton object to hold information about the current editor. Since it
+          <li id="li_pys_dgk_54b" irina="irina">Plugins keep a singleton object to hold information about the current editor. Since it
             is now possible to have multiple editors opened at once, this approach is no longer
             possible.</li>
-          <li id="li_qys_dgk_54b">Plugins fail to clean up memory and listeners associated with the current editor when
+          <li id="li_qys_dgk_54b" irina="irina">Plugins fail to clean up memory and listeners associated with the current editor when
             it is closed. Prior to version 21.1.1, this approach worked fine because the browser tab
             was reloaded anyway.</li>
         </ul>
@@ -46,12 +46,12 @@
       <p id="p_rys_dgk_54b">If a plugin implements the <codeph>AbstractAction</codeph> class, you should consider
         implementing the <codeph>dispose</codeph> method of this class. Typical things to do in the
           <codeph>dispose</codeph> method include:<ol id="ol_hgs_qsc_y3b">
-          <li id="li_sys_dgk_54b">Dispose any dialog box that was created by the action.</li>
-          <li id="li_tys_dgk_54b">Reverse any changes to the page DOM outside the editor content.</li>
-          <li id="li_uys_dgk_54b">Remove any global listeners (i.e. on the <codeph>window</codeph> object).</li>
-          <li id="li_vys_dgk_54b">Clear timers started using <codeph>setTimeout</codeph> or
+          <li id="li_sys_dgk_54b" irina="irina">Dispose any dialog box that was created by the action.</li>
+          <li id="li_tys_dgk_54b" irina="irina">Reverse any changes to the page DOM outside the editor content.</li>
+          <li id="li_uys_dgk_54b" irina="irina">Remove any global listeners (i.e. on the <codeph>window</codeph> object).</li>
+          <li id="li_vys_dgk_54b" irina="irina">Clear timers started using <codeph>setTimeout</codeph> or
             <codeph>setInterval</codeph>.</li>
-          <li id="li_wys_dgk_54b">Abort or ignore the results of any HTTP request that is in-progress.</li>
+          <li id="li_wys_dgk_54b" irina="irina">Abort or ignore the results of any HTTP request that is in-progress.</li>
         </ol></p>
     </section>
     <section id="section_gyt_dtc_y3b">

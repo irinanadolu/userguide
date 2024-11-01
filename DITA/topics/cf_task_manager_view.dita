@@ -259,9 +259,9 @@
                       directly in <uicontrol>Oxygen XML Editor/Author</uicontrol>.<note
                         id="note_irn_4wx_qtb" type="other" othertype="Notes">
                         <ul id="ul_cyx_2td_rtb">
-                          <li id="li_dyx_2td_rtb">This action is only available for tasks with a
+                          <li id="li_dyx_2td_rtb" irina="irina">This action is only available for tasks with a
                             context map specified.</li>
-                          <li id="li_qyg_gtd_rtb">The editing works only for servers with a version
+                          <li id="li_qyg_gtd_rtb" irina="irina">The editing works only for servers with a version
                             5.0 or higher. For versions prior to 5.0, you can open files but they
                             are read-only.</li>
                         </ul>

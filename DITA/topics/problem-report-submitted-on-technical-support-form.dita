@@ -28,7 +28,7 @@
               Otherwise, you might lose your original information.</ph></p>
           <p id="p_phk_dgk_54b">To generate the <ph keyref="product"/> log files, follow these steps:<ol
               id="ol_wdj_44r_js">
-              <li id="li_qhk_dgk_54b">Create a text file called <filepath>logback.xml</filepath> in
+              <li id="li_qhk_dgk_54b" irina="irina">Create a text file called <filepath>logback.xml</filepath> in
                 the <ph product="author developer editor json">application installation
                   folder</ph><ph product="authorEclipse developerEclipse editorEclipse"
                     ><filepath>lib</filepath> folder of the installed <term>plugin</term>
@@ -53,10 +53,10 @@
         &lt;appender-ref ref="R2" />
     &lt;/root>
 &lt;/configuration>            </codeblock></li>
-              <li id="li_shk_dgk_54b">Restart the application.</li>
-              <li id="li_thk_dgk_54b">Reproduce the error.</li>
-              <li id="li_uhk_dgk_54b">Close the application.</li>
-              <li id="li_vhk_dgk_54b">Delete the <filepath>logback.xml</filepath> file because it
+              <li id="li_shk_dgk_54b" irina="irina">Restart the application.</li>
+              <li id="li_thk_dgk_54b" irina="irina">Reproduce the error.</li>
+              <li id="li_uhk_dgk_54b" irina="irina">Close the application.</li>
+              <li id="li_vhk_dgk_54b" irina="irina">Delete the <filepath>logback.xml</filepath> file because it
                 might cause performance issues if you leave it in the <ph
                   product="author developer editor json">installation</ph><filepath
                   product="authorEclipse developerEclipse editorEclipse">lib</filepath> folder.<note

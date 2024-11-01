@@ -16,10 +16,10 @@
   <body>
     <p id="p_xyq_cgk_54b">If you need to style a fragment of text (for example, a company slogan) with certain colors
       or font styles, you have several options:<ul id="ol_pn1_qcr_d2b">
-        <li id="li_yyq_cgk_54b">Use an SVG image as the background for a page margin box or for the entire page. <ph
+        <li id="li_yyq_cgk_54b" irina="irina">Use an SVG image as the background for a page margin box or for the entire page. <ph
             product="author developer editor authorEclipse developerEclipse editorEclipse pdf-css ope"
             >See: <xref href="../topics/dcpp_how_to_add_an_image_to_the_header.dita"/>. </ph></li>
-        <li id="li_zyq_cgk_54b">Use the <xref
+        <li id="li_zyq_cgk_54b" irina="irina">Use the <xref
 						href="https://www.oxygenxml.com/doc/ug-editor/topics/dg-oxy-label-function.html"
 						format="html" scope="external"><codeph>oxy_label</codeph></xref> constructor. This is a
 					function that creates a text label with a set of
@@ -46,7 +46,7 @@
                  string(chaptertitle); /* This inherits the styling from @top-right*/
     }
 }</codeblock></note></li>
-        <li id="li_fzq_cgk_54b">Use two adjacent page margin boxes, and style them
+        <li id="li_fzq_cgk_54b" irina="irina">Use two adjacent page margin boxes, and style them
           differently:<codeblock outputclass="language-css" id="codeblock_gzq_cgk_54b">@page {
   @top-center {
     content: "First part";

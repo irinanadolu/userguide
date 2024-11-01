@@ -92,13 +92,13 @@
       <title>Profiling Attribute Icons in the DITA Maps Manager</title>
       <p id="p_zhn_dgk_54b">The following icons are used to mark profiled and non-profiled topics in
         the <uicontrol>DITA Maps Manager</uicontrol>:<ul id="ul_a3n_dgk_54b">
-          <li id="li_b3n_dgk_54b"><image href="../img/HasConditions.png"/> - The topic reference
+          <li id="li_b3n_dgk_54b" irina="irina"><image href="../img/HasConditions.png"/> - The topic reference
             contains profiling attributes.</li>
-          <li id="li_c3n_dgk_54b"><image href="../img/InheritsConditions.png"/> - The topic
+          <li id="li_c3n_dgk_54b" irina="irina"><image href="../img/InheritsConditions.png"/> - The topic
             reference inherits profiling attributes from an ancestor.</li>
-          <li id="li_d3n_dgk_54b"><image href="../img/HasAndInheritsConditions.png"/> - The topic
+          <li id="li_d3n_dgk_54b" irina="irina"><image href="../img/HasAndInheritsConditions.png"/> - The topic
             reference contains a profiling attribute and inherits profiling from an ancestor.</li>
-          <li id="li_e3n_dgk_54b"><image href="../img/NoConditions.png"/>(hyphen) - The topic
+          <li id="li_e3n_dgk_54b" irina="irina"><image href="../img/NoConditions.png"/>(hyphen) - The topic
             reference neither contains nor inherits profiling attributes.</li>
         </ul></p>
       <p id="p_f3n_dgk_54b">

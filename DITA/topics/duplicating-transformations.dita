@@ -14,7 +14,7 @@
     <p id="p_n2m_cgk_54b">Duplicating a transformation scenario is useful for creating a scenario that is similar to an
       existing one or to edit a built-in transformation scenario.</p>
     <p id="p_o2m_cgk_54b">To configure an existing transformation scenario, follow these steps:<ol id="ol_p2m_cgk_54b">
-        <li id="li_q2m_cgk_54b">
+        <li id="li_q2m_cgk_54b" irina="irina">
           <p id="p_r2m_cgk_54b">Select the <uicontrol><image href="../img/TransformConfig16.png" id="image_h5w_5n1_x3b"
               />Configure Transformation Scenario(s) (<shortcut
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
@@ -31,7 +31,7 @@
                 ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref> is
             opened.</p>
         </li>
-        <li id="li_t2m_cgk_54b">Select the particular transformation scenario and click the
+        <li id="li_t2m_cgk_54b" irina="irina">Select the particular transformation scenario and click the
             <uicontrol>Duplicate</uicontrol> button at the bottom of the dialog box or from the
           contextual menu.<note type="tip" id="note_u2m_cgk_54b">You could also select the scenario and the
                 <uicontrol><image href="../img/Copy16.png"/>Duplicate</uicontrol> button in the

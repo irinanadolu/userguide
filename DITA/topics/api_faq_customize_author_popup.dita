@@ -22,7 +22,7 @@
       <p product="author editor authorEclipse editorEclipse" id="p_bdg_dgk_54b">To add actions to
         the <uicontrol>Author</uicontrol> page from your Eclipse plugin extension:<ol
           id="ol_y4y_2lh_xh">
-          <li id="li_cdg_dgk_54b">Create a pop-up menu customizer
+          <li id="li_cdg_dgk_54b" irina="irina">Create a pop-up menu customizer
             implementation:<codeblock outputclass="language-java" id="codeblock_ddg_dgk_54b">import org.eclipse.jface.action.ContributionManager;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.menus.IMenuService;
@@ -52,7 +52,7 @@ public class OxygenAuthorPagePopupMenuCustomizer implements
         }
     }
 }</codeblock></li>
-          <li id="li_edg_dgk_54b">Add a workbench listener and add the pop-up customizer when an
+          <li id="li_edg_dgk_54b" irina="irina">Add a workbench listener and add the pop-up customizer when an
             editor is open in the <uicontrol>Author</uicontrol>
             page:<codeblock outputclass="language-java" id="codeblock_fdg_dgk_54b">Workbench.getInstance().getActiveWorkbenchWindow().getPartService()
 .addPartListener(
@@ -69,7 +69,7 @@ public class OxygenAuthorPagePopupMenuCustomizer implements
       }
       ........
     });</codeblock></li>
-          <li id="li_gdg_dgk_54b">Implement the extension point in your
+          <li id="li_gdg_dgk_54b" irina="irina">Implement the extension point in your
               <filepath>plugin.xml</filepath>
             file:<codeblock outputclass="language-xml" id="codeblock_hdg_dgk_54b">&lt;extension
        point="org.eclipse.ui.menus">

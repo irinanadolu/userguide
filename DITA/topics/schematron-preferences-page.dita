@@ -65,7 +65,7 @@
                   <dt><uicontrol>Message language</uicontrol></dt>
                   <dd>This option allows you to specify the language to be used in Schematron
                     validation messages. You can choose between the following:<ul id="ul_kyp_bgk_54b">
-                      <li id="li_lyp_bgk_54b"><uicontrol>Use the language defined in the application</uicontrol> - The
+                      <li id="li_lyp_bgk_54b" irina="irina"><uicontrol>Use the language defined in the application</uicontrol> - The
                         language that is specified in <xref keyref="options_global/language"
                           product="author developer editor">the <uicontrol>Global
                             Preferences</uicontrol> page</xref><xref
@@ -75,14 +75,14 @@
                         match that language will be presented. You can use the <uicontrol>Change
                           application language</uicontrol> link to navigate to the preferences page
                         where you can specify the language to be used in the application.</li>
-                      <li id="li_myp_bgk_54b"><uicontrol>Use the "xml:lang" attribute set on the Schematron
+                      <li id="li_myp_bgk_54b" irina="irina"><uicontrol>Use the "xml:lang" attribute set on the Schematron
                           root</uicontrol> - The language specified in the <xmlatt>xml:lang</xmlatt>
                         attribute from the Schematron root will be used and only the validation
                         message that match that language will be presented.</li>
-                      <li id="li_nyp_bgk_54b"><uicontrol>Ignore the language and show all message</uicontrol> - All
+                      <li id="li_nyp_bgk_54b" irina="irina"><uicontrol>Ignore the language and show all message</uicontrol> - All
                         messages are displayed in whatever language is defined within the Schematron
                         schema.</li>
-                      <li id="li_oyp_bgk_54b"><uicontrol>Custom</uicontrol> - Use this option to specify a custom
+                      <li id="li_oyp_bgk_54b" irina="irina"><uicontrol>Custom</uicontrol> - Use this option to specify a custom
                         language to be used and only the messages that match the specified language
                         will be presented.</li>
                     </ul><note id="note_pyp_bgk_54b">In all cases, if the selected language is not available for a

@@ -122,16 +122,16 @@
               comparison. Default value = <uicontrol>false</uicontrol>.<note id="note_pwx_ldj_tpb"
                 type="other" othertype="Notes">
                 <ul id="ul_nsc_ndj_tpb">
-                  <li id="li_osc_ndj_tpb">This argument is considered only for 3-way comparisons
+                  <li id="li_osc_ndj_tpb" irina="irina">This argument is considered only for 3-way comparisons
                     (i.e. only if the <codeph>baseFilePath</codeph> argument is provided).</li>
-                  <li id="li_jlc_5dj_tpb">The merge operation is similar to the same process in any
+                  <li id="li_jlc_5dj_tpb" irina="irina">The merge operation is similar to the same process in any
                     versioning system. Following the comparison between the first and second files
                     (relative to the base file), all the differences of the type
                       <uicontrol>incoming</uicontrol> are considered and the content of the first
                     file is updated accordingly.</li>
-                  <li id="li_mfs_c2j_tpb">If conflicting changes are detected, the merge operation
+                  <li id="li_mfs_c2j_tpb" irina="irina">If conflicting changes are detected, the merge operation
                     is aborted and the first file remains unchanged.</li>
-                  <li id="li_lqg_p2j_tpb">After the comparison and merge, a report is created that
+                  <li id="li_lqg_p2j_tpb" irina="irina">After the comparison and merge, a report is created that
                     provides some details about the changes that were made.</li>
                 </ul>
               </note></dd>
@@ -155,20 +155,20 @@
               Default value = <uicontrol>yaml</uicontrol>.<note id="note_jdt_qsl_54c" type="other"
                 othertype="Notes">
                 <ul id="ul_ps3_plj_lpb">
-                  <li id="li_qs3_plj_lpb">If you choose to save/redirect the console output to a
+                  <li id="li_qs3_plj_lpb" irina="irina">If you choose to save/redirect the console output to a
                     file, this argument establishes the type of the output file and its content is
                     formatted accordingly.</li>
-                  <li id="li_dr2_qlj_lpb">If you choose any of the <uicontrol>html</uicontrol>,
+                  <li id="li_dr2_qlj_lpb" irina="irina">If you choose any of the <uicontrol>html</uicontrol>,
                       <uicontrol>html/inlineCSS</uicontrol>, <uicontrol>htm</uicontrol>, or
                       <uicontrol>htm/inlineCSS</uicontrol> output formats, it is recommended that
                     you also choose to save/redirect the console to the specified HTML file to view
                     the comparison result in your preferred browser.</li>
-                  <li id="li_zcp_px2_cqb">The <uicontrol>inlineCSS</uicontrol> qualifier for the
+                  <li id="li_zcp_px2_cqb" irina="irina">The <uicontrol>inlineCSS</uicontrol> qualifier for the
                       <uicontrol>html</uicontrol> and <uicontrol>htm</uicontrol> values implies that
                     the CSS-based generated HTML code is more suitable to be directly inserted in
                     emails (as most email clients only accept inline CSS styling for HTML
                     emails.</li>
-                  <li id="li_pnz_kfj_tpb">The <uicontrol>html</uicontrol> and
+                  <li id="li_pnz_kfj_tpb" irina="irina">The <uicontrol>html</uicontrol> and
                       <uicontrol>htm</uicontrol> values (with or without the
                       <uicontrol>inlineCSS</uicontrol> qualifier) are not considered if the
                       <codeph>-merge</codeph> argument is present.</li>
@@ -238,11 +238,11 @@
       <p id="p_w54_rr5_ypb">For more information about the file comparison script and how to
         generate comparison reports in various formats, see the following resources:<ul
           id="ul_bzc_455_ypb">
-          <li id="li_czc_455_ypb">Webinar: <xref
+          <li id="li_czc_455_ypb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2021/webinar_the_new_oxygen_compare_and_merge_scripts.html"
               format="html" scope="external"><b>The New Oxygen Compare and Merge
             Scripts</b></xref>.</li>
-          <li id="li_ljr_r55_ypb">Video: <xref
+          <li id="li_ljr_r55_ypb" irina="irina">Video: <xref
               href="https://www.oxygenxml.com/demo/generating_file_comparison_reports_using_command_line.html"
               format="html" scope="external"><b>Generating File Comparison Reports Using
                 Command-Line Scripts</b></xref>.</li>

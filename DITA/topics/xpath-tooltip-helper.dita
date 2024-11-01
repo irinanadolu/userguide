@@ -25,9 +25,9 @@
     <p id="p_a51_cgk_54b">When moving the cursor before the first <codeph>abs</codeph> function, <ph keyref="product"/>
       identifies it as the first argument of the <codeph>concat</codeph> function. The tooltip shows
       in bold font the following information about the first argument:<ul id="ul_b51_cgk_54b">
-        <li id="li_c51_cgk_54b">Its name is <codeph>$arg1</codeph>.</li>
-        <li id="li_d51_cgk_54b">Its type is <codeph>xdt:anyAtomicType</codeph>.</li>
-        <li id="li_e51_cgk_54b">It is optional (note the <codeph>?</codeph> sign after the argument type).</li>
+        <li id="li_c51_cgk_54b" irina="irina">Its name is <codeph>$arg1</codeph>.</li>
+        <li id="li_d51_cgk_54b" irina="irina">Its type is <codeph>xdt:anyAtomicType</codeph>.</li>
+        <li id="li_e51_cgk_54b" irina="irina">It is optional (note the <codeph>?</codeph> sign after the argument type).</li>
       </ul></p>
     <p id="p_f51_cgk_54b">The function also takes other arguments that have the same type and returns a
         <codeph>xs:string</codeph>.</p>

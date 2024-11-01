@@ -96,18 +96,18 @@
           href="#dita-convert-topics/multiple-documents" format="dita"><b>Multiple Documents At Once
             Method</b></xref>, the wizard page allows you to choose a scope for the operation and
         some filtering options:<ul id="ul_scm_dgk_54b">
-          <li id="li_tcm_dgk_54b"><uicontrol>Scope</uicontrol> - Select from a variety of options to define the scope
+          <li id="li_tcm_dgk_54b" irina="irina"><uicontrol>Scope</uicontrol> - Select from a variety of options to define the scope
             that will have resources affected by the operation. For example, you can choose to
             affect all resources in the <uicontrol>Project</uicontrol>, <uicontrol>All opened
               files</uicontrol>, <uicontrol>Current DITA map hierarchy</uicontrol>,
               <uicontrol>Selected reference</uicontrol>, and others depending on the context.</li>
-          <li id="li_ucm_dgk_54b"><uicontrol>Filters</uicontrol> section<ul id="ul_vcm_dgk_54b">
-              <li id="li_wcm_dgk_54b"><uicontrol>Include files</uicontrol> - Specifies files to be excluded from the
+          <li id="li_ucm_dgk_54b" irina="irina"><uicontrol>Filters</uicontrol> section<ul id="ul_vcm_dgk_54b">
+              <li id="li_wcm_dgk_54b" irina="irina"><uicontrol>Include files</uicontrol> - Specifies files to be excluded from the
                 operation. You can specify multiple files by separating them with commas and the
                 patterns can include wildcards (such as <b>*</b> or <b>?</b>).</li>
-              <li id="li_xcm_dgk_54b"><uicontrol>Restrict to known XML file types only</uicontrol> - Excludes non-XML
+              <li id="li_xcm_dgk_54b" irina="irina"><uicontrol>Restrict to known XML file types only</uicontrol> - Excludes non-XML
                 file types from the operation.</li>
-              <li product="author developer editor" id="li_ycm_dgk_54b"><uicontrol>Look inside archives</uicontrol> - If
+              <li product="author developer editor" id="li_ycm_dgk_54b" irina="irina"><uicontrol>Look inside archives</uicontrol> - If
                 this option is selected, the scope of the operation will include files inside
                 archives.</li>
             </ul></li>
@@ -156,7 +156,7 @@
           document type</xref>, you can modify mappings for the predefined conversion operations to
         work with your specialization.</p>
       <p id="p_jdm_dgk_54b">To use the conversion operations with your DITA specialization, follow these steps:<ol id="ol_kdm_dgk_54b">
-          <li id="li_ldm_dgk_54b">Locate the conversion stylesheets in the following directory (and its subdirectories):
+          <li id="li_ldm_dgk_54b" irina="irina">Locate the conversion stylesheets in the following directory (and its subdirectories):
                 <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/refactoring/</filepath>.<note id="note_mdm_dgk_54b">The stylesheets for converting entire
               files (from one type to another) are located in the
@@ -165,33 +165,33 @@
               its name. Edit the appropriate <filepath>*-entrypoint.xsl</filepath> file (for
               example, to modify the <b>Convert to Task</b> operation, edit the
                 <filepath>convert-resource-to-task-entrypoint.xsl</filepath> file).</note></li>
-          <li id="li_ndm_dgk_54b">Depending on whether you use a DTD, XML Schema, or Relax NG-based specialization, you can:<ol id="ol_odm_dgk_54b">
-              <li id="li_pdm_dgk_54b">Modify the values of the declared <b>root-element</b>,
+          <li id="li_ndm_dgk_54b" irina="irina">Depending on whether you use a DTD, XML Schema, or Relax NG-based specialization, you can:<ol id="ol_odm_dgk_54b">
+              <li id="li_pdm_dgk_54b" irina="irina">Modify the values of the declared <b>root-element</b>,
                   <b>public-literal-target</b>, and <b>system-literal-target</b> variables to match
                 your specialization's DTD information.</li>
-              <li id="li_qdm_dgk_54b">Modify the value of the declared <b>schema-location</b> variable to match the
+              <li id="li_qdm_dgk_54b" irina="irina">Modify the value of the declared <b>schema-location</b> variable to match the
                 location of your specialization's XML schema.</li>
-              <li id="li_rdm_dgk_54b">Modify the value of the declared <b>xml-model-location</b> variable to match your
+              <li id="li_rdm_dgk_54b" irina="irina">Modify the value of the declared <b>xml-model-location</b> variable to match your
                 Relax NG specialization.</li>
             </ol></li>
-          <li id="li_sdm_dgk_54b">For the <uicontrol>Convert Nested Topics to New Topics</uicontrol> and
+          <li id="li_sdm_dgk_54b" irina="irina">For the <uicontrol>Convert Nested Topics to New Topics</uicontrol> and
               <uicontrol>Convert Sections to New Topics</uicontrol> operations, if your DITA
             specialization uses your own custom URN or DOCTYPE, you can replace the default mappings
             in the <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
               />/frameworks/dita/refactoring/utils/dita-formats.xsl</filepath> stylesheet with your
             own values for the <codeph>DOCTYPE</codeph> or <codeph>xml-model</codeph>.</li>
-          <li id="li_tdm_dgk_54b">If you want to change the name of the operation that will be displayed in <ph
+          <li id="li_tdm_dgk_54b" irina="irina">If you want to change the name of the operation that will be displayed in <ph
               keyref="product"/>, follow these substeps:<ol id="ol_udm_dgk_54b">
-              <li id="li_vdm_dgk_54b">Locate the resource XML file for the same conversion operation in the following
+              <li id="li_vdm_dgk_54b" irina="irina">Locate the resource XML file for the same conversion operation in the following
                 directory: <filepath><term conkeyref="reusables-user-guide/oxy-install-dir"
                   />/frameworks/dita/refactoring/</filepath> (for example, for the <b>Convert to
                   Task</b> operation, it is <filepath>convertResource2Task.xml</filepath>).</li>
-              <li id="li_wdm_dgk_54b">Edit that XML file and change the <b>name</b> attribute to match whatever you want
+              <li id="li_wdm_dgk_54b" irina="irina">Edit that XML file and change the <b>name</b> attribute to match whatever you want
                 to be displayed for that operation (for example, <codeph>name="Convert to My
                   DocType"</codeph>).</li>
             </ol></li>
-          <li id="li_xdm_dgk_54b">Save your changes to all modified files.</li>
-          <li id="li_ydm_dgk_54b">Restart <ph keyref="product"/></li>
+          <li id="li_xdm_dgk_54b" irina="irina">Save your changes to all modified files.</li>
+          <li id="li_ydm_dgk_54b" irina="irina">Restart <ph keyref="product"/></li>
         </ol></p>
       <p id="p_zdm_dgk_54b"><b>Result:</b> You should now see your changes when <xref
           href="#dita-convert-topics/methods_for_accessing_the_dita_conversion_refacto"

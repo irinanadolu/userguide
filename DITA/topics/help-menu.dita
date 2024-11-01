@@ -104,21 +104,21 @@
             of a problem that was encountered while using the application. You can also select
             additional information to be sent to the technical support team in the five tabs:<ul
               id="ul_vvl_bgk_54b">
-              <li id="li_wvl_bgk_54b"><uicontrol>General info</uicontrol> - You can edit your
+              <li id="li_wvl_bgk_54b" irina="irina"><uicontrol>General info</uicontrol> - You can edit your
                 contact details in case you want to be contacted for further details or to be
                 notified of a resolution.</li>
-              <li id="li_xvl_bgk_54b"><uicontrol>Class Loader URLs</uicontrol> - You can choose
+              <li id="li_xvl_bgk_54b" irina="irina"><uicontrol>Class Loader URLs</uicontrol> - You can choose
                 whether or not to include the listed <i>Class Loader URLs</i> with your report.</li>
-              <li id="li_yvl_bgk_54b"><uicontrol>System properties</uicontrol> - You can choose
+              <li id="li_yvl_bgk_54b" irina="irina"><uicontrol>System properties</uicontrol> - You can choose
                 whether or not to include the listed system property details with your report.<note
                   type="tip" id="note_zvl_bgk_54b">You are able to change the URL where the reported
                   problem is sent by using the <codeph>com.oxygenxml.report.problems.url</codeph>
                   system property. The report is sent in XML format through the
                     <codeph>report</codeph> parameter of the POST HTTP method.</note></li>
-              <li id="li_awl_bgk_54b"><uicontrol>Plugins</uicontrol> - You can choose whether or not
+              <li id="li_awl_bgk_54b" irina="irina"><uicontrol>Plugins</uicontrol> - You can choose whether or not
                 to include details about your installed <xref keyref="glossentry_plugin"
                     ><term>plugins</term></xref> with your report.</li>
-              <li id="li_bwl_bgk_54b"><uicontrol>Frameworks</uicontrol> - You can choose whether or
+              <li id="li_bwl_bgk_54b" irina="irina"><uicontrol>Frameworks</uicontrol> - You can choose whether or
                 not to include details about your installed <xref keyref="glossentry_framework"
                     ><term>frameworks</term></xref> with your report.</li>
             </ul></dd>
@@ -171,17 +171,17 @@
                 <ph keyref="product"/> and the installed version.<ph
                 product="author developer editor json"> This dialog box includes the following
                 tabs:</ph><ul product="author developer editor json" id="ul_hwl_bgk_54b">
-                <li id="li_iwl_bgk_54b"><uicontrol>Copyright</uicontrol> - This tab contains general
+                <li id="li_iwl_bgk_54b" irina="irina"><uicontrol>Copyright</uicontrol> - This tab contains general
                   information about the product and the version of the product you are using, along
                   with contact details and the <i>SGN</i> number. Details regarding the memory usage
                   are also presented at the bottom of the dialog box.</li>
-                <li id="li_jwl_bgk_54b"><uicontrol>Libraries</uicontrol> - This tab presents the
+                <li id="li_jwl_bgk_54b" irina="irina"><uicontrol>Libraries</uicontrol> - This tab presents the
                   list of third-party libraries that <ph keyref="product"/> uses. To view the
                   End-User Licence Agreement of each library, double-click it.</li>
-                <li id="li_kwl_bgk_54b"><uicontrol>Frameworks</uicontrol> - This tab contains a list
+                <li id="li_kwl_bgk_54b" irina="irina"><uicontrol>Frameworks</uicontrol> - This tab contains a list
                   with the <xref keyref="glossentry_framework"><term>frameworks</term></xref> that
                   are bundled with <ph keyref="product"/>.</li>
-                <li id="li_lwl_bgk_54b"><uicontrol>System Properties</uicontrol> - This tab contains
+                <li id="li_lwl_bgk_54b" irina="irina"><uicontrol>System Properties</uicontrol> - This tab contains
                   a list with system properties and their values. The contextual menu allows you to
                   select and copy the properties.</li>
               </ul></p>

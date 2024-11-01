@@ -5,11 +5,11 @@
   <body>
     <p id="p_utx_cgk_54b">To configure the support for a MySQL database, follow this procedure:</p>
     <ol id="ol_vtx_cgk_54b">
-      <li id="li_wtx_cgk_54b"><xref href="configure-mysql-datasource.dita#configure-mysql-datasource">Configure
+      <li id="li_wtx_cgk_54b" irina="irina"><xref href="configure-mysql-datasource.dita#configure-mysql-datasource">Configure
           MySQL <term>Data Source</term> drivers</xref>.</li>
-      <li id="li_xtx_cgk_54b"><xref href="configure-mysql-connection.dita#configure-mysql-connection">Configure
+      <li id="li_xtx_cgk_54b" irina="irina"><xref href="configure-mysql-connection.dita#configure-mysql-connection">Configure
           a MySQL <term>Connection</term>.</xref></li>
-      <li id="li_ytx_cgk_54b">To view your connection, go to the <xref
+      <li id="li_ytx_cgk_54b" irina="irina">To view your connection, go to the <xref
           href="../topics/relational-database-explorer.dita#relational-database-explorer"
             ><uicontrol>Data Source Explorer</uicontrol> view</xref>
         <ph conkeyref="reusables-user-guide/reopen-view-parenthesis"/> or switch to the

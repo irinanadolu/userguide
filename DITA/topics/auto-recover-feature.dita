@@ -36,27 +36,27 @@
       </fig>
     </p>
     <p id="p_zft_bgk_54b">The dialog box offers the following choices:<ul id="ul_agt_bgk_54b">
-        <li id="li_bgt_bgk_54b"><uicontrol>Open recovered content in a new tab</uicontrol> - Opens the recovered
+        <li id="li_bgt_bgk_54b" irina="irina"><uicontrol>Open recovered content in a new tab</uicontrol> - Opens the recovered
           document in a new tab.<note type="tip" id="note_cgt_bgk_54b">You can use the <uicontrol><image
                 href="../img/DiffFiles16.png"/>Compare Files</uicontrol> tool (available in the
               <uicontrol>Tools</uicontrol> menu) to compare the recovered content with the last
             saved version of the document.</note></li>
-        <li id="li_dgt_bgk_54b"><uicontrol>Replace current file content with recovered content</uicontrol> - Replaces
+        <li id="li_dgt_bgk_54b" irina="irina"><uicontrol>Replace current file content with recovered content</uicontrol> - Replaces
           the content of the last saved version of the document with the content of the recovered
           version of the document and removes the auto-recover file from disk.</li>
-        <li id="li_egt_bgk_54b"><uicontrol>Use current file content and discard recovered content</uicontrol> - Discards
+        <li id="li_egt_bgk_54b" irina="irina"><uicontrol>Use current file content and discard recovered content</uicontrol> - Discards
           the recovered document and retains the last saved version of the document.</li>
       </ul></p>
     <note type="other" othertype="Notes About the Auto-Recover Feature" id="note_fgt_bgk_54b">
       <ul id="ul_ggt_bgk_54b">
-        <li id="li_hgt_bgk_54b">The <term>Auto Recover</term> feature works for both local and remote files.</li>
-        <li id="li_igt_bgk_54b">For DITA projects, the <term>Auto Recover</term> feature also works for DITA maps opened
+        <li id="li_hgt_bgk_54b" irina="irina">The <term>Auto Recover</term> feature works for both local and remote files.</li>
+        <li id="li_igt_bgk_54b" irina="irina">For DITA projects, the <term>Auto Recover</term> feature also works for DITA maps opened
           in the <uicontrol>DITA Maps Manager</uicontrol>.</li>
-        <li id="li_jgt_bgk_54b">The <term>Auto Recover</term> feature does NOT work if there is not enough space
+        <li id="li_jgt_bgk_54b" irina="irina">The <term>Auto Recover</term> feature does NOT work if there is not enough space
           available on the disk where the <xref
             href="preferences-editor-save.dita#preferences-editor-save/auto-recover-location"
             >auto-recover file location is specified</xref>.</li>
-        <li id="li_kgt_bgk_54b">The <term>Auto Recover</term> feature does NOT work on files opened in the <xref
+        <li id="li_kgt_bgk_54b" irina="irina">The <term>Auto Recover</term> feature does NOT work on files opened in the <xref
             href="huge-file-editor.dita"><term>huge file editor</term></xref> (if you select the
             <xref href="editing-large-documents.dita"><uicontrol>Optimize loading for huge
               files</uicontrol> option when opening large documents</xref>).</li>

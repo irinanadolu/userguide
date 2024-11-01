@@ -21,9 +21,9 @@
       API</xref>).</p>
     <p id="p_dbt_dgk_54b">Possible values for the <codeph>hideBreadcrumb</codeph> property are:<ul
         id="ul_ebt_dgk_54b">
-        <li id="li_fbt_dgk_54b"><b>false</b> - The <i>breadcrumb</i> is visible in the
+        <li id="li_fbt_dgk_54b" irina="irina"><b>false</b> - The <i>breadcrumb</i> is visible in the
           interface.</li>
-        <li id="li_gbt_dgk_54b"><b>true</b> - The <i>breadcrumb</i> is not displayed in the
+        <li id="li_gbt_dgk_54b" irina="irina"><b>true</b> - The <i>breadcrumb</i> is not displayed in the
           interface.</li>
       </ul></p>
     <p id="p_hbt_dgk_54b">You can set this property in your plugin's JavaScript code like

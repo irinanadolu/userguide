@@ -21,27 +21,27 @@
     </p>
     <p id="p_hpq_dgk_54b"><image href="../img/Redundancy.png" id="image_jsb_cqy_wmb"/></p>
     <p id="p_ipq_dgk_54b">To achieve this, you need to create two environments:<ul id="ul_jpq_dgk_54b">
-        <li id="li_kpq_dgk_54b">Production - The main environment.</li>
-        <li id="li_lpq_dgk_54b">Redundancy - A secondary environment that takes over the production environment if
+        <li id="li_kpq_dgk_54b" irina="irina">Production - The main environment.</li>
+        <li id="li_lpq_dgk_54b" irina="irina">Redundancy - A secondary environment that takes over the production environment if
           failure occurs.</li>
       </ul></p>
     <p id="p_mpq_dgk_54b">Each environment consists of two components: an HTTP License Server and a Web Author
       instance.</p>
     <p id="p_npq_dgk_54b">To create the environments:</p>
     <ol id="ol_u3j_r5h_jmb">
-      <li id="li_opq_dgk_54b">Install an instance of the <b>Oxygen HTTP License Server</b> for each of the
+      <li id="li_opq_dgk_54b" irina="irina">Install an instance of the <b>Oxygen HTTP License Server</b> for each of the
         environments.</li>
-      <li id="li_ppq_dgk_54b">Configure the license server to use the license keys . The production license key will be
+      <li id="li_ppq_dgk_54b" irina="irina">Configure the license server to use the license keys . The production license key will be
         configured on the license server from the production environment while the redundancy
         license key will be configured on the license server from the redundancy environment.</li>
-      <li id="li_qpq_dgk_54b">Install a Web Author instance for each of the environments. Choose <xref
+      <li id="li_qpq_dgk_54b" irina="irina">Install a Web Author instance for each of the environments. Choose <xref
           href="webapp-initial-installation.dita#webapp-initial-installation/flexible-setup"
               ><i><uicontrol>Flexible setup </uicontrol></i> on the initial configuration
           page</xref>.</li>
-      <li id="li_rpq_dgk_54b">Go to the <xref href="webapp-admin-page.dita">Administration page</xref> and configure
+      <li id="li_rpq_dgk_54b" irina="irina">Go to the <xref href="webapp-admin-page.dita">Administration page</xref> and configure
         both Web Author instances to use the license server instances:<ul id="ul_x41_3zh_jmb">
-          <li id="li_spq_dgk_54b">The production license server as the main server.</li>
-          <li id="li_tpq_dgk_54b">The redundancy license server as the backup server.<note type="tip" id="note_upq_dgk_54b">Both Web Author
+          <li id="li_spq_dgk_54b" irina="irina">The production license server as the main server.</li>
+          <li id="li_tpq_dgk_54b" irina="irina">The redundancy license server as the backup server.<note type="tip" id="note_upq_dgk_54b">Both Web Author
               instances have the same license server configuration.</note></li>
         </ul><p id="p_vpq_dgk_54b">
           <note id="note_wpq_dgk_54b">If only the production license server fails, Web Author automatically switches to

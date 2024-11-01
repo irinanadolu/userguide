@@ -154,9 +154,9 @@
                   <dt><uicontrol>Indent size</uicontrol></dt>
                   <dd>Allows you to set the number of space characters or the tab size that equals a
                     single indent. For example, if set to 4, one tab equals:<ul id="ul_wm4_bgk_54b">
-                      <li id="li_xm4_bgk_54b">4 space characters, if the <uicontrol>Indent With Tabs</uicontrol> option
+                      <li id="li_xm4_bgk_54b" irina="irina">4 space characters, if the <uicontrol>Indent With Tabs</uicontrol> option
                         is unchecked.</li>
-                      <li id="li_ym4_bgk_54b">1 tab that spans 4 characters, if the <uicontrol>Indent With
+                      <li id="li_ym4_bgk_54b" irina="irina">1 tab that spans 4 characters, if the <uicontrol>Indent With
                           Tabs</uicontrol> option is selected.</li>
                     </ul></dd>
                 </dlentry>

@@ -21,7 +21,7 @@
       </fig>
     </p>
     <p id="p_qvr_bgk_54b">The option layers are as follows (sorted from high priority to low):<ul id="ul_rvr_bgk_54b">
-        <li product="author developer editor json" id="li_svr_bgk_54b">
+        <li product="author developer editor json" id="li_svr_bgk_54b" irina="irina">
           <p id="p_tvr_bgk_54b"><xref
               href="preferences-storing.dita#preferences-storing/project-options-section"><b>Project
                 Options</b></xref></p>
@@ -31,7 +31,7 @@
             avoid conflicts that may appear when documents modified by various team members are
             committed to the repository).</p>
         </li>
-        <li id="li_vvr_bgk_54b">
+        <li id="li_vvr_bgk_54b" irina="irina">
           <p id="p_wvr_bgk_54b"><xref format="dita" href="preferences.dita#preferences"
               product="authorEclipse developerEclipse editorEclipse"><b>Global
               Options</b></xref><xref
@@ -41,7 +41,7 @@
             specific needs.</p>
         </li>
         <li product="author developer editor authorEclipse developerEclipse editorEclipse"
-          id="li_yvr_bgk_54b">
+          id="li_yvr_bgk_54b" irina="irina">
           <p id="p_zvr_bgk_54b"><xref format="dita" href="default-options.dita#default-options"
                 ><b>Customized Default Options</b></xref></p>
           <p id="p_awr_bgk_54b">Designed to customize the initial option values for a group of
@@ -53,7 +53,7 @@
                 href="import-export-preferences.dita#import-export-preferences"><uicontrol>Reset
                   Global Options</uicontrol></xref> actions.</note></p>
         </li>
-        <li id="li_cwr_bgk_54b">
+        <li id="li_cwr_bgk_54b" irina="irina">
           <p id="p_dwr_bgk_54b"><b>Default Options</b></p>
           <p id="p_ewr_bgk_54b">The predefined default values, tuned so that <ph keyref="product"/> behaves optimally
             in most working environments.</p>

@@ -25,10 +25,10 @@
       <title>Example of an XSLT Script for Creating a Custom Operation to <i>Convert an Attribute to
           an Element</i></title>
       <p id="p_hj1_cgk_54b">The XSLT stylesheet does the following:<ul id="ul_yp5_tw3_ns">
-          <li id="li_ij1_cgk_54b">Iterates over all elements from the document that have the specified local name and
+          <li id="li_ij1_cgk_54b" irina="irina">Iterates over all elements from the document that have the specified local name and
             namespace.</li>
-          <li id="li_jj1_cgk_54b">Finds the attribute that will be converted to an element. </li>
-          <li id="li_kj1_cgk_54b">Adds the new element as the first child of the parent
+          <li id="li_jj1_cgk_54b" irina="irina">Finds the attribute that will be converted to an element. </li>
+          <li id="li_kj1_cgk_54b" irina="irina">Adds the new element as the first child of the parent
             element.<codeblock outputclass="language-xml" id="codeblock_lj1_cgk_54b">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -199,14 +199,14 @@ href="http://www.oxygenxml.com/ns/xmlRefactoring/resources/commons.xsl"/>
       root node:<note id="note_zj1_cgk_54b">They belong to the
           <codeph>http://www.oxygenxml.com/ns/xmlRefactoring/functions</codeph> namespace.</note><ul
         id="ul_ndh_cm4_kz">
-        <li id="li_ak1_cgk_54b">
+        <li id="li_ak1_cgk_54b" irina="irina">
           <p id="p_bk1_cgk_54b"><b>get-content-after-root()</b> - Returns the content after root as
               <codeph>xs:string</codeph>.</p>
           <p id="p_ck1_cgk_54b">For the XML above, the call of this function will return the following string
             value:<codeblock outputclass="language-xml" id="codeblock_dk1_cgk_54b">&lt;!-- comment after root -->
 &lt;?pi after root ?></codeblock></p>
         </li>
-        <li id="li_ek1_cgk_54b">
+        <li id="li_ek1_cgk_54b" irina="irina">
           <p id="p_fk1_cgk_54b"><b>set-content-after-root(xs:string)</b> - Updates the content that will be serialized
             in the refactored document after the root node.</p>
           <p id="p_gk1_cgk_54b">The function call <codeph>set-content-after-root('&lt;!-- Inserted comment
@@ -219,7 +219,7 @@ href="http://www.oxygenxml.com/ns/xmlRefactoring/resources/commons.xsl"/>
     &lt;child>&lt;/child>
 &lt;/root>&lt;!-- Inserted comment --></codeblock></p>
         </li>
-        <li id="li_ik1_cgk_54b">
+        <li id="li_ik1_cgk_54b" irina="irina">
           <p id="p_jk1_cgk_54b"><b>get-content-before-root()</b> - Returns the content before root as
               <codeph>xs:string</codeph>.</p>
           <p id="p_kk1_cgk_54b">For the XML above, the call of this function will return the following string
@@ -227,7 +227,7 @@ href="http://www.oxygenxml.com/ns/xmlRefactoring/resources/commons.xsl"/>
 &lt;!-- comment before root -->
 &lt;?pi before root ?></codeblock></p>
         </li>
-        <li id="li_mk1_cgk_54b">
+        <li id="li_mk1_cgk_54b" irina="irina">
           <p id="p_nk1_cgk_54b"><b>set-content-before-root(xs:string)</b> - Updates the content that will be serialized
             in the refactored document after the root node.</p>
           <p id="p_ok1_cgk_54b">The function call <codeph>set-content-before-root('&lt;!-- Inserted comment

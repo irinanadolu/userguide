@@ -81,10 +81,10 @@
     <p product="author editor authorEclipse editorEclipse" id="p_fr5_bgk_54b">For more information
       about working with special characters in specific editing modes, see the following
         sections:<ul id="ul_mbb_2v5_bkb">
-        <li id="li_gr5_bgk_54b"><xref href="bidi-support.dita"/></li>
-        <li product="author editor" id="li_hr5_bgk_54b"><xref href="bidirectional-support.dita"
+        <li id="li_gr5_bgk_54b" irina="irina"><xref href="bidi-support.dita"/></li>
+        <li product="author editor" id="li_hr5_bgk_54b" irina="irina"><xref href="bidirectional-support.dita"
           /></li>
-        <li id="li_ir5_bgk_54b"><xref href="grid-bidi.dita"/></li>
+        <li id="li_ir5_bgk_54b" irina="irina"><xref href="grid-bidi.dita"/></li>
       </ul></p>
   </body>
 </topic>

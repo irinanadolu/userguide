@@ -17,7 +17,7 @@
       <title>Creating a DITA-OT Transformation Scenario</title>
       <p id="p1">To create a <uicontrol>DITA-OT Transformation</uicontrol> scenario, use one of the
         following methods:<ul id="ul_ot1_lnt_1r">
-          <li id="li_ocn_dgk_54b">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_odd_1wv_sr"
+          <li id="li_ocn_dgk_54b" irina="irina">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_odd_1wv_sr"
               />Configure Transformation Scenario(s) (<shortcut
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
                 product="author editor"/><shortcut
@@ -30,7 +30,7 @@
             </menucascade><uicontrol product="authorEclipse editorEclipse">XML</uicontrol> menu.
             Then click the <uicontrol>New</uicontrol> button and select <uicontrol>DITA-OT
               Transformation</uicontrol>.</li>
-          <li id="li_pcn_dgk_54b">Go to <menucascade>
+          <li id="li_pcn_dgk_54b" irina="irina">Go to <menucascade>
               <uicontrol>Window</uicontrol>
               <uicontrol>Show View</uicontrol>
             </menucascade> and select <uicontrol><image href="../img/TransformConfig16.png"
@@ -67,7 +67,7 @@
       <p id="p_xcn_dgk_54b">Editing a transformation scenario is useful if you need to configure some of its
         parameters.</p>
       <p id="p_ycn_dgk_54b">To configure an existing transformation scenario, follow these steps:<ol id="ol_zcn_dgk_54b">
-          <li id="li_adn_dgk_54b">
+          <li id="li_adn_dgk_54b" irina="irina">
             <p id="p_bdn_dgk_54b">Select the <uicontrol><image href="../img/TransformConfig16.png"
                   id="image_es4_b4s_w3b"/>Configure Transformation Scenario(s) (<shortcut
                   conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
@@ -85,7 +85,7 @@
                   ><uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box</xref> is
               opened.</p>
           </li>
-          <li id="li_ddn_dgk_54b">Select the particular transformation scenario and click the
+          <li id="li_ddn_dgk_54b" irina="irina">Select the particular transformation scenario and click the
               <uicontrol>Edit</uicontrol> button at the bottom of the dialog box or from the
             contextual menu.<note id="note_edn_dgk_54b">Since transformation scenarios that are associated with built-in
                 <xref keyref="glossentry_framework"><term>frameworks</term></xref> are read-only,

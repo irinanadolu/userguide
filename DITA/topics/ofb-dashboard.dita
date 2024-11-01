@@ -34,15 +34,15 @@
             the most popular tasks, particularly for users who are getting started. Once a task is
             complete, it is marked as done (with blue outlines). The actions available are:<ul
               id="ul_g1f_yqy_prb">
-              <li id="li_h1f_yqy_prb"><uicontrol>Setup organization profile</uicontrol> - This
+              <li id="li_h1f_yqy_prb" irina="irina"><uicontrol>Setup organization profile</uicontrol> - This
                 action opens the <xref href="ofb-organization-profile-page.dita"
                     ><uicontrol>Organization Profile</uicontrol> page</xref> where you can manage
                 information about your organization.</li>
-              <li id="li_f22_fry_prb"><uicontrol>Invite members</uicontrol> - This action opens the
+              <li id="li_f22_fry_prb" irina="irina"><uicontrol>Invite members</uicontrol> - This action opens the
                   <xref href="ofb-members-page.dita"><uicontrol>Members</uicontrol> page</xref>
                 where you can view all the members attached to the organization, invite new members,
                 and associate user roles.</li>
-              <li id="li_fkd_nry_prb"><uicontrol>Create first site</uicontrol> - This action
+              <li id="li_fkd_nry_prb" irina="irina"><uicontrol>Create first site</uicontrol> - This action
                 initiates the process of creating a new site configuration.</li>
             </ul></dd>
         </dlentry>
@@ -61,22 +61,22 @@
               <i>Owner</i>, <i>Admin</i>, or <i>Moderator</i>.</p>
             <p id="p_vtw_dgk_54b">The following components are available in this pane to help you
               filter the information or navigate to a certain page:<ul id="ul_wtw_dgk_54b">
-                <li id="li_xtw_dgk_54b">If you click the <uicontrol>Sites</uicontrol> title in the
+                <li id="li_xtw_dgk_54b" irina="irina">If you click the <uicontrol>Sites</uicontrol> title in the
                   top-left corner of the pane or if you click the <uicontrol>Manage
                     sites</uicontrol> link in the top-right corner of the pane, you will be directed
                   to the <xref href="ofb-sites-page.dita"><uicontrol>Sites</uicontrol> page</xref>
                   where all your site configurations are displayed in a tile format.</li>
-                <li id="li_btc_d2y_g1c">If you click the name of a site, it will open the <xref
+                <li id="li_btc_d2y_g1c" irina="irina">If you click the name of a site, it will open the <xref
                     href="ofb-site-dashboard.dita"><uicontrol>Site Dashboard</uicontrol></xref> for
                   that particular site configuration.</li>
-                <li id="li_ytw_dgk_54b">You can click the <uicontrol>Add site</uicontrol> link in
+                <li id="li_ytw_dgk_54b" irina="irina">You can click the <uicontrol>Add site</uicontrol> link in
                   the top-right corner or the pane to <xref href="ofb-creating-site.dita">create a
                     new site configuration</xref>.</li>
-                <li id="li_ztw_dgk_54b">If you click on the name of the site configuration, it will
+                <li id="li_ztw_dgk_54b" irina="irina">If you click on the name of the site configuration, it will
                   open the <xref href="ofb-moderating-comments.dita"><uicontrol>Comments</uicontrol>
                     page</xref> where comments can be moderated and managed for the particular
                   configuration.</li>
-                <li id="li_a5w_dgk_54b">The number of <uicontrol>Pending</uicontrol> (not shown if
+                <li id="li_a5w_dgk_54b" irina="irina">The number of <uicontrol>Pending</uicontrol> (not shown if
                   the <xref href="ofb-editing-site.dita#ofb-editing-site/comment-moderation"
                       ><uicontrol>Comments Moderation</uicontrol> option is set to
                     <i>None</i></xref>), <uicontrol>Open</uicontrol>,
@@ -87,16 +87,16 @@
                     click.<note id="note_b5w_dgk_54b">The number of <uicontrol>Open</uicontrol>,
                       <uicontrol>Reopened</uicontrol>, and <uicontrol>Resolved</uicontrol> comments
                     do not include replies (only first-level comments).</note></li>
-                <li id="li_d5w_dgk_54b">The number of community members is displayed in a blue box
+                <li id="li_d5w_dgk_54b" irina="irina">The number of community members is displayed in a blue box
                   on the far right for each site configuration. Clicking the blue box will open the
                     <xref href="ofb-community-management.dita"><uicontrol>Community</uicontrol>
                     page</xref> where you can see all the members of the site management team and
                   any other user who has posted a comment for the particular site
                   configuration.</li>
-                <li id="li_e5w_dgk_54b">By default, five site configurations are shown, but you can
+                <li id="li_e5w_dgk_54b" irina="irina">By default, five site configurations are shown, but you can
                   click the <uicontrol>Show more</uicontrol> link at the bottom of the pane to show
                   the rest of the sites.</li>
-                <li id="li_uwn_4by_g1c">Sites that do not have any page views detected in the output
+                <li id="li_uwn_4by_g1c" irina="irina">Sites that do not have any page views detected in the output
                   have a warning icon (<image href="../img/ofb-Warn16.png"/>) displayed under the
                   site avatar/name. No page views usually means that the site/version has not been
                   installed so these warnings are meant to offer troubleshooting hints.</li>

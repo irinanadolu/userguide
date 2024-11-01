@@ -28,16 +28,16 @@
       the tree view.</p>
     <p id="p_c1j_dgk_54b">The <uicontrol>Source</uicontrol> section presents relevant options regarding the item(s)
       that you move or copy:<ul id="ul_d1j_dgk_54b">
-        <li id="li_e1j_dgk_54b"><uicontrol>URL</uicontrol> - This field is displayed only if you copy/move a single
+        <li id="li_e1j_dgk_54b" irina="irina"><uicontrol>URL</uicontrol> - This field is displayed only if you copy/move a single
           item.</li>
-        <li id="li_f1j_dgk_54b"><uicontrol>Revision</uicontrol> - Presents the revision that will have one or more items
+        <li id="li_f1j_dgk_54b" irina="irina"><uicontrol>Revision</uicontrol> - Presents the revision that will have one or more items
           copied, allowing you to also choose another revision.<note id="note_g1j_dgk_54b">Since only items from the HEAD
             revision can be moved, the <uicontrol>Revision</uicontrol> options are not presented for
             the <uicontrol>Move to</uicontrol> action.</note><note id="note_h1j_dgk_54b">When you copy a single item while
             browsing a revision other than <i>HEAD</i>, the <uicontrol>Revision</uicontrol> options
             present this revision but does not allow you to change it. The same applies if copying
             multiple items.</note></li>
-        <li id="li_i1j_dgk_54b"><uicontrol>New name</uicontrol> - This option is presented when you copy or move a
+        <li id="li_i1j_dgk_54b" irina="irina"><uicontrol>New name</uicontrol> - This option is presented when you copy or move a
           single item, allowing you to also rename it.</li>
       </ul></p>
     <p id="p_j1j_dgk_54b">Another useful action is <uicontrol>Delete</uicontrol>, allowing you to erase resources

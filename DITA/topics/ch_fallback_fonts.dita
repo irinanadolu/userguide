@@ -10,20 +10,20 @@
     <p id="p_e4v_dgk_54b">Here is the list of fallback fonts that are automatically added for these
       generic font families:</p>
     <ul id="ul_cpd_thr_ylb">
-      <li id="li_f4v_dgk_54b"><b>Sans-Serif</b> - <codeph>Segoe UI, Symbol, Segoe UI Symbol,
+      <li id="li_f4v_dgk_54b" irina="irina"><b>Sans-Serif</b> - <codeph>Segoe UI, Symbol, Segoe UI Symbol,
           Microsoft YaHei, Yu Gothic, Malgun Gothic, Latha, Arial Unicode MS</codeph></li>
-      <li id="li_g4v_dgk_54b"><b>Serif</b> - <codeph>Times, Times New Roman, Symbol, Segoe UI
+      <li id="li_g4v_dgk_54b" irina="irina"><b>Serif</b> - <codeph>Times, Times New Roman, Symbol, Segoe UI
           Symbol, SimSun, MingLiU, MS Mincho, Batang, Vijaya, Arial Unicode MS</codeph></li>
-      <li id="li_h4v_dgk_54b"><b>Monospace</b> - <codeph>Segoe UI, Symbol, Segoe UI Symbol,
+      <li id="li_h4v_dgk_54b" irina="irina"><b>Monospace</b> - <codeph>Segoe UI, Symbol, Segoe UI Symbol,
           Microsoft YaHei, Yu Gothic, Malgun Gothic, Latha, Arial Unicode MS</codeph></li>
     </ul>
     <p>If you are using a Linux machine, the list of fallback fonts is the following:</p>
     <ul id="ul_jnv_zp2_yrb">
-      <li><b>Sans-Serif</b> - <codeph>DejaVu Sans, FreeSans, Noto Sans CJK SC, Noto Sans CJK JP,
+      <li irina="irina"><b>Sans-Serif</b> - <codeph>DejaVu Sans, FreeSans, Noto Sans CJK SC, Noto Sans CJK JP,
           Noto Sans CJK KR</codeph></li>
-      <li><b>Serif</b> - <codeph>Times, DejaVu Serif, FreeSerif, Noto Serif CJK SC, Noto Serif CJK
+      <li irina="irina"><b>Serif</b> - <codeph>Times, DejaVu Serif, FreeSerif, Noto Serif CJK SC, Noto Serif CJK
           JP, Noto Serif CJK KR</codeph></li>
-      <li><b>Monospace</b> - <codeph>DejaVu Sans Mono, FreeMono, Noto Sans CJK SC, Noto Sans CJK JP,
+      <li irina="irina"><b>Monospace</b> - <codeph>DejaVu Sans Mono, FreeMono, Noto Sans CJK SC, Noto Sans CJK JP,
           Noto Sans CJK KR</codeph></li>
     </ul>
     <p id="p_i4v_dgk_54b">If you use the processor on multiple operating systems/machines, make sure

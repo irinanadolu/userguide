@@ -31,7 +31,7 @@
     <p id="p_x1l_cgk_54b">To customize this parameter, follow this procedure:</p>
     <p id="p_y1l_cgk_54b">
       <ol id="ol_z1l_cgk_54b">
-        <li id="li_abl_cgk_54b">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"
+        <li id="li_abl_cgk_54b" irina="irina">Use the <uicontrol><image href="../img/TransformConfig16.png" id="image_hcv_gwv_sr"
             />Configure Transformation Scenario(s) (<shortcut
               conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
               product="author developer editor"/></uicontrol><uicontrol><shortcut
@@ -42,9 +42,9 @@
             <uicontrol>Transformation</uicontrol>
           </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
             >XML</uicontrol> menu.</li>
-        <li id="li_bbl_cgk_54b">Select the <uicontrol>DITA Map CHM</uicontrol> transformation scenario and click the
+        <li id="li_bbl_cgk_54b" irina="irina">Select the <uicontrol>DITA Map CHM</uicontrol> transformation scenario and click the
             <uicontrol>Edit</uicontrol> button.</li>
-        <li id="li_cbl_cgk_54b"> In the <uicontrol>Parameter</uicontrol> tab, search for the
+        <li id="li_cbl_cgk_54b" irina="irina"> In the <uicontrol>Parameter</uicontrol> tab, search for the
             <codeph>htmlhelp.locale</codeph> parameter and change its value to the desired language
             tag.<note id="note_dbl_cgk_54b">The format of the <codeph>htmlhelp.locale</codeph> parameter is
               <codeph>LL-CC</codeph>, where <codeph>LL</codeph> represents the language code
@@ -60,25 +60,25 @@
       <title>Customizing the CHM Output</title>
       <p id="p_ebl_cgk_54b">There are several possibilities available for customizing the CHM output:<ul
           id="ul_k3p_rph_43b">
-          <li id="li_fbl_cgk_54b">You can use a custom CSS stylesheet to customize how the HTML content is rendered in
+          <li id="li_fbl_cgk_54b" irina="irina">You can use a custom CSS stylesheet to customize how the HTML content is rendered in
             the output:<ol id="ol_trv_fqh_43b">
-              <li id="li_gbl_cgk_54b">Create the custom CSS.</li>
-              <li id="li_hbl_cgk_54b">Select the <uicontrol>DITA Map CHM</uicontrol> transformation scenario and click
+              <li id="li_gbl_cgk_54b" irina="irina">Create the custom CSS.</li>
+              <li id="li_hbl_cgk_54b" irina="irina">Select the <uicontrol>DITA Map CHM</uicontrol> transformation scenario and click
                 the <uicontrol>Edit</uicontrol> button.</li>
-              <li id="li_ibl_cgk_54b">In the <uicontrol>Parameter</uicontrol> tab, set the <codeph>args.css</codeph>
+              <li id="li_ibl_cgk_54b" irina="irina">In the <uicontrol>Parameter</uicontrol> tab, set the <codeph>args.css</codeph>
                 parameter to point to the location of your custom CSS and make sure the
                   <codeph>args.copy.css</codeph> parameter is set to <b>yes</b> to instruct the
                 transformation to copy the custom CSS to the output folder.</li>
-              <li id="li_jbl_cgk_54b">Run the transformation.</li>
+              <li id="li_jbl_cgk_54b" irina="irina">Run the transformation.</li>
             </ol></li>
-          <li id="li_kbl_cgk_54b">If you are familiar with XSLT, there are two XSLT stylesheets that
+          <li id="li_kbl_cgk_54b" irina="irina">If you are familiar with XSLT, there are two XSLT stylesheets that
             are used in the transformation to compile various settings and components in the CHM
             output. They are found in the following directory:
               <filepath>OXYGEN_INSTALL_DIR/frameworks/dita/DITA-OT/plugins/org.dita.htmlhelp/xsl/map2htmlhelp</filepath>.
             The files are as follows:<ul id="ul_wvw_xrh_43b">
-              <li id="li_lbl_cgk_54b"><b>map2hhcImpl.xsl</b> - This file is used to compile the
+              <li id="li_lbl_cgk_54b" irina="irina"><b>map2hhcImpl.xsl</b> - This file is used to compile the
                 table of contents.</li>
-              <li id="li_mbl_cgk_54b"><b>map2hhpImpl.xsl</b> - This file contains information for
+              <li id="li_mbl_cgk_54b" irina="irina"><b>map2hhpImpl.xsl</b> - This file contains information for
                 compiling the CHM and various settings that are read by the <term>HTML Help
                   Workshop</term> when creating the output.</li>
             </ul></li>

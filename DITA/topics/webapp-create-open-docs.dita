@@ -44,20 +44,20 @@
             href="../img/WAHelpMenu16.png"/>Menu</uicontrol> button in the top-right corner that
         contains some options to help you report issues or find more information. Clicking this
         button presents the following options:<ul id="ul_vd4_dgk_54b">
-          <li conkeyref="reusables-webapp/report-problem-li" id="li_wd4_dgk_54b"/>
-          <li conkeyref="reusables-webapp/help-li" id="li_xd4_dgk_54b"/>
-          <li id="li_yd4_dgk_54b"><uicontrol>About</uicontrol> - Displays information about your <ph
+          <li conkeyref="reusables-webapp/report-problem-li" id="li_wd4_dgk_54b" irina="irina"/>
+          <li conkeyref="reusables-webapp/help-li" id="li_xd4_dgk_54b" irina="irina"/>
+          <li id="li_yd4_dgk_54b" irina="irina"><uicontrol>About</uicontrol> - Displays information about your <ph
               keyref="webappProduct"/> version and license.</li>
         </ul></p>
     </section>
     <section id="create_a_new_document">
       <title>Creating a New Document</title>
       <p id="p_zd4_dgk_54b">To create a new document, follow these steps:<ol id="ol_a24_dgk_54b">
-          <li id="li_b24_dgk_54b">Go to your <ph keyref="webappProduct"/>
+          <li id="li_b24_dgk_54b" irina="irina">Go to your <ph keyref="webappProduct"/>
             <uicontrol>Dashboard</uicontrol> page.</li>
-          <li id="li_c24_dgk_54b">Click the tab for your <xref href="webapp-repository.dita">particular file repository
+          <li id="li_c24_dgk_54b" irina="irina">Click the tab for your <xref href="webapp-repository.dita">particular file repository
               integration</xref>.</li>
-          <li id="li_d24_dgk_54b">
+          <li id="li_d24_dgk_54b" irina="irina">
             <p id="p_e24_dgk_54b">Depending on the type of repository, you may need to log in to your repository
               service. Each type of file repository service includes browsing functionality.</p>
             <p id="p_f24_dgk_54b">
@@ -67,37 +67,37 @@
               </fig>
             </p>
           </li>
-          <li id="li_h24_dgk_54b">
+          <li id="li_h24_dgk_54b" irina="irina">
             <p id="p_i24_dgk_54b">Click <uicontrol>New</uicontrol> to create a new document.</p>
             <p id="p_j24_dgk_54b"><b>Step Result:</b> This opens the <uicontrol>Create File</uicontrol> dialog box.</p>
           </li>
-          <li id="li_k24_dgk_54b">Select a document template and click
+          <li id="li_k24_dgk_54b" irina="irina">Select a document template and click
             <uicontrol>Create</uicontrol>.</li>
-          <li id="li_l24_dgk_54b">If applicable for your type of repository, you can change the repository, server, or
+          <li id="li_l24_dgk_54b" irina="irina">If applicable for your type of repository, you can change the repository, server, or
             branch by clicking the <uicontrol><image href="../img/WebAppEdit16.png"
               />Edit</uicontrol> button.</li>
-          <li id="li_m24_dgk_54b">Select a destination path and name for the new document.</li>
-          <li id="li_n24_dgk_54b">Click <uicontrol>Save</uicontrol>.</li>
+          <li id="li_m24_dgk_54b" irina="irina">Select a destination path and name for the new document.</li>
+          <li id="li_n24_dgk_54b" irina="irina">Click <uicontrol>Save</uicontrol>.</li>
         </ol></p>
       <p id="p_o24_dgk_54b"><b>Result:</b> The new document will be opened in a new browser tab.</p>
     </section>
     <section id="open_a_document">
       <title>Opening a Document</title>
       <p id="p_p24_dgk_54b">To open a document, follow these steps:<ol id="ol_q24_dgk_54b">
-          <li id="li_r24_dgk_54b">Go to your <ph keyref="webappProduct"/>
+          <li id="li_r24_dgk_54b" irina="irina">Go to your <ph keyref="webappProduct"/>
             <uicontrol>Dashboard</uicontrol> page.</li>
-          <li id="li_s24_dgk_54b">Click the tab for your <xref href="webapp-repository.dita">particular file repository
+          <li id="li_s24_dgk_54b" irina="irina">Click the tab for your <xref href="webapp-repository.dita">particular file repository
               integration</xref>.</li>
-          <li id="li_t24_dgk_54b">Depending on the type of repository, you may need to log in to your repository
+          <li id="li_t24_dgk_54b" irina="irina">Depending on the type of repository, you may need to log in to your repository
             service. Each type of file repository service includes a browsing pane where the
             repository files and folders are displayed.</li>
-          <li id="li_u24_dgk_54b">If applicable for your type of repository, you can change the repository, server, or
+          <li id="li_u24_dgk_54b" irina="irina">If applicable for your type of repository, you can change the repository, server, or
             branch by clicking the <uicontrol><image href="../img/WebAppEdit16.png"
               />Edit</uicontrol> button.<note type="tip" id="note_v24_dgk_54b">If a file is not already in your
               repository, you can use the <uicontrol><image href="../img/WAUpload16.png"/>Upload
                 File</uicontrol> button to upload it to the repository before selecting
             it.</note></li>
-          <li id="li_w24_dgk_54b">Once you have found the file you want to open, double-click it (or tap on a mobile
+          <li id="li_w24_dgk_54b" irina="irina">Once you have found the file you want to open, double-click it (or tap on a mobile
             device).</li>
         </ol></p>
       <p id="p_x24_dgk_54b"><b>Result:</b> The selected document will be opened in a new browser tab.<note id="note_y24_dgk_54b">If you try

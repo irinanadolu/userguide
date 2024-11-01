@@ -37,7 +37,7 @@
       <title>How to Receive Logs via Email</title>
       <p id="p_mmw_dgk_54b">To receive logs via email, define a custom email appender by using this procedure:<ol
           id="ol_uds_1tt_zmb">
-          <li id="li_nmw_dgk_54b">Edit the
+          <li id="li_nmw_dgk_54b" irina="irina">Edit the
               <filepath>{oxygen-feedback-installation-dir}/feedback-logback.xml</filepath> file and
             add the following lines to set up an email
             appender:<codeblock outputclass="language-xml" id="codeblock_omw_dgk_54b">&lt;appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">
@@ -53,12 +53,12 @@
         &lt;pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n&lt;/pattern>
      &lt;/layout>
 &lt;/appender></codeblock></li>
-          <li id="li_pmw_dgk_54b">Add this appender to the root element of the <codeph>feedback-logback.xml</codeph>
+          <li id="li_pmw_dgk_54b" irina="irina">Add this appender to the root element of the <codeph>feedback-logback.xml</codeph>
               file:<codeblock outputclass="language-xml" id="codeblock_qmw_dgk_54b">&lt;root level="INFO">
     &lt;appender-ref ref="EMAIL"/>
 &lt;/root></codeblock><note id="note_rmw_dgk_54b">The <codeph>level</codeph> attribute values can be:
                 <i>ALL</i>, <i>INFO</i>, <i>DEBUG</i>, <i>WARN</i>, <i>ERROR</i>.</note></li>
-          <li id="li_smw_dgk_54b">Save the modifications and restart <ph keyref="product"/>.</li>
+          <li id="li_smw_dgk_54b" irina="irina">Save the modifications and restart <ph keyref="product"/>.</li>
         </ol></p>
     </section>
   </body>

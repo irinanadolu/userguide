@@ -6,12 +6,12 @@
     <p id="p_blf_dgk_54b">The purpose of this topic is to help you choose which distribution of <ph
         keyref="webappProduct"/> is appropriate for your particular use-case.</p>
     <p id="p_clf_dgk_54b"><ph keyref="webappProduct"/> has two distributions:<ol id="ol_dlf_dgk_54b">
-        <li id="li_elf_dgk_54b"><b>Oxygen XML Web Author</b> (product) - This version can be downloaded from <xref
+        <li id="li_elf_dgk_54b" irina="irina"><b>Oxygen XML Web Author</b> (product) - This version can be downloaded from <xref
             href="https://www.oxygenxml.com/xml_web_author/download_oxygenxml_web_author.html"
             format="html" scope="external">the Oxygen website</xref> and is licensed according to
           the <xref href="https://www.oxygenxml.com/eula_webauthor.html" format="html"
             scope="external">Web Author License Agreement</xref>.</li>
-        <li id="li_flf_dgk_54b"><b>Web Author Component</b> - Provided as a Maven artifact (according to the <xref
+        <li id="li_flf_dgk_54b" irina="irina"><b>Web Author Component</b> - Provided as a Maven artifact (according to the <xref
             href="https://www.oxygenxml.com/sdk_agreement.html" format="html" scope="external">SDK
             Agreement</xref>) that is used in the <xref
             href="https://github.com/oxygenxml/web-author-component-integration" format="html"
@@ -37,16 +37,16 @@
       <p id="p_ilf_dgk_54b">If you develop frameworks or plugins that provides enhanced functionality for <ph
           keyref="webappProduct"/>, it is recommended to distribute the plugin or framework
         separately from Web Author. They will work with both types of distributions and the end-users can choose:<ul id="ul_szt_vyc_5db">
-          <li id="li_jlf_dgk_54b">To install your plugin or framework in Web Author.</li>
-          <li id="li_klf_dgk_54b">To use a solution based on Web Author that has the plugin or framework installed by
+          <li id="li_jlf_dgk_54b" irina="irina">To install your plugin or framework in Web Author.</li>
+          <li id="li_klf_dgk_54b" irina="irina">To use a solution based on Web Author that has the plugin or framework installed by
             default.</li>
-          <li id="li_llf_dgk_54b">To use a solution based on Web Author and install the plugin or framework
+          <li id="li_llf_dgk_54b" irina="irina">To use a solution based on Web Author and install the plugin or framework
             themselves.</li>
         </ul></p>
       <p id="p_mlf_dgk_54b">Example of such plugins/frameworks:<ul id="ol_umn_v2c_dbb">
-          <li id="li_nlf_dgk_54b">Integration with a terminology database.</li>
-          <li id="li_olf_dgk_54b">Adding support to edit embedded SVG snippets.</li>
-          <li id="li_plf_dgk_54b">Providing support for a specific XML language.</li>
+          <li id="li_nlf_dgk_54b" irina="irina">Integration with a terminology database.</li>
+          <li id="li_olf_dgk_54b" irina="irina">Adding support to edit embedded SVG snippets.</li>
+          <li id="li_plf_dgk_54b" irina="irina">Providing support for a specific XML language.</li>
         </ul></p>
     </body>
   </topic>
@@ -72,10 +72,10 @@
           with your users, you will handle the licensing of your application to your end-users.</p>
         <p id="p_tlf_dgk_54b">For the official details, you can consult the license agreements for both
             distributions:<ol id="ol_tlw_32c_dbb">
-            <li id="li_ulf_dgk_54b"><b>Oxygen XML Web Author</b> (product): <xref
+            <li id="li_ulf_dgk_54b" irina="irina"><b>Oxygen XML Web Author</b> (product): <xref
                 href="https://www.oxygenxml.com/eula_webauthor.html" format="html" scope="external"
               /></li>
-            <li id="li_vlf_dgk_54b"><b>Web Author Component</b>: <xref
+            <li id="li_vlf_dgk_54b" irina="irina"><b>Web Author Component</b>: <xref
                 href="https://www.oxygenxml.com/sdk_agreement.html" format="html" scope="external"
               /></li>
           </ol></p>
@@ -92,9 +92,9 @@
           corresponding cost of the license.</p>
         <p id="p_ylf_dgk_54b">The <b>Web Author Component</b> has more flexible pricing alternatives for resellers that
           are negotiated for each contract and include:<ul id="ul_tht_wmx_rcb">
-            <li id="li_zlf_dgk_54b">Subscription packages similar to the ones used for the Web Author product, but you
+            <li id="li_zlf_dgk_54b" irina="irina">Subscription packages similar to the ones used for the Web Author product, but you
               may get a discount depending on the partnership level (Gold, Silver, Bronze).</li>
-            <li id="li_amf_dgk_54b">Solution OEM license.</li>
+            <li id="li_amf_dgk_54b" irina="irina">Solution OEM license.</li>
           </ul></p>
         <p id="p_bmf_dgk_54b">If you choose to integrate the <b>Web Author Component</b> into your application, the
           cost is based on royalties, rather than a cost for the license. That means you do not need

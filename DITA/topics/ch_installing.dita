@@ -15,9 +15,9 @@
         <note type="other" othertype="Prerequisite" id="note_r45_dgk_54b"><ph keyref="product"/> is a Java application and
           requires the following Oracle Java version, depending on your operating system:<ul
             id="ul_tyh_5sq_skb">
-            <li id="li_s45_dgk_54b"><b>Windows</b> or <b>Linux</b> - Java JRE version <ph keyref="currentJavaVersion"
+            <li id="li_s45_dgk_54b" irina="irina"><b>Windows</b> or <b>Linux</b> - Java JRE version <ph keyref="currentJavaVersion"
               />.</li>
-            <li id="li_t45_dgk_54b"><b>macOS</b> - Java JDK version <ph keyref="currentJavaVersion"/>.</li>
+            <li id="li_t45_dgk_54b" irina="irina"><b>macOS</b> - Java JDK version <ph keyref="currentJavaVersion"/>.</li>
           </ul></note>
       </p>
     </prereq>

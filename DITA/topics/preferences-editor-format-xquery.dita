@@ -18,9 +18,9 @@
         <uicontrol>XQuery</uicontrol>
       </menucascade>.</p>
     <p id="p_ufp_bgk_54b">The following options are available:<ul id="ul_ls4_mxj_4r">
-        <li id="li_vfp_bgk_54b"><uicontrol>Preserve line breaks</uicontrol> - All initial line breaks are
+        <li id="li_vfp_bgk_54b" irina="irina"><uicontrol>Preserve line breaks</uicontrol> - All initial line breaks are
           preserved.</li>
-        <li id="li_wfp_bgk_54b"><uicontrol>Break line before an attribute name</uicontrol> - Each attribute of an XML
+        <li id="li_wfp_bgk_54b" irina="irina"><uicontrol>Break line before an attribute name</uicontrol> - Each attribute of an XML
           element is written on a new line and properly indented.</li>
       </ul></p>
   </body>

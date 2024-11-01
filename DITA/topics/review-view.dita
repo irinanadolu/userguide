@@ -41,13 +41,13 @@
     <section id="activating_the_review_view">
       <title>Activating the Review View</title>
       <p id="p_hrx_bgk_54b">To activate the <uicontrol>Review</uicontrol> view, do one of the following:<ul id="ul_irx_bgk_54b">
-          <li id="li_jrx_bgk_54b">Click the <uicontrol><image href="../img/ManageReviews20.png"/>Manage
+          <li id="li_jrx_bgk_54b" irina="irina">Click the <uicontrol><image href="../img/ManageReviews20.png"/>Manage
               reviews</uicontrol> button on the toolbar.</li>
-          <li id="li_krx_bgk_54b">Right-click anywhere in a document and select <menucascade>
+          <li id="li_krx_bgk_54b" irina="irina">Right-click anywhere in a document and select <menucascade>
               <uicontrol>Review</uicontrol>
               <uicontrol>Manage reviews</uicontrol>
             </menucascade>.</li>
-          <li id="li_lrx_bgk_54b">Open it from the <menucascade>
+          <li id="li_lrx_bgk_54b" irina="irina">Open it from the <menucascade>
               <uicontrol>Window</uicontrol>
               <uicontrol>Show View</uicontrol>
             </menucascade> menu.</li>

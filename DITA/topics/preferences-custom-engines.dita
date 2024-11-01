@@ -60,13 +60,13 @@
           <dd>The start directory of the executable program for the transformer. The following <xref
               href="editor-variables.dita#editor-variables">editor variables</xref> are available
             for making the path to the working directory independent of the location of the input files:<ul id="ul_akq_bgk_54b">
-              <li id="li_bkq_bgk_54b"><uicontrol>${homeDir}</uicontrol> - The user home directory in the operating
+              <li id="li_bkq_bgk_54b" irina="irina"><uicontrol>${homeDir}</uicontrol> - The user home directory in the operating
                 system.</li>
-              <li id="li_ckq_bgk_54b"><uicontrol>${cfd}</uicontrol> - The path to the directory of the current
+              <li id="li_ckq_bgk_54b" irina="irina"><uicontrol>${cfd}</uicontrol> - The path to the directory of the current
                 file.</li>
-              <li id="li_dkq_bgk_54b"><uicontrol>${pd}</uicontrol> - The path to the directory of the current
+              <li id="li_dkq_bgk_54b" irina="irina"><uicontrol>${pd}</uicontrol> - The path to the directory of the current
                 project.</li>
-              <li id="li_ekq_bgk_54b"><uicontrol>${oxygenInstallDir}</uicontrol> - The <ph keyref="product"/> install
+              <li id="li_ekq_bgk_54b" irina="irina"><uicontrol>${oxygenInstallDir}</uicontrol> - The <ph keyref="product"/> install
                 directory.</li>
             </ul></dd>
         </dlentry>
@@ -77,14 +77,14 @@
               href="editor-variables.dita#editor-variables">editor variables</xref> are available
             for making the parameters in the command line (the transformer executable, the input
             files) independent of the location of the input files:<ul id="ul_gkq_bgk_54b">
-              <li id="li_hkq_bgk_54b"><uicontrol>${xml}</uicontrol> - The XML input document as a file path.</li>
-              <li id="li_ikq_bgk_54b"><uicontrol>${xmlu}</uicontrol> - The XML input document as a URL.</li>
-              <li id="li_jkq_bgk_54b"><uicontrol>${xsl}</uicontrol> - The XSL / XQuery input document as a file
+              <li id="li_hkq_bgk_54b" irina="irina"><uicontrol>${xml}</uicontrol> - The XML input document as a file path.</li>
+              <li id="li_ikq_bgk_54b" irina="irina"><uicontrol>${xmlu}</uicontrol> - The XML input document as a URL.</li>
+              <li id="li_jkq_bgk_54b" irina="irina"><uicontrol>${xsl}</uicontrol> - The XSL / XQuery input document as a file
                 path.</li>
-              <li id="li_kkq_bgk_54b"><uicontrol>${xslu}</uicontrol> - The XSL / XQuery input document as a URL.</li>
-              <li id="li_lkq_bgk_54b"><uicontrol>${out}</uicontrol> - The output document as a file path.</li>
-              <li id="li_mkq_bgk_54b"><uicontrol>${outu}</uicontrol> - The output document as a URL.</li>
-              <li id="li_nkq_bgk_54b"><uicontrol>${ps}</uicontrol> - The platform separator that is used between library
+              <li id="li_kkq_bgk_54b" irina="irina"><uicontrol>${xslu}</uicontrol> - The XSL / XQuery input document as a URL.</li>
+              <li id="li_lkq_bgk_54b" irina="irina"><uicontrol>${out}</uicontrol> - The output document as a file path.</li>
+              <li id="li_mkq_bgk_54b" irina="irina"><uicontrol>${outu}</uicontrol> - The output document as a URL.</li>
+              <li id="li_nkq_bgk_54b" irina="irina"><uicontrol>${ps}</uicontrol> - The platform separator that is used between library
                 file names specified in the class path.</li>
             </ul></dd>
         </dlentry>

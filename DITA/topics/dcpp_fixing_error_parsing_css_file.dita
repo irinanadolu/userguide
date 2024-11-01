@@ -36,9 +36,9 @@
         <p id="p_ilv_cgk_54b">One of the CSS files contains references to resources from another
           website that is currently inaccessible. These resources may include: <ul
             id="ul_bbj_4fs_g2b">
-            <li id="li_jlv_cgk_54b">Fonts</li>
-            <li id="li_klv_cgk_54b">Images</li>
-            <li id="li_llv_cgk_54b">Other CSS files</li>
+            <li id="li_jlv_cgk_54b" irina="irina">Fonts</li>
+            <li id="li_klv_cgk_54b" irina="irina">Images</li>
+            <li id="li_llv_cgk_54b" irina="irina">Other CSS files</li>
           </ul><note id="note_mlv_cgk_54b">If you exported one of the built-in publishing templates
             from the transformation scenario dialog, it is possible that the associated CSS files
             use an imported Google Font.</note>

@@ -24,8 +24,8 @@
       either by its name or by its path (or by a fragment of its path).</p>
     <p id="p_xb5_bgk_54b">You can use wildcards when you perform such searches:</p>
     <ul id="ul_yb5_bgk_54b">
-      <li id="li_zb5_bgk_54b">Use "*" to match any sequence of characters.</li>
-      <li id="li_ac5_bgk_54b">Use "?" to match any single character.</li>
+      <li id="li_zb5_bgk_54b" irina="irina">Use "*" to match any sequence of characters.</li>
+      <li id="li_ac5_bgk_54b" irina="irina">Use "?" to match any single character.</li>
     </ul>
     <p id="p_bc5_bgk_54b">For example, if you search for <b>*-preferences-page</b> you will find all the
       resources that contain the <i>-preferences-page</i> fragment in their name. If you

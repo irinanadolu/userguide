@@ -31,11 +31,11 @@
     <section id="see_the_list_of_all_comments_or_tracked_changes_f">
       <title>Use the Review Pane to View Comments or Tracked Changes</title>
       <ol id="ol_wpr_myk_cr">
-        <li id="li_xp4_dgk_54b">Tap or click the <uicontrol>Review Pane</uicontrol> tab on the right
+        <li id="li_xp4_dgk_54b" irina="irina">Tap or click the <uicontrol>Review Pane</uicontrol> tab on the right
           side of the screen. <ph conkeyref="reusables-webapp/side-panel-ph"/></li>
-        <li id="li_yp4_dgk_54b">Tap or click one of the comments or <term>tracked changes</term> to see it highlighted
+        <li id="li_yp4_dgk_54b" irina="irina">Tap or click one of the comments or <term>tracked changes</term> to see it highlighted
           in the document area.</li>
-        <li id="li_zp4_dgk_54b">Hover over or select a comment/change to display actions that are available for that
+        <li id="li_zp4_dgk_54b" irina="irina">Hover over or select a comment/change to display actions that are available for that
           particular item.</li>
       </ol>
     </section>
@@ -114,7 +114,7 @@
       <title>Accept or Reject Tracked Changes</title>
       <p id="p_eq4_dgk_54b">
         <ol id="ol_kqb_f1v_flb">
-          <li id="li_fq4_dgk_54b">To accept a change (or a selection of multiple changes), tap or click the
+          <li id="li_fq4_dgk_54b" irina="irina">To accept a change (or a selection of multiple changes), tap or click the
                 <uicontrol><image href="../img/AcceptChange16.png" placement="inline"
                 id="image_lqb_f1v_flb"/>Accept Change</uicontrol> button from the toolbar (on a
             desktop device, you can also select this action from the contextual menu), or select the
@@ -124,7 +124,7 @@
             click the <uicontrol><image href="../img/AcceptAll16.png" id="image_nqb_f1v_flb"/>
               Accept all changes</uicontrol> button at the bottom of the
               <uicontrol>Review</uicontrol> pane.</li>
-          <li id="li_gq4_dgk_54b">To reject a change (or a selection of multiple changes), tap or click the
+          <li id="li_gq4_dgk_54b" irina="irina">To reject a change (or a selection of multiple changes), tap or click the
                 <uicontrol><image href="../img/RejectChange16.png" placement="inline"
                 id="image_oqb_f1v_flb"/>Reject Change</uicontrol> button from the toolbar (on a
             desktop device, you can also select this action from the contextual menu), or select the
@@ -145,20 +145,20 @@
     <section id="add_a_comment">
       <title>Add a Comment</title>
       <ol id="ol_vpr_myk_cr">
-        <li id="li_iq4_dgk_54b">Make a selection in the document content.</li>
-        <li id="li_jq4_dgk_54b">Tap or click the <uicontrol><image href="../img/AddComment16.png" id="image_pmh_5jg_wr"
+        <li id="li_iq4_dgk_54b" irina="irina">Make a selection in the document content.</li>
+        <li id="li_jq4_dgk_54b" irina="irina">Tap or click the <uicontrol><image href="../img/AddComment16.png" id="image_pmh_5jg_wr"
             />Add comment</uicontrol> button from the toolbar (on a desktop device, you can also
           select this action from the contextual menu).</li>
-        <li id="li_kq4_dgk_54b">Input a comment in the displayed dialog box. Tap or click <uicontrol>Comment</uicontrol>
+        <li id="li_kq4_dgk_54b" irina="irina">Input a comment in the displayed dialog box. Tap or click <uicontrol>Comment</uicontrol>
           to commit it into the document.</li>
-        <li id="li_lq4_dgk_54b">The commented text is highlighted.</li>
+        <li id="li_lq4_dgk_54b" irina="irina">The commented text is highlighted.</li>
       </ol>
     </section>
     <section id="edit_or_remove_an_existing_comment">
       <title>Edit or Remove an Existing Comment</title>
       <p id="p_mq4_dgk_54b">
         <ol id="ol_rqb_f1v_flb">
-          <li id="li_nq4_dgk_54b">You can only edit comments that you added to the document. To do so, select the
+          <li id="li_nq4_dgk_54b" irina="irina">You can only edit comments that you added to the document. To do so, select the
             comment in the main editing area and tap or click the <uicontrol><image
                 href="../img/EditComment16.png" placement="inline" id="image_sqb_f1v_flb"/>Edit
               Comment</uicontrol> button from the toolbar (on a desktop device, you can also select
@@ -166,7 +166,7 @@
               <uicontrol>Review</uicontrol> pane and click the <uicontrol><image
                 href="../img/WAEdit16.png" placement="inline" id="image_tqb_f1v_flb"
               />Edit</uicontrol> button.</li>
-          <li id="li_oq4_dgk_54b">You can remove any comment, regardless of who added it to the document. To do so,
+          <li id="li_oq4_dgk_54b" irina="irina">You can remove any comment, regardless of who added it to the document. To do so,
             select the comment in the main editing area and tap or click the <uicontrol><image
                 href="../img/RemoveComment16.png" placement="inline" id="image_uqb_f1v_flb"/>Remove
               Comment</uicontrol> button from the toolbar (on a desktop device, you can also select
@@ -181,11 +181,11 @@
       <title>Reply to Comments or Changes</title>
       <p id="p_pq4_dgk_54b">
         <ol id="ol_wqb_f1v_flb">
-          <li id="li_qq4_dgk_54b">Select the comment or change in the <uicontrol>Review</uicontrol> pane and select
+          <li id="li_qq4_dgk_54b" irina="irina">Select the comment or change in the <uicontrol>Review</uicontrol> pane and select
                 <uicontrol><image href="../img/WebAuthorReply16.png" id="image_xqb_f1v_flb"
               />Reply</uicontrol> (on a desktop device, you can also select this action from the
             contextual menu). A dialog box will be displayed that allows you to add your reply.</li>
-          <li id="li_rq4_dgk_54b">Select <uicontrol>OK</uicontrol> to add your reply to the comment thread. The replies
+          <li id="li_rq4_dgk_54b" irina="irina">Select <uicontrol>OK</uicontrol> to add your reply to the comment thread. The replies
             are displayed with an indentation in the <uicontrol>Review</uicontrol> pane.</li>
         </ol>
       </p>
@@ -223,11 +223,11 @@
         or click any item in the <uicontrol>Review</uicontrol> pane to navigate between comments or
           <term>tracked changes</term>.</p>
       <p id="p_uq4_dgk_54b">The currently selected comment or tracked change is:<ul id="ul_zqb_f1v_flb">
-          <li id="li_vq4_dgk_54b">Highlighted in the document (in the main editor) with a contrasting background color.
+          <li id="li_vq4_dgk_54b" irina="irina">Highlighted in the document (in the main editor) with a contrasting background color.
             Also, if the <uicontrol>Review</uicontrol> pane is not visible, the start of the current
             comment or tracked change is designated with a small temporary triangle marker.</li>
-          <li id="li_wq4_dgk_54b">Highlighted in the right-side <uicontrol>Review</uicontrol> pane.</li>
-          <li id="li_xq4_dgk_54b">Designated with a temporary arrow that connects the entry in the
+          <li id="li_wq4_dgk_54b" irina="irina">Highlighted in the right-side <uicontrol>Review</uicontrol> pane.</li>
+          <li id="li_xq4_dgk_54b" irina="irina">Designated with a temporary arrow that connects the entry in the
               <uicontrol>Review</uicontrol> pane with its corresponding comment or change in the
             document (in the main editor).</li>
         </ul></p>
@@ -248,10 +248,10 @@
       <title>Accept or Reject Tracked Changes</title>
       <p id="p_ar4_dgk_54b">
         <ol id="ol_enx_v1v_flb">
-          <li id="li_br4_dgk_54b">To accept a change, tap or click the <uicontrol><image
+          <li id="li_br4_dgk_54b" irina="irina">To accept a change, tap or click the <uicontrol><image
                 href="../img/AcceptChange16.png" placement="inline" id="image_fnx_v1v_flb"
               />Accept</uicontrol> button from the review tooltip.</li>
-          <li id="li_cr4_dgk_54b">To reject a change, tap or click the <uicontrol><image
+          <li id="li_cr4_dgk_54b" irina="irina">To reject a change, tap or click the <uicontrol><image
                 href="../img/RejectChange16.png" placement="inline" id="image_gnx_v1v_flb"
               />Reject</uicontrol> button from the review tooltip.</li>
         </ol>

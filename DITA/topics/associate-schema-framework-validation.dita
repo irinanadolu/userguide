@@ -19,9 +19,9 @@
     <p id="p_mpz_bgk_54b">To associate a schema in validation scenarios defined in the <xref
         keyref="glossentry_framework"><term>framework</term></xref> (document type) configuration,
       follow these steps:<ol id="ol_npz_bgk_54b">
-        <li id="li_opz_bgk_54b"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
+        <li id="li_opz_bgk_54b" irina="irina"><ph conkeyref="reusables-preferences-pages/Open-the-preferences-page"/> and go to
             <uicontrol>Document Type Association</uicontrol>.</li>
-        <li id="li_ppz_bgk_54b">
+        <li id="li_ppz_bgk_54b" irina="irina">
           <p id="p_qpz_bgk_54b">Select your particular document type and click the <uicontrol>Edit</uicontrol> or
               <uicontrol>Duplicate</uicontrol> button to modify an existing <term>framework</term>
             (or use the <uicontrol>New</uicontrol> button to create a new one).</p>
@@ -29,20 +29,20 @@
               href="the-document-type-dialog.dita#the-document-type-dialog"><uicontrol>Document
                 type</uicontrol> configuration dialog box</xref>.</p>
         </li>
-        <li id="li_spz_bgk_54b">Go to the <xref href="document-type-validation-tab.dita#document-type-validation-tab"
+        <li id="li_spz_bgk_54b" irina="irina">Go to the <xref href="document-type-validation-tab.dita#document-type-validation-tab"
               ><uicontrol>Validation</uicontrol> tab</xref>.</li>
-        <li id="li_tpz_bgk_54b">Create or edit a validation scenario:<ol id="ol_upz_bgk_54b">
-            <li id="li_vpz_bgk_54b">To <xref href="create-validation-scenario.dita#create-validation-scenario">create a
+        <li id="li_tpz_bgk_54b" irina="irina">Create or edit a validation scenario:<ol id="ol_upz_bgk_54b">
+            <li id="li_vpz_bgk_54b" irina="irina">To <xref href="create-validation-scenario.dita#create-validation-scenario">create a
                 new validation scenario</xref>, click the <uicontrol><image href="../img/Add16.png"
                   placement="inline"/>New</uicontrol> button.</li>
-            <li id="li_wpz_bgk_54b">To <xref href="edit-validation-scenario.dita#edit-validation-scenario">edit the
+            <li id="li_wpz_bgk_54b" irina="irina">To <xref href="edit-validation-scenario.dita#edit-validation-scenario">edit the
                 properties of an existing validation scenario</xref>, select it and click the
                   <uicontrol><image href="../img/Wrench16.png" id="image_pkh_qns_tr"
                 />Edit</uicontrol> button (you can also use the <uicontrol><image
                   href="../img/Copy16.png"/>Duplicate</uicontrol> button to copy an existing
               scenario and edit its properties).</li>
           </ol></li>
-        <li id="li_xpz_bgk_54b">
+        <li id="li_xpz_bgk_54b" irina="irina">
           <p id="p_ypz_bgk_54b"><xref
               href="edit-validation-scenario.dita#edit-validation-scenario/validation-unit-stepresult"
               >Add or configure validation units</xref> according to your needs and click the
@@ -70,15 +70,15 @@
                 <dt><uicontrol>Use custom schema</uicontrol></dt>
                 <dd>Allows you to specify the schema using the following options:<ul
                     conkeyref="reusables-editing-documents/specify-schema-ul" id="ul_hqz_bgk_54b">
-                    <li id="li_iqz_bgk_54b"/>
+                    <li id="li_iqz_bgk_54b" irina="irina"/>
                   </ul></dd>
               </dlentry>
             </dl>
           </p>
         </li>
-        <li id="li_jqz_bgk_54b">Select the schema to be associated with the validation unit and configure the rest of
+        <li id="li_jqz_bgk_54b" irina="irina">Select the schema to be associated with the validation unit and configure the rest of
           the options according to your preferences.</li>
-        <li id="li_kqz_bgk_54b">Click <uicontrol>OK</uicontrol> on both dialog boxes.</li>
+        <li id="li_kqz_bgk_54b" irina="irina">Click <uicontrol>OK</uicontrol> on both dialog boxes.</li>
       </ol></p>
     <p id="p_lqz_bgk_54b"><b>Result:</b> The schema is now associated with the validation scenario you just configured
       for that particular document type.</p>

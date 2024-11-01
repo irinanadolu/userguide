@@ -44,21 +44,21 @@
               It can also be provided as a URL.<note id="note_ksc_hnx_15b" type="other"
                 othertype="Notes">
                 <ul id="ul_rlg_knx_15b">
-                  <li id="li_slg_knx_15b">The file that stores the validation scenarios must have a
+                  <li id="li_slg_knx_15b" irina="irina">The file that stores the validation scenarios must have a
                     similar format to that generated from <b>Oxygen</b> by invoking
                       <uicontrol>Export Global Validation Scenarios</uicontrol> from the
                       <uicontrol>Options</uicontrol> menu. This type of <b>Oxygen</b>-generated
                     scenarios files has a <filepath>.scenarios</filepath> file extension by default
                     and contains all the necessary information about custom validation scenarios
                     created in <b>Oxygen</b>.</li>
-                  <li id="li_awm_snx_15b"><b>Oxygen</b> also saves the custom validation scenarios
+                  <li id="li_awm_snx_15b" irina="irina"><b>Oxygen</b> also saves the custom validation scenarios
                     (as well as the scenario associations made explicitly for the files you work
                     with) in special formatted <b>Oxygen</b> project files (usually with the
                       <filepath>.xpr</filepath> file extension). Therefore, by using the arguments
                     provided through <b>-sn</b> and <b>-sf</b> options, you can apply any scenario
                     that was previously stored in either a scenarios file or an <b>Oxygen</b>
                     project file.</li>
-                  <li id="li_csv_xnx_15b">The <b>-s</b> and <b>-sn</b> options are mutually
+                  <li id="li_csv_xnx_15b" irina="irina">The <b>-s</b> and <b>-sn</b> options are mutually
                     exclusive. Specifying both in the same command line is not allowed.</li>
                 </ul>
               </note></dd>
@@ -103,7 +103,7 @@
         </dl>
         <note id="note_pff_fpx_15b" type="other" othertype="Additional Notes">
           <ul id="ul_bjy_gpx_15b">
-            <li id="li_cjy_gpx_15b">Avoid activating the Verbose mode (<uicontrol>-v</uicontrol>
+            <li id="li_cjy_gpx_15b" irina="irina">Avoid activating the Verbose mode (<uicontrol>-v</uicontrol>
               option) when opting to redirect the console (and the validation report implicitly) to
               a specific file. That is done using the <uicontrol>></uicontrol> operator instead of
               the <uicontrol>-rf</uicontrol> option. The additional information provided through
@@ -111,7 +111,7 @@
               when inspected in specialized editors. However, that information is placed at the
               beginning of the report, as plain text. If removed, the report should become
               valid.</li>
-            <li id="li_dxx_npx_15b">If the validation uses the <b>Saxon</b> engine and you do not
+            <li id="li_dxx_npx_15b" irina="irina">If the validation uses the <b>Saxon</b> engine and you do not
               have a commercial license, then the script automatically uses the <b>Saxon Home
                 Edtion</b> distribution that does not require a license. However, if the validation
               involves specific <b>Saxon Personal / Enterprise Edition</b> advanced features, then
@@ -197,10 +197,10 @@
       <title>Resources</title>
       <p id="p_w54_rr5_ypb">For more information about the validation script, see the following
           resources:<ul id="ul_rtt_wx4_dwb">
-          <li id="li_cxv_34p_dvb">Video: <xref href="https://www.youtube.com/watch?v=-StaBf-JQa8"
+          <li id="li_cxv_34p_dvb" irina="irina">Video: <xref href="https://www.youtube.com/watch?v=-StaBf-JQa8"
               format="html" scope="external"><b>Validating XML and JSON Using Oxygen Command Line
                 Scripts</b></xref></li>
-          <li id="li_nfg_14p_dvb">Webinar: <xref
+          <li id="li_nfg_14p_dvb" irina="irina">Webinar: <xref
               href="https://www.oxygenxml.com/events/2023/webinar_validating_xml_and_json_documents_using_oxygen_scripting.html"
               format="html" scope="external"><b>Validating XML and JSON Documents Using Oxygen
                 Scripting</b></xref></li>

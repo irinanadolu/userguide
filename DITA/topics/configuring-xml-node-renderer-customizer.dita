@@ -27,14 +27,14 @@
     <p id="p_d4b_dgk_54b">There are two methods to provide an implementation of <xref
         keyref="url_XMLNodeRendererCustomizer"
           ><i>ro.sync.exml.workspace.api.node.customizer.XMLNodeRendererCustomizer</i></xref>:<ul id="ul_e4b_dgk_54b">
-        <li id="li_f4b_dgk_54b">As a part of a bundle, returning it from the <i>createXMLNodeCustomizer()</i> method of
+        <li id="li_f4b_dgk_54b" irina="irina">As a part of a bundle, returning it from the <i>createXMLNodeCustomizer()</i> method of
           the <xref href="https://www.oxygenxml.com/InstData/Editor/SDK/javadoc/index.html"
             format="html" scope="external"><i>ExtensionsBundle</i></xref> associated with your
           document type in the <xref href="the-document-type-dialog.dita#the-document-type-dialog"
               ><uicontrol>Document type</uicontrol> configuration dialog box</xref>
             (<uicontrol>Extensions bundle</uicontrol> field in the <uicontrol>Extensions</uicontrol>
           tab).</li>
-        <li id="li_g4b_dgk_54b">As an individual extension, associated with your document type in the <xref
+        <li id="li_g4b_dgk_54b" irina="irina">As an individual extension, associated with your document type in the <xref
             href="the-document-type-dialog.dita#the-document-type-dialog"><uicontrol>Document
               type</uicontrol> configuration dialog box</xref> (<uicontrol>XML node renderer
             customizer</uicontrol> field in the <uicontrol>Individual extensions</uicontrol> section

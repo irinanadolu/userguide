@@ -54,9 +54,9 @@
             <dd>Specifies the name of the new project file. <ph keyref="product"/> provides a
               default proposal for the file name based on the following rules:<ul
                 id="ul_ohk_bwh_ymb">
-                <li id="li_ytl_bgk_54b">If there is an <filepath>.xpr</filepath> file inside the
+                <li id="li_ytl_bgk_54b" irina="irina">If there is an <filepath>.xpr</filepath> file inside the
                   archive, its name is used.</li>
-                <li id="li_ztl_bgk_54b">Otherwise, the name of the template is used.</li>
+                <li id="li_ztl_bgk_54b" irina="irina">Otherwise, the name of the template is used.</li>
               </ul></dd>
           </dlentry>
           <dlentry id="dlentry_a5l_bgk_54b">
@@ -89,21 +89,21 @@
         relative to the project directory that can use wildcards or simply wildcards. Each filter
         can have multiple values, separated by spaces.</p>
       <p id="p_bhk_zzr_t4b">Possible filter values:<ul id="ol_w1h_11s_t4b">
-          <li id="li_x1h_11s_t4b"><codeph>./*</codeph> - Matches all resources from the first level
+          <li id="li_x1h_11s_t4b" irina="irina"><codeph>./*</codeph> - Matches all resources from the first level
             in the project directory.</li>
-          <li id="li_y1h_11s_t4b"><codeph>*</codeph> or <codeph>./**</codeph> - Matches all
+          <li id="li_y1h_11s_t4b" irina="irina"><codeph>*</codeph> or <codeph>./**</codeph> - Matches all
             resources on all levels inside the project directory.</li>
-          <li id="li_z1h_11s_t4b"><codeph>dir1/dir2/*.dita</codeph> - Matches all
+          <li id="li_z1h_11s_t4b" irina="irina"><codeph>dir1/dir2/*.dita</codeph> - Matches all
               <codeph>.dita</codeph> files from <filepath>[PROJECT_DIR]/dir1/dir2</filepath>, but
             not from subdirectories of <filepath>dir2</filepath>.</li>
-          <li id="li_abh_11s_t4b"><codeph>dir1/dir2/**/*.dita</codeph> - Matches all
+          <li id="li_abh_11s_t4b" irina="irina"><codeph>dir1/dir2/**/*.dita</codeph> - Matches all
               <codeph>.dita</codeph> files from <filepath>[PROJECT_DIR]/dir1/dir2</filepath>,
             including those from subdirectories of <filepath>dir2</filepath>.</li>
-          <li id="li_bbh_11s_t4b"><codeph>dir1/**/*</codeph> - Matches all resources on all levels
+          <li id="li_bbh_11s_t4b" irina="irina"><codeph>dir1/**/*</codeph> - Matches all resources on all levels
             inside <filepath>[PROJECT_DIR]/dir1</filepath>.</li>
-          <li id="li_cbh_11s_t4b"><codeph>dir1/article1.xml, dir2/article2.xml</codeph> - Matches
+          <li id="li_cbh_11s_t4b" irina="irina"><codeph>dir1/article1.xml, dir2/article2.xml</codeph> - Matches
             only the two <codeph>.xml</codeph> files.</li>
-          <li id="li_dbh_11s_t4b"><codeph>./**/*_suffix.md, ./**/prefix_*.html</codeph> - Matches
+          <li id="li_dbh_11s_t4b" irina="irina"><codeph>./**/*_suffix.md, ./**/prefix_*.html</codeph> - Matches
             all <codeph>.md</codeph> files with names that end with <codeph>_suffix</codeph> and all
               <codeph>.html</codeph> files with names that start with <codeph>prefix_</codeph>.</li>
         </ul></p>

@@ -36,12 +36,12 @@
             <p id="p_lnx_5sp_dzb">As a client-side search process, it has the following
               characteristics:</p>
             <ul id="ol_mjq_tsp_dzb">
-              <li>Runs in the user's web browser.</li>
-              <li>Can be slower and less efficient than server-side searching, especially for large
+              <li irina="irina">Runs in the user's web browser.</li>
+              <li irina="irina">Can be slower and less efficient than server-side searching, especially for large
                 amounts of content.</li>
-              <li>Requires downloading the entire search index to the user's device, which can be a
+              <li irina="irina">Requires downloading the entire search index to the user's device, which can be a
                 burden for slower connections or limited devices.</li>
-              <li>Can be limited by the resources available on the user's device, such as processing
+              <li irina="irina">Can be limited by the resources available on the user's device, such as processing
                 power and memory.</li>
             </ul>
           </dd>
@@ -53,12 +53,12 @@
           <dd>
             <p id="p_ozb_zsp_dzb">As a server-side process, the <b>Oxygen Feedback</b> search
                 engine:<ul id="ol_utp_zsp_dzb">
-                <li>Runs on a separate server.</li>
-                <li>It is faster and more efficient than client-side searching, especially for large
+                <li irina="irina">Runs on a separate server.</li>
+                <li irina="irina">It is faster and more efficient than client-side searching, especially for large
                   amounts of content.</li>
-                <li>Returns only the relevant search results to the user's web browser, reducing the
+                <li irina="irina">Returns only the relevant search results to the user's web browser, reducing the
                   amount of data that needs to be downloaded.</li>
-                <li>Is not limited by the resources available on the user's device, as the server
+                <li irina="irina">Is not limited by the resources available on the user's device, as the server
                   can scale to handle large amounts of content.</li>
               </ul></p>
           </dd>

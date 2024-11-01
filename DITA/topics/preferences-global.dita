@@ -60,11 +60,11 @@
             The other two possible selections are <uicontrol>Unix-like</uicontrol> and
               <uicontrol>Windows-like</uicontrol>.<note type="other" othertype="Notes" id="note_cqn_bgk_54b">
               <ul id="ul_dqn_bgk_54b">
-                <li id="li_eqn_bgk_54b">This option is ignored if the <xref
+                <li id="li_eqn_bgk_54b" irina="irina">This option is ignored if the <xref
                     href="#preferences-global/detect-line-separator" format="dita"><uicontrol>Detect
                       the line separator on file open</uicontrol> option</xref> is selected AND a
                   line separator is automatically detected.</li>
-                <li id="li_fqn_bgk_54b">When changing the selection in this option, the change does not affect an opened
+                <li id="li_fqn_bgk_54b" irina="irina">When changing the selection in this option, the change does not affect an opened
                   file until you make a modification to the file and save it. At that point, all
                   line separators in the file will change to the type of line separator you chose in
                   this option.</li>
@@ -89,8 +89,8 @@
           <dd>
             <p id="p_iqn_bgk_54b">This option sets the Web browser that <ph keyref="product"/> will
               use to do the following:<ul id="ul_t1z_mjk_y3b">
-                <li id="li_jqn_bgk_54b">Open (X)HTML or PDF transformation results.</li>
-                <li id="li_kqn_bgk_54b">Open a web page.</li>
+                <li id="li_jqn_bgk_54b" irina="irina">Open (X)HTML or PDF transformation results.</li>
+                <li id="li_kqn_bgk_54b" irina="irina">Open a web page.</li>
               </ul></p>
             <p id="p_lqn_bgk_54b">If you leave this setting blank, the system default browser will
               be used.</p>
@@ -156,9 +156,9 @@
               using <uicontrol conkeyref="reusable-oxygen-shortcuts-list/ctrl_tab"/> or <uicontrol
                 conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_tab"/></xref>. You can choose
               between:<ul id="ul_tqn_bgk_54b">
-              <li id="li_uqn_bgk_54b"><b>Recently used order</b> - Switches to the most recently
+              <li id="li_uqn_bgk_54b" irina="irina"><b>Recently used order</b> - Switches to the most recently
                 used tab.</li>
-              <li id="li_vqn_bgk_54b"><b>Visual order</b> - Switches to the next tab in visual
+              <li id="li_vqn_bgk_54b" irina="irina"><b>Visual order</b> - Switches to the next tab in visual
                 order.</li>
             </ul></dd>
         </dlentry>
@@ -202,13 +202,13 @@
                   <dd>This option specifies the starting directory that the <xref
                       href="opening-existing-documents.dita">file browser dialog box</xref> will
                     open. You can choose between: <ul id="ul_jrn_bgk_54b">
-                      <li id="li_krn_bgk_54b"><uicontrol>Directory of the selected file</uicontrol>
+                      <li id="li_krn_bgk_54b" irina="irina"><uicontrol>Directory of the selected file</uicontrol>
                         - The file browser opens the folder where the selected file is stored,
                         depending on the current selection (for example, a file could be selected
                         from the <uicontrol>Project</uicontrol> view, <uicontrol
                           product="author editor">DITA Maps Manager</uicontrol>, main editing pane,
                         or another location within the application).</li>
-                      <li id="li_lrn_bgk_54b"><uicontrol>Last visited directory</uicontrol> - The
+                      <li id="li_lrn_bgk_54b" irina="irina"><uicontrol>Last visited directory</uicontrol> - The
                         file browser opens the last visited folder.</li>
                     </ul></dd>
                 </dlentry>

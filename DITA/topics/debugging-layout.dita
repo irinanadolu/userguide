@@ -31,11 +31,11 @@
       <xref keyref="glossentry_perspective"><term>perspective</term></xref> contains the following
       components:</p>
     <ul id="ul_ucz_cgk_54b">
-      <li id="li_vcz_cgk_54b"><b>Source Document View (XML)</b> - Displays and allows the editing of XML files
+      <li id="li_vcz_cgk_54b" irina="irina"><b>Source Document View (XML)</b> - Displays and allows the editing of XML files
         (documents).</li>
-      <li id="li_wcz_cgk_54b"><b>XSLT/XQuery Document View (XSLT/XQuery)</b> - Displays and allows the editing of XSL
+      <li id="li_wcz_cgk_54b" irina="irina"><b>XSLT/XQuery Document View (XSLT/XQuery)</b> - Displays and allows the editing of XSL
         files (stylesheets) or XQuery documents.</li>
-      <li id="output-view"><b>Output View</b> - Displays the output that results from inputting a
+      <li id="output-view" irina="irina"><b>Output View</b> - Displays the output that results from inputting a
         document (XML) and a stylesheet (XSL) or XQuery document in the transformer. The
         transformation result is written dynamically while the transformation is processed (using
         the <xref href="debug-control-toolbar.dita#debug-control-toolbar/debug-run"
@@ -51,9 +51,9 @@
             product="developerEclipse editorEclipse">HTML</uicontrol> view.<ph
             product="developer editor"> For large outputs, the XHTML view can be disabled (see <xref
               href="preferences-debugger.dita">Debugger Settings</xref>).</ph></ph></li>
-      <li id="li_xcz_cgk_54b"><xref href="debug-control-toolbar.dita"><b>Control Toolbar</b></xref> - Contains a variety
+      <li id="li_xcz_cgk_54b" irina="irina"><xref href="debug-control-toolbar.dita"><b>Control Toolbar</b></xref> - Contains a variety
         of actions to help you configure and control the debugging process.</li>
-      <li id="li_ycz_cgk_54b"><xref href="debug-info-view.dita"><b>Information Views</b></xref> - The information views
+      <li id="li_ycz_cgk_54b" irina="irina"><xref href="debug-info-view.dita"><b>Information Views</b></xref> - The information views
         at the bottom of the editor display various types of information to help you understand the
         transformation process.</li>
     </ul>

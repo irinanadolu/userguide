@@ -147,10 +147,10 @@
           <i>unchecked</i>). The value must be a valid JSON schema (object or boolean).</p>
       <p id="p_ul1_x3n_qrb">To be more concise, if there are <i>unchecked</i> properties:<ul
           id="ul_y1t_53n_qrb">
-          <li id="li_z1t_53n_qrb">If the value of the <uicontrol>additionalProperties</uicontrol>
+          <li id="li_z1t_53n_qrb" irina="irina">If the value of the <uicontrol>additionalProperties</uicontrol>
             keyword is <i>true</i>, it is always valid.</li>
-          <li id="li_y2m_v3n_qrb">If the value is <i>false</i>, it is never valid.</li>
-          <li id="li_r21_w3n_qrb">If the value contains an object (schema), every property must be
+          <li id="li_y2m_v3n_qrb" irina="irina">If the value is <i>false</i>, it is never valid.</li>
+          <li id="li_r21_w3n_qrb" irina="irina">If the value contains an object (schema), every property must be
             valid against that schema.</li>
         </ul></p>
     </section>
@@ -180,9 +180,9 @@
       <p id="p_nk1_gdc_prb"><uicontrol>Description:</uicontrol> An array is valid against the
           <uicontrol>items</uicontrol> keyword if the items are valid against the corresponding
         schemas provided by the keyword value. The value can be:<ul id="ul_xk2_h3n_qrb">
-          <li id="li_yk2_h3n_qrb">A valid JSON schema (object or boolean). Every item must be valid
+          <li id="li_yk2_h3n_qrb" irina="irina">A valid JSON schema (object or boolean). Every item must be valid
             against this schema.</li>
-          <li id="li_xmr_33n_qrb">An array of valid JSON schemas. Each item must be valid against
+          <li id="li_xmr_33n_qrb" irina="irina">An array of valid JSON schemas. Each item must be valid against
             the schema defined at the same position (index). Items that do not have a corresponding
             position (e.g. an array contains 5 items but this keyword only has 3) are considered
             valid unless the <uicontrol>additionalItems</uicontrol> keyword is present, which will
@@ -289,9 +289,9 @@
           <uicontrol>then</uicontrol> or <uicontrol>else</uicontrol> keywords should also be present
         (or both). The instance is valid against this keyword in one of the following cases:<ul
           id="ul_wfg_cjn_qrb">
-          <li id="li_xfg_cjn_qrb">The <uicontrol>if</uicontrol> keyword validates the instance and
+          <li id="li_xfg_cjn_qrb" irina="irina">The <uicontrol>if</uicontrol> keyword validates the instance and
             the <uicontrol>then</uicontrol> keyword also validates it.</li>
-          <li id="li_oyl_2jn_qrb">The <uicontrol>if</uicontrol> keyword does not validate the
+          <li id="li_oyl_2jn_qrb" irina="irina">The <uicontrol>if</uicontrol> keyword does not validate the
             instance but the <uicontrol>else</uicontrol> keyword validates it.</li>
         </ul></p>
     </section>
@@ -309,14 +309,14 @@
         object are checked. The value of this keyword must be an object, where property values can
         be:</p>
       <ul id="ul_yvd_5tr_r5b">
-        <li id="li_zvd_5tr_r5b">
+        <li id="li_zvd_5tr_r5b" irina="irina">
           <p id="p_awd_5tr_r5b">Objects representing valid JSON schemas and the whole object must
             match the entire schema.<note id="note_ct3_ytr_r5b" type="important">For <i>draft
                 2019-09</i> and <i>2020-12</i> schemas, you should use the <xref
                 href="#json-schema-components/section_dependent-schemas"
                   ><uicontrol>dependentSchemas</uicontrol> keyword</xref> instead.</note></p>
         </li>
-        <li id="li_cwd_5tr_r5b">
+        <li id="li_cwd_5tr_r5b" irina="irina">
           <p id="p_dwd_5tr_r5b">Arrays of strings representing property names, then the object must
             contain all property names.<note type="important" id="note_xll_1vr_r5b">For <i>draft
                 2019-09</i> and <i>2020-12</i> schemas, you should use the <xref

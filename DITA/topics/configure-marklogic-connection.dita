@@ -8,8 +8,8 @@
       <p id="p_h4x_cgk_54b">
         <note type="other" othertype="Notes" id="note_i4x_cgk_54b">
           <ul id="ul_h2p_ltq_skb">
-            <li id="li_j4x_cgk_54b">Available in the Enterprise edition only.</li>
-            <li id="li_k4x_cgk_54b"><ph keyref="product"/> supports MarkLogic version 4.0 or later.</li>
+            <li id="li_j4x_cgk_54b" irina="irina">Available in the Enterprise edition only.</li>
+            <li id="li_k4x_cgk_54b" irina="irina"><ph keyref="product"/> supports MarkLogic version 4.0 or later.</li>
           </ul>
         </note>
       </p>

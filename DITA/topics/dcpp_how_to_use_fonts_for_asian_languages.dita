@@ -35,8 +35,8 @@
         Sans-Serif, and Monospace content.<note type="warning" id="note_cqt_cgk_54b">On some distributions, the
             <codeph>Noto CJK</codeph> fonts are not available. In this case, you need to install
           them using the system package manager:<ul id="ul_ekv_byv_gnb">
-            <li id="li_dqt_cgk_54b"><codeph>fonts-noto-cjk</codeph> on Debian family distributions (e.g. Ubuntu).</li>
-            <li id="li_eqt_cgk_54b"><codeph>google-noto-cjk-fonts</codeph> on Red Hat family distributions (e.g.
+            <li id="li_dqt_cgk_54b" irina="irina"><codeph>fonts-noto-cjk</codeph> on Debian family distributions (e.g. Ubuntu).</li>
+            <li id="li_eqt_cgk_54b" irina="irina"><codeph>google-noto-cjk-fonts</codeph> on Red Hat family distributions (e.g.
               CentOS).</li>
           </ul></note></p>
     </section>

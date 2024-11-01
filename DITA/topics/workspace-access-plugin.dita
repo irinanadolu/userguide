@@ -53,11 +53,11 @@
             <p id="p_tf2_dgk_54b">The <xmlelement>toolbar</xmlelement> element adds a toolbar in the <ph
                 keyref="product"/> interface and allows you to contribute your own
                 <term>plugin</term>-specific actions. The following attributes are supported:<ul id="ul_uf2_dgk_54b">
-                <li id="li_vf2_dgk_54b"><b>id</b> - Unique identifier for the toolbar.</li>
-                <li id="li_wf2_dgk_54b"><b>initialSide</b> - Specifies the place where the toolbar is initially
+                <li id="li_vf2_dgk_54b" irina="irina"><b>id</b> - Unique identifier for the toolbar.</li>
+                <li id="li_wf2_dgk_54b" irina="irina"><b>initialSide</b> - Specifies the place where the toolbar is initially
                   displayed. The allowed values are <codeph>NORTH</codeph> and
                     <codeph>SOUTH</codeph>.</li>
-                <li id="li_xf2_dgk_54b"><b>initialRow</b> - Specifies the initial row on the specified side where the
+                <li id="li_xf2_dgk_54b" irina="irina"><b>initialRow</b> - Specifies the initial row on the specified side where the
                   toolbar is displayed. For example, the first toolbar has an initial row of
                     <codeph>0</codeph> and the next toolbar has an initial row of
                   <codeph>1</codeph>.</li>
@@ -91,11 +91,11 @@
             <p id="p_cg2_dgk_54b">The <xmlelement>view</xmlelement> element adds a view in the <ph keyref="product"/>
               interface and allows you to contribute your own <term>plugin</term>-specific UI
               components. The following attributes are supported:<ul id="ul_dg2_dgk_54b">
-                <li id="li_eg2_dgk_54b"><b>id</b> - Unique identifier of the view component.</li>
-                <li id="li_fg2_dgk_54b"><b>initialSide</b> - Specifies the place where the view is initially displayed.
+                <li id="li_eg2_dgk_54b" irina="irina"><b>id</b> - Unique identifier of the view component.</li>
+                <li id="li_fg2_dgk_54b" irina="irina"><b>initialSide</b> - Specifies the place where the view is initially displayed.
                   The allowed values are: <codeph>NORTH</codeph>, <codeph>SOUTH</codeph>,
                     <codeph>EAST</codeph>, and <codeph>WEST</codeph>.</li>
-                <li id="li_gg2_dgk_54b"><b>initialRow</b> - Specifies the initial row on the specified side where the
+                <li id="li_gg2_dgk_54b" irina="irina"><b>initialRow</b> - Specifies the initial row on the specified side where the
                   view is displayed. For example, in <ph keyref="product"/>, the <xref
                     href="using-the-project-view.dita#using-the-project-view"
                       ><uicontrol>Project</uicontrol> view</xref> has an initial row of
@@ -103,7 +103,7 @@
                       ><uicontrol>Outline</uicontrol> view</xref> has an initial row of
                     <codeph>1</codeph>. Both views are in the <option>WEST</option> part of the
                   workbench.</li>
-                <li id="li_hg2_dgk_54b"><b>initialState</b> - Specifies the initial state of the view. The allows values
+                <li id="li_hg2_dgk_54b" irina="irina"><b>initialState</b> - Specifies the initial state of the view. The allows values
                   are: <codeph>hidden</codeph>, <codeph>docked</codeph>, <codeph>autohide</codeph>,
                   and <codeph>floating</codeph>. By default, the view is visible and docked.</li>
               </ul></p>
@@ -111,11 +111,11 @@
                 <xmlelement>perspective</xmlelement> child element so that you can show or hide a
               certain view for a specified perspective. The <xmlelement>perspective</xmlelement>
               element supports the following attributes:<ul id="ul_j1m_kmy_jkb">
-                <li id="li_jg2_dgk_54b"><b>id</b> (required) - Unique identifier for the perspective. The possible
+                <li id="li_jg2_dgk_54b" irina="irina"><b>id</b> (required) - Unique identifier for the perspective. The possible
                   values are: <codeph>editor</codeph>, <codeph>dita</codeph>, <ph
                     product="developer editor"><codeph>xslt_debugger</codeph>,
                       <codeph>xquery_debugger</codeph>,</ph> and <codeph>database</codeph>.</li>
-                <li id="li_kg2_dgk_54b"><b>initState</b> (optional) - Specifies the initial state of the perspective.
+                <li id="li_kg2_dgk_54b" irina="irina"><b>initState</b> (optional) - Specifies the initial state of the perspective.
                   The allows values are: <codeph>hidden</codeph>, <codeph>docked</codeph>,
                     <codeph>autohide</codeph>, and <codeph>floating</codeph>. By default, the view
                   is visible and docked.</li>
@@ -156,10 +156,10 @@
       listener.</p>
     <p id="p_qg2_dgk_54b"><b><u>Examples:</u></b>
       <ul id="ul_rg2_dgk_54b">
-        <li id="li_sg2_dgk_54b">A simple Maven-based sample of a workspace access plugin is available here: <xref
+        <li id="li_sg2_dgk_54b" irina="irina">A simple Maven-based sample of a workspace access plugin is available here: <xref
             href="https://github.com/oxygenxml/sample-plugin-workspace-access" format="html"
             scope="external"/>.</li>
-        <li id="li_tg2_dgk_54b">A more complex sample of a workspace access plugin mimicking a CMS integration is
+        <li id="li_tg2_dgk_54b" irina="irina">A more complex sample of a workspace access plugin mimicking a CMS integration is
           available in the Author SDK: <xref href="https://www.oxygenxml.com/oxygen_sdk.html"
             format="html" scope="external"/>.</li>
       </ul></p>

@@ -21,7 +21,7 @@
           ><i>Replacements Table</i></xref>.</p>
     <p id="p_sp5_bgk_54b">When enabled, the <term>AutoCorrect</term> feature can be used to do the following:<ul
         id="ul_qhy_ywy_qr">
-        <li id="li_tp5_bgk_54b">Automatically correct misspelled words while you edit in <uicontrol>Author</uicontrol>
+        <li id="li_tp5_bgk_54b" irina="irina">Automatically correct misspelled words while you edit in <uicontrol>Author</uicontrol>
           mode. The actual operation of replacing a word is triggered by a space, dash, or certain
           punctuation characters (<userinput>,</userinput>
           <userinput>.</userinput>
@@ -34,11 +34,11 @@
           <userinput>)</userinput>
           <userinput>]</userinput>
           <userinput>}</userinput>).</li>
-        <li id="li_up5_bgk_54b">Easily insert symbols. For example, if you want to insert a
+        <li id="li_up5_bgk_54b" irina="irina">Easily insert symbols. For example, if you want to insert a
             <systemoutput>®</systemoutput> character, you would type
           <userinput>(R)</userinput>.</li>
-        <li id="li_vp5_bgk_54b">Quickly insert text fragments.</li>
-        <li id="li_wp5_bgk_54b">Quickly insert XML fragments. For example, if you enter a hyphen (<b>-</b>) in an empty
+        <li id="li_vp5_bgk_54b" irina="irina">Quickly insert text fragments.</li>
+        <li id="li_wp5_bgk_54b" irina="irina">Quickly insert XML fragments. For example, if you enter a hyphen (<b>-</b>) in an empty
           paragraph followed by a space, it will automatically be converted to a list with a list
           item.</li>
       </ul></p>
@@ -57,14 +57,14 @@
         highlight, a small widget appears below the word. If you hover over the widget, it expands
         and you can click it to present a drop-down list that includes the following actions:<ul
           id="ul_blg_ymv_ps">
-          <li id="li_zp5_bgk_54b"><uicontrol>Change back to "[original word]"</uicontrol> - Reverts the correction back
+          <li id="li_zp5_bgk_54b" irina="irina"><uicontrol>Change back to "[original word]"</uicontrol> - Reverts the correction back
             to its original form.</li>
-          <li id="li_aq5_bgk_54b"><uicontrol>Stop Automatically Correcting "[original word]"</uicontrol> - This option
+          <li id="li_aq5_bgk_54b" irina="irina"><uicontrol>Stop Automatically Correcting "[original word]"</uicontrol> - This option
             is presented if the correction is performed based on the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section"
                 ><i>AutoCorrect Replacements Table</i></xref> and selecting it will delete the
             corresponding entry from the Replacements Table.</li>
-          <li id="li_bq5_bgk_54b"><uicontrol>Learn Word "[original word]"</uicontrol> - This option is presented if the
+          <li id="li_bq5_bgk_54b" irina="irina"><uicontrol>Learn Word "[original word]"</uicontrol> - This option is presented if the
               <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/use-spell-check"
                 ><uicontrol>Use additional suggestions from the spell checker</uicontrol>
@@ -73,7 +73,7 @@
                 ><uicontrol>AutoCorrect</uicontrol> preferences page</xref> and the correction is
             performed based on the <i>Spell Checker</i>. Selecting this option will add the item to
             the list of <xref href="learned-words.dita#learned-words">learned words</xref>.</li>
-          <li id="li_cq5_bgk_54b"><uicontrol>AutoCorrect options</uicontrol> - Opens the <xref
+          <li id="li_cq5_bgk_54b" irina="irina"><uicontrol>AutoCorrect options</uicontrol> - Opens the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page"
                 ><uicontrol>AutoCorrect</uicontrol> preferences page</xref> that allows you to
             configure the feature.</li>
@@ -89,14 +89,14 @@
       <title>AutoCorrect Case-Sensitivity</title>
       <p id="p_eq5_bgk_54b">The <term>AutoCorrect</term> feature results in the following types of substitutions
         regarding case-sensitivity:<ul id="ul_kkn_4j1_sr">
-          <li id="li_fq5_bgk_54b">Words with all lower-case characters will be replaced with
+          <li id="li_fq5_bgk_54b" irina="irina">Words with all lower-case characters will be replaced with
             lower-case substitutions (for example, "<i>abotu</i>" is replaced with
             "<i>about</i>").</li>
-          <li id="li_gq5_bgk_54b">Words with irregular-case characters will be replaced with
+          <li id="li_gq5_bgk_54b" irina="irina">Words with irregular-case characters will be replaced with
             lower-case substitutions ("<i>ABotU</i>" is replaced with "<i>about</i>").</li>
-          <li id="li_hq5_bgk_54b">Words with all upper-case characters will be replaced with
+          <li id="li_hq5_bgk_54b" irina="irina">Words with all upper-case characters will be replaced with
             upper-case substitutions ("<i>ABOTU</i>" is replaced with "<i>ABOUT</i>").</li>
-          <li id="li_iq5_bgk_54b">Words starting with an upper-case character will be replaced with
+          <li id="li_iq5_bgk_54b" irina="irina">Words starting with an upper-case character will be replaced with
             substitutions having the same pattern ("<i>Abotu</i>" is replaced with
             "<i>About</i>").</li>
         </ul></p>

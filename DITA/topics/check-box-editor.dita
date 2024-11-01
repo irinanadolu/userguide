@@ -16,25 +16,25 @@
   </prolog>
   <body>
     <p id="p_zpd_dgk_54b">The <codeph>oxy_checkbox</codeph> form control supports the following properties:<ul id="ul_aqd_dgk_54b">
-        <li id="li_bqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
+        <li id="li_bqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/edit_property"/><ul
             conkeyref="reusables-author-mode-customization/edit_property_ul" id="ul_cqd_dgk_54b">
-            <li id="li_dqd_dgk_54b"/>
+            <li id="li_dqd_dgk_54b" irina="irina"/>
           </ul></li>
-        <li id="li_eqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/resultSeparator-property"/></li>
-        <li id="li_fqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/tooltips-property"/></li>
-        <li id="li_gqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
-        <li id="li_hqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/values"/><note
+        <li id="li_eqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/resultSeparator-property"/></li>
+        <li id="li_fqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/tooltips-property"/></li>
+        <li id="li_gqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/visible-property"/></li>
+        <li id="li_hqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/values"/><note
             conkeyref="reusables-author-mode-customization/values-note" id="note_iqd_dgk_54b"/></li>
-        <li id="li_jqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/>. </li>
-        <li id="li_kqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/uncheckedValues-property"/></li>
-        <li id="li_lqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/labels-property"/>. If this property
+        <li id="li_jqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/fontInherit-property"/>. </li>
+        <li id="li_kqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/uncheckedValues-property"/></li>
+        <li id="li_lqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/labels-property"/>. If this property
           is not specified, the <codeph>values</codeph> property is used as the label.</li>
-        <li id="li_mqd_dgk_54b"><ph id="columns-property"><uicontrol>columns</uicontrol> - Controls
+        <li id="li_mqd_dgk_54b" irina="irina"><ph id="columns-property"><uicontrol>columns</uicontrol> - Controls
             the layout of the form control. The check boxes will be grouped in a number of columns
             equal to the given value.</ph></li>
-        <li product="author editor" id="li_nqd_dgk_54b"><ph
+        <li product="author editor" id="li_nqd_dgk_54b" irina="irina"><ph
             conkeyref="reusables-author-mode-customization/color-property"/></li>
-        <li id="li_oqd_dgk_54b"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
+        <li id="li_oqd_dgk_54b" irina="irina"><ph conkeyref="reusables-author-mode-customization/hover-property-li"
           /><codeblock outputclass="language-css" id="codeblock_pqd_dgk_54b">p:before {
   content: oxy_checkbox(hoverPseudoclassName, 'showBorder')
 }

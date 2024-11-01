@@ -167,8 +167,8 @@ mml|math mml|*{
     white-space: normal;
 }</codeblock></p>
       <p id="p_jrg_dgk_54b">In the CSS used for rendering the XML in <uicontrol>Author</uicontrol> mode, do the following:<ol id="ol_krg_dgk_54b">
-          <li id="li_lrg_dgk_54b">Import the special <uicontrol>Author</uicontrol> mode namespace.</li>
-          <li id="li_mrg_dgk_54b">Use a special selector to customize the <codeph>entity</codeph> node.</li>
+          <li id="li_lrg_dgk_54b" irina="irina">Import the special <uicontrol>Author</uicontrol> mode namespace.</li>
+          <li id="li_mrg_dgk_54b" irina="irina">Use a special selector to customize the <codeph>entity</codeph> node.</li>
         </ol><b>Example:</b></p>
       <codeblock outputclass="language-css" id="codeblock_nrg_dgk_54b">@namespace oxy url('http://www.oxygenxml.com/extensions/author');
 oxy|entity {

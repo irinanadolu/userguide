@@ -27,11 +27,11 @@
         be met:</p>
       <p id="p_ybt_dgk_54b">
         <ul id="ul_s3b_yk4_snb">
-          <li id="li_zbt_dgk_54b">The <uicontrol>Concurrent Editing Plugin</uicontrol> must be
+          <li id="li_zbt_dgk_54b" irina="irina">The <uicontrol>Concurrent Editing Plugin</uicontrol> must be
             enabled in the <xref href="webapp-admin-page.dita#webapp-admin-page">Administration
               Page</xref> (it is bundled with the <ph keyref="webappProduct"/> installers so it is
             enabled by default).</li>
-          <li id="li_act_dgk_54b">The <codeph>sharedSessionCompatible</codeph>
+          <li id="li_act_dgk_54b" irina="irina">The <codeph>sharedSessionCompatible</codeph>
             <xref keyref="jscript_api_workspace_LoadingOptions">loading option</xref> is set to
               <codeph>true</codeph> by the CMS connector plugin.</li>
         </ul>
@@ -39,9 +39,9 @@
       <p id="p_bct_dgk_54b">For the feature to work correctly, when a concurrent session is active, the CMS connector
         plugin should ensure that:</p>
       <ul id="ul_aq3_jgt_rnb">
-        <li id="li_cct_dgk_54b">Any save/commit action is disabled for session guests.</li>
-        <li id="li_dct_dgk_54b">Any check-in/check-out actions are disabled for session guests.</li>
-        <li id="li_ect_dgk_54b">The document is editable for guests even though they do not have a lock for it.</li>
+        <li id="li_cct_dgk_54b" irina="irina">Any save/commit action is disabled for session guests.</li>
+        <li id="li_dct_dgk_54b" irina="irina">Any check-in/check-out actions are disabled for session guests.</li>
+        <li id="li_ect_dgk_54b" irina="irina">The document is editable for guests even though they do not have a lock for it.</li>
       </ul>
       <p id="p_fct_dgk_54b">To detect that a user is a <i>guest</i>, you can use the following JavaScript
         code:<codeblock outputclass="language-javascript" id="codeblock_gct_dgk_54b">var mgr = editor.getEditingSupport().getConcurrentEditingManager();    
@@ -51,10 +51,10 @@ if (mgr &amp;&amp; !mgr.isCreator()) {
       <note type="other" othertype="Important Notes About Concurrent Editing for Integrators"
         id="note_hct_dgk_54b">
         <ul id="ul_r51_fc5_rnb">
-          <li id="li_ict_dgk_54b">Concurrent editing does not work if <ph keyref="webappProduct"/>
+          <li id="li_ict_dgk_54b" irina="irina">Concurrent editing does not work if <ph keyref="webappProduct"/>
             is deployed on multiple servers behind a <xref href="webapp-loadbalancing.dita">load
               balancer</xref>.</li>
-          <li id="li_jct_dgk_54b">
+          <li id="li_jct_dgk_54b" irina="irina">
             <p id="p_kct_dgk_54b"><ph keyref="webappProduct"/> uses Web Sockets to propagate changes
               in real time between collaborators. If you are using a reverse proxy, some additional
               configuration may be required to enable Web Socket connections to the
@@ -73,13 +73,13 @@ if (mgr &amp;&amp; !mgr.isCreator()) {
             <p id="p_nct_dgk_54b">As another example, when using Apache HTTP server as a reverse
               proxy, a system administrator needs to enable the following modules:</p>
             <ul id="ul_gp2_zl4_snb">
-              <li id="li_oct_dgk_54b">
+              <li id="li_oct_dgk_54b" irina="irina">
                 <p id="p_pct_dgk_54b"><codeph>rewrite</codeph></p>
               </li>
-              <li id="li_qct_dgk_54b">
+              <li id="li_qct_dgk_54b" irina="irina">
                 <p id="p_rct_dgk_54b"><codeph>proxy_http</codeph></p>
               </li>
-              <li id="li_sct_dgk_54b">
+              <li id="li_sct_dgk_54b" irina="irina">
                 <p id="p_tct_dgk_54b"><codeph>proxy_wstunnel</codeph>
                 </p>
               </li>
@@ -96,17 +96,17 @@ RewriteRule ^/oxygen-xml-web-author/?(.*)
             <p>When using the IIS web server as a reverse proxy, you need to configure it according
               to <xref href="WA-websocket.dita">this tutorial</xref>.</p>
           </li>
-          <li id="li_g14_hq2_fqb">Some customizations can cause problems if used in situations with
+          <li id="li_g14_hq2_fqb" irina="irina">Some customizations can cause problems if used in situations with
             high activity or a large number of users simultaneously. These possible limitations
               include:<ul id="ul_vyr_mq2_fqb">
-              <li id="li_oxj_sb2_tpb">The <codeph>onChange</codeph> property for the <xref
+              <li id="li_oxj_sb2_tpb" irina="irina">The <codeph>onChange</codeph> property for the <xref
                   href="https://www.oxygenxml.com/doc/ug-editor/topics/combo-box-editor.html"
                   format="html" scope="external">combo box form control</xref> is not supported in
                 concurrent editing sessions.</li>
-              <li id="li_wyr_mq2_fqb">Inline CSS actions (for example, when used in an
+              <li id="li_wyr_mq2_fqb" irina="irina">Inline CSS actions (for example, when used in an
                   <codeph>oxy_button</codeph> form control).</li>
-              <li id="li_im1_nq2_fqb">Editable combo boxes on the floating toolbar.</li>
-              <li id="li_yc1_4q2_fqb">Quick fixes that come from XML Schema or DTD.</li>
+              <li id="li_im1_nq2_fqb" irina="irina">Editable combo boxes on the floating toolbar.</li>
+              <li id="li_yc1_4q2_fqb" irina="irina">Quick fixes that come from XML Schema or DTD.</li>
             </ul></li>
         </ul>
       </note>
@@ -126,13 +126,13 @@ RewriteRule ^/oxygen-xml-web-author/?(.*)
             id="image_txt_2f5_rnb"/>Share Session</uicontrol> action, a more integrated concurrent
         editing approach is to have a concurrent editing room owned by the CMS. </p>
       <p id="p_zct_dgk_54b">The CMS should be responsible for:<ul id="ul_sht_mgt_rnb">
-          <li id="li_adt_dgk_54b">Ensuring that aside from the Web Author users, no other users are modifying the file.
+          <li id="li_adt_dgk_54b" irina="irina">Ensuring that aside from the Web Author users, no other users are modifying the file.
             The CMS can use a "service" account to hold the "lock" on the edited file, or to do a
             check-out.</li>
-          <li id="li_bdt_dgk_54b">Creating the concurrent editing room.</li>
-          <li id="li_cdt_dgk_54b">Enabling users to join the room.</li>
-          <li id="li_ddt_dgk_54b">Specifying the Save Strategy.</li>
-          <li id="li_edt_dgk_54b">Closing the room.</li>
+          <li id="li_bdt_dgk_54b" irina="irina">Creating the concurrent editing room.</li>
+          <li id="li_cdt_dgk_54b" irina="irina">Enabling users to join the room.</li>
+          <li id="li_ddt_dgk_54b" irina="irina">Specifying the Save Strategy.</li>
+          <li id="li_edt_dgk_54b" irina="irina">Closing the room.</li>
         </ul></p>
       <section id="section_evc_zgt_rnb">
         <title>Creating a Concurrent Editing Room</title>
@@ -145,11 +145,11 @@ window.open(window.location.href + '&amp;roomId=' + roomId))</codeblock></p>
         <codeblock outputclass="language-javascript" id="codeblock_jdt_dgk_54b">String roomId = RoomsManager.INSTANCE.createRoomFromDocument(AuthorDocumentModel) </codeblock>
         <p id="p_kdt_dgk_54b">This code can be used during the editor loading on the following callbacks:</p>
         <ul id="ul_vw1_mht_rnb">
-          <li id="li_ldt_dgk_54b"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionAboutToBeStarted()</codeph>.
+          <li id="li_ldt_dgk_54b" irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionAboutToBeStarted()</codeph>.
             In this case, the room ID has to be added to the <codeph>sessionAttributes</codeph> map
             using the <codeph>ro.sync.ecss.extensions.api.webapp.ce.Room.ROOM_ID_ATTRIBUTE</codeph>
             key.</li>
-          <li id="li_mdt_dgk_54b"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionStarted()</codeph>.
+          <li id="li_mdt_dgk_54b" irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionStarted()</codeph>.
             In this case, the room ID has to be added as an attribute to the editing context of the
             current document using
               <codeph>ro.sync.ecss.extensions.api.webapp.ce.Room.ROOM_ID_ATTRIBUTE</codeph> as the
@@ -169,13 +169,13 @@ window.open(window.location.href + '&amp;roomId=' + roomId))</codeblock></p>
           for the <codeph>OutputStream</codeph> where the changes from an author or from a list of
           author are written.</p>
         <p>There are two base classes to be extended:<ol id="ol_jt4_v2z_ypb">
-            <li><codeph>ro.sync.ecss.extensions.api.webapp.ce.GroupChangesForSinglePeerStrategy</codeph>
+            <li irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.ce.GroupChangesForSinglePeerStrategy</codeph>
               - It facilitates tracking precise authorship of changes, as each written revision
               contains changes by only one author.<note id="note_tg1_1s1_zpb">The
                   <codeph>URLConnection openConnection(URL documentUrl, PeerContext author)</codeph>
                 method has only one peer involved, being both the author and the
               committer.</note></li>
-            <li><codeph>ro.sync.ecss.extensions.api.webapp.ce.GroupChangesForMultiplePeersStrategy</codeph>
+            <li irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.ce.GroupChangesForMultiplePeersStrategy</codeph>
               - It facilitates a minimum number of writes to the file server per save.<note
                 id="note_s3p_cs1_zpb">The <codeph>URLConnection openConnection(URL documentUrl,
                   PeerContext committer, List&lt;PeerContext> authors)</codeph> method has a
@@ -186,14 +186,14 @@ window.open(window.location.href + '&amp;roomId=' + roomId))</codeblock></p>
         <title>Enabling Users to Join a Room</title>
         <p id="p_sdt_dgk_54b">To enable users to join a room, there are several options:</p>
         <ul id="ul_jmz_rht_rnb">
-          <li id="li_tdt_dgk_54b">Add <codeph>roomId=&lt;the-id></codeph> as a URL parameter.</li>
-          <li id="li_udt_dgk_54b">Add <codeph>roomId=&lt;the-id></codeph> as a <xref
+          <li id="li_tdt_dgk_54b" irina="irina">Add <codeph>roomId=&lt;the-id></codeph> as a URL parameter.</li>
+          <li id="li_udt_dgk_54b" irina="irina">Add <codeph>roomId=&lt;the-id></codeph> as a <xref
               href="web_author_api_concepts.dita#web_author_api_concepts/loading-option">loading
               option</xref> in a JavaScript plugin.</li>
-          <li id="li_vdt_dgk_54b">Set <codeph>roomId=&lt;the-id></codeph> as a session attribute in one of the following
+          <li id="li_vdt_dgk_54b" irina="irina">Set <codeph>roomId=&lt;the-id></codeph> as a session attribute in one of the following
             Java listeners:<ul id="ul_kmz_rht_rnb">
-              <li id="li_wdt_dgk_54b"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionAboutToBeStarted()</codeph></li>
-              <li id="li_xdt_dgk_54b"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionStarted()</codeph></li>
+              <li id="li_wdt_dgk_54b" irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionAboutToBeStarted()</codeph></li>
+              <li id="li_xdt_dgk_54b" irina="irina"><codeph>ro.sync.ecss.extensions.api.webapp.access.WebappEditingSessionLifecycleListener.editingSessionStarted()</codeph></li>
             </ul></li>
         </ul>
       </section>

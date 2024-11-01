@@ -26,7 +26,7 @@
         </menucascade> menu.</p>
       <p id="p_n1g_cgk_54b">To convert a JSON document to YAML, follow these steps:</p>
       <ol id="ol_o2q_dxv_llb">
-        <li id="li_o1g_cgk_54b">
+        <li id="li_o1g_cgk_54b" irina="irina">
           <p id="p_p1g_cgk_54b">Select the <uicontrol>JSON to YAML</uicontrol> action from the
               <menucascade product="developer editor json">
               <uicontrol>Tools</uicontrol>
@@ -43,14 +43,14 @@
             </fig>
           </p>
         </li>
-        <li id="li_s1g_cgk_54b"> Choose or enter the <uicontrol>JSON URL</uicontrol> for the document you want to
+        <li id="li_s1g_cgk_54b" irina="irina"> Choose or enter the <uicontrol>JSON URL</uicontrol> for the document you want to
           convert. </li>
-        <li id="li_t1g_cgk_54b"> Choose the path of the <uicontrol>Output file</uicontrol> that will contain the
+        <li id="li_t1g_cgk_54b" irina="irina"> Choose the path of the <uicontrol>Output file</uicontrol> that will contain the
           resulting YAML document. </li>
-        <li id="li_u1g_cgk_54b">
+        <li id="li_u1g_cgk_54b" irina="irina">
           <b>[Optional]</b> Select the <uicontrol>Open in Editor</uicontrol> option to open the
           resulting YAML document in the main editing pane. </li>
-        <li id="li_v1g_cgk_54b"> Click the <uicontrol>Convert</uicontrol> button. </li>
+        <li id="li_v1g_cgk_54b" irina="irina"> Click the <uicontrol>Convert</uicontrol> button. </li>
       </ol>
       <p id="p_w1g_cgk_54b"><b>Result:</b> The original JSON document is now converted to a YAML document.</p>
     </section>
